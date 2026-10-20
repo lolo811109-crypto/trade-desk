@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><title>MemeDesk · BNB Chain 模拟跟单</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fff;font-family:Inter,system-ui,sans-serif;color:#0f172a}
+.top{display:flex;align-items:center;gap:14px;padding:16px 28px;border-bottom:1px solid #eef2f0}
+.brand{font-weight:800;font-size:20px}.brand b{color:#10b981}.pill{padding:5px 12px;border-radius:99px;background:#f1f5f4;font-size:12px;font-weight:600;color:#475569}
+.live{background:#ecfdf5;color:#059669;display:flex;align-items:center;gap:6px}.dot{width:8px;height:8px;border-radius:50%;background:#10b981;animation:p 1.6s infinite}
+@keyframes p{0%{box-shadow:0 0 0 0 #10b98199}100%{box-shadow:0 0 0 10px #10b98100}}
+.sp{flex:1}.muted{color:#94a3b8;font-size:12px}
+.g{display:grid;grid-template-columns:1.1fr 1.6fr 1fr;gap:18px;padding:20px 28px}
+.c{background:#fafbfa;border-radius:18px;box-shadow:0 4px 18px rgba(15,23,42,.06);padding:18px 20px;border:1px solid #f0f3f1}
+.h{font-size:11px;font-weight:700;letter-spacing:.08em;color:#64748b;text-transform:uppercase;margin-bottom:8px}
+.big{font-size:44px;font-weight:800;letter-spacing:-.02em}.pos{color:#059669}.neg{color:#e11d48}
+.rings{display:flex;gap:16px;margin-top:14px}.ring{flex:1;text-align:center}.ring svg{width:96px;height:96px}
+.log{font-family:ui-monospace,Menlo,monospace;font-size:12px;height:250px;overflow:auto;line-height:1.7}
+.tag{display:inline-block;padding:0 6px;border-radius:5px;font-weight:700;font-size:10px;margin-right:6px}
+.COPY{background:#d1fae5;color:#047857}.SOLD{background:#ffe4e6;color:#be123c}.SYNC{background:#e0f2fe;color:#0369a1}.SKIP{background:#f1f5f9;color:#64748b}
+.ws{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:0 28px 24px}
+.w{display:flex;flex-direction:column;gap:6px}.av{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#34d399,#06b6d4);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.bar{height:6px;background:#e9efec;border-radius:9px;position:relative;overflow:hidden}.bar i{position:absolute;top:0;bottom:0;left:50%;border-radius:9px}
+a{color:inherit;text-decoration:none}
+</style></head><body>
+<div class="top"><div class="brand">Meme<b>Desk</b></div><span class="pill" id="nw">- WALLETS</span><span class="pill live"><span class="dot"></span>LIVE</span><span class="pill">BNB Chain Meme · 模拟盘，不下真单，无私钥</span><span class="sp"></span><span class="muted" id="upd"></span></div>
+<div class="g">
+ <div class="c"><div class="h">Equity · 账户净值</div><div class="big" id="eq">-</div><div id="pnl" style="font-weight:700;font-size:18px"></div><div class="muted" id="since"></div>
+  <div class="rings"><div class="ring"><svg viewBox="0 0 36 36" id="ddr"></svg><div class="muted">最大回撤 Max DD</div></div><div class="ring"><svg viewBox="0 0 36 36" id="wrr"></svg><div class="muted">盈利钱包占比 Win</div></div></div>
+  <div class="muted" style="margin-top:10px" id="stats"></div></div>
+ <div class="c"><div class="h">Equity History · 净值曲线</div><div style="height:300px"><canvas id="ch"></canvas></div></div>
+ <div class="c"><div class="h">Copy Log · 跟单日志</div><div class="log" id="log"></div></div>
+</div>
+<div class="ws" id="ws"></div><div class="muted" style="padding:0 28px 28px">规则：$1000 虚拟本金平分给入选钱包；领头钱包每买一个 meme 币，按固定 $10 模拟跟一笔，买卖各扣 4%（滑点+转账税），领头卖出即全部平仓；价格来自 DexScreener。仅供研究，不构成投资建议。</div>
+<script>
+const $=id=>document.getElementById(id),f2=x=>(x>=0?'+':'')+x.toFixed(2);
+function ring(el,v,txt,col){const C=2*Math.PI*15.9,p=Math.max(0,Math.min(1,v));el.innerHTML=`<circle cx=18 cy=18 r=15.9 fill=none stroke=#e9efec stroke-width=3.2 /><circle cx=18 cy=18 r=15.9 fill=none stroke=${col} stroke-width=3.2 stroke-linecap=round stroke-dasharray="${p*C} ${C}" transform="rotate(-90 18 18)"/><text x=18 y=20.5 text-anchor=middle font-size=7 font-weight=700 fill=#0f172a>${txt}</text>`}
+let ch;
+async function go(){try{
+ const s=await (await fetch('./data/state.json?t='+Date.now(),{cache:'no-store'})).json(),lg=await (await fetch('./data/log.txt?t='+Date.now(),{cache:'no-store'})).text();
+ const W=Object.entries(s.wallets),bank=W.reduce((a,[,w])=>a+w.start,0),eq=s.equity??bank,pnl=eq-bank;
+ $('nw').textContent=W.length+' WALLETS';$('eq').textContent='$'+eq.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2});
+ $('pnl').textContent=`总盈亏 Total PnL ${f2(pnl)} USD (${f2(pnl/bank*100)}%)`;$('pnl').className=pnl>=0?'pos':'neg';
+ $('since').textContent='起始 '+new Date(s.started*1000).toLocaleString('zh-CN',{hour12:false})+' (UTC+8) · 本金 $'+bank;
+ const h=s.history||[];let pk=-1e9,dd=0;h.forEach(([,v])=>{pk=Math.max(pk,v);dd=Math.max(dd,(pk-v)/pk)});
+ ring($('ddr'),dd*10,(dd*100).toFixed(2)+'%','#f43f5e');
+ const act=W.filter(([,w])=>Math.abs(w.pnl||0)>0.001),win=act.filter(([,w])=>w.pnl>0).length;
+ ring($('wrr'),act.length?win/act.length:0,act.length?Math.round(win/act.length*100)+'%':'—','#10b981');
+ const tr=s.trades||[];$('stats').textContent=`跟单 ${tr.filter(t=>t.action=='buy').length} 笔 · 平仓 ${tr.filter(t=>t.action=='sell').length} 笔 · 跳过 ${tr.filter(t=>(t.action||'').startsWith('skip')).length} 笔 · 有持仓钱包 ${act.length}/${W.length}`;
+ $('upd').textContent='更新于 '+new Date((s.updated||0)*1000).toLocaleTimeString('zh-CN',{hour12:false})+' (UTC+8)';
+ const lb=h.map(([t])=>new Date(t*1000).toLocaleTimeString('zh-CN',{hour12:false,hour:'2-digit',minute:'2-digit'})),dv=h.map(x=>x[1]);
+ if(!ch){const ctx=$('ch').getContext('2d'),gr=ctx.createLinearGradient(0,0,0,300);gr.addColorStop(0,'rgba(16,185,129,.35)');gr.addColorStop(1,'rgba(16,185,129,0)');
+  ch=new Chart(ctx,{type:'line',data:{labels:lb,datasets:[{data:dv,borderColor:'#10b981',backgroundColor:gr,fill:true,pointRadius:0,tension:.3,borderWidth:2.5}]},options:{maintainAspectRatio:false,animation:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:8,color:'#94a3b8'}},y:{grid:{color:'#eef2f0'},ticks:{color:'#94a3b8'}}}}})}
+ else{ch.data.labels=lb;ch.data.datasets[0].data=dv;ch.update('none')}
+ const nm=a=>{const n=s.names[a]||a;return n.length>18?n.slice(0,6)+"…"+n.slice(-4):n},out=[];
+ lg.trim().split('\n').forEach(l=>{const t=l.slice(11,19);let m;
+  if(m=l.match(/tick equity=([\d.]+) pnl=(-?[\d.]+)/))out.push(`<div><span class="tag SYNC">SYNC</span>${t} 净值 $${m[1]} · 盈亏 ${m[2]}</div>`);
+  else if(l.includes("'action'")){const w=(l.match(/'wallet': '(0x\w+)'/)||[])[1],sd=(l.match(/'side': '(\w+)'/)||[])[1],sy=(l.match(/'sym': ['"](.*?)['"]/)||[])[1]||'?',a=(l.match(/'action': '([\w-]+)'/)||[])[1],pr=(l.match(/'price': ([\d.e-]+)/)||[])[1],st=(l.match(/'(?:stake|proceeds)': ([\d.]+)/)||[])[1],pl=(l.match(/'pnl': (-?[\d.]+)/)||[])[1];
+   const T=a=='buy'?'COPY':a=='sell'?'SOLD':'SKIP';out.push(`<div><span class="tag ${T}">${T}</span>${t} <b>${nm(w)}</b> ${sd} ${sy}${pr?' @$'+(+pr).toPrecision(4):''}${st?' · $'+st:''}${pl?' · PnL '+pl:''}${T=='SKIP'?' ('+a+')':''}</div>`)}});
+ $('log').innerHTML=out.slice(-120).reverse().join('');
+ const mx=Math.max(1,...W.map(([,w])=>Math.abs(w.pnl||0)));
+ $('ws').innerHTML=W.map(([a,w])=>{const n=nm(a),p=w.pnl||0,np=Object.keys(w.pos||{}).length,wd=Math.abs(p)/mx*50;
+  return `<a class="c w" href="https://bscscan.com/address/${a}" target=_blank><div style="display:flex;gap:10px;align-items:center"><div class="av">${n[0].toUpperCase()}</div><div><div style="font-weight:700;font-size:14px">${n}</div><div class="muted">${a.slice(0,6)}…${a.slice(-4)}</div></div></div>
+  <div style="font-weight:800;font-size:18px" class="${p>=0?'pos':'neg'}">${f2(p)} USD</div><div class="bar"><i style="${p>=0?'left:50%':'left:'+(50-wd)+'%'};width:${wd}%;background:${p>=0?'#10b981':'#f43f5e'}"></i></div><div class="muted">净值 $${(w.equity??w.cash).toFixed(2)} · 持仓 ${np}</div></a>`}).join('');
+}catch(e){console.error(e)}}
+go();setInterval(go,15000);
+</script></body></html>
