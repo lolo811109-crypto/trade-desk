@@ -36,7 +36,7 @@ function ring(el,v,txt,col){const C=2*Math.PI*15.9,p=Math.max(0,Math.min(1,v));e
 let ch;
 async function go(){try{
  const s=await (await fetch('./data/state.json?t='+Date.now(),{cache:'no-store'})).json(),lg=await (await fetch('./data/log.txt?t='+Date.now(),{cache:'no-store'})).text();
- const W=Object.entries(s.wallets),bank=W.reduce((a,[,w])=>a+w.start,0),eq=s.equity??bank,pnl=eq-bank;
+ const W=Object.entries(s.wallets),bank=s.bank??W.reduce((a,[,w])=>a+w.start,0),eq=s.equity??bank,pnl=eq-bank;
  $('nw').textContent=W.length+' WALLETS';$('eq').textContent='$'+eq.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2});
  $('pnl').textContent=`总盈亏 Total PnL ${f2(pnl)} USD (${f2(pnl/bank*100)}%)`;$('pnl').className=pnl>=0?'pos':'neg';
  $('since').textContent='起始 '+new Date(s.started*1000).toLocaleString('zh-CN',{hour12:false})+' (UTC+8) · 本金 $'+bank;
