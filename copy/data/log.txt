@@ -1,29 +1,3 @@
-2026-10-21 02:05:06,214 tick equity=1000.00 pnl=0.00
-2026-10-21 02:06:06,508 tick equity=1000.00 pnl=0.00
-2026-10-21 02:07:07,006 tick equity=1000.00 pnl=0.00
-2026-10-21 02:08:07,335 {'ts': 1792519556, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.0548078968, 'leader_usd': 221.68, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,335 {'ts': 1792519557, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 31.24, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,335 {'ts': 1792519559, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 28.83, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,335 {'ts': 1792519562, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 28.83, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,335 {'ts': 1792519578, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 33.88, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,335 {'ts': 1792519604, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 4.61, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,335 {'ts': 1792519644, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 47.63, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,335 {'ts': 1792519667, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 149.98, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,336 {'ts': 1792519667, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Will AEK win on 2026-10-20?', 'outcome': 'Yes', 'price': 0.055, 'leader_usd': 77.77, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:08:07,606 tick equity=997.97 pnl=-2.03
-2026-10-21 02:09:08,068 tick equity=997.97 pnl=-2.03
-2026-10-21 02:10:09,005 {'ts': 1792519602, 'wallet': '0x23d81ba9371e576015c1e562db09c689f56b0288', 'side': 'BUY', 'title': 'Will the Republicans win the Kansas Senate race in 2026?', 'outcome': 'Yes', 'price': 0.61, 'leader_usd': 88.39, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:10:09,244 tick equity=1001.29 pnl=1.29
-2026-10-21 02:11:09,725 tick equity=1000.47 pnl=0.47
-2026-10-21 02:12:10,637 tick equity=1000.47 pnl=0.47
-2026-10-21 02:13:30,895 {'ts': 1792519770, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Spread: Manchester City FC (-2.5)', 'outcome': 'Manchester City FC', 'price': 0.45, 'leader_usd': 255.6, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:13:30,895 {'ts': 1792519919, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'VfB Stuttgart vs. Club Atlético de Madrid: O/U 3.5', 'outcome': 'Over', 'price': 0.44, 'leader_usd': 350.24, 'action': 'buy', 'stake': 5.0}
-2026-10-21 02:13:31,474 tick equity=1001.17 pnl=1.17
-2026-10-21 02:14:32,208 tick equity=1001.17 pnl=1.17
-2026-10-21 02:15:09,787 fetch fail https://data-api.polymarket.com/trades 429 Client Error: Too Many Requests for url: https://data-api.polymarket.com/trades?user=0x23d81ba9371e576015c1e562db09c689f56b0288&limit=100&takerOnly=false
-2026-10-21 02:15:10,260 tick equity=1001.17 pnl=1.17
-2026-10-21 02:16:11,040 tick equity=1001.17 pnl=1.17
-2026-10-21 02:17:11,944 tick equity=1001.58 pnl=1.58
 2026-10-21 02:18:12,673 tick equity=1001.17 pnl=1.17
 2026-10-21 02:19:12,866 {'ts': 1792520022, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Spread: Liverpool FC (-1.5)', 'outcome': 'Villarreal CF', 'price': 0.63, 'leader_usd': 686.7, 'action': 'buy', 'stake': 5.0}
 2026-10-21 02:19:12,866 {'ts': 1792520271, 'wallet': '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', 'side': 'BUY', 'title': 'Spread: AS Roma (-2.5)', 'outcome': 'AS Roma', 'price': 0.56, 'leader_usd': 4131.68, 'action': 'buy', 'stake': 5.0}
@@ -292,3 +266,35 @@
 2026-10-21 03:29:16,075 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523563454454206865002483133855818479472569922304342858600989408828818718721
 2026-10-21 03:29:16,185 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1359072179908022699210941751093434100412852107425611733333713796951498031105
 2026-10-21 03:29:18,719 tick equity=959.57 pnl=-40.43
+2026-10-21 03:30:18,912 SKIP {'ts': 1792524195, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Celtics vs. Pistons', 'outcome': 'Pistons', 'price': 0.47, 'leader_usd': 7.05, 'action': 'skip'}
+2026-10-21 03:30:18,912 SKIP {'ts': 1792524212, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Celtics vs. Pistons', 'outcome': 'Celtics', 'price': 0.51, 'leader_usd': 9.69, 'action': 'skip'}
+2026-10-21 03:30:18,912 SKIP {'ts': 1792524215, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Will Rochdale AFC win on 2026-10-20?', 'outcome': 'No', 'price': 0.64, 'leader_usd': 49.92, 'action': 'skip'}
+2026-10-21 03:30:18,912 SKIP {'ts': 1792524255, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Exact Score: Paris Saint-Germain FC 1 - 1 FC Barcelona?', 'outcome': 'No', 'price': 0.91, 'leader_usd': 49.14, 'action': 'skip'}
+2026-10-21 03:30:18,912 SKIP {'ts': 1792524275, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Exact Score: Paris Saint-Germain FC 1 - 1 FC Barcelona?', 'outcome': 'No', 'price': 0.91, 'leader_usd': 49.14, 'action': 'skip'}
+2026-10-21 03:30:18,912 SKIP {'ts': 1792524306, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Exact Score: Paris Saint-Germain FC 1 - 1 FC Barcelona?', 'outcome': 'No', 'price': 0.91, 'leader_usd': 49.14, 'action': 'skip'}
+2026-10-21 03:30:18,912 SKIP {'ts': 1792524483, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Oxford United FC vs. Wigan Athletic FC: O/U 3.5', 'outcome': 'Under', 'price': 0.82, 'leader_usd': 20.5, 'action': 'skip'}
+2026-10-21 03:30:19,343 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1733601724164932476270212373114079155097108391705117363894462101808587210753
+2026-10-21 03:30:19,450 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1491996880710595158006086454865896618564528969431717113144532403286181937153
+2026-10-21 03:30:19,559 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523563454454206865002483133855818479472569922304342858600989408828818718721
+2026-10-21 03:30:19,737 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1359072179908022699210941751093434100412852107425611733333713796951498031105
+2026-10-21 03:30:22,407 tick equity=958.91 pnl=-41.09
+2026-10-21 03:31:22,981 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1733601724164932476270212373114079155097108391705117363894462101808587210753
+2026-10-21 03:31:23,109 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1491996880710595158006086454865896618564528969431717113144532403286181937153
+2026-10-21 03:31:23,207 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523563454454206865002483133855818479472569922304342858600989408828818718721
+2026-10-21 03:31:23,326 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1359072179908022699210941751093434100412852107425611733333713796951498031105
+2026-10-21 03:31:26,004 tick equity=958.66 pnl=-41.34
+2026-10-21 03:32:26,810 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1733601724164932476270212373114079155097108391705117363894462101808587210753
+2026-10-21 03:32:26,907 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1491996880710595158006086454865896618564528969431717113144532403286181937153
+2026-10-21 03:32:27,008 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523563454454206865002483133855818479472569922304342858600989408828818718721
+2026-10-21 03:32:27,114 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1359072179908022699210941751093434100412852107425611733333713796951498031105
+2026-10-21 03:32:29,661 tick equity=958.36 pnl=-41.64
+2026-10-21 03:33:30,480 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1733601724164932476270212373114079155097108391705117363894462101808587210753
+2026-10-21 03:33:30,583 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1491996880710595158006086454865896618564528969431717113144532403286181937153
+2026-10-21 03:33:30,686 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523563454454206865002483133855818479472569922304342858600989408828818718721
+2026-10-21 03:33:30,791 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1359072179908022699210941751093434100412852107425611733333713796951498031105
+2026-10-21 03:33:33,325 tick equity=956.39 pnl=-43.61
+2026-10-21 03:34:33,960 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1733601724164932476270212373114079155097108391705117363894462101808587210753
+2026-10-21 03:34:34,063 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1491996880710595158006086454865896618564528969431717113144532403286181937153
+2026-10-21 03:34:34,160 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523563454454206865002483133855818479472569922304342858600989408828818718721
+2026-10-21 03:34:34,265 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1359072179908022699210941751093434100412852107425611733333713796951498031105
+2026-10-21 03:34:36,866 tick equity=957.12 pnl=-42.88
