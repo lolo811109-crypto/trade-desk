@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><title>TRADE DESK · BTC</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#000;color:#b8c4cc;font:12px 'JetBrains Mono',ui-monospace,Menlo,monospace;overflow:hidden}
+.top{height:38px;display:flex;align-items:center;gap:10px;padding:0 12px;border-bottom:1px solid #1a1f24}
+.brand{color:#00ff9c;font-weight:800;letter-spacing:.25em;text-shadow:0 0 8px #00ff9c88}.pl{border:1px solid #1f2a30;padding:2px 8px;font-size:10px;text-transform:uppercase;letter-spacing:.1em}
+.ok{color:#00ff9c;border-color:#00ff9c55}.cy{color:#00e5ff;border-color:#00e5ff55}.mg{color:#ff2bd6;border-color:#ff2bd655}.or{color:#ff9f1c;border-color:#ff9f1c55}
+#clk{margin-left:auto;color:#00e5ff;font-size:14px;font-weight:600}
+.g{display:grid;height:calc(100% - 38px);grid-template-columns:1.25fr 1.25fr .9fr .9fr;grid-template-rows:1fr 1fr .85fr;gap:1px;background:#14191d}
+.p{background:#000;padding:8px 10px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.h{font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:#5b6b75;margin-bottom:6px;display:flex;justify-content:space-between}.h b{color:#00e5ff;font-weight:600}
+#chartP{grid-column:1/3;grid-row:1/3}#chart{flex:1}
+.px{font-size:30px;font-weight:800;color:#fff}.up{color:#00ff9c}.dn{color:#ff3860}
+.sig{font-size:44px;font-weight:800;text-align:center;margin:auto 0;letter-spacing:.1em}
+.LONG{color:#00ff9c;text-shadow:0 0 18px #00ff9c,0 0 40px #00ff9c66}.SHORT{color:#ff3860;text-shadow:0 0 18px #ff3860,0 0 40px #ff386066}.WAIT{color:#ff9f1c;text-shadow:0 0 18px #ff9f1c88}
+.gauge{display:flex;gap:6px;flex:1}.gauge>div{flex:1;text-align:center}canvas.ga{width:100%;height:90px}
+.ob{flex:1;font-size:11px;line-height:15px}.row{display:flex;position:relative;justify-content:space-between;padding:0 4px}.row i{position:absolute;top:0;bottom:0;right:0;opacity:.22}
+.feed{flex:1;overflow:hidden;font-size:11px;line-height:15px}
+table.hm{border-collapse:collapse;width:100%;font-size:10px}.hm td{height:17px;text-align:center;border:1px solid #000}
+.bt{font-size:10.5px;line-height:14px;white-space:pre;overflow:auto;flex:1;color:#8fa0aa}
+input{background:#05090b;border:1px solid #1f2a30;color:#00e5ff;font:inherit;width:58px;padding:2px 4px}button{background:#001a12;color:#00ff9c;border:1px solid #00ff9c66;font:inherit;padding:2px 10px;cursor:pointer;text-transform:uppercase}
+.kv{display:flex;justify-content:space-between;line-height:18px}.kv span:last-child{color:#e6f0f5}
+#core{flex:1;width:100%}
+</style></head><body>
+<div class="top"><span class="brand">▲ TRADE DESK</span><span class="pl ok" id="st">● FEED</span><span class="pl cy">BTCUSDT · 1M</span><span class="pl mg">仅分析 · 不交易</span><span class="pl or" id="lat">--ms</span><span id="clk"></span></div>
+<div class="g">
+ <div class="p" id="chartP"><div class="h"><span>PRICE · K线 + 回归线</span><b id="upd"></b></div>
+  <div style="display:flex;align-items:baseline;gap:14px"><span class="px" id="px">-</span><span id="chg"></span><span style="margin-left:auto">WIN <input id="w" value="15"> SLOPE% <input id="sth" value="0.01"> R² <input id="rth" value="0.6"> <button onclick="go()">应用</button></span></div>
+  <div id="chart"></div></div>
+ <div class="p"><div class="h"><span>SIGNAL · 信号</span><b id="sigw"></b></div><div class="sig WAIT" id="sig">--</div><div style="text-align:center;color:#5b6b75" id="sigtxt"></div></div>
+ <div class="p"><div class="h"><span>ORDER BOOK · L2 深度</span><b id="spr"></b></div><div class="ob" id="ob"></div></div>
+ <div class="p"><div class="h"><span>SLOPE / R² · 指标</span></div><div class="gauge"><div><canvas class="ga" id="g1"></canvas><div id="g1t"></div></div><div><canvas class="ga" id="g2"></canvas><div id="g2t"></div></div></div>
+  <div class="kv"><span>斜率 USDT/分钟</span><span id="sl">-</span></div><div class="kv"><span>斜率 %/分钟</span><span id="slp">-</span></div></div>
+ <div class="p"><div class="h"><span>TRADES · 实时成交</span><b>LIVE</b></div><div class="feed" id="feed"></div></div>
+ <div class="p" style="grid-column:1/2"><div class="h"><span>SIGNAL HEATMAP · 多窗口</span><b>最近 30 分钟</b></div><table class="hm" id="hm"></table></div>
+ <div class="p"><div class="h"><span>BACKTEST · 回测</span><b>backtest_result.txt</b></div><div class="bt" id="bt"></div></div>
+ <div class="p"><div class="h"><span>CORE · 装饰</span></div><canvas id="core"></canvas></div>
+ <div class="p"><div class="h"><span>MARKET · 24H</span></div><div id="mk"></div></div>
+</div>
+<script>
+const $=i=>document.getElementById(i),B='https://data-api.binance.vision/api/v3';
+setInterval(()=>$('clk').textContent=new Date().toLocaleString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'})+' UTC+8',1000);
+function reg(y){const n=y.length,tm=(n-1)/2,ym=y.reduce((a,b)=>a+b)/n;let c=0,v=0;y.forEach((p,i)=>{c+=(i-tm)*(p-ym);v+=(i-tm)**2});const s=c/v,a=ym-s*tm;let e=0,t=0;y.forEach((p,i)=>{e+=(p-a-s*i)**2;t+=(p-ym)**2});return{s,a,r2:t?1-e/t:0,sp:s/ym*100}}
+const sigOf=(r,st,rt)=>(r.r2>=rt&&r.sp>=st)?'LONG':(r.r2>=rt&&r.sp<=-st)?'SHORT':'WAIT';
+const ch=LightweightCharts.createChart($('chart'),{layout:{background:{color:'#000'},textColor:'#5b6b75',fontFamily:'JetBrains Mono'},grid:{vertLines:{color:'#0c1114'},horzLines:{color:'#0c1114'}},timeScale:{timeVisible:true,borderColor:'#1a1f24'},rightPriceScale:{borderColor:'#1a1f24'},localization:{timeFormatter:t=>new Date(t*1000).toLocaleTimeString('zh-CN',{hour12:false})}});
+const cs=ch.addCandlestickSeries({upColor:'#00ff9c',downColor:'#ff3860',borderVisible:false,wickUpColor:'#00ff9c',wickDownColor:'#ff3860'});
+const rl=ch.addLineSeries({color:'#ff2bd6',lineWidth:2,priceLineVisible:false,lastValueVisible:false});
+new ResizeObserver(()=>ch.applyOptions({width:$('chart').clientWidth,height:$('chart').clientHeight})).observe($('chart'));
+function gauge(id,v,lo,hi,col){const c=$(id),x=c.getContext('2d'),W=c.width=c.clientWidth*2,H=c.height=180;x.clearRect(0,0,W,H);const cx=W/2,cy=H-14,R=Math.min(W/2-10,H-30);x.lineWidth=14;x.strokeStyle='#11181c';x.beginPath();x.arc(cx,cy,R,Math.PI,0);x.stroke();const f=Math.max(0,Math.min(1,(v-lo)/(hi-lo)));x.strokeStyle=col;x.shadowColor=col;x.shadowBlur=14;x.beginPath();x.arc(cx,cy,R,Math.PI,Math.PI+f*Math.PI);x.stroke();x.shadowBlur=0}
+async function go(){const t0=performance.now();try{
+ const w=+$('w').value,st=+$('sth').value,rt=+$('rth').value;
+ const d=await (await fetch(B+'/klines?symbol=BTCUSDT&interval=1m&limit=180')).json();$('lat').textContent=Math.round(performance.now()-t0)+'ms';
+ const px=d.map(k=>+k[4]);cs.setData(d.map(k=>({time:k[0]/1000+8*3600,open:+k[1],high:+k[2],low:+k[3],close:+k[4]})));
+ const r=reg(px.slice(-w)),n=Math.min(w,px.length);rl.setData(d.slice(-n).map((k,i)=>({time:k[0]/1000+8*3600,value:r.a+r.s*i})));
+ const last=px.at(-1),prev=px.at(-2);$('px').textContent=last.toFixed(2);$('px').className='px '+(last>=prev?'up':'dn');
+ const s=sigOf(r,st,rt);$('sig').textContent=s;$('sig').className='sig '+s;$('sigtxt').textContent={LONG:'看涨',SHORT:'看跌',WAIT:'观望'}[s]+` · 窗口 ${w} · 阈值 ${st}% / R² ${rt}`;$('sigw').textContent='W'+w;
+ gauge('g1',r.sp,-0.05,0.05,r.sp>=0?'#00ff9c':'#ff3860');gauge('g2',r.r2,0,1,'#00e5ff');
+ $('g1t').innerHTML=`<span class="${r.sp>=0?'up':'dn'}">${r.sp.toFixed(4)}%</span><br><span style="color:#5b6b75">SLOPE</span>`;$('g2t').innerHTML=`<span style="color:#00e5ff">${r.r2.toFixed(3)}</span><br><span style="color:#5b6b75">R²</span>`;
+ $('sl').textContent=r.s.toFixed(2);$('slp').textContent=r.sp.toFixed(4)+'%';$('upd').textContent=new Date().toLocaleTimeString('zh-CN',{hour12:false})+' UTC+8';
+ // heatmap: windows x last 30 minutes, using real klines
+ const WS=[5,10,15,30,60],N=30;let h='';WS.forEach(win=>{h+=`<tr><td style="color:#5b6b75;width:34px">W${win}</td>`;for(let j=N-1;j>=0;j--){const e=px.length-j,y=px.slice(e-win,e),q=reg(y),sg=sigOf(q,st,rt),a=Math.min(1,q.r2);
+  const col=sg=='LONG'?`rgba(0,255,156,${.35+.6*a})`:sg=='SHORT'?`rgba(255,56,96,${.35+.6*a})`:`rgba(0,229,255,${.04+.18*a})`;h+=`<td style="background:${col}" title="W${win} ${sg} R²=${q.r2.toFixed(2)}"></td>`}h+='</tr>'});
+ h+=`<tr><td></td><td colspan=10 style="text-align:left;color:#5b6b75">-30m</td><td colspan=10 style="color:#5b6b75">-15m</td><td colspan=10 style="text-align:right;color:#5b6b75">现在</td></tr>`;$('hm').innerHTML=h;
+ $('st').textContent='● FEED OK';$('st').className='pl ok';
+}catch(e){$('st').textContent='● FEED ERR';$('st').className='pl mg';console.error(e)}}
+async function book(){try{const b=await (await fetch(B+'/depth?symbol=BTCUSDT&limit=12')).json();const A=b.asks.slice(0,10).reverse(),Bd=b.bids.slice(0,10),mx=Math.max(...[...A,...Bd].map(x=>+x[1]));
+ const row=(x,c)=>`<div class="row"><i style="width:${x[1]/mx*100}%;background:${c}"></i><span style="color:${c}">${(+x[0]).toFixed(2)}</span><span>${(+x[1]).toFixed(5)}</span></div>`;
+ $('ob').innerHTML=A.map(x=>row(x,'#ff3860')).join('')+`<div class="row" style="color:#00e5ff;border-top:1px solid #1a1f24;border-bottom:1px solid #1a1f24">MID ${((+b.asks[0][0]+ +b.bids[0][0])/2).toFixed(2)}</div>`+Bd.map(x=>row(x,'#00ff9c')).join('');
+ $('spr').textContent='SPREAD '+(b.asks[0][0]-b.bids[0][0]).toFixed(2)}catch(e){}}
+let seen=0;async function trades(){try{const t=await (await fetch(B+'/trades?symbol=BTCUSDT&limit=40')).json();const nw=t.filter(x=>x.id>seen);seen=Math.max(seen,...t.map(x=>x.id));const f=$('feed');
+ nw.forEach(x=>{const sell=x.isBuyerMaker,d=document.createElement('div');d.innerHTML=`<span style="color:#3a4750">${new Date(x.time).toLocaleTimeString('zh-CN',{hour12:false})}</span> <span class="${sell?'dn':'up'}">${sell?'▼':'▲'} ${(+x.price).toFixed(2)}</span> <span>${(+x.qty).toFixed(5)}</span>`;f.prepend(d)});
+ while(f.children.length>60)f.lastChild.remove()}catch(e){}}
+async function mk(){try{const t=await (await fetch(B+'/ticker/24hr?symbol=BTCUSDT')).json();const c=+t.priceChangePercent;$('chg').innerHTML=`<span class="${c>=0?'up':'dn'}">${c>=0?'+':''}${c.toFixed(2)}% 24H</span>`;
+ $('mk').innerHTML=[['24H 最高',(+t.highPrice).toFixed(2)],['24H 最低',(+t.lowPrice).toFixed(2)],['24H 涨跌',(+t.priceChange).toFixed(2)],['24H 量 BTC',(+t.volume).toFixed(1)],['24H 额 USDT',(t.quoteVolume/1e6).toFixed(1)+'M'],['成交笔数',(+t.count).toLocaleString()]].map(([a,b])=>`<div class="kv"><span>${a}</span><span>${b}</span></div>`).join('')}catch(e){}}
+fetch('backtest_result.txt').then(r=>r.text()).then(t=>{$('bt').innerHTML=t.replace(/(\d+\.\d%)/g,m=>`<span style="color:${parseFloat(m)>=50?'#00ff9c':'#ff3860'}">${m}</span>`)});
+// decorative centerpiece
+const cv=$('core'),cx=cv.getContext('2d');function spin(t){const W=cv.width=cv.clientWidth,H=cv.height=cv.clientHeight,X=W/2,Y=H/2,R=Math.min(W,H)/2-6;cx.clearRect(0,0,W,H);
+ [['#00ff9c',1,.6],['#00e5ff',.75,-1],['#ff2bd6',.52,1.6],['#ff9f1c',.3,-2.4]].forEach(([c,k,sp],i)=>{cx.strokeStyle=c;cx.shadowColor=c;cx.shadowBlur=10;cx.lineWidth=2;for(let s=0;s<6;s++){const a=t/1000*sp+s*Math.PI/3;cx.beginPath();cx.arc(X,Y,R*k,a,a+Math.PI/5+i*.1);cx.stroke()}});
+ cx.shadowBlur=0;cx.fillStyle='#00ff9c';cx.font='600 11px JetBrains Mono';cx.textAlign='center';cx.fillText($('sig').textContent,X,Y+4);requestAnimationFrame(spin)}requestAnimationFrame(spin);
+go();book();trades();mk();setInterval(go,10000);setInterval(book,2000);setInterval(trades,1500);setInterval(mk,30000);
+</script></body></html>
