@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792608575,
- "tokens_seen": 11,
+ "updated": 1792608883,
+ "tokens_seen": 13,
  "risk": {
   "checked": 6,
-  "killed": 6,
+  "killed": 7,
   "passed": 3
  },
  "kills": [
@@ -38,18 +38,25 @@
    "reasons": [
     "liq $40,397 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "PULLBACK",
+   "token": "96AsCWA8TjVcZDqVfMMPT2J3BfMYjYhyyMdYLjg3pump",
+   "reasons": [
+    "liq $22,463 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0129,
+  "dd_today": -0.0137,
   "limit": -0.1
  },
  "v2": {
-  "equity": 966.35,
+  "equity": 965.61,
   "day_start": 979.0,
-  "pnl_today": -12.65,
+  "pnl_today": -13.39,
   "open_positions": 18,
   "closed_positions": 2,
   "closed_sells": 2,
@@ -65,18 +72,18 @@
   },
   "copied": 3,
   "best_open": {
-   "sym": "Agency",
-   "upnl": 0.84
+   "sym": "CRAWL",
+   "upnl": 0.45
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -5.0
+   "upnl": -5.04
   }
  },
  "baseline": {
-  "equity": 912.1,
+  "equity": 916.15,
   "day_start": 983.73,
-  "pnl_today": -71.63,
+  "pnl_today": -67.58,
   "closed_sells": 3,
   "win_rate": 0.0,
   "realized_today": -3.21,
@@ -88,12 +95,12 @@
    "sym": "fone",
    "pnl": -1.58
   },
-  "copied": 8
+  "copied": 10
  },
  "risk_track": {
-  "updated": 1792607488,
+  "updated": 1792608711,
   "rejected": {
-   "n": 9,
+   "n": 10,
    "1h": {
     "n": 6,
     "avg_ret": -0.206,
@@ -184,7 +191,7 @@
     }
    },
    "liq $, < $, v floor": {
-    "n": 4,
+    "n": 5,
     "1h": {
      "n": 2,
      "avg_ret": -0.4663,
@@ -718,6 +725,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "PULLBACK",
+    "token": "96AsCWA8TjVcZDqVfMMPT2J3BfMYjYhyyMdYLjg3pump",
+    "ok": false,
+    "reasons": [
+     "liq $22,463 < $50,000 v2 floor"
+    ],
+    "ts": 1792608711,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -725,32 +748,32 @@
   "warn_lp": 11
  },
  "v3": {
-  "equity": 999.29,
+  "equity": 998.46,
   "day_start": 1000.0,
-  "pnl_today": -0.71,
-  "open_positions": 1,
+  "pnl_today": -1.54,
+  "open_positions": 2,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 1,
+  "copied": 2,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": -0.71
+   "upnl": -0.72
   },
   "worst_open": {
-   "sym": "CLAUDIA",
-   "upnl": -0.71
+   "sym": "CRAWL",
+   "upnl": -0.82
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 2,
-  "killed": 1,
-  "passed": 1
+  "checked": 3,
+  "killed": 2,
+  "passed": 2
  },
  "v3_kills": [
   {
@@ -761,18 +784,25 @@
     "warn: LP burned only 0%",
     "info: dev holds 0.0% via pump.fun"
    ]
+  },
+  {
+   "sym": "PULLBACK",
+   "token": "96AsCWA8TjVcZDqVfMMPT2J3BfMYjYhyyMdYLjg3pump",
+   "reasons": [
+    "liq $22,463 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0007,
+  "dd_today": -0.0015,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792608540,
+  "updated": 1792608711,
   "rejected": {
-   "n": 1,
+   "n": 2,
    "1h": {
     "n": 0,
     "avg_ret": null,
@@ -802,7 +832,7 @@
    }
   },
   "passed": {
-   "n": 1,
+   "n": 2,
    "1h": {
     "n": 0,
     "avg_ret": null,
@@ -921,6 +951,36 @@
      "bad_pct": null,
      "winners": 0
     }
+   },
+   "liq $, < $, v floor": {
+    "n": 1,
+    "1h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "6h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "winners": 0
+    }
    }
   },
   "items": [
@@ -951,6 +1011,39 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792608540,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CRAWL",
+    "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792608607,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "PULLBACK",
+    "token": "96AsCWA8TjVcZDqVfMMPT2J3BfMYjYhyyMdYLjg3pump",
+    "ok": false,
+    "reasons": [
+     "liq $22,463 < $50,000 v2 floor"
+    ],
+    "ts": 1792608711,
     "src": "live",
     "ret": {
      "1h": null,
