@@ -2,8 +2,8 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792558469,
- "tokens_seen": 39,
+ "updated": 1792561350,
+ "tokens_seen": 44,
  "risk": {
   "checked": 0,
   "killed": 0,
@@ -32,20 +32,20 @@
   "worst_open": null
  },
  "baseline": {
-  "equity": 960.21,
+  "equity": 960.95,
   "day_start": 1000.0,
-  "pnl_today": -39.79,
-  "closed_sells": 35,
-  "win_rate": 0.2,
-  "realized_today": -25.01,
+  "pnl_today": -39.05,
+  "closed_sells": 42,
+  "win_rate": 0.262,
+  "realized_today": -21.54,
   "best_token": {
-   "sym": "PoUT",
-   "pnl": 2.27
+   "sym": "DARK",
+   "pnl": 3.07
   },
   "worst_token": {
    "sym": "Kimchi",
    "pnl": -8.46
   },
-  "copied": 89
+  "copied": 100
  }
 }

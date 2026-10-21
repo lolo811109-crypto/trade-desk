@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792558469,
- "tokens_seen": 27,
+ "updated": 1792561344,
+ "tokens_seen": 28,
  "risk": {
-  "checked": 34,
-  "killed": 13,
-  "passed": 21
+  "checked": 42,
+  "killed": 14,
+  "passed": 28
  },
  "kills": [
   {
@@ -83,57 +83,64 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "GSTOCK",
+   "token": "0xcafdbce93477261db8250e42bdae6e66733f9e20",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0054,
+  "dd_today": -0.0112,
   "limit": -0.1
  },
  "v2": {
-  "equity": 987.32,
+  "equity": 981.54,
   "day_start": 992.68,
-  "pnl_today": -5.36,
-  "open_positions": 3,
-  "closed_positions": 11,
-  "closed_sells": 12,
-  "win_rate": 0.167,
-  "realized_today": -16.2,
+  "pnl_today": -11.14,
+  "open_positions": 4,
+  "closed_positions": 12,
+  "closed_sells": 13,
+  "win_rate": 0.154,
+  "realized_today": -16.87,
   "best_token": {
    "sym": "AID",
    "pnl": 2.58
   },
   "worst_token": {
    "sym": ".ai",
-   "pnl": -10.65
+   "pnl": -11.32
   },
-  "copied": 23,
+  "copied": 30,
   "best_open": {
    "sym": "LITY",
-   "upnl": 4.09
+   "upnl": 3.56
   },
   "worst_open": {
-   "sym": "TRUMAN",
-   "upnl": -1.27
+   "sym": ".ai",
+   "upnl": -6.01
   }
  },
  "baseline": {
-  "equity": 959.69,
+  "equity": 963.96,
   "day_start": 1000.0,
-  "pnl_today": -40.31,
-  "closed_sells": 40,
-  "win_rate": 0.2,
-  "realized_today": 8.19,
+  "pnl_today": -36.04,
+  "closed_sells": 41,
+  "win_rate": 0.195,
+  "realized_today": 7.52,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
   },
   "worst_token": {
    "sym": ".ai",
-   "pnl": -8.28
+   "pnl": -8.95
   },
-  "copied": 121
+  "copied": 127
  },
  "confluence": {
   "equity": 1000.72,
@@ -225,22 +232,22 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792558469,
+  "updated": 1792561137,
   "rejected": {
-   "n": 25,
+   "n": 26,
    "1h": {
-    "n": 23,
-    "avg_ret": 0.3648,
-    "bad_pct": 0.087,
-    "rug_pct": 0.043,
-    "up_pct": 0.609
+    "n": 25,
+    "avg_ret": 0.3328,
+    "bad_pct": 0.08,
+    "rug_pct": 0.04,
+    "up_pct": 0.56
    },
    "6h": {
-    "n": 14,
-    "avg_ret": -0.0556,
-    "bad_pct": 0.071,
+    "n": 16,
+    "avg_ret": 0.1793,
+    "bad_pct": 0.062,
     "rug_pct": 0.0,
-    "up_pct": 0.643
+    "up_pct": 0.688
    },
    "24h": {
     "n": 0,
@@ -250,27 +257,27 @@
     "up_pct": null
    },
    "latest": {
-    "n": 23,
-    "avg_ret": 0.3657,
-    "bad_pct": 0.087,
+    "n": 25,
+    "avg_ret": 0.2953,
+    "bad_pct": 0.08,
     "winners": 2
    }
   },
   "passed": {
    "n": 12,
    "1h": {
-    "n": 11,
-    "avg_ret": 0.064,
-    "bad_pct": 0.182,
+    "n": 12,
+    "avg_ret": 0.0567,
+    "bad_pct": 0.167,
     "rug_pct": 0.0,
-    "up_pct": 0.455
+    "up_pct": 0.417
    },
    "6h": {
-    "n": 4,
-    "avg_ret": 0.5104,
-    "bad_pct": 0.25,
+    "n": 6,
+    "avg_ret": 0.0602,
+    "bad_pct": 0.5,
     "rug_pct": 0.0,
-    "up_pct": 0.75
+    "up_pct": 0.5
    },
    "24h": {
     "n": 0,
@@ -280,26 +287,56 @@
     "up_pct": null
    },
    "latest": {
-    "n": 11,
-    "avg_ret": 0.0643,
-    "bad_pct": 0.182,
+    "n": 12,
+    "avg_ret": 0.0032,
+    "bad_pct": 0.25,
     "winners": 1
    }
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 17,
+    "n": 18,
     "1h": {
-     "n": 15,
-     "avg_ret": -0.0128,
+     "n": 17,
+     "avg_ret": -0.0154,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.733
+     "up_pct": 0.647
+    },
+    "6h": {
+     "n": 13,
+     "avg_ret": -0.0145,
+     "bad_pct": 0.0,
+     "rug_pct": 0.0,
+     "up_pct": 0.769
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 17,
+     "avg_ret": -0.0119,
+     "bad_pct": 0.0,
+     "winners": 0
+    }
+   },
+   "top holders": {
+    "n": 15,
+    "1h": {
+     "n": 15,
+     "avg_ret": 0.3045,
+     "bad_pct": 0.067,
+     "rug_pct": 0.0,
+     "up_pct": 0.667
     },
     "6h": {
      "n": 12,
-     "avg_ret": -0.0185,
-     "bad_pct": 0.0,
+     "avg_ret": 0.2657,
+     "bad_pct": 0.083,
      "rug_pct": 0.0,
      "up_pct": 0.75
     },
@@ -312,38 +349,8 @@
     },
     "latest": {
      "n": 15,
-     "avg_ret": -0.0115,
-     "bad_pct": 0.0,
-     "winners": 0
-    }
-   },
-   "top holders": {
-    "n": 15,
-    "1h": {
-     "n": 14,
-     "avg_ret": 0.3298,
-     "bad_pct": 0.071,
-     "rug_pct": 0.0,
-     "up_pct": 0.714
-    },
-    "6h": {
-     "n": 11,
-     "avg_ret": -0.0386,
-     "bad_pct": 0.091,
-     "rug_pct": 0.0,
-     "up_pct": 0.727
-    },
-    "24h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
-    },
-    "latest": {
-     "n": 14,
-     "avg_ret": 0.3298,
-     "bad_pct": 0.071,
+     "avg_ret": 0.2381,
+     "bad_pct": 0.067,
      "winners": 1
     }
    },
@@ -417,11 +424,11 @@
      "up_pct": 0.0
     },
     "6h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
+     "n": 1,
+     "avg_ret": 0.0329,
+     "bad_pct": 0.0,
+     "rug_pct": 0.0,
+     "up_pct": 1.0
     },
     "24h": {
      "n": 0,
@@ -432,7 +439,7 @@
     },
     "latest": {
      "n": 1,
-     "avg_ret": -0.0068,
+     "avg_ret": 0.0329,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -739,7 +746,7 @@
     "src": "backfill",
     "ret": {
      "1h": -0.7469,
-     "6h": null,
+     "6h": -0.9003,
      "24h": null
     },
     "rug": false
@@ -755,7 +762,7 @@
     "src": "backfill",
     "ret": {
      "1h": 4.6102,
-     "6h": null,
+     "6h": 3.6131,
      "24h": null
     },
     "rug": false
@@ -769,7 +776,7 @@
     "src": "backfill",
     "ret": {
      "1h": -0.287,
-     "6h": null,
+     "6h": -0.7804,
      "24h": null
     },
     "rug": false
@@ -786,7 +793,7 @@
     "src": "backfill",
     "ret": {
      "1h": -0.0068,
-     "6h": null,
+     "6h": 0.0329,
      "24h": null
     },
     "rug": false
@@ -986,7 +993,7 @@
     "ts": 1792554886,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0227,
      "6h": null,
      "24h": null
     },
@@ -1003,7 +1010,7 @@
     "ts": 1792555261,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0499,
      "6h": null,
      "24h": null
     },
@@ -1017,6 +1024,22 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792556358,
+    "src": "live",
+    "ret": {
+     "1h": -0.02,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "GSTOCK",
+    "token": "0xcafdbce93477261db8250e42bdae6e66733f9e20",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792561084,
     "src": "live",
     "ret": {
      "1h": null,
