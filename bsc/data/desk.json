@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792549104,
- "tokens_seen": 15,
+ "updated": 1792551448,
+ "tokens_seen": 18,
  "risk": {
-  "checked": 6,
-  "killed": 2,
-  "passed": 4
+  "checked": 13,
+  "killed": 6,
+  "passed": 7
  },
  "kills": [
   {
@@ -23,48 +23,78 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "KXG",
+   "token": "0xd723f2aea80d1620864ac059f34f168fa223b2f1",
+   "reasons": [
+    "top10 holders 78%"
+   ]
+  },
+  {
+   "sym": "BADGE",
+   "token": "0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
+  },
+  {
+   "sym": "tie",
+   "token": "0xacd4837a856af1307eab074330d2f8875e537777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
+  },
+  {
+   "sym": "TIE",
+   "token": "0xfa6293e8c7b82e4a3546e91199dabf26a20e7777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.002,
+  "dd_today": -0.0057,
   "limit": -0.1
  },
  "v2": {
-  "equity": 990.67,
+  "equity": 987.01,
   "day_start": 992.68,
-  "pnl_today": -2.01,
-  "open_positions": 3,
-  "closed_positions": 0,
-  "closed_sells": 1,
+  "pnl_today": -5.67,
+  "open_positions": 1,
+  "closed_positions": 4,
+  "closed_sells": 5,
   "win_rate": 0.0,
-  "realized_today": -7.32,
+  "realized_today": -11.16,
   "best_token": {
-   "sym": "LITY",
-   "pnl": -7.32
+   "sym": ".ai",
+   "pnl": -3.48
   },
   "worst_token": {
    "sym": "LITY",
-   "pnl": -7.32
+   "pnl": -7.68
   },
-  "copied": 6,
+  "copied": 9,
   "best_open": {
-   "sym": ".ai",
-   "upnl": 0.12
+   "sym": "LITY",
+   "upnl": -1.83
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -1.68
+   "upnl": -1.83
   }
  },
  "baseline": {
-  "equity": 938.72,
+  "equity": 928.08,
   "day_start": 1000.0,
-  "pnl_today": -61.28,
-  "closed_sells": 28,
-  "win_rate": 0.214,
-  "realized_today": 21.12,
+  "pnl_today": -71.92,
+  "closed_sells": 35,
+  "win_rate": 0.171,
+  "realized_today": 8.41,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
@@ -73,7 +103,7 @@
    "sym": ".ai",
    "pnl": -8.28
   },
-  "copied": 100
+  "copied": 108
  },
  "confluence": {
   "equity": 1000.0,
@@ -121,14 +151,25 @@
     "trigger": "0x9bee11202478166584fc2cd2735a302ed995bd26",
     "price": 0.0003917,
     "src": "backfill"
+   },
+   {
+    "ts": 1792550857,
+    "token": "0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa",
+    "sym": "BADGE",
+    "wallets": [
+     "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+     "0x77018191c32bdf7542d8d82007ae26b41f614d96"
+    ],
+    "trigger": "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+    "price": 0.0001748
    }
   ],
-  "events_total": 3
+  "events_total": 4
  },
  "risk_track": {
-  "updated": 1792548578,
+  "updated": 1792551190,
   "rejected": {
-   "n": 17,
+   "n": 21,
    "1h": {
     "n": 17,
     "avg_ret": 0.2493,
@@ -189,7 +230,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 13,
+    "n": 14,
     "1h": {
      "n": 13,
      "avg_ret": -0.0191,
@@ -219,7 +260,7 @@
     }
    },
    "top holders": {
-    "n": 13,
+    "n": 14,
     "1h": {
      "n": 13,
      "avg_ret": 0.3552,
@@ -249,7 +290,7 @@
     }
    },
    "buy_tax unknown": {
-    "n": 2,
+    "n": 4,
     "1h": {
      "n": 2,
      "avg_ret": -0.0617,
@@ -279,7 +320,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 2,
+    "n": 4,
     "1h": {
      "n": 2,
      "avg_ret": -0.0617,
@@ -744,6 +785,72 @@
     "ok": true,
     "reasons": [],
     "ts": 1792548578,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "KXG",
+    "token": "0xd723f2aea80d1620864ac059f34f168fa223b2f1",
+    "ok": false,
+    "reasons": [
+     "top10 holders 78%"
+    ],
+    "ts": 1792551187,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BADGE",
+    "token": "0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792551189,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "tie",
+    "token": "0xacd4837a856af1307eab074330d2f8875e537777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792551189,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TIE",
+    "token": "0xfa6293e8c7b82e4a3546e91199dabf26a20e7777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792551190,
     "src": "live",
     "ret": {
      "1h": null,
