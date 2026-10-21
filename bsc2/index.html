@@ -97,7 +97,7 @@ const $=id=>document.getElementById(id),f2=n=>n.toLocaleString('en-US',{minimumF
 const sh=a=>a?a.slice(0,6)+'…'+a.slice(-4):'—',pc=n=>(n>=0?'+':'')+(n*100).toFixed(1)+'%';
 const fp=p=>p==null?'—':p<0.001?p.toExponential(3):p<1?p.toPrecision(4):f2(p);
 const tm=t=>new Date(t*1000).toLocaleTimeString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai',hour:'2-digit',minute:'2-digit'});
-const sym=(s,a)=>{const t=a?String(a).slice(-4):'';const n=(s&&/^\$?water$/i.test(s)&&/^0x6567c4/i.test(a||''))?'#矿泉水 water':(s||'?');return t?`${n} <span class="mono" style="opacity:.6">·${t}</span>`:n};
+const sym=(s,a)=>{const t=a?String(a).replace(/pump$/,'').slice(-4):'';const n=(s&&/^\$?water$/i.test(s)&&/^0x6567c4/i.test(a||''))?'#矿泉水 water':(s||'?');return t?`${n} <span class="mono" style="opacity:.6">·${t}</span>`:n};
 setInterval(()=>{$('clk').textContent=new Date().toLocaleTimeString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'})},1000);
 async function j(u){try{const r=await fetch(D+u+'?t='+Date.now());return r.ok?await r.json():null}catch(e){return null}}
 function roll(el,v){const s='$'+f2(v);el.innerHTML=[...s].map(c=>/\d/.test(c)?`<span class="dg"><span style="transform:translateY(0)">${[...'0123456789'].map(d=>`<div>${d}</div>`).join('')}</span></span>`:`<span>${c}</span>`).join('');
