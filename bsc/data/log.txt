@@ -1,18 +1,3 @@
-2026-10-21 16:17:51,444 V2 {'ts': 1792570655, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xe92be960ae64f6a914ca77014cac9e56de7f36c1', 'sym': 'JDon', 'price': 27.69, 'action': 'skip-7d'}
-2026-10-21 16:17:51,505 V2 {'ts': 1792570655, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x41333df9e7639188bbfca5522dc4844398af9f9e', 'sym': 'wTCENTx', 'price': 51.49, 'action': 'skip-7d'}
-2026-10-21 16:17:51,581 {'ts': 1792570655, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x5e9f95627c9965d969abac6a706158797f1f5dd6', 'tx': '0x836c6d38179c903956278b368d4632542d2014570372b714ec2918a9536e88fb', 'action': 'skip-noprice'}
-2026-10-21 16:17:51,604 V2 {'ts': 1792570655, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xbe82f76637dba2c114c41df856c2c51e522e2cb8', 'sym': 'EWYB', 'price': 157.84, 'action': 'skip-7d'}
-2026-10-21 16:17:51,619 V2 {'ts': 1792570655, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x4902c5ebc598265ed2212b559b042de8a5eeec3f', 'sym': 'BNCB', 'price': 5.51, 'action': 'skip-7d'}
-2026-10-21 16:17:52,502 tick equity=938.66 pnl=-61.34 head=128904662
-2026-10-21 16:18:13,564 tick equity=939.30 pnl=-60.70 head=128904712
-2026-10-21 16:18:34,387 tick equity=939.60 pnl=-60.40 head=128904759
-2026-10-21 16:18:55,661 tick equity=939.99 pnl=-60.01 head=128904803
-2026-10-21 16:19:16,094 V2-RISK TKC 0x06dc293c250e2fb2416a4276d291803fc74fb9b5 KILL has blacklist; top10 holders 69%
-2026-10-21 16:19:16,094 V2 {'ts': 1792570748, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'BUY', 'token': '0x06dc293c250e2fb2416a4276d291803fc74fb9b5', 'sym': 'TKC', 'price': 0.009844, 'action': 'kill-risk', 'reasons': ['has blacklist', 'top10 holders 69%']}
-2026-10-21 16:19:16,094 {'ts': 1792570748, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'BUY', 'token': '0x06dc293c250e2fb2416a4276d291803fc74fb9b5', 'tx': '0x9059d769dd15f6bf6efa045fc40b1eef0088ba8c103e51e20df419d2a5195bcb', 'sym': 'TKC', 'price': 0.009844, 'liq': 141351, 'action': 'buy', 'stake': 10.0}
-2026-10-21 16:19:16,834 tick equity=939.41 pnl=-60.59 head=128904851
-2026-10-21 16:19:37,815 tick equity=939.56 pnl=-60.44 head=128904897
-2026-10-21 16:19:58,516 tick equity=939.74 pnl=-60.26 head=128904944
 2026-10-21 16:20:19,784 tick equity=939.84 pnl=-60.16 head=128904990
 2026-10-21 16:20:40,529 tick equity=939.84 pnl=-60.16 head=128905038
 2026-10-21 16:21:00,815 V2 {'ts': 1792570858, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x656fd6ef38556d272980d50697a56db6df8b16c7', 'sym': 'bibi', 'price': 9.603e-05, 'action': 'skip-7d'}
@@ -298,3 +283,18 @@
 2026-10-21 19:12:14,362 tick equity=890.16 pnl=-109.84 head=128927903
 2026-10-21 19:12:35,665 tick equity=890.59 pnl=-109.41 head=128927949
 2026-10-21 19:12:56,579 tick equity=891.24 pnl=-108.76 head=128927997
+2026-10-21 19:13:17,965 tick equity=891.05 pnl=-108.95 head=128928043
+2026-10-21 19:13:38,806 tick equity=891.05 pnl=-108.95 head=128928090
+2026-10-21 19:15:02,537 tick equity=893.31 pnl=-106.69 head=128928274
+2026-10-21 19:15:23,363 tick equity=893.31 pnl=-106.69 head=128928323
+2026-10-21 19:15:44,720 tick equity=893.33 pnl=-106.67 head=128928369
+2026-10-21 19:16:05,671 tick equity=893.37 pnl=-106.63 head=128928417
+2026-10-21 19:16:27,172 tick equity=893.36 pnl=-106.64 head=128928463
+2026-10-21 19:16:47,969 tick equity=893.36 pnl=-106.64 head=128928511
+2026-10-21 19:17:09,239 tick equity=893.36 pnl=-106.64 head=128928557
+2026-10-21 19:17:29,873 tick equity=893.36 pnl=-106.64 head=128928605
+2026-10-21 19:17:51,369 tick equity=893.43 pnl=-106.57 head=128928651
+2026-10-21 19:18:11,800 V2-RISK DAWG 0x7d0443cddfc8e11af105f4fe44dd28c630237777 PASS 
+2026-10-21 19:18:11,800 V2 {'ts': 1792581482, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x7d0443cddfc8e11af105f4fe44dd28c630237777', 'sym': 'DAWG', 'price': 0.004217, 'action': 'buy', 'stake': 10.0}
+2026-10-21 19:18:11,800 {'ts': 1792581482, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x7d0443cddfc8e11af105f4fe44dd28c630237777', 'tx': '0x79bc0bfb2b7e541e9377c9cb4ebff0cbb51c187e0fd0aef02e5b1b7863f3780f', 'sym': 'DAWG', 'price': 0.004217, 'liq': 220276, 'action': 'buy', 'stake': 10.0}
+2026-10-21 19:18:12,839 tick equity=892.58 pnl=-107.42 head=128928697
