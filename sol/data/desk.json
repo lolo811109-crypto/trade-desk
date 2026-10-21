@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792580227,
+ "updated": 1792580588,
  "tokens_seen": 65,
  "risk": {
   "checked": 38,
@@ -43,13 +43,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0166,
+  "dd_today": -0.0197,
   "limit": -0.1
  },
  "v2": {
-  "equity": 983.39,
+  "equity": 980.34,
   "day_start": 1000.0,
-  "pnl_today": -16.61,
+  "pnl_today": -19.66,
   "open_positions": 17,
   "closed_positions": 5,
   "closed_sells": 5,
@@ -66,17 +66,17 @@
   "copied": 31,
   "best_open": {
    "sym": "EXFIL",
-   "upnl": 1.64
+   "upnl": 0.92
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -3.6
+   "upnl": -4.32
   }
  },
  "baseline": {
-  "equity": 936.67,
+  "equity": 927.37,
   "day_start": 1000.0,
-  "pnl_today": -63.33,
+  "pnl_today": -72.63,
   "closed_sells": 65,
   "win_rate": 0.2,
   "realized_today": -38.12,
@@ -91,7 +91,7 @@
   "copied": 154
  },
  "risk_track": {
-  "updated": 1792579882,
+  "updated": 1792580469,
   "rejected": {
    "n": 2,
    "1h": {
@@ -125,11 +125,11 @@
   "passed": {
    "n": 16,
    "1h": {
-    "n": 13,
-    "avg_ret": -0.0082,
+    "n": 15,
+    "avg_ret": -0.0099,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.538
+    "up_pct": 0.533
    },
    "6h": {
     "n": 0,
@@ -146,8 +146,8 @@
     "up_pct": null
    },
    "latest": {
-    "n": 13,
-    "avg_ret": -0.0082,
+    "n": 15,
+    "avg_ret": -0.0099,
     "bad_pct": 0.0,
     "winners": 0
    }
@@ -417,7 +417,7 @@
     "ts": 1792576794,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.1859,
      "6h": null,
      "24h": null
     },
@@ -431,7 +431,7 @@
     "ts": 1792576862,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.144,
      "6h": null,
      "24h": null
     },

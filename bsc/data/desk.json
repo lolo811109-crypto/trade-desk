@@ -2,8 +2,8 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792580269,
- "tokens_seen": 70,
+ "updated": 1792580587,
+ "tokens_seen": 71,
  "risk": {
   "checked": 78,
   "killed": 37,
@@ -176,13 +176,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0107,
+  "dd_today": -0.0122,
   "limit": -0.1
  },
  "v2": {
-  "equity": 982.09,
+  "equity": 980.55,
   "day_start": 992.68,
-  "pnl_today": -10.59,
+  "pnl_today": -12.13,
   "open_positions": 5,
   "closed_positions": 20,
   "closed_sells": 21,
@@ -199,17 +199,17 @@
   "copied": 43,
   "best_open": {
    "sym": "逆蝶",
-   "upnl": -0.82
+   "upnl": -0.69
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -4.65
+   "upnl": -6.44
   }
  },
  "baseline": {
-  "equity": 904.57,
+  "equity": 898.87,
   "day_start": 1000.0,
-  "pnl_today": -95.43,
+  "pnl_today": -101.13,
   "closed_sells": 57,
   "win_rate": 0.228,
   "realized_today": -7.1,
@@ -221,7 +221,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 160
+  "copied": 161
  },
  "confluence": {
   "equity": 1000.72,
@@ -379,7 +379,7 @@
   "events_total": 12
  },
  "risk_track": {
-  "updated": 1792579855,
+  "updated": 1792580416,
   "rejected": {
    "n": 38,
    "1h": {
@@ -413,11 +413,11 @@
   "passed": {
    "n": 18,
    "1h": {
-    "n": 17,
-    "avg_ret": 0.0689,
-    "bad_pct": 0.118,
+    "n": 18,
+    "avg_ret": 0.0659,
+    "bad_pct": 0.111,
     "rug_pct": 0.0,
-    "up_pct": 0.529
+    "up_pct": 0.556
    },
    "6h": {
     "n": 12,
@@ -434,9 +434,9 @@
     "up_pct": null
    },
    "latest": {
-    "n": 17,
-    "avg_ret": 0.0007,
-    "bad_pct": 0.176,
+    "n": 18,
+    "avg_ret": 0.0015,
+    "bad_pct": 0.167,
     "winners": 1
    }
   },
@@ -1507,7 +1507,7 @@
     "ts": 1792576810,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0149,
      "6h": null,
      "24h": null
     },
