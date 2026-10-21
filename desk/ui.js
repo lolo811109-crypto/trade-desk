@@ -31,7 +31,7 @@ const css=`.tdx{background:#0D1117;color:#E6EDF3;border-radius:18px;padding:14px
 .tdx .grid{position:absolute;top:16px;bottom:0;width:1px;background:#161B22}
 .tdx .emp{font-size:12px;color:#7D8590;padding:8px 0}`;
 const st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
-const tail=t=>t?'·'+String(t).slice(-4):'';
+const tail=t=>t?'·'+String(t).replace(/pump$/,'').slice(-4):'';
 const esc=s=>String(s??'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
 const ymd=ts=>new Date(ts*1000).toLocaleDateString('sv-SE',{timeZone:TZ});
 const hm=ts=>new Date(ts*1000).toLocaleTimeString('zh-CN',{hour12:false,timeZone:TZ,hour:'2-digit',minute:'2-digit'});
