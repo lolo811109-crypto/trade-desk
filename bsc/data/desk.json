@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792589007,
+ "updated": 1792589317,
  "tokens_seen": 76,
  "risk": {
-  "checked": 98,
+  "checked": 99,
   "killed": 44,
-  "passed": 54
+  "passed": 55
  },
  "kills": [
   {
@@ -184,18 +184,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.026,
+  "dd_today": -0.0253,
   "limit": -0.1
  },
  "v2": {
-  "equity": 966.85,
+  "equity": 967.56,
   "day_start": 992.68,
-  "pnl_today": -25.83,
-  "open_positions": 7,
-  "closed_positions": 24,
-  "closed_sells": 25,
-  "win_rate": 0.28,
-  "realized_today": -20.74,
+  "pnl_today": -25.12,
+  "open_positions": 6,
+  "closed_positions": 25,
+  "closed_sells": 26,
+  "win_rate": 0.269,
+  "realized_today": -21.84,
   "best_token": {
    "sym": "WATER",
    "pnl": 2.92
@@ -204,20 +204,20 @@
    "sym": "LITY",
    "pnl": -18.1
   },
-  "copied": 56,
+  "copied": 57,
   "best_open": {
    "sym": "TRUMAN",
-   "upnl": 1.59
+   "upnl": 2.16
   },
   "worst_open": {
    "sym": "TTAI",
-   "upnl": -9.49
+   "upnl": -9.83
   }
  },
  "baseline": {
-  "equity": 885.72,
+  "equity": 887.94,
   "day_start": 1000.0,
-  "pnl_today": -114.28,
+  "pnl_today": -112.06,
   "closed_sells": 63,
   "win_rate": 0.238,
   "realized_today": -4.71,
@@ -229,7 +229,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 178
+  "copied": 179
  },
  "confluence": {
   "equity": 1000.72,

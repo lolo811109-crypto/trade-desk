@@ -1,19 +1,3 @@
-2026-10-21 17:50:53,081 V2-RISK 特斯拉能飞 0x610a36f996650be0561f5d74d36b7e73520a7777 KILL buy_tax unknown; sell_tax unknown; top10 holders 100%
-2026-10-21 17:50:53,081 V2 {'ts': 1792575060, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x610a36f996650be0561f5d74d36b7e73520a7777', 'sym': '特斯拉能飞', 'price': 8.994e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%']}
-2026-10-21 17:50:53,082 {'ts': 1792575060, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x610a36f996650be0561f5d74d36b7e73520a7777', 'tx': '0x290102b333b42823b2fb39ef877aed7cb99d89e651d00920772f35d8e86d7eb0', 'sym': '特斯拉能飞', 'price': 8.994e-05, 'liq': 34970, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:53,439 V2-RISK 红果币 0xb18a5e1c64b07808a027be171da8402b38937777 KILL buy_tax unknown; sell_tax unknown
-2026-10-21 17:50:53,439 V2 {'ts': 1792575063, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xb18a5e1c64b07808a027be171da8402b38937777', 'sym': '红果币', 'price': 3.977e-06, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-21 17:50:53,440 {'ts': 1792575063, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xb18a5e1c64b07808a027be171da8402b38937777', 'tx': '0x9f26bd41421752953eb9c95c2b392a8ca298957f9b42e5af31dd243dde70b78b', 'sym': '红果币', 'price': 3.977e-06, 'liq': 8017, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:53,489 {'ts': 1792575067, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0xb18a5e1c64b07808a027be171da8402b38937777', 'tx': '0xe7b390a93657adcf028d7125c19fe58bb8f2875b020dd68edb5748cf7e1899ee', 'sym': '红果币', 'price': 3.977e-06, 'liq': 8017, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
-2026-10-21 17:50:53,553 V2 {'ts': 1792575085, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xb18a5e1c64b07808a027be171da8402b38937777', 'sym': '红果币', 'price': 3.977e-06, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-21 17:50:53,554 {'ts': 1792575085, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xb18a5e1c64b07808a027be171da8402b38937777', 'tx': '0xc16ee62001d16a49f05f69c199fb7ceefc6002229a9458e9521072c54acef26c', 'sym': '红果币', 'price': 3.977e-06, 'liq': 8017, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:53,604 {'ts': 1792575087, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0xb18a5e1c64b07808a027be171da8402b38937777', 'tx': '0x865b8c790e517dd4e391bb2ef41808e977517ded3592dcd05f42e4eb02176b30', 'sym': '红果币', 'price': 3.977e-06, 'liq': 8017, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
-2026-10-21 17:50:53,651 V2 {'ts': 1792575107, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x610a36f996650be0561f5d74d36b7e73520a7777', 'sym': '特斯拉能飞', 'price': 8.994e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%']}
-2026-10-21 17:50:53,651 {'ts': 1792575107, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x610a36f996650be0561f5d74d36b7e73520a7777', 'tx': '0x2f0ba48edea1a09fb81902c1257451b729795f4e8b856bd50e27b6fd059fa2ef', 'sym': '特斯拉能飞', 'price': 8.994e-05, 'liq': 34970, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:53,692 V2 {'ts': 1792575206, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'sym': 'AID', 'price': 6.652e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:53,693 {'ts': 1792575206, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'tx': '0x89023b735ac8b959d64ec038bac2ed3d13d2e8ca6415cdab5f20138e7b094d41', 'sym': 'AID', 'price': 6.652e-05, 'liq': 26465, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:53,741 V2 {'ts': 1792575208, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'sym': 'AID', 'price': 6.652e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:53,741 {'ts': 1792575208, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'tx': '0x1185d52b9393f791c0696674ed8b1067f3026e4d1716a29146a59b572fcc5345', 'sym': 'AID', 'price': 6.652e-05, 'liq': 26465, 'action': 'skip-cash'}
 2026-10-21 17:50:53,792 V2 {'ts': 1792575228, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'sym': 'AID', 'price': 6.652e-05, 'action': 'sell', 'proceeds': 18.43, 'pnl': -1.57}
 2026-10-21 17:50:53,792 {'ts': 1792575228, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'tx': '0x210c70385bc48a33cb881f90b8a65efd11aacb1f4ff6b51b6f78b055c7bb370d', 'sym': 'AID', 'price': 6.652e-05, 'liq': 26465, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
 2026-10-21 17:50:53,845 {'ts': 1792575281, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0x610a36f996650be0561f5d74d36b7e73520a7777', 'tx': '0x03f24c987f83c6556ea67fb09b684805b5c1028966662295f7a2f61bac7e665e', 'sym': '特斯拉能飞', 'price': 8.994e-05, 'liq': 34970, 'action': 'sell', 'proceeds': 18.43, 'pnl': -1.57}
@@ -298,3 +282,19 @@
 2026-10-21 21:22:44,653 tick equity=883.27 pnl=-116.73 head=128945297
 2026-10-21 21:23:06,705 tick equity=885.72 pnl=-114.28 head=128945344
 2026-10-21 21:23:27,796 tick equity=885.72 pnl=-114.28 head=128945393
+2026-10-21 21:24:35,047 tick equity=886.26 pnl=-113.74 head=128945539
+2026-10-21 21:24:56,356 tick equity=886.20 pnl=-113.80 head=128945590
+2026-10-21 21:25:19,408 tick equity=886.21 pnl=-113.79 head=128945637
+2026-10-21 21:25:39,626 V2 {'ts': 1792589132, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0008466, 'action': 'sell', 'proceeds': 8.9, 'pnl': -1.1}
+2026-10-21 21:25:44,049 tick equity=886.33 pnl=-113.67 head=128945688
+2026-10-21 21:26:04,295 V2 {'ts': 1792589153, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'sym': 'TTAI', 'price': 5.895e-05, 'action': 'buy', 'stake': 10.0}
+2026-10-21 21:26:04,296 {'ts': 1792589153, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'tx': '0x329d8ad65d360451de659fd855363601df80d7c851f3dda008af0ff1a68551e9', 'sym': 'TTAI', 'price': 5.895e-05, 'liq': 51046, 'action': 'buy', 'stake': 10.0}
+2026-10-21 21:26:06,037 tick equity=886.29 pnl=-113.71 head=128945743
+2026-10-21 21:26:27,556 tick equity=886.95 pnl=-113.05 head=128945792
+2026-10-21 21:26:49,533 tick equity=887.39 pnl=-112.61 head=128945840
+2026-10-21 21:27:10,705 tick equity=887.44 pnl=-112.56 head=128945889
+2026-10-21 21:27:32,519 tick equity=887.45 pnl=-112.55 head=128945936
+2026-10-21 21:27:54,021 tick equity=887.84 pnl=-112.16 head=128945983
+2026-10-21 21:28:14,398 V2 {'ts': 1792589292, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.0002009, 'action': 'skip-7d'}
+2026-10-21 21:28:15,790 tick equity=887.84 pnl=-112.16 head=128946032
+2026-10-21 21:28:37,154 tick equity=887.94 pnl=-112.06 head=128946080
