@@ -20,6 +20,8 @@
 .w{display:flex;flex-direction:column;gap:6px}.av{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#34d399,#06b6d4);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
 .bar{height:6px;background:#e9efec;border-radius:9px;position:relative;overflow:hidden}.bar i{position:absolute;top:0;bottom:0;left:50%;border-radius:9px}
 a{color:inherit;text-decoration:none}
+.vs{display:grid;grid-template-columns:1fr 1fr 1.6fr;gap:18px;padding:0 28px 20px}.ft{width:100%;border-collapse:collapse;font-size:12px}.ft td{padding:5px 4px;border-bottom:1px solid #eef2f0}
+.ON{background:#d1fae5;color:#047857}.OFF{background:#f1f5f9;color:#64748b}.EXIT{background:#fef3c7;color:#b45309}
 </style></head><body>
 <div class="top"><div class="brand">Meme<b>Desk</b></div><span class="pill" id="nw">- WALLETS</span><span class="pill live"><span class="dot"></span>LIVE</span><span class="pill">BNB Chain Meme · 模拟盘，不下真单，无私钥</span><span class="sp"></span><span class="muted" id="upd"></span></div>
 <div class="g">
@@ -29,7 +31,12 @@ a{color:inherit;text-decoration:none}
  <div class="c"><div class="h">Equity History · 净值曲线</div><div style="height:300px"><canvas id="ch"></canvas></div></div>
  <div class="c"><div class="h">Copy Log · 跟单日志</div><div class="log" id="log"></div></div>
 </div>
-<div class="ws" id="ws"></div><div class="muted" style="padding:0 28px 28px">规则：$1000 虚拟本金平分给入选钱包；领头钱包每买一个 meme 币，按固定 $10 模拟跟一笔，买卖各扣 4%（滑点+转账税），领头卖出即全部平仓；价格来自 DexScreener。仅供研究，不构成投资建议。</div>
+<div class="vs"><div class="c"><div class="h">Baseline · 只镜像买卖</div><div class="big" id="b_eq" style="font-size:34px">-</div><div id="b_p" style="font-weight:700"></div><div class="muted">领头买就跟，领头卖就全平</div></div>
+<div class="c"><div class="h">V2 · 7日过滤 + 止盈止损</div><div class="big" id="v_eq" style="font-size:34px">-</div><div id="v_p" style="font-weight:700"></div><div class="muted" id="v_s"></div></div>
+<div class="c"><div class="h">对比净值 Baseline vs V2</div><div style="height:180px"><canvas id="ch2"></canvas></div></div></div>
+<div class="vs" style="grid-template-columns:1fr 1.6fr"><div class="c"><div class="h">V2 钱包 7 日过滤（每日重算）</div><div style="max-height:260px;overflow:auto"><table class="ft" id="ft"></table></div></div>
+<div class="c"><div class="h">V2 Log · 跟单 / 止盈 / 止损 / 时间止损 / 升降级</div><div class="log" id="vlog" style="height:230px"></div></div></div>
+<div class="ws" id="ws"></div><div class="muted" style="padding:0 28px 28px">规则：Baseline：$1000 虚拟本金平分给入选钱包；领头钱包每买一个 meme 币，按固定 $10 模拟跟一笔，买卖各扣 4%（滑点+转账税），领头卖出即全部平仓；价格来自 DexScreener。V2：另开 $1000 虚拟本金，同样每笔 $10；候选池=当前名单+旧名单，每天重算各钱包近 7 天已实现盈亏，只跟 7 日盈利的钱包；除跟随领头卖出外，+100% 先卖一半，-30% 止损全平，持仓 24 小时仍在 ±10% 内则时间止损。仅供研究，不构成投资建议。</div>
 <script>
 const $=id=>document.getElementById(id),f2=x=>(x>=0?'+':'')+x.toFixed(2);
 function ring(el,v,txt,col){const C=2*Math.PI*15.9,p=Math.max(0,Math.min(1,v));el.innerHTML=`<circle cx=18 cy=18 r=15.9 fill=none stroke=#e9efec stroke-width=3.2 /><circle cx=18 cy=18 r=15.9 fill=none stroke=${col} stroke-width=3.2 stroke-linecap=round stroke-dasharray="${p*C} ${C}" transform="rotate(-90 18 18)"/><text x=18 y=20.5 text-anchor=middle font-size=7 font-weight=700 fill=#0f172a>${txt}</text>`}
@@ -51,7 +58,7 @@ async function go(){try{
   ch=new Chart(ctx,{type:'line',data:{labels:lb,datasets:[{data:dv,borderColor:'#10b981',backgroundColor:gr,fill:true,pointRadius:0,tension:.3,borderWidth:2.5}]},options:{maintainAspectRatio:false,animation:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:8,color:'#94a3b8'}},y:{grid:{color:'#eef2f0'},ticks:{color:'#94a3b8'}}}}})}
  else{ch.data.labels=lb;ch.data.datasets[0].data=dv;ch.update('none')}
  const nm=a=>{const n=s.names[a]||a;return n.length>18?n.slice(0,6)+"…"+n.slice(-4):n},out=[];
- lg.trim().split('\n').forEach(l=>{const t=l.slice(11,19);let m;
+ lg.trim().split('\n').filter(l=>!/ V2[ -]/.test(l)).forEach(l=>{const t=l.slice(11,19);let m;
   if(m=l.match(/tick equity=([\d.]+) pnl=(-?[\d.]+)/))out.push(`<div><span class="tag SYNC">SYNC</span>${t} 净值 $${m[1]} · 盈亏 ${m[2]}</div>`);
   else if(l.includes("'action'")){const w=(l.match(/'wallet': '(0x\w+)'/)||[])[1],sd=(l.match(/'side': '(\w+)'/)||[])[1],sy=(l.match(/'sym': ['"](.*?)['"]/)||[])[1]||'?',a=(l.match(/'action': '([\w-]+)'/)||[])[1],pr=(l.match(/'price': ([\d.e-]+)/)||[])[1],st=(l.match(/'(?:stake|proceeds)': ([\d.]+)/)||[])[1],pl=(l.match(/'pnl': (-?[\d.]+)/)||[])[1];
    const T=a=='buy'?'COPY':a=='sell'?'SOLD':'SKIP';out.push(`<div><span class="tag ${T}">${T}</span>${t} <b>${nm(w)}</b> ${sd} ${sy}${pr?' @$'+(+pr).toPrecision(4):''}${st?' · $'+st:''}${pl?' · PnL '+pl:''}${T=='SKIP'?' ('+a+')':''}</div>`)}});
@@ -62,4 +69,23 @@ async function go(){try{
   <div style="font-weight:800;font-size:18px" class="${p>=0?'pos':'neg'}">${f2(p)} USD</div><div class="bar"><i style="${p>=0?'left:50%':'left:'+(50-wd)+'%'};width:${wd}%;background:${p>=0?'#10b981':'#f43f5e'}"></i></div><div class="muted">净值 $${(w.equity??w.cash).toFixed(2)} · 持仓 ${np}</div></a>`}).join('');
 }catch(e){console.error(e)}}
 go();setInterval(go,15000);
+let ch2;async function go2(){try{
+ const b=await (await fetch('./data/state.json?t='+Date.now(),{cache:'no-store'})).json(),v=await (await fetch('./data/state_v2.json?t='+Date.now(),{cache:'no-store'})).json();
+ const money=x=>'$'+x.toLocaleString('en',{minimumFractionDigits:2,maximumFractionDigits:2}),nm=a=>{const n=(v.names||{})[a]||a;return n.length>18?n.slice(0,6)+"…"+n.slice(-4):n};
+ [['b',b.equity,b.bank],['v',v.equity??v.bank,v.bank]].forEach(([k,e,bk])=>{$(k+'_eq').textContent=money(e);const p=e-bk;$(k+'_p').textContent=`${f2(p)} USD (${f2(p/bk*100)}%)`;$(k+'_p').className=p>=0?'pos':'neg'});
+ const F=Object.entries(v.filter||{}),on=F.filter(([,f])=>f.active).length;
+ $('v_s').textContent=`持仓 ${Object.keys(v.pos||{}).length} · 现金 ${money(v.cash)} · 跟单钱包 ${on}/${(v.pool||[]).length} · V2 起始 ${new Date(v.started*1000).toLocaleString('zh-CN',{hour12:false})} (UTC+8)`;
+ $('ft').innerHTML=F.sort((x,y)=>y[1].pnl7d-x[1].pnl7d).map(([a,f])=>`<tr><td><span class="tag ${f.active?'ON':'OFF'}">${f.active?'ACTIVE':'PAUSED'}</span></td><td><a href="https://bscscan.com/address/${a}" target=_blank><b>${nm(a)}</b></a></td><td class="${f.pnl7d>0?'pos':'neg'}" style="text-align:right">${f2(f.pnl7d)}</td><td class="muted" style="text-align:right">${new Date(f.at*1000).toLocaleDateString('zh-CN')}</td></tr>`).join('');
+ const T={buy:'COPY',sell:'SOLD','take-profit':'EXIT','stop-loss':'EXIT','time-stop':'EXIT'};
+ $('vlog').innerHTML=(v.trades||[]).slice(-150).reverse().map(t=>{const tm=new Date(t.ts*1000).toLocaleTimeString('zh-CN',{hour12:false});
+  if(t.side=='FILTER')return `<div><span class="tag ${/active|promote/.test(t.action)?'ON':'OFF'}">${t.action.toUpperCase()}</span>${tm} <b>${nm(t.wallet)}</b> 7日 ${f2(t.pnl7d)}</div>`;
+  const g=T[t.action]||'SKIP';return `<div><span class="tag ${g}">${g=='EXIT'?t.action.toUpperCase():g}</span>${tm} <b>${nm(t.wallet)}</b> ${t.side} ${t.sym||'?'}${t.price?' @$'+(+t.price).toPrecision(4):''}${t.stake?' · $'+t.stake:''}${t.pnl!=null?' · PnL '+t.pnl:''}${g=='SKIP'?' ('+t.action+')':''}</div>`}).join('')||'<div class="muted">暂无交易</div>';
+ const t0=v.started,bh=(b.history||[]).filter(x=>x[0]>=t0-60),vh=v.history||[],lab=x=>new Date(x*1000).toLocaleTimeString('zh-CN',{hour12:false,hour:'2-digit',minute:'2-digit'});
+ const ds=[{label:'Baseline',data:bh.map(x=>({x:lab(x[0]),y:x[1]-b.bank})),borderColor:'#06b6d4'},{label:'V2',data:vh.map(x=>({x:lab(x[0]),y:x[1]-v.bank})),borderColor:'#a855f7'}].map(d=>Object.assign(d,{pointRadius:0,borderWidth:2,tension:.3}));
+ const labels=[...new Set([...bh,...vh].sort((a,c)=>a[0]-c[0]).map(x=>lab(x[0])))];
+ if(!ch2)ch2=new Chart($('ch2'),{type:'line',data:{labels,datasets:ds},options:{maintainAspectRatio:false,animation:false,plugins:{legend:{labels:{boxWidth:10}}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:6,color:'#94a3b8'}},y:{title:{display:true,text:'PnL $'},grid:{color:'#eef2f0'},ticks:{color:'#94a3b8'}}}}});
+ else{ch2.data.labels=labels;ch2.data.datasets.forEach((d,i)=>d.data=ds[i].data);ch2.update('none')}
+}catch(e){console.error(e)}}
+go2();setInterval(go2,15000);
+
 </script></body></html>
