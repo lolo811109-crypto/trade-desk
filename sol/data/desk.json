@@ -2,17 +2,24 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792568672,
+ "updated": 1792568964,
  "tokens_seen": 55,
  "risk": {
-  "checked": 1,
-  "killed": 1,
+  "checked": 3,
+  "killed": 3,
   "passed": 0
  },
  "kills": [
   {
    "sym": "CyberAxe",
    "token": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
+   "reasons": [
+    "LP burned only 0%"
+   ]
+  },
+  {
+   "sym": "CRAWL",
+   "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
    "reasons": [
     "LP burned only 0%"
    ]
@@ -40,12 +47,12 @@
   "worst_open": null
  },
  "baseline": {
-  "equity": 940.4,
+  "equity": 939.64,
   "day_start": 1000.0,
-  "pnl_today": -59.6,
-  "closed_sells": 54,
-  "win_rate": 0.222,
-  "realized_today": -33.18,
+  "pnl_today": -60.36,
+  "closed_sells": 55,
+  "win_rate": 0.218,
+  "realized_today": -33.74,
   "best_token": {
    "sym": "DARK",
    "pnl": 3.07
@@ -54,6 +61,6 @@
    "sym": "Kimchi",
    "pnl": -12.09
   },
-  "copied": 135
+  "copied": 137
  }
 }
