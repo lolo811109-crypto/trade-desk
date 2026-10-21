@@ -1,3 +1,4 @@
+2026-10-22 00:58:23,901 SKIP {'ts': 1792601285, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Bucks vs. Wizards: O/U 249.5', 'outcome': 'Over', 'price': 0.28, 'leader_usd': 2.87, 'action': 'skip', 'why': 'budget'}
 2026-10-22 00:58:23,901 SKIP {'ts': 1792601304, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Mavericks vs. Rockets: O/U 220.5', 'outcome': 'Under', 'price': 0.3100000299, 'leader_usd': 2.8, 'action': 'skip', 'why': 'budget'}
 2026-10-22 00:58:23,901 SKIP {'ts': 1792601304, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Mavericks vs. Rockets: O/U 220.5', 'outcome': 'Under', 'price': 0.31, 'leader_usd': 0.62, 'action': 'skip', 'why': 'budget'}
 2026-10-22 00:58:23,901 SKIP {'ts': 1792601307, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Bucks vs. Wizards: O/U 249.5', 'outcome': 'Over', 'price': 0.28, 'leader_usd': 0.42, 'action': 'skip', 'why': 'budget'}
@@ -297,4 +298,3 @@
 2026-10-22 02:01:29,988 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
 2026-10-22 02:01:31,321 tick equity=1010.76 pnl=10.76
 2026-10-22 02:01:31,557 tour equity=1018.21 pnl=18.21
-2026-10-22 02:13:36,784 fetch fail https://data-api.polymarket.com/trades HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=15)
