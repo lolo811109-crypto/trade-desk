@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792569256,
+ "updated": 1792569581,
  "tokens_seen": 55,
  "risk": {
-  "checked": 3,
+  "checked": 4,
   "killed": 3,
-  "passed": 0
+  "passed": 1
  },
  "kills": [
   {
@@ -28,28 +28,34 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": 0.0,
+  "dd_today": -0.0007,
   "limit": -0.1
  },
  "v2": {
-  "equity": 1000.0,
+  "equity": 999.31,
   "day_start": 1000.0,
-  "pnl_today": 0.0,
-  "open_positions": 0,
+  "pnl_today": -0.69,
+  "open_positions": 1,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 0,
-  "best_open": null,
-  "worst_open": null
+  "copied": 1,
+  "best_open": {
+   "sym": "Agency",
+   "upnl": -0.69
+  },
+  "worst_open": {
+   "sym": "Agency",
+   "upnl": -0.69
+  }
  },
  "baseline": {
-  "equity": 941.42,
+  "equity": 940.36,
   "day_start": 1000.0,
-  "pnl_today": -58.58,
+  "pnl_today": -59.64,
   "closed_sells": 55,
   "win_rate": 0.218,
   "realized_today": -33.74,
@@ -61,10 +67,91 @@
    "sym": "Kimchi",
    "pnl": -12.09
   },
-  "copied": 137
+  "copied": 138
  },
- "risk_track": null,
+ "risk_track": {
+  "updated": 1792569482,
+  "rejected": {
+   "n": 0,
+   "1h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "6h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "24h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "latest": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "winners": 0
+   }
+  },
+  "passed": {
+   "n": 1,
+   "1h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "6h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "24h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "latest": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "winners": 0
+   }
+  },
+  "rules": {},
+  "items": [
+   {
+    "sym": "Agency",
+    "token": "7VertkgF9KLhxxJXHX6uaWuoYZTP9LdGj2bWmVXVpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792569482,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   }
+  ]
+ },
  "risk_warn": {
-  "warn_lp": 0
+  "warn_lp": 1
  }
 }
