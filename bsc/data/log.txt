@@ -1,18 +1,3 @@
-2026-10-21 11:18:44,649 tick equity=927.93 pnl=-72.07 head=128864797
-2026-10-21 11:19:05,298 tick equity=927.92 pnl=-72.08 head=128864844
-2026-10-21 11:19:25,939 tick equity=928.94 pnl=-71.06 head=128864889
-2026-10-21 11:19:46,135 V2 {'ts': 1792552766, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.000219, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 11:19:46,218 V2 {'ts': 1792552775, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.001091, 'action': 'buy', 'stake': 10.0}
-2026-10-21 11:19:46,410 V2 {'ts': 1792552775, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.001091, 'action': 'skip-7d'}
-2026-10-21 11:19:46,827 tick equity=929.13 pnl=-70.87 head=128864935
-2026-10-21 11:20:07,568 tick equity=929.22 pnl=-70.78 head=128864982
-2026-10-21 11:20:27,750 V2 {'ts': 1792552814, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0008228, 'action': 'sell', 'proceeds': 6.95, 'pnl': -3.05}
-2026-10-21 11:20:28,487 tick equity=929.23 pnl=-70.77 head=128865028
-2026-10-21 11:54:10,400 V2-RISK TRUMAN 0xabffa443547b34ab6c3b3173d26e233900527777 PASS 
-2026-10-21 11:54:10,400 V2 {'ts': 1792554295, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xabffa443547b34ab6c3b3173d26e233900527777', 'sym': 'TRUMAN', 'price': 0.0005832885221, 'action': 'buy', 'stake': 10.0}
-2026-10-21 11:54:10,401 {'ts': 1792554295, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xabffa443547b34ab6c3b3173d26e233900527777', 'tx': '0xf41da2145969edad9ae144d80b71670e6419561ee8b9ea0de4177b0ac9d6c725', 'sym': 'TRUMAN', 'price': 0.0005832885221, 'liq': 68778, 'action': 'buy', 'stake': 10.0}
-2026-10-21 11:54:10,518 V2 {'ts': 1792554311, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xabffa443547b34ab6c3b3173d26e233900527777', 'sym': 'TRUMAN', 'price': 0.0005828, 'action': 'buy', 'stake': 10.0}
-2026-10-21 11:54:10,518 {'ts': 1792554311, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xabffa443547b34ab6c3b3173d26e233900527777', 'tx': '0x74e8e4d7a6ce7f24ef6075972a145b6508859bfa4e2fda952a66dc0b12109c38', 'sym': 'TRUMAN', 'price': 0.0005828, 'liq': 101133, 'action': 'buy', 'stake': 10.0}
 2026-10-21 11:54:10,881 V2-RISK .AI 0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777 KILL buy_tax unknown; sell_tax unknown
 2026-10-21 11:54:10,881 V2 {'ts': 1792554391, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 1.045e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
 2026-10-21 11:54:10,882 {'ts': 1792554391, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'tx': '0x5fdfa3e0d900dc9b5f1b067a02441ee280ab9b029eb029637a53212b9fd8a787', 'sym': '.AI', 'price': 1.045e-05, 'liq': 14512, 'action': 'buy', 'stake': 10.0}
@@ -298,3 +283,18 @@
 2026-10-21 15:38:39,968 tick equity=947.56 pnl=-52.44 head=128899443
 2026-10-21 15:39:00,892 tick equity=947.65 pnl=-52.35 head=128899489
 2026-10-21 15:39:21,798 tick equity=947.92 pnl=-52.08 head=128899536
+2026-10-21 15:39:42,497 tick equity=948.32 pnl=-51.68 head=128899582
+2026-10-21 15:40:03,377 tick equity=948.63 pnl=-51.37 head=128899628
+2026-10-21 15:40:24,171 tick equity=948.71 pnl=-51.29 head=128899675
+2026-10-21 15:40:45,059 tick equity=948.29 pnl=-51.71 head=128899721
+2026-10-21 15:41:05,722 tick equity=948.18 pnl=-51.82 head=128899767
+2026-10-21 15:41:26,632 tick equity=948.08 pnl=-51.92 head=128899813
+2026-10-21 15:41:47,450 tick equity=948.02 pnl=-51.98 head=128899859
+2026-10-21 15:42:08,084 tick equity=948.01 pnl=-51.99 head=128899906
+2026-10-21 15:42:28,953 tick equity=948.33 pnl=-51.67 head=128899952
+2026-10-21 15:42:49,683 tick equity=948.25 pnl=-51.75 head=128899998
+2026-10-21 15:43:10,425 tick equity=948.25 pnl=-51.75 head=128900044
+2026-10-21 15:43:31,319 tick equity=948.06 pnl=-51.94 head=128900090
+2026-10-21 15:43:52,088 tick equity=948.06 pnl=-51.94 head=128900136
+2026-10-21 15:44:12,819 tick equity=948.05 pnl=-51.95 head=128900182
+2026-10-21 15:44:33,729 tick equity=947.94 pnl=-52.06 head=128900228
