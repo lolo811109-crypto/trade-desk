@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792582510,
+ "updated": 1792582531,
  "tokens_seen": 73,
  "risk": {
-  "checked": 86,
+  "checked": 87,
   "killed": 39,
-  "passed": 47
+  "passed": 48
  },
  "kills": [
   {
@@ -176,13 +176,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0178,
+  "dd_today": -0.0186,
   "limit": -0.1
  },
  "v2": {
-  "equity": 974.97,
+  "equity": 974.19,
   "day_start": 992.68,
-  "pnl_today": -17.71,
+  "pnl_today": -18.49,
   "open_positions": 6,
   "closed_positions": 23,
   "closed_sells": 24,
@@ -196,7 +196,7 @@
    "sym": "LITY",
    "pnl": -7.35
   },
-  "copied": 49,
+  "copied": 50,
   "best_open": {
    "sym": "逆蝶",
    "upnl": -0.62
@@ -207,9 +207,9 @@
   }
  },
  "baseline": {
-  "equity": 885.39,
+  "equity": 884.6,
   "day_start": 1000.0,
-  "pnl_today": -114.61,
+  "pnl_today": -115.4,
   "closed_sells": 61,
   "win_rate": 0.23,
   "realized_today": -17.0,
@@ -221,7 +221,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 169
+  "copied": 170
  },
  "confluence": {
   "equity": 1000.72,
