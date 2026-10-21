@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792555094,
- "tokens_seen": 25,
+ "updated": 1792556450,
+ "tokens_seen": 27,
  "risk": {
-  "checked": 31,
-  "killed": 10,
+  "checked": 34,
+  "killed": 13,
   "passed": 21
  },
  "kills": [
@@ -68,18 +68,33 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "RTX5090",
+   "token": "0x5601a422986034521330bb4c799a8a3f29137777",
+   "reasons": [
+    "top10 holders 68%",
+    "LP only 0% locked/burned"
+   ]
+  },
+  {
+   "sym": "红果",
+   "token": "0xdbf0f682ddaf718611d6eb4165836c5204197777",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0108,
+  "dd_today": -0.0094,
   "limit": -0.1
  },
  "v2": {
-  "equity": 981.94,
+  "equity": 983.31,
   "day_start": 992.68,
-  "pnl_today": -10.74,
+  "pnl_today": -9.37,
   "open_positions": 3,
   "closed_positions": 11,
   "closed_sells": 12,
@@ -95,21 +110,21 @@
   },
   "copied": 23,
   "best_open": {
-   "sym": "逆蝶",
-   "upnl": 0.22
+   "sym": "LITY",
+   "upnl": 0.52
   },
   "worst_open": {
    "sym": "TRUMAN",
-   "upnl": -1.59
+   "upnl": -1.23
   }
  },
  "baseline": {
-  "equity": 925.4,
+  "equity": 931.58,
   "day_start": 1000.0,
-  "pnl_today": -74.6,
-  "closed_sells": 39,
-  "win_rate": 0.205,
-  "realized_today": 9.76,
+  "pnl_today": -68.42,
+  "closed_sells": 40,
+  "win_rate": 0.2,
+  "realized_today": 8.19,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
@@ -118,7 +133,7 @@
    "sym": ".ai",
    "pnl": -8.28
   },
-  "copied": 118
+  "copied": 121
  },
  "confluence": {
   "equity": 1000.72,
@@ -210,9 +225,9 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792554886,
+  "updated": 1792556358,
   "rejected": {
-   "n": 23,
+   "n": 25,
    "1h": {
     "n": 21,
     "avg_ret": 0.2022,
@@ -273,7 +288,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 15,
+    "n": 17,
     "1h": {
      "n": 14,
      "avg_ret": -0.0162,
@@ -303,7 +318,7 @@
     }
    },
    "top holders": {
-    "n": 14,
+    "n": 15,
     "1h": {
      "n": 14,
      "avg_ret": 0.3298,
@@ -969,6 +984,39 @@
     "ok": true,
     "reasons": [],
     "ts": 1792554886,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "RTX5090",
+    "token": "0x5601a422986034521330bb4c799a8a3f29137777",
+    "ok": false,
+    "reasons": [
+     "top10 holders 68%",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792555261,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "红果",
+    "token": "0xdbf0f682ddaf718611d6eb4165836c5204197777",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792556358,
     "src": "live",
     "ret": {
      "1h": null,
