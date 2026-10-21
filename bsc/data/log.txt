@@ -1,25 +1,3 @@
-2026-10-21 16:40:19,154 tick equity=932.23 pnl=-67.77 head=128907656
-2026-10-21 16:52:16,278 {'ts': 1792572101, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'tx': '0x17a554a2f8b10feff662f5c9573dd60ed66b7308080ae62c821045f0237ae276', 'action': 'skip-noprice'}
-2026-10-21 16:52:16,414 V2 {'ts': 1792572397, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0004075, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 16:52:16,415 {'ts': 1792572397, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'tx': '0x34877e7d7326a73ee17a1766222c1581b9c8d70069df01734c6e170ce7e43e57', 'sym': '.ai', 'price': 0.0004075, 'liq': 67663, 'action': 'buy', 'stake': 10.0}
-2026-10-21 16:52:17,530 V2 {'ts': 1792572025, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:17,582 V2 {'ts': 1792572025, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:17,690 V2 {'ts': 1792572075, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:17,756 V2 {'ts': 1792572103, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:17,780 V2 {'ts': 1792572103, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:17,828 V2 {'ts': 1792572119, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:17,855 V2 {'ts': 1792572119, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:17,905 V2 {'ts': 1792572154, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:18,036 V2 {'ts': 1792572158, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:18,061 V2 {'ts': 1792572158, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:18,119 V2 {'ts': 1792572158, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:18,149 V2 {'ts': 1792572158, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:18,264 V2 {'ts': 1792572262, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:18,315 V2 {'ts': 1792572324, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:18,361 V2 {'ts': 1792572324, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:21,064 V2 {'ts': 1792572336, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'skip-7d'}
-2026-10-21 16:52:21,064 CONFLUENCE DOTAI 0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777 wallets=['0xc5606cde16fb8c39cc68d1d97700883ae951ff56', '0xc9ac2d47615508a16e46a3459eb4f564ad906a32']
-2026-10-21 16:52:21,367 V2-RISK DOTAI 0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777 KILL buy_tax unknown; sell_tax unknown
 2026-10-21 16:52:21,367 V2 {'ts': 1792572336, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'sym': 'DOTAI', 'price': 5.299e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
 2026-10-21 16:52:27,450 tick equity=932.25 pnl=-67.75 head=128909184
 2026-10-21 16:52:48,580 tick equity=931.70 pnl=-68.30 head=128909321
@@ -298,3 +276,25 @@
 2026-10-21 20:56:24,950 tick equity=882.29 pnl=-117.71 head=128941787
 2026-10-21 20:56:46,491 tick equity=882.31 pnl=-117.69 head=128941835
 2026-10-21 20:57:07,964 tick equity=882.31 pnl=-117.69 head=128941883
+2026-10-21 21:09:34,402 {'ts': 1792588021, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'SELL', 'token': '0x1435ddd742881639a5bb08fcbf0e17e2a2f87777', 'tx': '0xb7300bd09b59db533e769a24b8eef322b624ae9b16db5f80488358428ba5872a', 'action': 'skip-noprice'}
+2026-10-21 21:09:34,933 V2 {'ts': 1792587885, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'sym': 'TTAI', 'price': 6.062e-05, 'action': 'buy', 'stake': 10.0}
+2026-10-21 21:09:34,934 {'ts': 1792587885, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'tx': '0xdfcad8bfe629db2d1c605bef98b66bbe7e33f052205159c6b28e10e0301e5ab5', 'sym': 'TTAI', 'price': 6.062e-05, 'liq': 51795, 'action': 'buy', 'stake': 10.0}
+2026-10-21 21:09:35,302 V2 {'ts': 1792587873, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0002352, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-21 21:09:43,332 V2 {'ts': 1792587555, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xf7fc0e5ad8fc95b0c4ae59db1ff068bc64417777', 'sym': '健康天使', 'price': 0.0001126, 'action': 'skip-7d'}
+2026-10-21 21:09:43,530 V2 {'ts': 1792587612, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xf7fc0e5ad8fc95b0c4ae59db1ff068bc64417777', 'sym': '健康天使', 'price': 0.0001126, 'action': 'skip-7d'}
+2026-10-21 21:09:45,717 tick equity=869.71 pnl=-130.29 head=128943478
+2026-10-21 21:10:08,557 tick equity=869.71 pnl=-130.29 head=128943615
+2026-10-21 21:10:32,232 tick equity=869.46 pnl=-130.54 head=128943665
+2026-10-21 21:10:53,495 tick equity=869.45 pnl=-130.55 head=128943718
+2026-10-21 21:11:15,248 tick equity=868.56 pnl=-131.44 head=128943765
+2026-10-21 21:11:36,272 tick equity=868.56 pnl=-131.44 head=128943814
+2026-10-21 21:11:58,044 tick equity=868.28 pnl=-131.72 head=128943860
+2026-10-21 21:12:19,135 tick equity=868.28 pnl=-131.72 head=128943909
+2026-10-21 21:12:39,626 V2-RISK SCI6900 0xbdb04ac8e429a3ed4ff19e47381f41d89e747777 KILL buy_tax unknown; sell_tax unknown
+2026-10-21 21:12:39,626 V2 {'ts': 1792588350, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbdb04ac8e429a3ed4ff19e47381f41d89e747777', 'sym': 'SCI6900', 'price': 5.353e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-21 21:12:39,627 {'ts': 1792588350, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbdb04ac8e429a3ed4ff19e47381f41d89e747777', 'tx': '0x3c2db670207c7dad79f71136bca9ae5a534866e9e6ca06383684cadbcbc11673', 'sym': 'SCI6900', 'price': 5.353e-05, 'liq': 21092, 'action': 'buy', 'stake': 10.0}
+2026-10-21 21:12:41,259 tick equity=867.48 pnl=-132.52 head=128943956
+2026-10-21 21:13:02,726 tick equity=874.84 pnl=-125.16 head=128944005
+2026-10-21 21:13:24,240 tick equity=875.53 pnl=-124.47 head=128944052
+2026-10-21 21:13:44,437 V2 {'ts': 1792588419, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0002398, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-21 21:13:45,505 tick equity=875.84 pnl=-124.16 head=128944100

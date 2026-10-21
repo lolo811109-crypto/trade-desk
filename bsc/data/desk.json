@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792587427,
- "tokens_seen": 73,
+ "updated": 1792588425,
+ "tokens_seen": 75,
  "risk": {
-  "checked": 92,
-  "killed": 41,
-  "passed": 51
+  "checked": 96,
+  "killed": 44,
+  "passed": 52
  },
  "kills": [
   {
@@ -171,18 +171,26 @@
     "buy_tax unknown",
     "sell_tax unknown"
    ]
+  },
+  {
+   "sym": "SCI6900",
+   "token": "0xbdb04ac8e429a3ed4ff19e47381f41d89e747777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0162,
+  "dd_today": -0.023,
   "limit": -0.1
  },
  "v2": {
-  "equity": 976.56,
+  "equity": 969.83,
   "day_start": 992.68,
-  "pnl_today": -16.12,
+  "pnl_today": -22.85,
   "open_positions": 6,
   "closed_positions": 23,
   "closed_sells": 24,
@@ -196,20 +204,20 @@
    "sym": "LITY",
    "pnl": -7.35
   },
-  "copied": 53,
+  "copied": 54,
   "best_open": {
    "sym": "🔮",
-   "upnl": 5.76
+   "upnl": 1.31
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -10.04
+   "upnl": -9.85
   }
  },
  "baseline": {
-  "equity": 882.31,
+  "equity": 875.84,
   "day_start": 1000.0,
-  "pnl_today": -117.69,
+  "pnl_today": -124.16,
   "closed_sells": 62,
   "win_rate": 0.226,
   "realized_today": -17.78,
@@ -221,7 +229,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 175
+  "copied": 177
  },
  "confluence": {
   "equity": 1000.72,
@@ -379,9 +387,9 @@
   "events_total": 12
  },
  "risk_track": {
-  "updated": 1792587213,
+  "updated": 1792588359,
   "rejected": {
-   "n": 40,
+   "n": 41,
    "1h": {
     "n": 40,
     "avg_ret": 0.1821,
@@ -390,11 +398,11 @@
     "up_pct": 0.5
    },
    "6h": {
-    "n": 27,
-    "avg_ret": 0.2587,
-    "bad_pct": 0.111,
-    "rug_pct": 0.037,
-    "up_pct": 0.519
+    "n": 28,
+    "avg_ret": 0.2138,
+    "bad_pct": 0.143,
+    "rug_pct": 0.071,
+    "up_pct": 0.5
    },
    "24h": {
     "n": 0,
@@ -405,8 +413,8 @@
    },
    "latest": {
     "n": 40,
-    "avg_ret": 0.1482,
-    "bad_pct": 0.2,
+    "avg_ret": 0.1228,
+    "bad_pct": 0.225,
     "winners": 4
    }
   },
@@ -451,11 +459,11 @@
      "up_pct": 0.609
     },
     "6h": {
-     "n": 19,
-     "avg_ret": -0.0356,
-     "bad_pct": 0.053,
-     "rug_pct": 0.0,
-     "up_pct": 0.579
+     "n": 20,
+     "avg_ret": -0.0838,
+     "bad_pct": 0.1,
+     "rug_pct": 0.05,
+     "up_pct": 0.55
     },
     "24h": {
      "n": 0,
@@ -466,8 +474,8 @@
     },
     "latest": {
      "n": 23,
-     "avg_ret": -0.0609,
-     "bad_pct": 0.087,
+     "avg_ret": -0.1051,
+     "bad_pct": 0.13,
      "winners": 0
     }
    },
@@ -502,7 +510,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 13,
+    "n": 14,
     "1h": {
      "n": 13,
      "avg_ret": 0.2883,
@@ -511,11 +519,11 @@
      "up_pct": 0.385
     },
     "6h": {
-     "n": 5,
-     "avg_ret": 0.8148,
-     "bad_pct": 0.4,
-     "rug_pct": 0.2,
-     "up_pct": 0.4
+     "n": 6,
+     "avg_ret": 0.5123,
+     "bad_pct": 0.5,
+     "rug_pct": 0.333,
+     "up_pct": 0.333
     },
     "24h": {
      "n": 0,
@@ -526,13 +534,13 @@
     },
     "latest": {
      "n": 13,
-     "avg_ret": 0.2962,
-     "bad_pct": 0.462,
+     "avg_ret": 0.218,
+     "bad_pct": 0.538,
      "winners": 3
     }
    },
    "buy_tax unknown": {
-    "n": 13,
+    "n": 14,
     "1h": {
      "n": 13,
      "avg_ret": 0.2883,
@@ -541,11 +549,11 @@
      "up_pct": 0.385
     },
     "6h": {
-     "n": 5,
-     "avg_ret": 0.8148,
-     "bad_pct": 0.4,
-     "rug_pct": 0.2,
-     "up_pct": 0.4
+     "n": 6,
+     "avg_ret": 0.5123,
+     "bad_pct": 0.5,
+     "rug_pct": 0.333,
+     "up_pct": 0.333
     },
     "24h": {
      "n": 0,
@@ -556,8 +564,8 @@
     },
     "latest": {
      "n": 13,
-     "avg_ret": 0.2962,
-     "bad_pct": 0.462,
+     "avg_ret": 0.218,
+     "bad_pct": 0.538,
      "winners": 3
     }
    },
@@ -1255,10 +1263,10 @@
     "src": "live",
     "ret": {
      "1h": 0.0164,
-     "6h": null,
+     "6h": -1.0,
      "24h": null
     },
-    "rug": false
+    "rug": true
    },
    {
     "sym": "CZ",
@@ -1582,6 +1590,23 @@
     "src": "live",
     "ret": {
      "1h": 0.3674,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "SCI6900",
+    "token": "0xbdb04ac8e429a3ed4ff19e47381f41d89e747777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792588359,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },
