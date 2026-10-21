@@ -35,7 +35,11 @@ input{background:#05090b;border:1px solid #1f2a30;color:#00e5ff;font:inherit;wid
  <div class="p"><div class="h"><span>TRADES · 实时成交</span><b>LIVE</b></div><div class="feed" id="feed"></div></div>
  <div class="p" style="grid-column:1/2"><div class="h"><span>SIGNAL HEATMAP · 多窗口</span><b>最近 30 分钟</b></div><table class="hm" id="hm"></table></div>
  <div class="p"><div class="h"><span>BACKTEST · 回测</span><b>backtest_result.txt</b></div><div class="bt" id="bt"></div></div>
- <div class="p"><div class="h"><span>CORE · 装饰</span></div><canvas id="core"></canvas></div>
+ <div class="p"><div class="h"><span>HIT RATE · 历史信号命中率</span><b id="hrn"></b></div><canvas id="core" style="display:none"></canvas>
+  <div style="font-size:10px;color:#5b6b75">向后看 N 根 <input id="fw" value="10" style="width:36px"> <button onclick="hit()">算</button></div>
+  <div class="kv"><span>信号总数</span><span id="hrt">-</span></div><div class="kv"><span>做多命中率</span><span id="hrl">-</span></div><div class="kv"><span>做空命中率</span><span id="hrs">-</span></div><div class="kv"><span>平均前瞻收益</span><span id="hra">-</span></div>
+  <div class="feed" id="hrlist" style="margin-top:4px"></div>
+  <div style="font-size:9.5px;color:#ff9f1c">注：命中率≈50% = 跟抛硬币一样，没有优势；前瞻收益按信号方向计（做空跌了算正）</div></div>
  <div class="p"><div class="h"><span>MARKET · 24H</span></div><div id="mk"></div></div>
 </div>
 <script>
@@ -79,4 +83,16 @@ const cv=$('core'),cx=cv.getContext('2d');function spin(t){const W=cv.width=cv.c
  [['#00ff9c',1,.6],['#00e5ff',.75,-1],['#ff2bd6',.52,1.6],['#ff9f1c',.3,-2.4]].forEach(([c,k,sp],i)=>{cx.strokeStyle=c;cx.shadowColor=c;cx.shadowBlur=10;cx.lineWidth=2;for(let s=0;s<6;s++){const a=t/1000*sp+s*Math.PI/3;cx.beginPath();cx.arc(X,Y,R*k,a,a+Math.PI/5+i*.1);cx.stroke()}});
  cx.shadowBlur=0;cx.fillStyle='#00ff9c';cx.font='600 11px JetBrains Mono';cx.textAlign='center';cx.fillText($('sig').textContent,X,Y+4);requestAnimationFrame(spin)}requestAnimationFrame(spin);
 go();book();trades();mk();setInterval(go,10000);setInterval(book,2000);setInterval(trades,1500);setInterval(mk,30000);
+
+async function hit(){try{const w=+$('w').value,st=+$('sth').value,rt=+$('rth').value,N=+$('fw').value||10;
+ const d=await (await fetch(B+'/klines?symbol=BTCUSDT&interval=1m&limit=1000')).json();const px=d.map(k=>+k[4]);
+ let L=[0,0],S=[0,0],sum=0,n=0,list=[];
+ for(let i=w;i+N<px.length;i++){const sg=sigOf(reg(px.slice(i-w,i)),st,rt);if(sg=='WAIT')continue;const p0=px[i-1],r=(px[i-1+N]/p0-1)*100*(sg=='LONG'?1:-1),ok=r>0;
+  (sg=='LONG'?L:S)[0]++;if(ok)(sg=='LONG'?L:S)[1]++;sum+=r;n++;list.push({t:d[i-1][0],sg,r,ok})}
+ const pc=a=>a[0]?(a[1]/a[0]*100).toFixed(1)+'% ('+a[1]+'/'+a[0]+')':'-';
+ $('hrt').textContent=n;$('hrl').textContent=pc(L);$('hrs').textContent=pc(S);$('hra').innerHTML=n?`<span class="${sum>=0?'up':'dn'}">${(sum/n).toFixed(4)}%</span>`:'-';$('hrn').textContent=`${px.length}根 · N=${N}`;
+ $('hrlist').innerHTML=list.slice(-10).reverse().map(x=>{const t=new Date(x.t+8*3600e3).toISOString().slice(11,16);return `<div class="row"><span>${t}</span><span class="${x.sg=='LONG'?'up':'dn'}">${x.sg}</span><span>${x.r.toFixed(3)}%</span><span class="${x.ok?'up':'dn'}">${x.ok?'✔ 命中':'✘ 落空'}</span></div>`}).join('')||'<div style="color:#5b6b75">无信号</div>';
+ window.HR={n,L,S,avg:n?sum/n:0};
+}catch(e){$('hrt').textContent='ERR'}}
+hit();setInterval(hit,60000);
 </script></body></html>
