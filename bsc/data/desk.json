@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792588425,
- "tokens_seen": 75,
+ "updated": 1792588728,
+ "tokens_seen": 76,
  "risk": {
-  "checked": 96,
+  "checked": 98,
   "killed": 44,
-  "passed": 52
+  "passed": 54
  },
  "kills": [
   {
@@ -184,14 +184,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.023,
+  "dd_today": -0.0229,
   "limit": -0.1
  },
  "v2": {
-  "equity": 969.83,
+  "equity": 969.99,
   "day_start": 992.68,
-  "pnl_today": -22.85,
-  "open_positions": 6,
+  "pnl_today": -22.69,
+  "open_positions": 8,
   "closed_positions": 23,
   "closed_sells": 24,
   "win_rate": 0.292,
@@ -204,23 +204,23 @@
    "sym": "LITY",
    "pnl": -7.35
   },
-  "copied": 54,
+  "copied": 56,
   "best_open": {
-   "sym": "🔮",
-   "upnl": 1.31
+   "sym": "TRUMAN",
+   "upnl": 1.54
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -9.85
+   "upnl": -9.77
   }
  },
  "baseline": {
-  "equity": 875.84,
+  "equity": 884.52,
   "day_start": 1000.0,
-  "pnl_today": -124.16,
-  "closed_sells": 62,
-  "win_rate": 0.226,
-  "realized_today": -17.78,
+  "pnl_today": -115.48,
+  "closed_sells": 63,
+  "win_rate": 0.238,
+  "realized_today": -4.71,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
@@ -229,7 +229,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 177
+  "copied": 178
  },
  "confluence": {
   "equity": 1000.72,
@@ -387,7 +387,7 @@
   "events_total": 12
  },
  "risk_track": {
-  "updated": 1792588359,
+  "updated": 1792588728,
   "rejected": {
    "n": 41,
    "1h": {
@@ -419,7 +419,7 @@
    }
   },
   "passed": {
-   "n": 21,
+   "n": 22,
    "1h": {
     "n": 21,
     "avg_ret": 0.0632,
@@ -428,11 +428,11 @@
     "up_pct": 0.571
    },
    "6h": {
-    "n": 12,
-    "avg_ret": -0.0399,
-    "bad_pct": 0.25,
+    "n": 14,
+    "avg_ret": -0.0474,
+    "bad_pct": 0.214,
     "rug_pct": 0.0,
-    "up_pct": 0.417
+    "up_pct": 0.429
    },
    "24h": {
     "n": 0,
@@ -443,7 +443,7 @@
    },
    "latest": {
     "n": 21,
-    "avg_ret": 0.008,
+    "avg_ret": -0.0163,
     "bad_pct": 0.143,
     "winners": 1
    }
@@ -1277,7 +1277,7 @@
     "src": "live",
     "ret": {
      "1h": 0.1315,
-     "6h": null,
+     "6h": 0.0444,
      "24h": null
     },
     "rug": false
@@ -1291,7 +1291,7 @@
     "src": "live",
     "ret": {
      "1h": 0.1922,
-     "6h": null,
+     "6h": -0.2296,
      "24h": null
     },
     "rug": false
@@ -1604,6 +1604,20 @@
      "sell_tax unknown"
     ],
     "ts": 1792588359,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CBK",
+    "token": "0x0ce574848f5e7c87a066ac2a52fd56dacbc335f9",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792588723,
     "src": "live",
     "ret": {
      "1h": null,

@@ -1,5 +1,3 @@
-2026-10-21 19:03:21,010 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
-2026-10-21 19:03:21,101 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
 2026-10-21 19:03:21,102 tick equity=1000.00 pnl=0.00
 2026-10-21 19:03:21,102 tour equity=1000.00 pnl=0.00
 2026-10-21 19:06:13,402 BASE {'ts': 1792580552, 'wallet': '0x83720820a8aa6c3f20ad71850e7a1a17d16c5223', 'side': 'BUY', 'title': 'Will Como 1907 win on 2026-10-21? AND Will Lille OSC win on 2026-10-21?', 'outcome': '', 'price': 0.8140004157, 'leader_usd': 2.26, 'action': 'buy', 'stake': 10.0}
@@ -298,3 +296,5 @@
 2026-10-21 21:13:28,782 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
 2026-10-21 21:13:29,226 tick equity=1001.91 pnl=1.91
 2026-10-21 21:13:29,228 tour equity=1001.91 pnl=1.91
+2026-10-21 21:18:46,895 fetch fail https://data-api.polymarket.com/trades HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=15)
+2026-10-21 21:18:47,053 SKIP {'ts': 1792588052, 'wallet': '0xa38a455bbdd4b68486548b7e19da99903f4f821d', 'side': 'BUY', 'title': 'Timberwolves vs. Heat', 'outcome': 'Heat', 'price': 0.5200000008, 'leader_usd': 107.5, 'action': 'skip', 'why': 'budget'}
