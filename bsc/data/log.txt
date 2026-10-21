@@ -1,23 +1,3 @@
-2026-10-21 10:12:28,216 tick equity=935.00 pnl=-65.00 head=128855963
-2026-10-21 10:12:48,937 tick equity=933.72 pnl=-66.28 head=128856009
-2026-10-21 10:13:10,094 tick equity=933.88 pnl=-66.12 head=128856055
-2026-10-21 10:13:30,247 V2 {'ts': 1792548808, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x529e9959a626f162ecf0ae3b540c068b64627777', 'sym': 'ぎゅうらい', 'price': 3.363e-05, 'action': 'skip-7d'}
-2026-10-21 10:13:30,248 {'ts': 1792548808, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x529e9959a626f162ecf0ae3b540c068b64627777', 'tx': '0x6f8759c3855603f263253f3c508ddd7e404b23781717f83647dd319adc37d07c', 'sym': 'ぎゅうらい', 'price': 3.363e-05, 'liq': 17943, 'action': 'buy', 'stake': 10.0}
-2026-10-21 10:13:30,968 tick equity=933.06 pnl=-66.94 head=128856101
-2026-10-21 10:13:51,969 tick equity=932.64 pnl=-67.36 head=128856149
-2026-10-21 10:14:12,886 tick equity=931.24 pnl=-68.76 head=128856195
-2026-10-21 10:14:33,939 tick equity=931.61 pnl=-68.39 head=128856242
-2026-10-21 10:14:54,614 tick equity=934.35 pnl=-65.65 head=128856289
-2026-10-21 10:15:15,778 tick equity=936.19 pnl=-63.81 head=128856334
-2026-10-21 10:15:36,488 tick equity=936.21 pnl=-63.79 head=128856381
-2026-10-21 10:15:57,525 tick equity=936.74 pnl=-63.26 head=128856427
-2026-10-21 10:16:18,268 tick equity=938.57 pnl=-61.43 head=128856474
-2026-10-21 10:16:39,331 tick equity=938.73 pnl=-61.27 head=128856520
-2026-10-21 10:17:00,461 tick equity=939.83 pnl=-60.17 head=128856567
-2026-10-21 10:17:20,634 V2 {'ts': 1792549030, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xad4ad7d6faf360e77178fa9fc9db7bc7687a7777', 'sym': '柯基犬', 'price': 4.522e-06, 'action': 'skip-7d'}
-2026-10-21 10:17:21,464 tick equity=938.80 pnl=-61.20 head=128856614
-2026-10-21 10:17:41,597 {'ts': 1792549040, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'SELL', 'token': '0x529e9959a626f162ecf0ae3b540c068b64627777', 'tx': '0xab11a9ec500340f723570a39ca3082b53a3d2c861d925da9e58010b28ce58817', 'sym': 'ぎゅうらい', 'price': 4.028e-05, 'liq': 19629, 'action': 'sell', 'proceeds': 21.26, 'pnl': 1.26}
-2026-10-21 10:17:41,733 {'ts': 1792549047, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'SELL', 'token': '0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa', 'tx': '0xa16c3007d036b503bd10b25136f57c6705de1f99ead90e3ed554209d8ed2ea26', 'sym': 'BADGE', 'price': 0.0002914, 'liq': 55636, 'action': 'sell', 'proceeds': 8.09, 'pnl': -1.91}
 2026-10-21 10:17:42,371 tick equity=938.76 pnl=-61.24 head=128856661
 2026-10-21 10:18:03,419 tick equity=938.76 pnl=-61.24 head=128856707
 2026-10-21 10:18:24,674 tick equity=938.72 pnl=-61.28 head=128856754
@@ -298,3 +278,23 @@
 2026-10-21 14:19:52,647 tick equity=976.70 pnl=-23.30 head=128888941
 2026-10-21 14:20:13,388 tick equity=976.29 pnl=-23.71 head=128888987
 2026-10-21 14:20:33,907 tick equity=977.77 pnl=-22.23 head=128889033
+2026-10-21 14:51:17,124 {'ts': 1792564673, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0x5601a422986034521330bb4c799a8a3f29137777', 'tx': '0x50ab3554c12edbfc494d7a9ab79688c212b777874cf9c694828c4f6a7f16d9a6', 'action': 'skip-noprice'}
+2026-10-21 14:51:17,531 V2-RISK 交易猫 0x2e268497083cb5332103a17c788358480dc17777 KILL top10 holders 63%; LP only 0% locked/burned
+2026-10-21 14:51:17,531 V2 {'ts': 1792564693, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x2e268497083cb5332103a17c788358480dc17777', 'sym': '交易猫', 'price': 2.35e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 63%', 'LP only 0% locked/burned']}
+2026-10-21 14:51:17,531 {'ts': 1792564693, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x2e268497083cb5332103a17c788358480dc17777', 'tx': '0x5f8f433d0c772ac73b5eae96c2427779f5597907fa36059a314c5626898f495f', 'sym': '交易猫', 'price': 2.35e-05, 'liq': 15655, 'action': 'buy', 'stake': 10.0}
+2026-10-21 14:51:17,575 {'ts': 1792564970, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0x2e268497083cb5332103a17c788358480dc17777', 'tx': '0x21087b1d3b63a12ef16596b42623bf78a8459e53bdedf516fd6c8b0a620b2da9', 'sym': '交易猫', 'price': 2.35e-05, 'liq': 15655, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
+2026-10-21 14:51:17,807 V2 {'ts': 1792564890, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0006388, 'action': 'sell', 'proceeds': 50.17, 'pnl': 10.17}
+2026-10-21 14:51:17,807 {'ts': 1792564890, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'tx': '0x1431ed837050fca8d10b4a7f662075d23e97cdabb0ac9000f03a54a7055ecd16', 'sym': '.ai', 'price': 0.0006388, 'liq': 84994, 'action': 'sell', 'proceeds': 37.63, 'pnl': 7.63}
+2026-10-21 14:51:23,525 tick equity=951.14 pnl=-48.86 head=128893062
+2026-10-21 14:51:44,086 tick equity=951.73 pnl=-48.27 head=128893189
+2026-10-21 14:52:05,012 tick equity=953.34 pnl=-46.66 head=128893234
+2026-10-21 14:52:25,507 tick equity=952.92 pnl=-47.08 head=128893281
+2026-10-21 14:52:46,210 tick equity=956.31 pnl=-43.69 head=128893326
+2026-10-21 14:53:06,822 tick equity=953.73 pnl=-46.27 head=128893372
+2026-10-21 14:53:27,446 tick equity=953.97 pnl=-46.03 head=128893418
+2026-10-21 14:53:47,850 tick equity=953.99 pnl=-46.01 head=128893464
+2026-10-21 14:54:08,568 tick equity=953.81 pnl=-46.19 head=128893509
+2026-10-21 14:54:28,922 tick equity=951.72 pnl=-48.28 head=128893555
+2026-10-21 14:54:49,651 tick equity=951.93 pnl=-48.07 head=128893601
+2026-10-21 14:55:10,139 tick equity=951.92 pnl=-48.08 head=128893647
+2026-10-21 14:55:30,807 tick equity=951.85 pnl=-48.15 head=128893692

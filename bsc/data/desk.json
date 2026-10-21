@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792563633,
- "tokens_seen": 28,
+ "updated": 1792565730,
+ "tokens_seen": 29,
  "risk": {
-  "checked": 42,
-  "killed": 14,
+  "checked": 43,
+  "killed": 15,
   "passed": 28
  },
  "kills": [
@@ -90,57 +90,65 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "交易猫",
+   "token": "0x2e268497083cb5332103a17c788358480dc17777",
+   "reasons": [
+    "top10 holders 63%",
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": 0.0008,
+  "dd_today": -0.0038,
   "limit": -0.1
  },
  "v2": {
-  "equity": 993.45,
+  "equity": 988.94,
   "day_start": 992.68,
-  "pnl_today": 0.77,
-  "open_positions": 4,
-  "closed_positions": 12,
-  "closed_sells": 13,
-  "win_rate": 0.154,
-  "realized_today": -16.87,
+  "pnl_today": -3.74,
+  "open_positions": 3,
+  "closed_positions": 13,
+  "closed_sells": 14,
+  "win_rate": 0.214,
+  "realized_today": -6.7,
   "best_token": {
    "sym": "AID",
    "pnl": 2.58
   },
   "worst_token": {
-   "sym": ".ai",
-   "pnl": -11.32
+   "sym": "LITY",
+   "pnl": -7.35
   },
   "copied": 30,
   "best_open": {
-   "sym": ".ai",
-   "upnl": 7.1
+   "sym": "逆蝶",
+   "upnl": 0.6
   },
   "worst_open": {
-   "sym": "TRUMAN",
-   "upnl": 0.4
+   "sym": "LITY",
+   "upnl": -5.42
   }
  },
  "baseline": {
-  "equity": 977.77,
+  "equity": 951.85,
   "day_start": 1000.0,
-  "pnl_today": -22.23,
-  "closed_sells": 41,
-  "win_rate": 0.195,
-  "realized_today": 7.52,
+  "pnl_today": -48.15,
+  "closed_sells": 43,
+  "win_rate": 0.209,
+  "realized_today": 14.37,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
   },
   "worst_token": {
-   "sym": ".ai",
-   "pnl": -8.95
+   "sym": "LITY",
+   "pnl": -6.94
   },
-  "copied": 127
+  "copied": 128
  },
  "confluence": {
   "equity": 1000.72,
@@ -232,15 +240,15 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792561961,
+  "updated": 1792565483,
   "rejected": {
-   "n": 26,
+   "n": 27,
    "1h": {
-    "n": 25,
-    "avg_ret": 0.3328,
-    "bad_pct": 0.08,
-    "rug_pct": 0.04,
-    "up_pct": 0.56
+    "n": 26,
+    "avg_ret": 0.3191,
+    "bad_pct": 0.077,
+    "rug_pct": 0.038,
+    "up_pct": 0.538
    },
    "6h": {
     "n": 16,
@@ -257,9 +265,9 @@
     "up_pct": null
    },
    "latest": {
-    "n": 25,
-    "avg_ret": 0.2953,
-    "bad_pct": 0.08,
+    "n": 26,
+    "avg_ret": 0.283,
+    "bad_pct": 0.077,
     "winners": 2
    }
   },
@@ -273,11 +281,11 @@
     "up_pct": 0.417
    },
    "6h": {
-    "n": 7,
-    "avg_ret": 0.0459,
-    "bad_pct": 0.429,
+    "n": 8,
+    "avg_ret": -0.0135,
+    "bad_pct": 0.375,
     "rug_pct": 0.0,
-    "up_pct": 0.429
+    "up_pct": 0.375
    },
    "24h": {
     "n": 0,
@@ -288,20 +296,20 @@
    },
    "latest": {
     "n": 12,
-    "avg_ret": 0.0098,
+    "avg_ret": -0.0071,
     "bad_pct": 0.25,
     "winners": 1
    }
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 18,
+    "n": 19,
     "1h": {
-     "n": 17,
-     "avg_ret": -0.0154,
+     "n": 18,
+     "avg_ret": -0.0159,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.647
+     "up_pct": 0.611
     },
     "6h": {
      "n": 13,
@@ -318,14 +326,14 @@
      "up_pct": null
     },
     "latest": {
-     "n": 17,
-     "avg_ret": -0.0119,
+     "n": 18,
+     "avg_ret": -0.0126,
      "bad_pct": 0.0,
      "winners": 0
     }
    },
    "top holders": {
-    "n": 15,
+    "n": 16,
     "1h": {
      "n": 15,
      "avg_ret": 0.3045,
@@ -821,7 +829,7 @@
     "src": "backfill",
     "ret": {
      "1h": -0.227,
-     "6h": null,
+     "6h": -0.4291,
      "24h": null
     },
     "rug": false
@@ -1040,6 +1048,23 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792561084,
+    "src": "live",
+    "ret": {
+     "1h": -0.0238,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "交易猫",
+    "token": "0x2e268497083cb5332103a17c788358480dc17777",
+    "ok": false,
+    "reasons": [
+     "top10 holders 63%",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792565477,
     "src": "live",
     "ret": {
      "1h": null,
