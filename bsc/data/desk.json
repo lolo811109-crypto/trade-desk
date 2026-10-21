@@ -2,7 +2,7 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792580587,
+ "updated": 1792580775,
  "tokens_seen": 71,
  "risk": {
   "checked": 78,
@@ -176,13 +176,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0122,
+  "dd_today": -0.014,
   "limit": -0.1
  },
  "v2": {
-  "equity": 980.55,
+  "equity": 978.74,
   "day_start": 992.68,
-  "pnl_today": -12.13,
+  "pnl_today": -13.94,
   "open_positions": 5,
   "closed_positions": 20,
   "closed_sells": 21,
@@ -203,13 +203,13 @@
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -6.44
+   "upnl": -8.24
   }
  },
  "baseline": {
-  "equity": 898.87,
+  "equity": 888.02,
   "day_start": 1000.0,
-  "pnl_today": -101.13,
+  "pnl_today": -111.98,
   "closed_sells": 57,
   "win_rate": 0.228,
   "realized_today": -7.1,

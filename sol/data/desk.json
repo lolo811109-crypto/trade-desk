@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792580588,
+ "updated": 1792580776,
  "tokens_seen": 65,
  "risk": {
   "checked": 38,
@@ -43,13 +43,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0197,
+  "dd_today": -0.0211,
   "limit": -0.1
  },
  "v2": {
-  "equity": 980.34,
+  "equity": 978.94,
   "day_start": 1000.0,
-  "pnl_today": -19.66,
+  "pnl_today": -21.06,
   "open_positions": 17,
   "closed_positions": 5,
   "closed_sells": 5,
@@ -66,17 +66,17 @@
   "copied": 31,
   "best_open": {
    "sym": "EXFIL",
-   "upnl": 0.92
+   "upnl": 0.86
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -4.32
+   "upnl": -3.94
   }
  },
  "baseline": {
-  "equity": 927.37,
+  "equity": 929.62,
   "day_start": 1000.0,
-  "pnl_today": -72.63,
+  "pnl_today": -70.38,
   "closed_sells": 65,
   "win_rate": 0.2,
   "realized_today": -38.12,
@@ -91,15 +91,15 @@
   "copied": 154
  },
  "risk_track": {
-  "updated": 1792580469,
+  "updated": 1792580648,
   "rejected": {
    "n": 2,
    "1h": {
-    "n": 0,
-    "avg_ret": null,
-    "bad_pct": null,
-    "rug_pct": null,
-    "up_pct": null
+    "n": 1,
+    "avg_ret": -0.0232,
+    "bad_pct": 0.0,
+    "rug_pct": 0.0,
+    "up_pct": 0.0
    },
    "6h": {
     "n": 0,
@@ -116,9 +116,9 @@
     "up_pct": null
    },
    "latest": {
-    "n": 0,
-    "avg_ret": null,
-    "bad_pct": null,
+    "n": 1,
+    "avg_ret": -0.0232,
+    "bad_pct": 0.0,
     "winners": 0
    }
   },
@@ -156,11 +156,11 @@
    "top holders": {
     "n": 2,
     "1h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
+     "n": 1,
+     "avg_ret": -0.0232,
+     "bad_pct": 0.0,
+     "rug_pct": 0.0,
+     "up_pct": 0.0
     },
     "6h": {
      "n": 0,
@@ -177,20 +177,20 @@
      "up_pct": null
     },
     "latest": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
+     "n": 1,
+     "avg_ret": -0.0232,
+     "bad_pct": 0.0,
      "winners": 0
     }
    },
    "warn: LP burned only": {
     "n": 1,
     "1h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
+     "n": 1,
+     "avg_ret": -0.0232,
+     "bad_pct": 0.0,
+     "rug_pct": 0.0,
+     "up_pct": 0.0
     },
     "6h": {
      "n": 0,
@@ -207,9 +207,9 @@
      "up_pct": null
     },
     "latest": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
+     "n": 1,
+     "avg_ret": -0.0232,
+     "bad_pct": 0.0,
      "winners": 0
     }
    }
@@ -448,7 +448,7 @@
     "ts": 1792576998,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0232,
      "6h": null,
      "24h": null
     },
