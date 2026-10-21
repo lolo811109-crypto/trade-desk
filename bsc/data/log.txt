@@ -1,55 +1,3 @@
-2026-10-21 12:01:01,447 V2-RISK RTX5090 0x5601a422986034521330bb4c799a8a3f29137777 KILL top10 holders 68%; LP only 0% locked/burned
-2026-10-21 12:01:01,447 V2 {'ts': 1792555148, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x5601a422986034521330bb4c799a8a3f29137777', 'sym': 'RTX5090', 'price': 8.172e-06, 'action': 'kill-risk', 'reasons': ['top10 holders 68%', 'LP only 0% locked/burned']}
-2026-10-21 12:01:01,448 {'ts': 1792555148, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x5601a422986034521330bb4c799a8a3f29137777', 'tx': '0xc4b862d9057793e9afdd2685dd6cf638ee9a0a128cc7005b0c8c88ef7ffa214a', 'sym': 'RTX5090', 'price': 8.172e-06, 'liq': 8758, 'action': 'buy', 'stake': 10.0}
-2026-10-21 12:01:03,605 tick equity=924.94 pnl=-75.06 head=128870435
-2026-10-21 12:19:17,680 V2 {'ts': 1792555336, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 8.25038692e-06, 'action': 'skip-liq'}
-2026-10-21 12:19:17,683 {'ts': 1792555336, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'tx': '0x0e653d43bca4abf45f41534ea758e6a48e12bf0db134bd494afb41103869b5be', 'sym': '.AI', 'price': 8.25038692e-06, 'liq': 4997, 'action': 'skip-liq'}
-2026-10-21 12:19:18,127 V2-RISK 红果 0xdbf0f682ddaf718611d6eb4165836c5204197777 KILL LP only 0% locked/burned
-2026-10-21 12:19:18,127 V2 {'ts': 1792555759, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xdbf0f682ddaf718611d6eb4165836c5204197777', 'sym': '红果', 'price': 4.953e-05, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 12:19:18,127 {'ts': 1792555759, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xdbf0f682ddaf718611d6eb4165836c5204197777', 'tx': '0x957bc898906703b7eed83532cf7c233a891b82e27c51f91841aadd9033cd2370', 'sym': '红果', 'price': 4.953e-05, 'liq': 20683, 'action': 'buy', 'stake': 10.0}
-2026-10-21 12:19:18,166 V2 {'ts': 1792555760, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xdbf0f682ddaf718611d6eb4165836c5204197777', 'sym': '红果', 'price': 4.953e-05, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 12:19:18,166 {'ts': 1792555760, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xdbf0f682ddaf718611d6eb4165836c5204197777', 'tx': '0xfb7bafe85a905a0615c8ad2891e8944489442e3d9a68a5faf6fa856af75a5de3', 'sym': '红果', 'price': 4.953e-05, 'liq': 20683, 'action': 'buy', 'stake': 10.0}
-2026-10-21 12:19:18,224 {'ts': 1792555772, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0xdbf0f682ddaf718611d6eb4165836c5204197777', 'tx': '0x5dda654fbb6fd044563a2da23b12fa8d11651d3c6c6b7b32c7c916bf1360986f', 'sym': '红果', 'price': 4.953e-05, 'liq': 20683, 'action': 'sell', 'proceeds': 18.43, 'pnl': -1.57}
-2026-10-21 12:19:18,884 V2 {'ts': 1792555382, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:18,930 V2 {'ts': 1792555388, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:18,978 V2 {'ts': 1792555390, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,091 V2 {'ts': 1792555391, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,137 V2 {'ts': 1792555392, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,183 V2 {'ts': 1792555394, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,222 V2 {'ts': 1792555395, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,281 V2 {'ts': 1792555396, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,326 V2 {'ts': 1792555404, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,389 V2 {'ts': 1792555405, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,435 V2 {'ts': 1792555405, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:19,485 V2 {'ts': 1792555407, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777', 'sym': '.AI', 'price': 5.338e-05, 'action': 'skip-7d'}
-2026-10-21 12:19:28,070 tick equity=928.64 pnl=-71.36 head=128872835
-2026-10-21 12:19:48,651 tick equity=928.83 pnl=-71.17 head=128872937
-2026-10-21 12:20:09,407 tick equity=928.84 pnl=-71.16 head=128872982
-2026-10-21 12:20:30,027 tick equity=931.68 pnl=-68.32 head=128873029
-2026-10-21 12:20:50,780 tick equity=931.58 pnl=-68.42 head=128873075
-2026-10-21 12:21:11,318 tick equity=931.19 pnl=-68.81 head=128873120
-2026-10-21 12:21:32,074 tick equity=932.42 pnl=-67.58 head=128873166
-2026-10-21 12:21:52,496 tick equity=932.43 pnl=-67.57 head=128873213
-2026-10-21 12:22:13,237 tick equity=933.14 pnl=-66.86 head=128873258
-2026-10-21 12:22:33,747 tick equity=933.63 pnl=-66.37 head=128873304
-2026-10-21 12:22:54,542 tick equity=933.64 pnl=-66.36 head=128873349
-2026-10-21 12:23:15,019 tick equity=933.97 pnl=-66.03 head=128873396
-2026-10-21 12:23:35,871 tick equity=934.54 pnl=-65.46 head=128873441
-2026-10-21 12:28:06,462 tick equity=939.72 pnl=-60.28 head=128874039
-2026-10-21 12:50:15,750 {'ts': 1792557330, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfe0930e484d5ffb2e894281286f8501b6fe77777', 'tx': '0x4719339d0bb2a1335770a9e869add4c3a6ebbcbe9f8e142d4f7d791df367b91a', 'action': 'skip-noprice'}
-2026-10-21 12:50:21,901 tick equity=949.26 pnl=-50.74 head=128876964
-2026-10-21 12:50:42,278 tick equity=949.26 pnl=-50.74 head=128877057
-2026-10-21 12:51:03,097 tick equity=948.72 pnl=-51.28 head=128877102
-2026-10-21 12:51:23,644 tick equity=949.15 pnl=-50.85 head=128877148
-2026-10-21 12:51:44,385 tick equity=948.81 pnl=-51.19 head=128877194
-2026-10-21 12:52:04,987 tick equity=949.41 pnl=-50.59 head=128877240
-2026-10-21 12:52:25,891 tick equity=949.22 pnl=-50.78 head=128877286
-2026-10-21 12:52:46,323 tick equity=954.15 pnl=-45.85 head=128877332
-2026-10-21 12:53:06,968 tick equity=953.38 pnl=-46.62 head=128877377
-2026-10-21 12:53:27,524 tick equity=953.81 pnl=-46.19 head=128877423
-2026-10-21 12:53:48,148 tick equity=956.81 pnl=-43.19 head=128877469
-2026-10-21 12:54:08,783 tick equity=960.03 pnl=-39.97 head=128877515
-2026-10-21 12:54:29,579 tick equity=959.69 pnl=-40.31 head=128877561
 2026-10-21 13:38:02,522 V2 {'ts': 1792560257, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0004634981725, 'action': 'buy', 'stake': 10.0}
 2026-10-21 13:38:02,524 {'ts': 1792560257, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'tx': '0xac2cc079db1e60e08add14f2bc2fd64275480278b17080ab1454d22a63b8aab0', 'sym': '.ai', 'price': 0.0004634981725, 'liq': 48440, 'action': 'buy', 'stake': 10.0}
 2026-10-21 13:38:02,602 V2 {'ts': 1792560393, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0004694, 'action': 'sell', 'proceeds': 9.33, 'pnl': -0.67}
@@ -298,3 +246,55 @@
 2026-10-21 16:04:25,206 tick equity=959.97 pnl=-40.03 head=128902874
 2026-10-21 16:04:45,533 {'ts': 1792569868, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0xbde604860ed84ae32e595cd6bece36bcdc217777', 'tx': '0x261363ff02461c432317f8fc46681113fe1a08c6282abd5a39dd2d735492e02b', 'action': 'skip-noprice'}
 2026-10-21 16:04:46,222 tick equity=961.24 pnl=-38.76 head=128902920
+2026-10-21 16:05:06,691 V2-RISK 币安时代 0x5137927f6ecd2f096278536b7b023a253dc17777 KILL buy_tax unknown; sell_tax unknown
+2026-10-21 16:05:06,691 V2 {'ts': 1792569895, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5137927f6ecd2f096278536b7b023a253dc17777', 'sym': '币安时代', 'price': 1.851e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-21 16:05:06,692 {'ts': 1792569895, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5137927f6ecd2f096278536b7b023a253dc17777', 'tx': '0x2998a71448101a6e2e2d5f6062a9e7e2e92deb87775b3a53fdf800f163aedecf', 'sym': '币安时代', 'price': 1.851e-05, 'liq': 18558, 'action': 'buy', 'stake': 10.0}
+2026-10-21 16:05:07,430 tick equity=960.52 pnl=-39.48 head=128902967
+2026-10-21 16:05:27,643 V2 {'ts': 1792569922, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x8cd12c4c0c6b3bceada816f89a9c6b2c63827777', 'sym': '币安时代', 'price': 6.418e-06, 'action': 'skip-7d'}
+2026-10-21 16:05:27,698 V2 {'ts': 1792569923, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x8cd12c4c0c6b3bceada816f89a9c6b2c63827777', 'sym': '币安时代', 'price': 6.418e-06, 'action': 'skip-7d'}
+2026-10-21 16:05:27,719 V2 {'ts': 1792569923, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x8cd12c4c0c6b3bceada816f89a9c6b2c63827777', 'sym': '币安时代', 'price': 6.418e-06, 'action': 'skip-7d'}
+2026-10-21 16:05:28,716 tick equity=970.32 pnl=-29.68 head=128903014
+2026-10-21 16:05:49,513 tick equity=971.81 pnl=-28.19 head=128903062
+2026-10-21 16:06:09,661 V2 {'ts': 1792569953, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5137927f6ecd2f096278536b7b023a253dc17777', 'sym': '币安时代', 'price': 3.525e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-21 16:06:09,662 {'ts': 1792569953, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5137927f6ecd2f096278536b7b023a253dc17777', 'tx': '0xd056434c9cdddcdede6ca2ea7e773b43e474098b236f5ab86625b9ff4f58dcbf', 'sym': '币安时代', 'price': 3.525e-05, 'liq': 17683, 'action': 'buy', 'stake': 10.0}
+2026-10-21 16:06:09,971 V2 {'ts': 1792569956, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x5137927f6ecd2f096278536b7b023a253dc17777', 'sym': '币安时代', 'price': 3.525e-05, 'action': 'skip-7d'}
+2026-10-21 16:06:09,971 CONFLUENCE 币安时代 0x5137927f6ecd2f096278536b7b023a253dc17777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xdf579d27140000251421f3bb2b4ed43835eb3b6b']
+2026-10-21 16:06:10,279 V2-RISK 币安时代 0x5137927f6ecd2f096278536b7b023a253dc17777 KILL buy_tax unknown; sell_tax unknown
+2026-10-21 16:06:10,279 V2 {'ts': 1792569956, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x5137927f6ecd2f096278536b7b023a253dc17777', 'sym': '币安时代', 'price': 3.525e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-21 16:06:10,930 tick equity=969.67 pnl=-30.33 head=128903108
+2026-10-21 16:06:31,169 V2 {'ts': 1792569984, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x7a848a5a8169aa6a2f603d056a749f924f504444', 'sym': 'CZ', 'price': 0.001879, 'action': 'sell', 'proceeds': 10.54, 'pnl': 0.54}
+2026-10-21 16:06:31,169 {'ts': 1792569984, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x7a848a5a8169aa6a2f603d056a749f924f504444', 'tx': '0x7c6ca4e733f6a000d4ce43acb7e22d95344ee868f3e86e5a0088126d67790b16', 'sym': 'CZ', 'price': 0.001879, 'liq': 274979, 'action': 'sell', 'proceeds': 10.54, 'pnl': 0.54}
+2026-10-21 16:06:31,984 tick equity=956.30 pnl=-43.70 head=128903155
+2026-10-21 16:06:52,198 V2 {'ts': 1792569999, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 1.046e-05, 'action': 'skip-7d'}
+2026-10-21 16:06:52,235 V2 {'ts': 1792570001, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 1.046e-05, 'action': 'skip-7d'}
+2026-10-21 16:06:52,910 tick equity=956.32 pnl=-43.68 head=128903202
+2026-10-21 16:07:13,083 {'ts': 1792570031, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x5137927f6ecd2f096278536b7b023a253dc17777', 'tx': '0x5a645d0a8f480e7f6006fc7e1131fe5a88bb4574dfc9d12f03e7fd4004c7e33b', 'sym': '币安时代', 'price': 1.64e-05, 'liq': 12134, 'action': 'sell', 'proceeds': 12.45, 'pnl': -7.55}
+2026-10-21 16:07:13,407 V2 {'ts': 1792570012, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 1.789e-05, 'action': 'skip-7d'}
+2026-10-21 16:07:13,408 CONFLUENCE 币安智能时代 0x3ea7799ece48a69b1a804156d834005cf4007777 wallets=['0xc5606cde16fb8c39cc68d1d97700883ae951ff56', '0xdf579d27140000251421f3bb2b4ed43835eb3b6b']
+2026-10-21 16:07:13,680 V2-RISK 币安智能时代 0x3ea7799ece48a69b1a804156d834005cf4007777 KILL buy_tax unknown; sell_tax unknown
+2026-10-21 16:07:13,680 V2 {'ts': 1792570012, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 1.789e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-21 16:07:14,514 tick equity=952.36 pnl=-47.64 head=128903246
+2026-10-21 16:07:34,933 V2-RISK 币安智能时代 0x3ea7799ece48a69b1a804156d834005cf4007777 KILL buy_tax unknown; sell_tax unknown
+2026-10-21 16:07:34,934 V2 {'ts': 1792570051, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 2.962e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-21 16:07:34,934 {'ts': 1792570051, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'tx': '0x214e72ab4474dd450697e69122447e3635c8a3d69f459c9f690933033b4ec9ee', 'sym': '币安智能时代', 'price': 2.962e-05, 'liq': 16171, 'action': 'buy', 'stake': 10.0}
+2026-10-21 16:07:36,073 tick equity=952.25 pnl=-47.75 head=128903297
+2026-10-21 16:07:56,481 V2 {'ts': 1792570064, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:07:56,581 V2 {'ts': 1792570069, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:07:56,621 V2 {'ts': 1792570069, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:07:56,657 V2 {'ts': 1792570071, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:07:57,591 tick equity=957.97 pnl=-42.03 head=128903344
+2026-10-21 16:08:17,783 V2 {'ts': 1792570078, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:08:17,805 V2 {'ts': 1792570078, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:08:17,850 V2 {'ts': 1792570079, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:08:17,874 V2 {'ts': 1792570079, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x9929621ff67439dd08654e84855eb243cd727777', 'sym': '币安智能时代', 'price': 8.9e-06, 'action': 'skip-7d'}
+2026-10-21 16:08:18,199 V2 {'ts': 1792570089, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 4.801e-05, 'action': 'skip-7d'}
+2026-10-21 16:08:19,011 tick equity=957.47 pnl=-42.53 head=128903392
+2026-10-21 16:08:40,200 tick equity=956.10 pnl=-43.90 head=128903440
+2026-10-21 16:09:00,552 V2 {'ts': 1792570136, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 4.117e-05, 'action': 'skip-7d'}
+2026-10-21 16:09:01,315 tick equity=954.87 pnl=-45.13 head=128903487
+2026-10-21 16:09:21,499 V2 {'ts': 1792570147, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'sym': '币安智能时代', 'price': 4.117e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-21 16:09:21,500 {'ts': 1792570147, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'tx': '0x7f2cd92e8ae70c5cf86ad3d3914deeff9f6c37ab7d578c37d50e26f94feb6b26', 'sym': '币安智能时代', 'price': 4.117e-05, 'liq': 19265, 'action': 'buy', 'stake': 10.0}
+2026-10-21 16:09:21,542 {'ts': 1792570159, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x3ea7799ece48a69b1a804156d834005cf4007777', 'tx': '0x5a96a54782b7ba7a4cd5edbb5b9f93a8ab5b8594264dd61db4c5aebd25cac2f6', 'sym': '币安智能时代', 'price': 4.117e-05, 'liq': 19265, 'action': 'sell', 'proceeds': 22.03, 'pnl': 2.03}
+2026-10-21 16:09:21,745 V2 {'ts': 1792570144, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x341320b262ed01f1cd282c41c5f1fbe3ff607777', 'sym': '币安智能时代', 'price': 4.925e-06, 'action': 'skip-7d'}
+2026-10-21 16:09:22,845 tick equity=954.08 pnl=-45.92 head=128903533
+2026-10-21 16:09:43,923 tick equity=954.08 pnl=-45.92 head=128903581

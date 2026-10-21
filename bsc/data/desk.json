@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792569886,
- "tokens_seen": 35,
+ "updated": 1792570183,
+ "tokens_seen": 40,
  "risk": {
-  "checked": 47,
-  "killed": 16,
+  "checked": 51,
+  "killed": 20,
   "passed": 31
  },
  "kills": [
@@ -107,23 +107,39 @@
     "sell_tax unknown",
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "币安时代",
+   "token": "0x5137927f6ecd2f096278536b7b023a253dc17777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
+  },
+  {
+   "sym": "币安智能时代",
+   "token": "0x3ea7799ece48a69b1a804156d834005cf4007777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0005,
+  "dd_today": -0.0012,
   "limit": -0.1
  },
  "v2": {
-  "equity": 992.15,
+  "equity": 991.45,
   "day_start": 992.68,
-  "pnl_today": -0.53,
-  "open_positions": 5,
-  "closed_positions": 14,
-  "closed_sells": 15,
-  "win_rate": 0.267,
-  "realized_today": -3.78,
+  "pnl_today": -1.23,
+  "open_positions": 4,
+  "closed_positions": 15,
+  "closed_sells": 16,
+  "win_rate": 0.312,
+  "realized_today": -3.24,
   "best_token": {
    "sym": "WATER",
    "pnl": 2.92
@@ -139,25 +155,25 @@
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -4.89
+   "upnl": -5.18
   }
  },
  "baseline": {
-  "equity": 961.24,
+  "equity": 954.08,
   "day_start": 1000.0,
-  "pnl_today": -38.76,
-  "closed_sells": 44,
-  "win_rate": 0.227,
-  "realized_today": 17.29,
+  "pnl_today": -45.92,
+  "closed_sells": 47,
+  "win_rate": 0.255,
+  "realized_today": 12.31,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
   },
   "worst_token": {
-   "sym": "LITY",
-   "pnl": -6.94
+   "sym": "币安时代",
+   "pnl": -7.55
   },
-  "copied": 132
+  "copied": 136
  },
  "confluence": {
   "equity": 1000.72,
@@ -244,14 +260,36 @@
     ],
     "trigger": "0x7dfd45e511a05d012d19264e2adf4acfe7717f1f",
     "price": 6.485e-05
+   },
+   {
+    "ts": 1792569956,
+    "token": "0x5137927f6ecd2f096278536b7b023a253dc17777",
+    "sym": "币安时代",
+    "wallets": [
+     "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+     "0xdf579d27140000251421f3bb2b4ed43835eb3b6b"
+    ],
+    "trigger": "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
+    "price": 3.525e-05
+   },
+   {
+    "ts": 1792570012,
+    "token": "0x3ea7799ece48a69b1a804156d834005cf4007777",
+    "sym": "币安智能时代",
+    "wallets": [
+     "0xc5606cde16fb8c39cc68d1d97700883ae951ff56",
+     "0xdf579d27140000251421f3bb2b4ed43835eb3b6b"
+    ],
+    "trigger": "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
+    "price": 1.789e-05
    }
   ],
-  "events_total": 6
+  "events_total": 8
  },
  "risk_track": {
-  "updated": 1792569194,
+  "updated": 1792570183,
   "rejected": {
-   "n": 28,
+   "n": 30,
    "1h": {
     "n": 27,
     "avg_ret": 0.309,
@@ -290,11 +328,11 @@
     "up_pct": 0.417
    },
    "6h": {
-    "n": 8,
-    "avg_ret": -0.0135,
-    "bad_pct": 0.375,
+    "n": 9,
+    "avg_ret": -0.0548,
+    "bad_pct": 0.333,
     "rug_pct": 0.0,
-    "up_pct": 0.375
+    "up_pct": 0.333
    },
    "24h": {
     "n": 0,
@@ -305,7 +343,7 @@
    },
    "latest": {
     "n": 12,
-    "avg_ret": -0.0071,
+    "avg_ret": -0.0372,
     "bad_pct": 0.25,
     "winners": 1
    }
@@ -372,7 +410,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 6,
+    "n": 8,
     "1h": {
      "n": 5,
      "avg_ret": 0.7944,
@@ -402,7 +440,7 @@
     }
    },
    "buy_tax unknown": {
-    "n": 6,
+    "n": 8,
     "1h": {
      "n": 5,
      "avg_ret": 0.7944,
@@ -870,7 +908,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0242,
-     "6h": null,
+     "6h": -0.3855,
      "24h": null
     },
     "rug": false
@@ -1134,6 +1172,40 @@
     "ok": true,
     "reasons": [],
     "ts": 1792569194,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "币安时代",
+    "token": "0x5137927f6ecd2f096278536b7b023a253dc17777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792569906,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "币安智能时代",
+    "token": "0x3ea7799ece48a69b1a804156d834005cf4007777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792570033,
     "src": "live",
     "ret": {
      "1h": null,
