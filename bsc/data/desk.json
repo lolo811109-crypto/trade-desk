@@ -2,8 +2,8 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792548790,
- "tokens_seen": 14,
+ "updated": 1792549083,
+ "tokens_seen": 15,
  "risk": {
   "checked": 6,
   "killed": 2,
@@ -28,13 +28,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0048,
+  "dd_today": -0.0019,
   "limit": -0.1
  },
  "v2": {
-  "equity": 987.9,
+  "equity": 990.79,
   "day_start": 992.68,
-  "pnl_today": -4.78,
+  "pnl_today": -1.89,
   "open_positions": 3,
   "closed_positions": 0,
   "closed_sells": 1,
@@ -51,29 +51,29 @@
   "copied": 6,
   "best_open": {
    "sym": ".ai",
-   "upnl": -0.9
+   "upnl": 0.24
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -2.2
+   "upnl": -1.68
   }
  },
  "baseline": {
-  "equity": 933.88,
+  "equity": 938.76,
   "day_start": 1000.0,
-  "pnl_today": -66.12,
-  "closed_sells": 26,
-  "win_rate": 0.192,
-  "realized_today": 21.77,
+  "pnl_today": -61.24,
+  "closed_sells": 28,
+  "win_rate": 0.214,
+  "realized_today": 21.12,
   "best_token": {
    "sym": "ぎゅうらい",
-   "pnl": 42.37
+   "pnl": 43.63
   },
   "worst_token": {
    "sym": ".ai",
    "pnl": -8.28
   },
-  "copied": 99
+  "copied": 100
  },
  "confluence": {
   "equity": 1000.0,
