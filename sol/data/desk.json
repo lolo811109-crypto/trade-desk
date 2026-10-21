@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792589935,
+ "updated": 1792590953,
  "tokens_seen": 68,
  "risk": {
-  "checked": 41,
-  "killed": 10,
-  "passed": 32
+  "checked": 48,
+  "killed": 15,
+  "passed": 34
  },
  "kills": [
   {
@@ -57,18 +57,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0216,
+  "dd_today": -0.0225,
   "limit": -0.1
  },
  "v2": {
-  "equity": 978.36,
+  "equity": 977.47,
   "day_start": 1000.0,
-  "pnl_today": -21.64,
-  "open_positions": 17,
-  "closed_positions": 6,
-  "closed_sells": 6,
+  "pnl_today": -22.53,
+  "open_positions": 18,
+  "closed_positions": 7,
+  "closed_sells": 7,
   "win_rate": 0.0,
-  "realized_today": -9.99,
+  "realized_today": -10.58,
   "best_token": {
    "sym": "GLITCH",
    "pnl": -1.01
@@ -77,20 +77,20 @@
    "sym": "MOMO",
    "pnl": -3.74
   },
-  "copied": 32,
+  "copied": 34,
   "best_open": {
-   "sym": "EXFIL",
-   "upnl": 0.71
+   "sym": "COMPUTE",
+   "upnl": 0.32
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -3.64
+   "upnl": -3.47
   }
  },
  "baseline": {
-  "equity": 939.92,
+  "equity": 931.44,
   "day_start": 1000.0,
-  "pnl_today": -60.08,
+  "pnl_today": -68.56,
   "closed_sells": 66,
   "win_rate": 0.212,
   "realized_today": -37.71,
@@ -102,10 +102,10 @@
    "sym": "Kimchi",
    "pnl": -14.38
   },
-  "copied": 156
+  "copied": 164
  },
  "risk_track": {
-  "updated": 1792589466,
+  "updated": 1792590709,
   "rejected": {
    "n": 4,
    "1h": {
@@ -137,7 +137,7 @@
    }
   },
   "passed": {
-   "n": 17,
+   "n": 18,
    "1h": {
     "n": 16,
     "avg_ret": -0.01,
@@ -545,10 +545,26 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "CRAWL",
+    "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792590709,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
  "risk_warn": {
-  "warn_lp": 8
+  "warn_lp": 9
  }
 }
