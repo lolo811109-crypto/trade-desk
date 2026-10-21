@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792602078,
- "tokens_seen": 1,
+ "updated": 1792605670,
+ "tokens_seen": 5,
  "risk": {
-  "checked": 0,
-  "killed": 1,
+  "checked": 2,
+  "killed": 3,
   "passed": 0
  },
  "kills": [
@@ -16,18 +16,26 @@
    "reasons": [
     "liq $35,463 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "ANSEM",
+   "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "reasons": [
+    "top10 holders 65%",
+    "warn: LP burned only 0%"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0006,
+  "dd_today": -0.0037,
   "limit": -0.1
  },
  "v2": {
-  "equity": 978.4,
+  "equity": 975.41,
   "day_start": 979.0,
-  "pnl_today": -0.6,
+  "pnl_today": -3.59,
   "open_positions": 17,
   "closed_positions": 0,
   "closed_sells": 0,
@@ -38,17 +46,17 @@
   "copied": 0,
   "best_open": {
    "sym": "CRAWL",
-   "upnl": 3.41
+   "upnl": 1.37
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -4.51
+   "upnl": -4.66
   }
  },
  "baseline": {
-  "equity": 958.91,
+  "equity": 933.0,
   "day_start": 983.73,
-  "pnl_today": -24.82,
+  "pnl_today": -50.73,
   "closed_sells": 1,
   "win_rate": 0.0,
   "realized_today": -1.04,
@@ -60,18 +68,18 @@
    "sym": "EXFIL",
    "pnl": -1.04
   },
-  "copied": 1
+  "copied": 4
  },
  "risk_track": {
-  "updated": 1792602041,
+  "updated": 1792605670,
   "rejected": {
-   "n": 6,
+   "n": 7,
    "1h": {
-    "n": 5,
-    "avg_ret": -0.1367,
-    "bad_pct": 0.0,
+    "n": 6,
+    "avg_ret": -0.206,
+    "bad_pct": 0.167,
     "rug_pct": 0.0,
-    "up_pct": 0.2
+    "up_pct": 0.167
    },
    "6h": {
     "n": 2,
@@ -88,9 +96,9 @@
     "up_pct": null
    },
    "latest": {
-    "n": 5,
-    "avg_ret": -0.033,
-    "bad_pct": 0.0,
+    "n": 6,
+    "avg_ret": -0.1196,
+    "bad_pct": 0.167,
     "winners": 0
    }
   },
@@ -126,7 +134,7 @@
   },
   "rules": {
    "top holders": {
-    "n": 4,
+    "n": 5,
     "1h": {
      "n": 4,
      "avg_ret": -0.0759,
@@ -155,38 +163,8 @@
      "winners": 0
     }
    },
-   "liq $, < $, v floor": {
-    "n": 2,
-    "1h": {
-     "n": 1,
-     "avg_ret": -0.3797,
-     "bad_pct": 0.0,
-     "rug_pct": 0.0,
-     "up_pct": 0.0
-    },
-    "6h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
-    },
-    "24h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
-    },
-    "latest": {
-     "n": 1,
-     "avg_ret": -0.3797,
-     "bad_pct": 0.0,
-     "winners": 0
-    }
-   },
    "warn: LP burned only": {
-    "n": 1,
+    "n": 2,
     "1h": {
      "n": 1,
      "avg_ret": -0.0232,
@@ -212,6 +190,36 @@
      "n": 1,
      "avg_ret": 0.0215,
      "bad_pct": 0.0,
+     "winners": 0
+    }
+   },
+   "liq $, < $, v floor": {
+    "n": 2,
+    "1h": {
+     "n": 2,
+     "avg_ret": -0.4663,
+     "bad_pct": 0.5,
+     "rug_pct": 0.0,
+     "up_pct": 0.0
+    },
+    "6h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 2,
+     "avg_ret": -0.4663,
+     "bad_pct": 0.5,
      "winners": 0
     }
    }
@@ -590,6 +598,23 @@
      "liq $35,463 < $50,000 v2 floor"
     ],
     "ts": 1792602041,
+    "src": "live",
+    "ret": {
+     "1h": -0.5529,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "ANSEM",
+    "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+    "ok": false,
+    "reasons": [
+     "top10 holders 65%",
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792605531,
     "src": "live",
     "ret": {
      "1h": null,
