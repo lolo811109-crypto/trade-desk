@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792582531,
+ "updated": 1792583664,
  "tokens_seen": 73,
  "risk": {
-  "checked": 87,
-  "killed": 39,
-  "passed": 48
+  "checked": 92,
+  "killed": 41,
+  "passed": 51
  },
  "kills": [
   {
@@ -176,13 +176,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0186,
+  "dd_today": -0.0177,
   "limit": -0.1
  },
  "v2": {
-  "equity": 974.19,
+  "equity": 975.06,
   "day_start": 992.68,
-  "pnl_today": -18.49,
+  "pnl_today": -17.62,
   "open_positions": 6,
   "closed_positions": 23,
   "closed_sells": 24,
@@ -196,23 +196,23 @@
    "sym": "LITY",
    "pnl": -7.35
   },
-  "copied": 50,
+  "copied": 53,
   "best_open": {
-   "sym": "逆蝶",
-   "upnl": -0.62
+   "sym": "TTAI",
+   "upnl": 1.62
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -8.76
+   "upnl": -10.47
   }
  },
  "baseline": {
-  "equity": 884.6,
+  "equity": 883.68,
   "day_start": 1000.0,
-  "pnl_today": -115.4,
-  "closed_sells": 61,
-  "win_rate": 0.23,
-  "realized_today": -17.0,
+  "pnl_today": -116.32,
+  "closed_sells": 62,
+  "win_rate": 0.226,
+  "realized_today": -17.78,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
@@ -221,7 +221,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 170
+  "copied": 175
  },
  "confluence": {
   "equity": 1000.72,
@@ -379,9 +379,9 @@
   "events_total": 12
  },
  "risk_track": {
-  "updated": 1792582296,
+  "updated": 1792583431,
   "rejected": {
-   "n": 39,
+   "n": 40,
    "1h": {
     "n": 38,
     "avg_ret": 0.1852,
@@ -390,11 +390,11 @@
     "up_pct": 0.5
    },
    "6h": {
-    "n": 25,
-    "avg_ret": 0.2855,
-    "bad_pct": 0.12,
-    "rug_pct": 0.04,
-    "up_pct": 0.56
+    "n": 26,
+    "avg_ret": 0.2738,
+    "bad_pct": 0.115,
+    "rug_pct": 0.038,
+    "up_pct": 0.538
    },
    "24h": {
     "n": 0,
@@ -405,7 +405,7 @@
    },
    "latest": {
     "n": 38,
-    "avg_ret": 0.1541,
+    "avg_ret": 0.1542,
     "bad_pct": 0.211,
     "winners": 4
    }
@@ -442,7 +442,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 22,
+    "n": 23,
     "1h": {
      "n": 22,
      "avg_ret": -0.0605,
@@ -451,11 +451,11 @@
      "up_pct": 0.591
     },
     "6h": {
-     "n": 17,
-     "avg_ret": -0.0308,
-     "bad_pct": 0.059,
+     "n": 18,
+     "avg_ret": -0.0302,
+     "bad_pct": 0.056,
      "rug_pct": 0.0,
-     "up_pct": 0.647
+     "up_pct": 0.611
     },
     "24h": {
      "n": 0,
@@ -466,7 +466,7 @@
     },
     "latest": {
      "n": 22,
-     "avg_ret": -0.0723,
+     "avg_ret": -0.0722,
      "bad_pct": 0.091,
      "winners": 0
     }
@@ -1220,7 +1220,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0238,
-     "6h": null,
+     "6h": -0.0207,
      "24h": null
     },
     "rug": false
@@ -1563,6 +1563,22 @@
     "ok": true,
     "reasons": [],
     "ts": 1792582296,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BADGE",
+    "token": "0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792583424,
     "src": "live",
     "ret": {
      "1h": null,
