@@ -1,16 +1,3 @@
-2026-10-21 16:38:53,260 V2-RISK .ai 0x5943d989cd95388b4dfaa9a61fd66843e6e57777 KILL LP only 0% locked/burned
-2026-10-21 16:38:53,260 V2 {'ts': 1792571921, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0003862, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 16:38:53,942 tick equity=937.04 pnl=-62.96 head=128907466
-2026-10-21 16:39:14,130 V2 {'ts': 1792571944, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0003862, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 16:39:14,131 {'ts': 1792571944, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'tx': '0xdfb0ad2c5531c6591cb7adb2babbddad680ec027f37f9c1bb8d1ef85439fd5e1', 'sym': '.ai', 'price': 0.0003862, 'liq': 66108, 'action': 'buy', 'stake': 10.0}
-2026-10-21 16:39:14,239 V2 {'ts': 1792571939, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x6fe63c4520eace064c5443dd7e10cbe7d4487777', 'sym': 'BAI', 'price': 1.348e-05, 'action': 'skip-7d'}
-2026-10-21 16:39:14,280 V2 {'ts': 1792571939, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x6fe63c4520eace064c5443dd7e10cbe7d4487777', 'sym': 'BAI', 'price': 1.348e-05, 'action': 'skip-7d'}
-2026-10-21 16:39:14,301 V2 {'ts': 1792571939, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x6fe63c4520eace064c5443dd7e10cbe7d4487777', 'sym': 'BAI', 'price': 1.348e-05, 'action': 'skip-7d'}
-2026-10-21 16:39:15,233 tick equity=934.74 pnl=-65.26 head=128907513
-2026-10-21 16:39:35,419 V2 {'ts': 1792571953, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0xfe189e97832da1573e4e4ff034f4ffc3a15c7777', 'sym': 'MarsCoin', 'price': 0.08192, 'action': 'skip-7d'}
-2026-10-21 16:39:35,420 {'ts': 1792571953, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0xfe189e97832da1573e4e4ff034f4ffc3a15c7777', 'tx': '0x7505a266aafb9451f4de68a8cc279600f974c74a2471598a1b3b18f1d5e00273', 'sym': 'MarsCoin', 'price': 0.08192, 'liq': 207545, 'action': 'buy', 'stake': 10.0}
-2026-10-21 16:39:36,347 tick equity=933.05 pnl=-66.95 head=128907561
-2026-10-21 16:39:58,014 tick equity=932.17 pnl=-67.83 head=128907608
 2026-10-21 16:40:19,154 tick equity=932.23 pnl=-67.77 head=128907656
 2026-10-21 16:52:16,278 {'ts': 1792572101, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd4c14b32e4b49e5b8acbf499f156ee5d09ba7777', 'tx': '0x17a554a2f8b10feff662f5c9573dd60ed66b7308080ae62c821045f0237ae276', 'action': 'skip-noprice'}
 2026-10-21 16:52:16,414 V2 {'ts': 1792572397, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0004075, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
@@ -298,3 +285,16 @@
 2026-10-21 19:54:03,654 tick equity=883.68 pnl=-116.32 head=128933474
 2026-10-21 19:54:24,489 tick equity=883.68 pnl=-116.32 head=128933522
 2026-10-21 19:54:45,855 tick equity=883.70 pnl=-116.30 head=128933568
+2026-10-21 20:53:00,141 WATCHDOG: loop stalled 3494s, exiting for restart
+2026-10-21 20:53:33,392 tick equity=882.86 pnl=-117.14 head=128941404
+2026-10-21 20:53:53,751 V2 {'ts': 1792587230, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.006008, 'action': 'skip-7d'}
+2026-10-21 20:53:54,523 tick equity=882.86 pnl=-117.14 head=128941454
+2026-10-21 20:54:16,036 tick equity=883.57 pnl=-116.43 head=128941499
+2026-10-21 20:54:37,412 tick equity=883.46 pnl=-116.54 head=128941549
+2026-10-21 20:54:58,870 tick equity=883.38 pnl=-116.62 head=128941596
+2026-10-21 20:55:20,189 tick equity=883.38 pnl=-116.62 head=128941644
+2026-10-21 20:55:41,991 tick equity=883.08 pnl=-116.92 head=128941691
+2026-10-21 20:56:03,473 tick equity=882.16 pnl=-117.84 head=128941740
+2026-10-21 20:56:24,950 tick equity=882.29 pnl=-117.71 head=128941787
+2026-10-21 20:56:46,491 tick equity=882.31 pnl=-117.69 head=128941835
+2026-10-21 20:57:07,964 tick equity=882.31 pnl=-117.69 head=128941883
