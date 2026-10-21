@@ -1,259 +1,69 @@
 {
  "chain": "bsc",
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792598184,
- "tokens_seen": 79,
+ "updated": 1792602094,
+ "tokens_seen": 2,
  "risk": {
-  "checked": 106,
-  "killed": 49,
-  "passed": 57
+  "checked": 0,
+  "killed": 0,
+  "passed": 0
  },
- "kills": [
-  {
-   "sym": ".ai",
-   "token": "0x5943d989cd95388b4dfaa9a61fd66843e6e57777",
-   "reasons": [
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "大肥鱼",
-   "token": "0x22cc04d8d201eeaecbace9ce91c5ef117f167777",
-   "reasons": [
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "KXG",
-   "token": "0xd723f2aea80d1620864ac059f34f168fa223b2f1",
-   "reasons": [
-    "top10 holders 78%"
-   ]
-  },
-  {
-   "sym": "BADGE",
-   "token": "0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa",
-   "reasons": [
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "tie",
-   "token": "0xacd4837a856af1307eab074330d2f8875e537777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "TIE",
-   "token": "0xfa6293e8c7b82e4a3546e91199dabf26a20e7777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": ".AI",
-   "token": "0x42ee8f4d28d9b2ec7a5f4f39ad1c1f38188f7777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "BIBI",
-   "token": "0x409f0bcdc9a70565a71af56cb50b2a6688cb7777",
-   "reasons": [
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "RTX5090",
-   "token": "0x5601a422986034521330bb4c799a8a3f29137777",
-   "reasons": [
-    "top10 holders 68%",
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "红果",
-   "token": "0xdbf0f682ddaf718611d6eb4165836c5204197777",
-   "reasons": [
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "GSTOCK",
-   "token": "0xcafdbce93477261db8250e42bdae6e66733f9e20",
-   "reasons": [
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "交易猫",
-   "token": "0x2e268497083cb5332103a17c788358480dc17777",
-   "reasons": [
-    "top10 holders 63%",
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "FLIP",
-   "token": "0x96e562b76905b3892f847776ba1a54883cde02bf",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown",
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "币安时代",
-   "token": "0x5137927f6ecd2f096278536b7b023a253dc17777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "币安智能时代",
-   "token": "0x3ea7799ece48a69b1a804156d834005cf4007777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "智能时代",
-   "token": "0xd633b60f8eb0beac680185bce7f57cbe84a77777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "DPOTS",
-   "token": "0x1024a33a23e43e14090f86ae3064d0a370673de8",
-   "reasons": [
-    "LP only 0% locked/burned"
-   ]
-  },
-  {
-   "sym": "TKC",
-   "token": "0x06dc293c250e2fb2416a4276d291803fc74fb9b5",
-   "reasons": [
-    "has blacklist",
-    "top10 holders 69%"
-   ]
-  },
-  {
-   "sym": "特斯拉能飞",
-   "token": "0x610a36f996650be0561f5d74d36b7e73520a7777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown",
-    "top10 holders 100%"
-   ]
-  },
-  {
-   "sym": "红果币",
-   "token": "0xb18a5e1c64b07808a027be171da8402b38937777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "김치",
-   "token": "0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "SCI6900",
-   "token": "0xbdb04ac8e429a3ed4ff19e47381f41d89e747777",
-   "reasons": [
-    "buy_tax unknown",
-    "sell_tax unknown"
-   ]
-  },
-  {
-   "sym": "SPX",
-   "token": "0xca56094722450016f280c4fd6a333e5c36903827",
-   "reasons": [
-    "top10 holders 79%"
-   ]
-  }
- ],
+ "kills": [],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0235,
+  "dd_today": 0.0,
   "limit": -0.1
  },
  "v2": {
-  "equity": 969.31,
-  "day_start": 992.68,
-  "pnl_today": -23.37,
-  "open_positions": 7,
-  "closed_positions": 25,
-  "closed_sells": 26,
-  "win_rate": 0.269,
-  "realized_today": -21.84,
+  "equity": 964.05,
+  "day_start": 964.02,
+  "pnl_today": 0.03,
+  "open_positions": 6,
+  "closed_positions": 1,
+  "closed_sells": 1,
+  "win_rate": 0.0,
+  "realized_today": -2.77,
   "best_token": {
-   "sym": "WATER",
-   "pnl": 2.92
-  },
-  "worst_token": {
-   "sym": "LITY",
-   "pnl": -18.1
-  },
-  "copied": 59,
-  "best_open": {
-   "sym": "TRUMAN",
-   "upnl": 2.7
-  },
-  "worst_open": {
-   "sym": "TTAI",
-   "upnl": -11.36
-  }
- },
- "baseline": {
-  "equity": 937.22,
-  "day_start": 1000.0,
-  "pnl_today": -62.78,
-  "closed_sells": 63,
-  "win_rate": 0.238,
-  "realized_today": -4.71,
-  "best_token": {
-   "sym": "ぎゅうらい",
-   "pnl": 43.63
+   "sym": ".ai",
+   "pnl": -2.77
   },
   "worst_token": {
    "sym": ".ai",
-   "pnl": -8.51
+   "pnl": -2.77
   },
-  "copied": 182
+  "copied": 0,
+  "best_open": {
+   "sym": "🔮",
+   "upnl": 2.3
+  },
+  "worst_open": {
+   "sym": "TTAI",
+   "upnl": -12.05
+  }
+ },
+ "baseline": {
+  "equity": 930.19,
+  "day_start": 937.22,
+  "pnl_today": -7.03,
+  "closed_sells": 0,
+  "win_rate": null,
+  "realized_today": 0,
+  "best_token": null,
+  "worst_token": null,
+  "copied": 0
  },
  "confluence": {
   "equity": 1000.72,
   "bank": 1000.0,
   "open_positions": 0,
-  "closed_sells": 1,
-  "win_rate": 1.0,
-  "realized_today": 0.72,
-  "best_token": {
-   "sym": "AID",
-   "pnl": 0.72
-  },
-  "worst_token": {
-   "sym": "AID",
-   "pnl": 0.72
-  },
-  "copied": 1,
+  "closed_sells": 0,
+  "win_rate": null,
+  "realized_today": 0,
+  "best_token": null,
+  "worst_token": null,
+  "copied": 0,
   "events": [
    {
     "ts": 1792523031,
@@ -394,7 +204,7 @@
   "events_total": 12
  },
  "risk_track": {
-  "updated": 1792597982,
+  "updated": 1792601869,
   "rejected": {
    "n": 51,
    "1h": {
@@ -435,11 +245,11 @@
     "up_pct": 0.545
    },
    "6h": {
-    "n": 17,
-    "avg_ret": 0.0409,
-    "bad_pct": 0.176,
+    "n": 18,
+    "avg_ret": 0.0441,
+    "bad_pct": 0.167,
     "rug_pct": 0.0,
-    "up_pct": 0.471
+    "up_pct": 0.5
    },
    "24h": {
     "n": 0,
@@ -450,7 +260,7 @@
    },
    "latest": {
     "n": 22,
-    "avg_ret": -0.0068,
+    "avg_ret": -0.0031,
     "bad_pct": 0.182,
     "winners": 2
    }
@@ -1523,7 +1333,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0149,
-     "6h": null,
+     "6h": 0.0975,
      "24h": null
     },
     "rug": false
