@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792566532,
- "tokens_seen": 29,
+ "updated": 1792566842,
+ "tokens_seen": 31,
  "risk": {
-  "checked": 43,
-  "killed": 15,
+  "checked": 44,
+  "killed": 16,
   "passed": 28
  },
  "kills": [
@@ -98,18 +98,27 @@
     "top10 holders 63%",
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "FLIP",
+   "token": "0x96e562b76905b3892f847776ba1a54883cde02bf",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown",
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0015,
+  "dd_today": -0.0009,
   "limit": -0.1
  },
  "v2": {
-  "equity": 991.19,
+  "equity": 991.83,
   "day_start": 992.68,
-  "pnl_today": -1.49,
+  "pnl_today": -0.85,
   "open_positions": 3,
   "closed_positions": 13,
   "closed_sells": 14,
@@ -126,17 +135,17 @@
   "copied": 30,
   "best_open": {
    "sym": "逆蝶",
-   "upnl": 0.6
+   "upnl": 0.64
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -3.23
+   "upnl": -2.66
   }
  },
  "baseline": {
-  "equity": 950.13,
+  "equity": 954.82,
   "day_start": 1000.0,
-  "pnl_today": -49.87,
+  "pnl_today": -45.18,
   "closed_sells": 43,
   "win_rate": 0.209,
   "realized_today": 14.37,
@@ -148,7 +157,7 @@
    "sym": "LITY",
    "pnl": -6.94
   },
-  "copied": 128
+  "copied": 129
  },
  "confluence": {
   "equity": 1000.72,
@@ -240,9 +249,9 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792566284,
+  "updated": 1792566676,
   "rejected": {
-   "n": 27,
+   "n": 28,
    "1h": {
     "n": 26,
     "avg_ret": 0.3191,
@@ -303,7 +312,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 19,
+    "n": 20,
     "1h": {
      "n": 18,
      "avg_ret": -0.0159,
@@ -363,7 +372,7 @@
     }
    },
    "buy_tax unknown": {
-    "n": 5,
+    "n": 6,
     "1h": {
      "n": 5,
      "avg_ret": 0.7944,
@@ -393,7 +402,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 5,
+    "n": 6,
     "1h": {
      "n": 5,
      "avg_ret": 0.7944,
@@ -1065,6 +1074,24 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792565477,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "FLIP",
+    "token": "0x96e562b76905b3892f847776ba1a54883cde02bf",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792566676,
     "src": "live",
     "ret": {
      "1h": null,
