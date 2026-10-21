@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792566842,
- "tokens_seen": 31,
+ "updated": 1792567149,
+ "tokens_seen": 33,
  "risk": {
-  "checked": 44,
+  "checked": 46,
   "killed": 16,
-  "passed": 28
+  "passed": 30
  },
  "kills": [
   {
@@ -112,14 +112,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0009,
+  "dd_today": 0.0006,
   "limit": -0.1
  },
  "v2": {
-  "equity": 991.83,
+  "equity": 993.23,
   "day_start": 992.68,
-  "pnl_today": -0.85,
-  "open_positions": 3,
+  "pnl_today": 0.55,
+  "open_positions": 5,
   "closed_positions": 13,
   "closed_sells": 14,
   "win_rate": 0.214,
@@ -132,20 +132,20 @@
    "sym": "LITY",
    "pnl": -7.35
   },
-  "copied": 30,
+  "copied": 32,
   "best_open": {
-   "sym": "逆蝶",
-   "upnl": 0.64
+   "sym": "WATER",
+   "upnl": 1.17
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -2.66
+   "upnl": -3.46
   }
  },
  "baseline": {
-  "equity": 954.82,
+  "equity": 946.63,
   "day_start": 1000.0,
-  "pnl_today": -45.18,
+  "pnl_today": -53.37,
   "closed_sells": 43,
   "win_rate": 0.209,
   "realized_today": 14.37,
@@ -157,7 +157,7 @@
    "sym": "LITY",
    "pnl": -6.94
   },
-  "copied": 129
+  "copied": 131
  },
  "confluence": {
   "equity": 1000.72,
@@ -249,7 +249,7 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792566676,
+  "updated": 1792567106,
   "rejected": {
    "n": 28,
    "1h": {
@@ -281,7 +281,7 @@
    }
   },
   "passed": {
-   "n": 12,
+   "n": 14,
    "1h": {
     "n": 12,
     "avg_ret": 0.0567,
@@ -1092,6 +1092,34 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792566676,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CZ",
+    "token": "0x7a848a5a8169aa6a2f603d056a749f924f504444",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792566863,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "WATER",
+    "token": "0x5056d8dff13388813e4ba9b26375aef658e0044f",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792567106,
     "src": "live",
     "ret": {
      "1h": null,
