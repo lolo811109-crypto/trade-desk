@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792571701,
- "tokens_seen": 63,
+ "updated": 1792571998,
+ "tokens_seen": 64,
  "risk": {
-  "checked": 58,
-  "killed": 27,
+  "checked": 62,
+  "killed": 31,
   "passed": 31
  },
  "kills": [
@@ -151,13 +151,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0012,
+  "dd_today": -0.0022,
   "limit": -0.1
  },
  "v2": {
-  "equity": 991.48,
+  "equity": 990.52,
   "day_start": 992.68,
-  "pnl_today": -1.2,
+  "pnl_today": -2.16,
   "open_positions": 4,
   "closed_positions": 15,
   "closed_sells": 16,
@@ -178,13 +178,13 @@
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -5.66
+   "upnl": -6.62
   }
  },
  "baseline": {
-  "equity": 942.77,
+  "equity": 932.17,
   "day_start": 1000.0,
-  "pnl_today": -57.23,
+  "pnl_today": -67.83,
   "closed_sells": 49,
   "win_rate": 0.265,
   "realized_today": 6.35,
@@ -196,7 +196,7 @@
    "sym": "币安时代",
    "pnl": -7.55
   },
-  "copied": 142
+  "copied": 146
  },
  "confluence": {
   "equity": 1000.72,
@@ -316,9 +316,20 @@
     ],
     "trigger": "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
     "price": 3.11e-05
+   },
+   {
+    "ts": 1792571921,
+    "token": "0x5943d989cd95388b4dfaa9a61fd66843e6e57777",
+    "sym": ".ai",
+    "wallets": [
+     "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+     "0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3"
+    ],
+    "trigger": "0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3",
+    "price": 0.0003862
    }
   ],
-  "events_total": 9
+  "events_total": 10
  },
  "risk_track": {
   "updated": 1792570944,

@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792571701,
- "tokens_seen": 57,
+ "updated": 1792571992,
+ "tokens_seen": 58,
  "risk": {
-  "checked": 8,
+  "checked": 9,
   "killed": 3,
-  "passed": 5
+  "passed": 6
  },
  "kills": [
   {
@@ -28,34 +28,34 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0027,
+  "dd_today": -0.0026,
   "limit": -0.1
  },
  "v2": {
-  "equity": 997.33,
+  "equity": 997.42,
   "day_start": 1000.0,
-  "pnl_today": -2.67,
-  "open_positions": 4,
+  "pnl_today": -2.58,
+  "open_positions": 5,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 5,
+  "copied": 6,
   "best_open": {
-   "sym": "Agency",
-   "upnl": -0.4
+   "sym": "SAINDRA",
+   "upnl": -0.11
   },
   "worst_open": {
    "sym": "Kimchi",
-   "upnl": -1.13
+   "upnl": -1.23
   }
  },
  "baseline": {
-  "equity": 945.78,
+  "equity": 946.06,
   "day_start": 1000.0,
-  "pnl_today": -54.22,
+  "pnl_today": -53.94,
   "closed_sells": 58,
   "win_rate": 0.207,
   "realized_today": -36.09,
@@ -70,7 +70,7 @@
   "copied": 141
  },
  "risk_track": {
-  "updated": 1792571202,
+  "updated": 1792571796,
   "rejected": {
    "n": 0,
    "1h": {
@@ -102,7 +102,7 @@
    }
   },
   "passed": {
-   "n": 4,
+   "n": 5,
    "1h": {
     "n": 0,
     "avg_ret": null,
@@ -185,6 +185,20 @@
     "ok": true,
     "reasons": [],
     "ts": 1792571202,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "SAINDRA",
+    "token": "A2yA6AFtfKkfVkfsnGpvsKoUV5kQPpMYboZsBPvmkA9T",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792571796,
     "src": "live",
     "ret": {
      "1h": null,
