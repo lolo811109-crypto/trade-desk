@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792581599,
- "tokens_seen": 72,
+ "updated": 1792582510,
+ "tokens_seen": 73,
  "risk": {
-  "checked": 79,
-  "killed": 37,
-  "passed": 42
+  "checked": 86,
+  "killed": 39,
+  "passed": 47
  },
  "kills": [
   {
@@ -176,18 +176,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0154,
+  "dd_today": -0.0178,
   "limit": -0.1
  },
  "v2": {
-  "equity": 977.35,
+  "equity": 974.97,
   "day_start": 992.68,
-  "pnl_today": -15.33,
+  "pnl_today": -17.71,
   "open_positions": 6,
-  "closed_positions": 20,
-  "closed_sells": 21,
-  "win_rate": 0.286,
-  "realized_today": -7.74,
+  "closed_positions": 23,
+  "closed_sells": 24,
+  "win_rate": 0.292,
+  "realized_today": -9.99,
   "best_token": {
    "sym": "WATER",
    "pnl": 2.92
@@ -196,23 +196,23 @@
    "sym": "LITY",
    "pnl": -7.35
   },
-  "copied": 44,
+  "copied": 49,
   "best_open": {
    "sym": "逆蝶",
    "upnl": -0.62
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -8.19
+   "upnl": -8.76
   }
  },
  "baseline": {
-  "equity": 893.16,
+  "equity": 885.39,
   "day_start": 1000.0,
-  "pnl_today": -106.84,
-  "closed_sells": 57,
-  "win_rate": 0.228,
-  "realized_today": -7.1,
+  "pnl_today": -114.61,
+  "closed_sells": 61,
+  "win_rate": 0.23,
+  "realized_today": -17.0,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
@@ -221,7 +221,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 162
+  "copied": 169
  },
  "confluence": {
   "equity": 1000.72,
@@ -379,9 +379,9 @@
   "events_total": 12
  },
  "risk_track": {
-  "updated": 1792581491,
+  "updated": 1792582296,
   "rejected": {
-   "n": 38,
+   "n": 39,
    "1h": {
     "n": 38,
     "avg_ret": 0.1852,
@@ -411,7 +411,7 @@
    }
   },
   "passed": {
-   "n": 19,
+   "n": 21,
    "1h": {
     "n": 18,
     "avg_ret": 0.0659,
@@ -472,7 +472,7 @@
     }
    },
    "top holders": {
-    "n": 18,
+    "n": 19,
     "1h": {
      "n": 18,
      "avg_ret": 0.2567,
@@ -1519,6 +1519,50 @@
     "ok": true,
     "reasons": [],
     "ts": 1792581491,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "KXG",
+    "token": "0xd723f2aea80d1620864ac059f34f168fa223b2f1",
+    "ok": false,
+    "reasons": [
+     "top10 holders 78%"
+    ],
+    "ts": 1792582269,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TTAI",
+    "token": "0x8e11e90b463bf521382e2b88539f053270a3848c",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792582269,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "AID",
+    "token": "0xe3e8d64813f712ab0388adb352eeba573e1f7777",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792582296,
     "src": "live",
     "ret": {
      "1h": null,
