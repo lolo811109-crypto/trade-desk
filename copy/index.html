@@ -30,6 +30,26 @@ a{color:inherit;text-decoration:none}
  <div class="c"><div class="h">Copy Log · 跟单日志</div><div class="log" id="log"></div></div>
 </div>
 <div class="ws" id="ws"></div>
+<div class="c" style="margin:14px" id="cmpbox"><div class="h">Equal-weight vs Tournament · 平均分配版 vs 淘汰赛版</div>
+<div class="muted">淘汰赛版：每天 00:00（北京时间）按当期盈亏，最差钱包把 20% 资金（只限现金）转给最好的钱包；单钱包上限 30%。跟单规则与平均版完全相同（每笔 $5）。</div>
+<div id="cmpsum" style="margin:8px 0;font-weight:700"></div><div style="height:280px"><canvas id="cmpch"></canvas></div>
+<div style="overflow:auto"><table id="cmptb" style="width:100%;border-collapse:collapse;font-size:13px;margin-top:10px"></table></div>
+<div class="h" style="margin-top:12px">Rebalance Log · 调仓记录</div><div class="log" id="rblog"></div></div>
+<script>
+let cmpC;async function cmp(){try{
+const t=Date.now(),a=await (await fetch('./data/state.json?t='+t,{cache:'no-store'})).json(),b=await (await fetch('./data/state_t.json?t='+t,{cache:'no-store'})).json();
+const nm=w=>{const x=a.names[w]||w;return x.length>18?x.slice(0,10)+'…':x};const f=v=>(v>=0?'+':'')+v.toFixed(2);
+document.getElementById('cmpsum').innerHTML=`平均版 $${a.equity.toFixed(2)} (${f(a.pnl)}) · 断粮钱包 ${a.cashout_wallets??'-'}/10 &nbsp;|&nbsp; 淘汰赛版 $${b.equity.toFixed(2)} (${f(b.pnl)}) · 断粮钱包 ${b.cashout_wallets??'-'}/10`;
+const pts=h=>h.map(([x,y])=>({x:x*1000,y}));const st=b.forked*1000;
+const ds=[{label:'平均分配版',data:pts(a.history),borderColor:'#0ea5e9',pointRadius:0,borderWidth:2},{label:'淘汰赛版',data:pts(b.history).filter(p=>p.x>=st-6e4),borderColor:'#f59e0b',pointRadius:0,borderWidth:2}];
+if(cmpC){cmpC.data.datasets=ds;cmpC.update('none')}else cmpC=new Chart(document.getElementById('cmpch'),{type:'line',data:{datasets:ds},options:{maintainAspectRatio:false,animation:false,scales:{x:{type:'linear',ticks:{callback:v=>new Date(v).toLocaleString('zh-CN',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'Asia/Shanghai'})}}}}});
+let r='<tr style="text-align:left"><th>钱包</th><th>平均版 净值</th><th>平均版 现金</th><th>淘汰赛 分配额</th><th>淘汰赛 净值</th><th>淘汰赛 现金</th><th>占比</th></tr>';
+for(const w of Object.keys(a.wallets)){const x=a.wallets[w],y=b.wallets[w];r+=`<tr style="border-top:1px solid #e5e7eb"><td>${nm(w)}</td><td>${x.equity.toFixed(2)}</td><td>${x.cash.toFixed(2)}</td><td>${y.alloc.toFixed(2)}</td><td>${y.equity.toFixed(2)}</td><td>${y.cash.toFixed(2)}</td><td>${(100*y.equity/b.equity).toFixed(1)}%</td></tr>`}
+document.getElementById('cmptb').innerHTML=r;
+document.getElementById('rblog').innerHTML=(b.rebalances||[]).slice().reverse().map(x=>`${new Date(x.ts*1000).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai'})} ${x.reason}：最好 ${nm(x.best)} (${f(x.best_pnl)}) ← 最差 ${nm(x.worst)} (${f(x.worst_pnl)})，应转 $${x.wanted}，实转 $${x.moved}${x.note?' ['+x.note+']':''}`).join('<br>')||'暂无';
+}catch(e){console.log(e)}}cmp();setInterval(cmp,60000);
+</script>
+
 <script>
 const $=id=>document.getElementById(id),f2=x=>(x>=0?'+':'')+x.toFixed(2);
 function ring(el,v,txt,col){const C=2*Math.PI*15.9,p=Math.max(0,Math.min(1,v));el.innerHTML=`<circle cx=18 cy=18 r=15.9 fill=none stroke=#e9efec stroke-width=3.2 /><circle cx=18 cy=18 r=15.9 fill=none stroke=${col} stroke-width=3.2 stroke-linecap=round stroke-dasharray="${p*C} ${C}" transform="rotate(-90 18 18)"/><text x=18 y=20.5 text-anchor=middle font-size=7 font-weight=700 fill=#0f172a>${txt}</text>`}
