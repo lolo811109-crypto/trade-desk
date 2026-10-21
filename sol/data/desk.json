@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792589292,
- "tokens_seen": 66,
+ "updated": 1792589484,
+ "tokens_seen": 68,
  "risk": {
-  "checked": 39,
-  "killed": 8,
-  "passed": 31
+  "checked": 41,
+  "killed": 9,
+  "passed": 32
  },
  "kills": [
   {
@@ -45,19 +45,26 @@
    "reasons": [
     "top10 holders 54%"
    ]
+  },
+  {
+   "sym": "PONKE",
+   "token": "5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+   "reasons": [
+    "top10 holders 51%"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0201,
+  "dd_today": -0.0192,
   "limit": -0.1
  },
  "v2": {
-  "equity": 979.93,
+  "equity": 980.77,
   "day_start": 1000.0,
-  "pnl_today": -20.07,
-  "open_positions": 16,
+  "pnl_today": -19.23,
+  "open_positions": 17,
   "closed_positions": 6,
   "closed_sells": 6,
   "win_rate": 0.0,
@@ -70,20 +77,20 @@
    "sym": "MOMO",
    "pnl": -3.74
   },
-  "copied": 31,
+  "copied": 32,
   "best_open": {
-   "sym": "LARPCHECK",
-   "upnl": 0.84
+   "sym": "EXFIL",
+   "upnl": 1.66
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -4.23
+   "upnl": -4.46
   }
  },
  "baseline": {
-  "equity": 932.58,
+  "equity": 936.0,
   "day_start": 1000.0,
-  "pnl_today": -67.42,
+  "pnl_today": -64.0,
   "closed_sells": 65,
   "win_rate": 0.2,
   "realized_today": -38.12,
@@ -98,9 +105,9 @@
   "copied": 155
  },
  "risk_track": {
-  "updated": 1792588712,
+  "updated": 1792589466,
   "rejected": {
-   "n": 3,
+   "n": 4,
    "1h": {
     "n": 2,
     "avg_ret": -0.1404,
@@ -130,7 +137,7 @@
    }
   },
   "passed": {
-   "n": 16,
+   "n": 17,
    "1h": {
     "n": 16,
     "avg_ret": -0.01,
@@ -161,7 +168,7 @@
   },
   "rules": {
    "top holders": {
-    "n": 3,
+    "n": 4,
     "1h": {
      "n": 2,
      "avg_ret": -0.1404,
@@ -506,10 +513,42 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "PUMPCADE",
+    "token": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792589465,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "PONKE",
+    "token": "5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+    "ok": false,
+    "reasons": [
+     "top10 holders 51%"
+    ],
+    "ts": 1792589466,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
  "risk_warn": {
-  "warn_lp": 7
+  "warn_lp": 8
  }
 }
