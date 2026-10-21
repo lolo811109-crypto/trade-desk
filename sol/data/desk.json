@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792571073,
- "tokens_seen": 56,
+ "updated": 1792571365,
+ "tokens_seen": 57,
  "risk": {
-  "checked": 7,
+  "checked": 8,
   "killed": 3,
-  "passed": 4
+  "passed": 5
  },
  "kills": [
   {
@@ -28,34 +28,34 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0026,
+  "dd_today": -0.0032,
   "limit": -0.1
  },
  "v2": {
-  "equity": 997.42,
+  "equity": 996.81,
   "day_start": 1000.0,
-  "pnl_today": -2.58,
-  "open_positions": 3,
+  "pnl_today": -3.19,
+  "open_positions": 4,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 4,
+  "copied": 5,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": -0.57
+   "upnl": -0.6
   },
   "worst_open": {
    "sym": "Kimchi",
-   "upnl": -1.04
+   "upnl": -1.13
   }
  },
  "baseline": {
-  "equity": 943.87,
+  "equity": 944.98,
   "day_start": 1000.0,
-  "pnl_today": -56.13,
+  "pnl_today": -55.02,
   "closed_sells": 58,
   "win_rate": 0.207,
   "realized_today": -36.09,
@@ -67,10 +67,10 @@
    "sym": "Kimchi",
    "pnl": -12.09
   },
-  "copied": 140
+  "copied": 141
  },
  "risk_track": {
-  "updated": 1792570975,
+  "updated": 1792571202,
   "rejected": {
    "n": 0,
    "1h": {
@@ -102,7 +102,7 @@
    }
   },
   "passed": {
-   "n": 3,
+   "n": 4,
    "1h": {
     "n": 0,
     "avg_ret": null,
@@ -171,6 +171,20 @@
      "warn: LP burned only 0%"
     ],
     "ts": 1792570975,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "GLITCH",
+    "token": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792571202,
     "src": "live",
     "ret": {
      "1h": null,
