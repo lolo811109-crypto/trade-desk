@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792568964,
+ "updated": 1792569256,
  "tokens_seen": 55,
  "risk": {
   "checked": 3,
@@ -47,9 +47,9 @@
   "worst_open": null
  },
  "baseline": {
-  "equity": 939.64,
+  "equity": 941.42,
   "day_start": 1000.0,
-  "pnl_today": -60.36,
+  "pnl_today": -58.58,
   "closed_sells": 55,
   "win_rate": 0.218,
   "realized_today": -33.74,
@@ -62,5 +62,9 @@
    "pnl": -12.09
   },
   "copied": 137
+ },
+ "risk_track": null,
+ "risk_warn": {
+  "warn_lp": 0
  }
 }

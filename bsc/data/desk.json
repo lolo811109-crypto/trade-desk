@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792568965,
- "tokens_seen": 33,
+ "updated": 1792569279,
+ "tokens_seen": 34,
  "risk": {
-  "checked": 46,
+  "checked": 47,
   "killed": 16,
-  "passed": 30
+  "passed": 31
  },
  "kills": [
   {
@@ -112,14 +112,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": 0.0021,
+  "dd_today": -0.0003,
   "limit": -0.1
  },
  "v2": {
-  "equity": 994.76,
+  "equity": 992.37,
   "day_start": 992.68,
-  "pnl_today": 2.08,
-  "open_positions": 4,
+  "pnl_today": -0.31,
+  "open_positions": 5,
   "closed_positions": 14,
   "closed_sells": 15,
   "win_rate": 0.267,
@@ -132,20 +132,20 @@
    "sym": "LITY",
    "pnl": -7.35
   },
-  "copied": 32,
+  "copied": 33,
   "best_open": {
-   "sym": "CZ",
-   "upnl": 0.99
+   "sym": "逆蝶",
+   "upnl": 1.0
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -2.74
+   "upnl": -4.77
   }
  },
  "baseline": {
-  "equity": 946.71,
+  "equity": 942.05,
   "day_start": 1000.0,
-  "pnl_today": -53.29,
+  "pnl_today": -57.95,
   "closed_sells": 44,
   "win_rate": 0.227,
   "realized_today": 17.29,
@@ -157,7 +157,7 @@
    "sym": "LITY",
    "pnl": -6.94
   },
-  "copied": 131
+  "copied": 132
  },
  "confluence": {
   "equity": 1000.72,
@@ -249,15 +249,15 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792567106,
+  "updated": 1792569194,
   "rejected": {
    "n": 28,
    "1h": {
-    "n": 26,
-    "avg_ret": 0.3191,
-    "bad_pct": 0.077,
-    "rug_pct": 0.038,
-    "up_pct": 0.538
+    "n": 27,
+    "avg_ret": 0.309,
+    "bad_pct": 0.074,
+    "rug_pct": 0.037,
+    "up_pct": 0.556
    },
    "6h": {
     "n": 17,
@@ -274,14 +274,14 @@
     "up_pct": null
    },
    "latest": {
-    "n": 26,
-    "avg_ret": 0.2866,
-    "bad_pct": 0.077,
+    "n": 27,
+    "avg_ret": 0.2777,
+    "bad_pct": 0.074,
     "winners": 3
    }
   },
   "passed": {
-   "n": 14,
+   "n": 15,
    "1h": {
     "n": 12,
     "avg_ret": 0.0567,
@@ -314,11 +314,11 @@
    "LP only locked/burned": {
     "n": 20,
     "1h": {
-     "n": 18,
-     "avg_ret": -0.0159,
+     "n": 19,
+     "avg_ret": -0.0126,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.611
+     "up_pct": 0.632
     },
     "6h": {
      "n": 13,
@@ -335,8 +335,8 @@
      "up_pct": null
     },
     "latest": {
-     "n": 18,
-     "avg_ret": -0.0126,
+     "n": 19,
+     "avg_ret": -0.0094,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -344,11 +344,11 @@
    "top holders": {
     "n": 16,
     "1h": {
-     "n": 15,
-     "avg_ret": 0.3045,
-     "bad_pct": 0.067,
+     "n": 16,
+     "avg_ret": 0.2884,
+     "bad_pct": 0.062,
      "rug_pct": 0.0,
-     "up_pct": 0.667
+     "up_pct": 0.688
     },
     "6h": {
      "n": 13,
@@ -365,13 +365,13 @@
      "up_pct": null
     },
     "latest": {
-     "n": 15,
-     "avg_ret": 0.2442,
-     "bad_pct": 0.067,
+     "n": 16,
+     "avg_ret": 0.2319,
+     "bad_pct": 0.062,
      "winners": 2
     }
    },
-   "buy_tax unknown": {
+   "sell_tax unknown": {
     "n": 6,
     "1h": {
      "n": 5,
@@ -401,7 +401,7 @@
      "winners": 2
     }
    },
-   "sell_tax unknown": {
+   "buy_tax unknown": {
     "n": 6,
     "1h": {
      "n": 5,
@@ -1076,7 +1076,7 @@
     "ts": 1792565477,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0472,
      "6h": null,
      "24h": null
     },
@@ -1120,6 +1120,20 @@
     "ok": true,
     "reasons": [],
     "ts": 1792567106,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "COUGAR",
+    "token": "0x2371433a9229791f24f32405c596ffa732df2a2a",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792569194,
     "src": "live",
     "ret": {
      "1h": null,
