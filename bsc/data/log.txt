@@ -1,18 +1,3 @@
-2026-10-21 20:54:37,412 tick equity=883.46 pnl=-116.54 head=128941549
-2026-10-21 20:54:58,870 tick equity=883.38 pnl=-116.62 head=128941596
-2026-10-21 20:55:20,189 tick equity=883.38 pnl=-116.62 head=128941644
-2026-10-21 20:55:41,991 tick equity=883.08 pnl=-116.92 head=128941691
-2026-10-21 20:56:03,473 tick equity=882.16 pnl=-117.84 head=128941740
-2026-10-21 20:56:24,950 tick equity=882.29 pnl=-117.71 head=128941787
-2026-10-21 20:56:46,491 tick equity=882.31 pnl=-117.69 head=128941835
-2026-10-21 20:57:07,964 tick equity=882.31 pnl=-117.69 head=128941883
-2026-10-21 21:09:34,402 {'ts': 1792588021, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'SELL', 'token': '0x1435ddd742881639a5bb08fcbf0e17e2a2f87777', 'tx': '0xb7300bd09b59db533e769a24b8eef322b624ae9b16db5f80488358428ba5872a', 'action': 'skip-noprice'}
-2026-10-21 21:09:34,933 V2 {'ts': 1792587885, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'sym': 'TTAI', 'price': 6.062e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-21 21:09:34,934 {'ts': 1792587885, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'tx': '0xdfcad8bfe629db2d1c605bef98b66bbe7e33f052205159c6b28e10e0301e5ab5', 'sym': 'TTAI', 'price': 6.062e-05, 'liq': 51795, 'action': 'buy', 'stake': 10.0}
-2026-10-21 21:09:35,302 V2 {'ts': 1792587873, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0002352, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 21:09:43,332 V2 {'ts': 1792587555, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xf7fc0e5ad8fc95b0c4ae59db1ff068bc64417777', 'sym': '健康天使', 'price': 0.0001126, 'action': 'skip-7d'}
-2026-10-21 21:09:43,530 V2 {'ts': 1792587612, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xf7fc0e5ad8fc95b0c4ae59db1ff068bc64417777', 'sym': '健康天使', 'price': 0.0001126, 'action': 'skip-7d'}
-2026-10-21 21:09:45,717 tick equity=869.71 pnl=-130.29 head=128943478
 2026-10-21 21:10:08,557 tick equity=869.71 pnl=-130.29 head=128943615
 2026-10-21 21:10:32,232 tick equity=869.46 pnl=-130.54 head=128943665
 2026-10-21 21:10:53,495 tick equity=869.45 pnl=-130.55 head=128943718
@@ -298,3 +283,18 @@
 2026-10-22 02:53:48,490 tick equity=928.62 pnl=-71.38 head=128989409
 2026-10-22 02:54:10,326 tick equity=928.62 pnl=-71.38 head=128989458
 2026-10-22 02:54:32,888 tick equity=928.60 pnl=-71.40 head=128989507
+2026-10-22 02:54:54,805 tick equity=928.66 pnl=-71.34 head=128989557
+2026-10-22 02:55:17,790 tick equity=928.70 pnl=-71.30 head=128989605
+2026-10-22 02:55:41,146 tick equity=928.70 pnl=-71.30 head=128989656
+2026-10-22 02:56:04,232 tick equity=928.70 pnl=-71.30 head=128989708
+2026-10-22 02:56:26,218 tick equity=928.68 pnl=-71.32 head=128989760
+2026-10-22 02:56:48,107 tick equity=928.68 pnl=-71.32 head=128989808
+2026-10-22 02:57:10,147 tick equity=928.69 pnl=-71.31 head=128989857
+2026-10-22 02:57:31,953 tick equity=928.68 pnl=-71.32 head=128989906
+2026-10-22 02:57:53,786 tick equity=928.53 pnl=-71.47 head=128989955
+2026-10-22 02:58:14,085 V2 {'ts': 1792609077, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xbdb04ac8e429a3ed4ff19e47381f41d89e747777', 'sym': 'SCI6900', 'price': 4.754e-05, 'action': 'skip-7d'}
+2026-10-22 02:58:15,777 tick equity=928.53 pnl=-71.47 head=128990003
+2026-10-22 02:58:37,599 tick equity=928.23 pnl=-71.77 head=128990052
+2026-10-22 02:58:59,652 tick equity=928.18 pnl=-71.82 head=128990100
+2026-10-22 02:59:21,633 tick equity=928.18 pnl=-71.82 head=128990150
+2026-10-22 02:59:44,107 tick equity=928.12 pnl=-71.88 head=128990198

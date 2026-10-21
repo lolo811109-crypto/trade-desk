@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792608883,
+ "updated": 1792609155,
  "tokens_seen": 13,
  "risk": {
   "checked": 6,
@@ -50,13 +50,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0137,
+  "dd_today": -0.0118,
   "limit": -0.1
  },
  "v2": {
-  "equity": 965.61,
+  "equity": 967.44,
   "day_start": 979.0,
-  "pnl_today": -13.39,
+  "pnl_today": -11.56,
   "open_positions": 18,
   "closed_positions": 2,
   "closed_sells": 2,
@@ -77,36 +77,36 @@
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -5.04
+   "upnl": -5.31
   }
  },
  "baseline": {
-  "equity": 916.15,
+  "equity": 917.77,
   "day_start": 983.73,
-  "pnl_today": -67.58,
-  "closed_sells": 3,
-  "win_rate": 0.0,
-  "realized_today": -3.21,
+  "pnl_today": -65.96,
+  "closed_sells": 5,
+  "win_rate": 0.2,
+  "realized_today": -7.99,
   "best_token": {
-   "sym": "texcat",
-   "pnl": -0.59
+   "sym": "EXFIL",
+   "pnl": -0.51
   },
   "worst_token": {
-   "sym": "fone",
-   "pnl": -1.58
+   "sym": "PULLBACK",
+   "pnl": -5.31
   },
   "copied": 10
  },
  "risk_track": {
-  "updated": 1792608711,
+  "updated": 1792609155,
   "rejected": {
    "n": 10,
    "1h": {
-    "n": 6,
-    "avg_ret": -0.206,
-    "bad_pct": 0.167,
+    "n": 7,
+    "avg_ret": -0.1824,
+    "bad_pct": 0.143,
     "rug_pct": 0.0,
-    "up_pct": 0.167
+    "up_pct": 0.143
    },
    "6h": {
     "n": 2,
@@ -123,9 +123,9 @@
     "up_pct": null
    },
    "latest": {
-    "n": 6,
-    "avg_ret": -0.1196,
-    "bad_pct": 0.167,
+    "n": 7,
+    "avg_ret": -0.1084,
+    "bad_pct": 0.143,
     "winners": 0
    }
   },
@@ -163,11 +163,11 @@
    "top holders": {
     "n": 5,
     "1h": {
-     "n": 4,
-     "avg_ret": -0.0759,
+     "n": 5,
+     "avg_ret": -0.0689,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.25
+     "up_pct": 0.2
     },
     "6h": {
      "n": 2,
@@ -184,8 +184,8 @@
      "up_pct": null
     },
     "latest": {
-     "n": 4,
-     "avg_ret": 0.0537,
+     "n": 5,
+     "avg_ret": 0.0348,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -223,8 +223,8 @@
    "warn: LP burned only": {
     "n": 2,
     "1h": {
-     "n": 1,
-     "avg_ret": -0.0232,
+     "n": 2,
+     "avg_ret": -0.0319,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
      "up_pct": 0.0
@@ -244,8 +244,8 @@
      "up_pct": null
     },
     "latest": {
-     "n": 1,
-     "avg_ret": 0.0215,
+     "n": 2,
+     "avg_ret": -0.0096,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -644,7 +644,7 @@
     "ts": 1792605531,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0407,
      "6h": null,
      "24h": null
     },
@@ -748,32 +748,32 @@
   "warn_lp": 11
  },
  "v3": {
-  "equity": 998.46,
+  "equity": 997.41,
   "day_start": 1000.0,
-  "pnl_today": -1.54,
-  "open_positions": 2,
+  "pnl_today": -2.59,
+  "open_positions": 3,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 2,
+  "copied": 3,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": -0.72
+   "upnl": -0.79
   },
   "worst_open": {
-   "sym": "CRAWL",
-   "upnl": -0.82
+   "sym": "fone",
+   "upnl": -0.98
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 3,
+  "checked": 4,
   "killed": 2,
-  "passed": 2
+  "passed": 3
  },
  "v3_kills": [
   {
@@ -796,11 +796,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0015,
+  "dd_today": -0.0026,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792608711,
+  "updated": 1792609120,
   "rejected": {
    "n": 2,
    "1h": {
@@ -832,7 +832,7 @@
    }
   },
   "passed": {
-   "n": 2,
+   "n": 3,
    "1h": {
     "n": 0,
     "avg_ret": null,
@@ -1044,6 +1044,23 @@
      "liq $22,463 < $50,000 v2 floor"
     ],
     "ts": 1792608711,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "fone",
+    "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792609120,
     "src": "live",
     "ret": {
      "1h": null,
