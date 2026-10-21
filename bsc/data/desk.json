@@ -2,7 +2,7 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792558448,
+ "updated": 1792558469,
  "tokens_seen": 27,
  "risk": {
   "checked": 34,
@@ -88,13 +88,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0055,
+  "dd_today": -0.0054,
   "limit": -0.1
  },
  "v2": {
-  "equity": 987.23,
+  "equity": 987.32,
   "day_start": 992.68,
-  "pnl_today": -5.45,
+  "pnl_today": -5.36,
   "open_positions": 3,
   "closed_positions": 11,
   "closed_sells": 12,
@@ -111,7 +111,7 @@
   "copied": 23,
   "best_open": {
    "sym": "LITY",
-   "upnl": 4.01
+   "upnl": 4.09
   },
   "worst_open": {
    "sym": "TRUMAN",
@@ -119,9 +119,9 @@
   }
  },
  "baseline": {
-  "equity": 960.03,
+  "equity": 959.69,
   "day_start": 1000.0,
-  "pnl_today": -39.97,
+  "pnl_today": -40.31,
   "closed_sells": 40,
   "win_rate": 0.2,
   "realized_today": 8.19,
@@ -225,15 +225,15 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792556358,
+  "updated": 1792558469,
   "rejected": {
    "n": 25,
    "1h": {
-    "n": 21,
-    "avg_ret": 0.2022,
-    "bad_pct": 0.048,
-    "rug_pct": 0.0,
-    "up_pct": 0.571
+    "n": 23,
+    "avg_ret": 0.3648,
+    "bad_pct": 0.087,
+    "rug_pct": 0.043,
+    "up_pct": 0.609
    },
    "6h": {
     "n": 14,
@@ -250,20 +250,20 @@
     "up_pct": null
    },
    "latest": {
-    "n": 21,
-    "avg_ret": 0.2032,
-    "bad_pct": 0.048,
-    "winners": 1
+    "n": 23,
+    "avg_ret": 0.3657,
+    "bad_pct": 0.087,
+    "winners": 2
    }
   },
   "passed": {
    "n": 12,
    "1h": {
-    "n": 9,
-    "avg_ret": 0.0704,
-    "bad_pct": 0.222,
+    "n": 11,
+    "avg_ret": 0.064,
+    "bad_pct": 0.182,
     "rug_pct": 0.0,
-    "up_pct": 0.333
+    "up_pct": 0.455
    },
    "6h": {
     "n": 4,
@@ -280,9 +280,9 @@
     "up_pct": null
    },
    "latest": {
-    "n": 9,
-    "avg_ret": 0.0709,
-    "bad_pct": 0.222,
+    "n": 11,
+    "avg_ret": 0.0643,
+    "bad_pct": 0.182,
     "winners": 1
    }
   },
@@ -290,11 +290,11 @@
    "LP only locked/burned": {
     "n": 17,
     "1h": {
-     "n": 14,
-     "avg_ret": -0.0162,
+     "n": 15,
+     "avg_ret": -0.0128,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.714
+     "up_pct": 0.733
     },
     "6h": {
      "n": 12,
@@ -311,8 +311,8 @@
      "up_pct": null
     },
     "latest": {
-     "n": 14,
-     "avg_ret": -0.0148,
+     "n": 15,
+     "avg_ret": -0.0115,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -350,11 +350,11 @@
    "buy_tax unknown": {
     "n": 5,
     "1h": {
-     "n": 4,
-     "avg_ret": -0.0341,
-     "bad_pct": 0.25,
-     "rug_pct": 0.0,
-     "up_pct": 0.25
+     "n": 5,
+     "avg_ret": 0.7944,
+     "bad_pct": 0.4,
+     "rug_pct": 0.2,
+     "up_pct": 0.4
     },
     "6h": {
      "n": 1,
@@ -371,20 +371,20 @@
      "up_pct": null
     },
     "latest": {
-     "n": 4,
-     "avg_ret": -0.0341,
-     "bad_pct": 0.25,
-     "winners": 0
+     "n": 5,
+     "avg_ret": 0.7944,
+     "bad_pct": 0.4,
+     "winners": 1
     }
    },
    "sell_tax unknown": {
     "n": 5,
     "1h": {
-     "n": 4,
-     "avg_ret": -0.0341,
-     "bad_pct": 0.25,
-     "rug_pct": 0.0,
-     "up_pct": 0.25
+     "n": 5,
+     "avg_ret": 0.7944,
+     "bad_pct": 0.4,
+     "rug_pct": 0.2,
+     "up_pct": 0.4
     },
     "6h": {
      "n": 1,
@@ -401,10 +401,10 @@
      "up_pct": null
     },
     "latest": {
-     "n": 4,
-     "avg_ret": -0.0341,
-     "bad_pct": 0.25,
-     "winners": 0
+     "n": 5,
+     "avg_ret": 0.7944,
+     "bad_pct": 0.4,
+     "winners": 1
     }
    },
    "owner can mint": {
@@ -925,7 +925,7 @@
     "ts": 1792554850,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.016,
      "6h": null,
      "24h": null
     },
@@ -942,11 +942,11 @@
     "ts": 1792554850,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 4.1081,
      "6h": null,
      "24h": null
     },
-    "rug": false
+    "rug": true
    },
    {
     "sym": "BORT",
@@ -956,7 +956,7 @@
     "ts": 1792554851,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0538,
      "6h": null,
      "24h": null
     },
@@ -972,7 +972,7 @@
     "ts": 1792554855,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0354,
      "6h": null,
      "24h": null
     },
