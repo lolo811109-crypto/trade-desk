@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792589484,
+ "updated": 1792589620,
  "tokens_seen": 68,
  "risk": {
   "checked": 41,
@@ -57,13 +57,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0192,
+  "dd_today": -0.0185,
   "limit": -0.1
  },
  "v2": {
-  "equity": 980.77,
+  "equity": 981.55,
   "day_start": 1000.0,
-  "pnl_today": -19.23,
+  "pnl_today": -18.45,
   "open_positions": 17,
   "closed_positions": 6,
   "closed_sells": 6,
@@ -80,17 +80,17 @@
   "copied": 32,
   "best_open": {
    "sym": "EXFIL",
-   "upnl": 1.66
+   "upnl": 1.43
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -4.46
+   "upnl": -4.1
   }
  },
  "baseline": {
-  "equity": 936.0,
+  "equity": 934.63,
   "day_start": 1000.0,
-  "pnl_today": -64.0,
+  "pnl_today": -65.37,
   "closed_sells": 65,
   "win_rate": 0.2,
   "realized_today": -38.12,

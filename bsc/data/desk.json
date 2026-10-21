@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792589470,
+ "updated": 1792589625,
  "tokens_seen": 76,
  "risk": {
-  "checked": 99,
-  "killed": 44,
+  "checked": 100,
+  "killed": 45,
   "passed": 55
  },
  "kills": [
@@ -184,13 +184,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0255,
+  "dd_today": -0.0257,
   "limit": -0.1
  },
  "v2": {
-  "equity": 967.33,
+  "equity": 967.14,
   "day_start": 992.68,
-  "pnl_today": -25.35,
+  "pnl_today": -25.54,
   "open_positions": 6,
   "closed_positions": 25,
   "closed_sells": 26,
@@ -207,7 +207,7 @@
   "copied": 57,
   "best_open": {
    "sym": "TRUMAN",
-   "upnl": 1.93
+   "upnl": 1.71
   },
   "worst_open": {
    "sym": "TTAI",
@@ -215,9 +215,9 @@
   }
  },
  "baseline": {
-  "equity": 890.48,
+  "equity": 895.43,
   "day_start": 1000.0,
-  "pnl_today": -109.52,
+  "pnl_today": -104.57,
   "closed_sells": 63,
   "win_rate": 0.238,
   "realized_today": -4.71,
