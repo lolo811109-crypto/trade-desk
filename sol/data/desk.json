@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792589620,
+ "updated": 1792589892,
  "tokens_seen": 68,
  "risk": {
   "checked": 41,
-  "killed": 9,
+  "killed": 10,
   "passed": 32
  },
  "kills": [
@@ -43,7 +43,7 @@
    "sym": "INMUKING",
    "token": "26RsPKnoUNU8ejytaKTxMLDDosS5DJZD5BQ8YYgwpump",
    "reasons": [
-    "top10 holders 54%"
+    "liq $28,296 < $50,000 v2 floor"
    ]
   },
   {
@@ -57,13 +57,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0185,
+  "dd_today": -0.0211,
   "limit": -0.1
  },
  "v2": {
-  "equity": 981.55,
+  "equity": 978.94,
   "day_start": 1000.0,
-  "pnl_today": -18.45,
+  "pnl_today": -21.06,
   "open_positions": 17,
   "closed_positions": 6,
   "closed_sells": 6,
@@ -80,20 +80,20 @@
   "copied": 32,
   "best_open": {
    "sym": "EXFIL",
-   "upnl": 1.43
+   "upnl": 0.61
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -4.1
+   "upnl": -3.6
   }
  },
  "baseline": {
-  "equity": 934.63,
+  "equity": 938.46,
   "day_start": 1000.0,
-  "pnl_today": -65.37,
-  "closed_sells": 65,
-  "win_rate": 0.2,
-  "realized_today": -38.12,
+  "pnl_today": -61.54,
+  "closed_sells": 66,
+  "win_rate": 0.212,
+  "realized_today": -37.71,
   "best_token": {
    "sym": "DARK",
    "pnl": 3.07
@@ -102,7 +102,7 @@
    "sym": "Kimchi",
    "pnl": -14.38
   },
-  "copied": 155
+  "copied": 156
  },
  "risk_track": {
   "updated": 1792589466,

@@ -1,20 +1,3 @@
-2026-10-21 17:50:55,430 {'ts': 1792575742, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8cc75c24af78ba0a1156512961104b617c774444', 'tx': '0xaf34c0ffe1ebc467d512b37e4e7553616ac77fe42eb466bb6bac62cbac23df69', 'sym': '🔮', 'price': 7.033e-06, 'liq': 9583, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:55,474 V2 {'ts': 1792575748, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8cc75c24af78ba0a1156512961104b617c774444', 'sym': '🔮', 'price': 7.033e-06, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:55,475 {'ts': 1792575748, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8cc75c24af78ba0a1156512961104b617c774444', 'tx': '0x2edb54d1d34acc184de76c35003e1785d8e79765ffbc2874f3e833f953118aea', 'sym': '🔮', 'price': 7.033e-06, 'liq': 9583, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:50:56,212 {'ts': 1792574026, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfe9fc10113be6897f4e2a9a829d671d6ded87777', 'tx': '0x55157bfb15b831f7195a3eb60d635044e3c816381305efeb2c509ab6f897fe72', 'action': 'skip-noprice'}
-2026-10-21 17:50:56,285 {'ts': 1792574071, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0xfe9fc10113be6897f4e2a9a829d671d6ded87777', 'tx': '0xcd257e97cca33734ae6d661a810027ce9531b2acece57dacd94795fc8033fd97', 'action': 'skip-noprice'}
-2026-10-21 17:50:56,355 V2 {'ts': 1792574737, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'sym': '김치', 'price': 1.759947441e-05, 'action': 'skip-7d'}
-2026-10-21 17:50:56,355 CONFLUENCE 김치 0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777 wallets=['0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', '0xc5606cde16fb8c39cc68d1d97700883ae951ff56']
-2026-10-21 17:50:56,630 V2-RISK 김치 0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777 KILL buy_tax unknown; sell_tax unknown
-2026-10-21 17:50:56,630 V2 {'ts': 1792574737, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'sym': '김치', 'price': 1.759947441e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-21 17:50:56,694 V2 {'ts': 1792574739, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'sym': '김치', 'price': 1.759947441e-05, 'action': 'skip-7d'}
-2026-10-21 17:50:56,745 {'ts': 1792574741, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'tx': '0x0792591e6d6c74b4ef9e1045af9b993b65eddbeb34b33f3373a96277842557c7', 'action': 'skip-noprice'}
-2026-10-21 17:50:56,792 {'ts': 1792574829, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'tx': '0xc900ed9bc9c98bdaba8cbce0cb516ddcd1bd094a4ce13102b29c12ac7b6ac208', 'action': 'skip-noprice'}
-2026-10-21 17:50:56,874 {'ts': 1792575304, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'tx': '0xa43ec0a8153426fc06d653c6240d1263c653d28533f4d9e21259b50031bf11f2', 'action': 'skip-noprice'}
-2026-10-21 17:50:57,912 V2 {'ts': 1792575932, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0004097, 'action': 'buy', 'stake': 10.0}
-2026-10-21 17:51:03,220 V2 {'ts': 1792574754, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'sym': '김치', 'price': 1.759947441e-05, 'action': 'skip-7d'}
-2026-10-21 17:51:03,296 {'ts': 1792574916, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'SELL', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'tx': '0x7d771e2f68c5ef9b1520ff6b78f5c3772bfeb5376b280e979b1d03b5c53f79c7', 'action': 'skip-noprice'}
-2026-10-21 17:51:03,348 {'ts': 1792575663, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xf0af40c326b09d9ad3ff9b5dcb531ac21f327777', 'tx': '0xef5346db66fb18c0206ca5c596e52f52c9d27639512b9ef73eae5cfb5fa8373f', 'action': 'skip-noprice'}
 2026-10-21 17:51:14,231 V2 {'ts': 1792574173, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xa2e32989401533ced439e8598a740ecbf9757777', 'sym': '黄豆仙人', 'price': 4.274e-05, 'action': 'skip-7d'}
 2026-10-21 17:51:14,320 V2 {'ts': 1792574330, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xa2e32989401533ced439e8598a740ecbf9757777', 'sym': '黄豆仙人', 'price': 4.274e-05, 'action': 'skip-7d'}
 2026-10-21 17:51:14,437 V2 {'ts': 1792575487, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xaacbc156435dbab7815a61bccba1c827e52a7777', 'sym': '股城', 'price': 0.0001507, 'action': 'skip-7d'}
@@ -298,3 +281,20 @@
 2026-10-21 21:33:23,845 tick equity=895.44 pnl=-104.56 head=128946715
 2026-10-21 21:33:44,072 V2 {'ts': 1792589603, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0002277, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
 2026-10-21 21:33:45,105 tick equity=895.43 pnl=-104.57 head=128946765
+2026-10-21 21:34:05,395 V2 {'ts': 1792589625, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0001953, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-21 21:34:07,104 tick equity=896.07 pnl=-103.93 head=128946812
+2026-10-21 21:34:28,343 tick equity=896.22 pnl=-103.78 head=128946861
+2026-10-21 21:34:49,812 tick equity=896.22 pnl=-103.78 head=128946908
+2026-10-21 21:35:10,953 tick equity=896.20 pnl=-103.80 head=128946956
+2026-10-21 21:35:33,118 tick equity=896.05 pnl=-103.95 head=128947002
+2026-10-21 21:35:54,388 tick equity=896.04 pnl=-103.96 head=128947052
+2026-10-21 21:36:16,003 tick equity=895.79 pnl=-104.21 head=128947099
+2026-10-21 21:36:36,148 V2 {'ts': 1792589781, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xf72aa3e166102c05eba522c6b6801f19270d7777', 'sym': 'スノーボール', 'price': 1.64e-05, 'action': 'skip-7d'}
+2026-10-21 21:36:36,149 {'ts': 1792589781, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xf72aa3e166102c05eba522c6b6801f19270d7777', 'tx': '0x63117ec65c871bba15a770abaae41e4f5d9963c56da3f77a2ed0b3fb21b6739a', 'sym': 'スノーボール', 'price': 1.64e-05, 'liq': 12660, 'action': 'buy', 'stake': 10.0}
+2026-10-21 21:36:37,582 tick equity=894.64 pnl=-105.36 head=128947146
+2026-10-21 21:36:59,682 tick equity=898.24 pnl=-101.76 head=128947195
+2026-10-21 21:37:20,793 tick equity=898.27 pnl=-101.73 head=128947244
+2026-10-21 21:37:42,559 tick equity=898.48 pnl=-101.52 head=128947291
+2026-10-21 21:38:03,902 tick equity=898.29 pnl=-101.71 head=128947340
+2026-10-21 21:38:26,049 tick equity=898.45 pnl=-101.55 head=128947387
+2026-10-21 21:38:47,941 tick equity=898.30 pnl=-101.70 head=128947436

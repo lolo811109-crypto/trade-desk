@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792589625,
- "tokens_seen": 76,
+ "updated": 1792589927,
+ "tokens_seen": 77,
  "risk": {
-  "checked": 100,
-  "killed": 45,
+  "checked": 101,
+  "killed": 46,
   "passed": 55
  },
  "kills": [
@@ -184,13 +184,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0257,
+  "dd_today": -0.0258,
   "limit": -0.1
  },
  "v2": {
-  "equity": 967.14,
+  "equity": 967.08,
   "day_start": 992.68,
-  "pnl_today": -25.54,
+  "pnl_today": -25.6,
   "open_positions": 6,
   "closed_positions": 25,
   "closed_sells": 26,
@@ -207,7 +207,7 @@
   "copied": 57,
   "best_open": {
    "sym": "TRUMAN",
-   "upnl": 1.71
+   "upnl": 1.67
   },
   "worst_open": {
    "sym": "TTAI",
@@ -215,9 +215,9 @@
   }
  },
  "baseline": {
-  "equity": 895.43,
+  "equity": 898.3,
   "day_start": 1000.0,
-  "pnl_today": -104.57,
+  "pnl_today": -101.7,
   "closed_sells": 63,
   "win_rate": 0.238,
   "realized_today": -4.71,
@@ -229,7 +229,7 @@
    "sym": ".ai",
    "pnl": -8.51
   },
-  "copied": 179
+  "copied": 180
  },
  "confluence": {
   "equity": 1000.72,
