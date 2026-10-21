@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792616167,
+ "updated": 1792619729,
  "tokens_seen": 14,
  "risk": {
   "checked": 7,
@@ -50,13 +50,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0091,
+  "dd_today": -0.0182,
   "limit": -0.1
  },
  "v2": {
-  "equity": 970.06,
+  "equity": 961.14,
   "day_start": 979.0,
-  "pnl_today": -8.94,
+  "pnl_today": -17.86,
   "open_positions": 18,
   "closed_positions": 3,
   "closed_sells": 3,
@@ -73,17 +73,17 @@
   "copied": 4,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 4.95
+   "upnl": 2.66
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -5.62
+   "upnl": -6.85
   }
  },
  "baseline": {
-  "equity": 927.41,
+  "equity": 914.6,
   "day_start": 983.73,
-  "pnl_today": -56.32,
+  "pnl_today": -69.13,
   "closed_sells": 6,
   "win_rate": 0.167,
   "realized_today": -8.63,
@@ -95,10 +95,10 @@
    "sym": "PULLBACK",
    "pnl": -5.31
   },
-  "copied": 10
+  "copied": 11
  },
  "risk_track": {
-  "updated": 1792616064,
+  "updated": 1792619663,
   "rejected": {
    "n": 10,
    "1h": {
@@ -109,11 +109,11 @@
     "up_pct": 0.3
    },
    "6h": {
-    "n": 4,
-    "avg_ret": 0.0365,
+    "n": 5,
+    "avg_ret": 0.4614,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.75
+    "up_pct": 0.8
    },
    "24h": {
     "n": 0,
@@ -124,9 +124,9 @@
    },
    "latest": {
     "n": 10,
-    "avg_ret": 0.1069,
+    "avg_ret": 0.3609,
     "bad_pct": 0.1,
-    "winners": 1
+    "winners": 2
    }
   },
   "passed": {
@@ -200,11 +200,11 @@
      "up_pct": 0.4
     },
     "6h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
+     "n": 1,
+     "avg_ret": 2.1607,
+     "bad_pct": 0.0,
+     "rug_pct": 0.0,
+     "up_pct": 1.0
     },
     "24h": {
      "n": 0,
@@ -215,9 +215,9 @@
     },
     "latest": {
      "n": 5,
-     "avg_ret": 0.1927,
+     "avg_ret": 0.7008,
      "bad_pct": 0.2,
-     "winners": 1
+     "winners": 2
     }
    },
    "warn: LP burned only": {
@@ -612,7 +612,7 @@
     "src": "live",
     "ret": {
      "1h": -0.3797,
-     "6h": null,
+     "6h": 2.1607,
      "24h": null
     },
     "rug": false
@@ -762,32 +762,32 @@
   "warn_lp": 11
  },
  "v3": {
-  "equity": 996.71,
+  "equity": 995.98,
   "day_start": 1000.0,
-  "pnl_today": -3.29,
-  "open_positions": 4,
+  "pnl_today": -4.02,
+  "open_positions": 5,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 4,
+  "copied": 5,
   "best_open": {
-   "sym": "Bert",
-   "upnl": -0.63
+   "sym": "fone",
+   "upnl": -0.56
   },
   "worst_open": {
-   "sym": "fone",
-   "upnl": -1.03
+   "sym": "CLAUDIA",
+   "upnl": -1.2
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 5,
+  "checked": 6,
   "killed": 2,
-  "passed": 4
+  "passed": 5
  },
  "v3_kills": [
   {
@@ -810,11 +810,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0033,
+  "dd_today": -0.004,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792615964,
+  "updated": 1792619561,
   "rejected": {
    "n": 2,
    "1h": {
@@ -846,7 +846,7 @@
    }
   },
   "passed": {
-   "n": 4,
+   "n": 5,
    "1h": {
     "n": 4,
     "avg_ret": -0.0241,
@@ -1094,6 +1094,22 @@
     "src": "live",
     "ret": {
      "1h": -0.0044,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "EXFIL",
+    "token": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 1.9% via pump.fun"
+    ],
+    "ts": 1792619561,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },
