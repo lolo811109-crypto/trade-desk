@@ -1,0 +1,142 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trade Desk · Polymarket Copy Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F5F7;--card:#fff;--bd:#E5E7EB;--tx:#18181B;--mu:#8E8E93;--ac:#2E5CFF;--act:#2E5CFF;--gr:#10B981;--rd:#F43F5E}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:Inter,-apple-system,"SF Pro Display","PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:480px;margin:0 auto;padding:16px 16px 96px}
+.mono{font-family:"JetBrains Mono","Roboto Mono",monospace;text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;color:var(--mu)}
+.num{font-variant-numeric:tabular-nums}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;box-shadow:0 1px 2px rgba(0,0,0,.03),0 8px 24px rgba(17,24,39,.05);padding:16px;margin-bottom:12px}
+header{display:flex;align-items:center;justify-content:space-between;margin:4px 0 14px}
+.logo{width:38px;height:38px;border-radius:11px;background:#111;color:#fff;display:grid;place-items:center;font-weight:800;font-size:15px}
+.brand{display:flex;gap:10px;align-items:center}.brand b{font-size:18px;font-weight:800;letter-spacing:-.02em}
+.badge{font:700 9.5px "JetBrains Mono",monospace;background:#EAF0FF;color:var(--act);border-radius:6px;padding:2px 6px;margin-left:6px;vertical-align:middle}
+.hr{text-align:right}.hr .clk{font:600 14px Inter;font-variant-numeric:tabular-nums}
+.seg{display:flex;background:#EEEEF0;border-radius:12px;padding:3px;margin-bottom:14px}
+.seg button{flex:1;border:0;background:none;padding:8px 0;border-radius:9px;font:600 13px Inter;color:var(--mu);cursor:pointer;transition:.25s}
+.seg button.on{background:#fff;color:var(--tx);box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.hero{display:flex;justify-content:space-between;gap:10px}
+.eq{font-size:40px;font-weight:800;letter-spacing:-.03em;line-height:1.05;display:flex}
+.dg{display:inline-block;height:1.05em;overflow:hidden}.dg span{display:block;transition:transform .9s cubic-bezier(.2,.9,.25,1.1)}
+.chg{font-weight:600;font-size:14px;margin-top:4px}
+.side{text-align:right;min-width:96px}.side .mx{font-size:26px;font-weight:800;color:var(--act)}
+svg.spark{width:100%;height:90px;margin-top:10px;overflow:visible}
+.banner{display:flex;gap:12px;align-items:center}
+.chk{width:30px;height:30px;border-radius:50%;background:var(--ac);color:#fff;display:grid;place-items:center;flex:none;font-weight:800}
+.pill{font:700 10px "JetBrains Mono",monospace;padding:4px 9px;border-radius:99px;margin-left:auto;flex:none}
+.pill.ok{background:#ECFDF5;color:var(--gr)}.pill.halt{background:#FFF1F2;color:var(--rd)}
+.row{display:flex;justify-content:space-between;align-items:center}
+h3{font-size:15px;font-weight:700}
+.tk{font-size:22px;font-weight:800;margin:6px 0 2px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.grid div b{display:block;font-size:15px;font-variant-numeric:tabular-nums;margin-top:2px}
+.pb{font:700 12px Inter;padding:4px 9px;border-radius:8px}
+.steps{display:flex;align-items:flex-start;margin-top:16px;position:relative}
+.st{flex:1;text-align:center;position:relative;font-size:11px;color:var(--mu)}
+.st i{display:block;width:14px;height:14px;border-radius:50%;margin:0 auto 6px;background:#E5E7EB;position:relative;z-index:1}
+.st.done i{background:var(--ac)}.st.cur i{background:var(--ac);animation:pulse 1.6s infinite}.st.done,.st.cur{color:var(--tx);font-weight:600}
+.st:not(:last-child)::after{content:"";position:absolute;top:6px;left:50%;width:100%;height:2px;background:#E5E7EB}
+.st.done:not(:last-child)::after{background:var(--ac)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(46,92,255,.55)}100%{box-shadow:0 0 0 12px rgba(46,92,255,0)}}
+@keyframes pulseg{0%{box-shadow:0 0 0 0 rgba(16,185,129,.55)}100%{box-shadow:0 0 0 10px rgba(16,185,129,0)}}
+.ladder{position:relative;height:96px;margin-top:8px}
+.ladder .ln{position:absolute;left:0;right:0;top:48px;height:2px;background:linear-gradient(90deg,var(--rd),#E5E7EB 50%,var(--gr))}
+.ladder .zero{position:absolute;left:50%;top:38px;height:22px;width:1px;background:#C7C7CC}
+.wd{position:absolute;transform:translateX(-50%);text-align:center;font:500 9px "JetBrains Mono",monospace;color:var(--mu);white-space:nowrap}
+.wd i{display:block;width:12px;height:12px;border-radius:50%;margin:0 auto 3px;border:2px solid #fff;box-shadow:0 0 0 1px var(--bd)}
+.wd.on i{animation:pulseg 1.8s infinite}
+svg.stem{width:100%;height:120px}
+.kv{display:flex;gap:14px;margin-top:6px}.kv b{font-size:16px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px}td,th{padding:6px 2px;text-align:right;font-variant-numeric:tabular-nums}th{font:500 10px "JetBrains Mono";color:var(--mu)}td:first-child,th:first-child{text-align:left}
+.kill{display:flex;justify-content:space-between;padding:7px 0;border-top:1px solid #F0F0F2;font-size:12.5px}.kill span:last-child{color:var(--mu);font-size:11px;text-align:right;max-width:62%}
+.fill{display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid #F0F0F2;font-size:13px}
+nav{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.86);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid var(--bd);padding:8px 0 calc(8px + env(safe-area-inset-bottom))}
+nav .in{max-width:480px;margin:0 auto;display:flex}nav button{flex:1;border:0;background:none;font:600 12px Inter;color:var(--mu);cursor:pointer}nav button small{display:block;font:500 9px "JetBrains Mono";margin-top:2px}nav button.on{color:var(--act)}
+.sec{display:none}.sec.on{display:block}
+.ov{position:fixed;inset:0;background:rgba(245,245,247,.35);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);display:none;align-items:center;justify-content:center;z-index:9;padding:24px}
+.ov.on{display:flex}
+.md{background:#fff;border-radius:20px;padding:22px;max-width:360px;width:100%;border:2px solid var(--c);box-shadow:0 0 0 6px color-mix(in srgb,var(--c) 15%,transparent),0 0 40px color-mix(in srgb,var(--c) 45%,transparent);animation:spring .7s cubic-bezier(.2,1.4,.4,1)}
+@keyframes spring{0%{transform:translateY(60px) scale(.92);opacity:0}100%{transform:none;opacity:1}}
+.md .big{font-size:30px;font-weight:800;margin:8px 0}
+.note{font-size:11px;color:var(--mu);text-align:center;margin-top:6px}
+
+.mk{font-size:17px;font-weight:700;margin:6px 0 2px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+</style></head><body><div class="wrap">
+<header><div class="brand"><div class="logo" style="background:#2E5CFF">TD</div><div><b>Trade Desk</b><span class="badge">SIM</span><div class="mono">POLYMARKET COPY DESK</div></div></div>
+<div class="hr"><div class="clk" id="clk">--:--:--</div><div class="mono" id="wcnt">— WALLETS · UTC+8</div></div></header>
+<div class="seg" id="seg"><button data-a="eq" class="on">平均分配<br><span class="mono">EQUAL WEIGHT</span></button><button data-a="t">淘汰赛<br><span class="mono">TOURNAMENT</span></button></div>
+<section class="sec on" data-s="desk">
+<div class="card"><div class="hero"><div><div class="mono">总权益 · TOTAL EQUITY</div><div class="eq num" id="eq">$0</div><div class="chg num" id="chg">—</div></div>
+<div class="side"><div class="mx num" id="mx">—</div><div class="mono">ON INITIAL CAPITAL</div><div class="mono" style="margin-top:6px">START $1,000</div></div></div>
+<svg class="spark" id="spark" viewBox="0 0 400 90" preserveAspectRatio="none"></svg><div class="row mono"><span id="t0"></span><span id="t1"></span></div></div>
+<div class="card banner"><div class="chk">✓</div><div><div style="font-weight:700;font-size:15px">跟对人，钱流向强者。</div><div class="mono" id="rules" style="margin-top:3px"></div></div><span class="pill ok" id="hpill">ACTIVE</span></div>
+<div class="card" id="active"></div>
+<div class="card"><div class="row"><h3>钱包阶梯</h3><span class="mono">WALLET PNL LADDER</span></div><div class="ladder" id="ladder"></div><div class="row mono"><span>◀ 亏损</span><span id="lcnt"></span><span>盈利 ▶</span></div></div>
+</section>
+<section class="sec" data-s="pos"><div class="card"><div class="row"><h3>当前持仓</h3><span class="mono" id="pcnt">OPEN POSITIONS</span></div><div id="plist"></div></div></section>
+<section class="sec on" data-s="desk fills">
+<div class="card"><div class="row"><h3>最近结算</h3><span class="mono">LAST 20 SETTLED · PNL</span></div><svg class="stem" id="stem" viewBox="0 0 400 120" preserveAspectRatio="none"></svg><div class="kv num" id="fstats"></div><div class="note">盘口价格 ≥0.99 或 ≤0.01 视为已结算（按标记价计盈亏）</div></div>
+</section>
+<section class="sec" data-s="fills"><div class="card"><div class="row"><h3>成交明细</h3><span class="mono">COPIED BUYS / SELLS</span></div><div id="flist"></div></div></section>
+<section class="sec on" data-s="desk rules">
+<div class="card"><div class="row"><h3>调仓记录</h3><span class="mono">REBALANCE LOG</span></div><div id="rlog"></div></div>
+<div class="card"><div class="row"><h3>资金分配</h3><span class="mono" id="acnt">ALLOCATION</span></div><table id="atab"></table></div>
+</section>
+<section class="sec" data-s="rules"><div class="card"><h3>规则说明</h3><div style="font-size:13px;line-height:1.7;margin-top:6px;color:#3F3F46">
+<p><b>平均分配</b>：$1,000 平分给 10 个钱包（各 $100），钱包每买一次跟 $5，钱包卖出就同步卖出。</p><p><b>淘汰赛</b>：同样规则，另外每天 0 点（UTC+8）把表现最差钱包 20% 的资金挪给最好的钱包；单个钱包最多占总资金 30%。现金不足时只挪可用现金。</p><p class="mono" style="margin-top:8px">纯模拟 · PAPER TRADING ONLY · NOT FINANCIAL ADVICE</p></div></div></section>
+<div class="note" id="upd"></div></div>
+<nav><div class="in" id="nav"><button class="on" data-t="desk">盘面<small>DESK</small></button><button data-t="pos">持仓<small>POSITIONS</small></button><button data-t="fills">成交<small>FILLS</small></button><button data-t="rules">规则<small>RULES</small></button></div></nav>
+<div class="ov" id="ov"><div class="md" id="md"></div></div>
+<script>
+const D='../copy/data/';let acct=localStorage.copy2acct||'eq',S={},modalShown=false;
+const $=id=>document.getElementById(id),f2=n=>n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const pc=n=>(n>=0?'+':'')+(n*100).toFixed(1)+'%',sg=n=>(n>=0?'+':'−')+'$'+f2(Math.abs(n)),col=n=>n>=0?'var(--gr)':'var(--rd)';
+const tm=t=>new Date(t*1000).toLocaleTimeString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai',hour:'2-digit',minute:'2-digit'});
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+setInterval(()=>{$('clk').textContent=new Date().toLocaleTimeString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'})},1000);
+async function j(u){try{const r=await fetch(D+u+'?t='+Date.now());return r.ok?await r.json():null}catch(e){return null}}
+function roll(el,v){const s='$'+f2(v);el.innerHTML=[...s].map(c=>/\d/.test(c)?`<span class="dg"><span>${[...'0123456789'].map(d=>`<div>${d}</div>`).join('')}</span></span>`:`<span>${c}</span>`).join('');
+ requestAnimationFrame(()=>requestAnimationFrame(()=>{let i=0;el.querySelectorAll('.dg>span').forEach(sp=>{while(!/\d/.test(s[i]))i++;sp.style.transform=`translateY(-${s[i]}0%)`;i++})}))}
+function spark(h){const svg=$('spark');if(h.length<2){svg.innerHTML='';return}const xs=h.map(p=>p[0]),ys=h.map(p=>p[1]),x0=xs[0],x1=xs.at(-1),lo=Math.min(...ys,1000),hi=Math.max(...ys,1000),r=hi-lo||1;
+ const P=h.map(p=>[(p[0]-x0)/(x1-x0||1)*400,84-(p[1]-lo)/r*78]),d='M'+P.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join('L'),by=84-(1000-lo)/r*78,L=P.at(-1);
+ svg.innerHTML=`<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2E5CFF" stop-opacity=".22"/><stop offset="1" stop-color="#2E5CFF" stop-opacity="0"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="3"/></filter></defs><line x1="0" x2="400" y1="${by}" y2="${by}" stroke="#C7C7CC" stroke-dasharray="3 4" vector-effect="non-scaling-stroke"/><path d="${d}L400,90L0,90Z" fill="url(#g)"/><path id="sp" d="${d}" fill="none" stroke="#2E5CFF" stroke-width="2.2" vector-effect="non-scaling-stroke"/><circle cx="${L[0]}" cy="${L[1]}" r="7" fill="#2E5CFF" filter="url(#gl)" opacity=".7"><animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="${L[0]}" cy="${L[1]}" r="3.5" fill="#2E5CFF"/>`;
+ const sp=$('sp'),len=sp.getTotalLength();sp.style.strokeDasharray=len;sp.style.strokeDashoffset=len;sp.getBoundingClientRect();sp.style.transition='stroke-dashoffset 1.6s ease-out';sp.style.strokeDashoffset=0;$('t0').textContent=tm(x0);$('t1').textContent=tm(x1)}
+function positions(st){const out=[],nm=S.e?.names||{};const buys=(st.trades||[]).filter(t=>t.action=='buy');
+ for(const[w,o]of Object.entries(st.wallets||{}))for(const[id,p0]of Object.entries(o.pos||{})){const nomk=p0.mark==null,p={...p0,mark:p0.mark??(p0.shares?p0.cost/p0.shares:0)};const b=buys.filter(t=>t.wallet==w&&t.title==p.title&&(t.outcome||'')==(p.outcome||'')).at(-1);
+  out.push({w,name:nm[w]||w.slice(0,6),title:p.title,outcome:p.outcome,cost:p.cost,shares:p.shares,entry:p.shares?p.cost/p.shares:null,mark:p.mark,val:p.shares*p.mark,pnl:p.shares*p.mark-p.cost,opened:b?.ts||0,settled:!nomk&&(p.mark>=0.99||p.mark<=0.01),nomk})}return out}
+function render(){const st=acct=='t'?S.t:S.e;if(!st)return;const nm=S.e?.names||st.names||{};document.querySelectorAll('#seg button').forEach(b=>b.classList.toggle('on',b.dataset.a==acct));
+ roll($('eq'),st.equity);const d=st.equity-1000;$('chg').innerHTML=`<span style="color:${col(d)}">${sg(d)} · ${pc(d/1000)}</span> <span class="mono">VS $1,000</span>`;$('mx').textContent=(st.equity/1000).toFixed(3)+'x';spark(st.history||[]);
+ const ws=Object.entries(st.wallets);$('wcnt').textContent=`${ws.length} WALLETS · UTC+8`;
+ $('rules').textContent='$5 PER COPIED BUY · MIRROR SELLS'+(acct=='t'?' · DAILY REBALANCE 20% WORST→BEST · 30% CAP':' · $100 PER WALLET');
+ const out=ws.filter(([,o])=>o.cashout||o.cash<5).length;$('hpill').className='pill '+(out>ws.length/2?'halt':'ok');$('hpill').textContent=`${out}/${ws.length} CASH OUT`;
+ const ps=positions(st),open=ps.filter(p=>!p.settled).sort((a,b)=>b.opened-a.opened),p=open[0]||ps.sort((a,b)=>b.opened-a.opened)[0];
+ if(p){const r=p.entry?p.mark/p.entry-1:0;$('active').innerHTML=`<div class="row"><h3>当前交易</h3><span class="mono">LATEST OPEN · ${p.opened?tm(p.opened):''}</span></div><div class="mk">${esc(p.title)}</div>
+ <div class="row"><div class="mono">OUTCOME <b style="color:var(--tx)">${esc(p.outcome||'组合 PARLAY')}</b> · LEADER ${esc(p.name)}</div><span class="pb num" style="background:${r>=0?'#ECFDF5':'#FFF1F2'};color:${col(r)}">${pc(r)}</span></div>
+ <div class="grid"><div><span class="mono">入场 ENTRY</span><b>${p.entry?.toFixed(3)}</b></div><div><span class="mono">现价 MARK</span><b>${p.nomk?'—':p.mark.toFixed(3)}</b></div><div><span class="mono">成本 SIZE</span><b>$${f2(p.cost)}</b></div><div><span class="mono">盈亏 PNL</span><b style="color:${col(p.pnl)}">${sg(p.pnl)}</b></div></div>
+ <div class="steps">${['发现下单','已跟买','持仓中','已结算'].map((s,i)=>`<div class="st ${i<2?'done':i==2?'cur':''}"><i></i>${s}<div class="mono" style="font-size:8.5px">${['SIGNAL','COPIED','HOLDING','SETTLED'][i]}</div></div>`).join('')}</div>`}
+ else $('active').innerHTML='<h3>当前交易</h3><div class="note">无持仓</div>';
+ const m=Math.max(...ws.map(([,o])=>Math.abs(o.pnl)),1);$('ladder').innerHTML='<div class="ln"></div><div class="zero"></div>'+ws.sort((a,b)=>a[1].pnl-b[1].pnl).map(([w,o],i)=>{const x=50+Math.sign(o.pnl)*Math.sqrt(Math.abs(o.pnl)/m)*46,up=i%2,c=o.pnl>0?'var(--gr)':o.pnl<0?'var(--rd)':'#C7C7CC',lab=`${esc((nm[w]||w).slice(0,8))}<br>${o.pnl>=0?'+':'−'}$${Math.abs(o.pnl).toFixed(0)}`;
+  return `<div class="wd ${o.cash>=5?'on':''}" style="left:${x}%;top:${up?4:42}px">${up?lab:''}<i style="background:${c}"></i>${up?'':lab}</div>`}).join('');
+ $('lcnt').textContent=`${ws.filter(x=>x[1].pnl>0).length} UP / ${ws.length}`;
+ const se=ps.filter(p=>p.settled).sort((a,b)=>a.opened-b.opened),l20=se.slice(-20),mx=Math.max(...l20.map(t=>Math.abs(t.pnl)),1),n=l20.length;
+ $('stem').innerHTML='<line x1="0" x2="400" y1="60" y2="60" stroke="#E5E7EB"/>'+l20.map((t,i)=>{const x=(i+.5)*400/Math.max(n,20),y=60-t.pnl/mx*52,c=t.pnl>=0?'#10B981':'#F43F5E';return `<line x1="${x}" x2="${x}" y1="60" y2="${y}" stroke="${c}" stroke-width="2"/><circle cx="${x}" cy="${y}" r="4" fill="${c}"/>`}).join('');
+ const wins=se.filter(t=>t.pnl>0).length,buys=st.trades.filter(t=>t.action=='buy').length,sells=st.trades.filter(t=>t.action=='sell').length;
+ $('fstats').innerHTML=`<div><span class="mono">SETTLED</span><b> ${se.length}</b></div><div><span class="mono">WIN</span><b> ${se.length?Math.round(wins/se.length*100):0}%</b></div><div><span class="mono">BUYS</span><b> ${buys}</b></div><div><span class="mono">SKIPS</span><b> ${st.cash_skips??'—'}</b></div>`;
+ $('flist').innerHTML=st.trades.filter(t=>t.action=='buy'||t.action=='sell').slice(-40).reverse().map(t=>`<div class="fill"><span>${tm(t.ts)} · <b>${t.side=='BUY'?'买':'卖'}</b> ${esc(t.title)} <span class="mono">${esc(t.outcome)} · ${esc(nm[t.wallet]||'')}</span></span><b class="num">${t.side=='SELL'?'$'+f2(t.proceeds||0):'@'+(+t.price).toFixed(3)}</b></div>`).join('')||'<div class="note">暂无</div>';
+ $('pcnt').textContent=`${ps.length} POSITIONS · ${open.length} OPEN`;$('plist').innerHTML=ps.sort((a,b)=>b.opened-a.opened).map(p=>`<div class="fill"><span><b>${esc(p.title)}</b> <span class="mono">${esc(p.outcome)} · ${esc(p.name)}${p.settled?' · SETTLED':''}</span><br><span class="mono">$${f2(p.cost)} @ ${p.entry?.toFixed(3)} → ${p.mark?.toFixed(3)}</span></span><b class="num" style="color:${col(p.pnl)}">${sg(p.pnl)}</b></div>`).join('')||'<div class="note">无持仓</div>';
+ const rb=S.t?.rebalances||[];$('rlog').innerHTML=rb.slice().reverse().map(r=>`<div class="kill"><b>${tm(r.ts)} · 挪 $${f2(r.moved||0)}</b><span>${esc(nm[r.worst]||'')} (${sg(r.worst_pnl)}) → ${esc(nm[r.best]||'')} (${sg(r.best_pnl)})<br>目标 $${f2(r.wanted||0)}${r.note?' · '+(r.note=='cash-limited'?'现金不足':esc(r.note)):''}</span></div>`).join('')||'<div class="note">还没有调仓</div>';
+ const tw=S.t?.wallets||{},tot=Object.values(tw).reduce((a,o)=>a+o.equity,0)||1;$('acnt').textContent='淘汰赛 · CAP 30%';
+ $('atab').innerHTML='<tr><th>钱包</th><th>分配</th><th>权益</th><th>占比</th><th>现金</th></tr>'+Object.entries(tw).sort((a,b)=>b[1].equity-a[1].equity).map(([w,o])=>`<tr><td>${esc(nm[w]||w.slice(0,8))}</td><td>$${f2(o.alloc??o.start)}</td><td style="color:${col(o.pnl)}">$${f2(o.equity)}</td><td>${(o.equity/tot*100).toFixed(1)}%</td><td>$${f2(o.cash)}</td></tr>`).join('');
+ $('upd').textContent=st.updated?`数据更新 ${new Date(st.updated*1000).toLocaleString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'})}（UTC+8）· 每 5 分钟导出 · 页面每 60 秒刷新`:'';events()}
+function events(){if(modalShown||location.search.includes('nomodal'))return;const seen=JSON.parse(localStorage.copy2seen||'[]'),ev=[],nm=S.e?.names||{};
+ positions(S.e).filter(p=>p.settled&&Math.abs(p.pnl)>=5).forEach(p=>ev.push({id:'s'+p.w+p.title+p.outcome,c:p.pnl>=0?'#10B981':'#F43F5E',t:p.pnl>=0?'结算大赚 · BIG WIN':'结算亏损 · SETTLED LOSS',b:sg(p.pnl),d:`${p.name} · ${p.title} · ${p.outcome}`,ts:p.opened}));
+ (S.t?.rebalances||[]).forEach(r=>ev.push({id:'r'+r.ts,c:'#2E5CFF',t:'淘汰赛调仓 · REBALANCE',b:'$'+f2(r.moved||0),d:`${nm[r.worst]||''} → ${nm[r.best]||''}${r.note=='cash-limited'?'（现金不足）':''}`,ts:r.ts}));
+ const fresh=ev.filter(e=>!seen.includes(e.id)).sort((a,b)=>b.ts-a.ts);if(!fresh.length)return;const e=fresh[0];modalShown=true;localStorage.copy2seen=JSON.stringify([...seen,...ev.map(x=>x.id)].slice(-500));
+ $('md').style.setProperty('--c',e.c);$('md').innerHTML=`<div class="mono" style="color:${e.c}">${e.t} · ${tm(e.ts)}</div><div class="big num" style="color:${e.c}">${e.b}</div><div style="font-size:14px">${esc(e.d)}</div><div class="mono" style="margin-top:14px">点击任意处关闭 · TAP TO DISMISS</div>`;$('ov').classList.add('on')}
+$('ov').onclick=()=>$('ov').classList.remove('on');
+$('seg').onclick=e=>{const b=e.target.closest('button');if(b){acct=b.dataset.a;localStorage.copy2acct=acct;render()}};
+$('nav').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#nav button').forEach(x=>x.classList.toggle('on',x==b));document.querySelectorAll('.sec').forEach(s=>s.classList.toggle('on',s.dataset.s.split(' ').includes(b.dataset.t)));scrollTo(0,0)};
+async function load(){const[a,b]=await Promise.all([j('state.json'),j('state_t.json')]);S={e:a,t:b};render()}
+load();setInterval(load,60000);
+</script></body></html>
