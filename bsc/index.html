@@ -38,6 +38,9 @@ a{color:inherit;text-decoration:none}
 <div class="c"><div class="h">V2 Log · 跟单 / 止盈 / 止损 / 时间止损 / 升降级</div><div class="log" id="vlog" style="height:230px"></div></div></div>
 <div class="vs" style="grid-template-columns:1fr 1.6fr"><div class="c"><div class="h">V2 风控 · 防貔貅 + 日亏熔断</div><div class="big" id="halt" style="font-size:28px">-</div><div class="muted" id="rk"></div></div>
 <div class="c"><div class="h">今日被拦截代币 Killed by GoPlus</div><div class="log" id="kl" style="height:160px"></div></div></div>
+<div class="vs" style="grid-template-columns:1fr 1.6fr"><div class="c"><div class="h">Confluence · 聪明钱共振（≥2 个钱包 60 分钟内买同一币）</div><div class="big" id="c_eq" style="font-size:34px">-</div><div id="c_p" style="font-weight:700"></div><div class="muted" id="c_s"></div><div class="muted" style="margin-top:6px">三个账户：Baseline <b id="c_b"></b> · V2 <b id="c_v"></b> · 共振 <b id="c_c"></b></div></div>
+<div class="c"><div class="h">共振事件 Confluence Events</div><div class="log" id="cl" style="height:180px"></div></div></div>
+<div class="c" style="margin:0 28px 18px"><div class="h">雷区反向榜 · 被拦 vs 通过 后续表现（+1h / +6h / +24h）</div><div style="overflow:auto"><table class="ft" id="tt"></table></div><div class="muted" id="tn" style="margin-top:6px"></div><div class="log" id="ti" style="height:180px;margin-top:8px"></div></div>
 <div class="ws" id="ws"></div><div class="muted" style="padding:0 28px 28px">规则：Baseline：$1000 虚拟本金平分给入选钱包；领头钱包每买一个 meme 币，按固定 $10 模拟跟一笔，买卖各扣 4%（滑点+转账税），领头卖出即全部平仓；价格来自 DexScreener。V2：另开 $1000 虚拟本金，同样每笔 $10；候选池=当前名单+旧名单，每天重算各钱包近 7 天已实现盈亏，只跟 7 日盈利的钱包；除跟随领头卖出外，+100% 先卖一半，-30% 止损全平，持仓 24 小时仍在 ±10% 内则时间止损。V2 风控：每次跟买前查 GoPlus（貔貅/卖不掉、买卖税>10%、可增发/改余额/黑名单、前十持仓>50%、LP 未锁），任一不过即不跟，接口失败也不跟；V2 当日（北京时间）净值较开盘跌超 10% 即熔断，当天停止新买入，止盈止损照常。仅供研究，不构成投资建议。</div>
 <script>
 const $=id=>document.getElementById(id),f2=x=>(x>=0?'+':'')+x.toFixed(2);
@@ -96,4 +99,18 @@ const h=document.getElementById('halt');h.textContent=d.halt.halted?'HALTED 熔�
 document.getElementById('rk').innerHTML=`今日(${d.date}) 当日回撤 ${((d.halt.dd_today||0)*100).toFixed(2)}% / 限 ${(d.halt.limit*100).toFixed(0)}%<br>见到代币 ${d.tokens_seen} · 安全检查 ${d.risk.checked} · 拦截 <b style="color:#ff4d6d">${d.risk.killed}</b> · 通过 ${d.risk.passed}<br>V2 今日 ${d.v2.pnl_today>=0?'+':''}${d.v2.pnl_today} · Baseline 今日 ${d.baseline.pnl_today>=0?'+':''}${d.baseline.pnl_today}`;
 document.getElementById('kl').innerHTML=d.kills.length?d.kills.map(k=>`<div><b>${k.sym||''}</b> <span class="muted">${k.token.slice(0,6)}…${k.token.slice(-4)}</span> — ${k.reasons.join('；')}</div>`).join(''):'<div class="muted">暂无拦截</div>';}catch(e){}}
 desk();setInterval(desk,30000);
+const pc=x=>x==null?'-':((x>=0?'+':'')+(x*100).toFixed(1)+'%'),pp=x=>x==null?'-':(x*100).toFixed(0)+'%';
+async function conf(){try{const g=async u=>(await fetch(u+'?t='+Date.now(),{cache:'no-store'})).json();
+ const d=await g('./data/desk.json'),c=d.confluence||{},r=d.risk_track;let cs={};try{cs=await g('./data/paper_state_conf.json')}catch(e){}
+ const m=x=>x==null?'-':'$'+(+x).toFixed(2),e=c.equity??1000;$('c_eq').textContent=m(e);const p=e-1000;$('c_p').textContent=`${f2(p)} USD (${f2(p/10)}%)`;$('c_p').className=p>=0?'pos':'neg';
+ $('c_s').textContent=`持仓 ${c.open_positions||0} · 今日跟单 ${c.copied||0} · 共振事件累计 ${c.events_total||0} · 风控/止盈止损同 V2，不做 7 日过滤`;
+ $('c_b').textContent=m(d.baseline.equity);$('c_v').textContent=m(d.v2.equity);$('c_c').textContent=m(e);
+ $('cl').innerHTML=(c.events||[]).slice().reverse().map(x=>`<div><span class="tag COPY">${x.src=='backfill'?'回溯':'LIVE'}</span>${new Date(x.ts*1000).toLocaleString('zh-CN',{hour12:false})} <b>${x.sym||'?'}</b> · ${x.wallets.length} 个钱包 · @$${(+x.price).toPrecision(4)}</div>`).join('')||'<div class="muted">暂无共振</div>';
+ if(r){const row=(n,o)=>`<tr><td><b>${n}</b></td><td style="text-align:right">${o.n}</td>${['1h','6h','24h'].map(k=>`<td style="text-align:right">${o[k].n?pc(o[k].avg_ret)+' · 坏 '+pp(o[k].bad_pct)+' · 涨 '+pp(o[k].up_pct)+' <span class=muted>(n='+o[k].n+')</span>':'-'}</td>`).join('')}</tr>`;
+  $('tt').innerHTML='<tr class=muted><td>组别 / 拦截规则</td><td style="text-align:right">数</td><td style="text-align:right">+1h 平均 · 归零或跌>50% · 上涨</td><td style="text-align:right">+6h</td><td style="text-align:right">+24h</td></tr>'+row('❌ 被拦 Rejected',r.rejected)+row('✅ 通过 Passed (对照)',r.passed)+Object.entries(r.rules).map(([k,o])=>row('　└ '+k,o)).join('');
+  $('tn').textContent='“坏”=流动性<$1000(视为跑路)或跌超 50%。回溯条目(今早试跑)的检查点按补录时价格计算，非精确整点。规则越“坏率高、涨率低”越有用；被拦的币若大多上涨，说明该规则在误杀。';
+  $('ti').innerHTML=r.items.slice().reverse().map(i=>`<div><span class="tag ${i.ok?'ON':'OFF'}">${i.ok?'PASS':'KILL'}</span>${new Date(i.ts*1000).toLocaleString('zh-CN',{hour12:false})} <b>${i.sym}</b> 1h ${pc(i.ret['1h'])} · 6h ${pc(i.ret['6h'])} · 24h ${pc(i.ret['24h'])}${i.rug?' <b class=neg>RUG</b>':''} <span class=muted>${i.reasons.join('；')}</span></div>`).join('')}
+}catch(e){console.error(e)}}
+conf();setInterval(conf,30000);
+
 </script></body></html>
