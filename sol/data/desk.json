@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792605670,
- "tokens_seen": 5,
+ "updated": 1792607626,
+ "tokens_seen": 9,
  "risk": {
-  "checked": 2,
-  "killed": 3,
-  "passed": 0
+  "checked": 5,
+  "killed": 4,
+  "passed": 3
  },
  "kills": [
   {
@@ -24,39 +24,52 @@
     "top10 holders 65%",
     "warn: LP burned only 0%"
    ]
+  },
+  {
+   "sym": "SAINDRA",
+   "token": "A2yA6AFtfKkfVkfsnGpvsKoUV5kQPpMYboZsBPvmkA9T",
+   "reasons": [
+    "liq $37,367 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0037,
+  "dd_today": -0.0121,
   "limit": -0.1
  },
  "v2": {
-  "equity": 975.41,
+  "equity": 967.16,
   "day_start": 979.0,
-  "pnl_today": -3.59,
-  "open_positions": 17,
-  "closed_positions": 0,
-  "closed_sells": 0,
-  "win_rate": null,
-  "realized_today": 0,
-  "best_token": null,
-  "worst_token": null,
-  "copied": 0,
+  "pnl_today": -11.84,
+  "open_positions": 19,
+  "closed_positions": 1,
+  "closed_sells": 1,
+  "win_rate": 0.0,
+  "realized_today": -3.6,
+  "best_token": {
+   "sym": "SAINDRA",
+   "pnl": -3.6
+  },
+  "worst_token": {
+   "sym": "SAINDRA",
+   "pnl": -3.6
+  },
+  "copied": 3,
   "best_open": {
    "sym": "CRAWL",
-   "upnl": 1.37
+   "upnl": 1.35
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -4.66
+   "upnl": -4.28
   }
  },
  "baseline": {
-  "equity": 933.0,
+  "equity": 924.37,
   "day_start": 983.73,
-  "pnl_today": -50.73,
+  "pnl_today": -59.36,
   "closed_sells": 1,
   "win_rate": 0.0,
   "realized_today": -1.04,
@@ -68,12 +81,12 @@
    "sym": "EXFIL",
    "pnl": -1.04
   },
-  "copied": 4
+  "copied": 5
  },
  "risk_track": {
-  "updated": 1792605670,
+  "updated": 1792607488,
   "rejected": {
-   "n": 7,
+   "n": 9,
    "1h": {
     "n": 6,
     "avg_ret": -0.206,
@@ -103,7 +116,7 @@
    }
   },
   "passed": {
-   "n": 19,
+   "n": 22,
    "1h": {
     "n": 19,
     "avg_ret": -0.0058,
@@ -163,6 +176,36 @@
      "winners": 0
     }
    },
+   "liq $, < $, v floor": {
+    "n": 4,
+    "1h": {
+     "n": 2,
+     "avg_ret": -0.4663,
+     "bad_pct": 0.5,
+     "rug_pct": 0.0,
+     "up_pct": 0.0
+    },
+    "6h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 2,
+     "avg_ret": -0.4663,
+     "bad_pct": 0.5,
+     "winners": 0
+    }
+   },
    "warn: LP burned only": {
     "n": 2,
     "1h": {
@@ -190,36 +233,6 @@
      "n": 1,
      "avg_ret": 0.0215,
      "bad_pct": 0.0,
-     "winners": 0
-    }
-   },
-   "liq $, < $, v floor": {
-    "n": 2,
-    "1h": {
-     "n": 2,
-     "avg_ret": -0.4663,
-     "bad_pct": 0.5,
-     "rug_pct": 0.0,
-     "up_pct": 0.0
-    },
-    "6h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
-    },
-    "24h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
-    },
-    "latest": {
-     "n": 2,
-     "avg_ret": -0.4663,
-     "bad_pct": 0.5,
      "winners": 0
     }
    }
@@ -622,10 +635,86 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "texcat",
+    "token": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
+    "ok": false,
+    "reasons": [
+     "liq $42,023 < $50,000 v2 floor"
+    ],
+    "ts": 1792605707,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "DOPE",
+    "token": "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792607451,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CYBERLEEK",
+    "token": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792607452,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "SAINDRA",
+    "token": "A2yA6AFtfKkfVkfsnGpvsKoUV5kQPpMYboZsBPvmkA9T",
+    "ok": false,
+    "reasons": [
+     "liq $37,367 < $50,000 v2 floor"
+    ],
+    "ts": 1792607453,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "DARK",
+    "token": "7KEPApdbBMByrmqihz3bht2uMhFQcatjfSFQCKq66kH3",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792607488,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
  "risk_warn": {
-  "warn_lp": 10
+  "warn_lp": 11
  }
 }

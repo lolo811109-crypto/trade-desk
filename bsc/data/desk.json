@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792605693,
+ "updated": 1792607643,
  "tokens_seen": 3,
  "risk": {
-  "checked": 3,
-  "killed": 3,
+  "checked": 4,
+  "killed": 4,
   "passed": 0
  },
  "kills": [
@@ -16,18 +16,25 @@
    "reasons": [
     "top10 holders 79%"
    ]
+  },
+  {
+   "sym": "BIBI",
+   "token": "0x409f0bcdc9a70565a71af56cb50b2a6688cb7777",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": 0.0037,
+  "dd_today": 0.0022,
   "limit": -0.1
  },
  "v2": {
-  "equity": 967.58,
+  "equity": 966.12,
   "day_start": 964.02,
-  "pnl_today": 3.56,
+  "pnl_today": 2.1,
   "open_positions": 6,
   "closed_positions": 1,
   "closed_sells": 1,
@@ -48,13 +55,13 @@
   },
   "worst_open": {
    "sym": "TTAI",
-   "upnl": -11.91
+   "upnl": -14.15
   }
  },
  "baseline": {
-  "equity": 939.64,
+  "equity": 939.15,
   "day_start": 937.22,
-  "pnl_today": 2.42,
+  "pnl_today": 1.93,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
@@ -212,9 +219,9 @@
   "events_total": 12
  },
  "risk_track": {
-  "updated": 1792605466,
+  "updated": 1792607554,
   "rejected": {
-   "n": 51,
+   "n": 52,
    "1h": {
     "n": 51,
     "avg_ret": 0.1047,
@@ -275,7 +282,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 31,
+    "n": 32,
     "1h": {
      "n": 31,
      "avg_ret": -0.0305,
@@ -1614,6 +1621,22 @@
     "src": "live",
     "ret": {
      "1h": 0.0,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BIBI",
+    "token": "0x409f0bcdc9a70565a71af56cb50b2a6688cb7777",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792607554,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },

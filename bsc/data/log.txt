@@ -1,17 +1,3 @@
-2026-10-21 19:31:09,798 {'ts': 1792582153, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'SELL', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'tx': '0x1b64d2447cebd4d799945061ae7da56463b5da9d3bfe966f521aa4b02ae777c8', 'sym': 'TTAI', 'price': 5.817e-05, 'liq': 50664, 'action': 'sell', 'proceeds': 18.43, 'pnl': -1.57}
-2026-10-21 19:31:09,838 V2 {'ts': 1792582212, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'sym': 'TTAI', 'price': 5.817e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-21 19:31:09,839 {'ts': 1792582212, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x8e11e90b463bf521382e2b88539f053270a3848c', 'tx': '0x2d69622a6b8d35f77ea63eeb16f6c25bbbc95f745aca2833fe519a43555a6950', 'sym': 'TTAI', 'price': 5.817e-05, 'liq': 50664, 'action': 'buy', 'stake': 10.0}
-2026-10-21 19:31:13,937 V2 {'ts': 1792581654, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.0002001, 'action': 'skip-7d'}
-2026-10-21 19:31:13,999 V2 {'ts': 1792581789, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.0002001, 'action': 'skip-7d'}
-2026-10-21 19:31:15,802 tick equity=886.01 pnl=-113.99 head=128930357
-2026-10-21 19:31:36,506 V2-RISK AID 0xe3e8d64813f712ab0388adb352eeba573e1f7777 PASS 
-2026-10-21 19:31:36,506 V2 {'ts': 1792582285, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'sym': 'AID', 'price': 4.649e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-21 19:31:36,507 {'ts': 1792582285, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'tx': '0x70a90a7957e5ab73f10d72932cced1fc1f6f8500aaced79d3963aafde64124a9', 'sym': 'AID', 'price': 4.649e-05, 'liq': 22161, 'action': 'buy', 'stake': 10.0}
-2026-10-21 19:31:36,542 V2 {'ts': 1792582287, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'sym': 'AID', 'price': 4.649e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-21 19:31:36,542 {'ts': 1792582287, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe3e8d64813f712ab0388adb352eeba573e1f7777', 'tx': '0x50f2f4462cc484252b337709776f7ae06363a2b5c5b353a8a6642e6d9b8d8145', 'sym': 'AID', 'price': 4.649e-05, 'liq': 22161, 'action': 'buy', 'stake': 10.0}
-2026-10-21 19:31:37,775 tick equity=884.20 pnl=-115.80 head=128930485
-2026-10-21 19:31:59,201 tick equity=885.85 pnl=-114.15 head=128930534
-2026-10-21 19:32:20,442 tick equity=885.86 pnl=-114.14 head=128930581
 2026-10-21 19:32:41,854 tick equity=885.17 pnl=-114.83 head=128930628
 2026-10-21 19:33:02,066 V2 {'ts': 1792582361, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x1024a33a23e43e14090f86ae3064d0a370673de8', 'sym': 'DPOTS', 'price': 4.685894576e-05, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
 2026-10-21 19:33:02,067 {'ts': 1792582361, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x1024a33a23e43e14090f86ae3064d0a370673de8', 'tx': '0xf3c3b733d61e914e6833c69199ac0a0f1ee7309089947dc886103d4c9510aa0c', 'sym': 'DPOTS', 'price': 4.685894576e-05, 'liq': 14896, 'action': 'buy', 'stake': 10.0}
@@ -298,3 +284,17 @@
 2026-10-22 02:01:07,619 {'ts': 1792605641, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xca56094722450016f280c4fd6a333e5c36903827', 'tx': '0xdb383cf240d2cb6991dcaae8f7fad760c3baa3a2c135d5b4c93527b4bd5cebe7', 'sym': 'SPX', 'price': 0.02881, 'liq': 10404, 'action': 'skip-cash'}
 2026-10-22 02:01:09,831 tick equity=940.32 pnl=-59.68 head=128982389
 2026-10-22 02:01:33,458 tick equity=939.64 pnl=-60.36 head=128982439
+2026-10-22 02:29:40,387 WATCHDOG: loop stalled 1686s, exiting for restart
+2026-10-22 02:30:22,524 tick equity=938.35 pnl=-61.65 head=128986272
+2026-10-22 02:30:44,966 tick equity=938.94 pnl=-61.06 head=128986333
+2026-10-22 02:31:08,655 tick equity=913.59 pnl=-86.41 head=128986384
+2026-10-22 02:31:30,416 tick equity=913.58 pnl=-86.42 head=128986436
+2026-10-22 02:31:52,180 tick equity=913.53 pnl=-86.47 head=128986484
+2026-10-22 02:32:14,096 tick equity=938.94 pnl=-61.06 head=128986533
+2026-10-22 02:32:34,570 V2-RISK BIBI 0x409f0bcdc9a70565a71af56cb50b2a6688cb7777 KILL LP only 0% locked/burned
+2026-10-22 02:32:34,570 V2 {'ts': 1792607542, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x409f0bcdc9a70565a71af56cb50b2a6688cb7777', 'sym': 'BIBI', 'price': 0.0003857, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-22 02:32:36,131 tick equity=938.98 pnl=-61.02 head=128986582
+2026-10-22 02:32:57,678 tick equity=939.13 pnl=-60.87 head=128986630
+2026-10-22 02:33:19,322 tick equity=939.13 pnl=-60.87 head=128986677
+2026-10-22 02:33:40,835 tick equity=939.15 pnl=-60.85 head=128986727
+2026-10-22 02:34:03,061 tick equity=939.15 pnl=-60.85 head=128986774
