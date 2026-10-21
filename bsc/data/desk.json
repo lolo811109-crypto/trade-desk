@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792570480,
- "tokens_seen": 44,
+ "updated": 1792570777,
+ "tokens_seen": 61,
  "risk": {
-  "checked": 54,
-  "killed": 23,
+  "checked": 55,
+  "killed": 24,
   "passed": 31
  },
  "kills": [
@@ -138,6 +138,14 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "TKC",
+   "token": "0x06dc293c250e2fb2416a4276d291803fc74fb9b5",
+   "reasons": [
+    "has blacklist",
+    "top10 holders 69%"
+   ]
   }
  ],
  "halt": {
@@ -147,9 +155,9 @@
   "limit": -0.1
  },
  "v2": {
-  "equity": 990.2,
+  "equity": 990.21,
   "day_start": 992.68,
-  "pnl_today": -2.48,
+  "pnl_today": -2.47,
   "open_positions": 4,
   "closed_positions": 15,
   "closed_sells": 16,
@@ -170,13 +178,13 @@
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -5.86
+   "upnl": -5.71
   }
  },
  "baseline": {
-  "equity": 937.58,
+  "equity": 939.56,
   "day_start": 1000.0,
-  "pnl_today": -62.42,
+  "pnl_today": -60.44,
   "closed_sells": 49,
   "win_rate": 0.265,
   "realized_today": 6.35,
@@ -188,7 +196,7 @@
    "sym": "币安时代",
    "pnl": -7.55
   },
-  "copied": 139
+  "copied": 140
  },
  "confluence": {
   "equity": 1000.72,
@@ -313,9 +321,9 @@
   "events_total": 9
  },
  "risk_track": {
-  "updated": 1792570480,
+  "updated": 1792570756,
   "rejected": {
-   "n": 32,
+   "n": 33,
    "1h": {
     "n": 28,
     "avg_ret": 0.2986,
@@ -347,11 +355,11 @@
   "passed": {
    "n": 15,
    "1h": {
-    "n": 13,
-    "avg_ret": 0.0625,
-    "bad_pct": 0.154,
+    "n": 14,
+    "avg_ret": 0.0718,
+    "bad_pct": 0.143,
     "rug_pct": 0.0,
-    "up_pct": 0.462
+    "up_pct": 0.5
    },
    "6h": {
     "n": 9,
@@ -368,9 +376,9 @@
     "up_pct": null
    },
    "latest": {
-    "n": 13,
-    "avg_ret": -0.0242,
-    "bad_pct": 0.231,
+    "n": 14,
+    "avg_ret": -0.0087,
+    "bad_pct": 0.214,
     "winners": 1
    }
   },
@@ -406,7 +414,7 @@
     }
    },
    "top holders": {
-    "n": 16,
+    "n": 17,
     "1h": {
      "n": 16,
      "avg_ret": 0.2884,
@@ -522,6 +530,36 @@
      "n": 1,
      "avg_ret": 0.0329,
      "bad_pct": 0.0,
+     "winners": 0
+    }
+   },
+   "has blacklist": {
+    "n": 1,
+    "1h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "6h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
      "winners": 0
     }
    }
@@ -1186,7 +1224,7 @@
     "ts": 1792567106,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.1922,
      "6h": null,
      "24h": null
     },
@@ -1265,6 +1303,23 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792570480,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TKC",
+    "token": "0x06dc293c250e2fb2416a4276d291803fc74fb9b5",
+    "ok": false,
+    "reasons": [
+     "has blacklist",
+     "top10 holders 69%"
+    ],
+    "ts": 1792570756,
     "src": "live",
     "ret": {
      "1h": null,
