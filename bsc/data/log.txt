@@ -1,7 +1,3 @@
-2026-10-21 03:28:42,661 tick equity=968.89 pnl=-31.11 head=128802136
-2026-10-21 03:29:03,943 tick equity=963.66 pnl=-36.34 head=128802183
-2026-10-21 03:29:25,404 {'ts': 1792524546, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'SELL', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'tx': '0xe9ebfd297b963acab53a9f5158f518f3de056da91d4bb680527643783fc4ad95', 'sym': '.ai', 'price': 0.0005404, 'liq': 74690, 'action': 'sell', 'proceeds': 31.57, 'pnl': 1.57}
-2026-10-21 03:29:25,834 tick equity=987.35 pnl=-12.65 head=128802231
 2026-10-21 03:29:46,486 tick equity=988.36 pnl=-11.64 head=128802279
 2026-10-21 03:30:07,307 tick equity=988.35 pnl=-11.65 head=128802325
 2026-10-21 03:30:27,976 tick equity=982.88 pnl=-17.12 head=128802371
@@ -298,3 +294,7 @@
 2026-10-21 08:44:46,563 V2 {'ts': 1792543486, 'wallet': '0xe950337f36e45c316c53c69a5f285487b54f0bad', 'side': 'FILTER', 'action': 'init-paused', 'pnl7d': 0.0}
 2026-10-21 08:44:55,756 V2-FILTER INIT-PAUSED 0xc9ac2d47615508a16e46a3459eb4f564ad906a32 pnl7d=-2144.24
 2026-10-21 08:44:55,756 V2 {'ts': 1792543495, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'FILTER', 'action': 'init-paused', 'pnl7d': -2144.24}
+2026-10-21 08:44:57,850 tick equity=952.61 pnl=-47.39 head=128844296
+2026-10-21 08:45:10,284 V2-FILTER INIT-PAUSED 0xdf579d27140000251421f3bb2b4ed43835eb3b6b pnl7d=-201.01
+2026-10-21 08:45:10,285 V2 {'ts': 1792543510, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'FILTER', 'action': 'init-paused', 'pnl7d': -201.01}
+2026-10-21 08:45:18,537 tick equity=952.61 pnl=-47.39 head=128844342
