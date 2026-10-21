@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792608270,
- "tokens_seen": 10,
+ "updated": 1792608575,
+ "tokens_seen": 11,
  "risk": {
-  "checked": 5,
-  "killed": 5,
+  "checked": 6,
+  "killed": 6,
   "passed": 3
  },
  "kills": [
@@ -47,9 +47,9 @@
   "limit": -0.1
  },
  "v2": {
-  "equity": 966.38,
+  "equity": 966.35,
   "day_start": 979.0,
-  "pnl_today": -12.62,
+  "pnl_today": -12.65,
   "open_positions": 18,
   "closed_positions": 2,
   "closed_sells": 2,
@@ -65,18 +65,18 @@
   },
   "copied": 3,
   "best_open": {
-   "sym": "CRAWL",
-   "upnl": 1.03
+   "sym": "Agency",
+   "upnl": 0.84
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -4.54
+   "upnl": -5.0
   }
  },
  "baseline": {
-  "equity": 915.81,
+  "equity": 912.1,
   "day_start": 983.73,
-  "pnl_today": -67.92,
+  "pnl_today": -71.63,
   "closed_sells": 3,
   "win_rate": 0.0,
   "realized_today": -3.21,
@@ -88,7 +88,7 @@
    "sym": "fone",
    "pnl": -1.58
   },
-  "copied": 7
+  "copied": 8
  },
  "risk_track": {
   "updated": 1792607488,
@@ -725,33 +725,240 @@
   "warn_lp": 11
  },
  "v3": {
-  "equity": 1000.0,
+  "equity": 999.29,
   "day_start": 1000.0,
-  "pnl_today": 0.0,
-  "open_positions": 0,
+  "pnl_today": -0.71,
+  "open_positions": 1,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 0,
-  "best_open": null,
-  "worst_open": null,
+  "copied": 1,
+  "best_open": {
+   "sym": "CLAUDIA",
+   "upnl": -0.71
+  },
+  "worst_open": {
+   "sym": "CLAUDIA",
+   "upnl": -0.71
+  },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 0,
-  "killed": 0,
-  "passed": 0
+  "checked": 2,
+  "killed": 1,
+  "passed": 1
  },
- "v3_kills": [],
+ "v3_kills": [
+  {
+   "sym": "ANSEM",
+   "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "reasons": [
+    "top10 holders 65%",
+    "warn: LP burned only 0%",
+    "info: dev holds 0.0% via pump.fun"
+   ]
+  }
+ ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": 0.0,
+  "dd_today": -0.0007,
   "limit": -0.1
  },
- "v3_track": null
+ "v3_track": {
+  "updated": 1792608540,
+  "rejected": {
+   "n": 1,
+   "1h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "6h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "24h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "latest": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "winners": 0
+   }
+  },
+  "passed": {
+   "n": 1,
+   "1h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "6h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "24h": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "rug_pct": null,
+    "up_pct": null
+   },
+   "latest": {
+    "n": 0,
+    "avg_ret": null,
+    "bad_pct": null,
+    "winners": 0
+   }
+  },
+  "rules": {
+   "info: dev holds. via pump.fun": {
+    "n": 1,
+    "1h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "6h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "winners": 0
+    }
+   },
+   "top holders": {
+    "n": 1,
+    "1h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "6h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "winners": 0
+    }
+   },
+   "warn: LP burned only": {
+    "n": 1,
+    "1h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "6h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "24h": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "rug_pct": null,
+     "up_pct": null
+    },
+    "latest": {
+     "n": 0,
+     "avg_ret": null,
+     "bad_pct": null,
+     "winners": 0
+    }
+   }
+  },
+  "items": [
+   {
+    "sym": "CLAUDIA",
+    "token": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792608506,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "ANSEM",
+    "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+    "ok": false,
+    "reasons": [
+     "top10 holders 65%",
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792608540,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   }
+  ]
+ }
 }
