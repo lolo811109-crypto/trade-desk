@@ -1,0 +1,71 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Trade Desk · BTC 回归信号</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F5F7;--card:#fff;--bd:#E5E7EB;--tx:#18181B;--mu:#8E8E93;--ac:#F7931A;--act:#C46A00;--gr:#10B981;--rd:#F43F5E}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:Inter,-apple-system,"PingFang SC",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:480px;margin:0 auto;padding:16px 16px 40px}
+.mono{font-family:"JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.06em;font-size:10.5px;color:var(--mu)}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;box-shadow:0 8px 24px rgba(17,24,39,.05);padding:16px;margin-bottom:12px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+h3{font-size:15px;font-weight:800}
+.eq{font-size:38px;font-weight:800;letter-spacing:-.03em;line-height:1.05;display:flex;font-variant-numeric:tabular-nums}
+.dg{display:inline-block;height:1.05em;overflow:hidden}.dg span{display:block;transition:transform .9s cubic-bezier(.2,.9,.25,1.1)}
+svg{width:100%;overflow:visible;display:block}
+.pill{font:700 11px "JetBrains Mono",monospace;padding:5px 11px;border-radius:99px}
+.L{background:#ECFDF5;color:var(--gr)}.S{background:#FFF1F2;color:var(--rd)}.W{background:#F2F2F4;color:var(--mu)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.big{font-size:24px;font-weight:800;font-variant-numeric:tabular-nums;margin-top:4px}
+.bar{height:8px;border-radius:9px;background:#F0F0F2;margin-top:10px;overflow:hidden;position:relative}.bar i{position:absolute;top:0;bottom:0;border-radius:9px;background:var(--ac)}
+.prm{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}.prm label{font-size:11px;color:var(--mu);background:#F5F5F7;border-radius:9px;padding:5px 8px}
+.prm input{width:46px;border:0;background:none;font:700 12px "JetBrains Mono";color:var(--tx)}
+.st{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}.st div{background:#F5F5F7;border-radius:12px;padding:10px}.st b{display:block;font-size:18px;font-variant-numeric:tabular-nums}
+.fill{display:flex;justify-content:space-between;padding:9px 0;border-top:1px solid #F0F0F2;font-size:13px;font-variant-numeric:tabular-nums}
+.note{font-size:12px;color:var(--mu);line-height:1.5;margin-top:10px;background:#FFF7EC;border-radius:10px;padding:9px 11px}
+</style></head><body><div class="wrap">
+<div class="card"><div class="row"><span class="mono">BTCUSDT · 1M · BINANCE</span><span class="mono" id="chg"></span></div>
+<div class="eq" id="px" style="margin-top:6px">—</div><svg id="spark" viewBox="0 0 400 90" preserveAspectRatio="none" style="height:90px;margin-top:10px"></svg>
+<div class="row"><span class="mono" id="t0"></span><span class="mono" id="t1"></span></div></div>
+<div class="card"><div class="row"><div><h3>回归信号</h3><div class="mono" id="rl"></div></div><span class="pill W" id="sig">—</span></div>
+<div class="prm"><label>窗口 WIN <input id="w" value="15" inputmode="numeric"></label><label>斜率 SLOPE% <input id="sth" value="0.01" inputmode="decimal"></label><label>R² <input id="rth" value="0.6" inputmode="decimal"></label></div></div>
+<div class="grid"><div class="card"><span class="mono">斜率 SLOPE / BAR</span><div class="big" id="sl">—</div><div class="bar"><i id="slb"></i></div></div>
+<div class="card"><span class="mono">拟合度 R²</span><div class="big" id="r2">—</div><div class="bar"><i id="r2b"></i></div></div></div>
+<div class="card"><div class="row"><h3>回归线</h3><span class="mono" id="rln"></span></div><svg id="rg" viewBox="0 0 400 140" preserveAspectRatio="none" style="height:140px;margin-top:10px"></svg></div>
+<div class="card"><div class="row"><h3>历史信号命中率</h3><span class="mono" id="hn"></span></div>
+<div class="prm"><label>向后看 N 根 <input id="fw" value="10" inputmode="numeric"></label></div>
+<div class="st"><div><span class="mono">做多 LONG</span><b id="hl">—</b><span class="mono" id="hln"></span></div><div><span class="mono">做空 SHORT</span><b id="hs">—</b><span class="mono" id="hsn"></span></div><div><span class="mono">平均收益</span><b id="ha">—</b><span class="mono">按信号方向</span></div></div>
+<div class="note">命中率约 50% = 没有优势，跟抛硬币差不多。之前 27 组参数回测也只有最好的一组 51%。这个终端适合看"现在是单边还是震荡"，不适合直接照信号下单。</div></div>
+<div class="card"><div class="row"><h3>最近 10 次信号</h3><span class="mono">UTC+8</span></div><div id="last"></div></div>
+<div class="mono" style="text-align:center" id="upd"></div></div>
+<script>
+const B='https://data-api.binance.vision/api/v3',$=id=>document.getElementById(id),f2=n=>n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const tm=t=>new Date(t).toLocaleTimeString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai',hour:'2-digit',minute:'2-digit'});
+function reg(y){const n=y.length,tm=(n-1)/2,ym=y.reduce((a,b)=>a+b)/n;let c=0,v=0;y.forEach((p,i)=>{c+=(i-tm)*(p-ym);v+=(i-tm)**2});const s=c/v,a=ym-s*tm;let e=0,t=0;y.forEach((p,i)=>{e+=(p-a-s*i)**2;t+=(p-ym)**2});return{s,a,r2:t?1-e/t:0,sp:s/ym*100}}
+const sigOf=(r,st,rt)=>(r.r2>=rt&&r.sp>=st)?'LONG':(r.r2>=rt&&r.sp<=-st)?'SHORT':'WAIT';
+const P=()=>({w:Math.max(3,+$('w').value||15),st:+$('sth').value||0.01,rt:+$('rth').value||0.6,fw:Math.max(1,+$('fw').value||10)});
+function roll(el,v){const s='$'+f2(v);el.innerHTML=[...s].map(c=>/\d/.test(c)?`<span class="dg"><span>${[...'0123456789'].map(d=>`<div>${d}</div>`).join('')}</span></span>`:`<span>${c}</span>`).join('');
+ requestAnimationFrame(()=>requestAnimationFrame(()=>{let i=0;el.querySelectorAll('.dg>span').forEach(sp=>{while(!/\d/.test(s[i]))i++;sp.style.transform=`translateY(-${s[i]}0%)`;i++})}))}
+let K=[];
+function line(pts,lo,hi,H){const r=hi-lo||1;return pts.map((p,i)=>(i?'L':'M')+(i/(pts.length-1)*400).toFixed(1)+','+(H-4-(p-lo)/r*(H-10)).toFixed(1)).join('')}
+function render(){if(!K.length)return;const {w,st,rt,fw}=P(),px=K.map(k=>+k[4]),last=px.at(-1);roll($('px'),last);const c=last/px[0]-1;$('chg').innerHTML=`<span style="color:${c>=0?'var(--gr)':'var(--rd)'}">${c>=0?'+':''}${(c*100).toFixed(2)}%</span> · ${Math.round(px.length/60)}H`;
+ const s=px.slice(-180),lo=Math.min(...s),hi=Math.max(...s),d=line(s,lo,hi,90),ly=86-(last-lo)/(hi-lo||1)*80;
+ $('spark').innerHTML=`<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7931A" stop-opacity=".22"/><stop offset="1" stop-color="#F7931A" stop-opacity="0"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="3"/></filter></defs><path d="${d}L400,90L0,90Z" fill="url(#g)"/><path d="${d}" fill="none" stroke="#F7931A" stroke-width="2.2" vector-effect="non-scaling-stroke"/><circle cx="400" cy="${ly}" r="7" fill="#F7931A" filter="url(#gl)" opacity=".7"><animate attributeName="r" values="5;10;5" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="400" cy="${ly}" r="3.5" fill="#F7931A"/>`;
+ $('t0').textContent=tm(K[K.length-s.length][0]);$('t1').textContent=tm(K.at(-1)[0]);
+ const y=px.slice(-w),r=reg(y),sg=sigOf(r,st,rt);$('sig').className='pill '+sg[0];$('sig').textContent=sg=='WAIT'?'观望 WAIT':sg=='LONG'?'做多 LONG':'做空 SHORT';
+ $('rl').textContent=`W${w} · |SLOPE| ≥ ${st}% · R² ≥ ${rt}`;
+ $('sl').innerHTML=`<span style="color:${r.sp>=0?'var(--gr)':'var(--rd)'}">${r.sp>=0?'+':''}${r.sp.toFixed(4)}%</span>`;const sw=Math.min(50,Math.abs(r.sp)/0.05*50);$('slb').style.cssText=`left:${r.sp>=0?50:50-sw}%;width:${sw}%;background:${r.sp>=0?'var(--gr)':'var(--rd)'}`;
+ $('r2').textContent=r.r2.toFixed(3);$('r2b').style.cssText=`left:0;width:${Math.max(0,r.r2)*100}%`;
+ const yl=Math.min(...y),yh=Math.max(...y),fit=y.map((_,i)=>r.a+r.s*i),l2=Math.min(yl,...fit),h2=Math.max(yh,...fit);
+ $('rln').textContent=`LAST ${w} BARS · $${f2(yl)}–$${f2(yh)}`;
+ $('rg').innerHTML=y.map((p,i)=>`<circle cx="${(i/(w-1)*400).toFixed(1)}" cy="${(136-(p-l2)/(h2-l2||1)*130).toFixed(1)}" r="3.5" fill="#18181B" opacity=".75"/>`).join('')+`<path d="${line(fit,l2,h2,140)}" stroke="#F7931A" stroke-width="2.5" fill="none" vector-effect="non-scaling-stroke"/>`;
+ // hit rate
+ let L=[0,0],S=[0,0],ret=0,n=0;const sigs=[];for(let i=w;i<=px.length-1;i++){const q=reg(px.slice(i-w,i)),g=sigOf(q,st,rt);if(g=='WAIT')continue;const e=px[i-1],f=px[i-1+fw];let res=null;if(f!=null){const m=(f/e-1)*(g=='LONG'?1:-1);res=m>0;if(g=='LONG'){L[1]++;if(res)L[0]++}else{S[1]++;if(res)S[0]++}ret+=m;n++}sigs.push({t:K[i-1][0],g,e,res})}
+ const pr=a=>a[1]?(a[0]/a[1]*100).toFixed(1)+'%':'—',cl=a=>a[1]?(a[0]/a[1]>=.5?'var(--gr)':'var(--rd)'):'var(--mu)';
+ $('hn').textContent=`${L[1]+S[1]} SIGNALS · ${px.length} BARS`;$('hl').innerHTML=`<span style="color:${cl(L)}">${pr(L)}</span>`;$('hln').textContent=`N=${L[1]}`;$('hs').innerHTML=`<span style="color:${cl(S)}">${pr(S)}</span>`;$('hsn').textContent=`N=${S[1]}`;
+ const av=n?ret/n*100:0;$('ha').innerHTML=`<span style="color:${av>=0?'var(--gr)':'var(--rd)'}">${av>=0?'+':''}${av.toFixed(3)}%</span>`;
+ $('last').innerHTML=sigs.slice(-10).reverse().map(x=>`<div class="fill"><span>${tm(x.t)} · <span class="pill ${x.g[0]}" style="font-size:9.5px;padding:2px 7px">${x.g=='LONG'?'做多':'做空'}</span> <span class="mono">@ $${f2(x.e)}</span></span><b style="color:${x.res==null?'var(--mu)':x.res?'var(--gr)':'var(--rd)'}">${x.res==null?'待定':x.res?'命中':'未中'}</b></div>`).join('')||'<div class="note">最近没有信号</div>';
+ $('upd').textContent='行情 '+new Date().toLocaleTimeString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'})+' UTC+8 · 每 30 秒刷新 · 数据来自 Binance 公开接口'}
+async function load(){try{const d=await (await fetch(B+'/klines?symbol=BTCUSDT&interval=1m&limit=1000')).json();if(Array.isArray(d)){K=d;render()}}catch(e){$('upd').textContent='行情加载失败，稍后重试'}}
+['w','sth','rth','fw'].forEach(i=>$(i).oninput=render);load();setInterval(load,30000);
+</script></body></html>
