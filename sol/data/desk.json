@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792570165,
+ "updated": 1792570458,
  "tokens_seen": 55,
  "risk": {
-  "checked": 5,
+  "checked": 6,
   "killed": 3,
-  "passed": 2
+  "passed": 3
  },
  "kills": [
   {
@@ -28,13 +28,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0016,
+  "dd_today": -0.0018,
   "limit": -0.1
  },
  "v2": {
-  "equity": 998.41,
+  "equity": 998.2,
   "day_start": 1000.0,
-  "pnl_today": -1.59,
+  "pnl_today": -1.8,
   "open_positions": 2,
   "closed_positions": 0,
   "closed_sells": 0,
@@ -42,20 +42,20 @@
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 2,
+  "copied": 3,
   "best_open": {
    "sym": "Agency",
-   "upnl": -0.7
+   "upnl": -0.79
   },
   "worst_open": {
    "sym": "Kimchi",
-   "upnl": -0.9
+   "upnl": -1.01
   }
  },
  "baseline": {
-  "equity": 944.4,
+  "equity": 946.53,
   "day_start": 1000.0,
-  "pnl_today": -55.6,
+  "pnl_today": -53.47,
   "closed_sells": 57,
   "win_rate": 0.211,
   "realized_today": -34.52,
@@ -67,7 +67,7 @@
    "sym": "Kimchi",
    "pnl": -12.09
   },
-  "copied": 139
+  "copied": 140
  },
  "risk_track": {
   "updated": 1792570164,

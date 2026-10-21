@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792570183,
- "tokens_seen": 40,
+ "updated": 1792570480,
+ "tokens_seen": 44,
  "risk": {
-  "checked": 51,
-  "killed": 20,
+  "checked": 54,
+  "killed": 23,
   "passed": 31
  },
  "kills": [
@@ -123,18 +123,33 @@
     "buy_tax unknown",
     "sell_tax unknown"
    ]
+  },
+  {
+   "sym": "智能时代",
+   "token": "0xd633b60f8eb0beac680185bce7f57cbe84a77777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
+  },
+  {
+   "sym": "DPOTS",
+   "token": "0x1024a33a23e43e14090f86ae3064d0a370673de8",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0012,
+  "dd_today": -0.0025,
   "limit": -0.1
  },
  "v2": {
-  "equity": 991.45,
+  "equity": 990.2,
   "day_start": 992.68,
-  "pnl_today": -1.23,
+  "pnl_today": -2.48,
   "open_positions": 4,
   "closed_positions": 15,
   "closed_sells": 16,
@@ -151,20 +166,20 @@
   "copied": 33,
   "best_open": {
    "sym": "逆蝶",
-   "upnl": 1.03
+   "upnl": 0.8
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -5.18
+   "upnl": -5.86
   }
  },
  "baseline": {
-  "equity": 954.08,
+  "equity": 937.58,
   "day_start": 1000.0,
-  "pnl_today": -45.92,
-  "closed_sells": 47,
-  "win_rate": 0.255,
-  "realized_today": 12.31,
+  "pnl_today": -62.42,
+  "closed_sells": 49,
+  "win_rate": 0.265,
+  "realized_today": 6.35,
   "best_token": {
    "sym": "ぎゅうらい",
    "pnl": 43.63
@@ -173,7 +188,7 @@
    "sym": "币安时代",
    "pnl": -7.55
   },
-  "copied": 136
+  "copied": 139
  },
  "confluence": {
   "equity": 1000.72,
@@ -282,20 +297,31 @@
     ],
     "trigger": "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
     "price": 1.789e-05
+   },
+   {
+    "ts": 1792570283,
+    "token": "0xd633b60f8eb0beac680185bce7f57cbe84a77777",
+    "sym": "智能时代",
+    "wallets": [
+     "0xc5606cde16fb8c39cc68d1d97700883ae951ff56",
+     "0xdf579d27140000251421f3bb2b4ed43835eb3b6b"
+    ],
+    "trigger": "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
+    "price": 3.11e-05
    }
   ],
-  "events_total": 8
+  "events_total": 9
  },
  "risk_track": {
-  "updated": 1792570183,
+  "updated": 1792570480,
   "rejected": {
-   "n": 30,
+   "n": 32,
    "1h": {
-    "n": 27,
-    "avg_ret": 0.309,
-    "bad_pct": 0.074,
-    "rug_pct": 0.037,
-    "up_pct": 0.556
+    "n": 28,
+    "avg_ret": 0.2986,
+    "bad_pct": 0.071,
+    "rug_pct": 0.036,
+    "up_pct": 0.571
    },
    "6h": {
     "n": 17,
@@ -312,20 +338,20 @@
     "up_pct": null
    },
    "latest": {
-    "n": 27,
-    "avg_ret": 0.2777,
-    "bad_pct": 0.074,
+    "n": 28,
+    "avg_ret": 0.2684,
+    "bad_pct": 0.071,
     "winners": 3
    }
   },
   "passed": {
    "n": 15,
    "1h": {
-    "n": 12,
-    "avg_ret": 0.0567,
-    "bad_pct": 0.167,
+    "n": 13,
+    "avg_ret": 0.0625,
+    "bad_pct": 0.154,
     "rug_pct": 0.0,
-    "up_pct": 0.417
+    "up_pct": 0.462
    },
    "6h": {
     "n": 9,
@@ -342,21 +368,21 @@
     "up_pct": null
    },
    "latest": {
-    "n": 12,
-    "avg_ret": -0.0372,
-    "bad_pct": 0.25,
+    "n": 13,
+    "avg_ret": -0.0242,
+    "bad_pct": 0.231,
     "winners": 1
    }
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 20,
+    "n": 21,
     "1h": {
-     "n": 19,
-     "avg_ret": -0.0126,
+     "n": 20,
+     "avg_ret": -0.0111,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.632
+     "up_pct": 0.65
     },
     "6h": {
      "n": 13,
@@ -373,8 +399,8 @@
      "up_pct": null
     },
     "latest": {
-     "n": 19,
-     "avg_ret": -0.0094,
+     "n": 20,
+     "avg_ret": -0.0081,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -410,13 +436,13 @@
     }
    },
    "sell_tax unknown": {
-    "n": 8,
+    "n": 9,
     "1h": {
-     "n": 5,
-     "avg_ret": 0.7944,
-     "bad_pct": 0.4,
-     "rug_pct": 0.2,
-     "up_pct": 0.4
+     "n": 6,
+     "avg_ret": 0.6647,
+     "bad_pct": 0.333,
+     "rug_pct": 0.167,
+     "up_pct": 0.5
     },
     "6h": {
      "n": 2,
@@ -433,20 +459,20 @@
      "up_pct": null
     },
     "latest": {
-     "n": 5,
-     "avg_ret": 0.8128,
-     "bad_pct": 0.4,
+     "n": 6,
+     "avg_ret": 0.68,
+     "bad_pct": 0.333,
      "winners": 2
     }
    },
    "buy_tax unknown": {
-    "n": 8,
+    "n": 9,
     "1h": {
-     "n": 5,
-     "avg_ret": 0.7944,
-     "bad_pct": 0.4,
-     "rug_pct": 0.2,
-     "up_pct": 0.4
+     "n": 6,
+     "avg_ret": 0.6647,
+     "bad_pct": 0.333,
+     "rug_pct": 0.167,
+     "up_pct": 0.5
     },
     "6h": {
      "n": 2,
@@ -463,9 +489,9 @@
      "up_pct": null
     },
     "latest": {
-     "n": 5,
-     "avg_ret": 0.8128,
-     "bad_pct": 0.4,
+     "n": 6,
+     "avg_ret": 0.68,
+     "bad_pct": 0.333,
      "winners": 2
     }
    },
@@ -1132,7 +1158,7 @@
     "ts": 1792566676,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0164,
      "6h": null,
      "24h": null
     },
@@ -1146,7 +1172,7 @@
     "ts": 1792566863,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.1315,
      "6h": null,
      "24h": null
     },
@@ -1206,6 +1232,39 @@
      "sell_tax unknown"
     ],
     "ts": 1792570033,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "智能时代",
+    "token": "0xd633b60f8eb0beac680185bce7f57cbe84a77777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792570289,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "DPOTS",
+    "token": "0x1024a33a23e43e14090f86ae3064d0a370673de8",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792570480,
     "src": "live",
     "ret": {
      "1h": null,
