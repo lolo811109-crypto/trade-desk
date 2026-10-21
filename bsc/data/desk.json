@@ -2,8 +2,8 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792607643,
- "tokens_seen": 3,
+ "updated": 1792608144,
+ "tokens_seen": 4,
  "risk": {
   "checked": 4,
   "killed": 4,
@@ -28,13 +28,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": 0.0022,
+  "dd_today": 0.0023,
   "limit": -0.1
  },
  "v2": {
-  "equity": 966.12,
+  "equity": 966.2,
   "day_start": 964.02,
-  "pnl_today": 2.1,
+  "pnl_today": 2.18,
   "open_positions": 6,
   "closed_positions": 1,
   "closed_sells": 1,
@@ -59,9 +59,9 @@
   }
  },
  "baseline": {
-  "equity": 939.15,
+  "equity": 927.33,
   "day_start": 937.22,
-  "pnl_today": 1.93,
+  "pnl_today": -9.89,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
@@ -214,9 +214,20 @@
     ],
     "trigger": "0xc5606cde16fb8c39cc68d1d97700883ae951ff56",
     "price": 1.759947441e-05
+   },
+   {
+    "ts": 1792607992,
+    "token": "0x409f0bcdc9a70565a71af56cb50b2a6688cb7777",
+    "sym": "BIBI",
+    "wallets": [
+     "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
+     "0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3"
+    ],
+    "trigger": "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
+    "price": 0.0003687
    }
   ],
-  "events_total": 12
+  "events_total": 13
  },
  "risk_track": {
   "updated": 1792607554,
