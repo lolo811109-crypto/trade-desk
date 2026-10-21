@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792547853,
- "tokens_seen": 9,
+ "updated": 1792548643,
+ "tokens_seen": 14,
  "risk": {
-  "checked": 4,
-  "killed": 1,
-  "passed": 3
+  "checked": 6,
+  "killed": 2,
+  "passed": 4
  },
  "kills": [
   {
@@ -16,19 +16,26 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "大肥鱼",
+   "token": "0x22cc04d8d201eeaecbace9ce91c5ef117f167777",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0056,
+  "dd_today": -0.0046,
   "limit": -0.1
  },
  "v2": {
-  "equity": 987.14,
+  "equity": 988.07,
   "day_start": 992.68,
-  "pnl_today": -5.54,
-  "open_positions": 2,
+  "pnl_today": -4.61,
+  "open_positions": 3,
   "closed_positions": 0,
   "closed_sells": 1,
   "win_rate": 0.0,
@@ -41,20 +48,20 @@
    "sym": "LITY",
    "pnl": -7.32
   },
-  "copied": 5,
+  "copied": 6,
   "best_open": {
-   "sym": "LITY",
-   "upnl": -2.7
+   "sym": ".ai",
+   "upnl": -0.71
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -2.85
+   "upnl": -2.21
   }
  },
  "baseline": {
-  "equity": 935.97,
+  "equity": 933.2,
   "day_start": 1000.0,
-  "pnl_today": -64.03,
+  "pnl_today": -66.8,
   "closed_sells": 26,
   "win_rate": 0.192,
   "realized_today": 21.77,
@@ -66,7 +73,7 @@
    "sym": ".ai",
    "pnl": -8.28
   },
-  "copied": 96
+  "copied": 99
  },
  "confluence": {
   "equity": 1000.0,
@@ -119,7 +126,7 @@
   "events_total": 3
  },
  "risk_track": {
-  "updated": 1792547832,
+  "updated": 1792548578,
   "rejected": {
    "n": 17,
    "1h": {
@@ -151,7 +158,7 @@
    }
   },
   "passed": {
-   "n": 8,
+   "n": 9,
    "1h": {
     "n": 8,
     "avg_ret": 0.0823,
@@ -160,11 +167,11 @@
     "up_pct": 0.375
    },
    "6h": {
-    "n": 3,
-    "avg_ret": 0.6657,
-    "bad_pct": 0.333,
+    "n": 4,
+    "avg_ret": 0.5104,
+    "bad_pct": 0.25,
     "rug_pct": 0.0,
-    "up_pct": 0.667
+    "up_pct": 0.75
    },
    "24h": {
     "n": 0,
@@ -175,7 +182,7 @@
    },
    "latest": {
     "n": 8,
-    "avg_ret": 0.0845,
+    "avg_ret": 0.0827,
     "bad_pct": 0.25,
     "winners": 1
    }
@@ -603,7 +610,7 @@
     "src": "backfill",
     "ret": {
      "1h": 0.0588,
-     "6h": null,
+     "6h": 0.0447,
      "24h": null
     },
     "rug": false
@@ -726,6 +733,20 @@
     "src": "backfill",
     "ret": {
      "1h": 0.4327,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": ".ai",
+    "token": "0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792548578,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },
