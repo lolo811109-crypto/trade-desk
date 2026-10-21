@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792579982,
+ "updated": 1792580179,
  "tokens_seen": 65,
  "risk": {
-  "checked": 37,
-  "killed": 6,
+  "checked": 38,
+  "killed": 7,
   "passed": 31
  },
  "kills": [
@@ -43,13 +43,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0164,
+  "dd_today": -0.017,
   "limit": -0.1
  },
  "v2": {
-  "equity": 983.6,
+  "equity": 982.95,
   "day_start": 1000.0,
-  "pnl_today": -16.4,
+  "pnl_today": -17.05,
   "open_positions": 17,
   "closed_positions": 5,
   "closed_sells": 5,
@@ -66,17 +66,17 @@
   "copied": 31,
   "best_open": {
    "sym": "EXFIL",
-   "upnl": 1.35
+   "upnl": 1.5
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -3.27
+   "upnl": -3.6
   }
  },
  "baseline": {
-  "equity": 936.78,
+  "equity": 937.44,
   "day_start": 1000.0,
-  "pnl_today": -63.22,
+  "pnl_today": -62.56,
   "closed_sells": 65,
   "win_rate": 0.2,
   "realized_today": -38.12,
@@ -88,7 +88,7 @@
    "sym": "Kimchi",
    "pnl": -14.38
   },
-  "copied": 153
+  "copied": 154
  },
  "risk_track": {
   "updated": 1792579882,
