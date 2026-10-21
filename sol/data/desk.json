@@ -1,0 +1,45 @@
+{
+ "chain": "sol",
+ "date": "2026-10-21",
+ "tz": "UTC+8",
+ "updated": 1792546599,
+ "tokens_seen": 0,
+ "risk": {
+  "checked": 0,
+  "killed": 0,
+  "passed": 0
+ },
+ "kills": [],
+ "halt": {
+  "halted": false,
+  "at": null,
+  "dd_today": 0.0,
+  "limit": -0.1
+ },
+ "v2": {
+  "equity": 1000.0,
+  "day_start": 1000.0,
+  "pnl_today": 0.0,
+  "open_positions": 0,
+  "closed_positions": 0,
+  "closed_sells": 0,
+  "win_rate": null,
+  "realized_today": 0,
+  "best_token": null,
+  "worst_token": null,
+  "copied": 0,
+  "best_open": null,
+  "worst_open": null
+ },
+ "baseline": {
+  "equity": 1000.0,
+  "day_start": 1000.0,
+  "pnl_today": 0.0,
+  "closed_sells": 0,
+  "win_rate": null,
+  "realized_today": 0,
+  "best_token": null,
+  "worst_token": null,
+  "copied": 0
+ }
+}

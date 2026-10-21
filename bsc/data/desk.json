@@ -2,24 +2,32 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792546316,
- "tokens_seen": 4,
+ "updated": 1792546617,
+ "tokens_seen": 5,
  "risk": {
-  "checked": 2,
-  "killed": 0,
+  "checked": 3,
+  "killed": 1,
   "passed": 2
  },
- "kills": [],
+ "kills": [
+  {
+   "sym": ".ai",
+   "token": "0x5943d989cd95388b4dfaa9a61fd66843e6e57777",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
+  }
+ ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0002,
+  "dd_today": -0.0052,
   "limit": -0.1
  },
  "v2": {
-  "equity": 992.5,
+  "equity": 987.56,
   "day_start": 992.68,
-  "pnl_today": -0.18,
+  "pnl_today": -5.12,
   "open_positions": 2,
   "closed_positions": 0,
   "closed_sells": 1,
@@ -36,17 +44,17 @@
   "copied": 4,
   "best_open": {
    "sym": "LITY",
-   "upnl": 0.15
+   "upnl": -2.38
   },
   "worst_open": {
    "sym": "LITY",
-   "upnl": -0.33
+   "upnl": -2.74
   }
  },
  "baseline": {
-  "equity": 949.76,
+  "equity": 934.01,
   "day_start": 1000.0,
-  "pnl_today": -50.24,
+  "pnl_today": -65.99,
   "closed_sells": 26,
   "win_rate": 0.192,
   "realized_today": 21.77,
