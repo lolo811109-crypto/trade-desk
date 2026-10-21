@@ -36,7 +36,9 @@ a{color:inherit;text-decoration:none}
 <div class="c"><div class="h">对比净值 Baseline vs V2</div><div style="height:180px"><canvas id="ch2"></canvas></div></div></div>
 <div class="vs" style="grid-template-columns:1fr 1.6fr"><div class="c"><div class="h">V2 钱包 7 日过滤（每日重算）</div><div style="max-height:260px;overflow:auto"><table class="ft" id="ft"></table></div></div>
 <div class="c"><div class="h">V2 Log · 跟单 / 止盈 / 止损 / 时间止损 / 升降级</div><div class="log" id="vlog" style="height:230px"></div></div></div>
-<div class="ws" id="ws"></div><div class="muted" style="padding:0 28px 28px">规则：Baseline：$1000 虚拟本金平分给入选钱包；领头钱包每买一个 meme 币，按固定 $10 模拟跟一笔，买卖各扣 4%（滑点+转账税），领头卖出即全部平仓；价格来自 DexScreener。V2：另开 $1000 虚拟本金，同样每笔 $10；候选池=当前名单+旧名单，每天重算各钱包近 7 天已实现盈亏，只跟 7 日盈利的钱包；除跟随领头卖出外，+100% 先卖一半，-30% 止损全平，持仓 24 小时仍在 ±10% 内则时间止损。仅供研究，不构成投资建议。</div>
+<div class="vs" style="grid-template-columns:1fr 1.6fr"><div class="c"><div class="h">V2 风控 · 防貔貅 + 日亏熔断</div><div class="big" id="halt" style="font-size:28px">-</div><div class="muted" id="rk"></div></div>
+<div class="c"><div class="h">今日被拦截代币 Killed by GoPlus</div><div class="log" id="kl" style="height:160px"></div></div></div>
+<div class="ws" id="ws"></div><div class="muted" style="padding:0 28px 28px">规则：Baseline：$1000 虚拟本金平分给入选钱包；领头钱包每买一个 meme 币，按固定 $10 模拟跟一笔，买卖各扣 4%（滑点+转账税），领头卖出即全部平仓；价格来自 DexScreener。V2：另开 $1000 虚拟本金，同样每笔 $10；候选池=当前名单+旧名单，每天重算各钱包近 7 天已实现盈亏，只跟 7 日盈利的钱包；除跟随领头卖出外，+100% 先卖一半，-30% 止损全平，持仓 24 小时仍在 ±10% 内则时间止损。V2 风控：每次跟买前查 GoPlus（貔貅/卖不掉、买卖税>10%、可增发/改余额/黑名单、前十持仓>50%、LP 未锁），任一不过即不跟，接口失败也不跟；V2 当日（北京时间）净值较开盘跌超 10% 即熔断，当天停止新买入，止盈止损照常。仅供研究，不构成投资建议。</div>
 <script>
 const $=id=>document.getElementById(id),f2=x=>(x>=0?'+':'')+x.toFixed(2);
 function ring(el,v,txt,col){const C=2*Math.PI*15.9,p=Math.max(0,Math.min(1,v));el.innerHTML=`<circle cx=18 cy=18 r=15.9 fill=none stroke=#e9efec stroke-width=3.2 /><circle cx=18 cy=18 r=15.9 fill=none stroke=${col} stroke-width=3.2 stroke-linecap=round stroke-dasharray="${p*C} ${C}" transform="rotate(-90 18 18)"/><text x=18 y=20.5 text-anchor=middle font-size=7 font-weight=700 fill=#0f172a>${txt}</text>`}
@@ -88,4 +90,10 @@ let ch2;async function go2(){try{
 }catch(e){console.error(e)}}
 go2();setInterval(go2,15000);
 
+
+async function desk(){try{const d=await (await fetch('./data/desk.json?t='+Date.now(),{cache:'no-store'})).json();
+const h=document.getElementById('halt');h.textContent=d.halt.halted?'HALTED 熔断中':'ACTIVE 正常';h.style.color=d.halt.halted?'#ff4d6d':'#39ff9f';
+document.getElementById('rk').innerHTML=`今日(${d.date}) 当日回撤 ${((d.halt.dd_today||0)*100).toFixed(2)}% / 限 ${(d.halt.limit*100).toFixed(0)}%<br>见到代币 ${d.tokens_seen} · 安全检查 ${d.risk.checked} · 拦截 <b style="color:#ff4d6d">${d.risk.killed}</b> · 通过 ${d.risk.passed}<br>V2 今日 ${d.v2.pnl_today>=0?'+':''}${d.v2.pnl_today} · Baseline 今日 ${d.baseline.pnl_today>=0?'+':''}${d.baseline.pnl_today}`;
+document.getElementById('kl').innerHTML=d.kills.length?d.kills.map(k=>`<div><b>${k.sym||''}</b> <span class="muted">${k.token.slice(0,6)}…${k.token.slice(-4)}</span> — ${k.reasons.join('；')}</div>`).join(''):'<div class="muted">暂无拦截</div>';}catch(e){}}
+desk();setInterval(desk,30000);
 </script></body></html>
