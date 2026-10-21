@@ -70,7 +70,9 @@ nav .in{max-width:480px;margin:0 auto;display:flex}nav button{flex:1;border:0;ba
 <div class="side"><div class="mx num" id="mx">—</div><div class="mono">ON INITIAL CAPITAL</div><div class="mono" style="margin-top:6px">START $1,000</div></div></div>
 <svg class="spark" id="spark" viewBox="0 0 400 90" preserveAspectRatio="none"></svg><div class="row mono"><span id="t0"></span><span id="t1"></span></div></div>
 <div class="card banner"><div class="chk">✓</div><div><div style="font-weight:700;font-size:15px">先过风控，再跟单。</div><div class="mono" id="rules" style="margin-top:3px">7D FILTER · TP +100% HALF · SL -30% · 24H TIME STOP · DAILY -10% HALT</div></div><span class="pill ok" id="hpill">ACTIVE</span></div>
+<div id="tdpipe" data-src="../bsc/data/state_v2.json" data-color="#F0B90B"></div>
 <div class="card" id="active"></div>
+<div id="tdgantt" data-src="../bsc/data/state_v2.json" data-color="#F0B90B"></div>
 <div class="card"><div class="row"><h3>钱包阶梯</h3><span class="mono">7D PNL LADDER</span></div><div class="ladder" id="ladder"></div><div class="row mono"><span>◀ 7D 亏损</span><span id="lcnt"></span><span>7D 盈利 ▶</span></div></div>
 </section>
 
@@ -157,4 +159,4 @@ $('seg').onclick=e=>{const b=e.target.closest('button');if(b){acct=b.dataset.a;l
 $('nav').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#nav button').forEach(x=>x.classList.toggle('on',x==b));document.querySelectorAll('.sec').forEach(s=>s.classList.toggle('on',s.dataset.s.split(' ').includes(b.dataset.t)));scrollTo(0,0)};
 async function load(){const[a,b,c,d]=await Promise.all([j('state.json'),j('state_v2.json'),j('paper_state_conf.json'),j('desk.json')]);S={state:a,v2:b,conf:c,desk:d};render()}
 load();setInterval(load,60000);
-</script></body></html>
+</script><script src="../desk/ui.js"></script></body></html>

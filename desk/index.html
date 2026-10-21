@@ -33,17 +33,21 @@ iframe.on,#ov.on{opacity:1;pointer-events:auto}
 .subs{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.sub{background:#F5F5F7;border-radius:9px;padding:5px 8px;font-size:11px;font-variant-numeric:tabular-nums}.sub b{display:block;font-size:13px}
 svg.sp{width:100%;height:44px;margin-top:6px;overflow:visible}
 .ft{font-size:11px;color:var(--mu);text-align:center;margin-top:10px;line-height:1.5}
+.shf{display:flex;justify-content:space-between;align-items:center;background:#0D1117;color:#E6EDF3;border-radius:14px;padding:8px 12px;margin-bottom:8px}.shf .st{font-weight:800;font-size:14px}.shf .mono{color:#7D8590;font-size:9.5px}.shf .sv{font:800 22px "JetBrains Mono",monospace;letter-spacing:-.03em;line-height:1.1}
 </style></head><body>
 <div class="top"><div class="tin"><div class="tt"><b><i></i>Trade Desk 交易台</b><span class="mono" id="clk"></span></div>
+<div class="shf" id="shf"><div><div class="st" id="sst">—</div><div class="mono" id="sw">—</div></div><div style="text-align:right"><div class="sv" id="spl">—</div><div id="ssp"></div></div></div>
 <div class="seg" id="seg"><div class="ind" id="ind"></div><button data-m="ov">总览</button><button data-m="bsc">BNB</button><button data-m="sol">SOL</button><button data-m="poly">POLY</button><button data-m="btc">BTC</button></div></div></div>
 <main id="main"><div id="ov"><div class="wrap">
 <div class="sum"><div class="mono" style="color:#aaa">模拟总权益 · ALL PAPER ACCOUNTS</div><div class="v" id="tot">—</div><div class="pl" id="totp"></div></div>
-<div id="cards"></div>
+<div id="ovpipe"></div><div id="cards"></div>
 <div class="ft">全部为模拟盘真实数据，不涉及真实资金 · 数据约每 5 分钟导出 · 页面每 60 秒刷新（UTC+8）<br><a href="../" style="color:var(--mu)">返回首页 / 经典版</a></div></div></div></main>
+<script src="ui.js"></script>
 <script>
 const M={ov:{c:'#18181B'},bsc:{c:'#F0B90B',src:'../bsc2/'},sol:{c:'#9945FF',src:'../sol2/'},poly:{c:'#2E5CFF',src:'../copy2/'},btc:{c:'#F7931A',src:'btc.html'}};
 const $=id=>document.getElementById(id),f2=n=>n==null?'—':n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}),pc=n=>(n>=0?'+':'')+(n*100).toFixed(2)+'%',col=n=>n>=0?'var(--gr)':'var(--rd)';
 const q=new URLSearchParams(location.search),nomodal=q.has('nomodal');
+setInterval(()=>{const s=TDUI.shift();$('sst').textContent=(s.night?'🌙 夜班':'☀️ 白天')+' '+String(s.h).padStart(2,'0')+':'+String(s.m).padStart(2,'0')+' UTC+8'},1000);
 setInterval(()=>$('clk').textContent=new Date().toLocaleTimeString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'})+' UTC+8',1000);
 const frames={};
 function go(m,push){if(!M[m])m='ov';localStorage.deskTab=m;document.documentElement.style.setProperty('--ac',M[m].c);
@@ -74,6 +78,9 @@ async function load(){const[bs,bv,bc,bd,ss,sv,sd,pe,pt]=await Promise.all(['../b
  $('cards').innerHTML=card('bsc','BNB Chain Meme',bv,sub('原版',bs)+sub('V2',bv)+sub('共振',conf),`<span class="pill ${bh?'halt':''}">${bh?'HALTED':'ACTIVE'}</span>`,bv?.history)
   +card('sol','Solana Meme',sv,sub('原版',ss)+sub('V2',sv),`<span class="pill ${sh?'halt':''}">${sh?'HALTED':'ACTIVE'}</span>`,sv?.history)
   +card('poly','Polymarket 跟单',pe,sub('平均分配',pe)+sub('淘汰赛',pt),`<span class="pill ${out>ws.length/2?'halt':''}">${out}/${ws.length} CASH OUT</span>`,pe?.history)+btc;
+ try{const s=TDUI.shift(),r=TDUI.shiftPnl([bs,bv,conf,ss,sv,pe,pt],s.start);$('sw').textContent=(s.night?'今晚':'今天')+' '+TDUI.hm(s.start)+' 起 · '+(r?r.n:0)+' 个账户';
+  if(r){const c=r.pnl>=0?'#3FB950':'#F85149';$('spl').style.color=c;$('spl').textContent=(r.pnl>=0?'+':'−')+'$'+Math.abs(r.pnl).toFixed(2);$('ssp').innerHTML=TDUI.sparkSvg(r.pts,c)}else{$('spl').textContent='—'}
+  TDUI.pipe($('ovpipe'),TDUI.merge([TDUI.events(bv,'BNB'),TDUI.events(sv,'SOL'),TDUI.events(pe,'POLY')]),'#58A6FF','今日流程 · 全部市场')}catch(e){console.error(e)}
  document.querySelectorAll('.card').forEach(c=>c.onclick=()=>go(c.dataset.m))}
 go(q.get('m')=='ov'?'ov':(M[q.get('m')]?q.get('m'):(localStorage.deskTab||'ov')),!!q.get('m'));
 addEventListener('resize',()=>go(localStorage.deskTab,false));load();setInterval(load,60000);
