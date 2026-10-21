@@ -2,7 +2,7 @@
  "chain": "bsc",
  "date": "2026-10-21",
  "tz": "UTC+8",
- "updated": 1792561364,
+ "updated": 1792562230,
  "tokens_seen": 28,
  "risk": {
   "checked": 42,
@@ -95,13 +95,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0112,
+  "dd_today": -0.0047,
   "limit": -0.1
  },
  "v2": {
-  "equity": 981.54,
+  "equity": 988.01,
   "day_start": 992.68,
-  "pnl_today": -11.14,
+  "pnl_today": -4.67,
   "open_positions": 4,
   "closed_positions": 12,
   "closed_sells": 13,
@@ -118,17 +118,17 @@
   "copied": 30,
   "best_open": {
    "sym": "LITY",
-   "upnl": 3.56
+   "upnl": 4.87
   },
   "worst_open": {
    "sym": ".ai",
-   "upnl": -6.01
+   "upnl": -0.95
   }
  },
  "baseline": {
-  "equity": 964.44,
+  "equity": 979.21,
   "day_start": 1000.0,
-  "pnl_today": -35.56,
+  "pnl_today": -20.79,
   "closed_sells": 41,
   "win_rate": 0.195,
   "realized_today": 7.52,
@@ -232,7 +232,7 @@
   "events_total": 6
  },
  "risk_track": {
-  "updated": 1792561137,
+  "updated": 1792561961,
   "rejected": {
    "n": 26,
    "1h": {
@@ -273,11 +273,11 @@
     "up_pct": 0.417
    },
    "6h": {
-    "n": 6,
-    "avg_ret": 0.0602,
-    "bad_pct": 0.5,
+    "n": 7,
+    "avg_ret": 0.0459,
+    "bad_pct": 0.429,
     "rug_pct": 0.0,
-    "up_pct": 0.5
+    "up_pct": 0.429
    },
    "24h": {
     "n": 0,
@@ -288,7 +288,7 @@
    },
    "latest": {
     "n": 12,
-    "avg_ret": 0.0032,
+    "avg_ret": 0.0098,
     "bad_pct": 0.25,
     "winners": 1
    }
@@ -807,7 +807,7 @@
     "src": "backfill",
     "ret": {
      "1h": -0.1189,
-     "6h": null,
+     "6h": -0.0396,
      "24h": null
     },
     "rug": false

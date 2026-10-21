@@ -1,17 +1,3 @@
-2026-10-21 09:55:07,108 tick equity=931.35 pnl=-68.65 head=128853649
-2026-10-21 09:55:27,912 tick equity=933.51 pnl=-66.49 head=128853696
-2026-10-21 09:55:48,818 tick equity=934.25 pnl=-65.75 head=128853742
-2026-10-21 09:56:09,625 tick equity=934.65 pnl=-65.35 head=128853788
-2026-10-21 09:56:30,500 tick equity=934.75 pnl=-65.25 head=128853834
-2026-10-21 09:56:51,341 tick equity=935.36 pnl=-64.64 head=128853881
-2026-10-21 09:57:12,402 tick equity=935.92 pnl=-64.08 head=128853927
-2026-10-21 09:57:33,104 tick equity=935.97 pnl=-64.03 head=128853974
-2026-10-21 10:08:52,176 V2 {'ts': 1792547905, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xf26b540a3d817ff59062badd00b7bf634d927777', 'sym': 'バイナンス時代', 'price': 2.388827883e-05, 'action': 'skip-7d'}
-2026-10-21 10:08:52,178 {'ts': 1792547905, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xf26b540a3d817ff59062badd00b7bf634d927777', 'tx': '0xed410a28fa9b21475874c8eca9d6c294e6612e2bc1b63b2da6dccbd668bb2f9b', 'sym': 'バイナンス時代', 'price': 2.388827883e-05, 'liq': 7234, 'action': 'buy', 'stake': 10.0}
-2026-10-21 10:08:52,313 V2 {'ts': 1792547986, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x06682b1e122fa1956faa74d7b2cd4e7d2a817777', 'sym': '脸谱', 'price': 1.462e-05, 'action': 'skip-7d'}
-2026-10-21 10:08:52,313 {'ts': 1792547986, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x06682b1e122fa1956faa74d7b2cd4e7d2a817777', 'tx': '0x31e67d05d7af07bb7337fc3bfca249cdee3cacf7315ca9aa29f33fd12842a5e9', 'sym': '脸谱', 'price': 1.462e-05, 'liq': 17178, 'action': 'buy', 'stake': 10.0}
-2026-10-21 10:08:52,574 V2 {'ts': 1792548382, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa', 'sym': 'BADGE', 'price': 0.0003319, 'action': 'skip-7d'}
-2026-10-21 10:08:52,575 {'ts': 1792548382, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0xdf37d7e27061109b7ba94480e938e7e66ae9aaaa', 'tx': '0xbfd2afbfc694829b26ef99c8f029de58b5a4d4cd221112050c55d879dc80c7c4', 'sym': 'BADGE', 'price': 0.0003319, 'liq': 59294, 'action': 'buy', 'stake': 10.0}
 2026-10-21 10:08:53,316 V2-RISK 大肥鱼 0x22cc04d8d201eeaecbace9ce91c5ef117f167777 KILL LP only 0% locked/burned
 2026-10-21 10:08:53,316 V2 {'ts': 1792548098, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x22cc04d8d201eeaecbace9ce91c5ef117f167777', 'sym': '大肥鱼', 'price': 0.000123, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
 2026-10-21 10:08:57,621 tick equity=934.08 pnl=-65.92 head=128855449
@@ -298,3 +284,17 @@
 2026-10-21 13:42:03,610 tick equity=966.62 pnl=-33.38 head=128883901
 2026-10-21 13:42:24,355 tick equity=963.96 pnl=-36.04 head=128883947
 2026-10-21 13:42:44,787 tick equity=964.44 pnl=-35.56 head=128883993
+2026-10-21 13:52:41,904 tick equity=978.70 pnl=-21.30 head=128885279
+2026-10-21 13:53:02,483 tick equity=979.96 pnl=-20.04 head=128885364
+2026-10-21 13:53:23,321 tick equity=979.74 pnl=-20.26 head=128885410
+2026-10-21 13:53:43,711 tick equity=981.10 pnl=-18.90 head=128885457
+2026-10-21 13:54:04,525 tick equity=980.98 pnl=-19.02 head=128885502
+2026-10-21 13:54:25,002 tick equity=980.53 pnl=-19.47 head=128885548
+2026-10-21 13:54:45,739 tick equity=980.96 pnl=-19.04 head=128885594
+2026-10-21 13:55:06,300 tick equity=980.93 pnl=-19.07 head=128885640
+2026-10-21 13:55:27,032 tick equity=981.16 pnl=-18.84 head=128885685
+2026-10-21 13:55:47,626 tick equity=981.19 pnl=-18.81 head=128885732
+2026-10-21 13:56:08,413 tick equity=981.37 pnl=-18.63 head=128885777
+2026-10-21 13:56:28,894 tick equity=983.04 pnl=-16.96 head=128885823
+2026-10-21 13:56:49,643 tick equity=982.85 pnl=-17.15 head=128885869
+2026-10-21 13:57:10,074 tick equity=979.21 pnl=-20.79 head=128885915
