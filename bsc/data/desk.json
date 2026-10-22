@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792668909,
- "tokens_seen": 30,
+ "updated": 1792669214,
+ "tokens_seen": 32,
  "risk": {
-  "checked": 33,
-  "killed": 25,
-  "passed": 8
+  "checked": 37,
+  "killed": 27,
+  "passed": 10
  },
  "kills": [
   {
@@ -92,19 +92,27 @@
     "buy_tax unknown",
     "sell_tax unknown"
    ]
+  },
+  {
+   "sym": "BNCB股票",
+   "token": "0xeb6b8ec8b7c0166fcb7daec83f0b5761887c7777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0145,
+  "dd_today": -0.0149,
   "limit": -0.1
  },
  "v2": {
-  "equity": 950.08,
+  "equity": 949.64,
   "day_start": 964.02,
-  "pnl_today": -13.94,
-  "open_positions": 3,
+  "pnl_today": -14.38,
+  "open_positions": 4,
   "closed_positions": 10,
   "closed_sells": 10,
   "win_rate": 0.1,
@@ -117,7 +125,7 @@
    "sym": "念定人生",
    "pnl": -4.36
   },
-  "copied": 8,
+  "copied": 10,
   "best_open": {
    "sym": "🔮",
    "upnl": 1.71
@@ -128,9 +136,9 @@
   }
  },
  "baseline": {
-  "equity": 850.61,
+  "equity": 858.84,
   "day_start": 937.22,
-  "pnl_today": -86.61,
+  "pnl_today": -78.38,
   "closed_sells": 10,
   "win_rate": 0.0,
   "realized_today": -18.65,
@@ -142,7 +150,7 @@
    "sym": "赵长鹏能飞",
    "pnl": -8.35
   },
-  "copied": 19
+  "copied": 22
  },
  "confluence": {
   "equity": 1007.22,
@@ -355,9 +363,9 @@
   "events_total": 17
  },
  "risk_track": {
-  "updated": 1792668838,
+  "updated": 1792668975,
   "rejected": {
-   "n": 62,
+   "n": 63,
    "1h": {
     "n": 60,
     "avg_ret": 0.0772,
@@ -387,7 +395,7 @@
    }
   },
   "passed": {
-   "n": 28,
+   "n": 29,
    "1h": {
     "n": 28,
     "avg_ret": 0.0211,
@@ -478,7 +486,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 16,
+    "n": 17,
     "1h": {
      "n": 15,
      "avg_ret": 0.1544,
@@ -508,7 +516,7 @@
     }
    },
    "buy_tax unknown": {
-    "n": 16,
+    "n": 17,
     "1h": {
      "n": 15,
      "avg_ret": 0.1544,
@@ -2018,6 +2026,37 @@
      "sell_tax unknown"
     ],
     "ts": 1792668838,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BNCB股票",
+    "token": "0xeb6b8ec8b7c0166fcb7daec83f0b5761887c7777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792668954,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "GANG",
+    "token": "0x0c6302401aa5325c2e36f170f52c00b1d220b405",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792668975,
     "src": "live",
     "ret": {
      "1h": null,
