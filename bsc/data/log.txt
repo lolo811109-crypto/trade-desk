@@ -1,16 +1,3 @@
-2026-10-22 23:12:00,087 V3-RISK 影之刃零 0x3fec0a1e0afd6788d450360a1fadb1d3ab337777 KILL buy_tax unknown; sell_tax unknown; top10 holders 73%; info: dev holds 0.0%
-2026-10-22 23:12:00,087 V3 {'ts': 1792681895, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x3fec0a1e0afd6788d450360a1fadb1d3ab337777', 'sym': '影之刃零', 'price': 1.912e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 73%', 'info: dev holds 0.0%']}
-2026-10-22 23:12:00,087 {'ts': 1792681895, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x3fec0a1e0afd6788d450360a1fadb1d3ab337777', 'tx': '0xc17eb7dce7dc3151a34fc3f5b09cd4ceb3956f0209f872f9feb11571928e2b04', 'sym': '影之刃零', 'price': 1.912e-05, 'liq': 19616, 'action': 'skip-cash'}
-2026-10-22 23:12:01,519 tick equity=843.70 pnl=-156.30 head=129151752 v3=999.22
-2026-10-22 23:12:22,104 V2-RISK LITY 0xcd6a1b8f6e1498672724397de679a9ad19470c0c PASS 
-2026-10-22 23:12:22,104 V2 {'ts': 1792681923, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'BUY', 'token': '0xcd6a1b8f6e1498672724397de679a9ad19470c0c', 'sym': 'LITY', 'price': 0.0009379, 'action': 'buy', 'stake': 10.0}
-2026-10-22 23:12:22,924 V3-RISK LITY 0xcd6a1b8f6e1498672724397de679a9ad19470c0c PASS info: dev holds 1.8%
-2026-10-22 23:12:22,924 V3 {'ts': 1792681923, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'BUY', 'token': '0xcd6a1b8f6e1498672724397de679a9ad19470c0c', 'sym': 'LITY', 'price': 0.0009379, 'action': 'buy', 'stake': 10.0}
-2026-10-22 23:12:22,924 {'ts': 1792681923, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'BUY', 'token': '0xcd6a1b8f6e1498672724397de679a9ad19470c0c', 'tx': '0xa97bee2c886c914f3809f0e380f9bd989b63992b4e569d57a81b4aa847fd1ad3', 'sym': 'LITY', 'price': 0.0009379, 'liq': 79408, 'action': 'buy', 'stake': 10.0}
-2026-10-22 23:12:24,948 tick equity=843.66 pnl=-156.34 head=129151817 v3=998.43
-2026-10-22 23:12:46,209 tick equity=843.87 pnl=-156.13 head=129151869 v3=998.43
-2026-10-22 23:13:07,714 tick equity=843.71 pnl=-156.29 head=129151917 v3=998.43
-2026-10-22 23:13:29,136 tick equity=844.36 pnl=-155.64 head=129151964 v3=998.47
 2026-10-22 23:13:50,656 tick equity=841.39 pnl=-158.61 head=129152012 v3=998.26
 2026-10-22 23:14:12,046 tick equity=841.36 pnl=-158.64 head=129152060 v3=998.26
 2026-10-22 23:14:33,693 tick equity=840.91 pnl=-159.09 head=129152107 v3=998.22
@@ -298,3 +285,16 @@
 2026-10-23 01:54:56,068 tick equity=837.00 pnl=-163.00 head=129173482 v3=992.64
 2026-10-23 02:02:06,142 loop error rpc fail eth_blockNumber
 2026-10-23 02:03:02,046 tick equity=836.90 pnl=-163.10 head=129174485 v3=992.77
+2026-10-23 02:03:23,408 tick equity=836.93 pnl=-163.07 head=129174609 v3=992.77
+2026-10-23 02:03:45,170 tick equity=837.86 pnl=-162.14 head=129174656 v3=992.77
+2026-10-23 02:04:10,193 tick equity=837.88 pnl=-162.12 head=129174704 v3=992.77
+2026-10-23 02:04:32,091 tick equity=839.02 pnl=-160.98 head=129174760 v3=992.77
+2026-10-23 02:04:53,348 tick equity=839.05 pnl=-160.95 head=129174809 v3=992.77
+2026-10-23 02:05:15,648 tick equity=838.51 pnl=-161.49 head=129174856 v3=992.77
+2026-10-23 02:05:36,697 tick equity=838.51 pnl=-161.49 head=129174905 v3=992.77
+2026-10-23 02:05:58,544 tick equity=838.17 pnl=-161.83 head=129174952 v3=992.77
+2026-10-23 02:06:21,011 tick equity=837.86 pnl=-162.14 head=129175000 v3=992.77
+2026-10-23 02:06:42,980 tick equity=840.61 pnl=-159.39 head=129175051 v3=992.77
+2026-10-23 02:07:04,231 tick equity=840.80 pnl=-159.20 head=129175100 v3=992.77
+2026-10-23 02:07:41,720 tick equity=840.78 pnl=-159.22 head=129175147 v3=992.77
+2026-10-23 02:08:16,397 tick equity=840.32 pnl=-159.68 head=129175230 v3=992.77
