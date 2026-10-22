@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792673074,
- "tokens_seen": 41,
+ "updated": 1792673882,
+ "tokens_seen": 47,
  "risk": {
-  "checked": 69,
-  "killed": 50,
+  "checked": 73,
+  "killed": 54,
   "passed": 19
  },
  "kills": [
@@ -139,18 +139,35 @@
     "top10 holders 85%",
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "ZEC",
+   "token": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
+   "reasons": [
+    "owner can mint",
+    "top10 holders 84%",
+    "LP only 0% locked/burned"
+   ]
+  },
+  {
+   "sym": "oANTHROPIC",
+   "token": "0x24b518b332543a4e1c3649d063dab199d103760a",
+   "reasons": [
+    "top10 holders 70%",
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.041,
+  "dd_today": -0.0408,
   "limit": -0.1
  },
  "v2": {
-  "equity": 924.47,
+  "equity": 924.67,
   "day_start": 964.02,
-  "pnl_today": -39.55,
+  "pnl_today": -39.35,
   "open_positions": 5,
   "closed_positions": 14,
   "closed_sells": 14,
@@ -175,12 +192,12 @@
   }
  },
  "baseline": {
-  "equity": 879.62,
+  "equity": 859.7,
   "day_start": 937.22,
-  "pnl_today": -57.6,
-  "closed_sells": 19,
-  "win_rate": 0.105,
-  "realized_today": -10.81,
+  "pnl_today": -77.52,
+  "closed_sells": 24,
+  "win_rate": 0.125,
+  "realized_today": -19.81,
   "best_token": {
    "sym": "SPX",
    "pnl": 15.78
@@ -189,37 +206,25 @@
    "sym": "赵长鹏能飞",
    "pnl": -9.13
   },
-  "copied": 41
+  "copied": 44
  },
  "confluence": {
-  "equity": 1008.7,
+  "equity": 1006.51,
   "bank": 1000.0,
-  "open_positions": 1,
-  "closed_sells": 2,
-  "win_rate": 0.5,
-  "realized_today": 6.5,
+  "open_positions": 0,
+  "closed_sells": 3,
+  "win_rate": 0.333,
+  "realized_today": 5.79,
   "best_token": {
    "sym": "4cat",
    "pnl": 6.5
   },
   "worst_token": {
-   "sym": "4cat",
-   "pnl": 6.5
+   "sym": "GANG",
+   "pnl": -0.71
   },
   "copied": 2,
   "events": [
-   {
-    "ts": 1792525147,
-    "token": "0x4f8c6b789e55ce414fb972d2e5ce6c8521eb7777",
-    "sym": "AID",
-    "wallets": [
-     "0x7dfd45e511a05d012d19264e2adf4acfe7717f1f",
-     "0xc9ac2d47615508a16e46a3459eb4f564ad906a32"
-    ],
-    "trigger": "0x7dfd45e511a05d012d19264e2adf4acfe7717f1f",
-    "price": 7.792e-06,
-    "src": "backfill"
-   },
    {
     "ts": 1792546077,
     "token": "0xcd6a1b8f6e1498672724397de679a9ad19470c0c",
@@ -429,20 +434,31 @@
     ],
     "trigger": "0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3",
     "price": 0.0007051
+   },
+   {
+    "ts": 1792673804,
+    "token": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
+    "sym": "ZEC",
+    "wallets": [
+     "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+     "0xc9ac2d47615508a16e46a3459eb4f564ad906a32"
+    ],
+    "trigger": "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+    "price": 1252.32
    }
   ],
-  "events_total": 21
+  "events_total": 22
  },
  "risk_track": {
-  "updated": 1792672985,
+  "updated": 1792673815,
   "rejected": {
-   "n": 71,
+   "n": 74,
    "1h": {
-    "n": 63,
-    "avg_ret": 0.066,
-    "bad_pct": 0.143,
-    "rug_pct": 0.079,
-    "up_pct": 0.476
+    "n": 65,
+    "avg_ret": 0.0637,
+    "bad_pct": 0.138,
+    "rug_pct": 0.077,
+    "up_pct": 0.477
    },
    "6h": {
     "n": 59,
@@ -459,20 +475,20 @@
     "up_pct": 0.375
    },
    "latest": {
-    "n": 63,
-    "avg_ret": -0.0384,
-    "bad_pct": 0.206,
+    "n": 65,
+    "avg_ret": -0.0375,
+    "bad_pct": 0.2,
     "winners": 5
    }
   },
   "passed": {
    "n": 31,
    "1h": {
-    "n": 29,
-    "avg_ret": 0.0113,
-    "bad_pct": 0.103,
-    "rug_pct": 0.034,
-    "up_pct": 0.483
+    "n": 30,
+    "avg_ret": 0.0131,
+    "bad_pct": 0.1,
+    "rug_pct": 0.033,
+    "up_pct": 0.5
    },
    "6h": {
     "n": 28,
@@ -489,21 +505,21 @@
     "up_pct": 0.333
    },
    "latest": {
-    "n": 29,
-    "avg_ret": -0.1596,
-    "bad_pct": 0.207,
+    "n": 30,
+    "avg_ret": -0.1521,
+    "bad_pct": 0.2,
     "winners": 1
    }
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 46,
+    "n": 49,
     "1h": {
-     "n": 40,
-     "avg_ret": -0.0293,
-     "bad_pct": 0.025,
-     "rug_pct": 0.025,
-     "up_pct": 0.6
+     "n": 42,
+     "avg_ret": -0.0284,
+     "bad_pct": 0.024,
+     "rug_pct": 0.024,
+     "up_pct": 0.595
     },
     "6h": {
      "n": 38,
@@ -520,14 +536,14 @@
      "up_pct": 0.565
     },
     "latest": {
-     "n": 40,
-     "avg_ret": -0.0268,
-     "bad_pct": 0.1,
+     "n": 42,
+     "avg_ret": -0.026,
+     "bad_pct": 0.095,
      "winners": 2
     }
    },
    "top holders": {
-    "n": 31,
+    "n": 34,
     "1h": {
      "n": 29,
      "avg_ret": 0.1223,
@@ -617,7 +633,7 @@
     }
    },
    "owner can mint": {
-    "n": 3,
+    "n": 4,
     "1h": {
      "n": 3,
      "avg_ret": 0.0104,
@@ -678,56 +694,6 @@
    }
   },
   "items": [
-   {
-    "sym": "NVDAB",
-    "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
-    "ok": false,
-    "reasons": [
-     "top10 holders 74%",
-     "LP only 0% locked/burned"
-    ],
-    "ts": 1792524312,
-    "src": "backfill",
-    "ret": {
-     "1h": 0.0181,
-     "6h": 0.0181,
-     "24h": 0.0195
-    },
-    "rug": false
-   },
-   {
-    "sym": "FXIon",
-    "token": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
-    "ok": false,
-    "reasons": [
-     "LP only 0% locked/burned"
-    ],
-    "ts": 1792524312,
-    "src": "backfill",
-    "ret": {
-     "1h": -0.0009,
-     "6h": -0.0009,
-     "24h": -0.0201
-    },
-    "rug": false
-   },
-   {
-    "sym": "SPCXB",
-    "token": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
-    "ok": false,
-    "reasons": [
-     "top10 holders 91%",
-     "LP only 0% locked/burned"
-    ],
-    "ts": 1792524312,
-    "src": "backfill",
-    "ret": {
-     "1h": 0.088,
-     "6h": 0.088,
-     "24h": 0.0858
-    },
-    "rug": false
-   },
    {
     "sym": "EWYB",
     "token": "0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
@@ -2115,7 +2081,7 @@
     "ts": 1792669762,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0501,
      "6h": null,
      "24h": null
     },
@@ -2129,7 +2095,7 @@
     "ts": 1792669917,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0659,
      "6h": null,
      "24h": null
     },
@@ -2145,7 +2111,7 @@
     "ts": 1792669939,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.03,
      "6h": null,
      "24h": null
     },
@@ -2257,6 +2223,58 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792672985,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BNCB",
+    "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+    "ok": false,
+    "reasons": [
+     "top10 holders 77%",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792673814,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "ZEC",
+    "token": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
+    "ok": false,
+    "reasons": [
+     "owner can mint",
+     "top10 holders 84%",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792673815,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "oANTHROPIC",
+    "token": "0x24b518b332543a4e1c3649d063dab199d103760a",
+    "ok": false,
+    "reasons": [
+     "top10 holders 70%",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792673815,
     "src": "live",
     "ret": {
      "1h": null,
