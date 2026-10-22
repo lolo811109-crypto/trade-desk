@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792681134,
+ "updated": 1792681282,
  "tokens_seen": 37,
  "risk": {
   "checked": 37,
@@ -92,13 +92,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0466,
+  "dd_today": -0.047,
   "limit": -0.1
  },
  "v2": {
-  "equity": 933.36,
+  "equity": 932.95,
   "day_start": 979.0,
-  "pnl_today": -45.64,
+  "pnl_today": -46.05,
   "open_positions": 19,
   "closed_positions": 29,
   "closed_sells": 30,
@@ -115,7 +115,7 @@
   "copied": 31,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 11.12
+   "upnl": 10.9
   },
   "worst_open": {
    "sym": "Agency",
@@ -123,9 +123,9 @@
   }
  },
  "baseline": {
-  "equity": 872.34,
+  "equity": 872.21,
   "day_start": 983.73,
-  "pnl_today": -111.39,
+  "pnl_today": -111.52,
   "closed_sells": 25,
   "win_rate": 0.2,
   "realized_today": -24.69,
@@ -1272,10 +1272,10 @@
   "warn_lp": 16
  },
  "v3": {
-  "equity": 959.78,
+  "equity": 959.01,
   "day_start": 1000.0,
-  "pnl_today": -40.22,
-  "open_positions": 14,
+  "pnl_today": -40.99,
+  "open_positions": 15,
   "closed_positions": 27,
   "closed_sells": 27,
   "win_rate": 0.148,
@@ -1288,7 +1288,7 @@
    "sym": "CRAWL",
    "pnl": -5.12
   },
-  "copied": 41,
+  "copied": 42,
   "best_open": {
    "sym": "TCG",
    "upnl": -0.45
@@ -1301,9 +1301,9 @@
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 45,
+  "checked": 46,
   "killed": 16,
-  "passed": 41
+  "passed": 42
  },
  "v3_kills": [
   {
@@ -1375,7 +1375,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0402,
+  "dd_today": -0.041,
   "limit": -0.1
  },
  "v3_track": {
