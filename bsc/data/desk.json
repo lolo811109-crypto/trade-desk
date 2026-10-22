@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792668740,
+ "updated": 1792668909,
  "tokens_seen": 30,
  "risk": {
-  "checked": 28,
-  "killed": 20,
+  "checked": 33,
+  "killed": 25,
   "passed": 8
  },
  "kills": [
@@ -84,6 +84,14 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "赵长鹏能飞",
+   "token": "0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
   }
  ],
  "halt": {
@@ -120,21 +128,21 @@
   }
  },
  "baseline": {
-  "equity": 858.84,
+  "equity": 850.61,
   "day_start": 937.22,
-  "pnl_today": -78.38,
-  "closed_sells": 9,
+  "pnl_today": -86.61,
+  "closed_sells": 10,
   "win_rate": 0.0,
-  "realized_today": -10.3,
+  "realized_today": -18.65,
   "best_token": {
    "sym": "BEM",
    "pnl": -0.78
   },
   "worst_token": {
-   "sym": "DPOTS",
-   "pnl": -2.18
+   "sym": "赵长鹏能飞",
+   "pnl": -8.35
   },
-  "copied": 15
+  "copied": 19
  },
  "confluence": {
   "equity": 1007.22,
@@ -331,14 +339,25 @@
     ],
     "trigger": "0xc9ac2d47615508a16e46a3459eb4f564ad906a32",
     "price": 0.0002213
+   },
+   {
+    "ts": 1792668739,
+    "token": "0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777",
+    "sym": "赵长鹏能飞",
+    "wallets": [
+     "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+     "0xc9ac2d47615508a16e46a3459eb4f564ad906a32"
+    ],
+    "trigger": "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+    "price": 2.375e-05
    }
   ],
-  "events_total": 16
+  "events_total": 17
  },
  "risk_track": {
-  "updated": 1792668696,
+  "updated": 1792668838,
   "rejected": {
-   "n": 61,
+   "n": 62,
    "1h": {
     "n": 60,
     "avg_ret": 0.0772,
@@ -459,7 +478,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 15,
+    "n": 16,
     "1h": {
      "n": 15,
      "avg_ret": 0.1544,
@@ -489,7 +508,7 @@
     }
    },
    "buy_tax unknown": {
-    "n": 15,
+    "n": 16,
     "1h": {
      "n": 15,
      "avg_ret": 0.1544,
@@ -1982,6 +2001,23 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792668586,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "赵长鹏能飞",
+    "token": "0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792668838,
     "src": "live",
     "ret": {
      "1h": null,

@@ -1,18 +1,3 @@
-2026-10-22 07:57:36,525 tick equity=906.66 pnl=-93.34 head=129029911
-2026-10-22 07:57:58,472 tick equity=906.54 pnl=-93.46 head=129029958
-2026-10-22 07:58:19,432 tick equity=906.69 pnl=-93.31 head=129030006
-2026-10-22 07:58:41,174 tick equity=906.70 pnl=-93.30 head=129030053
-2026-10-22 07:59:02,330 tick equity=906.73 pnl=-93.27 head=129030101
-2026-10-22 07:59:24,077 tick equity=907.55 pnl=-92.45 head=129030148
-2026-10-22 07:59:44,532 V2-RISK 念定人生 0xbf68ad3b380b954aadbe3fde0cd37dfc61df7777 PASS 
-2026-10-22 07:59:44,532 V2 {'ts': 1792627170, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xbf68ad3b380b954aadbe3fde0cd37dfc61df7777', 'sym': '念定人生', 'price': 0.0003364, 'action': 'buy', 'stake': 10.0}
-2026-10-22 07:59:45,471 tick equity=907.59 pnl=-92.41 head=129030196
-2026-10-22 08:00:08,626 tick equity=909.34 pnl=-90.66 head=129030244
-2026-10-22 08:05:35,682 loop error rpc fail eth_getTransactionCount
-2026-10-22 08:06:25,986 {'ts': 1792627267, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xbf68ad3b380b954aadbe3fde0cd37dfc61df7777', 'tx': '0x011fb9461a5fa0d82134b5b85fa9a2be664615f51c78f2cb003fd24c9536ce21', 'action': 'skip-noprice'}
-2026-10-22 08:06:30,852 tick equity=913.91 pnl=-86.09 head=129031022
-2026-10-22 08:06:52,034 tick equity=913.86 pnl=-86.14 head=129031145
-2026-10-22 08:07:14,206 tick equity=916.87 pnl=-83.13 head=129031191
 2026-10-22 08:07:35,847 tick equity=916.83 pnl=-83.17 head=129031241
 2026-10-22 08:07:56,027 V2 {'ts': 1792627672, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea', 'sym': 'PANGEA', 'price': 0.00637, 'action': 'skip-liq'}
 2026-10-22 08:07:57,647 tick equity=917.17 pnl=-82.83 head=129031289
@@ -298,3 +283,18 @@
 2026-10-22 19:33:58,601 V2-RISK 赵长鹏能飞 0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777 KILL buy_tax unknown; sell_tax unknown
 2026-10-22 19:33:58,601 V2 {'ts': 1792668739, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
 2026-10-22 19:33:58,601 CONFLUENCE 赵长鹏能飞 0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc9ac2d47615508a16e46a3459eb4f564ad906a32']
+2026-10-22 19:34:01,619 V2-RISK 赵长鹏能飞 0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777 KILL buy_tax unknown; sell_tax unknown
+2026-10-22 19:34:01,619 V2 {'ts': 1792668739, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-22 19:34:01,619 {'ts': 1792668739, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'tx': '0x4dad2260a6e1bf3a307aa3e0f668113fcd117f7bd1c570e2e7dae967984bb50b', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'liq': 14493, 'action': 'buy', 'stake': 10.0}
+2026-10-22 19:34:01,668 V2 {'ts': 1792668788, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-22 19:34:01,668 {'ts': 1792668788, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'tx': '0x3de0ed6d6749ea48f5cb431ef210cb5173e1a979271fbc4fe192077ca5687376', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'liq': 14493, 'action': 'buy', 'stake': 10.0}
+2026-10-22 19:34:01,720 V2 {'ts': 1792668819, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-22 19:34:01,720 {'ts': 1792668819, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'tx': '0x95e306d854525c359452db213e0476bfbcd3b8846a2b406b73aaa88de75226de', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'liq': 14493, 'action': 'buy', 'stake': 10.0}
+2026-10-22 19:34:01,749 V2 {'ts': 1792668819, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-22 19:34:01,749 {'ts': 1792668819, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'tx': '0x12de0b15f433889014dc1a18e59fde0387971a6e449deb40b41c81e329d004af', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'liq': 14493, 'action': 'buy', 'stake': 10.0}
+2026-10-22 19:34:01,903 V2 {'ts': 1792668789, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0001241, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-22 19:34:04,739 tick equity=855.25 pnl=-144.75 head=129122713
+2026-10-22 19:34:24,921 {'ts': 1792668840, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'tx': '0x389ad4d89ba9e610f8f1c44079b46c07e2897f58334fd2ebf81868f87ccbae75', 'sym': '赵长鹏能飞', 'price': 2.039e-05, 'liq': 13366, 'action': 'sell', 'proceeds': 31.65, 'pnl': -8.35}
+2026-10-22 19:34:26,107 tick equity=850.04 pnl=-149.96 head=129122778
+2026-10-22 19:34:47,796 tick equity=850.55 pnl=-149.45 head=129122826
+2026-10-22 19:35:09,256 tick equity=850.61 pnl=-149.39 head=129122874

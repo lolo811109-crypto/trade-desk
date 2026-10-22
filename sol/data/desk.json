@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792668840,
+ "updated": 1792668908,
  "tokens_seen": 28,
  "risk": {
   "checked": 19,
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0297,
+  "dd_today": -0.0306,
   "limit": -0.1
  },
  "v2": {
-  "equity": 949.97,
+  "equity": 949.05,
   "day_start": 979.0,
-  "pnl_today": -29.03,
+  "pnl_today": -29.95,
   "open_positions": 20,
   "closed_positions": 12,
   "closed_sells": 13,
@@ -94,7 +94,7 @@
   "copied": 15,
   "best_open": {
    "sym": "CYBER",
-   "upnl": 6.5
+   "upnl": 6.18
   },
   "worst_open": {
    "sym": "CLAUDIA",
@@ -102,9 +102,9 @@
   }
  },
  "baseline": {
-  "equity": 873.95,
+  "equity": 872.34,
   "day_start": 983.73,
-  "pnl_today": -109.78,
+  "pnl_today": -111.39,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -15.89,
@@ -1002,9 +1002,9 @@
   "warn_lp": 13
  },
  "v3": {
-  "equity": 980.8,
+  "equity": 980.44,
   "day_start": 1000.0,
-  "pnl_today": -19.2,
+  "pnl_today": -19.56,
   "open_positions": 12,
   "closed_positions": 11,
   "closed_sells": 11,
@@ -1077,7 +1077,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0192,
+  "dd_today": -0.0196,
   "limit": -0.1
  },
  "v3_track": {
