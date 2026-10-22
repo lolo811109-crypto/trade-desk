@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792708499,
- "tokens_seen": 47,
+ "updated": 1792709722,
+ "tokens_seen": 48,
  "risk": {
-  "checked": 48,
-  "killed": 24,
-  "passed": 45
+  "checked": 49,
+  "killed": 25,
+  "passed": 46
  },
  "kills": [
   {
@@ -122,48 +122,55 @@
    "reasons": [
     "liq $34,985 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "tinybeehee",
+   "token": "8anXQ9oBP5GwK21ZUbv82SQTn3Xz2Wd7jbzxSEfppump",
+   "reasons": [
+    "liq $10,181 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.045,
+  "dd_today": -0.0503,
   "limit": -0.1
  },
  "v2": {
-  "equity": 885.56,
+  "equity": 880.66,
   "day_start": 927.27,
-  "pnl_today": -41.71,
+  "pnl_today": -46.61,
   "open_positions": 22,
-  "closed_positions": 43,
-  "closed_sells": 41,
-  "win_rate": 0.098,
-  "realized_today": -44.91,
+  "closed_positions": 44,
+  "closed_sells": 42,
+  "win_rate": 0.095,
+  "realized_today": -45.34,
   "best_token": {
    "sym": "LARP",
    "pnl": 1.34
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -6.57
+   "pnl": -7.0
   },
-  "copied": 41,
+  "copied": 42,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 6.71
+   "upnl": 6.3
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -12.12
+   "upnl": -11.5
   }
  },
  "baseline": {
-  "equity": 771.1,
+  "equity": 764.88,
   "day_start": 860.79,
-  "pnl_today": -89.69,
-  "closed_sells": 21,
-  "win_rate": 0.143,
-  "realized_today": -1.45,
+  "pnl_today": -95.91,
+  "closed_sells": 22,
+  "win_rate": 0.136,
+  "realized_today": -2.85,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -172,12 +179,12 @@
    "sym": "PHP",
    "pnl": -5.77
   },
-  "copied": 35
+  "copied": 36
  },
  "risk_track": {
-  "updated": 1792708499,
+  "updated": 1792709722,
   "rejected": {
-   "n": 36,
+   "n": 37,
    "1h": {
     "n": 36,
     "avg_ret": -0.0223,
@@ -186,11 +193,11 @@
     "up_pct": 0.306
    },
    "6h": {
-    "n": 27,
-    "avg_ret": 0.0028,
-    "bad_pct": 0.185,
+    "n": 28,
+    "avg_ret": 0.0057,
+    "bad_pct": 0.179,
     "rug_pct": 0.0,
-    "up_pct": 0.333
+    "up_pct": 0.357
    },
    "24h": {
     "n": 10,
@@ -201,7 +208,7 @@
    },
    "latest": {
     "n": 36,
-    "avg_ret": -0.0684,
+    "avg_ret": -0.0644,
     "bad_pct": 0.139,
     "winners": 1
    }
@@ -216,11 +223,11 @@
     "up_pct": 0.452
    },
    "6h": {
-    "n": 48,
-    "avg_ret": -0.036,
-    "bad_pct": 0.021,
+    "n": 49,
+    "avg_ret": -0.037,
+    "bad_pct": 0.02,
     "rug_pct": 0.0,
-    "up_pct": 0.354
+    "up_pct": 0.347
    },
    "24h": {
     "n": 23,
@@ -231,14 +238,14 @@
    },
    "latest": {
     "n": 62,
-    "avg_ret": -0.0614,
+    "avg_ret": -0.0619,
     "bad_pct": 0.016,
     "winners": 2
    }
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 28,
+    "n": 29,
     "1h": {
      "n": 28,
      "avg_ret": -0.0157,
@@ -247,11 +254,11 @@
      "up_pct": 0.321
     },
     "6h": {
-     "n": 19,
-     "avg_ret": 0.0059,
-     "bad_pct": 0.263,
+     "n": 20,
+     "avg_ret": 0.0098,
+     "bad_pct": 0.25,
      "rug_pct": 0.0,
-     "up_pct": 0.211
+     "up_pct": 0.25
     },
     "24h": {
      "n": 5,
@@ -262,7 +269,7 @@
     },
     "latest": {
      "n": 28,
-     "avg_ret": -0.0625,
+     "avg_ret": -0.0573,
      "bad_pct": 0.179,
      "winners": 1
     }
@@ -1494,7 +1501,7 @@
     "src": "live",
     "ret": {
      "1h": -0.053,
-     "6h": null,
+     "6h": -0.0869,
      "24h": null
     },
     "rug": false
@@ -1510,7 +1517,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0602,
-     "6h": null,
+     "6h": 0.085,
      "24h": null
     },
     "rug": false
@@ -1850,6 +1857,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "tinybeehee",
+    "token": "8anXQ9oBP5GwK21ZUbv82SQTn3Xz2Wd7jbzxSEfppump",
+    "ok": false,
+    "reasons": [
+     "liq $10,181 < $50,000 v2 floor"
+    ],
+    "ts": 1792708680,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1857,38 +1880,38 @@
   "warn_lp": 21
  },
  "v3": {
-  "equity": 919.89,
+  "equity": 918.04,
   "day_start": 952.92,
-  "pnl_today": -33.03,
-  "open_positions": 4,
-  "closed_positions": 65,
-  "closed_sells": 63,
-  "win_rate": 0.111,
-  "realized_today": -45.17,
+  "pnl_today": -34.88,
+  "open_positions": 5,
+  "closed_positions": 66,
+  "closed_sells": 64,
+  "win_rate": 0.109,
+  "realized_today": -45.6,
   "best_token": {
    "sym": "DOPE",
    "pnl": 3.43
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -6.09
+   "pnl": -6.52
   },
-  "copied": 50,
+  "copied": 52,
   "best_open": {
    "sym": "Pepper",
-   "upnl": 1.29
+   "upnl": 0.82
   },
   "worst_open": {
-   "sym": "Kimchi",
-   "upnl": -0.59
+   "sym": "JEANPHIL",
+   "upnl": -0.66
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 57,
-  "killed": 24,
-  "passed": 54
+  "checked": 59,
+  "killed": 25,
+  "passed": 56
  },
  "v3_kills": [
   {
@@ -2005,18 +2028,25 @@
    "reasons": [
     "liq $34,985 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "tinybeehee",
+   "token": "8anXQ9oBP5GwK21ZUbv82SQTn3Xz2Wd7jbzxSEfppump",
+   "reasons": [
+    "liq $10,181 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0347,
+  "dd_today": -0.0366,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792708499,
+  "updated": 1792709722,
   "rejected": {
-   "n": 27,
+   "n": 28,
    "1h": {
     "n": 27,
     "avg_ret": 0.018,
@@ -2025,11 +2055,11 @@
     "up_pct": 0.296
    },
    "6h": {
-    "n": 19,
-    "avg_ret": -0.0471,
-    "bad_pct": 0.211,
+    "n": 20,
+    "avg_ret": -0.0405,
+    "bad_pct": 0.2,
     "rug_pct": 0.0,
-    "up_pct": 0.263
+    "up_pct": 0.3
    },
    "24h": {
     "n": 2,
@@ -2040,13 +2070,13 @@
    },
    "latest": {
     "n": 27,
-    "avg_ret": -0.1267,
+    "avg_ret": -0.1214,
     "bad_pct": 0.148,
     "winners": 0
    }
   },
   "passed": {
-   "n": 52,
+   "n": 53,
    "1h": {
     "n": 52,
     "avg_ret": -0.0117,
@@ -2055,11 +2085,11 @@
     "up_pct": 0.385
    },
    "6h": {
-    "n": 37,
-    "avg_ret": -0.0678,
-    "bad_pct": 0.027,
+    "n": 38,
+    "avg_ret": -0.0683,
+    "bad_pct": 0.026,
     "rug_pct": 0.0,
-    "up_pct": 0.162
+    "up_pct": 0.158
    },
    "24h": {
     "n": 5,
@@ -2070,14 +2100,14 @@
    },
    "latest": {
     "n": 52,
-    "avg_ret": -0.0574,
+    "avg_ret": -0.0581,
     "bad_pct": 0.038,
     "winners": 1
    }
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 23,
+    "n": 24,
     "1h": {
      "n": 23,
      "avg_ret": 0.0228,
@@ -2086,11 +2116,11 @@
      "up_pct": 0.304
     },
     "6h": {
-     "n": 15,
-     "avg_ret": -0.0499,
-     "bad_pct": 0.267,
+     "n": 16,
+     "avg_ret": -0.0415,
+     "bad_pct": 0.25,
      "rug_pct": 0.0,
-     "up_pct": 0.2
+     "up_pct": 0.25
     },
     "24h": {
      "n": 1,
@@ -2101,7 +2131,7 @@
     },
     "latest": {
      "n": 23,
-     "avg_ret": -0.14,
+     "avg_ret": -0.1337,
      "bad_pct": 0.174,
      "winners": 0
     }
@@ -3133,7 +3163,7 @@
     "src": "live",
     "ret": {
      "1h": -0.053,
-     "6h": null,
+     "6h": -0.0869,
      "24h": null
     },
     "rug": false
@@ -3149,7 +3179,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0602,
-     "6h": null,
+     "6h": 0.085,
      "24h": null
     },
     "rug": false
@@ -3491,6 +3521,39 @@
     "src": "live",
     "ret": {
      "1h": 0.2161,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "JEANPHIL",
+    "token": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 20%",
+     "info: dev holds 1.5% via pump.fun"
+    ],
+    "ts": 1792708534,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "tinybeehee",
+    "token": "8anXQ9oBP5GwK21ZUbv82SQTn3Xz2Wd7jbzxSEfppump",
+    "ok": false,
+    "reasons": [
+     "liq $10,181 < $50,000 v2 floor"
+    ],
+    "ts": 1792708680,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },
