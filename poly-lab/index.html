@@ -5,7 +5,7 @@ table{width:100%;border-collapse:collapse;font-size:12px}td,th{padding:5px 6px;b
 <body><div class="w"><a href="../desk/">← 交易台</a><h1>Polymarket 策略实验室</h1><div class="mu">全部是纸面模拟，不下真实订单 · 每个账户从 $1000 起步 · 每 60 秒刷新</div>
 <div class="g" id="cards"></div><h2>持仓</h2><div id="pos"></div><h2>最近事件</h2><div id="ev"></div><h2>跳过原因</h2><div id="sk"></div></div>
 <script src="../desk/ui.js"></script><script>
-const A=[['共享池 v3','../copy/data/state.json','POLY'],['锦标赛 v3','../copy/data/state_t.json','POLY锦标赛'],['共识跟单','../copy/data/lab_cons.json','POLY共识'],['高胜率精选','../copy/data/lab_top.json','POLY精选'],['尾盘高概率','../copy/data/lab_tail.json','POLY尾盘'],['BTC动量','../copy/data/lab_mom.json','POLY动量']];
+const A=[['共享池 v3','../copy/data/state.json','POLY'],['锦标赛 v3','../copy/data/state_t.json','POLY锦标赛'],['共识跟单','../copy/data/lab_cons.json','POLY共识'],['高胜率精选','../copy/data/lab_top.json','POLY精选'],['尾盘高概率','../copy/data/lab_tail.json','POLY尾盘'],['BTC动量','../copy/data/lab_mom.json','POLY动量'],['POLY新钱包','../copy/data/lab_new.json','POLY新钱包']];
 const f=x=>(+x).toFixed(2),cl=x=>x>=0?'up':'dn',t=s=>new Date(s*1000).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false,month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
 function posOf(s){if(s.pos&&!s.wallets)return Object.values(s.pos);return Object.values(s.wallets||{}).flatMap(w=>Object.values(w.pos||{}))}
 async function load(){const D=await Promise.all(A.map(a=>fetch(a[1]+'?'+Date.now()).then(r=>r.json()).catch(()=>null)));
