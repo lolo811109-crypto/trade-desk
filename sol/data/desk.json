@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792682031,
- "tokens_seen": 38,
+ "updated": 1792682315,
+ "tokens_seen": 39,
  "risk": {
   "checked": 39,
-  "killed": 22,
+  "killed": 25,
   "passed": 33
  },
  "kills": [
@@ -71,7 +71,7 @@
    "sym": "CyberAxe",
    "token": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
    "reasons": [
-    "liq $39,337 < $50,000 v2 floor"
+    "liq $39,130 < $50,000 v2 floor"
    ]
   },
   {
@@ -87,18 +87,25 @@
    "reasons": [
     "liq $39,860 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "DRMR",
+   "token": "7Xgc5RacHtGzfhw2HukUBk5V986yBbvshr7rrCoopump",
+   "reasons": [
+    "liq $49,340 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0498,
+  "dd_today": -0.0522,
   "limit": -0.1
  },
  "v2": {
-  "equity": 930.25,
+  "equity": 927.9,
   "day_start": 979.0,
-  "pnl_today": -48.75,
+  "pnl_today": -51.1,
   "open_positions": 20,
   "closed_positions": 30,
   "closed_sells": 31,
@@ -115,17 +122,17 @@
   "copied": 33,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 11.41
+   "upnl": 9.63
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -8.22
+   "upnl": -8.27
   }
  },
  "baseline": {
-  "equity": 868.04,
+  "equity": 857.37,
   "day_start": 983.73,
-  "pnl_today": -115.69,
+  "pnl_today": -126.36,
   "closed_sells": 25,
   "win_rate": 0.2,
   "realized_today": -24.69,
@@ -140,9 +147,9 @@
   "copied": 40
  },
  "risk_track": {
-  "updated": 1792681096,
+  "updated": 1792682062,
   "rejected": {
-   "n": 21,
+   "n": 22,
    "1h": {
     "n": 17,
     "avg_ret": -0.0203,
@@ -203,7 +210,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 14,
+    "n": 15,
     "1h": {
      "n": 11,
      "avg_ret": 0.0016,
@@ -1265,6 +1272,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "DRMR",
+    "token": "7Xgc5RacHtGzfhw2HukUBk5V986yBbvshr7rrCoopump",
+    "ok": false,
+    "reasons": [
+     "liq $49,192 < $50,000 v2 floor"
+    ],
+    "ts": 1792682062,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1272,9 +1295,9 @@
   "warn_lp": 16
  },
  "v3": {
-  "equity": 955.48,
+  "equity": 955.03,
   "day_start": 1000.0,
-  "pnl_today": -44.52,
+  "pnl_today": -44.97,
   "open_positions": 16,
   "closed_positions": 29,
   "closed_sells": 29,
@@ -1291,18 +1314,18 @@
   "copied": 45,
   "best_open": {
    "sym": "TCG",
-   "upnl": -0.29
+   "upnl": -0.31
   },
   "worst_open": {
    "sym": "BURNIE",
-   "upnl": -1.52
+   "upnl": -1.65
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
   "checked": 49,
-  "killed": 17,
+  "killed": 20,
   "passed": 45
  },
  "v3_kills": [
@@ -1354,7 +1377,7 @@
    "sym": "CyberAxe",
    "token": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
    "reasons": [
-    "liq $39,337 < $50,000 v2 floor"
+    "liq $39,130 < $50,000 v2 floor"
    ]
   },
   {
@@ -1370,18 +1393,25 @@
    "reasons": [
     "liq $39,860 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "DRMR",
+   "token": "7Xgc5RacHtGzfhw2HukUBk5V986yBbvshr7rrCoopump",
+   "reasons": [
+    "liq $49,340 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0445,
+  "dd_today": -0.045,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792681097,
+  "updated": 1792682062,
   "rejected": {
-   "n": 13,
+   "n": 14,
    "1h": {
     "n": 9,
     "avg_ret": 0.1086,
@@ -1442,7 +1472,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 10,
+    "n": 11,
     "1h": {
      "n": 7,
      "avg_ret": 0.1452,
@@ -2284,6 +2314,22 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792681097,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "DRMR",
+    "token": "7Xgc5RacHtGzfhw2HukUBk5V986yBbvshr7rrCoopump",
+    "ok": false,
+    "reasons": [
+     "liq $49,192 < $50,000 v2 floor"
+    ],
+    "ts": 1792682062,
     "src": "live",
     "ret": {
      "1h": null,
