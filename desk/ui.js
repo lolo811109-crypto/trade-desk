@@ -77,6 +77,7 @@ function merge(list){const o={c:{sig:0,pass:0,kill:0,copy:0,tpsl:0,settle:0,pnl:
 const wshort=w=>w?String(w).slice(0,6):'';
 function skipWhy(t){const a=t.action||'',w=t.why||'',r=(t.reasons&&t.reasons[0])||'';
  if(/same_market|already.?hold|skip-dup/i.test(a+' '+w+' '+r))return '同一场已持仓';
+ if(/weak_move/.test(w))return '动量不足';if(/price_gt_0.75/.test(w))return '价格高于0.75';if(/wide_spread/.test(w))return '价差过大';
  if(/budget|cash|full/i.test(a+' '+w+' '+r))return '预算不足';
  if(/liq|floor/i.test(a+' '+r))return '流动性不足';
  if(/skip-7d|7d/i.test(a))return '7天过滤';
