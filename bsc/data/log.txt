@@ -1,17 +1,3 @@
-2026-10-22 19:49:23,503 V2 {'ts': 1792669497, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.0008912, 'action': 'buy', 'stake': 10.0}
-2026-10-22 19:49:23,503 {'ts': 1792669497, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'tx': '0x086fd358346b69cd61895baa464db40342ddec154f2d0a0340f7797e0ce17aea', 'sym': 'GANG', 'price': 0.0008912, 'liq': 109113, 'action': 'buy', 'stake': 10.0}
-2026-10-22 19:49:23,544 V2 {'ts': 1792669522, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.0008912, 'action': 'buy', 'stake': 10.0}
-2026-10-22 19:49:23,544 {'ts': 1792669522, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'tx': '0xe144cb32e38ed8a96b473425de37d275a643de60ce5fbb913fa52d3ea5f9948e', 'sym': 'GANG', 'price': 0.0008912, 'liq': 109113, 'action': 'buy', 'stake': 10.0}
-2026-10-22 19:49:23,586 V2 {'ts': 1792669536, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.0008912, 'action': 'buy', 'stake': 10.0}
-2026-10-22 19:49:23,586 {'ts': 1792669536, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'tx': '0x0d4ed0e7f951162f21b8f20e029bfd0e4f4b84a213abc8e27b9cd35889432969', 'sym': 'GANG', 'price': 0.0008912, 'liq': 109113, 'action': 'buy', 'stake': 10.0}
-2026-10-22 19:49:27,742 tick equity=857.46 pnl=-142.54 head=129124706
-2026-10-22 19:49:48,919 tick equity=856.82 pnl=-143.18 head=129124830
-2026-10-22 19:50:11,084 tick equity=856.83 pnl=-143.17 head=129124877
-2026-10-22 19:50:32,225 tick equity=853.35 pnl=-146.65 head=129124926
-2026-10-22 19:50:53,909 tick equity=856.43 pnl=-143.57 head=129124973
-2026-10-22 19:51:14,930 tick equity=859.36 pnl=-140.64 head=129125021
-2026-10-22 19:51:35,068 V2 {'ts': 1792669891, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.000923, 'action': 'skip-7d'}
-2026-10-22 19:51:35,068 CONFLUENCE GANG 0x0c6302401aa5325c2e36f170f52c00b1d220b405 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x77018191c32bdf7542d8d82007ae26b41f614d96']
 2026-10-22 19:51:35,352 V2-RISK GANG 0x0c6302401aa5325c2e36f170f52c00b1d220b405 PASS 
 2026-10-22 19:51:35,352 V2 {'ts': 1792669891, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.000923, 'action': 'buy', 'stake': 10.0}
 2026-10-22 19:51:35,352 {'ts': 1792669891, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'tx': '0x14f2bed8bce50afe86932c1f532476512088218419448ca4ceef3abcf20a2a6c', 'sym': 'GANG', 'price': 0.000923, 'liq': 111071, 'action': 'buy', 'stake': 10.0}
@@ -298,3 +284,17 @@
 2026-10-22 21:02:23,912 tick equity=857.73 pnl=-142.27 head=129134497
 2026-10-22 21:02:44,772 tick equity=860.41 pnl=-139.59 head=129134546
 2026-10-22 21:03:06,706 tick equity=860.40 pnl=-139.60 head=129134592
+2026-10-22 21:03:27,756 tick equity=860.88 pnl=-139.12 head=129134641
+2026-10-22 21:03:47,992 V2 {'ts': 1792674216, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xcf930deaedb617bb7c3a68eafa768cafdbb67777', 'sym': 'Binance AI', 'price': 1.623e-05, 'action': 'skip-7d'}
+2026-10-22 21:03:49,588 tick equity=860.30 pnl=-139.70 head=129134687
+2026-10-22 21:04:10,803 tick equity=860.69 pnl=-139.31 head=129134736
+2026-10-22 21:04:32,630 tick equity=860.74 pnl=-139.26 head=129134783
+2026-10-22 21:04:53,673 tick equity=860.93 pnl=-139.07 head=129134831
+2026-10-22 21:05:15,643 tick equity=860.13 pnl=-139.87 head=129134878
+2026-10-22 21:05:37,248 tick equity=860.16 pnl=-139.84 head=129134928
+2026-10-22 21:05:59,067 tick equity=860.10 pnl=-139.90 head=129134975
+2026-10-22 21:13:42,229 loop error rpc fail eth_getTransactionCount
+2026-10-22 21:14:03,213 tick equity=856.31 pnl=-143.69 head=129136047 v3=1000.0
+2026-10-22 21:14:24,379 tick equity=856.52 pnl=-143.48 head=129136097 v3=1000.0
+2026-10-22 21:14:46,339 tick equity=856.44 pnl=-143.56 head=129136142 v3=1000.0
+2026-10-22 21:15:07,680 tick equity=856.46 pnl=-143.54 head=129136192 v3=1000.0
