@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792688927,
+ "updated": 1792689026,
  "tokens_seen": 24,
  "risk": {
   "checked": 17,
-  "killed": 8,
+  "killed": 9,
   "passed": 16
  },
  "kills": [
@@ -42,7 +42,7 @@
    "sym": "WiSP",
    "token": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
    "reasons": [
-    "liq $29,083 < $50,000 v2 floor"
+    "liq $27,304 < $50,000 v2 floor"
    ]
   },
   {
@@ -63,18 +63,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0214,
+  "dd_today": -0.0221,
   "limit": -0.1
  },
  "v2": {
-  "equity": 907.42,
+  "equity": 906.78,
   "day_start": 927.27,
-  "pnl_today": -19.85,
-  "open_positions": 23,
-  "closed_positions": 13,
-  "closed_sells": 11,
+  "pnl_today": -20.49,
+  "open_positions": 22,
+  "closed_positions": 14,
+  "closed_sells": 12,
   "win_rate": 0.0,
-  "realized_today": -15.11,
+  "realized_today": -16.2,
   "best_token": {
    "sym": "PHP",
    "pnl": -0.92
@@ -86,7 +86,7 @@
   "copied": 12,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 8.16
+   "upnl": 7.92
   },
   "worst_open": {
    "sym": "Agency",
@@ -94,9 +94,9 @@
   }
  },
  "baseline": {
-  "equity": 839.61,
+  "equity": 831.85,
   "day_start": 860.79,
-  "pnl_today": -21.18,
+  "pnl_today": -28.94,
   "closed_sells": 5,
   "win_rate": 0.0,
   "realized_today": -6.92,
@@ -1505,14 +1505,14 @@
   "warn_lp": 18
  },
  "v3": {
-  "equity": 935.61,
+  "equity": 935.36,
   "day_start": 952.92,
-  "pnl_today": -17.31,
-  "open_positions": 18,
-  "closed_positions": 15,
-  "closed_sells": 13,
+  "pnl_today": -17.56,
+  "open_positions": 17,
+  "closed_positions": 16,
+  "closed_sells": 14,
   "win_rate": 0.0,
-  "realized_today": -13.03,
+  "realized_today": -14.12,
   "best_token": {
    "sym": "BURNIE",
    "pnl": -0.61
@@ -1535,7 +1535,7 @@
  },
  "v3_risk": {
   "checked": 19,
-  "killed": 8,
+  "killed": 9,
   "passed": 18
  },
  "v3_kills": [
@@ -1572,7 +1572,7 @@
    "sym": "WiSP",
    "token": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
    "reasons": [
-    "liq $29,083 < $50,000 v2 floor"
+    "liq $27,304 < $50,000 v2 floor"
    ]
   },
   {
@@ -1593,7 +1593,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0182,
+  "dd_today": -0.0184,
   "limit": -0.1
  },
  "v3_track": {
