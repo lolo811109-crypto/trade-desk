@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792657249,
+ "updated": 1792656947,
  "tokens_seen": 28,
  "risk": {
   "checked": 19,
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0325,
+  "dd_today": -0.0319,
   "limit": -0.1
  },
  "v2": {
-  "equity": 947.22,
+  "equity": 947.74,
   "day_start": 979.0,
-  "pnl_today": -31.78,
+  "pnl_today": -31.26,
   "open_positions": 22,
   "closed_positions": 10,
   "closed_sells": 11,
@@ -94,17 +94,17 @@
   "copied": 15,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 5.81
+   "upnl": 5.49
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -8.93
+   "upnl": -8.94
   }
  },
  "baseline": {
-  "equity": 887.63,
+  "equity": 886.75,
   "day_start": 983.73,
-  "pnl_today": -96.1,
+  "pnl_today": -96.98,
   "closed_sells": 11,
   "win_rate": 0.091,
   "realized_today": -18.13,
@@ -1002,14 +1002,14 @@
   "warn_lp": 13
  },
  "v3": {
-  "equity": 981.98,
+  "equity": 982.02,
   "day_start": 1000.0,
-  "pnl_today": -18.02,
-  "open_positions": 11,
-  "closed_positions": 11,
-  "closed_sells": 11,
-  "win_rate": 0.182,
-  "realized_today": -11.14,
+  "pnl_today": -17.98,
+  "open_positions": 12,
+  "closed_positions": 10,
+  "closed_sells": 10,
+  "win_rate": 0.2,
+  "realized_today": -9.41,
   "best_token": {
    "sym": "CYBER",
    "pnl": 3.08
@@ -1024,8 +1024,8 @@
    "upnl": 0.28
   },
   "worst_open": {
-   "sym": "Bert",
-   "upnl": -1.39
+   "sym": "DOPE",
+   "upnl": -1.57
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
