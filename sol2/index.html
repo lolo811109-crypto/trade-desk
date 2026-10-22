@@ -88,7 +88,7 @@ nav .in{max-width:480px;margin:0 auto;display:flex}nav button{flex:1;border:0;ba
 <div class="card"><div class="row"><h3>今日拦截</h3><span class="mono" id="kcnt">RISK KILLS</span></div><div id="kills"></div></div>
 </section>
 <section class="sec" data-s="rules"><div class="card"><h3>规则说明</h3><div style="font-size:13px;line-height:1.7;margin-top:6px;color:#3F3F46">
-<p><b>原版</b>：聪明钱买就跟买、卖就跟卖，每个钱包固定资金。</p><p><b>V2</b>：只跟近 7 天在赚钱的钱包；GoPlus 防貔貅检查不过不跟；涨 100% 卖一半，跌 30% 止损，持仓 24 小时时间止损；当天亏超 10% 熔断，停止新跟单。</p><p><b>V3 紧止损</b>：规则同 V2，但跌 12% 全部止损、涨 35% 全部止盈；开发者（创建者）钱包持有超过 18% 的币不买（查不到创建者时只记警告）。</p><p>Sol 每笔 $10，买卖各扣 3% 模拟滑点与手续费。钱包数据来自免费公共接口，多数钱包只有 1–6 天历史。</p><p class="mono" style="margin-top:8px">纯模拟 · PAPER TRADING ONLY · NOT FINANCIAL ADVICE</p></div></div></section>
+<p><b>原版</b>：聪明钱买就跟买、卖就跟卖，每个钱包固定资金。</p><p><b>V2</b>：只跟近 7 天在赚钱的钱包；GoPlus 防貔貅检查不过不跟；涨 100% 卖一半，跌 30% 止损，持仓 24 小时时间止损；当天亏超 10% 熔断，停止新跟单。</p><p><b>V3 紧止损</b>：规则同 V2，但跌 12% 全部止损、涨 35% 全部止盈；开发者（创建者）钱包持有超过 18% 的币不买（查不到创建者时只记警告）。<br><b>新增风控（10/23）</b>：池子流动性跌到买入时的 60% 以下立即全卖；持仓满 45 分钟、还没止盈过且涨幅不到 10% 就全卖（原时间止损保留兜底）；每笔不超过池子流动性的 1%，池子太小就不买；近 1 小时（新币则自发币起）没有任何卖单的视为疑似貔貅不买，数据缺失也不买。</p><p>Sol 每笔 $10，买卖各扣 3% 模拟滑点与手续费。钱包数据来自免费公共接口，多数钱包只有 1–6 天历史。</p><p class="mono" style="margin-top:8px">纯模拟 · PAPER TRADING ONLY · NOT FINANCIAL ADVICE</p></div></div></section>
 <div class="note" id="upd"></div>
 </div>
 <nav><div class="in" id="nav"><button class="on" data-t="desk">盘面<small>DESK</small></button><button data-t="pos">持仓<small>POSITIONS</small></button><button data-t="fills">成交<small>FILLS</small></button><button data-t="rules">规则<small>RULES</small></button></div></nav>

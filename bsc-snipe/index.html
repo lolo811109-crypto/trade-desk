@@ -39,6 +39,7 @@ table{width:100%;border-collapse:collapse;font-size:12.5px}td,th{padding:6px 2px
 <li>市值/流动性 ≥ $10k；近 5 分钟有成交时买单必须多于卖单</li>
 <li>每笔 $10，起始 $1000，最多 15 仓，每个币只买一次</li>
 <li>止损 −15%；+50% 卖一半；剩下 +150% 全卖，或从最高点回撤 25% 卖出；6 小时时间止损；当日 −10% 熔断</li>
+<li>新增（10/23）：池子流动性跌到买入时 60% 以下全卖；持仓 45 分钟未止盈且涨幅 &lt;10% 全卖；每笔 ≤ 池子流动性 1%（池子 &lt; $1000 不买）；近 1 小时无卖单视为疑似貔貅不买，数据缺失也不买</li>
 <li>纯模拟，不下真实订单。用户自己的 #矿泉水 water 合约完全排除</li></ul></div>
 </div>
 <script>
@@ -61,7 +62,7 @@ async function load(){let s=null;try{s=await (await fetch('../bsc/data/state_sni
  const P=Object.values(s.pos||{});$('pn').textContent=P.length+' / 15';
  $('pos').innerHTML=P.length?'<table><tr><th>币</th><th>来源</th><th>成本</th><th>现价/入场</th><th>盈亏</th></tr>'+P.map(p=>{const v=p.qty*p.mark*.96,pl=v-p.cost;return `<tr><td>${esc(p.sym)} <span class="mono">${tail(p.tok)}</span></td><td>${esc(p.src||'')}</td><td>$${f2(p.cost)}</td><td>${(p.mark/p.entry*100-100).toFixed(0)}%</td><td style="color:${col(pl)}">${pl>=0?'+':'−'}$${f2(Math.abs(pl))}</td></tr>`}).join('')+'</table>':'<div class="emp">暂无持仓</div>';
  const F=(s.trades||[]).filter(t=>t.action&&(t.action=='buy'||t.side=='SELL')).slice(-20).reverse();
- const AL={'buy':'买入','stop-loss':'止损','take-profit-1':'止盈一半','take-profit-2':'止盈全卖','trail-stop':'回撤止盈','time-stop':'时间止损'};
+ const AL={'buy':'买入','stop-loss':'止损','take-profit-1':'止盈一半','take-profit-2':'止盈全卖','trail-stop':'回撤止盈','time-stop':'时间止损','time_stop_45m':'45分钟止损','liquidity_pulled':'撤池全卖'};
  $('fills').innerHTML=F.length?F.map(t=>`<div class="ln"><span>${AL[t.action]||t.action} <b>${esc(t.sym)}</b> <span class="mono">${tail(t.token)}</span>${t.pnl!=null?` <b style="color:${col(t.pnl)}">${t.pnl>=0?'+':'−'}$${f2(Math.abs(t.pnl))}</b>`:''}</span><span>${hm(t.ts)}${t.src?' · '+esc(t.src):''}</span></div>`).join(''):'<div class="emp">还没有成交</div>';
  const R=(s.rejects||[]).slice(-20).reverse();
  $('rjl').innerHTML=R.length?R.map(r=>`<div class="ln"><span>${esc(r.sym||'?')} <span class="mono">${tail(r.token)}</span> · ${esc(zh(r.why))}</span><span>${hm(r.ts)} · ${esc(r.src)}</span></div>`).join(''):'<div class="emp">还没有拦截记录</div>'}
