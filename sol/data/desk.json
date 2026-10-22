@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792685534,
+ "updated": 1792685569,
  "tokens_seen": 13,
  "risk": {
   "checked": 5,
@@ -42,13 +42,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.004,
+  "dd_today": -0.0039,
   "limit": -0.1
  },
  "v2": {
-  "equity": 923.57,
+  "equity": 923.63,
   "day_start": 927.27,
-  "pnl_today": -3.7,
+  "pnl_today": -3.64,
   "open_positions": 20,
   "closed_positions": 4,
   "closed_sells": 2,
@@ -65,7 +65,7 @@
   "copied": 0,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 11.53
+   "upnl": 11.87
   },
   "worst_open": {
    "sym": "Agency",
@@ -73,9 +73,9 @@
   }
  },
  "baseline": {
-  "equity": 861.73,
+  "equity": 865.53,
   "day_start": 860.79,
-  "pnl_today": 0.94,
+  "pnl_today": 4.74,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
@@ -1370,9 +1370,9 @@
   "warn_lp": 17
  },
  "v3": {
-  "equity": 949.01,
+  "equity": 948.74,
   "day_start": 952.92,
-  "pnl_today": -3.91,
+  "pnl_today": -4.18,
   "open_positions": 17,
   "closed_positions": 4,
   "closed_sells": 2,
@@ -1389,7 +1389,7 @@
   "copied": 2,
   "best_open": {
    "sym": "PHP",
-   "upnl": 1.42
+   "upnl": 1.32
   },
   "worst_open": {
    "sym": "MEMEOS",
@@ -1437,7 +1437,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0041,
+  "dd_today": -0.0044,
   "limit": -0.1
  },
  "v3_track": {
