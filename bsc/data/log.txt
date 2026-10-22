@@ -1,21 +1,3 @@
-2026-10-21 22:55:20,007 tick equity=936.03 pnl=-63.97 head=128957636
-2026-10-21 23:52:18,344 WATCHDOG: loop stalled 3418s, exiting for restart
-2026-10-21 23:53:02,673 tick equity=939.49 pnl=-60.51 head=128965287
-2026-10-21 23:53:24,173 tick equity=939.53 pnl=-60.47 head=128965361
-2026-10-21 23:53:45,707 tick equity=938.59 pnl=-61.41 head=128965409
-2026-10-21 23:54:08,362 tick equity=938.69 pnl=-61.31 head=128965456
-2026-10-21 23:54:28,979 V2 {'ts': 1792598049, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0xaacbc156435dbab7815a61bccba1c827e52a7777', 'sym': '股城', 'price': 0.0001552, 'action': 'skip-7d'}
-2026-10-21 23:54:30,869 tick equity=938.30 pnl=-61.70 head=128965507
-2026-10-21 23:54:53,445 tick equity=938.57 pnl=-61.43 head=128965557
-2026-10-21 23:55:17,693 tick equity=938.57 pnl=-61.43 head=128965607
-2026-10-21 23:55:40,936 tick equity=938.52 pnl=-61.48 head=128965661
-2026-10-21 23:56:03,102 tick equity=938.40 pnl=-61.60 head=128965713
-2026-10-21 23:56:24,735 tick equity=937.22 pnl=-62.78 head=128965762
-2026-10-22 00:57:16,463 WATCHDOG: loop stalled 3651s, exiting for restart
-2026-10-22 00:57:49,505 tick equity=951.12 pnl=-48.88 head=128973946
-2026-10-22 00:58:10,813 tick equity=955.51 pnl=-44.49 head=128973996
-2026-10-22 00:58:33,670 tick equity=930.02 pnl=-69.98 head=128974043
-2026-10-22 00:58:55,332 tick equity=929.92 pnl=-70.08 head=128974094
 2026-10-22 00:59:17,161 tick equity=928.70 pnl=-71.30 head=128974142
 2026-10-22 00:59:37,720 V2 {'ts': 1792601958, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x409f0bcdc9a70565a71af56cb50b2a6688cb7777', 'sym': 'BIBI', 'price': 0.0004959, 'action': 'skip-7d'}
 2026-10-22 00:59:38,743 tick equity=928.77 pnl=-71.23 head=128974191
@@ -298,3 +280,21 @@
 2026-10-22 11:37:44,128 tick equity=878.01 pnl=-121.99 head=129059246
 2026-10-22 11:38:05,215 tick equity=878.76 pnl=-121.24 head=129059294
 2026-10-22 11:38:26,586 tick equity=879.31 pnl=-120.69 head=129059341
+2026-10-22 11:53:03,748 loop error rpc fail eth_getTransactionCount
+2026-10-22 11:53:54,348 {'ts': 1792640473, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0xca56094722450016f280c4fd6a333e5c36903827', 'tx': '0xed7da6070c01893a81dc4073e6dc69eb0b18293c06041ed3f6e5c999c66d9d35', 'action': 'skip-noprice'}
+2026-10-22 11:53:54,465 {'ts': 1792640612, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0x90269edbf32583a47fa283835b5d35d5d83d7777', 'tx': '0xcbcf6adefd13fa91e4e45d978ef66004bd5718093eb8bd5d36073fe7dd6076ba', 'sym': '제로', 'price': 8.691e-05, 'liq': 32925, 'action': 'sell', 'proceeds': 8.82, 'pnl': -1.18}
+2026-10-22 11:53:54,541 V2 {'ts': 1792640631, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'sym': '.ai', 'price': 0.0001985, 'action': 'skip-7d'}
+2026-10-22 11:53:54,545 {'ts': 1792640631, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x5943d989cd95388b4dfaa9a61fd66843e6e57777', 'tx': '0x6be346c09e1c08abe2611c0d6f7d32c0e187b1992373f39b56e633d74442015f', 'sym': '.ai', 'price': 0.0001985, 'liq': 47694, 'action': 'buy', 'stake': 10.0}
+2026-10-22 11:53:54,832 {'ts': 1792640799, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'SELL', 'token': '0x06dc293c250e2fb2416a4276d291803fc74fb9b5', 'tx': '0x5786880ed358fbda1b6f7afcdf30b96ece05c1af247b524968e2a5acd9f4337d', 'sym': 'TKC', 'price': 0.00911, 'liq': 135573, 'action': 'sell', 'proceeds': 8.53, 'pnl': -1.47}
+2026-10-22 11:54:00,787 tick equity=885.39 pnl=-114.61 head=129061337
+2026-10-22 11:54:21,861 tick equity=885.38 pnl=-114.62 head=129061464
+2026-10-22 11:54:43,555 tick equity=885.77 pnl=-114.23 head=129061510
+2026-10-22 11:55:04,595 tick equity=885.73 pnl=-114.27 head=129061559
+2026-10-22 11:55:26,071 tick equity=885.32 pnl=-114.68 head=129061605
+2026-10-22 11:55:46,976 tick equity=885.49 pnl=-114.51 head=129061652
+2026-10-22 11:56:08,482 tick equity=887.71 pnl=-112.29 head=129061698
+2026-10-22 11:56:29,378 tick equity=887.71 pnl=-112.29 head=129061746
+2026-10-22 11:56:50,754 tick equity=888.02 pnl=-111.98 head=129061792
+2026-10-22 11:57:11,655 tick equity=887.16 pnl=-112.84 head=129061840
+2026-10-22 11:57:32,977 tick equity=887.14 pnl=-112.86 head=129061886
+2026-10-22 11:57:53,927 tick equity=886.54 pnl=-113.46 head=129061934
