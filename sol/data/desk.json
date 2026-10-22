@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792686970,
+ "updated": 1792687210,
  "tokens_seen": 16,
  "risk": {
   "checked": 11,
@@ -42,18 +42,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0129,
+  "dd_today": -0.013,
   "limit": -0.1
  },
  "v2": {
-  "equity": 915.27,
+  "equity": 915.22,
   "day_start": 927.27,
-  "pnl_today": -12.0,
-  "open_positions": 23,
-  "closed_positions": 7,
-  "closed_sells": 5,
+  "pnl_today": -12.05,
+  "open_positions": 22,
+  "closed_positions": 8,
+  "closed_sells": 6,
   "win_rate": 0.0,
-  "realized_today": -7.4,
+  "realized_today": -8.47,
   "best_token": {
    "sym": "Kimchi",
    "pnl": -0.68
@@ -65,20 +65,20 @@
   "copied": 6,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 11.11
+   "upnl": 11.69
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -8.18
+   "upnl": -8.38
   }
  },
  "baseline": {
-  "equity": 852.95,
+  "equity": 858.59,
   "day_start": 860.79,
-  "pnl_today": -7.84,
-  "closed_sells": 3,
+  "pnl_today": -2.2,
+  "closed_sells": 4,
   "win_rate": 0.0,
-  "realized_today": -5.22,
+  "realized_today": -6.29,
   "best_token": {
    "sym": "Kimchi",
    "pnl": -0.68
@@ -87,18 +87,18 @@
    "sym": "BURNIE",
    "pnl": -3.22
   },
-  "copied": 2
+  "copied": 3
  },
  "risk_track": {
-  "updated": 1792686934,
+  "updated": 1792687174,
   "rejected": {
    "n": 27,
    "1h": {
-    "n": 22,
-    "avg_ret": -0.0083,
-    "bad_pct": 0.045,
+    "n": 25,
+    "avg_ret": -0.019,
+    "bad_pct": 0.04,
     "rug_pct": 0.0,
-    "up_pct": 0.273
+    "up_pct": 0.28
    },
    "6h": {
     "n": 15,
@@ -115,20 +115,20 @@
     "up_pct": 0.4
    },
    "latest": {
-    "n": 22,
-    "avg_ret": 0.0359,
-    "bad_pct": 0.136,
+    "n": 25,
+    "avg_ret": 0.0199,
+    "bad_pct": 0.12,
     "winners": 2
    }
   },
   "passed": {
    "n": 49,
    "1h": {
-    "n": 42,
-    "avg_ret": -0.0179,
+    "n": 44,
+    "avg_ret": -0.0184,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.452
+    "up_pct": 0.432
    },
    "6h": {
     "n": 32,
@@ -145,8 +145,8 @@
     "up_pct": 0.158
    },
    "latest": {
-    "n": 42,
-    "avg_ret": -0.0551,
+    "n": 44,
+    "avg_ret": -0.0539,
     "bad_pct": 0.0,
     "winners": 2
    }
@@ -155,11 +155,11 @@
    "liq $, < $, v floor": {
     "n": 19,
     "1h": {
-     "n": 15,
-     "avg_ret": 0.01,
-     "bad_pct": 0.067,
+     "n": 18,
+     "avg_ret": -0.0078,
+     "bad_pct": 0.056,
      "rug_pct": 0.0,
-     "up_pct": 0.267
+     "up_pct": 0.278
     },
     "6h": {
      "n": 9,
@@ -176,9 +176,9 @@
      "up_pct": 1.0
     },
     "latest": {
-     "n": 15,
-     "avg_ret": 0.0855,
-     "bad_pct": 0.2,
+     "n": 18,
+     "avg_ret": 0.0551,
+     "bad_pct": 0.167,
      "winners": 2
     }
    },
@@ -1240,7 +1240,7 @@
     "ts": 1792683409,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0026,
      "6h": null,
      "24h": null
     },
@@ -1256,7 +1256,7 @@
     "ts": 1792683411,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.342,
      "6h": null,
      "24h": null
     },
@@ -1272,7 +1272,7 @@
     "ts": 1792683411,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0529,
      "6h": null,
      "24h": null
     },
@@ -1288,7 +1288,7 @@
     "ts": 1792683412,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0024,
      "6h": null,
      "24h": null
     },
@@ -1302,7 +1302,7 @@
     "ts": 1792683549,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0558,
      "6h": null,
      "24h": null
     },
@@ -1420,14 +1420,14 @@
   "warn_lp": 17
  },
  "v3": {
-  "equity": 941.77,
+  "equity": 940.51,
   "day_start": 952.92,
-  "pnl_today": -11.15,
+  "pnl_today": -12.41,
   "open_positions": 18,
-  "closed_positions": 8,
-  "closed_sells": 6,
+  "closed_positions": 9,
+  "closed_sells": 7,
   "win_rate": 0.0,
-  "realized_today": -6.65,
+  "realized_today": -7.72,
   "best_token": {
    "sym": "BURNIE",
    "pnl": -0.61
@@ -1436,10 +1436,10 @@
    "sym": "EXFIL",
    "pnl": -2.66
   },
-  "copied": 7,
+  "copied": 8,
   "best_open": {
    "sym": "DOPE",
-   "upnl": -0.44
+   "upnl": -0.4
   },
   "worst_open": {
    "sym": "Bert",
@@ -1449,9 +1449,9 @@
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 12,
+  "checked": 13,
   "killed": 5,
-  "passed": 11
+  "passed": 12
  },
  "v3_kills": [
   {
@@ -1487,19 +1487,19 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0117,
+  "dd_today": -0.013,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792686934,
+  "updated": 1792687174,
   "rejected": {
    "n": 19,
    "1h": {
-    "n": 14,
-    "avg_ret": 0.0813,
+    "n": 17,
+    "avg_ret": 0.0498,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.286
+    "up_pct": 0.294
    },
    "6h": {
     "n": 7,
@@ -1516,20 +1516,20 @@
     "up_pct": null
    },
    "latest": {
-    "n": 14,
-    "avg_ret": 0.0118,
-    "bad_pct": 0.143,
+    "n": 17,
+    "avg_ret": -0.0074,
+    "bad_pct": 0.118,
     "winners": 1
    }
   },
   "passed": {
    "n": 38,
    "1h": {
-    "n": 31,
-    "avg_ret": -0.0263,
+    "n": 33,
+    "avg_ret": -0.0264,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.323
+    "up_pct": 0.303
    },
    "6h": {
     "n": 19,
@@ -1546,8 +1546,8 @@
     "up_pct": null
    },
    "latest": {
-    "n": 31,
-    "avg_ret": -0.0302,
+    "n": 33,
+    "avg_ret": -0.0301,
     "bad_pct": 0.0,
     "winners": 1
    }
@@ -1556,11 +1556,11 @@
    "liq $, < $, v floor": {
     "n": 15,
     "1h": {
-     "n": 11,
-     "avg_ret": 0.1045,
+     "n": 14,
+     "avg_ret": 0.0613,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.273
+     "up_pct": 0.286
     },
     "6h": {
      "n": 5,
@@ -1577,9 +1577,9 @@
      "up_pct": null
     },
     "latest": {
-     "n": 11,
-     "avg_ret": 0.0157,
-     "bad_pct": 0.182,
+     "n": 14,
+     "avg_ret": -0.0085,
+     "bad_pct": 0.143,
      "winners": 1
     }
    },
@@ -2430,7 +2430,7 @@
     "ts": 1792683410,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0026,
      "6h": null,
      "24h": null
     },
@@ -2446,7 +2446,7 @@
     "ts": 1792683411,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.342,
      "6h": null,
      "24h": null
     },
@@ -2462,7 +2462,7 @@
     "ts": 1792683411,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0529,
      "6h": null,
      "24h": null
     },
@@ -2478,7 +2478,7 @@
     "ts": 1792683412,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0024,
      "6h": null,
      "24h": null
     },
@@ -2494,7 +2494,7 @@
     "ts": 1792683550,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0558,
      "6h": null,
      "24h": null
     },
