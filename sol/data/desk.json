@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792668604,
+ "updated": 1792668840,
  "tokens_seen": 28,
  "risk": {
   "checked": 19,
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0309,
+  "dd_today": -0.0297,
   "limit": -0.1
  },
  "v2": {
-  "equity": 948.78,
+  "equity": 949.97,
   "day_start": 979.0,
-  "pnl_today": -30.22,
+  "pnl_today": -29.03,
   "open_positions": 20,
   "closed_positions": 12,
   "closed_sells": 13,
@@ -94,17 +94,17 @@
   "copied": 15,
   "best_open": {
    "sym": "CYBER",
-   "upnl": 6.35
+   "upnl": 6.5
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -9.32
+   "upnl": -9.04
   }
  },
  "baseline": {
-  "equity": 874.69,
+  "equity": 873.95,
   "day_start": 983.73,
-  "pnl_today": -109.04,
+  "pnl_today": -109.78,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -15.89,
@@ -1002,10 +1002,10 @@
   "warn_lp": 13
  },
  "v3": {
-  "equity": 980.95,
+  "equity": 980.8,
   "day_start": 1000.0,
-  "pnl_today": -19.05,
-  "open_positions": 11,
+  "pnl_today": -19.2,
+  "open_positions": 12,
   "closed_positions": 11,
   "closed_sells": 11,
   "win_rate": 0.182,
@@ -1018,22 +1018,22 @@
    "sym": "CRAWL",
    "pnl": -3.68
   },
-  "copied": 22,
+  "copied": 23,
   "best_open": {
    "sym": "LARPCHECK",
-   "upnl": 0.56
+   "upnl": 0.58
   },
   "worst_open": {
    "sym": "EMBER",
-   "upnl": -1.41
+   "upnl": -1.44
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 24,
+  "checked": 25,
   "killed": 8,
-  "passed": 22
+  "passed": 23
  },
  "v3_kills": [
   {
@@ -1077,11 +1077,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.019,
+  "dd_today": -0.0192,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792668334,
+  "updated": 1792668702,
   "rejected": {
    "n": 7,
    "1h": {
@@ -1113,7 +1113,7 @@
    }
   },
   "passed": {
-   "n": 19,
+   "n": 20,
    "1h": {
     "n": 19,
     "avg_ret": -0.0166,
@@ -1692,6 +1692,23 @@
     "src": "live",
     "ret": {
      "1h": -0.0172,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "DOPE",
+    "token": "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792668702,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },

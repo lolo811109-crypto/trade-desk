@@ -2,8 +2,8 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792668610,
- "tokens_seen": 29,
+ "updated": 1792668740,
+ "tokens_seen": 30,
  "risk": {
   "checked": 28,
   "killed": 20,
@@ -120,9 +120,9 @@
   }
  },
  "baseline": {
-  "equity": 859.49,
+  "equity": 858.84,
   "day_start": 937.22,
-  "pnl_today": -77.73,
+  "pnl_today": -78.38,
   "closed_sells": 9,
   "win_rate": 0.0,
   "realized_today": -10.3,
@@ -336,7 +336,7 @@
   "events_total": 16
  },
  "risk_track": {
-  "updated": 1792668586,
+  "updated": 1792668696,
   "rejected": {
    "n": 61,
    "1h": {
@@ -354,15 +354,15 @@
     "up_pct": 0.411
    },
    "24h": {
-    "n": 38,
-    "avg_ret": -0.0875,
-    "bad_pct": 0.316,
-    "rug_pct": 0.079,
-    "up_pct": 0.395
+    "n": 39,
+    "avg_ret": -0.0881,
+    "bad_pct": 0.308,
+    "rug_pct": 0.077,
+    "up_pct": 0.385
    },
    "latest": {
     "n": 60,
-    "avg_ret": -0.0246,
+    "avg_ret": -0.0254,
     "bad_pct": 0.2,
     "winners": 5
    }
@@ -384,16 +384,16 @@
     "up_pct": 0.429
    },
    "24h": {
-    "n": 19,
-    "avg_ret": -0.1545,
-    "bad_pct": 0.263,
+    "n": 21,
+    "avg_ret": -0.1795,
+    "bad_pct": 0.286,
     "rug_pct": 0.0,
-    "up_pct": 0.368
+    "up_pct": 0.333
    },
    "latest": {
     "n": 28,
-    "avg_ret": -0.1435,
-    "bad_pct": 0.179,
+    "avg_ret": -0.1558,
+    "bad_pct": 0.214,
     "winners": 1
    }
   },
@@ -445,15 +445,15 @@
      "up_pct": 0.536
     },
     "24h": {
-     "n": 18,
-     "avg_ret": -0.0071,
-     "bad_pct": 0.056,
+     "n": 19,
+     "avg_ret": -0.0126,
+     "bad_pct": 0.053,
      "rug_pct": 0.0,
-     "up_pct": 0.556
+     "up_pct": 0.526
     },
     "latest": {
      "n": 29,
-     "avg_ret": 0.0529,
+     "avg_ret": 0.0513,
      "bad_pct": 0.034,
      "winners": 2
     }
@@ -1496,7 +1496,7 @@
     "ret": {
      "1h": -0.1196,
      "6h": -0.064,
-     "24h": null
+     "24h": -0.1103
     },
     "rug": false
    },
@@ -1510,7 +1510,7 @@
     "ret": {
      "1h": 0.0729,
      "6h": -0.0048,
-     "24h": null
+     "24h": -0.0872
     },
     "rug": false
    },
@@ -1524,7 +1524,7 @@
     "ret": {
      "1h": 0.1732,
      "6h": -0.4861,
-     "24h": null
+     "24h": -0.7481
     },
     "rug": false
    },
