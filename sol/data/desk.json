@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792689026,
- "tokens_seen": 24,
+ "updated": 1792689731,
+ "tokens_seen": 27,
  "risk": {
-  "checked": 17,
-  "killed": 9,
-  "passed": 16
+  "checked": 20,
+  "killed": 10,
+  "passed": 19
  },
  "kills": [
   {
@@ -58,45 +58,52 @@
    "reasons": [
     "liq $37,245 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "CYBER",
+   "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
+   "reasons": [
+    "liq $13,450 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0221,
+  "dd_today": -0.0231,
   "limit": -0.1
  },
  "v2": {
-  "equity": 906.78,
+  "equity": 905.89,
   "day_start": 927.27,
-  "pnl_today": -20.49,
-  "open_positions": 22,
-  "closed_positions": 14,
-  "closed_sells": 12,
+  "pnl_today": -21.38,
+  "open_positions": 24,
+  "closed_positions": 15,
+  "closed_sells": 13,
   "win_rate": 0.0,
-  "realized_today": -16.2,
+  "realized_today": -16.79,
   "best_token": {
    "sym": "PHP",
    "pnl": -0.92
   },
   "worst_token": {
    "sym": "BURNIE",
-   "pnl": -4.02
+   "pnl": -4.61
   },
-  "copied": 12,
+  "copied": 15,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 7.92
+   "upnl": 8.35
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -8.36
+   "upnl": -9.03
   }
  },
  "baseline": {
-  "equity": 831.85,
+  "equity": 827.2,
   "day_start": 860.79,
-  "pnl_today": -28.94,
+  "pnl_today": -33.59,
   "closed_sells": 5,
   "win_rate": 0.0,
   "realized_today": -6.92,
@@ -1505,38 +1512,38 @@
   "warn_lp": 18
  },
  "v3": {
-  "equity": 935.36,
+  "equity": 934.44,
   "day_start": 952.92,
-  "pnl_today": -17.56,
-  "open_positions": 17,
-  "closed_positions": 16,
-  "closed_sells": 14,
+  "pnl_today": -18.48,
+  "open_positions": 19,
+  "closed_positions": 17,
+  "closed_sells": 15,
   "win_rate": 0.0,
-  "realized_today": -14.12,
+  "realized_today": -14.71,
   "best_token": {
-   "sym": "BURNIE",
-   "pnl": -0.61
+   "sym": "PHP",
+   "pnl": -0.92
   },
   "worst_token": {
    "sym": "EXFIL",
    "pnl": -3.16
   },
-  "copied": 14,
+  "copied": 17,
   "best_open": {
-   "sym": "SI",
-   "upnl": -0.27
+   "sym": "MEMEOS",
+   "upnl": 0.04
   },
   "worst_open": {
    "sym": "Bert",
-   "upnl": -1.49
+   "upnl": -1.51
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 19,
-  "killed": 9,
-  "passed": 18
+  "checked": 22,
+  "killed": 10,
+  "passed": 21
  },
  "v3_kills": [
   {
@@ -1588,12 +1595,19 @@
    "reasons": [
     "liq $37,245 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "CYBER",
+   "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
+   "reasons": [
+    "liq $13,450 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0184,
+  "dd_today": -0.0194,
   "limit": -0.1
  },
  "v3_track": {
