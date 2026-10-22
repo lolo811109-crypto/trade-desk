@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792702808,
+ "updated": 1792703188,
  "tokens_seen": 46,
  "risk": {
-  "checked": 44,
+  "checked": 45,
   "killed": 24,
-  "passed": 41
+  "passed": 42
  },
  "kills": [
   {
@@ -127,18 +127,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0428,
+  "dd_today": -0.0453,
   "limit": -0.1
  },
  "v2": {
-  "equity": 887.57,
+  "equity": 885.26,
   "day_start": 927.27,
-  "pnl_today": -39.7,
-  "open_positions": 23,
-  "closed_positions": 38,
-  "closed_sells": 36,
-  "win_rate": 0.111,
-  "realized_today": -33.98,
+  "pnl_today": -42.01,
+  "open_positions": 22,
+  "closed_positions": 40,
+  "closed_sells": 38,
+  "win_rate": 0.105,
+  "realized_today": -35.71,
   "best_token": {
    "sym": "LARP",
    "pnl": 1.34
@@ -147,10 +147,10 @@
    "sym": "BURNIE",
    "pnl": -5.24
   },
-  "copied": 37,
+  "copied": 38,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 8.0
+   "upnl": 7.46
   },
   "worst_open": {
    "sym": "Agency",
@@ -158,12 +158,12 @@
   }
  },
  "baseline": {
-  "equity": 797.82,
+  "equity": 790.77,
   "day_start": 860.79,
-  "pnl_today": -62.97,
-  "closed_sells": 18,
-  "win_rate": 0.167,
-  "realized_today": 6.87,
+  "pnl_today": -70.02,
+  "closed_sells": 19,
+  "win_rate": 0.158,
+  "realized_today": 6.26,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -1829,38 +1829,38 @@
   "warn_lp": 21
  },
  "v3": {
-  "equity": 922.46,
+  "equity": 920.63,
   "day_start": 952.92,
-  "pnl_today": -30.46,
-  "open_positions": 3,
-  "closed_positions": 61,
-  "closed_sells": 59,
-  "win_rate": 0.119,
-  "realized_today": -39.86,
+  "pnl_today": -32.29,
+  "open_positions": 2,
+  "closed_positions": 63,
+  "closed_sells": 61,
+  "win_rate": 0.115,
+  "realized_today": -42.79,
   "best_token": {
    "sym": "DOPE",
    "pnl": 3.43
   },
   "worst_token": {
-   "sym": "BLACKTOBER",
-   "pnl": -5.78
+   "sym": "Kimchi",
+   "pnl": -6.09
   },
-  "copied": 45,
+  "copied": 46,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": -0.41
+   "upnl": -0.04
   },
   "worst_open": {
    "sym": "PHP",
-   "upnl": -0.68
+   "upnl": -0.54
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 52,
+  "checked": 53,
   "killed": 24,
-  "passed": 49
+  "passed": 50
  },
  "v3_kills": [
   {
@@ -1982,7 +1982,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.032,
+  "dd_today": -0.0339,
   "limit": -0.1
  },
  "v3_track": {
