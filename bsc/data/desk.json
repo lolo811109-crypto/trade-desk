@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792670938,
+ "updated": 1792671231,
  "tokens_seen": 36,
  "risk": {
-  "checked": 51,
-  "killed": 36,
-  "passed": 15
+  "checked": 53,
+  "killed": 37,
+  "passed": 16
  },
  "kills": [
   {
@@ -121,14 +121,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0291,
+  "dd_today": -0.0369,
   "limit": -0.1
  },
  "v2": {
-  "equity": 935.98,
+  "equity": 928.41,
   "day_start": 964.02,
-  "pnl_today": -28.04,
-  "open_positions": 5,
+  "pnl_today": -35.61,
+  "open_positions": 6,
   "closed_positions": 10,
   "closed_sells": 10,
   "win_rate": 0.1,
@@ -141,20 +141,20 @@
    "sym": "念定人生",
    "pnl": -4.36
   },
-  "copied": 15,
+  "copied": 16,
   "best_open": {
    "sym": "🔮",
    "upnl": 1.71
   },
   "worst_open": {
-   "sym": "TTAI",
-   "upnl": -17.55
+   "sym": "GANG",
+   "upnl": -19.16
   }
  },
  "baseline": {
-  "equity": 856.76,
+  "equity": 848.13,
   "day_start": 937.22,
-  "pnl_today": -80.46,
+  "pnl_today": -89.09,
   "closed_sells": 14,
   "win_rate": 0.071,
   "realized_today": -19.46,
@@ -166,10 +166,10 @@
    "sym": "赵长鹏能飞",
    "pnl": -9.13
   },
-  "copied": 34
+  "copied": 35
  },
  "confluence": {
-  "equity": 1005.19,
+  "equity": 1004.22,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 2,
