@@ -2,19 +2,19 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792690022,
- "tokens_seen": 28,
+ "updated": 1792690715,
+ "tokens_seen": 30,
  "risk": {
-  "checked": 20,
-  "killed": 10,
-  "passed": 19
+  "checked": 23,
+  "killed": 12,
+  "passed": 22
  },
  "kills": [
   {
    "sym": "DRMR",
    "token": "7Xgc5RacHtGzfhw2HukUBk5V986yBbvshr7rrCoopump",
    "reasons": [
-    "liq $48,986 < $50,000 v2 floor"
+    "liq $46,235 < $50,000 v2 floor"
    ]
   },
   {
@@ -42,7 +42,7 @@
    "sym": "WiSP",
    "token": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
    "reasons": [
-    "liq $27,304 < $50,000 v2 floor"
+    "liq $26,078 < $50,000 v2 floor"
    ]
   },
   {
@@ -70,18 +70,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0226,
+  "dd_today": -0.024,
   "limit": -0.1
  },
  "v2": {
-  "equity": 906.31,
+  "equity": 905.02,
   "day_start": 927.27,
-  "pnl_today": -20.96,
-  "open_positions": 23,
-  "closed_positions": 16,
-  "closed_sells": 14,
+  "pnl_today": -22.25,
+  "open_positions": 25,
+  "closed_positions": 17,
+  "closed_sells": 15,
   "win_rate": 0.0,
-  "realized_today": -17.49,
+  "realized_today": -18.72,
   "best_token": {
    "sym": "PHP",
    "pnl": -0.92
@@ -90,23 +90,23 @@
    "sym": "BURNIE",
    "pnl": -4.61
   },
-  "copied": 15,
+  "copied": 18,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 8.25
+   "upnl": 8.5
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.03
+   "upnl": -9.41
   }
  },
  "baseline": {
-  "equity": 822.69,
+  "equity": 827.08,
   "day_start": 860.79,
-  "pnl_today": -38.1,
-  "closed_sells": 5,
+  "pnl_today": -33.71,
+  "closed_sells": 6,
   "win_rate": 0.0,
-  "realized_today": -6.92,
+  "realized_today": -8.99,
   "best_token": {
    "sym": "GTA",
    "pnl": -0.63
@@ -115,10 +115,10 @@
    "sym": "BURNIE",
    "pnl": -3.22
   },
-  "copied": 5
+  "copied": 7
  },
  "risk_track": {
-  "updated": 1792690022,
+  "updated": 1792690684,
   "rejected": {
    "n": 30,
    "1h": {
@@ -150,13 +150,13 @@
    }
   },
   "passed": {
-   "n": 50,
+   "n": 51,
    "1h": {
-    "n": 47,
-    "avg_ret": -0.02,
+    "n": 49,
+    "avg_ret": -0.0221,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.404
+    "up_pct": 0.388
    },
    "6h": {
     "n": 32,
@@ -173,8 +173,8 @@
     "up_pct": 0.158
    },
    "latest": {
-    "n": 47,
-    "avg_ret": -0.0533,
+    "n": 49,
+    "avg_ret": -0.054,
     "bad_pct": 0.0,
     "winners": 2
    }
@@ -1420,7 +1420,7 @@
     "ts": 1792686542,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0877,
      "6h": null,
      "24h": null
     },
@@ -1436,7 +1436,7 @@
     "ts": 1792686934,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.053,
      "6h": null,
      "24h": null
     },
@@ -1505,6 +1505,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "BLACKTOBER",
+    "token": "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792690684,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1512,14 +1526,14 @@
   "warn_lp": 18
  },
  "v3": {
-  "equity": 934.23,
+  "equity": 933.43,
   "day_start": 952.92,
-  "pnl_today": -18.69,
-  "open_positions": 18,
-  "closed_positions": 18,
-  "closed_sells": 16,
+  "pnl_today": -19.49,
+  "open_positions": 20,
+  "closed_positions": 19,
+  "closed_sells": 17,
   "win_rate": 0.0,
-  "realized_today": -15.41,
+  "realized_today": -16.64,
   "best_token": {
    "sym": "PHP",
    "pnl": -0.92
@@ -1528,29 +1542,29 @@
    "sym": "EXFIL",
    "pnl": -3.16
   },
-  "copied": 17,
+  "copied": 20,
   "best_open": {
-   "sym": "CLAUDIA",
-   "upnl": -0.21
+   "sym": "MEMEOS",
+   "upnl": 0.13
   },
   "worst_open": {
    "sym": "Bert",
-   "upnl": -1.51
+   "upnl": -1.45
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 22,
-  "killed": 10,
-  "passed": 21
+  "checked": 25,
+  "killed": 12,
+  "passed": 24
  },
  "v3_kills": [
   {
    "sym": "DRMR",
    "token": "7Xgc5RacHtGzfhw2HukUBk5V986yBbvshr7rrCoopump",
    "reasons": [
-    "liq $48,986 < $50,000 v2 floor"
+    "liq $46,235 < $50,000 v2 floor"
    ]
   },
   {
@@ -1579,7 +1593,7 @@
    "sym": "WiSP",
    "token": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
    "reasons": [
-    "liq $27,304 < $50,000 v2 floor"
+    "liq $26,078 < $50,000 v2 floor"
    ]
   },
   {
@@ -1607,11 +1621,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0196,
+  "dd_today": -0.0205,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792688789,
+  "updated": 1792690700,
   "rejected": {
    "n": 22,
    "1h": {
@@ -1643,20 +1657,20 @@
    }
   },
   "passed": {
-   "n": 39,
+   "n": 40,
    "1h": {
-    "n": 36,
-    "avg_ret": -0.0248,
+    "n": 38,
+    "avg_ret": -0.0272,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.306
+    "up_pct": 0.289
    },
    "6h": {
-    "n": 19,
-    "avg_ret": -0.023,
+    "n": 20,
+    "avg_ret": -0.0273,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.263
+    "up_pct": 0.25
    },
    "24h": {
     "n": 0,
@@ -1666,8 +1680,8 @@
     "up_pct": null
    },
    "latest": {
-    "n": 36,
-    "avg_ret": -0.0281,
+    "n": 38,
+    "avg_ret": -0.0333,
     "bad_pct": 0.0,
     "winners": 1
    }
@@ -2239,7 +2253,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0019,
-     "6h": null,
+     "6h": -0.1089,
      "24h": null
     },
     "rug": false
@@ -2712,7 +2726,7 @@
     "ts": 1792686542,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0877,
      "6h": null,
      "24h": null
     },
@@ -2729,7 +2743,7 @@
     "ts": 1792686934,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.053,
      "6h": null,
      "24h": null
     },
@@ -2792,6 +2806,22 @@
      "liq $37,245 < $50,000 v2 floor"
     ],
     "ts": 1792688789,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BLACKTOBER",
+    "token": "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
+    "ok": true,
+    "reasons": [
+     "warn: dev holding unknown"
+    ],
+    "ts": 1792690700,
     "src": "live",
     "ret": {
      "1h": null,
