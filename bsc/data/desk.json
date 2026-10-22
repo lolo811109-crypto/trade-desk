@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792631614,
- "tokens_seen": 17,
+ "updated": 1792640306,
+ "tokens_seen": 20,
  "risk": {
-  "checked": 15,
+  "checked": 16,
   "killed": 10,
-  "passed": 5
+  "passed": 6
  },
  "kills": [
   {
@@ -50,43 +50,43 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0032,
+  "dd_today": -0.0057,
   "limit": -0.1
  },
  "v2": {
-  "equity": 960.95,
+  "equity": 958.5,
   "day_start": 964.02,
-  "pnl_today": -3.07,
-  "open_positions": 6,
-  "closed_positions": 5,
-  "closed_sells": 5,
-  "win_rate": 0.2,
-  "realized_today": -4.5,
+  "pnl_today": -5.52,
+  "open_positions": 5,
+  "closed_positions": 7,
+  "closed_sells": 7,
+  "win_rate": 0.143,
+  "realized_today": -5.33,
   "best_token": {
    "sym": "BINA",
-   "pnl": 2.73
+   "pnl": 1.95
   },
   "worst_token": {
    "sym": "COUGAR",
    "pnl": -3.68
   },
-  "copied": 5,
+  "copied": 6,
   "best_open": {
    "sym": "🔮",
-   "upnl": 4.18
+   "upnl": 3.63
   },
   "worst_open": {
    "sym": "TTAI",
-   "upnl": -15.01
+   "upnl": -15.76
   }
  },
  "baseline": {
-  "equity": 922.83,
+  "equity": 879.31,
   "day_start": 937.22,
-  "pnl_today": -14.39,
-  "closed_sells": 2,
+  "pnl_today": -57.91,
+  "closed_sells": 4,
   "win_rate": 0.0,
-  "realized_today": -2.96,
+  "realized_today": -4.52,
   "best_token": {
    "sym": "BEM",
    "pnl": -0.78
@@ -95,7 +95,7 @@
    "sym": "DPOTS",
    "pnl": -2.18
   },
-  "copied": 4
+  "copied": 7
  },
  "confluence": {
   "equity": 1000.72,
@@ -258,7 +258,7 @@
   "events_total": 13
  },
  "risk_track": {
-  "updated": 1792631420,
+  "updated": 1792640093,
   "rejected": {
    "n": 55,
    "1h": {
@@ -269,28 +269,28 @@
     "up_pct": 0.527
    },
    "6h": {
-    "n": 52,
-    "avg_ret": 0.0085,
-    "bad_pct": 0.192,
-    "rug_pct": 0.154,
-    "up_pct": 0.385
+    "n": 53,
+    "avg_ret": 0.01,
+    "bad_pct": 0.189,
+    "rug_pct": 0.151,
+    "up_pct": 0.396
    },
    "24h": {
-    "n": 17,
-    "avg_ret": 0.0664,
-    "bad_pct": 0.059,
-    "rug_pct": 0.0,
-    "up_pct": 0.647
+    "n": 21,
+    "avg_ret": -0.0858,
+    "bad_pct": 0.19,
+    "rug_pct": 0.095,
+    "up_pct": 0.524
    },
    "latest": {
     "n": 55,
-    "avg_ret": -0.0307,
-    "bad_pct": 0.182,
+    "avg_ret": -0.0711,
+    "bad_pct": 0.218,
     "winners": 4
    }
   },
   "passed": {
-   "n": 25,
+   "n": 26,
    "1h": {
     "n": 25,
     "avg_ret": 0.0128,
@@ -299,22 +299,22 @@
     "up_pct": 0.52
    },
    "6h": {
-    "n": 22,
-    "avg_ret": 0.0051,
-    "bad_pct": 0.136,
+    "n": 24,
+    "avg_ret": 0.0223,
+    "bad_pct": 0.125,
     "rug_pct": 0.0,
-    "up_pct": 0.455
+    "up_pct": 0.5
    },
    "24h": {
-    "n": 8,
-    "avg_ret": -0.2575,
-    "bad_pct": 0.5,
+    "n": 9,
+    "avg_ret": -0.2616,
+    "bad_pct": 0.444,
     "rug_pct": 0.0,
-    "up_pct": 0.375
+    "up_pct": 0.333
    },
    "latest": {
     "n": 25,
-    "avg_ret": -0.0738,
+    "avg_ret": -0.055,
     "bad_pct": 0.16,
     "winners": 2
    }
@@ -330,22 +330,22 @@
      "up_pct": 0.657
     },
     "6h": {
-     "n": 32,
-     "avg_ret": -0.1275,
-     "bad_pct": 0.125,
-     "rug_pct": 0.094,
-     "up_pct": 0.5
+     "n": 33,
+     "avg_ret": -0.1209,
+     "bad_pct": 0.121,
+     "rug_pct": 0.091,
+     "up_pct": 0.515
     },
     "24h": {
-     "n": 13,
-     "avg_ret": 0.0608,
-     "bad_pct": 0.0,
+     "n": 14,
+     "avg_ret": 0.0,
+     "bad_pct": 0.071,
      "rug_pct": 0.0,
-     "up_pct": 0.769
+     "up_pct": 0.714
     },
     "latest": {
      "n": 35,
-     "avg_ret": -0.0847,
+     "avg_ret": -0.0879,
      "bad_pct": 0.114,
      "winners": 1
     }
@@ -367,15 +367,15 @@
      "up_pct": 0.536
     },
     "24h": {
-     "n": 13,
-     "avg_ret": 0.0569,
-     "bad_pct": 0.077,
+     "n": 14,
+     "avg_ret": 0.0429,
+     "bad_pct": 0.071,
      "rug_pct": 0.0,
-     "up_pct": 0.769
+     "up_pct": 0.714
     },
     "latest": {
      "n": 28,
-     "avg_ret": 0.0372,
+     "avg_ret": 0.0331,
      "bad_pct": 0.071,
      "winners": 2
     }
@@ -397,16 +397,16 @@
      "up_pct": 0.143
     },
     "24h": {
-     "n": 2,
-     "avg_ret": -0.3599,
-     "bad_pct": 0.5,
-     "rug_pct": 0.0,
+     "n": 4,
+     "avg_ret": -0.68,
+     "bad_pct": 0.75,
+     "rug_pct": 0.5,
      "up_pct": 0.0
     },
     "latest": {
      "n": 14,
-     "avg_ret": -0.1031,
-     "bad_pct": 0.429,
+     "avg_ret": -0.2457,
+     "bad_pct": 0.571,
      "winners": 1
     }
    },
@@ -427,16 +427,16 @@
      "up_pct": 0.143
     },
     "24h": {
-     "n": 2,
-     "avg_ret": -0.3599,
-     "bad_pct": 0.5,
-     "rug_pct": 0.0,
+     "n": 4,
+     "avg_ret": -0.68,
+     "bad_pct": 0.75,
+     "rug_pct": 0.5,
      "up_pct": 0.0
     },
     "latest": {
      "n": 14,
-     "avg_ret": -0.1031,
-     "bad_pct": 0.429,
+     "avg_ret": -0.2457,
+     "bad_pct": 0.571,
      "winners": 1
     }
    },
@@ -910,7 +910,7 @@
     "ret": {
      "1h": -0.0242,
      "6h": -0.3855,
-     "24h": null
+     "24h": -0.295
     },
     "rug": false
    },
@@ -926,7 +926,7 @@
     "ret": {
      "1h": 0.0,
      "6h": -0.0256,
-     "24h": null
+     "24h": -0.1397
     },
     "rug": false
    },
@@ -942,7 +942,7 @@
     "ret": {
      "1h": 0.0212,
      "6h": -0.5177,
-     "24h": null
+     "24h": -0.7905
     },
     "rug": false
    },
@@ -959,9 +959,9 @@
     "ret": {
      "1h": -0.013,
      "6h": -0.0028,
-     "24h": null
+     "24h": -1.0
     },
-    "rug": false
+    "rug": true
    },
    {
     "sym": "TIE",
@@ -976,9 +976,9 @@
     "ret": {
      "1h": 0.0,
      "6h": 0.0,
-     "24h": null
+     "24h": -1.0
     },
-    "rug": false
+    "rug": true
    },
    {
     "sym": "TRUMAN",
@@ -1690,7 +1690,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0668,
-     "6h": null,
+     "6h": 0.2555,
      "24h": null
     },
     "rug": false
@@ -1704,7 +1704,7 @@
     "src": "live",
     "ret": {
      "1h": 0.1075,
-     "6h": null,
+     "6h": 0.1668,
      "24h": null
     },
     "rug": false
@@ -1720,7 +1720,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0689,
-     "6h": null,
+     "6h": 0.0915,
      "24h": null
     },
     "rug": false
@@ -1767,6 +1767,20 @@
     "src": "live",
     "ret": {
      "1h": -0.047,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BINA",
+    "token": "0xed71b42b07cc1664c0f82361d48d0417a6ed7777",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792640076,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },
