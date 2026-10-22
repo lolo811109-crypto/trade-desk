@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792694299,
+ "updated": 1792694345,
  "tokens_seen": 37,
  "risk": {
   "checked": 32,
@@ -85,13 +85,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0309,
+  "dd_today": -0.0313,
   "limit": -0.1
  },
  "v2": {
-  "equity": 898.64,
+  "equity": 898.25,
   "day_start": 927.27,
-  "pnl_today": -28.63,
+  "pnl_today": -29.02,
   "open_positions": 23,
   "closed_positions": 27,
   "closed_sells": 25,
@@ -108,7 +108,7 @@
   "copied": 26,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 9.38
+   "upnl": 9.27
   },
   "worst_open": {
    "sym": "Agency",
@@ -116,9 +116,9 @@
   }
  },
  "baseline": {
-  "equity": 826.57,
+  "equity": 826.16,
   "day_start": 860.79,
-  "pnl_today": -34.22,
+  "pnl_today": -34.63,
   "closed_sells": 15,
   "win_rate": 0.133,
   "realized_today": 7.14,
@@ -1603,9 +1603,9 @@
   "warn_lp": 20
  },
  "v3": {
-  "equity": 925.53,
+  "equity": 925.49,
   "day_start": 952.92,
-  "pnl_today": -27.39,
+  "pnl_today": -27.43,
   "open_positions": 19,
   "closed_positions": 28,
   "closed_sells": 26,
@@ -1714,11 +1714,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0287,
+  "dd_today": -0.0288,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792694118,
+  "updated": 1792694345,
   "rejected": {
    "n": 22,
    "1h": {
@@ -1752,11 +1752,11 @@
   "passed": {
    "n": 44,
    "1h": {
-    "n": 39,
-    "avg_ret": -0.0264,
+    "n": 40,
+    "avg_ret": -0.0253,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.308
+    "up_pct": 0.325
    },
    "6h": {
     "n": 24,
@@ -1773,8 +1773,8 @@
     "up_pct": null
    },
    "latest": {
-    "n": 39,
-    "avg_ret": -0.0434,
+    "n": 40,
+    "avg_ret": -0.0418,
     "bad_pct": 0.0,
     "winners": 1
    }
@@ -2917,7 +2917,7 @@
     "ts": 1792690700,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0199,
      "6h": null,
      "24h": null
     },
