@@ -1,21 +1,3 @@
-2026-10-22 15:41:31,936 tick equity=857.04 pnl=-142.96 head=129091737
-2026-10-22 15:41:53,440 tick equity=856.97 pnl=-143.03 head=129091783
-2026-10-22 19:25:28,555 V2 {'ts': 1792668328, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xbf68ad3b380b954aadbe3fde0cd37dfc61df7777', 'sym': '念定人生', 'price': 0.000206, 'action': 'stop-loss', 'proceeds': 5.64, 'pnl': -4.36}
-2026-10-22 19:25:28,629 V2 {'ts': 1792668328, 'wallet': 'confluence', 'side': 'SELL', 'token': '0x0d939f5a7daf347332fc21682a791c3d292bffff', 'sym': '4cat', 'price': 2.994109241e-05, 'action': 'stop-loss', 'proceeds': 2.36, 'pnl': -2.64}
-2026-10-22 19:25:30,001 tick equity=861.12 pnl=-138.88 head=129121584
-2026-10-22 19:25:51,032 tick equity=861.34 pnl=-138.66 head=129121635
-2026-10-22 19:26:12,754 tick equity=861.36 pnl=-138.64 head=129121682
-2026-10-22 19:26:33,847 tick equity=861.36 pnl=-138.64 head=129121730
-2026-10-22 19:26:55,618 tick equity=861.25 pnl=-138.75 head=129121777
-2026-10-22 19:27:17,237 tick equity=861.26 pnl=-138.74 head=129121825
-2026-10-22 19:27:39,067 tick equity=861.26 pnl=-138.74 head=129121873
-2026-10-22 19:28:00,523 tick equity=861.21 pnl=-138.79 head=129121921
-2026-10-22 19:28:22,206 tick equity=861.07 pnl=-138.93 head=129121969
-2026-10-22 19:28:43,651 tick equity=861.15 pnl=-138.85 head=129122017
-2026-10-22 19:29:05,095 tick equity=861.15 pnl=-138.85 head=129122065
-2026-10-22 19:29:26,172 tick equity=861.39 pnl=-138.61 head=129122112
-2026-10-22 19:29:46,788 V2-RISK yoki酱 0xa96402db0112ed21a6613b43cdfb766d9e5c7777 KILL LP only 0% locked/burned
-2026-10-22 19:29:46,788 V2 {'ts': 1792668583, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002213, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
 2026-10-22 19:29:46,919 V2 {'ts': 1792668581, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002213, 'action': 'skip-7d'}
 2026-10-22 19:29:46,919 CONFLUENCE yoki酱 0xa96402db0112ed21a6613b43cdfb766d9e5c7777 wallets=['0xc9ac2d47615508a16e46a3459eb4f564ad906a32', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
 2026-10-22 19:29:47,203 V2-RISK yoki酱 0xa96402db0112ed21a6613b43cdfb766d9e5c7777 KILL LP only 0% locked/burned
@@ -298,3 +280,21 @@
 2026-10-22 20:33:58,907 tick equity=846.92 pnl=-153.08 head=129130711
 2026-10-22 20:34:20,223 tick equity=844.41 pnl=-155.59 head=129130761
 2026-10-22 20:34:42,120 tick equity=843.24 pnl=-156.76 head=129130808
+2026-10-22 20:35:02,417 V2 {'ts': 1792672494, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.0006859, 'action': 'sell', 'proceeds': 8.85, 'pnl': -1.15}
+2026-10-22 20:35:03,832 tick equity=843.25 pnl=-156.75 head=129130856
+2026-10-22 20:35:24,090 {'ts': 1792672522, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x154c6e8fe77308e29b56e12b4bbe5909ebf4ffff', 'tx': '0x9599e6b4833f62e9ef1871ec616eb80d02e4ee1329ccbc364491a24413778eda', 'action': 'skip-noprice'}
+2026-10-22 20:35:25,862 tick equity=845.75 pnl=-154.25 head=129130905
+2026-10-22 20:35:46,123 {'ts': 1792672540, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x154c6e8fe77308e29b56e12b4bbe5909ebf4ffff', 'tx': '0x0b5c05a774d1e05167953280c15bda7e6dcc0daaae45fc5252271e0d65f6459e', 'action': 'skip-noprice'}
+2026-10-22 20:35:47,535 tick equity=847.70 pnl=-152.30 head=129130954
+2026-10-22 20:36:09,801 tick equity=850.42 pnl=-149.58 head=129131002
+2026-10-22 20:36:31,655 tick equity=855.27 pnl=-144.73 head=129131051
+2026-10-22 20:36:53,348 tick equity=863.32 pnl=-136.68 head=129131100
+2026-10-22 20:37:15,045 tick equity=873.47 pnl=-126.53 head=129131148
+2026-10-22 20:37:36,974 tick equity=873.28 pnl=-126.72 head=129131196
+2026-10-22 20:37:58,430 tick equity=869.75 pnl=-130.25 head=129131245
+2026-10-22 20:38:20,212 tick equity=873.74 pnl=-126.26 head=129131291
+2026-10-22 20:38:40,397 V2 {'ts': 1792672708, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f', 'sym': 'WSPP', 'price': 1.063e-10, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-22 20:38:40,398 {'ts': 1792672708, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f', 'tx': '0x88de014b6648a2bb23b1b4d3217466c3d0509967076bc10b86ff90b856433795', 'sym': 'WSPP', 'price': 1.063e-10, 'liq': 30557, 'action': 'buy', 'stake': 10.0}
+2026-10-22 20:38:41,896 tick equity=873.25 pnl=-126.75 head=129131340
+2026-10-22 20:39:03,948 tick equity=866.21 pnl=-133.79 head=129131388
+2026-10-22 20:39:25,857 tick equity=861.55 pnl=-138.45 head=129131437

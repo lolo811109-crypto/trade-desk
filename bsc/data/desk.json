@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792672482,
+ "updated": 1792672765,
  "tokens_seen": 41,
  "risk": {
-  "checked": 67,
-  "killed": 48,
+  "checked": 68,
+  "killed": 49,
   "passed": 19
  },
  "kills": [
@@ -136,25 +136,25 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0418,
+  "dd_today": -0.041,
   "limit": -0.1
  },
  "v2": {
-  "equity": 923.68,
+  "equity": 924.45,
   "day_start": 964.02,
-  "pnl_today": -40.34,
-  "open_positions": 6,
-  "closed_positions": 13,
-  "closed_sells": 13,
-  "win_rate": 0.077,
-  "realized_today": -35.27,
+  "pnl_today": -39.57,
+  "open_positions": 5,
+  "closed_positions": 14,
+  "closed_sells": 14,
+  "win_rate": 0.071,
+  "realized_today": -36.42,
   "best_token": {
    "sym": "BINA",
    "pnl": 1.17
   },
   "worst_token": {
    "sym": "GANG",
-   "pnl": -24.02
+   "pnl": -25.17
   },
   "copied": 19,
   "best_open": {
@@ -167,9 +167,9 @@
   }
  },
  "baseline": {
-  "equity": 843.24,
+  "equity": 861.55,
   "day_start": 937.22,
-  "pnl_today": -93.98,
+  "pnl_today": -75.67,
   "closed_sells": 18,
   "win_rate": 0.111,
   "realized_today": -8.74,
@@ -181,10 +181,10 @@
    "sym": "赵长鹏能飞",
    "pnl": -9.13
   },
-  "copied": 40
+  "copied": 41
  },
  "confluence": {
-  "equity": 1004.07,
+  "equity": 1007.01,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 2,
@@ -426,15 +426,15 @@
   "events_total": 21
  },
  "risk_track": {
-  "updated": 1792672438,
+  "updated": 1792672591,
   "rejected": {
    "n": 70,
    "1h": {
-    "n": 62,
-    "avg_ret": 0.0689,
-    "bad_pct": 0.145,
-    "rug_pct": 0.081,
-    "up_pct": 0.484
+    "n": 63,
+    "avg_ret": 0.066,
+    "bad_pct": 0.143,
+    "rug_pct": 0.079,
+    "up_pct": 0.476
    },
    "6h": {
     "n": 59,
@@ -451,20 +451,20 @@
     "up_pct": 0.375
    },
    "latest": {
-    "n": 62,
-    "avg_ret": -0.0372,
-    "bad_pct": 0.21,
+    "n": 63,
+    "avg_ret": -0.0384,
+    "bad_pct": 0.206,
     "winners": 5
    }
   },
   "passed": {
    "n": 31,
    "1h": {
-    "n": 28,
-    "avg_ret": 0.0211,
-    "bad_pct": 0.107,
-    "rug_pct": 0.036,
-    "up_pct": 0.5
+    "n": 29,
+    "avg_ret": 0.0113,
+    "bad_pct": 0.103,
+    "rug_pct": 0.034,
+    "up_pct": 0.483
    },
    "6h": {
     "n": 28,
@@ -481,9 +481,9 @@
     "up_pct": 0.333
    },
    "latest": {
-    "n": 28,
-    "avg_ret": -0.1558,
-    "bad_pct": 0.214,
+    "n": 29,
+    "avg_ret": -0.1596,
+    "bad_pct": 0.207,
     "winners": 1
    }
   },
@@ -551,11 +551,11 @@
    "sell_tax unknown": {
     "n": 19,
     "1h": {
-     "n": 16,
-     "avg_ret": 0.1193,
-     "bad_pct": 0.438,
-     "rug_pct": 0.25,
-     "up_pct": 0.312
+     "n": 17,
+     "avg_ret": 0.1057,
+     "bad_pct": 0.412,
+     "rug_pct": 0.235,
+     "up_pct": 0.294
     },
     "6h": {
      "n": 15,
@@ -572,20 +572,20 @@
      "up_pct": 0.154
     },
     "latest": {
-     "n": 16,
-     "avg_ret": -0.2204,
-     "bad_pct": 0.562,
+     "n": 17,
+     "avg_ret": -0.214,
+     "bad_pct": 0.529,
      "winners": 1
     }
    },
    "buy_tax unknown": {
     "n": 19,
     "1h": {
-     "n": 16,
-     "avg_ret": 0.1193,
-     "bad_pct": 0.438,
-     "rug_pct": 0.25,
-     "up_pct": 0.312
+     "n": 17,
+     "avg_ret": 0.1057,
+     "bad_pct": 0.412,
+     "rug_pct": 0.235,
+     "up_pct": 0.294
     },
     "6h": {
      "n": 15,
@@ -602,9 +602,9 @@
      "up_pct": 0.154
     },
     "latest": {
-     "n": 16,
-     "avg_ret": -0.2204,
-     "bad_pct": 0.562,
+     "n": 17,
+     "avg_ret": -0.214,
+     "bad_pct": 0.529,
      "winners": 1
     }
    },
@@ -2094,7 +2094,7 @@
     "ts": 1792668954,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.1119,
      "6h": null,
      "24h": null
     },
@@ -2108,7 +2108,7 @@
     "ts": 1792668975,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.2648,
      "6h": null,
      "24h": null
     },
