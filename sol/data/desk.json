@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792686936,
+ "updated": 1792686970,
  "tokens_seen": 16,
  "risk": {
   "checked": 11,
@@ -42,30 +42,30 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0127,
+  "dd_today": -0.0129,
   "limit": -0.1
  },
  "v2": {
-  "equity": 915.48,
+  "equity": 915.27,
   "day_start": 927.27,
-  "pnl_today": -11.79,
-  "open_positions": 24,
-  "closed_positions": 6,
-  "closed_sells": 4,
+  "pnl_today": -12.0,
+  "open_positions": 23,
+  "closed_positions": 7,
+  "closed_sells": 5,
   "win_rate": 0.0,
-  "realized_today": -6.92,
+  "realized_today": -7.4,
   "best_token": {
    "sym": "Kimchi",
    "pnl": -0.68
   },
   "worst_token": {
    "sym": "BURNIE",
-   "pnl": -3.54
+   "pnl": -4.02
   },
   "copied": 6,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 11.01
+   "upnl": 11.11
   },
   "worst_open": {
    "sym": "Agency",
@@ -73,19 +73,19 @@
   }
  },
  "baseline": {
-  "equity": 851.65,
+  "equity": 852.95,
   "day_start": 860.79,
-  "pnl_today": -9.14,
-  "closed_sells": 2,
+  "pnl_today": -7.84,
+  "closed_sells": 3,
   "win_rate": 0.0,
-  "realized_today": -2.0,
+  "realized_today": -5.22,
   "best_token": {
    "sym": "Kimchi",
    "pnl": -0.68
   },
   "worst_token": {
-   "sym": "MEMEOS",
-   "pnl": -1.32
+   "sym": "BURNIE",
+   "pnl": -3.22
   },
   "copied": 2
  },
@@ -1420,17 +1420,17 @@
   "warn_lp": 17
  },
  "v3": {
-  "equity": 942.04,
+  "equity": 941.77,
   "day_start": 952.92,
-  "pnl_today": -10.88,
-  "open_positions": 19,
-  "closed_positions": 7,
-  "closed_sells": 5,
+  "pnl_today": -11.15,
+  "open_positions": 18,
+  "closed_positions": 8,
+  "closed_sells": 6,
   "win_rate": 0.0,
-  "realized_today": -6.04,
+  "realized_today": -6.65,
   "best_token": {
-   "sym": "Kimchi",
-   "pnl": -0.68
+   "sym": "BURNIE",
+   "pnl": -0.61
   },
   "worst_token": {
    "sym": "EXFIL",
@@ -1438,8 +1438,8 @@
   },
   "copied": 7,
   "best_open": {
-   "sym": "PUMPCADE",
-   "upnl": -0.54
+   "sym": "DOPE",
+   "upnl": -0.44
   },
   "worst_open": {
    "sym": "Bert",
@@ -1487,7 +1487,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0114,
+  "dd_today": -0.0117,
   "limit": -0.1
  },
  "v3_track": {
