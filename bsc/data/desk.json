@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792672019,
- "tokens_seen": 39,
+ "updated": 1792672175,
+ "tokens_seen": 40,
  "risk": {
-  "checked": 61,
-  "killed": 44,
-  "passed": 17
+  "checked": 63,
+  "killed": 45,
+  "passed": 18
  },
  "kills": [
   {
@@ -123,19 +123,27 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "sh!t",
+   "token": "0x5b66fac5ac7280d77e43dcc03da107f1a43e7777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0337,
+  "dd_today": -0.0347,
   "limit": -0.1
  },
  "v2": {
-  "equity": 931.53,
+  "equity": 930.52,
   "day_start": 964.02,
-  "pnl_today": -32.49,
-  "open_positions": 5,
+  "pnl_today": -33.5,
+  "open_positions": 6,
   "closed_positions": 12,
   "closed_sells": 12,
   "win_rate": 0.083,
@@ -148,7 +156,7 @@
    "sym": "念定人生",
    "pnl": -4.36
   },
-  "copied": 17,
+  "copied": 18,
   "best_open": {
    "sym": "🔮",
    "upnl": 1.71
@@ -159,9 +167,9 @@
   }
  },
  "baseline": {
-  "equity": 849.12,
+  "equity": 851.2,
   "day_start": 937.22,
-  "pnl_today": -88.1,
+  "pnl_today": -86.02,
   "closed_sells": 18,
   "win_rate": 0.111,
   "realized_today": -8.74,
@@ -173,10 +181,10 @@
    "sym": "赵长鹏能飞",
    "pnl": -9.13
   },
-  "copied": 39
+  "copied": 40
  },
  "confluence": {
-  "equity": 1004.86,
+  "equity": 1004.7,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 2,
@@ -419,9 +427,9 @@
   "events_total": 20
  },
  "risk_track": {
-  "updated": 1792671930,
+  "updated": 1792672086,
   "rejected": {
-   "n": 69,
+   "n": 70,
    "1h": {
     "n": 60,
     "avg_ret": 0.0772,
@@ -451,7 +459,7 @@
    }
   },
   "passed": {
-   "n": 30,
+   "n": 31,
    "1h": {
     "n": 28,
     "avg_ret": 0.0211,
@@ -542,7 +550,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 18,
+    "n": 19,
     "1h": {
      "n": 15,
      "avg_ret": 0.1544,
@@ -572,7 +580,7 @@
     }
    },
    "buy_tax unknown": {
-    "n": 18,
+    "n": 19,
     "1h": {
      "n": 15,
      "avg_ret": 0.1544,
@@ -663,20 +671,6 @@
    }
   },
   "items": [
-   {
-    "sym": ".ai",
-    "token": "0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc",
-    "ok": true,
-    "reasons": [],
-    "ts": 1792523019,
-    "src": "backfill",
-    "ret": {
-     "1h": 2.7573,
-     "6h": 2.7573,
-     "24h": 0.6577
-    },
-    "rug": false
-   },
    {
     "sym": "QQQB",
     "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
@@ -2225,6 +2219,37 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792671930,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TRUMAN",
+    "token": "0xabffa443547b34ab6c3b3173d26e233900527777",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792672062,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "sh!t",
+    "token": "0x5b66fac5ac7280d77e43dcc03da107f1a43e7777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792672086,
     "src": "live",
     "ret": {
      "1h": null,
