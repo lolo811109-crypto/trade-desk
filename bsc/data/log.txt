@@ -1,14 +1,3 @@
-2026-10-23 01:39:06,441 V2 {'ts': 1792690723, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x098e0825220d94a110ac77f4c99a4f1a1e1b7777', 'sym': 'QBTC', 'price': 1.02e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-23 01:39:09,682 V3-DEV-WARN 0x098e0825220d94a110ac77f4c99a4f1a1e1b7777 creator/holding unknown, allowing
-2026-10-23 01:39:09,684 V3-RISK QBTC 0x098e0825220d94a110ac77f4c99a4f1a1e1b7777 KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown
-2026-10-23 01:39:09,684 V3 {'ts': 1792690723, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x098e0825220d94a110ac77f4c99a4f1a1e1b7777', 'sym': 'QBTC', 'price': 1.02e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown']}
-2026-10-23 01:39:09,684 {'ts': 1792690723, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x098e0825220d94a110ac77f4c99a4f1a1e1b7777', 'tx': '0x12468e6d67463483a7471b77e4cf96167dcebe34fb5a5b90bf51122897cc5af0', 'sym': 'QBTC', 'price': 1.02e-05, 'liq': 14833, 'action': 'buy', 'stake': 10.0}
-2026-10-23 01:39:11,811 tick equity=830.67 pnl=-169.33 head=129171368 v3=992.6
-2026-10-23 01:39:33,095 tick equity=831.90 pnl=-168.10 head=129171432 v3=992.6
-2026-10-23 01:39:54,923 tick equity=831.90 pnl=-168.10 head=129171479 v3=992.6
-2026-10-23 01:40:16,370 tick equity=832.12 pnl=-167.88 head=129171528 v3=992.6
-2026-10-23 01:40:38,112 tick equity=831.92 pnl=-168.08 head=129171575 v3=992.6
-2026-10-23 01:40:59,389 tick equity=831.92 pnl=-168.08 head=129171624 v3=992.6
 2026-10-23 01:41:21,411 tick equity=831.53 pnl=-168.47 head=129171671 v3=992.6
 2026-10-23 01:46:14,328 {'ts': 1792690949, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x098e0825220d94a110ac77f4c99a4f1a1e1b7777', 'tx': '0xa30cd81b0974f632b082fc90670cb345819f2e7b069018acf6100fa48cbebf50', 'action': 'skip-noprice'}
 2026-10-23 01:46:14,520 V2 {'ts': 1792690992, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea', 'sym': 'PANGEA', 'price': 0.00637, 'action': 'skip-liq'}
@@ -298,3 +287,14 @@
 2026-10-23 06:58:10,560 tick equity=835.61 pnl=-164.39 head=129213904 v3=993.39
 2026-10-23 06:58:32,790 tick equity=835.64 pnl=-164.36 head=129213955 v3=993.39
 2026-10-23 06:58:55,254 tick equity=836.26 pnl=-163.74 head=129214005 v3=993.39
+2026-10-23 07:09:46,014 loop error rpc fail eth_getTransactionCount
+2026-10-23 07:10:37,448 {'ts': 1792710339, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'tx': '0xa69e486070e7a7df17473f9dd18ba222d1f15aee6f8f03557ea36d46d79ddf96', 'action': 'skip-noprice'}
+2026-10-23 07:10:55,723 tick equity=834.41 pnl=-165.59 head=129215502 v3=993.39
+2026-10-23 07:11:19,481 tick equity=834.50 pnl=-165.50 head=129215656 v3=993.39
+2026-10-23 07:11:42,398 tick equity=833.71 pnl=-166.29 head=129215708 v3=993.39
+2026-10-23 07:12:05,054 tick equity=831.22 pnl=-168.78 head=129215760 v3=993.39
+2026-10-23 07:12:28,020 tick equity=831.25 pnl=-168.75 head=129215809 v3=993.39
+2026-10-23 07:12:50,403 tick equity=832.59 pnl=-167.41 head=129215860 v3=993.39
+2026-10-23 07:13:14,185 tick equity=833.32 pnl=-166.68 head=129215909 v3=993.39
+2026-10-23 07:13:36,242 tick equity=833.32 pnl=-166.68 head=129215962 v3=993.39
+2026-10-23 07:13:59,278 tick equity=833.07 pnl=-166.93 head=129216011 v3=993.39
