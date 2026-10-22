@@ -11,9 +11,9 @@ body{background:var(--bg);color:var(--tx);font-family:Inter,-apple-system,"PingF
 .tt{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
 .tt b{font-size:17px;font-weight:800;letter-spacing:-.02em}.tt b i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--ac);margin-right:7px;box-shadow:0 0 10px var(--ac)}
 .mono{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--mu);letter-spacing:.06em;text-transform:uppercase}
-.seg{display:flex;background:#E9E9EC;border-radius:12px;padding:3px;position:relative}
+.seg{display:flex;background:#E9E9EC;border-radius:12px;padding:3px;position:relative;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}.seg::-webkit-scrollbar{display:none}
 .seg .ind{position:absolute;top:3px;bottom:3px;border-radius:9px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1);transition:left .35s cubic-bezier(.3,.9,.3,1),width .35s}
-.seg button{flex:1;position:relative;border:0;background:none;padding:8px 0;font:700 12.5px Inter;color:var(--mu);cursor:pointer;transition:color .3s}
+.seg button{flex:1 0 auto;min-width:64px;white-space:nowrap;padding-left:10px!important;padding-right:10px!important;position:relative;border:0;background:none;padding:8px 0;font:700 12.5px Inter;color:var(--mu);cursor:pointer;transition:color .3s}
 .seg button.on{color:var(--ac)}
 main{flex:1;position:relative;min-height:0}
 iframe{position:absolute;inset:0;width:100%;height:100%;border:0;opacity:0;pointer-events:none;transition:opacity .35s}
@@ -37,14 +37,14 @@ svg.sp{width:100%;height:44px;margin-top:6px;overflow:visible}
 </style></head><body>
 <div class="top"><div class="tin"><div class="tt"><b><i></i>Trade Desk 交易台</b><span class="mono" id="clk"></span></div>
 <div class="shf" id="shf"><div><div class="st" id="sst">—</div><div class="mono" id="sw">—</div></div><div style="text-align:right"><div class="sv" id="spl">—</div><div id="ssp"></div></div></div>
-<div class="seg" id="seg"><div class="ind" id="ind"></div><button data-m="ov">总览</button><button data-m="bsc">BNB</button><button data-m="sol">SOL</button><button data-m="poly">POLY</button><button data-m="btc">BTC</button></div></div></div>
+<div class="seg" id="seg"><div class="ind" id="ind"></div><button data-m="ov">总览</button><button data-m="bsc">BNB</button><button data-m="snipe">BNB狙击</button><button data-m="sol">SOL</button><button data-m="poly">Poly跟单</button><button data-m="lab">Poly实验室</button><button data-m="btc">BTC</button></div></div></div>
 <main id="main"><div id="ov"><div class="wrap">
 <div class="sum"><div class="mono" style="color:#aaa">模拟总权益 · ALL PAPER ACCOUNTS</div><div class="v" id="tot">—</div><div class="pl" id="totp"></div></div>
 <div id="ovpipe"></div><div id="cards"></div>
 <div class="ft">全部为模拟盘真实数据，不涉及真实资金 · 数据约每 5 分钟导出 · 页面每 60 秒刷新（UTC+8）<br><a href="../" style="color:var(--mu)">返回首页 / 经典版</a></div></div></div></main>
 <script src="ui.js"></script>
 <script>
-const M={ov:{c:'#18181B'},bsc:{c:'#F0B90B',src:'../bsc2/'},sol:{c:'#9945FF',src:'../sol2/'},poly:{c:'#2E5CFF',src:'../copy2/'},btc:{c:'#F7931A',src:'btc.html'}};
+const M={ov:{c:'#18181B'},bsc:{c:'#F0B90B',src:'../bsc2/'},sol:{c:'#9945FF',src:'../sol2/'},snipe:{c:'#E8590C',src:'../bsc-snipe/'},poly:{c:'#2E5CFF',src:'../copy2/'},lab:{c:'#4F46E5',src:'../poly-lab/'},btc:{c:'#F7931A',src:'btc.html'}};
 const $=id=>document.getElementById(id),f2=n=>n==null?'—':n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}),pc=n=>(n>=0?'+':'')+(n*100).toFixed(2)+'%',col=n=>n>=0?'var(--gr)':'var(--rd)';
 const q=new URLSearchParams(location.search),nomodal=q.has('nomodal');
 setInterval(()=>{const s=TDUI.shift();$('sst').textContent=(s.night?'🌙 夜班':'☀️ 白天')+' '+String(s.h).padStart(2,'0')+':'+String(s.m).padStart(2,'0')+' UTC+8'},1000);
@@ -54,7 +54,8 @@ function go(m,push){if(!M[m])m='ov';localStorage.deskTab=m;document.documentElem
  const bs=[...document.querySelectorAll('#seg button')];bs.forEach(b=>b.classList.toggle('on',b.dataset.m==m));const b=bs.find(x=>x.dataset.m==m);$('ind').style.left=b.offsetLeft+'px';$('ind').style.width=b.offsetWidth+'px';
  if(m!='ov'&&!frames[m]){const f=document.createElement('iframe');f.src=M[m].src+(nomodal?'?nomodal':'');f.title=m;$('main').appendChild(f);frames[m]=f}
  $('ov').classList.toggle('on',m=='ov');for(const k in frames)frames[k].classList.toggle('on',k==m);
- if(push!==false){q.set('m',m=='ov'?'ov':m);history.replaceState(null,'','?'+q.toString())}}
+ if(push!==false){q.delete('m');const qs=q.toString();history.replaceState(null,'',(qs?'?'+qs:location.pathname)+'#'+m)}
+ b.scrollIntoView({block:'nearest',inline:'center',behavior:'smooth'})}
 $('seg').onclick=e=>{const b=e.target.closest('button');if(b)go(b.dataset.m)};
 async function j(u){try{const r=await fetch(u+'?t='+Date.now());return r.ok?await r.json():null}catch(e){return null}}
 function spark(h,c,base){h=(h||[]).slice(-200);if(h.length<2)return'<svg class="sp"></svg>';const ys=h.map(p=>p[1]),x0=h[0][0],x1=h.at(-1)[0],lo=Math.min(...ys,base??Infinity),hi=Math.max(...ys,base??-Infinity),r=hi-lo||1;
@@ -75,14 +76,15 @@ async function load(){const[bs,bv,bc,bd,ss,sv,sv3,sd,pe,pt,sn,lc,lt,lf]=await Pr
   btc=`<div class="card" style="--c:#F7931A" data-m="btc"><div class="row"><span class="nm"><i></i>BTC 回归信号</span><span class="pill ${sg=='SHORT'?'halt':sg=='LONG'?'':'n'}">${sg}</span></div>
   <div class="row" style="margin-top:6px"><span class="eq">$${f2(px.at(-1))}</span><span class="pl" style="color:${col(ch)}">${pc(ch)} <span class="mono">2H</span></span></div>${spark(kl.map(x=>[x[0],+x[4]]),'#F7931A')}
   <div class="subs"><div class="sub">斜率 SLOPE<b>${r.sp.toFixed(4)}%</b></div><div class="sub">R²<b>${r.r2.toFixed(3)}</b></div><div class="sub">参数<b>W15 · 0.01 · 0.6</b></div></div></div>`}
- $('cards').innerHTML=card('bsc','BNB Chain Meme',bv,sub('原版',bs)+sub('V2',bv)+sub('共振',conf)+sub('<a href="../bsc-snipe/" onclick="event.stopPropagation()" style="color:inherit">狙击 ↗</a>',sn),`<span class="pill ${bh?'halt':''}">${bh?'HALTED':'ACTIVE'}</span>`,bv?.history)
-  +card('sol','Solana Meme',sv,sub('原版',ss)+sub('V2',sv),`<span class="pill ${sh?'halt':''}">${sh?'HALTED':'ACTIVE'}</span>`,sv?.history)
-  +card('poly','Polymarket 跟单',pe,sub('平均分配',pe)+sub('淘汰赛',pt)+sub('共识',lc)+sub('精选',lt)+sub('尾盘',lf)+sub('<a href="../poly-lab/" onclick="event.stopPropagation()" style="color:inherit">策略实验室 ↗</a>',{equity:null}),`<span class="pill ${out>ws.length/2?'halt':''}">${out}/${ws.length} CASH OUT</span>`,pe?.history)+btc;
+ $('cards').innerHTML=card('bsc','BNB Chain Meme',bv,sub('原版',bs)+sub('V2',bv)+sub('共振',conf)+sub('<a href="#snipe" onclick="event.stopPropagation();go(\'snipe\');return false" style="color:inherit">狙击 ↗</a>',sn),`<span class="pill ${bh?'halt':''}">${bh?'HALTED':'ACTIVE'}</span>`,bv?.history)
+  +card('sol','Solana Meme',sv,sub('原版',ss)+sub('V2',sv)+sub('V3',sv3),`<span class="pill ${sh?'halt':''}">${sh?'HALTED':'ACTIVE'}</span>`,sv?.history)
+  +card('poly','Polymarket 跟单',pe,sub('平均分配',pe)+sub('淘汰赛',pt)+sub('共识',lc)+sub('精选',lt)+sub('尾盘',lf)+'<div class="sub"><a href="#lab" onclick="event.stopPropagation();go(\'lab\');return false" style="color:inherit">策略实验室 ↗</a></div>',`<span class="pill ${out>ws.length/2?'halt':''}">${out}/${ws.length} CASH OUT</span>`,pe?.history)+btc;
  try{const s=TDUI.shift(),r=TDUI.shiftPnl([bs,bv,conf,ss,sv,pe,pt],s.start);$('sw').textContent=(s.night?'今晚':'今天')+' '+TDUI.hm(s.start)+' 起 · '+(r?r.n:0)+' 个账户';
   if(r){const c=r.pnl>=0?'#3FB950':'#F85149';$('spl').style.color=c;$('spl').textContent=(r.pnl>=0?'+':'−')+'$'+Math.abs(r.pnl).toFixed(2);$('ssp').innerHTML=TDUI.sparkSvg(r.pts,c)}else{$('spl').textContent='—'}
   TDUI.pipe($('ovpipe'),TDUI.merge([TDUI.events(bv,'BNB'),TDUI.events(sv,'SOL'),TDUI.events(sv3,'SOL v3'),TDUI.events(pe,'POLY'),TDUI.events(sn,'BNB狙击'),TDUI.events(lc,'POLY共识'),TDUI.events(lt,'POLY精选'),TDUI.events(lf,'POLY尾盘')]),'#58A6FF','今日流程 · 全部市场');
   TDUI.ticker(TDUI.tickerMerge([TDUI.tickerLines(bv,'BNB'),TDUI.tickerLines(sv,'SOL'),TDUI.tickerLines(sv3,'SOL v3'),TDUI.tickerLines(pe,'POLY'),TDUI.tickerLines(sn,'BNB狙击'),TDUI.tickerLines(lc,'POLY共识'),TDUI.tickerLines(lt,'POLY精选'),TDUI.tickerLines(lf,'POLY尾盘')]))}catch(e){console.error(e)}
  document.querySelectorAll('.card').forEach(c=>c.onclick=()=>go(c.dataset.m))}
-go(q.get('m')=='ov'?'ov':(M[q.get('m')]?q.get('m'):(localStorage.deskTab||'ov')),!!q.get('m'));
-addEventListener('resize',()=>go(localStorage.deskTab,false));load();setInterval(load,60000);
+const h0=location.hash.slice(1),m0=q.get('m');go(M[h0]?h0:M[m0]?m0:(M[localStorage.deskTab]?localStorage.deskTab:'ov'));
+addEventListener('hashchange',()=>{const h=location.hash.slice(1);if(M[h])go(h)});
+addEventListener('resize',()=>go(localStorage.deskTab||'ov',false));load();setInterval(load,60000);
 </script></body></html>
