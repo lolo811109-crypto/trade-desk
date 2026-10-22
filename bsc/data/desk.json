@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792645326,
- "tokens_seen": 24,
+ "updated": 1792648287,
+ "tokens_seen": 28,
  "risk": {
-  "checked": 18,
-  "killed": 11,
-  "passed": 7
+  "checked": 26,
+  "killed": 18,
+  "passed": 8
  },
  "kills": [
   {
@@ -52,48 +52,73 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "4cat",
+   "token": "0x0d939f5a7daf347332fc21682a791c3d292bffff",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown",
+    "LP only 0% locked/burned"
+   ]
+  },
+  {
+   "sym": "BNCB",
+   "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+   "reasons": [
+    "top10 holders 77%",
+    "LP only 0% locked/burned"
+   ]
+  },
+  {
+   "sym": "派大星",
+   "token": "0xe3405f29db98173b3eb0b620ba5567da4e947777",
+   "reasons": [
+    "buy_tax unknown",
+    "sell_tax unknown"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0074,
+  "dd_today": -0.0091,
   "limit": -0.1
  },
  "v2": {
-  "equity": 956.84,
+  "equity": 955.29,
   "day_start": 964.02,
-  "pnl_today": -7.18,
+  "pnl_today": -8.73,
   "open_positions": 4,
-  "closed_positions": 8,
-  "closed_sells": 8,
-  "win_rate": 0.125,
-  "realized_today": -6.11,
+  "closed_positions": 9,
+  "closed_sells": 9,
+  "win_rate": 0.111,
+  "realized_today": -6.89,
   "best_token": {
    "sym": "BINA",
-   "pnl": 1.95
+   "pnl": 1.17
   },
   "worst_token": {
    "sym": "COUGAR",
    "pnl": -3.68
   },
-  "copied": 7,
+  "copied": 8,
   "best_open": {
    "sym": "🔮",
    "upnl": 3.63
   },
   "worst_open": {
    "sym": "TTAI",
-   "upnl": -15.69
+   "upnl": -15.94
   }
  },
  "baseline": {
-  "equity": 887.48,
+  "equity": 874.97,
   "day_start": 937.22,
-  "pnl_today": -49.74,
-  "closed_sells": 6,
+  "pnl_today": -62.25,
+  "closed_sells": 8,
   "win_rate": 0.0,
-  "realized_today": -7.17,
+  "realized_today": -9.52,
   "best_token": {
    "sym": "BEM",
    "pnl": -0.78
@@ -102,17 +127,23 @@
    "sym": "DPOTS",
    "pnl": -2.18
   },
-  "copied": 9
+  "copied": 14
  },
  "confluence": {
-  "equity": 1006.4,
+  "equity": 1018.92,
   "bank": 1000.0,
   "open_positions": 1,
-  "closed_sells": 0,
-  "win_rate": null,
-  "realized_today": 0,
-  "best_token": null,
-  "worst_token": null,
+  "closed_sells": 1,
+  "win_rate": 1.0,
+  "realized_today": 9.14,
+  "best_token": {
+   "sym": "4cat",
+   "pnl": 9.14
+  },
+  "worst_token": {
+   "sym": "4cat",
+   "pnl": 9.14
+  },
   "copied": 1,
   "events": [
    {
@@ -271,14 +302,25 @@
     ],
     "trigger": "0xc9ac2d47615508a16e46a3459eb4f564ad906a32",
     "price": 5.847546367e-05
+   },
+   {
+    "ts": 1792646246,
+    "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+    "sym": "BNCB",
+    "wallets": [
+     "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+     "0xc5606cde16fb8c39cc68d1d97700883ae951ff56"
+    ],
+    "trigger": "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+    "price": 5.4
    }
   ],
-  "events_total": 14
+  "events_total": 15
  },
  "risk_track": {
-  "updated": 1792645197,
+  "updated": 1792648156,
   "rejected": {
-   "n": 56,
+   "n": 59,
    "1h": {
     "n": 55,
     "avg_ret": 0.0998,
@@ -294,15 +336,15 @@
     "up_pct": 0.407
    },
    "24h": {
-    "n": 25,
-    "avg_ret": 0.0771,
-    "bad_pct": 0.24,
-    "rug_pct": 0.12,
-    "up_pct": 0.52
+    "n": 26,
+    "avg_ret": 0.0845,
+    "bad_pct": 0.231,
+    "rug_pct": 0.115,
+    "up_pct": 0.538
    },
    "latest": {
     "n": 55,
-    "avg_ret": -0.0774,
+    "avg_ret": -0.0721,
     "bad_pct": 0.236,
     "winners": 4
    }
@@ -339,7 +381,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 36,
+    "n": 38,
     "1h": {
      "n": 35,
      "avg_ret": -0.0228,
@@ -355,21 +397,21 @@
      "up_pct": 0.529
     },
     "24h": {
-     "n": 17,
-     "avg_ret": -0.0223,
-     "bad_pct": 0.118,
+     "n": 18,
+     "avg_ret": -0.0061,
+     "bad_pct": 0.111,
      "rug_pct": 0.0,
-     "up_pct": 0.647
+     "up_pct": 0.667
     },
     "latest": {
      "n": 35,
-     "avg_ret": -0.0977,
+     "avg_ret": -0.0894,
      "bad_pct": 0.143,
      "winners": 1
     }
    },
    "top holders": {
-    "n": 28,
+    "n": 29,
     "1h": {
      "n": 28,
      "avg_ret": 0.127,
@@ -399,7 +441,7 @@
     }
    },
    "buy_tax unknown": {
-    "n": 14,
+    "n": 15,
     "1h": {
      "n": 14,
      "avg_ret": 0.1963,
@@ -429,7 +471,7 @@
     }
    },
    "sell_tax unknown": {
-    "n": 14,
+    "n": 15,
     "1h": {
      "n": 14,
      "avg_ret": 0.1963,
@@ -1118,7 +1160,7 @@
     "ret": {
      "1h": -0.0238,
      "6h": -0.0207,
-     "24h": null
+     "24h": 0.269
     },
     "rug": false
    },
@@ -1840,6 +1882,56 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792645197,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BNCB",
+    "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+    "ok": false,
+    "reasons": [
+     "top10 holders 77%",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792648110,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "派大星",
+    "token": "0xe3405f29db98173b3eb0b620ba5567da4e947777",
+    "ok": false,
+    "reasons": [
+     "buy_tax unknown",
+     "sell_tax unknown"
+    ],
+    "ts": 1792648115,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": ".ai",
+    "token": "0x5943d989cd95388b4dfaa9a61fd66843e6e57777",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792648117,
     "src": "live",
     "ret": {
      "1h": null,
