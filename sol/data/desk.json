@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792654965,
+ "updated": 1792657249,
  "tokens_seen": 28,
  "risk": {
   "checked": 19,
@@ -71,18 +71,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0342,
+  "dd_today": -0.0325,
   "limit": -0.1
  },
  "v2": {
-  "equity": 945.53,
+  "equity": 947.22,
   "day_start": 979.0,
-  "pnl_today": -33.47,
-  "open_positions": 23,
-  "closed_positions": 9,
-  "closed_sells": 10,
-  "win_rate": 0.1,
-  "realized_today": -8.72,
+  "pnl_today": -31.78,
+  "open_positions": 22,
+  "closed_positions": 10,
+  "closed_sells": 11,
+  "win_rate": 0.091,
+  "realized_today": -12.16,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 9.99
@@ -94,17 +94,17 @@
   "copied": 15,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 6.12
+   "upnl": 5.81
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -8.29
+   "upnl": -8.93
   }
  },
  "baseline": {
-  "equity": 886.36,
+  "equity": 887.63,
   "day_start": 983.73,
-  "pnl_today": -97.37,
+  "pnl_today": -96.1,
   "closed_sells": 11,
   "win_rate": 0.091,
   "realized_today": -18.13,
@@ -119,7 +119,7 @@
   "copied": 23
  },
  "risk_track": {
-  "updated": 1792654729,
+  "updated": 1792656748,
   "rejected": {
    "n": 15,
    "1h": {
@@ -167,15 +167,15 @@
     "up_pct": 0.48
    },
    "24h": {
-    "n": 0,
-    "avg_ret": null,
-    "bad_pct": null,
-    "rug_pct": null,
-    "up_pct": null
+    "n": 2,
+    "avg_ret": -0.254,
+    "bad_pct": 0.0,
+    "rug_pct": 0.0,
+    "up_pct": 0.0
    },
    "latest": {
     "n": 29,
-    "avg_ret": -0.007,
+    "avg_ret": -0.0358,
     "bad_pct": 0.0,
     "winners": 0
    }
@@ -285,7 +285,7 @@
     "ret": {
      "1h": 0.0576,
      "6h": 0.1067,
-     "24h": null
+     "24h": -0.1194
     },
     "rug": false
    },
@@ -299,7 +299,7 @@
     "ret": {
      "1h": -0.1806,
      "6h": 0.2205,
-     "24h": null
+     "24h": -0.3887
     },
     "rug": false
    },
@@ -1002,14 +1002,14 @@
   "warn_lp": 13
  },
  "v3": {
-  "equity": 980.09,
+  "equity": 981.98,
   "day_start": 1000.0,
-  "pnl_today": -19.91,
-  "open_positions": 13,
-  "closed_positions": 9,
-  "closed_sells": 9,
-  "win_rate": 0.111,
-  "realized_today": -12.94,
+  "pnl_today": -18.02,
+  "open_positions": 11,
+  "closed_positions": 11,
+  "closed_sells": 11,
+  "win_rate": 0.182,
+  "realized_today": -11.14,
   "best_token": {
    "sym": "CYBER",
    "pnl": 3.08
@@ -1021,11 +1021,11 @@
   "copied": 22,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": 0.5
+   "upnl": 0.28
   },
   "worst_open": {
-   "sym": "EMBER",
-   "upnl": -1.38
+   "sym": "Bert",
+   "upnl": -1.39
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -1077,7 +1077,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0199,
+  "dd_today": -0.018,
   "limit": -0.1
  },
  "v3_track": {
