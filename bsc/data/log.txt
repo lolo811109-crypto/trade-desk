@@ -1,17 +1,3 @@
-2026-10-23 01:27:14,878 V2 {'ts': 1792690026, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x355c11826d33ac0cce61f4c1f71eef9363707777', 'sym': 'osbook', 'price': 0.0002128, 'action': 'skip-7d'}
-2026-10-23 01:27:14,878 V3 {'ts': 1792690026, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x355c11826d33ac0cce61f4c1f71eef9363707777', 'sym': 'osbook', 'price': 0.0002128, 'action': 'skip-7d'}
-2026-10-23 01:27:14,878 {'ts': 1792690026, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x355c11826d33ac0cce61f4c1f71eef9363707777', 'tx': '0xdf0cd5ef77a5eb8fdfbed79c50b16648af2a6e0d1b079749eff8596d258ae814', 'sym': 'osbook', 'price': 0.0002128, 'liq': 58173, 'action': 'buy', 'stake': 10.0}
-2026-10-23 01:27:16,038 tick equity=827.54 pnl=-172.46 head=129169793 v3=992.15
-2026-10-23 01:27:37,777 tick equity=827.52 pnl=-172.48 head=129169841 v3=992.15
-2026-10-23 01:27:59,030 tick equity=828.17 pnl=-171.83 head=129169889 v3=992.15
-2026-10-23 01:28:21,035 tick equity=828.17 pnl=-171.83 head=129169936 v3=992.15
-2026-10-23 01:28:42,408 tick equity=827.95 pnl=-172.05 head=129169985 v3=992.15
-2026-10-23 01:36:58,552 tick equity=831.31 pnl=-168.69 head=129170033 v3=992.6
-2026-10-23 01:37:38,728 tick equity=830.85 pnl=-169.15 head=129171170 v3=992.6
-2026-10-23 01:37:59,842 tick equity=830.90 pnl=-169.10 head=129171225 v3=992.6
-2026-10-23 01:38:22,050 tick equity=831.45 pnl=-168.55 head=129171272 v3=992.6
-2026-10-23 01:38:43,269 tick equity=831.45 pnl=-168.55 head=129171321 v3=992.6
-2026-10-23 01:39:06,440 V2-RISK QBTC 0x098e0825220d94a110ac77f4c99a4f1a1e1b7777 KILL buy_tax unknown; sell_tax unknown
 2026-10-23 01:39:06,441 V2 {'ts': 1792690723, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x098e0825220d94a110ac77f4c99a4f1a1e1b7777', 'sym': 'QBTC', 'price': 1.02e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
 2026-10-23 01:39:09,682 V3-DEV-WARN 0x098e0825220d94a110ac77f4c99a4f1a1e1b7777 creator/holding unknown, allowing
 2026-10-23 01:39:09,684 V3-RISK QBTC 0x098e0825220d94a110ac77f4c99a4f1a1e1b7777 KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown
@@ -298,3 +284,17 @@
 2026-10-23 06:38:20,430 tick equity=836.06 pnl=-163.94 head=129211261 v3=993.39
 2026-10-23 06:54:31,478 loop error rpc fail eth_getTransactionCount
 2026-10-23 06:55:22,683 {'ts': 1792709111, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xc7211deda08d893801e93b8d8f94eb7944587777', 'tx': '0x6e4e8f7312135870cd2a5b4e5e1456d0564e75dc99321746673aa031898a0ec4', 'action': 'skip-noprice'}
+2026-10-23 06:55:25,911 V2-RISK BNC上市 0xc7211deda08d893801e93b8d8f94eb7944587777 KILL buy_tax unknown; sell_tax unknown; top10 holders 82%
+2026-10-23 06:55:25,911 V2 {'ts': 1792709201, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xc7211deda08d893801e93b8d8f94eb7944587777', 'sym': 'BNC上市', 'price': 2.38e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 82%']}
+2026-10-23 06:55:29,257 V3-RISK BNC上市 0xc7211deda08d893801e93b8d8f94eb7944587777 KILL buy_tax unknown; sell_tax unknown; top10 holders 82%; info: dev holds 0.0%
+2026-10-23 06:55:29,257 V3 {'ts': 1792709201, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xc7211deda08d893801e93b8d8f94eb7944587777', 'sym': 'BNC上市', 'price': 2.38e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 82%', 'info: dev holds 0.0%']}
+2026-10-23 06:55:29,258 {'ts': 1792709201, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xc7211deda08d893801e93b8d8f94eb7944587777', 'tx': '0x3ec28086fa4f17316ec9eb197b96f9d40b13e25e5a65d8e5ec6fb8084a13ca92', 'sym': 'BNC上市', 'price': 2.38e-05, 'liq': 20445, 'action': 'buy', 'stake': 10.0}
+2026-10-23 06:55:53,599 tick equity=835.70 pnl=-164.30 head=129213469 v3=993.39
+2026-10-23 06:56:16,857 tick equity=835.53 pnl=-164.47 head=129213651 v3=993.39
+2026-10-23 06:56:39,956 tick equity=835.72 pnl=-164.28 head=129213703 v3=993.39
+2026-10-23 06:57:02,551 tick equity=836.38 pnl=-163.62 head=129213754 v3=993.39
+2026-10-23 06:57:25,738 tick equity=836.44 pnl=-163.56 head=129213804 v3=993.39
+2026-10-23 06:57:47,557 tick equity=836.19 pnl=-163.81 head=129213856 v3=993.39
+2026-10-23 06:58:10,560 tick equity=835.61 pnl=-164.39 head=129213904 v3=993.39
+2026-10-23 06:58:32,790 tick equity=835.64 pnl=-164.36 head=129213955 v3=993.39
+2026-10-23 06:58:55,254 tick equity=836.26 pnl=-163.74 head=129214005 v3=993.39
