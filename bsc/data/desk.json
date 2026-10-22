@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792623452,
- "tokens_seen": 11,
+ "updated": 1792627208,
+ "tokens_seen": 15,
  "risk": {
-  "checked": 10,
-  "killed": 7,
-  "passed": 3
+  "checked": 14,
+  "killed": 10,
+  "passed": 4
  },
  "kills": [
   {
@@ -37,57 +37,65 @@
    "reasons": [
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "BEM",
+   "token": "0x5ce033b2bfca3af30b3e8c8457deaf776a8b695a",
+   "reasons": [
+    "owner can mint",
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": 0.0039,
+  "dd_today": -0.0033,
   "limit": -0.1
  },
  "v2": {
-  "equity": 967.81,
+  "equity": 960.84,
   "day_start": 964.02,
-  "pnl_today": 3.79,
+  "pnl_today": -3.18,
   "open_positions": 6,
-  "closed_positions": 3,
-  "closed_sells": 3,
-  "win_rate": 0.0,
-  "realized_today": -7.23,
+  "closed_positions": 4,
+  "closed_sells": 4,
+  "win_rate": 0.25,
+  "realized_today": -3.72,
   "best_token": {
-   "sym": "旺柴",
-   "pnl": -0.78
+   "sym": "BINA",
+   "pnl": 3.51
   },
   "worst_token": {
    "sym": "COUGAR",
    "pnl": -3.68
   },
-  "copied": 3,
+  "copied": 4,
   "best_open": {
-   "sym": "BINA",
-   "upnl": 7.75
+   "sym": "🔮",
+   "upnl": 3.88
   },
   "worst_open": {
    "sym": "TTAI",
-   "upnl": -14.89
+   "upnl": -15.01
   }
  },
  "baseline": {
-  "equity": 917.51,
+  "equity": 909.34,
   "day_start": 937.22,
-  "pnl_today": -19.71,
-  "closed_sells": 1,
+  "pnl_today": -27.88,
+  "closed_sells": 2,
   "win_rate": 0.0,
-  "realized_today": -2.18,
+  "realized_today": -2.96,
   "best_token": {
-   "sym": "DPOTS",
-   "pnl": -2.18
+   "sym": "BEM",
+   "pnl": -0.78
   },
   "worst_token": {
    "sym": "DPOTS",
    "pnl": -2.18
   },
-  "copied": 1
+  "copied": 4
  },
  "confluence": {
   "equity": 1000.72,
@@ -250,15 +258,15 @@
   "events_total": 13
  },
  "risk_track": {
-  "updated": 1792623429,
+  "updated": 1792627184,
   "rejected": {
-   "n": 54,
+   "n": 55,
    "1h": {
-    "n": 53,
-    "avg_ret": 0.0997,
-    "bad_pct": 0.17,
-    "rug_pct": 0.094,
-    "up_pct": 0.509
+    "n": 54,
+    "avg_ret": 0.1008,
+    "bad_pct": 0.167,
+    "rug_pct": 0.093,
+    "up_pct": 0.519
    },
    "6h": {
     "n": 51,
@@ -268,21 +276,21 @@
     "up_pct": 0.392
    },
    "24h": {
-    "n": 15,
-    "avg_ret": 0.0859,
-    "bad_pct": 0.067,
+    "n": 16,
+    "avg_ret": 0.0773,
+    "bad_pct": 0.062,
     "rug_pct": 0.0,
-    "up_pct": 0.733
+    "up_pct": 0.688
    },
    "latest": {
-    "n": 53,
-    "avg_ret": -0.0173,
-    "bad_pct": 0.189,
+    "n": 54,
+    "avg_ret": -0.0155,
+    "bad_pct": 0.185,
     "winners": 5
    }
   },
   "passed": {
-   "n": 24,
+   "n": 25,
    "1h": {
     "n": 24,
     "avg_ret": 0.0153,
@@ -298,28 +306,28 @@
     "up_pct": 0.455
    },
    "24h": {
-    "n": 5,
-    "avg_ret": -0.135,
-    "bad_pct": 0.4,
+    "n": 7,
+    "avg_ret": -0.2094,
+    "bad_pct": 0.429,
     "rug_pct": 0.0,
-    "up_pct": 0.6
+    "up_pct": 0.429
    },
    "latest": {
     "n": 24,
-    "avg_ret": -0.0693,
+    "avg_ret": -0.0681,
     "bad_pct": 0.125,
     "winners": 2
    }
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 34,
+    "n": 35,
     "1h": {
-     "n": 33,
-     "avg_ret": -0.0304,
-     "bad_pct": 0.03,
-     "rug_pct": 0.03,
-     "up_pct": 0.636
+     "n": 34,
+     "avg_ret": -0.0247,
+     "bad_pct": 0.029,
+     "rug_pct": 0.029,
+     "up_pct": 0.647
     },
     "6h": {
      "n": 31,
@@ -329,16 +337,16 @@
      "up_pct": 0.516
     },
     "24h": {
-     "n": 12,
-     "avg_ret": 0.0702,
+     "n": 13,
+     "avg_ret": 0.0608,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.833
+     "up_pct": 0.769
     },
     "latest": {
-     "n": 33,
-     "avg_ret": -0.0856,
-     "bad_pct": 0.121,
+     "n": 34,
+     "avg_ret": -0.0808,
+     "bad_pct": 0.118,
      "winners": 1
     }
    },
@@ -433,7 +441,7 @@
     }
    },
    "owner can mint": {
-    "n": 2,
+    "n": 3,
     "1h": {
      "n": 2,
      "avg_ret": -0.0061,
@@ -449,15 +457,15 @@
      "up_pct": 0.5
     },
     "24h": {
-     "n": 0,
-     "avg_ret": null,
-     "bad_pct": null,
-     "rug_pct": null,
-     "up_pct": null
+     "n": 1,
+     "avg_ret": -0.0508,
+     "bad_pct": 0.0,
+     "rug_pct": 0.0,
+     "up_pct": 0.0
     },
     "latest": {
      "n": 2,
-     "avg_ret": 0.0042,
+     "avg_ret": -0.0377,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -825,7 +833,7 @@
     "ret": {
      "1h": -0.287,
      "6h": -0.7804,
-     "24h": null
+     "24h": -0.716
     },
     "rug": false
    },
@@ -842,7 +850,7 @@
     "ret": {
      "1h": -0.0068,
      "6h": 0.0329,
-     "24h": null
+     "24h": -0.0508
     },
     "rug": false
    },
@@ -856,7 +864,7 @@
     "ret": {
      "1h": -0.1189,
      "6h": -0.0396,
-     "24h": null
+     "24h": -0.0751
     },
     "rug": false
    },
@@ -1725,6 +1733,37 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792623429,
+    "src": "live",
+    "ret": {
+     "1h": 0.1617,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BEM",
+    "token": "0x5ce033b2bfca3af30b3e8c8457deaf776a8b695a",
+    "ok": false,
+    "reasons": [
+     "owner can mint",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792626976,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "念定人生",
+    "token": "0xbf68ad3b380b954aadbe3fde0cd37dfc61df7777",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792627184,
     "src": "live",
     "ret": {
      "1h": null,
