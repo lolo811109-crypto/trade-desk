@@ -2,8 +2,8 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792689731,
- "tokens_seen": 27,
+ "updated": 1792690022,
+ "tokens_seen": 28,
  "risk": {
   "checked": 20,
   "killed": 10,
@@ -70,18 +70,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0231,
+  "dd_today": -0.0226,
   "limit": -0.1
  },
  "v2": {
-  "equity": 905.89,
+  "equity": 906.31,
   "day_start": 927.27,
-  "pnl_today": -21.38,
-  "open_positions": 24,
-  "closed_positions": 15,
-  "closed_sells": 13,
+  "pnl_today": -20.96,
+  "open_positions": 23,
+  "closed_positions": 16,
+  "closed_sells": 14,
   "win_rate": 0.0,
-  "realized_today": -16.79,
+  "realized_today": -17.49,
   "best_token": {
    "sym": "PHP",
    "pnl": -0.92
@@ -93,7 +93,7 @@
   "copied": 15,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 8.35
+   "upnl": 8.25
   },
   "worst_open": {
    "sym": "Agency",
@@ -101,9 +101,9 @@
   }
  },
  "baseline": {
-  "equity": 827.2,
+  "equity": 822.69,
   "day_start": 860.79,
-  "pnl_today": -33.59,
+  "pnl_today": -38.1,
   "closed_sells": 5,
   "win_rate": 0.0,
   "realized_today": -6.92,
@@ -115,10 +115,10 @@
    "sym": "BURNIE",
    "pnl": -3.22
   },
-  "copied": 4
+  "copied": 5
  },
  "risk_track": {
-  "updated": 1792688789,
+  "updated": 1792690022,
   "rejected": {
    "n": 30,
    "1h": {
@@ -152,11 +152,11 @@
   "passed": {
    "n": 50,
    "1h": {
-    "n": 46,
-    "avg_ret": -0.0191,
+    "n": 47,
+    "avg_ret": -0.02,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.413
+    "up_pct": 0.404
    },
    "6h": {
     "n": 32,
@@ -173,8 +173,8 @@
     "up_pct": 0.158
    },
    "latest": {
-    "n": 46,
-    "avg_ret": -0.0531,
+    "n": 47,
+    "avg_ret": -0.0533,
     "bad_pct": 0.0,
     "winners": 2
    }
@@ -1406,7 +1406,7 @@
     "ts": 1792686401,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0637,
      "6h": null,
      "24h": null
     },
@@ -1512,14 +1512,14 @@
   "warn_lp": 18
  },
  "v3": {
-  "equity": 934.44,
+  "equity": 934.23,
   "day_start": 952.92,
-  "pnl_today": -18.48,
-  "open_positions": 19,
-  "closed_positions": 17,
-  "closed_sells": 15,
+  "pnl_today": -18.69,
+  "open_positions": 18,
+  "closed_positions": 18,
+  "closed_sells": 16,
   "win_rate": 0.0,
-  "realized_today": -14.71,
+  "realized_today": -15.41,
   "best_token": {
    "sym": "PHP",
    "pnl": -0.92
@@ -1530,8 +1530,8 @@
   },
   "copied": 17,
   "best_open": {
-   "sym": "MEMEOS",
-   "upnl": 0.04
+   "sym": "CLAUDIA",
+   "upnl": -0.21
   },
   "worst_open": {
    "sym": "Bert",
@@ -1607,7 +1607,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0194,
+  "dd_today": -0.0196,
   "limit": -0.1
  },
  "v3_track": {
