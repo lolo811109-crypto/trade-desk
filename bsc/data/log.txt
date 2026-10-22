@@ -1,20 +1,3 @@
-2026-10-22 19:29:46,919 V2 {'ts': 1792668581, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002213, 'action': 'skip-7d'}
-2026-10-22 19:29:46,919 CONFLUENCE yoki酱 0xa96402db0112ed21a6613b43cdfb766d9e5c7777 wallets=['0xc9ac2d47615508a16e46a3459eb4f564ad906a32', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
-2026-10-22 19:29:47,203 V2-RISK yoki酱 0xa96402db0112ed21a6613b43cdfb766d9e5c7777 KILL LP only 0% locked/burned
-2026-10-22 19:29:47,203 V2 {'ts': 1792668581, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002213, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-22 19:29:48,913 tick equity=861.27 pnl=-138.73 head=129122159
-2026-10-22 19:30:10,171 tick equity=859.49 pnl=-140.51 head=129122210
-2026-10-22 19:30:30,529 V2 {'ts': 1792668624, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 3.302e-05, 'action': 'skip-7d'}
-2026-10-22 19:30:32,261 tick equity=859.53 pnl=-140.47 head=129122257
-2026-10-22 19:30:54,005 tick equity=859.50 pnl=-140.50 head=129122306
-2026-10-22 19:31:14,242 V2 {'ts': 1792668656, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002557, 'action': 'skip-7d'}
-2026-10-22 19:31:15,660 tick equity=858.54 pnl=-141.46 head=129122354
-2026-10-22 19:31:36,947 tick equity=858.60 pnl=-141.40 head=129122402
-2026-10-22 19:31:58,855 tick equity=858.82 pnl=-141.18 head=129122450
-2026-10-22 19:32:20,159 tick equity=858.84 pnl=-141.16 head=129122499
-2026-10-22 19:33:58,601 V2-RISK 赵长鹏能飞 0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777 KILL buy_tax unknown; sell_tax unknown
-2026-10-22 19:33:58,601 V2 {'ts': 1792668739, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-22 19:33:58,601 CONFLUENCE 赵长鹏能飞 0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc9ac2d47615508a16e46a3459eb4f564ad906a32']
 2026-10-22 19:34:01,619 V2-RISK 赵长鹏能飞 0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777 KILL buy_tax unknown; sell_tax unknown
 2026-10-22 19:34:01,619 V2 {'ts': 1792668739, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
 2026-10-22 19:34:01,619 {'ts': 1792668739, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0d2cd4ecb935e25fb3e7664bf9f217acd4847777', 'tx': '0x4dad2260a6e1bf3a307aa3e0f668113fcd117f7bd1c570e2e7dae967984bb50b', 'sym': '赵长鹏能飞', 'price': 2.375e-05, 'liq': 14493, 'action': 'buy', 'stake': 10.0}
@@ -298,3 +281,20 @@
 2026-10-22 20:38:41,896 tick equity=873.25 pnl=-126.75 head=129131340
 2026-10-22 20:39:03,948 tick equity=866.21 pnl=-133.79 head=129131388
 2026-10-22 20:39:25,857 tick equity=861.55 pnl=-138.45 head=129131437
+2026-10-22 20:39:47,831 tick equity=863.54 pnl=-136.46 head=129131486
+2026-10-22 20:40:09,793 tick equity=863.06 pnl=-136.94 head=129131534
+2026-10-22 20:40:32,529 tick equity=863.53 pnl=-136.47 head=129131583
+2026-10-22 20:40:54,574 tick equity=865.17 pnl=-134.83 head=129131634
+2026-10-22 20:41:16,833 tick equity=869.90 pnl=-130.10 head=129131683
+2026-10-22 20:41:38,803 tick equity=869.52 pnl=-130.48 head=129131732
+2026-10-22 20:42:01,196 tick equity=870.73 pnl=-129.27 head=129131781
+2026-10-22 20:42:23,053 tick equity=873.00 pnl=-127.00 head=129131831
+2026-10-22 20:42:45,237 tick equity=872.69 pnl=-127.31 head=129131879
+2026-10-22 20:43:05,867 V2-RISK Heyi 0xa1cb5a5915c43829a33c7cb508f65eebed177777 KILL top10 holders 85%; LP only 0% locked/burned
+2026-10-22 20:43:05,867 V2 {'ts': 1792672970, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0002407, 'action': 'kill-risk', 'reasons': ['top10 holders 85%', 'LP only 0% locked/burned']}
+2026-10-22 20:43:07,547 tick equity=873.17 pnl=-126.83 head=129131929
+2026-10-22 20:43:29,627 tick equity=871.48 pnl=-128.52 head=129131978
+2026-10-22 20:43:51,246 tick equity=879.82 pnl=-120.18 head=129132027
+2026-10-22 20:44:11,429 {'ts': 1792673032, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0x5601a422986034521330bb4c799a8a3f29137777', 'tx': '0x74c1291a4ed3eb286b8658c1f25721a93a54905daeb07ad5dcb44116bff09238', 'sym': 'RTX5090', 'price': 7.879e-06, 'liq': 8534, 'action': 'sell', 'proceeds': 17.93, 'pnl': -2.07}
+2026-10-22 20:44:13,216 tick equity=879.00 pnl=-121.00 head=129132075
+2026-10-22 20:44:34,823 tick equity=879.62 pnl=-120.38 head=129132124

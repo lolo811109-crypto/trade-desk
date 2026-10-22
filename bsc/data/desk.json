@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792672765,
+ "updated": 1792673074,
  "tokens_seen": 41,
  "risk": {
-  "checked": 68,
-  "killed": 49,
+  "checked": 69,
+  "killed": 50,
   "passed": 19
  },
  "kills": [
@@ -131,6 +131,14 @@
     "buy_tax unknown",
     "sell_tax unknown"
    ]
+  },
+  {
+   "sym": "Heyi",
+   "token": "0xa1cb5a5915c43829a33c7cb508f65eebed177777",
+   "reasons": [
+    "top10 holders 85%",
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
@@ -140,9 +148,9 @@
   "limit": -0.1
  },
  "v2": {
-  "equity": 924.45,
+  "equity": 924.47,
   "day_start": 964.02,
-  "pnl_today": -39.57,
+  "pnl_today": -39.55,
   "open_positions": 5,
   "closed_positions": 14,
   "closed_sells": 14,
@@ -167,12 +175,12 @@
   }
  },
  "baseline": {
-  "equity": 861.55,
+  "equity": 879.62,
   "day_start": 937.22,
-  "pnl_today": -75.67,
-  "closed_sells": 18,
-  "win_rate": 0.111,
-  "realized_today": -8.74,
+  "pnl_today": -57.6,
+  "closed_sells": 19,
+  "win_rate": 0.105,
+  "realized_today": -10.81,
   "best_token": {
    "sym": "SPX",
    "pnl": 15.78
@@ -184,7 +192,7 @@
   "copied": 41
  },
  "confluence": {
-  "equity": 1007.01,
+  "equity": 1008.7,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 2,
@@ -426,9 +434,9 @@
   "events_total": 21
  },
  "risk_track": {
-  "updated": 1792672591,
+  "updated": 1792672985,
   "rejected": {
-   "n": 70,
+   "n": 71,
    "1h": {
     "n": 63,
     "avg_ret": 0.066,
@@ -489,7 +497,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 45,
+    "n": 46,
     "1h": {
      "n": 40,
      "avg_ret": -0.0293,
@@ -519,7 +527,7 @@
     }
    },
    "top holders": {
-    "n": 30,
+    "n": 31,
     "1h": {
      "n": 29,
      "avg_ret": 0.1223,
@@ -670,23 +678,6 @@
    }
   },
   "items": [
-   {
-    "sym": "QQQB",
-    "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
-    "ok": false,
-    "reasons": [
-     "top10 holders 86%",
-     "LP only 0% locked/burned"
-    ],
-    "ts": 1792524312,
-    "src": "backfill",
-    "ret": {
-     "1h": 0.0095,
-     "6h": 0.0095,
-     "24h": 0.0121
-    },
-    "rug": false
-   },
    {
     "sym": "NVDAB",
     "token": "0x02fca66c1d1afb4e2a7884261eb00f63598a7436",
@@ -2249,6 +2240,23 @@
      "sell_tax unknown"
     ],
     "ts": 1792672086,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "Heyi",
+    "token": "0xa1cb5a5915c43829a33c7cb508f65eebed177777",
+    "ok": false,
+    "reasons": [
+     "top10 holders 85%",
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792672985,
     "src": "live",
     "ret": {
      "1h": null,
