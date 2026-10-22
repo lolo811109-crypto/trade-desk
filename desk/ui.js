@@ -54,7 +54,7 @@ const esc=s=>String(s??'').replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&am
 const ymd=ts=>new Date(ts*1000).toLocaleDateString('sv-SE',{timeZone:TZ});
 const hm=ts=>new Date(ts*1000).toLocaleTimeString('zh-CN',{hour12:false,timeZone:TZ,hour:'2-digit',minute:'2-digit'});
 const name=t=>t.sym!=null?(t.sym=='water'&&String(t.token||'').toLowerCase().startsWith('0x6567c4')?'#矿泉水 water':t.sym):(t.title||'');
-function reason(r){r=(r&&r[0])||'';const M=[[/LP/i,'LP未锁'],[/top10|holder/i,'前十集中'],[/tax/i,'税率'],[/mint/i,'增发'],[/freez/i,'冻结'],[/honeypot/i,'貔貅'],[/dev/i,'开发者持仓']];for(const[a,b]of M)if(a.test(r))return b;return r.slice(0,10)||'风控'}
+function reason(r){r=(r&&r[0])||'';const M=[[/LP/i,'LP未锁'],[/top10|holder/i,'前十集中'],[/tax unknown/i,'税率查不到'],[/tax/i,'税率'],[/mint/i,'增发'],[/freez/i,'冻结'],[/honeypot/i,'貔貅'],[/dev/i,'开发者持仓'],];for(const[a,b]of M)if(a.test(r))return b;return r.slice(0,10)||'风控'}
 async function j(u){try{const r=await fetch(u+(u.includes('?')?'&':'?')+'t='+Date.now());return r.ok?await r.json():null}catch(e){return null}}
 /* Normalise trades of one account into pipeline events (today, UTC+8) */
 function events(s,tag){if(!s||!Array.isArray(s.trades))return null;const today=ymd(Date.now()/1000),poly=!!s.wallets&&!s.pos;

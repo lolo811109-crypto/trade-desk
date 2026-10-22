@@ -62,7 +62,7 @@ function spark(h,c,base){h=(h||[]).slice(-200);if(h.length<2)return'<svg class="
  return `<svg class="sp" viewBox="0 0 400 44" preserveAspectRatio="none">${by!=null?`<line x1="0" x2="400" y1="${by}" y2="${by}" stroke="#C7C7CC" stroke-dasharray="3 4" vector-effect="non-scaling-stroke"/>`:''}<path d="${d}" fill="none" stroke="${c}" stroke-width="2" vector-effect="non-scaling-stroke"/><circle cx="${L[0]}" cy="${L[1]}" r="3.5" fill="${c}"/></svg>`}
 const sub=(n,o)=>o?.equity!=null?`<div class="sub">${n}<b style="color:${col(o.equity-1000)}">$${f2(o.equity)}</b></div>`:'';
 function reg(y){const n=y.length,tm=(n-1)/2,ym=y.reduce((a,b)=>a+b)/n;let c=0,v=0;y.forEach((p,i)=>{c+=(i-tm)*(p-ym);v+=(i-tm)**2});const s=c/v,a=ym-s*tm;let e=0,t=0;y.forEach((p,i)=>{e+=(p-a-s*i)**2;t+=(p-ym)**2});return{r2:t?1-e/t:0,sp:s/ym*100}}
-async function load(){const[bs,bv,bc,bd,ss,sv,sv3,sd,pe,pt]=await Promise.all(['../bsc/data/state.json','../bsc/data/state_v2.json','../bsc/data/paper_state_conf.json','../bsc/data/desk.json','../sol/data/state.json','../sol/data/state_v2.json','../sol/data/state_v3.json','../sol/data/desk.json','../copy/data/state.json','../copy/data/state_t.json'].map(j));
+async function load(){const[bs,bv,bc,bd,ss,sv,sv3,sd,pe,pt,sn]=await Promise.all(['../bsc/data/state.json','../bsc/data/state_v2.json','../bsc/data/paper_state_conf.json','../bsc/data/desk.json','../sol/data/state.json','../sol/data/state_v2.json','../sol/data/state_v3.json','../sol/data/desk.json','../copy/data/state.json','../copy/data/state_t.json','../bsc/data/state_snipe.json'].map(j));
  let kl=null;try{kl=await (await fetch('https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&limit=120')).json()}catch(e){}
  const conf=bc?.equity!=null?bc:(bd?.confluence||null);
  const accts=[bs,bv,conf,ss,sv,pe,pt].filter(o=>o?.equity!=null),tot=accts.reduce((a,o)=>a+o.equity,0),n=accts.length;
@@ -75,13 +75,13 @@ async function load(){const[bs,bv,bc,bd,ss,sv,sv3,sd,pe,pt]=await Promise.all(['
   btc=`<div class="card" style="--c:#F7931A" data-m="btc"><div class="row"><span class="nm"><i></i>BTC 回归信号</span><span class="pill ${sg=='SHORT'?'halt':sg=='LONG'?'':'n'}">${sg}</span></div>
   <div class="row" style="margin-top:6px"><span class="eq">$${f2(px.at(-1))}</span><span class="pl" style="color:${col(ch)}">${pc(ch)} <span class="mono">2H</span></span></div>${spark(kl.map(x=>[x[0],+x[4]]),'#F7931A')}
   <div class="subs"><div class="sub">斜率 SLOPE<b>${r.sp.toFixed(4)}%</b></div><div class="sub">R²<b>${r.r2.toFixed(3)}</b></div><div class="sub">参数<b>W15 · 0.01 · 0.6</b></div></div></div>`}
- $('cards').innerHTML=card('bsc','BNB Chain Meme',bv,sub('原版',bs)+sub('V2',bv)+sub('共振',conf),`<span class="pill ${bh?'halt':''}">${bh?'HALTED':'ACTIVE'}</span>`,bv?.history)
+ $('cards').innerHTML=card('bsc','BNB Chain Meme',bv,sub('原版',bs)+sub('V2',bv)+sub('共振',conf)+sub('<a href="../bsc-snipe/" onclick="event.stopPropagation()" style="color:inherit">狙击 ↗</a>',sn),`<span class="pill ${bh?'halt':''}">${bh?'HALTED':'ACTIVE'}</span>`,bv?.history)
   +card('sol','Solana Meme',sv,sub('原版',ss)+sub('V2',sv),`<span class="pill ${sh?'halt':''}">${sh?'HALTED':'ACTIVE'}</span>`,sv?.history)
   +card('poly','Polymarket 跟单',pe,sub('平均分配',pe)+sub('淘汰赛',pt),`<span class="pill ${out>ws.length/2?'halt':''}">${out}/${ws.length} CASH OUT</span>`,pe?.history)+btc;
  try{const s=TDUI.shift(),r=TDUI.shiftPnl([bs,bv,conf,ss,sv,pe,pt],s.start);$('sw').textContent=(s.night?'今晚':'今天')+' '+TDUI.hm(s.start)+' 起 · '+(r?r.n:0)+' 个账户';
   if(r){const c=r.pnl>=0?'#3FB950':'#F85149';$('spl').style.color=c;$('spl').textContent=(r.pnl>=0?'+':'−')+'$'+Math.abs(r.pnl).toFixed(2);$('ssp').innerHTML=TDUI.sparkSvg(r.pts,c)}else{$('spl').textContent='—'}
-  TDUI.pipe($('ovpipe'),TDUI.merge([TDUI.events(bv,'BNB'),TDUI.events(sv,'SOL'),TDUI.events(sv3,'SOL v3'),TDUI.events(pe,'POLY')]),'#58A6FF','今日流程 · 全部市场');
-  TDUI.ticker(TDUI.tickerMerge([TDUI.tickerLines(bv,'BNB'),TDUI.tickerLines(sv,'SOL'),TDUI.tickerLines(sv3,'SOL v3'),TDUI.tickerLines(pe,'POLY')]))}catch(e){console.error(e)}
+  TDUI.pipe($('ovpipe'),TDUI.merge([TDUI.events(bv,'BNB'),TDUI.events(sv,'SOL'),TDUI.events(sv3,'SOL v3'),TDUI.events(pe,'POLY'),TDUI.events(sn,'BNB狙击')]),'#58A6FF','今日流程 · 全部市场');
+  TDUI.ticker(TDUI.tickerMerge([TDUI.tickerLines(bv,'BNB'),TDUI.tickerLines(sv,'SOL'),TDUI.tickerLines(sv3,'SOL v3'),TDUI.tickerLines(pe,'POLY'),TDUI.tickerLines(sn,'BNB狙击')]))}catch(e){console.error(e)}
  document.querySelectorAll('.card').forEach(c=>c.onclick=()=>go(c.dataset.m))}
 go(q.get('m')=='ov'?'ov':(M[q.get('m')]?q.get('m'):(localStorage.deskTab||'ov')),!!q.get('m'));
 addEventListener('resize',()=>go(localStorage.deskTab,false));load();setInterval(load,60000);
