@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792653483,
- "tokens_seen": 28,
+ "updated": 1792654955,
+ "tokens_seen": 29,
  "risk": {
-  "checked": 26,
-  "killed": 18,
+  "checked": 27,
+  "killed": 19,
   "passed": 8
  },
  "kills": [
@@ -77,18 +77,25 @@
     "buy_tax unknown",
     "sell_tax unknown"
    ]
+  },
+  {
+   "sym": "小微",
+   "token": "0x3acbae248fbc714e229edb62143e47fb2a3d7777",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0088,
+  "dd_today": -0.0097,
   "limit": -0.1
  },
  "v2": {
-  "equity": 955.54,
+  "equity": 954.69,
   "day_start": 964.02,
-  "pnl_today": -8.48,
+  "pnl_today": -9.33,
   "open_positions": 4,
   "closed_positions": 9,
   "closed_sells": 9,
@@ -105,7 +112,7 @@
   "copied": 8,
   "best_open": {
    "sym": "🔮",
-   "upnl": 3.63
+   "upnl": 2.83
   },
   "worst_open": {
    "sym": "TTAI",
@@ -113,12 +120,12 @@
   }
  },
  "baseline": {
-  "equity": 864.27,
+  "equity": 856.51,
   "day_start": 937.22,
-  "pnl_today": -72.95,
-  "closed_sells": 8,
+  "pnl_today": -80.71,
+  "closed_sells": 9,
   "win_rate": 0.0,
-  "realized_today": -9.52,
+  "realized_today": -10.3,
   "best_token": {
    "sym": "BEM",
    "pnl": -0.78
@@ -127,10 +134,10 @@
    "sym": "DPOTS",
    "pnl": -2.18
   },
-  "copied": 14
+  "copied": 15
  },
  "confluence": {
-  "equity": 1012.25,
+  "equity": 1011.29,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 1,
@@ -318,9 +325,9 @@
   "events_total": 15
  },
  "risk_track": {
-  "updated": 1792653270,
+  "updated": 1792654743,
   "rejected": {
-   "n": 59,
+   "n": 60,
    "1h": {
     "n": 59,
     "avg_ret": 0.0831,
@@ -366,22 +373,22 @@
     "up_pct": 0.48
    },
    "24h": {
-    "n": 13,
-    "avg_ret": -0.2259,
-    "bad_pct": 0.385,
+    "n": 14,
+    "avg_ret": -0.2306,
+    "bad_pct": 0.357,
     "rug_pct": 0.0,
-    "up_pct": 0.308
+    "up_pct": 0.286
    },
    "latest": {
     "n": 28,
-    "avg_ret": -0.0655,
+    "avg_ret": -0.0677,
     "bad_pct": 0.179,
     "winners": 3
    }
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 38,
+    "n": 39,
     "1h": {
      "n": 38,
      "avg_ret": -0.025,
@@ -1223,7 +1230,7 @@
     "ret": {
      "1h": 0.1922,
      "6h": -0.2296,
-     "24h": null
+     "24h": -0.2912
     },
     "rug": false
    },
@@ -1935,6 +1942,22 @@
     "src": "live",
     "ret": {
      "1h": -0.0197,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "小微",
+    "token": "0x3acbae248fbc714e229edb62143e47fb2a3d7777",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792654732,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },
