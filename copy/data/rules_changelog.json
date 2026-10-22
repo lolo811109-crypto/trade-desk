@@ -38,5 +38,10 @@
   "ts": "2026-10-23T02:11:00+08:00",
   "scope": "POLY新钱包 (lab_new)",
   "change": "new paper lab $1000, v3 shared-pool rules, follows scouted top 5: tin54321, isco22, Ksi172, noosh3, Shimi1234 ($200 budget each)"
+ },
+ {
+  "ts": "2026-10-23T02:58:00+08:00",
+  "scope": "BNB V3, SOL V3, BNB 新币狙击",
+  "change": "desk rules: liquidity_pulled exit (<60% of entry liq0; open positions get liq0 on first check); time_stop_45m (held>=45m, no partial TP, <+10%; old time stops kept); size<=1% pool liq else skip pool_too_small_for_size; honeypot guard: skip if DexScreener txns.h1.sells==0, missing -> skip missing_data. Originals/v2 unchanged (control)."
  }
 ]
