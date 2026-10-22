@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792645027,
- "tokens_seen": 22,
+ "updated": 1792645326,
+ "tokens_seen": 24,
  "risk": {
-  "checked": 17,
-  "killed": 10,
+  "checked": 18,
+  "killed": 11,
   "passed": 7
  },
  "kills": [
@@ -45,18 +45,25 @@
     "owner can mint",
     "LP only 0% locked/burned"
    ]
+  },
+  {
+   "sym": "yoki酱",
+   "token": "0xa96402db0112ed21a6613b43cdfb766d9e5c7777",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0075,
+  "dd_today": -0.0074,
   "limit": -0.1
  },
  "v2": {
-  "equity": 956.81,
+  "equity": 956.84,
   "day_start": 964.02,
-  "pnl_today": -7.21,
+  "pnl_today": -7.18,
   "open_positions": 4,
   "closed_positions": 8,
   "closed_sells": 8,
@@ -81,9 +88,9 @@
   }
  },
  "baseline": {
-  "equity": 887.29,
+  "equity": 887.48,
   "day_start": 937.22,
-  "pnl_today": -49.93,
+  "pnl_today": -49.74,
   "closed_sells": 6,
   "win_rate": 0.0,
   "realized_today": -7.17,
@@ -98,15 +105,15 @@
   "copied": 9
  },
  "confluence": {
-  "equity": 1000.72,
+  "equity": 1006.4,
   "bank": 1000.0,
-  "open_positions": 0,
+  "open_positions": 1,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 0,
+  "copied": 1,
   "events": [
    {
     "ts": 1792523031,
@@ -253,14 +260,25 @@
     ],
     "trigger": "0xdf579d27140000251421f3bb2b4ed43835eb3b6b",
     "price": 0.0003687
+   },
+   {
+    "ts": 1792645173,
+    "token": "0x0d939f5a7daf347332fc21682a791c3d292bffff",
+    "sym": "4cat",
+    "wallets": [
+     "0xc5606cde16fb8c39cc68d1d97700883ae951ff56",
+     "0xc9ac2d47615508a16e46a3459eb4f564ad906a32"
+    ],
+    "trigger": "0xc9ac2d47615508a16e46a3459eb4f564ad906a32",
+    "price": 5.847546367e-05
    }
   ],
-  "events_total": 13
+  "events_total": 14
  },
  "risk_track": {
-  "updated": 1792644942,
+  "updated": 1792645197,
   "rejected": {
-   "n": 55,
+   "n": 56,
    "1h": {
     "n": 55,
     "avg_ret": 0.0998,
@@ -269,11 +287,11 @@
     "up_pct": 0.527
    },
    "6h": {
-    "n": 53,
-    "avg_ret": 0.01,
-    "bad_pct": 0.189,
-    "rug_pct": 0.151,
-    "up_pct": 0.396
+    "n": 54,
+    "avg_ret": 0.0169,
+    "bad_pct": 0.185,
+    "rug_pct": 0.148,
+    "up_pct": 0.407
    },
    "24h": {
     "n": 25,
@@ -284,13 +302,13 @@
    },
    "latest": {
     "n": 55,
-    "avg_ret": -0.0813,
+    "avg_ret": -0.0774,
     "bad_pct": 0.236,
     "winners": 4
    }
   },
   "passed": {
-   "n": 27,
+   "n": 28,
    "1h": {
     "n": 26,
     "avg_ret": 0.0034,
@@ -321,7 +339,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 35,
+    "n": 36,
     "1h": {
      "n": 35,
      "avg_ret": -0.0228,
@@ -330,11 +348,11 @@
      "up_pct": 0.657
     },
     "6h": {
-     "n": 33,
-     "avg_ret": -0.1209,
-     "bad_pct": 0.121,
-     "rug_pct": 0.091,
-     "up_pct": 0.515
+     "n": 34,
+     "avg_ret": -0.1061,
+     "bad_pct": 0.118,
+     "rug_pct": 0.088,
+     "up_pct": 0.529
     },
     "24h": {
      "n": 17,
@@ -345,7 +363,7 @@
     },
     "latest": {
      "n": 35,
-     "avg_ret": -0.104,
+     "avg_ret": -0.0977,
      "bad_pct": 0.143,
      "winners": 1
     }
@@ -1736,7 +1754,7 @@
     "src": "live",
     "ret": {
      "1h": 0.1617,
-     "6h": null,
+     "6h": 0.3803,
      "24h": null
     },
     "rug": false
@@ -1792,6 +1810,36 @@
     "ok": true,
     "reasons": [],
     "ts": 1792644942,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "4cat",
+    "token": "0x0d939f5a7daf347332fc21682a791c3d292bffff",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792645175,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "yoki酱",
+    "token": "0xa96402db0112ed21a6613b43cdfb766d9e5c7777",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792645197,
     "src": "live",
     "ret": {
      "1h": null,
