@@ -1,18 +1,3 @@
-2026-10-23 01:09:43,930 tick equity=832.37 pnl=-167.63 head=129167457 v3=992.27
-2026-10-23 01:10:06,014 tick equity=832.36 pnl=-167.64 head=129167503 v3=992.27
-2026-10-23 01:10:26,548 V2 {'ts': 1792689014, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.0001744, 'action': 'skip-7d'}
-2026-10-23 01:10:26,548 V3 {'ts': 1792689014, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.0001744, 'action': 'skip-7d'}
-2026-10-23 01:10:27,620 tick equity=832.35 pnl=-167.65 head=129167553 v3=992.27
-2026-10-23 01:16:37,378 loop error rpc fail eth_getTransactionCount
-2026-10-23 01:17:27,809 {'ts': 1792689215, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x55db4b1f497b1d7aa93354701883efc758367777', 'tx': '0x5d20e9abcf3a65e7b202a43d391f24ed74c1d8b7a5a953645ea9c09160946977', 'action': 'skip-noprice'}
-2026-10-23 01:17:30,149 V2 {'ts': 1792689082, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.005135, 'action': 'skip-7d'}
-2026-10-23 01:17:30,149 V3 {'ts': 1792689082, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.005135, 'action': 'skip-7d'}
-2026-10-23 01:17:30,261 V2 {'ts': 1792689346, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.000175, 'action': 'skip-7d'}
-2026-10-23 01:17:30,261 V3 {'ts': 1792689346, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.000175, 'action': 'skip-7d'}
-2026-10-23 01:17:32,650 tick equity=831.01 pnl=-168.99 head=129168422 v3=992.08
-2026-10-23 01:17:53,758 tick equity=831.03 pnl=-168.97 head=129168545 v3=992.08
-2026-10-23 01:18:15,646 tick equity=830.36 pnl=-169.64 head=129168592 v3=992.08
-2026-10-23 01:18:36,988 tick equity=830.26 pnl=-169.74 head=129168640 v3=992.08
 2026-10-23 01:18:59,318 tick equity=830.35 pnl=-169.65 head=129168688 v3=992.08
 2026-10-23 01:19:20,709 tick equity=830.35 pnl=-169.65 head=129168737 v3=992.08
 2026-10-23 01:19:42,598 tick equity=830.07 pnl=-169.93 head=129168785 v3=992.08
@@ -298,3 +283,18 @@
 2026-10-23 05:34:32,330 tick equity=830.58 pnl=-169.42 head=129202738 v3=993.39
 2026-10-23 05:35:05,399 tick equity=830.77 pnl=-169.23 head=129202806 v3=993.39
 2026-10-23 05:35:36,646 tick equity=830.72 pnl=-169.28 head=129202880 v3=993.39
+2026-10-23 05:36:05,591 tick equity=830.53 pnl=-169.47 head=129202949 v3=993.39
+2026-10-23 05:36:34,366 tick equity=830.53 pnl=-169.47 head=129203014 v3=993.39
+2026-10-23 05:37:17,536 tick equity=830.36 pnl=-169.64 head=129203077 v3=993.39
+2026-10-23 06:06:50,738 loop error rpc fail eth_getTransactionCount
+2026-10-23 06:07:41,711 {'ts': 1792705626, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x5b0b526411fecea6600e04d64a720728a72f7777', 'tx': '0xc758930784310a9f7a0b8b5150b666bb663c073defd09328ed7fc0866b2a5bea', 'action': 'skip-noprice'}
+2026-10-23 06:07:44,829 V2 {'ts': 1792706201, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x409f0bcdc9a70565a71af56cb50b2a6688cb7777', 'sym': 'BIBI', 'price': 0.0001873, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-23 06:07:48,245 V3-RISK BIBI 0x409f0bcdc9a70565a71af56cb50b2a6688cb7777 KILL sell_tax unknown; LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-23 06:07:48,245 V3 {'ts': 1792706201, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x409f0bcdc9a70565a71af56cb50b2a6688cb7777', 'sym': 'BIBI', 'price': 0.0001873, 'action': 'kill-risk', 'reasons': ['sell_tax unknown', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-23 06:07:48,349 V2 {'ts': 1792706739, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002035, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-23 06:07:48,399 V3 {'ts': 1792706739, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002035, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-23 06:08:27,292 V2 {'ts': 1792705070, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.005082, 'action': 'skip-7d'}
+2026-10-23 06:08:27,293 V3 {'ts': 1792705070, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.005082, 'action': 'skip-7d'}
+2026-10-23 06:08:29,604 tick equity=835.17 pnl=-164.83 head=129207113 v3=993.39
+2026-10-23 06:08:51,511 tick equity=834.96 pnl=-165.04 head=129207332 v3=993.39
+2026-10-23 06:09:14,744 tick equity=834.96 pnl=-165.04 head=129207381 v3=993.39
