@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792692895,
+ "updated": 1792693143,
  "tokens_seen": 36,
  "risk": {
   "checked": 31,
@@ -85,13 +85,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0324,
+  "dd_today": -0.0333,
   "limit": -0.1
  },
  "v2": {
-  "equity": 897.27,
+  "equity": 896.44,
   "day_start": 927.27,
-  "pnl_today": -30.0,
+  "pnl_today": -30.83,
   "open_positions": 24,
   "closed_positions": 25,
   "closed_sells": 23,
@@ -108,17 +108,17 @@
   "copied": 25,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 7.17
+   "upnl": 6.81
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.33
+   "upnl": -9.62
   }
  },
  "baseline": {
-  "equity": 827.18,
+  "equity": 822.6,
   "day_start": 860.79,
-  "pnl_today": -33.61,
+  "pnl_today": -38.19,
   "closed_sells": 13,
   "win_rate": 0.154,
   "realized_today": 8.08,
@@ -130,7 +130,7 @@
    "sym": "BURNIE",
    "pnl": -3.22
   },
-  "copied": 15
+  "copied": 16
  },
  "risk_track": {
   "updated": 1792692895,
@@ -1603,9 +1603,9 @@
   "warn_lp": 20
  },
  "v3": {
-  "equity": 925.97,
+  "equity": 925.44,
   "day_start": 952.92,
-  "pnl_today": -26.95,
+  "pnl_today": -27.48,
   "open_positions": 20,
   "closed_positions": 26,
   "closed_sells": 24,
@@ -1622,11 +1622,11 @@
   "copied": 27,
   "best_open": {
    "sym": "swordcat",
-   "upnl": -0.3
+   "upnl": -0.41
   },
   "worst_open": {
    "sym": "Bert",
-   "upnl": -1.55
+   "upnl": -1.57
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -1714,7 +1714,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0283,
+  "dd_today": -0.0288,
   "limit": -0.1
  },
  "v3_track": {
