@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792671867,
+ "updated": 1792672019,
  "tokens_seen": 39,
  "risk": {
-  "checked": 60,
-  "killed": 43,
+  "checked": 61,
+  "killed": 44,
   "passed": 17
  },
  "kills": [
@@ -128,13 +128,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.037,
+  "dd_today": -0.0337,
   "limit": -0.1
  },
  "v2": {
-  "equity": 928.38,
+  "equity": 931.53,
   "day_start": 964.02,
-  "pnl_today": -35.64,
+  "pnl_today": -32.49,
   "open_positions": 5,
   "closed_positions": 12,
   "closed_sells": 12,
@@ -154,17 +154,17 @@
    "upnl": 1.71
   },
   "worst_open": {
-   "sym": "GANG",
-   "upnl": -18.61
+   "sym": "TTAI",
+   "upnl": -17.55
   }
  },
  "baseline": {
-  "equity": 851.19,
+  "equity": 849.12,
   "day_start": 937.22,
-  "pnl_today": -86.03,
-  "closed_sells": 17,
-  "win_rate": 0.118,
-  "realized_today": -8.49,
+  "pnl_today": -88.1,
+  "closed_sells": 18,
+  "win_rate": 0.111,
+  "realized_today": -8.74,
   "best_token": {
    "sym": "SPX",
    "pnl": 15.78
@@ -173,10 +173,10 @@
    "sym": "赵长鹏能飞",
    "pnl": -9.13
   },
-  "copied": 38
+  "copied": 39
  },
  "confluence": {
-  "equity": 1004.32,
+  "equity": 1004.86,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 2,
@@ -419,9 +419,9 @@
   "events_total": 20
  },
  "risk_track": {
-  "updated": 1792671384,
+  "updated": 1792671930,
   "rejected": {
-   "n": 68,
+   "n": 69,
    "1h": {
     "n": 60,
     "avg_ret": 0.0772,
@@ -482,7 +482,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 44,
+    "n": 45,
     "1h": {
      "n": 39,
      "avg_ret": -0.0313,
@@ -2209,6 +2209,22 @@
      "LP only 0% locked/burned"
     ],
     "ts": 1792671384,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "SAFU",
+    "token": "0xdd806e436dda5588bf54061c11590c77ddc87777",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792671930,
     "src": "live",
     "ret": {
      "1h": null,

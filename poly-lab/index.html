@@ -1,0 +1,19 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Polymarket 策略实验室 · 纸面模拟</title>
+<style>body{margin:0;background:#0D1117;color:#E6EDF3;font:14px -apple-system,system-ui,sans-serif}.w{max-width:1100px;margin:auto;padding:16px 14px 70px}h1{font-size:20px;margin:4px 0}.mu{color:#8B949E;font-size:12px}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:14px 0}.c{background:#161B22;border:1px solid #30363D;border-radius:12px;padding:12px}.c b{font-size:22px;display:block;margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:12px}td,th{padding:5px 6px;border-bottom:1px solid #21262D;text-align:left}th{color:#8B949E;font-weight:500}.up{color:#3FB950}.dn{color:#F85149}h2{font-size:15px;margin:18px 0 6px}a{color:#58A6FF}</style></head>
+<body><div class="w"><a href="../desk/">← 交易台</a><h1>Polymarket 策略实验室</h1><div class="mu">全部是纸面模拟，不下真实订单 · 每个账户从 $1000 起步 · 每 60 秒刷新</div>
+<div class="g" id="cards"></div><h2>持仓</h2><div id="pos"></div><h2>最近事件</h2><div id="ev"></div><h2>跳过原因</h2><div id="sk"></div></div>
+<script src="../desk/ui.js"></script><script>
+const A=[['共享池 v3','../copy/data/state.json','POLY'],['锦标赛 v3','../copy/data/state_t.json','POLY锦标赛'],['共识跟单','../copy/data/lab_cons.json','POLY共识'],['高胜率精选','../copy/data/lab_top.json','POLY精选'],['尾盘高概率','../copy/data/lab_tail.json','POLY尾盘']];
+const f=x=>(+x).toFixed(2),cl=x=>x>=0?'up':'dn',t=s=>new Date(s*1000).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false,month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+function posOf(s){if(s.pos&&!s.wallets)return Object.values(s.pos);return Object.values(s.wallets||{}).flatMap(w=>Object.values(w.pos||{}))}
+async function load(){const D=await Promise.all(A.map(a=>fetch(a[1]+'?'+Date.now()).then(r=>r.json()).catch(()=>null)));
+ document.getElementById('cards').innerHTML=D.map((s,i)=>{if(!s)return'';const tr=s.trades||[],P=posOf(s),nb=tr.filter(r=>r.action=='buy').length;
+  return `<div class="c"><div class="mu">${A[i][0]}</div><b>$${f(s.equity)}</b><span class="${cl(s.pnl)}">${s.pnl>=0?'+':''}${f(s.pnl)} (${(s.pnl/10).toFixed(2)}%)</span><div class="mu">买入 ${nb} · 持仓 ${P.length}${s.halted?' · <span class=dn>熔断</span>':''}${s.top?' · 跟: '+s.top.map(w=>w.slice(0,6)).join(' '):''}</div><div class="mu">更新 ${s.updated?t(s.updated):'—'}</div></div>`}).join('');
+ document.getElementById('pos').innerHTML='<table><tr><th>账户</th><th>市场</th><th>方向</th><th>成本</th><th>现价</th><th>浮盈</th></tr>'+D.flatMap((s,i)=>s?posOf(s).map(p=>{const v=p.shares*(p.mark??p.cost/p.shares)-p.cost;return `<tr><td>${A[i][0]}</td><td>${p.title}</td><td>${p.outcome}</td><td>$${f(p.cost)}</td><td>${p.mark!=null?(+p.mark).toFixed(3):'—'}</td><td class="${cl(v)}">${f(v)}</td></tr>`}):[]).join('')+'</table>';
+ const ev=D.flatMap((s,i)=>s?(s.trades||[]).filter(r=>r.action!='skip').slice(-40).map(r=>({...r,a:A[i][0]})):[]).sort((a,b)=>b.ts-a.ts).slice(0,40);
+ document.getElementById('ev').innerHTML='<table><tr><th>时间</th><th>账户</th><th>动作</th><th>市场</th><th>金额</th></tr>'+ev.map(r=>`<tr><td>${t(r.ts)}</td><td>${r.a}</td><td>${r.action}${r.why?' · '+r.why:''}</td><td>${r.title} · ${r.outcome||''}</td><td>${r.stake!=null?'$'+f(r.stake):r.proceeds!=null?'$'+f(r.proceeds):''}</td></tr>`).join('')+'</table>';
+ document.getElementById('sk').innerHTML='<table>'+D.map((s,i)=>s&&s.skip_stats?`<tr><td>${A[i][0]}</td><td>${Object.entries(s.skip_stats).map(([k,v])=>k+' '+v).join(' · ')}</td></tr>`:'').join('')+'</table>';
+ try{TDUI.ticker(TDUI.tickerMerge(D.map((s,i)=>TDUI.tickerLines(s,A[i][2]))))}catch(e){}}
+load();setInterval(load,60000);</script></body></html>

@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792671850,
+ "updated": 1792672022,
  "tokens_seen": 31,
  "risk": {
   "checked": 22,
-  "killed": 13,
+  "killed": 14,
   "passed": 18
  },
  "kills": [
@@ -36,7 +36,7 @@
    "sym": "texcat",
    "token": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
    "reasons": [
-    "liq $40,397 < $50,000 v2 floor"
+    "liq $39,701 < $50,000 v2 floor"
    ]
   },
   {
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0323,
+  "dd_today": -0.0342,
   "limit": -0.1
  },
  "v2": {
-  "equity": 947.38,
+  "equity": 945.48,
   "day_start": 979.0,
-  "pnl_today": -31.62,
+  "pnl_today": -33.52,
   "open_positions": 19,
   "closed_positions": 16,
   "closed_sells": 17,
@@ -94,17 +94,17 @@
   "copied": 18,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 7.25
+   "upnl": 6.81
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -9.04
+   "upnl": -9.14
   }
  },
  "baseline": {
-  "equity": 870.56,
+  "equity": 867.39,
   "day_start": 983.73,
-  "pnl_today": -113.17,
+  "pnl_today": -116.34,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -15.89,
@@ -119,9 +119,9 @@
   "copied": 24
  },
  "risk_track": {
-  "updated": 1792671264,
+  "updated": 1792671915,
   "rejected": {
-   "n": 15,
+   "n": 16,
    "1h": {
     "n": 15,
     "avg_ret": 0.0034,
@@ -182,7 +182,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 9,
+    "n": 10,
     "1h": {
      "n": 9,
      "avg_ret": 0.0459,
@@ -1041,6 +1041,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "texcat",
+    "token": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
+    "ok": false,
+    "reasons": [
+     "liq $39,701 < $50,000 v2 floor"
+    ],
+    "ts": 1792671915,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1048,9 +1064,9 @@
   "warn_lp": 15
  },
  "v3": {
-  "equity": 976.21,
+  "equity": 975.73,
   "day_start": 1000.0,
-  "pnl_today": -23.79,
+  "pnl_today": -24.27,
   "open_positions": 13,
   "closed_positions": 14,
   "closed_sells": 14,
@@ -1067,18 +1083,18 @@
   "copied": 27,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": 0.25
+   "upnl": 0.21
   },
   "worst_open": {
    "sym": "EMBER",
-   "upnl": -1.41
+   "upnl": -1.38
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
   "checked": 29,
-  "killed": 8,
+  "killed": 9,
   "passed": 27
  },
  "v3_kills": [
@@ -1118,18 +1134,25 @@
    "reasons": [
     "liq $49,956 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "texcat",
+   "token": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
+   "reasons": [
+    "liq $39,701 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0238,
+  "dd_today": -0.0243,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792671264,
+  "updated": 1792671915,
   "rejected": {
-   "n": 7,
+   "n": 8,
    "1h": {
     "n": 7,
     "avg_ret": 0.1963,
@@ -1190,7 +1213,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 5,
+    "n": 6,
     "1h": {
      "n": 5,
      "avg_ret": 0.2825,
@@ -1802,6 +1825,22 @@
      "info: dev holds 0.1% via pump.fun"
     ],
     "ts": 1792671264,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "texcat",
+    "token": "BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t",
+    "ok": false,
+    "reasons": [
+     "liq $39,701 < $50,000 v2 floor"
+    ],
+    "ts": 1792671915,
     "src": "live",
     "ret": {
      "1h": null,
