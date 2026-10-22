@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792672160,
- "tokens_seen": 31,
+ "updated": 1792672481,
+ "tokens_seen": 32,
  "risk": {
-  "checked": 22,
+  "checked": 23,
   "killed": 14,
-  "passed": 18
+  "passed": 19
  },
  "kills": [
   {
@@ -71,18 +71,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0322,
+  "dd_today": -0.031,
   "limit": -0.1
  },
  "v2": {
-  "equity": 947.47,
+  "equity": 948.64,
   "day_start": 979.0,
-  "pnl_today": -31.53,
+  "pnl_today": -30.36,
   "open_positions": 19,
-  "closed_positions": 16,
-  "closed_sells": 17,
-  "win_rate": 0.118,
-  "realized_today": -16.14,
+  "closed_positions": 17,
+  "closed_sells": 18,
+  "win_rate": 0.167,
+  "realized_today": -7.24,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 9.99
@@ -91,26 +91,26 @@
    "sym": "SAINDRA",
    "pnl": -7.28
   },
-  "copied": 18,
+  "copied": 19,
   "best_open": {
-   "sym": "CYBER",
-   "upnl": 7.39
+   "sym": "COMPUTE",
+   "upnl": 7.17
   },
   "worst_open": {
-   "sym": "CLAUDIA",
-   "upnl": -9.14
+   "sym": "Agency",
+   "upnl": -8.58
   }
  },
  "baseline": {
-  "equity": 877.61,
+  "equity": 883.76,
   "day_start": 983.73,
-  "pnl_today": -106.12,
-  "closed_sells": 12,
-  "win_rate": 0.167,
-  "realized_today": -15.89,
+  "pnl_today": -99.97,
+  "closed_sells": 14,
+  "win_rate": 0.286,
+  "realized_today": -5.31,
   "best_token": {
-   "sym": "BACKERS",
-   "pnl": -0.13
+   "sym": "CYBER",
+   "pnl": 8.9
   },
   "worst_token": {
    "sym": "PULLBACK",
@@ -119,7 +119,7 @@
   "copied": 24
  },
  "risk_track": {
-  "updated": 1792671915,
+  "updated": 1792672259,
   "rejected": {
    "n": 16,
    "1h": {
@@ -151,7 +151,7 @@
    }
   },
   "passed": {
-   "n": 35,
+   "n": 36,
    "1h": {
     "n": 32,
     "avg_ret": -0.0091,
@@ -1057,6 +1057,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "TripleT",
+    "token": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792672259,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1064,10 +1078,10 @@
   "warn_lp": 15
  },
  "v3": {
-  "equity": 976.19,
+  "equity": 975.38,
   "day_start": 1000.0,
-  "pnl_today": -23.81,
-  "open_positions": 13,
+  "pnl_today": -24.62,
+  "open_positions": 14,
   "closed_positions": 14,
   "closed_sells": 14,
   "win_rate": 0.214,
@@ -1080,10 +1094,10 @@
    "sym": "CRAWL",
    "pnl": -3.68
   },
-  "copied": 27,
+  "copied": 28,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": 0.21
+   "upnl": 0.47
   },
   "worst_open": {
    "sym": "Bert",
@@ -1093,9 +1107,9 @@
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 29,
+  "checked": 30,
   "killed": 9,
-  "passed": 27
+  "passed": 28
  },
  "v3_kills": [
   {
@@ -1146,11 +1160,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0238,
+  "dd_today": -0.0246,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792671915,
+  "updated": 1792672313,
   "rejected": {
    "n": 8,
    "1h": {
@@ -1182,13 +1196,13 @@
    }
   },
   "passed": {
-   "n": 23,
+   "n": 24,
    "1h": {
-    "n": 19,
-    "avg_ret": -0.0166,
+    "n": 20,
+    "avg_ret": -0.0157,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.316
+    "up_pct": 0.35
    },
    "6h": {
     "n": 15,
@@ -1205,8 +1219,8 @@
     "up_pct": null
    },
    "latest": {
-    "n": 19,
-    "avg_ret": -0.0242,
+    "n": 20,
+    "avg_ret": -0.0229,
     "bad_pct": 0.0,
     "winners": 1
    }
@@ -1777,7 +1791,7 @@
     "ts": 1792668702,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0019,
      "6h": null,
      "24h": null
     },
@@ -1841,6 +1855,22 @@
      "liq $39,701 < $50,000 v2 floor"
     ],
     "ts": 1792671915,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TripleT",
+    "token": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+    "ok": true,
+    "reasons": [
+     "warn: dev holding unknown"
+    ],
+    "ts": 1792672275,
     "src": "live",
     "ret": {
      "1h": null,
