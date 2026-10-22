@@ -2,12 +2,12 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792671558,
+ "updated": 1792671867,
  "tokens_seen": 39,
  "risk": {
-  "checked": 54,
-  "killed": 38,
-  "passed": 16
+  "checked": 60,
+  "killed": 43,
+  "passed": 17
  },
  "kills": [
   {
@@ -128,18 +128,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0362,
+  "dd_today": -0.037,
   "limit": -0.1
  },
  "v2": {
-  "equity": 929.16,
+  "equity": 928.38,
   "day_start": 964.02,
-  "pnl_today": -34.86,
-  "open_positions": 6,
-  "closed_positions": 10,
-  "closed_sells": 10,
-  "win_rate": 0.1,
-  "realized_today": -11.25,
+  "pnl_today": -35.64,
+  "open_positions": 5,
+  "closed_positions": 12,
+  "closed_sells": 12,
+  "win_rate": 0.083,
+  "realized_today": -13.72,
   "best_token": {
    "sym": "BINA",
    "pnl": 1.17
@@ -148,23 +148,23 @@
    "sym": "念定人生",
    "pnl": -4.36
   },
-  "copied": 16,
+  "copied": 17,
   "best_open": {
    "sym": "🔮",
    "upnl": 1.71
   },
   "worst_open": {
    "sym": "GANG",
-   "upnl": -18.54
+   "upnl": -18.61
   }
  },
  "baseline": {
-  "equity": 846.76,
+  "equity": 851.19,
   "day_start": 937.22,
-  "pnl_today": -90.46,
-  "closed_sells": 16,
-  "win_rate": 0.125,
-  "realized_today": -4.46,
+  "pnl_today": -86.03,
+  "closed_sells": 17,
+  "win_rate": 0.118,
+  "realized_today": -8.49,
   "best_token": {
    "sym": "SPX",
    "pnl": 15.78
@@ -173,10 +173,10 @@
    "sym": "赵长鹏能飞",
    "pnl": -9.13
   },
-  "copied": 36
+  "copied": 38
  },
  "confluence": {
-  "equity": 1004.33,
+  "equity": 1004.32,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 2,
