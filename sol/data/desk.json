@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792688633,
- "tokens_seen": 23,
+ "updated": 1792688927,
+ "tokens_seen": 24,
  "risk": {
-  "checked": 16,
-  "killed": 7,
-  "passed": 15
+  "checked": 17,
+  "killed": 8,
+  "passed": 16
  },
  "kills": [
   {
@@ -51,23 +51,30 @@
    "reasons": [
     "liq $27,791 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "hi",
+   "token": "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump",
+   "reasons": [
+    "liq $37,245 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0203,
+  "dd_today": -0.0214,
   "limit": -0.1
  },
  "v2": {
-  "equity": 908.44,
+  "equity": 907.42,
   "day_start": 927.27,
-  "pnl_today": -18.83,
+  "pnl_today": -19.85,
   "open_positions": 23,
-  "closed_positions": 12,
-  "closed_sells": 10,
+  "closed_positions": 13,
+  "closed_sells": 11,
   "win_rate": 0.0,
-  "realized_today": -14.56,
+  "realized_today": -15.11,
   "best_token": {
    "sym": "PHP",
    "pnl": -0.92
@@ -76,10 +83,10 @@
    "sym": "BURNIE",
    "pnl": -4.02
   },
-  "copied": 11,
+  "copied": 12,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 8.07
+   "upnl": 8.16
   },
   "worst_open": {
    "sym": "Agency",
@@ -87,9 +94,9 @@
   }
  },
  "baseline": {
-  "equity": 835.79,
+  "equity": 839.61,
   "day_start": 860.79,
-  "pnl_today": -25.0,
+  "pnl_today": -21.18,
   "closed_sells": 5,
   "win_rate": 0.0,
   "realized_today": -6.92,
@@ -104,9 +111,9 @@
   "copied": 4
  },
  "risk_track": {
-  "updated": 1792688633,
+  "updated": 1792688789,
   "rejected": {
-   "n": 29,
+   "n": 30,
    "1h": {
     "n": 27,
     "avg_ret": -0.0137,
@@ -167,7 +174,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 21,
+    "n": 22,
     "1h": {
      "n": 19,
      "avg_ret": -0.0004,
@@ -1475,6 +1482,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "hi",
+    "token": "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump",
+    "ok": false,
+    "reasons": [
+     "liq $37,245 < $50,000 v2 floor"
+    ],
+    "ts": 1792688789,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1482,14 +1505,14 @@
   "warn_lp": 18
  },
  "v3": {
-  "equity": 936.64,
+  "equity": 935.61,
   "day_start": 952.92,
-  "pnl_today": -16.28,
+  "pnl_today": -17.31,
   "open_positions": 18,
-  "closed_positions": 14,
-  "closed_sells": 12,
+  "closed_positions": 15,
+  "closed_sells": 13,
   "win_rate": 0.0,
-  "realized_today": -12.48,
+  "realized_today": -13.03,
   "best_token": {
    "sym": "BURNIE",
    "pnl": -0.61
@@ -1498,10 +1521,10 @@
    "sym": "EXFIL",
    "pnl": -3.16
   },
-  "copied": 13,
+  "copied": 14,
   "best_open": {
-   "sym": "CATE",
-   "upnl": -0.43
+   "sym": "SI",
+   "upnl": -0.27
   },
   "worst_open": {
    "sym": "Bert",
@@ -1511,9 +1534,9 @@
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 18,
-  "killed": 7,
-  "passed": 17
+  "checked": 19,
+  "killed": 8,
+  "passed": 18
  },
  "v3_kills": [
   {
@@ -1558,18 +1581,25 @@
    "reasons": [
     "liq $27,791 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "hi",
+   "token": "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump",
+   "reasons": [
+    "liq $37,245 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0171,
+  "dd_today": -0.0182,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792688633,
+  "updated": 1792688789,
   "rejected": {
-   "n": 21,
+   "n": 22,
    "1h": {
     "n": 19,
     "avg_ret": 0.0502,
@@ -1630,7 +1660,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 17,
+    "n": 18,
     "1h": {
      "n": 15,
      "avg_ret": 0.0662,
@@ -2732,6 +2762,22 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792688526,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "hi",
+    "token": "6x4Z2dr5DgHUBCKvta8T8GNsFTxJhsBZxNrycWQ8pump",
+    "ok": false,
+    "reasons": [
+     "liq $37,245 < $50,000 v2 floor"
+    ],
+    "ts": 1792688789,
     "src": "live",
     "ret": {
      "1h": null,
