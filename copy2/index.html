@@ -86,7 +86,7 @@ nav .in{max-width:480px;margin:0 auto;display:flex}nav button{flex:1;border:0;ba
 <div class="card"><div class="row"><h3>资金分配</h3><span class="mono" id="acnt">ALLOCATION</span></div><table id="atab"></table></div>
 </section>
 <section class="sec" data-s="rules"><div class="card"><h3>规则说明</h3><div style="font-size:13px;line-height:1.7;margin-top:6px;color:#3F3F46">
-<p><b>平均分配</b>：$1,000 平分给 10 个钱包（各 $100），钱包每买一次跟 $5，钱包卖出就同步卖出。</p><p><b>淘汰赛</b>：同样规则，另外每天 0 点（UTC+8）把表现最差钱包 20% 的资金挪给最好的钱包；单个钱包最多占总资金 30%。现金不足时只挪可用现金。</p><p class="mono" style="margin-top:8px">纯模拟 · PAPER TRADING ONLY · NOT FINANCIAL ADVICE</p></div></div></section>
+<p><b>共享池 v3</b>：$1,000 共用资金池，10 个钱包各 $100 额度；跟单每笔 ≤ 钱包权益 10% 且 ≤ $50，钱包卖出就同步卖出。</p><p><b>锦标赛 v3</b>：同样规则，另外每天 0 点（UTC+8）把表现最差钱包 20% 的额度挪给最好的钱包；单个钱包最多占 30%。</p><p><b>风控（10/23 起）</b>：只跟买入价 0.30–0.70、24 小时内结算的盘；同一场只开一仓，每场全部钱包合计 ≤ $50，单个钱包在同一场 ≤ 自身额度 35%；钱包 0x8372、0x54ce 停止新买入（已有持仓照常结算）。</p><p class="mono" style="margin-top:8px">纯模拟 · PAPER TRADING ONLY · NOT FINANCIAL ADVICE</p></div></div></section>
 <div class="note" id="upd"></div></div>
 <nav><div class="in" id="nav"><button class="on" data-t="desk">盘面<small>DESK</small></button><button data-t="pos">持仓<small>POSITIONS</small></button><button data-t="fills">成交<small>FILLS</small></button><button data-t="rules">规则<small>RULES</small></button></div></nav>
 <div class="ov" id="ov"><div class="md" id="md"></div></div>
