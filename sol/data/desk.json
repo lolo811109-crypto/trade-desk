@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792674891,
+ "updated": 1792675059,
  "tokens_seen": 33,
  "risk": {
   "checked": 26,
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0398,
+  "dd_today": -0.0403,
   "limit": -0.1
  },
  "v2": {
-  "equity": 939.99,
+  "equity": 939.52,
   "day_start": 979.0,
-  "pnl_today": -39.01,
+  "pnl_today": -39.48,
   "open_positions": 15,
   "closed_positions": 23,
   "closed_sells": 24,
@@ -94,7 +94,7 @@
   "copied": 21,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 5.99
+   "upnl": 5.83
   },
   "worst_open": {
    "sym": "Agency",
@@ -102,9 +102,9 @@
   }
  },
  "baseline": {
-  "equity": 871.79,
+  "equity": 871.74,
   "day_start": 983.73,
-  "pnl_today": -111.94,
+  "pnl_today": -111.99,
   "closed_sells": 18,
   "win_rate": 0.222,
   "realized_today": -15.59,
@@ -1124,9 +1124,9 @@
   "warn_lp": 16
  },
  "v3": {
-  "equity": 970.18,
+  "equity": 969.94,
   "day_start": 1000.0,
-  "pnl_today": -29.82,
+  "pnl_today": -30.06,
   "open_positions": 10,
   "closed_positions": 20,
   "closed_sells": 20,
@@ -1142,12 +1142,12 @@
   },
   "copied": 30,
   "best_open": {
-   "sym": "TripleT",
-   "upnl": -0.51
+   "sym": "JEANPHIL",
+   "upnl": -0.45
   },
   "worst_open": {
    "sym": "Bert",
-   "upnl": -1.41
+   "upnl": -1.46
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -1206,7 +1206,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0298,
+  "dd_today": -0.0301,
   "limit": -0.1
  },
  "v3_track": {

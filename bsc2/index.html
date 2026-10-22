@@ -63,7 +63,7 @@ nav .in{max-width:480px;margin:0 auto;display:flex}nav button{flex:1;border:0;ba
 </style></head><body><div class="wrap">
 <header><div class="brand"><div class="logo">TD</div><div><b>Trade Desk</b><span class="badge">SIM</span><div class="mono">BSC MEME COPY DESK · <a href="../bsc-snipe/" style="color:#B8860B;text-decoration:none">⚡新币狙击 →</a></div></div></div>
 <div class="hr"><div class="clk" id="clk">--:--:--</div><div class="mono" id="wcnt">— WALLETS · UTC+8</div></div></header>
-<div class="seg" id="seg"><button data-a="base">原版<br><span class="mono">BASELINE</span></button><button data-a="v2" class="on">V2<br><span class="mono">RISK+TP/SL</span></button><button data-a="conf">共振<br><span class="mono">CONFLUENCE</span></button></div>
+<div class="seg" id="seg"><button data-a="base">原版<br><span class="mono">BASELINE</span></button><button data-a="v2" class="on">V2<br><span class="mono">RISK+TP/SL</span></button><button data-a="v3">V3 紧止损<br><span class="mono">SL-12 · TP+35</span></button><button data-a="conf">共振<br><span class="mono">CONFLUENCE</span></button></div>
 
 <section class="sec on" data-s="desk">
 <div class="card"><div class="hero"><div><div class="mono">总权益 · TOTAL EQUITY</div><div class="eq num" id="eq">$0</div><div class="chg num" id="chg">—</div></div>
@@ -88,7 +88,7 @@ nav .in{max-width:480px;margin:0 auto;display:flex}nav button{flex:1;border:0;ba
 <div class="card"><div class="row"><h3>今日拦截</h3><span class="mono" id="kcnt">RISK KILLS</span></div><div id="kills"></div></div>
 </section>
 <section class="sec" data-s="rules"><div class="card"><h3>规则说明</h3><div style="font-size:13px;line-height:1.7;margin-top:6px;color:#3F3F46">
-<p><b>原版</b>：聪明钱买就跟买、卖就跟卖，每个钱包固定资金。</p><p><b>V2</b>：只跟近 7 天在赚钱的钱包；GoPlus 防貔貅检查不过不跟；涨 100% 卖一半，跌 30% 止损，持仓 24 小时时间止损；当天亏超 10% 熔断，停止新跟单。</p><p><b>共振</b>：2 个以上独立钱包短时间内买同一币才跟，同样过风控。</p><p class="mono" style="margin-top:8px">纯模拟 · PAPER TRADING ONLY · NOT FINANCIAL ADVICE</p></div></div></section>
+<p><b>原版</b>：聪明钱买就跟买、卖就跟卖，每个钱包固定资金。</p><p><b>V2</b>：只跟近 7 天在赚钱的钱包；GoPlus 防貔貅检查不过不跟；涨 100% 卖一半，跌 30% 止损，持仓 24 小时时间止损；当天亏超 10% 熔断，停止新跟单。</p><p><b>V3 紧止损</b>：规则同 V2，但跌 12% 全部止损、涨 35% 全部止盈；开发者（创建者）钱包持有超过 18% 的币不买（查不到时只记警告）；同一个币只开一仓。</p><p><b>共振</b>：2 个以上独立钱包短时间内买同一币才跟，同样过风控。</p><p class="mono" style="margin-top:8px">纯模拟 · PAPER TRADING ONLY · NOT FINANCIAL ADVICE</p></div></div></section>
 <div class="note" id="upd"></div>
 </div>
 <nav><div class="in" id="nav"><button class="on" data-t="desk">盘面<small>DESK</small></button><button data-t="pos">持仓<small>POSITIONS</small></button><button data-t="fills">成交<small>FILLS</small></button><button data-t="rules">规则<small>RULES</small></button></div></nav>
@@ -104,8 +104,8 @@ setInterval(()=>{$('clk').textContent=new Date().toLocaleTimeString('zh-CN',{hou
 async function j(u){try{const r=await fetch(D+u+'?t='+Date.now());return r.ok?await r.json():null}catch(e){return null}}
 function roll(el,v){const s='$'+f2(v);el.innerHTML=[...s].map(c=>/\d/.test(c)?`<span class="dg"><span style="transform:translateY(0)">${[...'0123456789'].map(d=>`<div>${d}</div>`).join('')}</span></span>`:`<span>${c}</span>`).join('');
  requestAnimationFrame(()=>requestAnimationFrame(()=>{let i=0;el.querySelectorAll('.dg>span').forEach(sp=>{while(!/\d/.test(s[i]))i++;sp.style.transform=`translateY(-${s[i]}0%)`;i++})}))}
-function acc(){const s=S.state,v=S.v2,c=S.conf;if(acct=='base')return{eq:s?.equity,hist:s?.history||[],trades:(s?.trades||[]),pos:basePos()};
- const o=acct=='v2'?v:c;return{eq:o?.equity??S.desk?.confluence?.equity,hist:o?.history||[],trades:o?.trades||[],pos:Object.values(o?.pos||{}).map(p=>({sym:p.sym,w:p.w,entry:p.entry,mark:p.mark,cost:p.cost,qty:p.qty,opened:p.opened,tok:p.tok}))}}
+function acc(){const s=S.state,v=S.v2,c=S.conf;if(!['v2','v3','conf'].includes(acct))acct='base';if(acct=='base')return{eq:s?.equity,hist:s?.history||[],trades:(s?.trades||[]),pos:basePos()};
+ const o=acct=='v2'?v:acct=='v3'?S.v3:c;return{eq:o?.equity??S.desk?.confluence?.equity,hist:o?.history||[],trades:o?.trades||[],pos:Object.values(o?.pos||{}).map(p=>({sym:p.sym,w:p.w,entry:p.entry,mark:p.mark,cost:p.cost,qty:p.qty,opened:p.opened,tok:p.tok}))}}
 function basePos(){const s=S.state;if(!s)return[];const out=[];for(const[w,o]of Object.entries(s.wallets))for(const[t,p]of Object.entries(o.pos||{})){const b=[...s.trades].reverse().find(x=>x.side=='BUY'&&x.action=='buy'&&x.token==t&&x.wallet==w);out.push({sym:p.sym,w,tok:t,entry:p.qty?p.cost/p.qty:null,mark:p.mark,cost:p.cost,qty:p.qty,opened:b?.ts})}return out}
 function spark(h){const svg=$('spark');if(h.length<2){svg.innerHTML='';return}const xs=h.map(p=>p[0]),ys=h.map(p=>p[1]);const x0=xs[0],x1=xs.at(-1),lo=Math.min(...ys,1000),hi=Math.max(...ys,1000),r=hi-lo||1;
  const P=h.map(p=>[(p[0]-x0)/(x1-x0||1)*400,84-(p[1]-lo)/r*78]);const d='M'+P.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join('L');const by=84-(1000-lo)/r*78,L=P.at(-1);
@@ -117,9 +117,9 @@ function closed(tr){return tr.filter(t=>t.side=='SELL'&&t.pnl!=null)}
 function render(){const a=acc(),dk=S.desk||{};document.querySelectorAll('#seg button').forEach(b=>b.classList.toggle('on',b.dataset.a==acct));
  if(a.eq!=null){roll($('eq'),a.eq);const d=a.eq-1000;$('chg').innerHTML=`<span style="color:${d>=0?'var(--gr)':'var(--rd)'}">${d>=0?'+':'−'}$${f2(Math.abs(d))} · ${pc(d/1000)}</span> <span class="mono">VS $1,000</span>`;$('mx').textContent=(a.eq/1000).toFixed(3)+'x'}
  spark(a.hist);
- const halted=acct=='conf'?Object.values(S.conf?.days||{}).at(-1)?.halted:(acct=='v2'?dk.halt?.halted:false);
+ const halted=acct=='conf'?Object.values(S.conf?.days||{}).at(-1)?.halted:(acct=='v2'?dk.halt?.halted:acct=='v3'?dk.v3_halt?.halted:false);
  $('hpill').className='pill '+(halted?'halt':'ok');$('hpill').textContent=acct=='base'?'NO RULES':halted?'HALTED':'ACTIVE';
- $('rules').textContent=acct=='base'?'FOLLOW BUY · FOLLOW SELL · NO RISK FILTER':acct=='v2'?`7D FILTER · TP +100% HALF · SL -30% · 24H TIME STOP · DAILY -10% HALT · TODAY ${dk.halt?pc(dk.halt.dd_today):'—'}`:'2+ WALLETS · RISK CHECK · TP/SL · DAILY -10% HALT';
+ $('rules').textContent=acct=='base'?'FOLLOW BUY · FOLLOW SELL · NO RISK FILTER':acct=='v2'?`7D FILTER · TP +100% HALF · SL -30% · 24H TIME STOP · DAILY -10% HALT · TODAY ${dk.halt?pc(dk.halt.dd_today):'—'}`:acct=='v3'?`7D FILTER · DEV>18% SKIP · TP +35% ALL · SL -12% · 24H TIME STOP · DAILY -10% HALT · TODAY ${dk.v3_halt?pc(dk.v3_halt.dd_today):'—'}`:'2+ WALLETS · RISK CHECK · TP/SL · DAILY -10% HALT';
  // active
  const ps=a.pos.slice().sort((x,y)=>(y.opened||0)-(x.opened||0));const p=ps[0];
  if(p){const r=p.entry?p.mark/p.entry-1:null,val=p.qty*p.mark;$('active').innerHTML=`<div class="row"><h3>当前交易</h3><span class="mono">LATEST OPEN · ${p.opened?tm(p.opened):''}</span></div>
@@ -143,12 +143,12 @@ function render(){const a=acc(),dk=S.desk||{};document.querySelectorAll('#seg bu
  const rt=dk.risk_track;if(rt){const cell=(g,k)=>g?.[k]?.n?`<span style="color:${g[k].avg_ret>=0?'var(--gr)':'var(--rd)'}">${pc(g[k].avg_ret)}</span><br><span class="mono">N=${g[k].n}</span>`:'<span class="mono">待数据</span>';
  $('rtab').innerHTML=`<tr><th></th><th>+1H</th><th>+6H</th><th>+24H</th></tr><tr><td>被拦 <span class="mono">REJ ${rt.rejected.n}</span></td><td>${cell(rt.rejected,'1h')}</td><td>${cell(rt.rejected,'6h')}</td><td>${cell(rt.rejected,'24h')}</td></tr><tr><td>放行 <span class="mono">PASS ${rt.passed.n}</span></td><td>${cell(rt.passed,'1h')}</td><td>${cell(rt.passed,'6h')}</td><td>${cell(rt.passed,'24h')}</td></tr>`;
  $('rnote').textContent='早期样本小，部分为事后补算；被拦的币平均反而涨，说明规则可能偏严'}
- const ks=dk.kills||[];$('kcnt').textContent=`${dk.risk?.killed??ks.length} KILLED / ${dk.risk?.checked??'—'} CHECKED`;$('kills').innerHTML=ks.slice(-8).reverse().map(k=>`<div class="kill"><b>${sym(k.sym,k.token)}</b><span>${(k.reasons||[]).join(' · ')}</span></div>`).join('');
+ const ks=(acct=='v3'?dk.v3_kills:dk.kills)||[];const rk=acct=='v3'?dk.v3_risk:dk.risk;$('kcnt').textContent=`${rk?.killed??ks.length} KILLED / ${rk?.checked??'—'} CHECKED`;$('kills').innerHTML=ks.slice(-8).reverse().map(k=>`<div class="kill"><b>${sym(k.sym,k.token)}</b><span>${(k.reasons||[]).join(' · ')}</span></div>`).join('');
  $('upd').textContent=dk.updated?`数据更新 ${new Date(dk.updated*1000).toLocaleString('zh-CN',{hour12:false,timeZone:'Asia/Shanghai'})}（UTC+8）· 每 5 分钟导出 · 页面每 60 秒刷新`:'';
  events()}
-function events(){if(modalShown||location.search.includes('nomodal'))return;const seen=JSON.parse(localStorage.bsc2seen||'[]'),ev=[];const all=[...(S.v2?.trades||[]).map(t=>({...t,a:'V2'})),...(S.state?.trades||[]).map(t=>({...t,a:'原版'})),...(S.conf?.trades||[]).map(t=>({...t,a:'共振'}))];
+function events(){if(modalShown||location.search.includes('nomodal'))return;const seen=JSON.parse(localStorage.bsc2seen||'[]'),ev=[];const all=[...(S.v2?.trades||[]).map(t=>({...t,a:'V2'})),...(S.v3?.trades||[]).map(t=>({...t,a:'V3'})),...(S.state?.trades||[]).map(t=>({...t,a:'原版'})),...(S.conf?.trades||[]).map(t=>({...t,a:'共振'}))];
  for(const t of all){if(t.side=='SELL'&&t.pnl>=5)ev.push({id:'w'+t.a+t.ts+t.token,c:'#10B981',t:'大赚一笔 · BIG WIN',b:`+$${f2(t.pnl)}`,d:`${t.a} · ${sym(t.sym,t.token)} 跟 ${sh(t.wallet)} 卖出`,ts:t.ts});
-  if(t.action=='stop-loss')ev.push({id:'s'+t.a+t.ts+t.token,c:'#F43F5E',t:'触发止损 · STOP-LOSS',b:t.pnl!=null?`−$${f2(Math.abs(t.pnl))}`:sym(t.sym,t.token),d:`${t.a} · ${sym(t.sym,t.token)} 跌 30% 止损`,ts:t.ts})}
+  if(t.action=='stop-loss')ev.push({id:'s'+t.a+t.ts+t.token,c:'#F43F5E',t:'触发止损 · STOP-LOSS',b:t.pnl!=null?`−$${f2(Math.abs(t.pnl))}`:sym(t.sym,t.token),d:`${t.a} · ${sym(t.sym,t.token)} 跌 ${t.a=='V3'?12:30}% 止损`,ts:t.ts})}
  (S.desk?.confluence?.events||[]).forEach(e=>ev.push({id:'c'+e.ts+e.token,c:'#F0B90B',t:'聪明钱共振 · CONFLUENCE',b:sym(e.sym,e.token),d:`${e.wallets.length} 个钱包同时买入`,ts:e.ts}));
  if(S.desk?.halt?.halted)ev.push({id:'h'+S.desk.halt.at,c:'#F43F5E',t:'熔断 · DAILY HALT',b:pc(S.desk.halt.dd_today),d:'V2 今日亏损触及 -10%，暂停新跟单',ts:S.desk.halt.at||1e10});
  const fresh=ev.filter(e=>!seen.includes(e.id)).sort((a,b)=>b.ts-a.ts);if(!fresh.length)return;const e=fresh[0];modalShown=true;
@@ -157,6 +157,6 @@ function events(){if(modalShown||location.search.includes('nomodal'))return;cons
 $('ov').onclick=()=>$('ov').classList.remove('on');
 $('seg').onclick=e=>{const b=e.target.closest('button');if(b){acct=b.dataset.a;localStorage.bsc2acct=acct;render()}};
 $('nav').onclick=e=>{const b=e.target.closest('button');if(!b)return;document.querySelectorAll('#nav button').forEach(x=>x.classList.toggle('on',x==b));document.querySelectorAll('.sec').forEach(s=>s.classList.toggle('on',s.dataset.s.split(' ').includes(b.dataset.t)));scrollTo(0,0)};
-async function load(){const[a,b,c,d]=await Promise.all([j('state.json'),j('state_v2.json'),j('paper_state_conf.json'),j('desk.json')]);S={state:a,v2:b,conf:c,desk:d};render()}
+async function load(){const[a,b,c,d,e]=await Promise.all([j('state.json'),j('state_v2.json'),j('paper_state_conf.json'),j('desk.json'),j('state_v3.json')]);S={state:a,v2:b,conf:c,desk:d,v3:e};render()}
 load();setInterval(load,60000);
 </script><script src="../desk/ui.js"></script></body></html>
