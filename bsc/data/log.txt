@@ -1,15 +1,3 @@
-2026-10-21 22:50:40,641 V2 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x205812cdbed920aff76c6580abd681a46d11efc7', 'sym': 'QQQB', 'price': 724.46, 'action': 'kill-risk', 'reasons': ['top10 holders 85%', 'LP only 0% locked/burned']}
-2026-10-21 22:50:40,641 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x205812cdbed920aff76c6580abd681a46d11efc7', 'tx': '0x681ff68385f833e1455295be53c9eb661ff4e47aa75cabd635ce96da00a93922', 'sym': 'QQQB', 'price': 724.46, 'liq': 1382222, 'action': 'buy', 'stake': 10.0}
-2026-10-21 22:50:41,396 V2-RISK FXIon 0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1 KILL LP only 0% locked/burned
-2026-10-21 22:50:41,396 V2 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1', 'sym': 'FXIon', 'price': 33.049, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-21 22:50:41,397 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1', 'tx': '0x681ff68385f833e1455295be53c9eb661ff4e47aa75cabd635ce96da00a93922', 'sym': 'FXIon', 'price': 33.049, 'liq': 229962, 'action': 'skip-cash'}
-2026-10-21 22:50:41,725 V2-RISK TSLAB 0x5b1910eaad6450e50f816082aa078c41f10c292f KILL top10 holders 91%; LP only 0% locked/burned
-2026-10-21 22:50:41,725 V2 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x5b1910eaad6450e50f816082aa078c41f10c292f', 'sym': 'TSLAB', 'price': 385.26, 'action': 'kill-risk', 'reasons': ['top10 holders 91%', 'LP only 0% locked/burned']}
-2026-10-21 22:50:41,725 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x5b1910eaad6450e50f816082aa078c41f10c292f', 'tx': '0x681ff68385f833e1455295be53c9eb661ff4e47aa75cabd635ce96da00a93922', 'sym': 'TSLAB', 'price': 385.26, 'liq': 2109809, 'action': 'skip-cash'}
-2026-10-21 22:50:42,316 V2-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 91%; LP only 0% locked/burned
-2026-10-21 22:50:42,316 V2 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 161.55, 'action': 'kill-risk', 'reasons': ['top10 holders 91%', 'LP only 0% locked/burned']}
-2026-10-21 22:50:42,316 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'tx': '0x681ff68385f833e1455295be53c9eb661ff4e47aa75cabd635ce96da00a93922', 'sym': 'SPCXB', 'price': 161.55, 'liq': 795204, 'action': 'skip-cash'}
-2026-10-21 22:50:42,869 V2-RISK EWYB 0xbe82f76637dba2c114c41df856c2c51e522e2cb8 KILL top10 holders 98%; LP only 0% locked/burned
 2026-10-21 22:50:42,869 V2 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe82f76637dba2c114c41df856c2c51e522e2cb8', 'sym': 'EWYB', 'price': 156.31, 'action': 'kill-risk', 'reasons': ['top10 holders 98%', 'LP only 0% locked/burned']}
 2026-10-21 22:50:42,869 {'ts': 1792594146, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe82f76637dba2c114c41df856c2c51e522e2cb8', 'tx': '0x681ff68385f833e1455295be53c9eb661ff4e47aa75cabd635ce96da00a93922', 'sym': 'EWYB', 'price': 156.31, 'liq': 227879, 'action': 'skip-cash'}
 2026-10-21 22:50:43,593 V2-RISK DNA 0xa991f61940095aea0724ef54077223b048c5cf7b KILL top10 holders 100%
@@ -298,3 +286,15 @@
 2026-10-22 09:11:59,147 V2-FILTER KEEP-ACTIVE 0x7dfd45e511a05d012d19264e2adf4acfe7717f1f pnl7d=599.81
 2026-10-22 09:12:05,307 V2-FILTER KEEP-ACTIVE 0x07a61c083420b5d95bd3e4738669b9a4fca3c046 pnl7d=163.47
 2026-10-22 09:12:08,633 tick equity=924.56 pnl=-75.44 head=129039848
+2026-10-22 09:12:15,685 V2-FILTER KEEP-PAUSED 0xc5606cde16fb8c39cc68d1d97700883ae951ff56 pnl7d=-11685.25
+2026-10-22 09:12:30,724 tick equity=924.57 pnl=-75.43 head=129039895
+2026-10-22 09:12:35,282 V2-FILTER KEEP-ACTIVE 0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3 pnl7d=814.16
+2026-10-22 09:12:42,096 V2-FILTER KEEP-PAUSED 0xe950337f36e45c316c53c69a5f285487b54f0bad pnl7d=0.00
+2026-10-22 09:12:51,749 tick equity=924.54 pnl=-75.46 head=129039944
+2026-10-22 09:12:52,207 V2-FILTER KEEP-PAUSED 0xc9ac2d47615508a16e46a3459eb4f564ad906a32 pnl7d=-1885.32
+2026-10-22 09:13:06,512 V2-FILTER PROMOTE 0xdf579d27140000251421f3bb2b4ed43835eb3b6b pnl7d=38.18
+2026-10-22 09:13:06,512 V2 {'ts': 1792631586, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'FILTER', 'action': 'promote', 'pnl7d': 38.18}
+2026-10-22 09:13:13,656 tick equity=924.19 pnl=-75.81 head=129039989
+2026-10-22 09:13:23,213 V2-FILTER KEEP-PAUSED 0x329ca263df30c3e506c39081403ec95d5942ece8 pnl7d=0.00
+2026-10-22 09:13:25,986 V2-FILTER KEEP-PAUSED 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a pnl7d=-119.39
+2026-10-22 09:13:34,835 tick equity=922.83 pnl=-77.17 head=129040038

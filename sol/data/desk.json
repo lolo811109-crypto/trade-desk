@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792631503,
+ "updated": 1792631602,
  "tokens_seen": 17,
  "risk": {
   "checked": 9,
@@ -50,13 +50,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.031,
+  "dd_today": -0.0314,
   "limit": -0.1
  },
  "v2": {
-  "equity": 948.63,
+  "equity": 948.28,
   "day_start": 979.0,
-  "pnl_today": -30.37,
+  "pnl_today": -30.72,
   "open_positions": 18,
   "closed_positions": 5,
   "closed_sells": 5,
@@ -73,17 +73,17 @@
   "copied": 6,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 5.3
+   "upnl": 5.47
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -10.58
+   "upnl": -10.83
   }
  },
  "baseline": {
-  "equity": 897.3,
+  "equity": 897.65,
   "day_start": 983.73,
-  "pnl_today": -86.43,
+  "pnl_today": -86.08,
   "closed_sells": 7,
   "win_rate": 0.143,
   "realized_today": -11.93,
@@ -794,9 +794,9 @@
   "warn_lp": 11
  },
  "v3": {
-  "equity": 989.75,
+  "equity": 989.65,
   "day_start": 1000.0,
-  "pnl_today": -10.25,
+  "pnl_today": -10.35,
   "open_positions": 6,
   "closed_positions": 3,
   "closed_sells": 3,
@@ -813,7 +813,7 @@
   "copied": 9,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": -0.26
+   "upnl": -0.35
   },
   "worst_open": {
    "sym": "Bert",
@@ -848,7 +848,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0102,
+  "dd_today": -0.0103,
   "limit": -0.1
  },
  "v3_track": {
