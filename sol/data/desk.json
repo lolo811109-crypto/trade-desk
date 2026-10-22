@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792695621,
- "tokens_seen": 38,
+ "updated": 1792696257,
+ "tokens_seen": 41,
  "risk": {
-  "checked": 33,
-  "killed": 18,
-  "passed": 30
+  "checked": 37,
+  "killed": 20,
+  "passed": 34
  },
  "kills": [
   {
@@ -92,47 +92,54 @@
    "sym": "SURY",
    "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
    "reasons": [
-    "liq $18,441 < $50,000 v2 floor"
+    "liq $17,405 < $50,000 v2 floor"
+   ]
+  },
+  {
+   "sym": "UHI",
+   "token": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
+   "reasons": [
+    "liq $32,523 < $50,000 v2 floor"
    ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0312,
+  "dd_today": -0.0347,
   "limit": -0.1
  },
  "v2": {
-  "equity": 898.37,
+  "equity": 895.1,
   "day_start": 927.27,
-  "pnl_today": -28.9,
-  "open_positions": 20,
-  "closed_positions": 30,
-  "closed_sells": 28,
-  "win_rate": 0.036,
-  "realized_today": -30.2,
+  "pnl_today": -32.17,
+  "open_positions": 21,
+  "closed_positions": 33,
+  "closed_sells": 31,
+  "win_rate": 0.032,
+  "realized_today": -33.22,
   "best_token": {
-   "sym": "OTC",
-   "pnl": -0.57
+   "sym": "CLAUDIA",
+   "pnl": -0.31
   },
   "worst_token": {
    "sym": "BURNIE",
    "pnl": -5.24
   },
-  "copied": 26,
+  "copied": 30,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 6.39
+   "upnl": 6.8
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.71
+   "upnl": -10.36
   }
  },
  "baseline": {
-  "equity": 814.21,
+  "equity": 808.07,
   "day_start": 860.79,
-  "pnl_today": -46.58,
+  "pnl_today": -52.72,
   "closed_sells": 17,
   "win_rate": 0.118,
   "realized_today": 3.52,
@@ -144,12 +151,12 @@
    "sym": "BURNIE",
    "pnl": -3.85
   },
-  "copied": 24
+  "copied": 26
  },
  "risk_track": {
-  "updated": 1792695575,
+  "updated": 1792696253,
   "rejected": {
-   "n": 32,
+   "n": 33,
    "1h": {
     "n": 30,
     "avg_ret": -0.0193,
@@ -179,13 +186,13 @@
    }
   },
   "passed": {
-   "n": 55,
+   "n": 58,
    "1h": {
-    "n": 52,
-    "avg_ret": -0.0199,
+    "n": 55,
+    "avg_ret": -0.0196,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.423
+    "up_pct": 0.4
    },
    "6h": {
     "n": 38,
@@ -195,22 +202,22 @@
     "up_pct": 0.421
    },
    "24h": {
-    "n": 22,
-    "avg_ret": -0.1075,
+    "n": 23,
+    "avg_ret": -0.1074,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.136
+    "up_pct": 0.13
    },
    "latest": {
-    "n": 52,
-    "avg_ret": -0.0684,
+    "n": 55,
+    "avg_ret": -0.0663,
     "bad_pct": 0.0,
     "winners": 2
    }
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 24,
+    "n": 25,
     "1h": {
      "n": 22,
      "avg_ret": -0.0098,
@@ -801,7 +808,7 @@
     "ret": {
      "1h": -0.0044,
      "6h": -0.058,
-     "24h": null
+     "24h": -0.1059
     },
     "rug": false
    },
@@ -1573,7 +1580,7 @@
     "ts": 1792692129,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0097,
      "6h": null,
      "24h": null
     },
@@ -1589,7 +1596,7 @@
     "ts": 1792692150,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0162,
      "6h": null,
      "24h": null
     },
@@ -1605,7 +1612,7 @@
     "ts": 1792692151,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.019,
      "6h": null,
      "24h": null
     },
@@ -1642,45 +1649,105 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "LARP",
+    "token": "EygStH4gHv1h4E8w4raYv6NGsrDiij3nbfCc26iTpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792695656,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "MANIFEST",
+    "token": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792695657,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "Kimchi",
+    "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792696044,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "UHI",
+    "token": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
+    "ok": false,
+    "reasons": [
+     "liq $32,523 < $50,000 v2 floor"
+    ],
+    "ts": 1792696253,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
  "risk_warn": {
-  "warn_lp": 20
+  "warn_lp": 21
  },
  "v3": {
-  "equity": 927.59,
+  "equity": 925.02,
   "day_start": 952.92,
-  "pnl_today": -25.33,
-  "open_positions": 5,
-  "closed_positions": 45,
-  "closed_sells": 43,
-  "win_rate": 0.023,
-  "realized_today": -36.13,
+  "pnl_today": -27.9,
+  "open_positions": 6,
+  "closed_positions": 48,
+  "closed_sells": 46,
+  "win_rate": 0.043,
+  "realized_today": -38.23,
   "best_token": {
-   "sym": "LARPCHECK",
-   "pnl": -0.06
+   "sym": "SI",
+   "pnl": 0.22
   },
   "worst_token": {
    "sym": "Kimchi",
    "pnl": -4.08
   },
-  "copied": 31,
+  "copied": 35,
   "best_open": {
    "sym": "DOPE",
-   "upnl": 0.85
+   "upnl": 1.27
   },
   "worst_open": {
-   "sym": "BLACKTOBER",
-   "upnl": -1.1
+   "sym": "CLAUDIA",
+   "upnl": -0.78
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 38,
-  "killed": 18,
-  "passed": 35
+  "checked": 42,
+  "killed": 20,
+  "passed": 39
  },
  "v3_kills": [
   {
@@ -1767,20 +1834,27 @@
    "sym": "SURY",
    "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
    "reasons": [
-    "liq $18,441 < $50,000 v2 floor"
+    "liq $17,405 < $50,000 v2 floor"
+   ]
+  },
+  {
+   "sym": "UHI",
+   "token": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
+   "reasons": [
+    "liq $32,523 < $50,000 v2 floor"
    ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0266,
+  "dd_today": -0.0293,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792695575,
+  "updated": 1792696253,
   "rejected": {
-   "n": 23,
+   "n": 24,
    "1h": {
     "n": 22,
     "avg_ret": 0.0338,
@@ -1810,13 +1884,13 @@
    }
   },
   "passed": {
-   "n": 44,
+   "n": 47,
    "1h": {
-    "n": 41,
-    "avg_ret": -0.0246,
+    "n": 44,
+    "avg_ret": -0.0239,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.341
+    "up_pct": 0.318
    },
    "6h": {
     "n": 26,
@@ -1826,22 +1900,22 @@
     "up_pct": 0.192
    },
    "24h": {
-    "n": 3,
-    "avg_ret": -0.3676,
-    "bad_pct": 0.333,
+    "n": 4,
+    "avg_ret": -0.3022,
+    "bad_pct": 0.25,
     "rug_pct": 0.0,
     "up_pct": 0.0
    },
    "latest": {
-    "n": 41,
-    "avg_ret": -0.0616,
-    "bad_pct": 0.024,
+    "n": 44,
+    "avg_ret": -0.0595,
+    "bad_pct": 0.023,
     "winners": 1
    }
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 19,
+    "n": 20,
     "1h": {
      "n": 18,
      "avg_ret": 0.0435,
@@ -2059,7 +2133,7 @@
     "ret": {
      "1h": -0.0044,
      "6h": -0.058,
-     "24h": null
+     "24h": -0.1059
     },
     "rug": false
    },
@@ -3010,7 +3084,7 @@
     "ts": 1792692146,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0097,
      "6h": null,
      "24h": null
     },
@@ -3027,7 +3101,7 @@
     "ts": 1792692151,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0162,
      "6h": null,
      "24h": null
     },
@@ -3044,7 +3118,7 @@
     "ts": 1792692152,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.019,
      "6h": null,
      "24h": null
     },
@@ -3058,6 +3132,71 @@
      "liq $18,441 < $50,000 v2 floor"
     ],
     "ts": 1792695575,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "LARP",
+    "token": "EygStH4gHv1h4E8w4raYv6NGsrDiij3nbfCc26iTpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792695656,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "MANIFEST",
+    "token": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 0.6% via pump.fun"
+    ],
+    "ts": 1792695658,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "Kimchi",
+    "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+    "ok": true,
+    "reasons": [
+     "warn: dev holding unknown"
+    ],
+    "ts": 1792696066,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "UHI",
+    "token": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
+    "ok": false,
+    "reasons": [
+     "liq $32,523 < $50,000 v2 floor"
+    ],
+    "ts": 1792696253,
     "src": "live",
     "ret": {
      "1h": null,
