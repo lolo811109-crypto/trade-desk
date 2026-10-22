@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792675059,
+ "updated": 1792675191,
  "tokens_seen": 33,
  "risk": {
   "checked": 26,
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0403,
+  "dd_today": -0.04,
   "limit": -0.1
  },
  "v2": {
-  "equity": 939.52,
+  "equity": 939.83,
   "day_start": 979.0,
-  "pnl_today": -39.48,
+  "pnl_today": -39.17,
   "open_positions": 15,
   "closed_positions": 23,
   "closed_sells": 24,
@@ -98,28 +98,28 @@
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -8.49
+   "upnl": -8.55
   }
  },
  "baseline": {
-  "equity": 871.74,
+  "equity": 870.63,
   "day_start": 983.73,
-  "pnl_today": -111.99,
-  "closed_sells": 18,
-  "win_rate": 0.222,
-  "realized_today": -15.59,
+  "pnl_today": -113.1,
+  "closed_sells": 19,
+  "win_rate": 0.211,
+  "realized_today": -19.71,
   "best_token": {
    "sym": "CYBER",
    "pnl": 8.9
   },
   "worst_token": {
-   "sym": "PHP",
-   "pnl": -6.33
+   "sym": "PULLBACK",
+   "pnl": -9.43
   },
   "copied": 27
  },
  "risk_track": {
-  "updated": 1792674891,
+  "updated": 1792675125,
   "rejected": {
    "n": 17,
    "1h": {
@@ -137,15 +137,15 @@
     "up_pct": 0.385
    },
    "24h": {
-    "n": 2,
-    "avg_ret": -0.0488,
+    "n": 3,
+    "avg_ret": -0.145,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.5
+    "up_pct": 0.333
    },
    "latest": {
     "n": 15,
-    "avg_ret": 0.0749,
+    "avg_ret": 0.0586,
     "bad_pct": 0.2,
     "winners": 2
    }
@@ -228,15 +228,15 @@
      "up_pct": 0.6
     },
     "24h": {
-     "n": 2,
-     "avg_ret": -0.0488,
+     "n": 3,
+     "avg_ret": -0.145,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.5
+     "up_pct": 0.333
     },
     "latest": {
      "n": 6,
-     "avg_ret": -0.0463,
+     "avg_ret": -0.087,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -554,7 +554,7 @@
     "ret": {
      "1h": -0.0259,
      "6h": -0.0931,
-     "24h": null
+     "24h": -0.3375
     },
     "rug": false
    },
@@ -1124,9 +1124,9 @@
   "warn_lp": 16
  },
  "v3": {
-  "equity": 969.94,
+  "equity": 970.25,
   "day_start": 1000.0,
-  "pnl_today": -30.06,
+  "pnl_today": -29.75,
   "open_positions": 10,
   "closed_positions": 20,
   "closed_sells": 20,
@@ -1143,7 +1143,7 @@
   "copied": 30,
   "best_open": {
    "sym": "JEANPHIL",
-   "upnl": -0.45
+   "upnl": -0.43
   },
   "worst_open": {
    "sym": "Bert",
@@ -1206,7 +1206,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0301,
+  "dd_today": -0.0297,
   "limit": -0.1
  },
  "v3_track": {
