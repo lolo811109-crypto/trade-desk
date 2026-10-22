@@ -1,16 +1,3 @@
-2026-10-23 01:18:59,318 tick equity=830.35 pnl=-169.65 head=129168688 v3=992.08
-2026-10-23 01:19:20,709 tick equity=830.35 pnl=-169.65 head=129168737 v3=992.08
-2026-10-23 01:19:42,598 tick equity=830.07 pnl=-169.93 head=129168785 v3=992.08
-2026-10-23 01:20:04,107 tick equity=830.15 pnl=-169.85 head=129168833 v3=992.08
-2026-10-23 01:20:26,120 tick equity=830.32 pnl=-169.68 head=129168881 v3=992.08
-2026-10-23 01:20:47,468 tick equity=830.02 pnl=-169.98 head=129168930 v3=992.08
-2026-10-23 01:21:09,449 tick equity=830.14 pnl=-169.86 head=129168977 v3=992.08
-2026-10-23 01:21:30,747 tick equity=830.14 pnl=-169.86 head=129169027 v3=992.08
-2026-10-23 01:21:52,769 tick equity=830.14 pnl=-169.86 head=129169074 v3=992.08
-2026-10-23 01:22:14,264 tick equity=830.29 pnl=-169.71 head=129169123 v3=992.11
-2026-10-23 01:22:35,908 tick equity=830.17 pnl=-169.83 head=129169171 v3=992.11
-2026-10-23 01:22:57,213 tick equity=830.16 pnl=-169.84 head=129169219 v3=992.11
-2026-10-23 01:23:19,135 tick equity=830.16 pnl=-169.84 head=129169266 v3=992.11
 2026-10-23 01:23:40,300 tick equity=830.38 pnl=-169.62 head=129169314 v3=992.15
 2026-10-23 01:24:02,402 tick equity=830.37 pnl=-169.63 head=129169362 v3=992.15
 2026-10-23 01:24:23,535 tick equity=830.37 pnl=-169.63 head=129169411 v3=992.15
@@ -298,3 +285,16 @@
 2026-10-23 06:08:29,604 tick equity=835.17 pnl=-164.83 head=129207113 v3=993.39
 2026-10-23 06:08:51,511 tick equity=834.96 pnl=-165.04 head=129207332 v3=993.39
 2026-10-23 06:09:14,744 tick equity=834.96 pnl=-165.04 head=129207381 v3=993.39
+2026-10-23 06:09:36,630 tick equity=834.20 pnl=-165.80 head=129207433 v3=993.39
+2026-10-23 06:09:59,075 tick equity=834.23 pnl=-165.77 head=129207481 v3=993.39
+2026-10-23 06:10:20,939 tick equity=834.26 pnl=-165.74 head=129207531 v3=993.39
+2026-10-23 06:10:43,602 tick equity=833.46 pnl=-166.54 head=129207579 v3=993.39
+2026-10-23 06:11:05,584 tick equity=833.73 pnl=-166.27 head=129207630 v3=993.39
+2026-10-23 06:34:09,191 loop error rpc fail eth_getTransactionCount
+2026-10-23 06:35:00,569 {'ts': 1792707073, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x78a7c4ca6e892539f9b00d81742c7cd690577777', 'tx': '0x0e8a6f7d765954c6e1e7b8a4d8bad4bcaa5da1def1e28e842267716f16dd18f0', 'action': 'skip-noprice'}
+2026-10-23 06:35:03,871 V2-RISK BNCB上市 0xce5e18d202efc0c7208e52b23dbc47ce3f427777 KILL buy_tax unknown; sell_tax unknown
+2026-10-23 06:35:03,872 V2 {'ts': 1792707156, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xce5e18d202efc0c7208e52b23dbc47ce3f427777', 'sym': 'BNCB上市', 'price': 1.794e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-23 06:35:07,355 V3-RISK BNCB上市 0xce5e18d202efc0c7208e52b23dbc47ce3f427777 KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%
+2026-10-23 06:35:07,355 V3 {'ts': 1792707156, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xce5e18d202efc0c7208e52b23dbc47ce3f427777', 'sym': 'BNCB上市', 'price': 1.794e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%']}
+2026-10-23 06:35:07,356 {'ts': 1792707156, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xce5e18d202efc0c7208e52b23dbc47ce3f427777', 'tx': '0x77007ef0a50fb11768b15f04267c1014f33ffd8e21db0db3c2c216ff2b3668ce', 'sym': 'BNCB上市', 'price': 1.794e-05, 'liq': 17752, 'action': 'buy', 'stake': 10.0}
+2026-10-23 06:35:07,547 {'ts': 1792708021, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'SELL', 'token': '0xce5e18d202efc0c7208e52b23dbc47ce3f427777', 'tx': '0x93851607441150d02c73b98d2674d18637e551ce1d8f1ffa5510bda924fa620c', 'sym': 'BNCB上市', 'price': 1.794e-05, 'liq': 17752, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}

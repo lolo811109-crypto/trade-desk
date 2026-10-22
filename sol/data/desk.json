@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792706933,
+ "updated": 1792708499,
  "tokens_seen": 47,
  "risk": {
-  "checked": 46,
+  "checked": 48,
   "killed": 24,
-  "passed": 43
+  "passed": 45
  },
  "kills": [
   {
@@ -127,18 +127,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0432,
+  "dd_today": -0.045,
   "limit": -0.1
  },
  "v2": {
-  "equity": 887.19,
+  "equity": 885.56,
   "day_start": 927.27,
-  "pnl_today": -40.08,
-  "open_positions": 21,
-  "closed_positions": 42,
-  "closed_sells": 40,
-  "win_rate": 0.1,
-  "realized_today": -41.46,
+  "pnl_today": -41.71,
+  "open_positions": 22,
+  "closed_positions": 43,
+  "closed_sells": 41,
+  "win_rate": 0.098,
+  "realized_today": -44.91,
   "best_token": {
    "sym": "LARP",
    "pnl": 1.34
@@ -147,23 +147,23 @@
    "sym": "Kimchi",
    "pnl": -6.57
   },
-  "copied": 39,
+  "copied": 41,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 6.59
+   "upnl": 6.71
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -11.59
+   "upnl": -12.12
   }
  },
  "baseline": {
-  "equity": 776.2,
+  "equity": 771.1,
   "day_start": 860.79,
-  "pnl_today": -84.59,
-  "closed_sells": 20,
-  "win_rate": 0.15,
-  "realized_today": 0.49,
+  "pnl_today": -89.69,
+  "closed_sells": 21,
+  "win_rate": 0.143,
+  "realized_today": -1.45,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -172,10 +172,10 @@
    "sym": "PHP",
    "pnl": -5.77
   },
-  "copied": 33
+  "copied": 35
  },
  "risk_track": {
-  "updated": 1792706899,
+  "updated": 1792708499,
   "rejected": {
    "n": 36,
    "1h": {
@@ -207,7 +207,7 @@
    }
   },
   "passed": {
-   "n": 62,
+   "n": 63,
    "1h": {
     "n": 62,
     "avg_ret": -0.0092,
@@ -216,11 +216,11 @@
     "up_pct": 0.452
    },
    "6h": {
-    "n": 46,
-    "avg_ret": -0.0337,
-    "bad_pct": 0.022,
+    "n": 48,
+    "avg_ret": -0.036,
+    "bad_pct": 0.021,
     "rug_pct": 0.0,
-    "up_pct": 0.37
+    "up_pct": 0.354
    },
    "24h": {
     "n": 23,
@@ -231,7 +231,7 @@
    },
    "latest": {
     "n": 62,
-    "avg_ret": -0.0609,
+    "avg_ret": -0.0614,
     "bad_pct": 0.016,
     "winners": 2
    }
@@ -1464,7 +1464,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0637,
-     "6h": null,
+     "6h": -0.1032,
      "24h": null
     },
     "rug": false
@@ -1478,7 +1478,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0877,
-     "6h": null,
+     "6h": -0.0769,
      "24h": null
     },
     "rug": false
@@ -1836,6 +1836,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "EXFIL",
+    "token": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792708492,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1843,10 +1857,10 @@
   "warn_lp": 21
  },
  "v3": {
-  "equity": 921.22,
+  "equity": 919.89,
   "day_start": 952.92,
-  "pnl_today": -31.7,
-  "open_positions": 2,
+  "pnl_today": -33.03,
+  "open_positions": 4,
   "closed_positions": 65,
   "closed_sells": 63,
   "win_rate": 0.111,
@@ -1859,22 +1873,22 @@
    "sym": "Kimchi",
    "pnl": -6.09
   },
-  "copied": 48,
+  "copied": 50,
   "best_open": {
    "sym": "Pepper",
-   "upnl": 1.52
+   "upnl": 1.29
   },
   "worst_open": {
    "sym": "Kimchi",
-   "upnl": 0.87
+   "upnl": -0.59
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 55,
+  "checked": 57,
   "killed": 24,
-  "passed": 52
+  "passed": 54
  },
  "v3_kills": [
   {
@@ -1996,11 +2010,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0333,
+  "dd_today": -0.0347,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792706899,
+  "updated": 1792708499,
   "rejected": {
    "n": 27,
    "1h": {
@@ -2041,11 +2055,11 @@
     "up_pct": 0.385
    },
    "6h": {
-    "n": 36,
-    "avg_ret": -0.0676,
-    "bad_pct": 0.028,
+    "n": 37,
+    "avg_ret": -0.0678,
+    "bad_pct": 0.027,
     "rug_pct": 0.0,
-    "up_pct": 0.167
+    "up_pct": 0.162
    },
    "24h": {
     "n": 5,
@@ -2056,7 +2070,7 @@
    },
    "latest": {
     "n": 52,
-    "avg_ret": -0.0576,
+    "avg_ret": -0.0574,
     "bad_pct": 0.038,
     "winners": 1
    }
@@ -3102,7 +3116,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0877,
-     "6h": null,
+     "6h": -0.0769,
      "24h": null
     },
     "rug": false
