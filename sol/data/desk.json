@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792681282,
- "tokens_seen": 37,
+ "updated": 1792682031,
+ "tokens_seen": 38,
  "risk": {
-  "checked": 37,
-  "killed": 21,
-  "passed": 31
+  "checked": 39,
+  "killed": 22,
+  "passed": 33
  },
  "kills": [
   {
@@ -71,7 +71,7 @@
    "sym": "CyberAxe",
    "token": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
    "reasons": [
-    "liq $42,197 < $50,000 v2 floor"
+    "liq $39,337 < $50,000 v2 floor"
    ]
   },
   {
@@ -92,40 +92,40 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.047,
+  "dd_today": -0.0498,
   "limit": -0.1
  },
  "v2": {
-  "equity": 932.95,
+  "equity": 930.25,
   "day_start": 979.0,
-  "pnl_today": -46.05,
-  "open_positions": 19,
-  "closed_positions": 29,
-  "closed_sells": 30,
-  "win_rate": 0.133,
-  "realized_today": -35.49,
+  "pnl_today": -48.75,
+  "open_positions": 20,
+  "closed_positions": 30,
+  "closed_sells": 31,
+  "win_rate": 0.129,
+  "realized_today": -36.34,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 9.99
   },
   "worst_token": {
    "sym": "CLAUDIA",
-   "pnl": -11.33
+   "pnl": -12.18
   },
-  "copied": 31,
+  "copied": 33,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 10.9
+   "upnl": 11.41
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -8.05
+   "upnl": -8.22
   }
  },
  "baseline": {
-  "equity": 872.21,
+  "equity": 868.04,
   "day_start": 983.73,
-  "pnl_today": -111.52,
+  "pnl_today": -115.69,
   "closed_sells": 25,
   "win_rate": 0.2,
   "realized_today": -24.69,
@@ -1272,14 +1272,14 @@
   "warn_lp": 16
  },
  "v3": {
-  "equity": 959.01,
+  "equity": 955.48,
   "day_start": 1000.0,
-  "pnl_today": -40.99,
-  "open_positions": 15,
-  "closed_positions": 27,
-  "closed_sells": 27,
-  "win_rate": 0.148,
-  "realized_today": -28.39,
+  "pnl_today": -44.52,
+  "open_positions": 16,
+  "closed_positions": 29,
+  "closed_sells": 29,
+  "win_rate": 0.138,
+  "realized_today": -29.75,
   "best_token": {
    "sym": "CYBER",
    "pnl": 3.08
@@ -1288,22 +1288,22 @@
    "sym": "CRAWL",
    "pnl": -5.12
   },
-  "copied": 42,
+  "copied": 45,
   "best_open": {
    "sym": "TCG",
-   "upnl": -0.45
+   "upnl": -0.29
   },
   "worst_open": {
-   "sym": "Bert",
-   "upnl": -1.36
+   "sym": "BURNIE",
+   "upnl": -1.52
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 46,
-  "killed": 16,
-  "passed": 42
+  "checked": 49,
+  "killed": 17,
+  "passed": 45
  },
  "v3_kills": [
   {
@@ -1354,7 +1354,7 @@
    "sym": "CyberAxe",
    "token": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
    "reasons": [
-    "liq $42,197 < $50,000 v2 floor"
+    "liq $39,337 < $50,000 v2 floor"
    ]
   },
   {
@@ -1375,7 +1375,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.041,
+  "dd_today": -0.0445,
   "limit": -0.1
  },
  "v3_track": {
