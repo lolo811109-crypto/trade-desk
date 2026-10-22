@@ -160,3 +160,5 @@ async function mount(){const P=document.getElementById('tdpipe'),G=document.getE
  const s=await j(src);pipe(P,events(s),c);gantt(G,s,c);ticker(tickerLines(s,(P||G).dataset.tag||''))}
 if(document.readyState=='loading')addEventListener('DOMContentLoaded',mount);else mount();setInterval(mount,60000);
 })();
+
+;(function(){try{if(window.self!==window.top){var h=function(){document.querySelectorAll('a[href="../desk/"],a[href="../desk"],a.bk').forEach(function(a){a.style.display='none'})};document.readyState==='loading'?document.addEventListener('DOMContentLoaded',h):h()}}catch(e){}})();
