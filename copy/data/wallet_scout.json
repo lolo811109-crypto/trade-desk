@@ -1,0 +1,2020 @@
+{
+ "generated": 1792691234,
+ "method": "leaderboard WEEK∩MONTH (OVERALL+SPORTS, top500 each) PnL>0; 30d trades; filters size$20-2000, both-sides<=25%, scalp60s<=15%, entries 0.3-0.7>=40%, <=24h markets>=40%; 7d backtest $10/buy, $100 budget, +2min price, one/market, mirror exits, official settle",
+ "ranked": [
+  {
+   "addr": "0x91e67d77b45558ce69238bf8a79e2e902b1ee9c5",
+   "name": "tin54321",
+   "pnl7": 134875,
+   "pnl30": 134875,
+   "n30": 164,
+   "n7": 159,
+   "med_usd": 2000.0,
+   "both_sides": 0.02,
+   "in_0.3_0.7": 0.8,
+   "short_24h": 1.0,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 24,
+   "bt_closed": 24,
+   "bt_win": 0.79,
+   "bt_pnl": 186.74,
+   "bt_lat_cost": 0.73,
+   "bt_skips": {
+    "price_range": 23,
+    "same_market": 49,
+    "latency_px": 1,
+    "budget": 31,
+    "long_dated": 2
+   }
+  },
+  {
+   "addr": "0x122b758a408246a180efeb5ba654e21b553fac59",
+   "name": "6kke1t",
+   "pnl7": 55867,
+   "pnl30": 107174,
+   "n30": 3000,
+   "n7": 1880,
+   "med_usd": 38.4,
+   "both_sides": 0.07,
+   "in_0.3_0.7": 0.48,
+   "short_24h": 1.0,
+   "scalp60s": 0.14,
+   "truncated": true,
+   "reject": "",
+   "bt_buys": 55,
+   "bt_closed": 55,
+   "bt_win": 0.22,
+   "bt_pnl": 117.98,
+   "bt_lat_cost": 5.46,
+   "bt_skips": {
+    "price_range": 597,
+    "latency_px": 251,
+    "same_market": 427
+   }
+  },
+  {
+   "addr": "0x86eb13b20d774810b92a3be064718fec5a926566",
+   "name": "isco22",
+   "pnl7": 29668,
+   "pnl30": 39451,
+   "n30": 477,
+   "n7": 230,
+   "med_usd": 450.0,
+   "both_sides": 0.03,
+   "in_0.3_0.7": 0.54,
+   "short_24h": 1.0,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 24,
+   "bt_closed": 24,
+   "bt_win": 0.75,
+   "bt_pnl": 114.19,
+   "bt_lat_cost": 2.53,
+   "bt_skips": {
+    "price_range": 140,
+    "same_market": 36,
+    "latency_px": 2
+   }
+  },
+  {
+   "addr": "0x0df2c9deeb278ade65454023eca05cdcaa025d51",
+   "name": "Ksi172",
+   "pnl7": 111083,
+   "pnl30": 180035,
+   "n30": 230,
+   "n7": 100,
+   "med_usd": 149.7,
+   "both_sides": 0.0,
+   "in_0.3_0.7": 0.99,
+   "short_24h": 1.0,
+   "scalp60s": 0.01,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 13,
+   "bt_closed": 13,
+   "bt_win": 0.69,
+   "bt_pnl": 84.13,
+   "bt_lat_cost": 1.41,
+   "bt_skips": {
+    "same_market": 76
+   }
+  },
+  {
+   "addr": "0x72638c8d939fd0205925025b1183d8db4a360851",
+   "name": "alpheclabs2",
+   "pnl7": 30945,
+   "pnl30": 30945,
+   "n30": 1354,
+   "n7": 1354,
+   "med_usd": 35.5,
+   "both_sides": 0.19,
+   "in_0.3_0.7": 0.51,
+   "short_24h": 1.0,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 10,
+   "bt_closed": 10,
+   "bt_win": 0.6,
+   "bt_pnl": 81.07,
+   "bt_lat_cost": 2.46,
+   "bt_skips": {
+    "latency_px": 12,
+    "same_market": 37,
+    "price_range": 666,
+    "budget": 629
+   }
+  },
+  {
+   "addr": "0x3d42e45cbf1c671733fbb8470924ec1bef165bf3",
+   "name": "noosh3",
+   "pnl7": 18812,
+   "pnl30": 24362,
+   "n30": 926,
+   "n7": 375,
+   "med_usd": 70.0,
+   "both_sides": 0.04,
+   "in_0.3_0.7": 0.66,
+   "short_24h": 0.98,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 11,
+   "bt_closed": 11,
+   "bt_win": 0.91,
+   "bt_pnl": 79.21,
+   "bt_lat_cost": 1.29,
+   "bt_skips": {
+    "latency_px": 5,
+    "same_market": 5,
+    "price_range": 83,
+    "budget": 207,
+    "long_dated": 15
+   }
+  },
+  {
+   "addr": "0x41d28673f6fbcf28d08e6b2bd87072b34073d7c9",
+   "name": "Shimi1234",
+   "pnl7": 23791,
+   "pnl30": 21656,
+   "n30": 149,
+   "n7": 130,
+   "med_usd": 1931.3,
+   "both_sides": 0.0,
+   "in_0.3_0.7": 0.6,
+   "short_24h": 1.0,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 23,
+   "bt_closed": 23,
+   "bt_win": 0.61,
+   "bt_pnl": 73.21,
+   "bt_lat_cost": 0.76,
+   "bt_skips": {
+    "price_range": 38,
+    "long_dated": 19,
+    "same_market": 3,
+    "latency_px": 1,
+    "budget": 12
+   }
+  },
+  {
+   "addr": "0x5c89768e750ef8baecad3307aa8a8333e65589e8",
+   "name": "BanfieldChris",
+   "pnl7": 28206,
+   "pnl30": 26629,
+   "n30": 133,
+   "n7": 35,
+   "med_usd": 174.7,
+   "both_sides": 0.0,
+   "in_0.3_0.7": 0.76,
+   "short_24h": 0.97,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 7,
+   "bt_closed": 7,
+   "bt_win": 1.0,
+   "bt_pnl": 72.66,
+   "bt_lat_cost": 0.33,
+   "bt_skips": {
+    "price_range": 11,
+    "same_market": 14,
+    "latency_px": 2
+   }
+  },
+  {
+   "addr": "0x6b97ebe911d7f2e5e3e8c4a0faad4a5c7c0b8d30",
+   "name": "vibing123",
+   "pnl7": 63807,
+   "pnl30": 141049,
+   "n30": 3000,
+   "n7": 1386,
+   "med_usd": 22.7,
+   "both_sides": 0.0,
+   "in_0.3_0.7": 0.85,
+   "short_24h": 0.93,
+   "scalp60s": 0.0,
+   "truncated": true,
+   "reject": "",
+   "bt_buys": 10,
+   "bt_closed": 10,
+   "bt_win": 0.9,
+   "bt_pnl": 71.94,
+   "bt_lat_cost": 2.2,
+   "bt_skips": {
+    "same_market": 112,
+    "long_dated": 63,
+    "budget": 1039,
+    "price_range": 158
+   }
+  },
+  {
+   "addr": "0xeda67a7fbbc9153b1163cce738eea503ec9c84c5",
+   "name": "arman1969",
+   "pnl7": 9901,
+   "pnl30": 17253,
+   "n30": 387,
+   "n7": 107,
+   "med_usd": 52.3,
+   "both_sides": 0.08,
+   "in_0.3_0.7": 0.64,
+   "short_24h": 1.0,
+   "scalp60s": 0.01,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 10,
+   "bt_closed": 10,
+   "bt_win": 0.7,
+   "bt_pnl": 68.49,
+   "bt_lat_cost": 4.39,
+   "bt_skips": {
+    "price_range": 25,
+    "latency_px": 6,
+    "same_market": 24
+   }
+  },
+  {
+   "addr": "0xcbd4e59cd04a74291e3333630eeec431e4814e22",
+   "name": "troonnnn",
+   "pnl7": 91877,
+   "pnl30": 29732,
+   "n30": 77,
+   "n7": 69,
+   "med_usd": 667.1,
+   "both_sides": 0.07,
+   "in_0.3_0.7": 0.61,
+   "short_24h": 1.0,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 9,
+   "bt_closed": 9,
+   "bt_win": 0.67,
+   "bt_pnl": 62.05,
+   "bt_lat_cost": 0.01,
+   "bt_skips": {
+    "latency_px": 2,
+    "same_market": 3,
+    "price_range": 1
+   }
+  },
+  {
+   "addr": "0x4097cd1e22ce8f74a9109a641117d10880779397",
+   "name": "suzmie",
+   "pnl7": 23227,
+   "pnl30": 18042,
+   "n30": 934,
+   "n7": 162,
+   "med_usd": 40.5,
+   "both_sides": 0.02,
+   "in_0.3_0.7": 0.76,
+   "short_24h": 1.0,
+   "scalp60s": 0.07,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 19,
+   "bt_closed": 19,
+   "bt_win": 0.42,
+   "bt_pnl": 61.25,
+   "bt_lat_cost": 2.71,
+   "bt_skips": {
+    "price_range": 25,
+    "same_market": 51,
+    "latency_px": 10,
+    "budget": 17
+   }
+  },
+  {
+   "addr": "0xc9bfc7986767173b4f1c3fc9b2c6b255fc7381c0",
+   "name": "0xC9BFc7986767173b4f1c3FC9B2c6b255F",
+   "pnl7": 168142,
+   "pnl30": 171828,
+   "n30": 3000,
+   "n7": 2929,
+   "med_usd": 77.3,
+   "both_sides": 0.02,
+   "in_0.3_0.7": 0.77,
+   "short_24h": 0.98,
+   "scalp60s": 0.0,
+   "truncated": true,
+   "reject": "",
+   "bt_buys": 10,
+   "bt_closed": 10,
+   "bt_win": 0.8,
+   "bt_pnl": 58.78,
+   "bt_lat_cost": 1.34,
+   "bt_skips": {
+    "price_range": 641,
+    "same_market": 182,
+    "budget": 2095,
+    "long_dated": 1
+   }
+  },
+  {
+   "addr": "0xaa6fc72915776598fd7f6b45b04f03f9c26a1dfe",
+   "name": "FinalOrder",
+   "pnl7": 11395,
+   "pnl30": 25956,
+   "n30": 695,
+   "n7": 293,
+   "med_usd": 100.0,
+   "both_sides": 0.02,
+   "in_0.3_0.7": 0.92,
+   "short_24h": 1.0,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 17,
+   "bt_closed": 17,
+   "bt_win": 0.59,
+   "bt_pnl": 57.92,
+   "bt_lat_cost": 1.36,
+   "bt_skips": {
+    "price_range": 24,
+    "same_market": 15,
+    "long_dated": 2,
+    "latency_px": 5,
+    "budget": 174
+   }
+  },
+  {
+   "addr": "0x11dee4993359477f1705643435a4ac88dc53bb27",
+   "name": "Pjosully",
+   "pnl7": 72766,
+   "pnl30": 24005,
+   "n30": 81,
+   "n7": 38,
+   "med_usd": 1000.0,
+   "both_sides": 0.03,
+   "in_0.3_0.7": 0.84,
+   "short_24h": 1.0,
+   "scalp60s": 0.0,
+   "truncated": false,
+   "reject": "",
+   "bt_buys": 12,
+   "bt_closed": 12,
+   "bt_win": 0.67,
+   "bt_pnl": 53.92,
+   "bt_lat_cost": 0.01,
+   "bt_skips": {
+    "same_market": 16,
+    "price_range": 5
+   }
+  }
+ ],
+ "rejected": [
+  {
+   "addr": "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a",
+   "name": "joseph00677",
+   "n30": 712,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+   "name": "BreakTheBank",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+   "name": "e46m3",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+   "name": "HomeRunHazard",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+   "name": "takeormake",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+   "name": "balthazar",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+   "name": "donthackme",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xb0e74df9430a089aa102e2207af5fde1967439d2",
+   "name": null,
+   "n30": 5,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
+   "name": "paddaa",
+   "n30": 1596,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x2b5920274740ca61745eeb077587bf5bb4ff9db6",
+   "name": "aHjCz",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x1387d145aaf01f6e33b66525dda6e1f51f6955f8",
+   "name": "Lucerys",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x5815db9fdf0e0ffdc1d1f759916b221339570ae7",
+   "name": "nb1985",
+   "n30": 106,
+   "reject": "size"
+  },
+  {
+   "addr": "0x4868c31e81040e002b41984842b84bae8923a1c1",
+   "name": "alex20011",
+   "n30": 3000,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98",
+   "name": "keeptheblueflagflyinghigh",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xe949065b6c64308369c26dc590121623a5a4dea6",
+   "name": "zerone777",
+   "n30": 3000,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xc1b5f266564e6d4907cf84bdf5a8f91621ef5d85",
+   "name": "kaxel78",
+   "n30": 2977,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xe18ecc345e00ee7c4f2d1f676f3dd2acb112f826",
+   "name": "ArielFilipino",
+   "n30": 944,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+   "name": "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xa2a78bb796f56b1b174b29eff72af4f0c558627b",
+   "name": null,
+   "n30": 22,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x111f73e91f85b6fe4de1ddec3de2fe32122e355b",
+   "name": "Papeasy",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x8bac34bb7b51b4d63b128eb711d76706efdc35ca",
+   "name": "akroll",
+   "n30": 3000,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x72487021e3339827c476592585c15ae7f0fa7e72",
+   "name": "pollo07",
+   "n30": 3000,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x8f6970acd7c9466fc1d09a7c17071705c8e52923",
+   "name": "0x8f6970acd7c9466fc1d09a7c17071705c8e52923-1792437064758",
+   "n30": 2987,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f",
+   "name": "glm4.1.fund",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+   "name": "GoalLineGhost",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xdaef2be2a19ad331737d06545f85615b094554e9",
+   "name": "PEYZ-BIGGEST-FAN",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x285faa3e3d1465cf3ff1bff1e1d14891f5b8495f",
+   "name": "yabanci",
+   "n30": 1038,
+   "reject": "size"
+  },
+  {
+   "addr": "0xebfdb8164f0e0748818d6c7a9ac85a323267fd63",
+   "name": "robustmst",
+   "n30": 362,
+   "reject": "size"
+  },
+  {
+   "addr": "0x38891af2ad2f103ab8dc896c0243d2646deffe34",
+   "name": "pikachu2508",
+   "n30": 53,
+   "reject": "size"
+  },
+  {
+   "addr": "0x69f0c154a3412f2b3fa7eb22c6d08e6b5b32fb27",
+   "name": "0x69f0C154a3412F2b3Fa7eB22c6d08E6B5B32FB27-1778811502354",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x9d0dcd0c8aa0526303fd9e17fff4666ef52d2e6d",
+   "name": "Vale54holi",
+   "n30": 2485,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x227f7ba7fcc35b7f8fc08aa6b075f5220da2a574",
+   "name": "Likaseent",
+   "n30": 2358,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x6575759174ad221bba9947bc3f18750ec769b198",
+   "name": "dromedaryy",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x731a241767938bb23d1b2fac4c9cd2f3cea9033f",
+   "name": "CoinTrick",
+   "n30": 3000,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xa7d1ae08567d192db3c3cf1858c62c76dc8cb824",
+   "name": "Cinibengales",
+   "n30": 134,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x9b129ad05bc0a8df3c73dfcc66fe75252daec2d5",
+   "name": "0x9b129aD05Bc0a8df3C73DfCC66fE75252DaEC2D5-1778811687225",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x924379a79c64b77ad5816ad362122a5f6228658e",
+   "name": "Kch-Temp",
+   "n30": 2246,
+   "reject": "size"
+  },
+  {
+   "addr": "0x0c787cc2962ee6464414da592b892c3886e077f1",
+   "name": "bbb17367162806",
+   "n30": 1147,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xde3131239a358be036397ee2c152e256e6b3df79",
+   "name": "crisp1973",
+   "n30": 1141,
+   "reject": "size"
+  },
+  {
+   "addr": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+   "name": "purplegatto",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),long_dated"
+  },
+  {
+   "addr": "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+   "name": "Tokor",
+   "n30": 3000,
+   "reject": "both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x0629ad7753ba6a7bf22dc816df228e92364c501d",
+   "name": "fourcoin15m",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x4a0eecbf4d18cb6b868f30a7b6e75b7905b9a4b1",
+   "name": "forgotmydinner",
+   "n30": 3000,
+   "reject": "size,long_dated"
+  },
+  {
+   "addr": "0x443971236a701d5f50bf4e305f0cbd3bf77f238d",
+   "name": "naeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+   "n30": 301,
+   "reject": "both_sides(MM),price_range"
+  },
+  {
+   "addr": "0xda3a9b7afff7b44ad4fd75308723194e0a11381f",
+   "name": "Gooooooollllllllll",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x79ae097215202b5d01f98e4479fb219102469a4a",
+   "name": "CORGII",
+   "n30": 2450,
+   "reject": "size"
+  },
+  {
+   "addr": "0x5bfe9469c7c4035325024c846bc530c9d29e3258",
+   "name": "01258787xy48487484545122",
+   "n30": 3000,
+   "reject": "both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x511f9c771449162349795d17becf8b37031acbe1",
+   "name": "Bigggggggg",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xc95ed399d2fbaec9461f2abd70e0d96df1921288",
+   "name": "Siddhartha1",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x95c6c9a6727ed203e97230dda61ab19a020e1508",
+   "name": "DelidelaDele",
+   "n30": 2157,
+   "reject": "size"
+  },
+  {
+   "addr": "0xf72f81c7449f1c87f7131aaebeed13bcaf75a115",
+   "name": "dhgreg",
+   "n30": 139,
+   "reject": "size"
+  },
+  {
+   "addr": "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b",
+   "name": "Wiretransferxyz",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
+   "name": "Talvez10",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x4c8cdcdd4c92bf44e74a642254f7414de14de36f",
+   "name": "defillama7",
+   "n30": 800,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223",
+   "name": "Jsram",
+   "n30": 3000,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0xc04eba3d4fb1729de321db9c4e1c90f55790c1f9",
+   "name": "klli27",
+   "n30": 3000,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xfbe66593e49c4e7a7180a2582f041158bfb800f8",
+   "name": "gaven-willwin",
+   "n30": 48,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+   "name": "redvinny",
+   "n30": 3000,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x21ffd2b7a212a6f277ed3eca1a9f8efcbca90d71",
+   "name": "Haradwaith",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+   "name": "classified",
+   "n30": 3000,
+   "reject": "both_sides(MM),price_range,long_dated"
+  },
+  {
+   "addr": "0x676c1bb692c76b57b06f1b93817515acfa5ce139",
+   "name": "para-Vision",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xf2f6af4f27ec2dcf4072095ab804016e14cd5817",
+   "name": "gopfan2",
+   "n30": 1240,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+   "name": "getbipped",
+   "n30": 2916,
+   "reject": "size,both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x074a3a0ffc6e1077a9d7fcbd774029e0cc6ef0e0",
+   "name": "adururu",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xe5502f3b033ebcd64233b5ffc43c44c24170be3f",
+   "name": "ferdinand2",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x99e42eb9038705165b22f821e27659c1dc41e4c4",
+   "name": "acorp",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x0f7fb628af9ea8f0eb3d8ca70a4c57404f60b075",
+   "name": null,
+   "n30": 0,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0xee00ba338c59557141789b127927a55f5cc5cea1",
+   "name": "S-Works",
+   "n30": 957,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x8e460e67eb35f8bc6cca413dfa6693c8a25c6c24",
+   "name": null,
+   "n30": 1,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x2ce8505aa641791eb8460f6ac6bf5c0511e34527",
+   "name": "0x2cE8505aA641791EB8460f6ac6bf5C0511E34527-1746735481513",
+   "n30": 743,
+   "reject": "size"
+  },
+  {
+   "addr": "0x446884aa55e3dcf7123d9a3d6243c4e34b70b165",
+   "name": "0x446884aa55e3dCF7123D9A3D6243c4E34B70B165-1791060354625",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x448861155279dbf833d041b963e3ac854599e319",
+   "name": "0x448861155279dbf833d041b963e3ac854599e319",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0xfbedb045813457be883ad83dd1078e88a2a1a665",
+   "name": "SpringlyFawl",
+   "n30": 3000,
+   "reject": "size,scalper,price_range,long_dated"
+  },
+  {
+   "addr": "0xae2a545c068389c5aab3466cecef33259e55384d",
+   "name": "haveagoodday",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xa797d6bd8fe6e404bb4d8e4ab3d97c38336fdede",
+   "name": "LonnieHawkins",
+   "n30": 3000,
+   "reject": "size,scalper"
+  },
+  {
+   "addr": "0xcf0c70317fd5e4e4429758b3d80a7b7f3762f2bb",
+   "name": "oxe78sh4w98",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
+   "name": "WarriorH",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),price_range,long_dated"
+  },
+  {
+   "addr": "0xb35f674af4603c9602dfbf39564087e94897cf4c",
+   "name": "calculate10",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper"
+  },
+  {
+   "addr": "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+   "name": "suntori",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xe613b515bd46b1585a8b137a4d291d9b80bd540e",
+   "name": "Gucky-45",
+   "n30": 3000,
+   "reject": "size,long_dated"
+  },
+  {
+   "addr": "0x91feec8af2b517f024d91564ee108d707cc0c1c6",
+   "name": "NordhavenCap",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xad5353afe30c2da57709e2704ef3ccdcf67eef24",
+   "name": "AJSV",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x6276ea490d6ca3a539f1d571a89d53d26e9f9db5",
+   "name": "VerilyWinningly",
+   "n30": 3000,
+   "reject": "size,scalper,long_dated"
+  },
+  {
+   "addr": "0x60089ea3162461da70d4f9d813634d46cc20f931",
+   "name": null,
+   "n30": 3,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+   "name": "0x06dc51826bc524d9a83770e7de9dd7e005b0452",
+   "n30": 3000,
+   "reject": "both_sides(MM),price_range,long_dated"
+  },
+  {
+   "addr": "0xb4164e085a0503532989d487c4b4b19f4288dd7b",
+   "name": "MKSafe",
+   "n30": 752,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x028602e5b0909dd7864f884f899ff287a72cf61d",
+   "name": "forsenxd",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x457f2814dac53a0a9951b5c2ea5a9db20896aa1a",
+   "name": "Greedo",
+   "n30": 2275,
+   "reject": "size"
+  },
+  {
+   "addr": "0x16a5aae21fad63f3ffb929e6cddb673c83500ea5",
+   "name": null,
+   "n30": 4,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+   "name": "oieshfn345",
+   "n30": 3000,
+   "reject": "both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x3435519d1d620440c7dab8b5c9ec5d79c1a5a1ed",
+   "name": "veliMax",
+   "n30": 2281,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0x46072f22bc5624f7ff43489d570fdc7e745ad542",
+   "name": null,
+   "n30": 29,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0xe40ecff63ec661d218a86c048186ac83389a9770",
+   "name": "lllllllIlll",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xc4a68d127318fd917a188c35e839a0707e374e4e",
+   "name": "Raisuu",
+   "n30": 45,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+   "name": "coinlaundry",
+   "n30": 944,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xc7d02944a76b9f83b199e9090ecc92c82d241f8a",
+   "name": "0xc7D02944A76B9F83B199e9090ECC92C82d241F8a-1776944395495",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),price_range,long_dated"
+  },
+  {
+   "addr": "0xc53375ff94e96100f2b30a4b5775db35218d69a9",
+   "name": "dangerously-skip-permissions",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xa3282d3e882501229c75d0caf134e62e3afb4977",
+   "name": "korda77",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xf880add3ab145ec40627abe09217bc7b51bd89c0",
+   "name": "fakeky",
+   "n30": 227,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x792f8e8bae0323abf8927c6820863fbe8a98328a",
+   "name": null,
+   "n30": 2,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x3c3ac5fb217e2aee15e00198f4c47f6bb29c8b5f",
+   "name": "778908",
+   "n30": 371,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x8861bcb388f3cd0a4bde4553b02ffe7f57b039f7",
+   "name": "mbmbbbmbv",
+   "n30": 35,
+   "reject": "size"
+  },
+  {
+   "addr": "0xb10bf118b2a3c1cff0379a4134a82eb6d51e0b04",
+   "name": "saintaphextwin",
+   "n30": 1526,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x84ec4b5b2dbf75d07041b7b89f0a82647e3a72c1",
+   "name": "FeedTheBigBird",
+   "n30": 888,
+   "reject": "size"
+  },
+  {
+   "addr": "0x7eb0803aae3d8b3e2e7f186a0fbcdfedded73282",
+   "name": null,
+   "n30": 16,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x086934317f099d0279493b3f73a954ee896114f1",
+   "name": "MiuMiuYan",
+   "n30": 245,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xc29198ad764bd6adaf7bb971a3757a689ece5d74",
+   "name": "SnakeBall",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x780f249bb117d07c981d1c0e5690eb4fbe698955",
+   "name": "vsdiz1337",
+   "n30": 758,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x7cd5b2a057968376826c74e8c378ee36c0472b75",
+   "name": "222000YE",
+   "n30": 2572,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xfc6b3e69e3c061acd99b1782d4c2823b0022e982",
+   "name": "sddddd1",
+   "n30": 552,
+   "reject": "size"
+  },
+  {
+   "addr": "0x71ca04d689bc38c5e4dcda8a4d743f279c5a3501",
+   "name": "Ronaldo2100",
+   "n30": 374,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xb55fa1296e6ec55d0ce53d93b9237389f11764d4",
+   "name": "0xb55fa1296E6ec55D0cE53d93B9237389f11764d4-1777575277609",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x6302cdefa498e7174dd0fcd6b06652a38eae7917",
+   "name": null,
+   "n30": 27,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x904e9acc32499c5ba48a2278b5856f47cd0ad86a",
+   "name": "qidao001",
+   "n30": 2111,
+   "reject": "size"
+  },
+  {
+   "addr": "0x91c363acd95bb150d4fd28912737eaf6125b409f",
+   "name": null,
+   "n30": 0,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x4dcc4e2f8e37cc6d0f41e306b4055f86e5ff5a9b",
+   "name": "wffggh",
+   "n30": 794,
+   "reject": "size"
+  },
+  {
+   "addr": "0x55b9e6a1dcca2defb01636ba41e9f76a0883a814",
+   "name": "ghostorder",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xeebde7a0e019a63e6b476eb425505b7b3e6eba30",
+   "name": "Bonereaper",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xddf37336be71210729a5b79d62d90d6b2bdf8d34",
+   "name": "kevinmeng",
+   "n30": 42,
+   "reject": "size"
+  },
+  {
+   "addr": "0x246be8a4e3805e318801b79ad1ee1268d5fbfb5b",
+   "name": "0x246bE8A4e3805E318801B79AD1Ee1268d5fbFB5b-1773192326048",
+   "n30": 368,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x216050de6080fac3926226b2b8ce3d5544784c78",
+   "name": "iWasEnough",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xa0e72d5575095199ae08ce0dce447f21b7249461",
+   "name": "uninformedfloww",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
+   "name": "SunlineTicker",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0x0d23fc6838433dbff11e4667ef5991e9dd9d2d56",
+   "name": "tiger105",
+   "n30": 138,
+   "reject": "size"
+  },
+  {
+   "addr": "0x1109da04152c38666464f5adb5d7c55618810b2c",
+   "name": "MumiaTriste",
+   "n30": 2638,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x1d169955b78ad2885e725717e5928eec33c9212e",
+   "name": "HONGKONGPEACH",
+   "n30": 260,
+   "reject": "size"
+  },
+  {
+   "addr": "0x64f206122f8ae1ee3d4ae8e67137fd72a3b799ae",
+   "name": "bilibikh",
+   "n30": 200,
+   "reject": "size"
+  },
+  {
+   "addr": "0xe29042f5d913dcc4015aab3455c13c58514ca33f",
+   "name": "stepahead",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xc9f4bec86118be62d973fd53004efca8fed8c1e4",
+   "name": "RandomVibecoder",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x41e2e1ccf1e4940029af02259a31c6b89b9fa354",
+   "name": "norm1e69",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x120640a1deffe6b53e291eba74acf1dbe8274528",
+   "name": "trinity1248",
+   "n30": 3000,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x8314fd1f002a4e9bbf4b5abb939e24949a4e0f1e",
+   "name": "TalkToMeWhen",
+   "n30": 2065,
+   "reject": "size"
+  },
+  {
+   "addr": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+   "name": "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+   "n30": 3000,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x21f4c1a1be34a39a7bc20985df4b7e5a39fb691d",
+   "name": "CrouchPredictions",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x6fa70d26939b2075fcafd2db38099b42cf47907e",
+   "name": "0x6fa70d26939b2075fcafd2db38099b42cf47907e",
+   "n30": 1324,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x65f7226a82e093e5115e47ec2f4f7e733cd28b98",
+   "name": "0x65f7226a82e093e5115e47ec2f4f7e733cd28b98",
+   "n30": 3000,
+   "reject": "both_sides(MM),long_dated"
+  },
+  {
+   "addr": "0xa43da0aab839cf651a70e0e310462bb53a3b00f4",
+   "name": "twinna",
+   "n30": 198,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x0ca4e9d27ff826a109ecbf74754fb66b93f277a6",
+   "name": "GoodFallen",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xd6b6f6924341b00626e603240f799644d4b6342b",
+   "name": "sciuboi",
+   "n30": 316,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x58f5f813bb7d2a6078070573f4d1b7d319fbc6c9",
+   "name": "Lordpengu",
+   "n30": 253,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+   "name": "Parz1vaI",
+   "n30": 2596,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xbcc321b6336117432f4e9d2d28b20d8b6795ac9c",
+   "name": "ColdBlooded",
+   "n30": 3000,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x7d249aa60d2be7ed0b477df0e22f9caf9791a93f",
+   "name": "DG-NO",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+   "name": "0xeb1b3ef2729ab7be83e1337ec81f24467c7f87c0",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xf20b60cc9b8e97cb7678e8ab67bcc3480839e27d",
+   "name": "GOLDCRYPT12",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xc0e4f49b80a2162aa8c1c1ad1bd0867574e3dd38",
+   "name": "dabossrealman",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x492bb408693470df7d031ef48f3a5466055b45ee",
+   "name": "dmoralez",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper,price_range"
+  },
+  {
+   "addr": "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+   "name": "justdance",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0x0235dc24b38772bf3339a9e5ec5db3d3a05fcee5",
+   "name": "darkumbreon88",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x56f609c609975454bf851f0d91079fbc4a5fe251",
+   "name": "arcsine-barrister",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x8b4bca1d794779e66e023d44391b2a86c5ab541b",
+   "name": "0x8B4bcA1D794779E66e023D44391B2A86C5ab541B-1769764313952",
+   "n30": 1989,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xe8fcfdb0c2df34287d471aac15f24f853b33e664",
+   "name": null,
+   "n30": 2,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
+   "name": "ZaiZoiBele",
+   "n30": 3000,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x5c8311c96d2b6741ffa16aa69ddd1fc97901eceb",
+   "name": "bisouss",
+   "n30": 798,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x2f28c1d2d8c0aee287e9c05a0603274ff533ba03",
+   "name": "alphaalii",
+   "n30": 220,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+   "name": "TRCM",
+   "n30": 2974,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0x3a55b0c45449b955e43ec10734bd988bb5d1394e",
+   "name": "0x3mf379C47E653dafa153841a995Cf975B6a02fxd",
+   "n30": 763,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x3c66ff62e1b872b1381678c9855bb5b73efc0491",
+   "name": null,
+   "n30": 25,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x54b56146656e7eef9da02b3a030c18e06e924b31",
+   "name": "pup1",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x9a3fa403a6666eef75f92f181fcf13f9c051914a",
+   "name": "Rex416",
+   "n30": 3000,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xe26150becd1de0620346e7425016485a315ca785",
+   "name": "topdogw",
+   "n30": 57,
+   "reject": "size"
+  },
+  {
+   "addr": "0xf1c9a36fd5e982f27337a8692c78b2b1b2e3363f",
+   "name": "rookie765",
+   "n30": 740,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x1794a287826e3a722992a2e5647452171816742d",
+   "name": "stepanka1234",
+   "n30": 392,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x8191c793fd7edbadf0fae651f55c1da3b638da72",
+   "name": "0x8191c793fd7edbadf0fae651f55c1da3b638da72",
+   "n30": 3000,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xb077e7482c6bea18f75e33bf823cbbe59cda8fe8",
+   "name": "0xNuttawut",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xfc23869c29e0cda2b3d379c4aa665bbe5b3c2f5e",
+   "name": "testBruno2",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper"
+  },
+  {
+   "addr": "0x98db8cca55c32b24cfb414b5b43d273f4e1fdd17",
+   "name": "Eulhunter",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xf2e078fe373abe771dd4b5d33f79489fa7e277f0",
+   "name": null,
+   "n30": 3,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0xdf0e455ca4896232ba935a8176e5e8cfbb38c02b",
+   "name": "SPLPB",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),long_dated"
+  },
+  {
+   "addr": "0x033cb53526acbf5a530464645fa3a1f5c590bafe",
+   "name": "averagejoetraders",
+   "n30": 975,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xb6fef4c2c436ab8bbf07d017952e851dcf717394",
+   "name": "0xb6fef4c2c436ab8bbf07d017952e851dcf717394",
+   "n30": 3000,
+   "reject": "both_sides(MM),price_range,long_dated"
+  },
+  {
+   "addr": "0xdf1c2e388bde2fbacabaf85c75a6b69cc35e2ebb",
+   "name": "BMM-1",
+   "n30": 77,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x40604cb1f958c03bea0b18aa43e4cb0d62f33ec3",
+   "name": "C03B",
+   "n30": 603,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x64c4a7437742d07356774cad6d55dcd9cf411018",
+   "name": "Reformedx",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x8b4255313643e1f57f3bdf0a1376765f9820063e",
+   "name": "degenxbt10",
+   "n30": 244,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x0b1e757b0d9bb3b7225132a8761d1ee45ea6efbb",
+   "name": "sdddd3sdf",
+   "n30": 609,
+   "reject": "size"
+  },
+  {
+   "addr": "0x5e6e2c3f06686f2607b86c90e35f536e81a1be00",
+   "name": "0xA0b86991c6218b36c1d19D4a29Eb0cE3606eB4",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xc8b9a30184244d427169cf62485dde6041b2b836",
+   "name": "0xc8b9a30184244d427169cf62485dde6041b2b836",
+   "n30": 1005,
+   "reject": "size,long_dated"
+  },
+  {
+   "addr": "0x9ba9dec33838f4ec9f032f7247d7481987e63ce9",
+   "name": null,
+   "n30": 7,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
+   "name": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x98d04f9eb52d08ef9697f6eb8d7cfe8d46e5f14a",
+   "name": "mrworldwide",
+   "n30": 2674,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x9d57c42e847173d06841703825d3fe2299e456ea",
+   "name": "Polkadot-Frog",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xd84403efd50b49a1d8a7181627e00307e6ea5908",
+   "name": "FairValueMachine",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x5188fa0e8a77e87bc6a58e6781fdfc4e165cc804",
+   "name": "AllByMyseIf",
+   "n30": 1007,
+   "reject": "size,long_dated"
+  },
+  {
+   "addr": "0x6b23c73159b753c96d3c1ed94413f113300c04a3",
+   "name": "pauleta23",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x43cb4ae1f4ddc9e671486c79c9f40a6fd98b84df",
+   "name": "0x43cb4Ae1f4dDC9E671486C79c9F40A6fd98B84Df-1761656284271",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
+   "name": "0xa169f83d28ad1ce5a14cc1c49796b547ece21b73",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0xe5241830e8876c115d7dc8311ad9f43d85fdd34f",
+   "name": "GamblingOdyssey",
+   "n30": 1435,
+   "reject": "size"
+  },
+  {
+   "addr": "0xc29a3623faeb5e70366bd7d64ea6b6b10796969d",
+   "name": null,
+   "n30": 7,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0xd6b6d5b462dd651ffdb2e54e61a951979de3793f",
+   "name": "never-stop-clicking",
+   "n30": 397,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x6876472b48f488a144c79e51cba56f9527598dc9",
+   "name": "Magnabelli",
+   "n30": 295,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x21064fd320bfd5a86f8c92a94d3209edf4154dea",
+   "name": "rainbowlilies",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x8e324d63a62ad2366358f8a8fc8275c185d8fc0a",
+   "name": "alvahunter",
+   "n30": 89,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xee65685de42f8de9a03b4c53ee77d56a20d2cfc9",
+   "name": "0x50f7",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x0b099e55ca6cc2878d7a4cbdc6ae5f069fda7ce7",
+   "name": "betmixpromax",
+   "n30": 620,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x012117729450d19b22018ad8c6e9357bcd34f722",
+   "name": "MenacingTurtle",
+   "n30": 1928,
+   "reject": "size,both_sides(MM),price_range,long_dated"
+  },
+  {
+   "addr": "0x52a3d09dfc47bacc18634dda9d962be530c0ebae",
+   "name": "lebronstinks",
+   "n30": 2160,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x2e3ecedec4b004c61670f0dcda382ec0da1f0f92",
+   "name": "hello.67",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x710b37bd7a3172de02c0b0aba26c60ec45fb30a6",
+   "name": null,
+   "n30": 9,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x3bcd095a4f5fb6fef36961e03f0f9318f3bdabb2",
+   "name": "betfairzices",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper,price_range"
+  },
+  {
+   "addr": "0xc785252b25901a591e9d962e09f4342468444ef2",
+   "name": "dips.",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x69ddcbd8237d53ed081dc586a184b27464931964",
+   "name": "Poeloep",
+   "n30": 65,
+   "reject": "size"
+  },
+  {
+   "addr": "0x0063b23cdeb43166d6c0246c05baaf9b9bd72dd2",
+   "name": "TommyLeePeeca",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x31864feb9d25dee93728c6225ba891530967e9ca",
+   "name": "johnbaster",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper"
+  },
+  {
+   "addr": "0x38d5a13ef8e32d5e5a808ceba52d6ac78d4c063c",
+   "name": "0x38d5a13ef8e32d5e5a808ceba52d6ac78d4c063c",
+   "n30": 1734,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xfd3e6449d0c1e807501dcc17c0d9447201f35a7a",
+   "name": "User7429",
+   "n30": 3000,
+   "reject": "size,scalper"
+  },
+  {
+   "addr": "0xe1f313a980c5cfd4444f66bcf40563eb900e5402",
+   "name": "fidelis1",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
+   "name": "tunatyler",
+   "n30": 491,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x5fd2d9c60781d711721145ff2b906aa63a18afce",
+   "name": "0x5fD2D9C60781D711721145Ff2b906aA63a18",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper,price_range"
+  },
+  {
+   "addr": "0xdacf9f8d0341fa3770fae5c7ccd9dcfed23e3c74",
+   "name": "CosmicCedar",
+   "n30": 1980,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0xb0c078c893300f44d341f4e854d8964b47dce88f",
+   "name": "Bossgirl",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xeea3f08e8a36081233e4c4b4142fd61a7b56a6a2",
+   "name": "thestingsnake",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137",
+   "name": "0xfC0847fe2Ea938D6e2624650eB29eF8d8142A137-1771999665274",
+   "n30": 2348,
+   "reject": "both_sides(MM),scalper"
+  },
+  {
+   "addr": "0x495d6693c96ef98746d007caae82a2055dcc68d8",
+   "name": "muneyenjayerrr",
+   "n30": 96,
+   "reject": "size"
+  },
+  {
+   "addr": "0x0259b2054f046fe0ee8f3e075fdb85fc3ba9769e",
+   "name": "fantasy7788",
+   "n30": 439,
+   "reject": "size"
+  },
+  {
+   "addr": "0x86df6ce94c9263d09a6052b43d652adb7b51d902",
+   "name": "BackTestEoCaraio",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper"
+  },
+  {
+   "addr": "0xbe9fd078456503f1a5d9115d1ac6d9a7eb42014a",
+   "name": "0x00000000000000000000000000000000000000",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x69184bccc3f1c90190e8f9d4b923a034defd4726",
+   "name": "esticamos",
+   "n30": 1804,
+   "reject": "scalper,price_range"
+  },
+  {
+   "addr": "0xc2ad03f79ca3f3c17d8c7de2612ce0c89b7d40ed",
+   "name": "bosona",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0x6485f47d0344c03eb4340f985159f6eb2dcba265",
+   "name": "flatbarrel",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper"
+  },
+  {
+   "addr": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+   "name": "vinii",
+   "n30": 2348,
+   "reject": "both_sides(MM),price_range,long_dated"
+  },
+  {
+   "addr": "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+   "name": "justaluckydude",
+   "n30": 3000,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0xd729f11adff3be01381ffe3b2215e02e90b009d7",
+   "name": "DaWinci",
+   "n30": 455,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x206191d01c411a5b346d11a2df2d463a356b8ec9",
+   "name": "rebotsliaf",
+   "n30": 1250,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0xe59f2ab1b26b403f95b9df6e18ea66b395010d08",
+   "name": "ribalka",
+   "n30": 3000,
+   "reject": "both_sides(MM),scalper"
+  },
+  {
+   "addr": "0x1d4affdc390c00991acf70f6e010c9702b2d46f5",
+   "name": "0x1d4affdc390c00991acf70f6e010c9702b2d46f5",
+   "n30": 42,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x38d812aff0b79f3bf5da2a477f780bcc163eea7c",
+   "name": "thanksforplayin",
+   "n30": 3000,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+   "name": "YYYYY999",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0x43372356634781eea88d61bbdd7824cdce958882",
+   "name": "Anjun",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x6a7447d219a409806db7b49cdaca57534395ae4b",
+   "name": "Marcos.vher",
+   "n30": 2033,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x2e78d7a77df765928de65f17196671fa83f2067e",
+   "name": "TAVADADOOOOO",
+   "n30": 3000,
+   "reject": "scalper,price_range"
+  },
+  {
+   "addr": "0x8fbc899fe286351fb21f23c32710e3facb8a5c63",
+   "name": "ukowna",
+   "n30": 57,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xc4fe817476491890086330a639ac417d51bf601f",
+   "name": "poshposh",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xf884abcd2b915eb016238ed842422d8e1672f5b2",
+   "name": null,
+   "n30": 23,
+   "reject": "<30 trades"
+  },
+  {
+   "addr": "0x3cc65a9097a1c1e134366d6fb96a1e8eed4f53f7",
+   "name": "0x3cc65a9097a1c1e134366d6fb96a1e8eed4f53f7",
+   "n30": 69,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xa4a26d7d1ede96cda50bc24c701bc3aee1cb8e25",
+   "name": "Aleksey1993",
+   "n30": 351,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x31c518f864d1394361fec967b3daa9093a86ede4",
+   "name": "BTCGambler247",
+   "n30": 452,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x780bfafde2eae904b0b063810c5f9e0b69a77c7d",
+   "name": "kwzo",
+   "n30": 98,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x0a30932f96f296421cf0cf124fd180e4db22e2ca",
+   "name": "goldmyname",
+   "n30": 710,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x8a93f77d5baeffeae691bb8b8c641b0341f841b2",
+   "name": "Partial-Thinker",
+   "n30": 589,
+   "reject": "size"
+  },
+  {
+   "addr": "0x5e83c9db1593a9113fffa791797cf9655b383bb7",
+   "name": "0x5e83c9db1593a9113fffa791797cf9655b383bb7",
+   "n30": 667,
+   "reject": "size"
+  },
+  {
+   "addr": "0x00110b8ef00db2a1a6bbe1198e52fc4eb5a84333",
+   "name": "ARocky33",
+   "n30": 2943,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0x200ffb575b936d297fcf39076ddf2b476ae07a96",
+   "name": "LeLynxMalynx",
+   "n30": 3000,
+   "reject": "size"
+  },
+  {
+   "addr": "0xe30172a60cda439db2b15b7c2cffe801ade38654",
+   "name": "Syrrok",
+   "n30": 3000,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x38e59b36aae31b164200d0cad7c3fe5e0ee795e7",
+   "name": "cowcat",
+   "n30": 131,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x3f0fa8e4825c87361c0d0f15ae2777ffd1640e48",
+   "name": "bernardi22",
+   "n30": 3000,
+   "reject": "scalper,price_range"
+  },
+  {
+   "addr": "0x081cd40e9d1a90896612c189bf470b4fbae4f010",
+   "name": "0x081cd40e9d1a90896612c189bf470b4fbae4f010",
+   "n30": 429,
+   "reject": "size"
+  },
+  {
+   "addr": "0x0f17aacbaa5e2382b44fddc45a3ed42f84d70724",
+   "name": "SchruteBucks",
+   "n30": 3000,
+   "reject": "size,both_sides(MM),scalper"
+  },
+  {
+   "addr": "0x6b79d34cc35654a03253d611abbbaaf5f24ab1be",
+   "name": "Nomadxl",
+   "n30": 1087,
+   "reject": "size,scalper"
+  },
+  {
+   "addr": "0x6c8db1dd547cfd11902240dcf066fb4fd53dfbc4",
+   "name": "cubarsipau",
+   "n30": 115,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x53ecc53e7a69aad0e6dda60264cc2e363092df91",
+   "name": "0x53eCc53E7",
+   "n30": 275,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x2220498c3b544b9dd9c062ccf4ab9c0ff2191a0f",
+   "name": "PeAPAnieniLiala",
+   "n30": 2695,
+   "reject": "size,scalper,price_range"
+  },
+  {
+   "addr": "0xd60419ae698bd0ae7c0ef69470bfc1e0f9a9bc8a",
+   "name": "thegreatjeff",
+   "n30": 32,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x85b9e9226c56d4f2a3ff92c56b745f42498f906d",
+   "name": "thefakenick",
+   "n30": 1051,
+   "reject": "size,price_range,long_dated"
+  },
+  {
+   "addr": "0x15740055904cab8a8b743f2f6f5428122f8764c9",
+   "name": "12xmrbolt",
+   "n30": 988,
+   "reject": "both_sides(MM)"
+  },
+  {
+   "addr": "0x226bf1220731af372b1e7d572959414f31b4cad6",
+   "name": "botbot",
+   "n30": 1873,
+   "reject": "size"
+  },
+  {
+   "addr": "0x02b4401ae7ead14477e944f79e9db07ce9ab7092",
+   "name": "alohaa",
+   "n30": 1811,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x01c78f8873c0c86d6b6b92ff627e3802237ee995",
+   "name": "Lilybaeum",
+   "n30": 3000,
+   "reject": "size,both_sides(MM)"
+  },
+  {
+   "addr": "0xab189ba6220be3c99070913db1fb62dc000f60b5",
+   "name": "ahvgsyr",
+   "n30": 62,
+   "reject": "both_sides(MM),long_dated"
+  },
+  {
+   "addr": "0x482acc0c3c6268a16482953be000b2b46cccc85d",
+   "name": "Smallcoins",
+   "n30": 3000,
+   "reject": "size,scalper,price_range"
+  },
+  {
+   "addr": "0x21140e4608d03a0be0ac5462784fd42c2a8fc1bb",
+   "name": "kmak1",
+   "n30": 141,
+   "reject": "size,price_range"
+  },
+  {
+   "addr": "0xa50f0363ab24a5640848b03161de31e268a78e6f",
+   "name": "vladiva",
+   "n30": 565,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0x30d6c15abbce361921eb9a251462036c4b078c9d",
+   "name": "Taroooooo",
+   "n30": 298,
+   "reject": "price_range"
+  },
+  {
+   "addr": "0xec5723df1ef786d95b05b2941c89b45dcb560fa7",
+   "name": "IIIllllllIIIIIIIllllllllIIIIIIIIIIIllllll",
+   "n30": 3000,
+   "reject": "size,scalper,price_range"
+  },
+  {
+   "addr": "0xaf3f36aee929ae495fbcf56fd95907147e0db43e",
+   "name": "0x26AF7",
+   "n30": 76,
+   "reject": "long_dated"
+  },
+  {
+   "addr": "0x332a020cfab56b019b470ca47b63fda745d6c9a2",
+   "name": "0x332a020cfAB56b019B470cA47B63fDA745D6c9a2-1724751213873",
+   "n30": 193,
+   "reject": "price_range,long_dated"
+  },
+  {
+   "addr": "0x40b959d8f1823a3f01b1d6fdf144594918f5a596",
+   "name": "maxiplayer",
+   "n30": 3000,
+   "reject": "scalper,price_range"
+  },
+  {
+   "addr": "0x6b9088be3898f1bcb7add8a174bdf1c7295c2194",
+   "name": "banepir",
+   "n30": 824,
+   "reject": "size"
+  },
+  {
+   "addr": "0x3bf57663998170f8ca96c5e91fef4092a8aa2307",
+   "name": "0x3bf57663998170f8Ca96c5E91fef4092A8aa2307-1780525562609",
+   "n30": 3000,
+   "reject": "both_sides(MM),price_range"
+  },
+  {
+   "addr": "0x3e9ff2dbf2a6356ee47049e9f3c43a70cb55d57f",
+   "name": "vtcchampion53",
+   "n30": 3000,
+   "reject": "size,price_range,long_dated"
+  }
+ ],
+ "picked_for_lab": [
+  "tin54321",
+  "isco22",
+  "Ksi172",
+  "noosh3",
+  "Shimi1234"
+ ],
+ "pick_note": "6kke1t skipped (251 latency skips, 14% sub-60s flips = latency-sensitive); alpheclabs2 skipped (19% both-sides); Shimi1234 used instead (0% both-sides)"
+}

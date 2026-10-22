@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792692474,
+ "updated": 1792692754,
  "tokens_seen": 35,
  "risk": {
   "checked": 30,
@@ -77,18 +77,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0307,
+  "dd_today": -0.0319,
   "limit": -0.1
  },
  "v2": {
-  "equity": 898.79,
+  "equity": 897.65,
   "day_start": 927.27,
-  "pnl_today": -28.48,
-  "open_positions": 26,
-  "closed_positions": 23,
-  "closed_sells": 21,
-  "win_rate": 0.048,
-  "realized_today": -23.47,
+  "pnl_today": -29.62,
+  "open_positions": 25,
+  "closed_positions": 24,
+  "closed_sells": 22,
+  "win_rate": 0.045,
+  "realized_today": -24.3,
   "best_token": {
    "sym": "CATE",
    "pnl": -0.46
@@ -100,23 +100,23 @@
   "copied": 25,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 7.51
+   "upnl": 7.41
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.6
+   "upnl": -9.34
   }
  },
  "baseline": {
-  "equity": 833.98,
+  "equity": 829.44,
   "day_start": 860.79,
-  "pnl_today": -26.81,
-  "closed_sells": 11,
-  "win_rate": 0.091,
-  "realized_today": -12.62,
+  "pnl_today": -31.35,
+  "closed_sells": 13,
+  "win_rate": 0.154,
+  "realized_today": 8.08,
   "best_token": {
-   "sym": "NIO",
-   "pnl": 0.83
+   "sym": "WiSP",
+   "pnl": 21.35
   },
   "worst_token": {
    "sym": "BURNIE",
@@ -1595,14 +1595,14 @@
   "warn_lp": 20
  },
  "v3": {
-  "equity": 927.28,
+  "equity": 927.04,
   "day_start": 952.92,
-  "pnl_today": -25.64,
-  "open_positions": 22,
-  "closed_positions": 24,
-  "closed_sells": 22,
-  "win_rate": 0.045,
-  "realized_today": -20.34,
+  "pnl_today": -25.88,
+  "open_positions": 21,
+  "closed_positions": 25,
+  "closed_sells": 23,
+  "win_rate": 0.043,
+  "realized_today": -21.17,
   "best_token": {
    "sym": "CATE",
    "pnl": -0.46
@@ -1613,8 +1613,8 @@
   },
   "copied": 27,
   "best_open": {
-   "sym": "MEMEOS",
-   "upnl": -0.06
+   "sym": "swordcat",
+   "upnl": -0.26
   },
   "worst_open": {
    "sym": "Bert",
@@ -1697,7 +1697,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0269,
+  "dd_today": -0.0272,
   "limit": -0.1
  },
  "v3_track": {
