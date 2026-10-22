@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792670601,
+ "updated": 1792670926,
  "tokens_seen": 30,
  "risk": {
   "checked": 21,
@@ -75,9 +75,9 @@
   "limit": -0.1
  },
  "v2": {
-  "equity": 949.74,
+  "equity": 949.7,
   "day_start": 979.0,
-  "pnl_today": -29.26,
+  "pnl_today": -29.3,
   "open_positions": 18,
   "closed_positions": 16,
   "closed_sells": 17,
@@ -94,17 +94,17 @@
   "copied": 17,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 8.83
+   "upnl": 9.01
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -10.08
+   "upnl": -9.72
   }
  },
  "baseline": {
-  "equity": 871.49,
+  "equity": 876.69,
   "day_start": 983.73,
-  "pnl_today": -112.24,
+  "pnl_today": -107.04,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -15.89,
@@ -116,7 +116,7 @@
    "sym": "PULLBACK",
    "pnl": -5.31
   },
-  "copied": 23
+  "copied": 24
  },
  "risk_track": {
   "updated": 1792670584,
@@ -1032,14 +1032,14 @@
   "warn_lp": 14
  },
  "v3": {
-  "equity": 977.51,
+  "equity": 976.92,
   "day_start": 1000.0,
-  "pnl_today": -22.49,
+  "pnl_today": -23.08,
   "open_positions": 12,
-  "closed_positions": 13,
-  "closed_sells": 13,
-  "win_rate": 0.231,
-  "realized_today": -12.48,
+  "closed_positions": 14,
+  "closed_sells": 14,
+  "win_rate": 0.214,
+  "realized_today": -14.26,
   "best_token": {
    "sym": "CYBER",
    "pnl": 3.08
@@ -1048,22 +1048,22 @@
    "sym": "CRAWL",
    "pnl": -3.68
   },
-  "copied": 25,
+  "copied": 26,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": -0.1
+   "upnl": 0.02
   },
   "worst_open": {
-   "sym": "PHP",
-   "upnl": -1.52
+   "sym": "EMBER",
+   "upnl": -1.5
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 27,
+  "checked": 28,
   "killed": 8,
-  "passed": 25
+  "passed": 26
  },
  "v3_kills": [
   {
@@ -1107,7 +1107,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0225,
+  "dd_today": -0.0231,
   "limit": -0.1
  },
  "v3_track": {
