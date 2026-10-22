@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792671231,
- "tokens_seen": 30,
+ "updated": 1792671523,
+ "tokens_seen": 31,
  "risk": {
-  "checked": 21,
+  "checked": 22,
   "killed": 13,
-  "passed": 17
+  "passed": 18
  },
  "kills": [
   {
@@ -75,10 +75,10 @@
   "limit": -0.1
  },
  "v2": {
-  "equity": 947.71,
+  "equity": 947.63,
   "day_start": 979.0,
-  "pnl_today": -31.29,
-  "open_positions": 18,
+  "pnl_today": -31.37,
+  "open_positions": 19,
   "closed_positions": 16,
   "closed_sells": 17,
   "win_rate": 0.118,
@@ -91,20 +91,20 @@
    "sym": "SAINDRA",
    "pnl": -7.28
   },
-  "copied": 17,
+  "copied": 18,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 8.38
+   "upnl": 7.16
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -9.49
+   "upnl": -9.22
   }
  },
  "baseline": {
-  "equity": 868.75,
+  "equity": 869.37,
   "day_start": 983.73,
-  "pnl_today": -114.98,
+  "pnl_today": -114.36,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -15.89,
@@ -119,7 +119,7 @@
   "copied": 24
  },
  "risk_track": {
-  "updated": 1792670584,
+  "updated": 1792671264,
   "rejected": {
    "n": 15,
    "1h": {
@@ -151,7 +151,7 @@
    }
   },
   "passed": {
-   "n": 34,
+   "n": 35,
    "1h": {
     "n": 32,
     "avg_ret": -0.0091,
@@ -1025,17 +1025,33 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "PAID",
+    "token": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792671264,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
  "risk_warn": {
-  "warn_lp": 14
+  "warn_lp": 15
  },
  "v3": {
-  "equity": 976.77,
+  "equity": 976.28,
   "day_start": 1000.0,
-  "pnl_today": -23.23,
-  "open_positions": 12,
+  "pnl_today": -23.72,
+  "open_positions": 13,
   "closed_positions": 14,
   "closed_sells": 14,
   "win_rate": 0.214,
@@ -1048,22 +1064,22 @@
    "sym": "CRAWL",
    "pnl": -3.68
   },
-  "copied": 26,
+  "copied": 27,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": 0.1
+   "upnl": 0.19
   },
   "worst_open": {
    "sym": "EMBER",
-   "upnl": -1.5
+   "upnl": -1.45
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 28,
+  "checked": 29,
   "killed": 8,
-  "passed": 26
+  "passed": 27
  },
  "v3_kills": [
   {
@@ -1107,11 +1123,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0232,
+  "dd_today": -0.0237,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792670600,
+  "updated": 1792671264,
   "rejected": {
    "n": 7,
    "1h": {
@@ -1143,7 +1159,7 @@
    }
   },
   "passed": {
-   "n": 22,
+   "n": 23,
    "1h": {
     "n": 19,
     "avg_ret": -0.0166,
@@ -1769,6 +1785,23 @@
      "warn: dev holding unknown"
     ],
     "ts": 1792670600,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "PAID",
+    "token": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.1% via pump.fun"
+    ],
+    "ts": 1792671264,
     "src": "live",
     "ret": {
      "1h": null,

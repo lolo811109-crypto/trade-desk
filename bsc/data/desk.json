@@ -2,11 +2,11 @@
  "chain": "bsc",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792671231,
- "tokens_seen": 36,
+ "updated": 1792671558,
+ "tokens_seen": 39,
  "risk": {
-  "checked": 53,
-  "killed": 37,
+  "checked": 54,
+  "killed": 38,
   "passed": 16
  },
  "kills": [
@@ -116,18 +116,25 @@
     "sell_tax unknown",
     "top10 holders 100%"
    ]
+  },
+  {
+   "sym": "WSPP",
+   "token": "0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f",
+   "reasons": [
+    "LP only 0% locked/burned"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0369,
+  "dd_today": -0.0362,
   "limit": -0.1
  },
  "v2": {
-  "equity": 928.41,
+  "equity": 929.16,
   "day_start": 964.02,
-  "pnl_today": -35.61,
+  "pnl_today": -34.86,
   "open_positions": 6,
   "closed_positions": 10,
   "closed_sells": 10,
@@ -148,28 +155,28 @@
   },
   "worst_open": {
    "sym": "GANG",
-   "upnl": -19.16
+   "upnl": -18.54
   }
  },
  "baseline": {
-  "equity": 848.13,
+  "equity": 846.76,
   "day_start": 937.22,
-  "pnl_today": -89.09,
-  "closed_sells": 14,
-  "win_rate": 0.071,
-  "realized_today": -19.46,
+  "pnl_today": -90.46,
+  "closed_sells": 16,
+  "win_rate": 0.125,
+  "realized_today": -4.46,
   "best_token": {
-   "sym": "JZ",
-   "pnl": 0.75
+   "sym": "SPX",
+   "pnl": 15.78
   },
   "worst_token": {
    "sym": "赵长鹏能飞",
    "pnl": -9.13
   },
-  "copied": 35
+  "copied": 36
  },
  "confluence": {
-  "equity": 1004.22,
+  "equity": 1004.33,
   "bank": 1000.0,
   "open_positions": 1,
   "closed_sells": 2,
@@ -396,14 +403,25 @@
     ],
     "trigger": "0x7dfd45e511a05d012d19264e2adf4acfe7717f1f",
     "price": 0.0001452
+   },
+   {
+    "ts": 1792671459,
+    "token": "0x82fb2a6bb84c19b24cf56a0421c63f06cb9f8888",
+    "sym": "flappy",
+    "wallets": [
+     "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+     "0xc9ac2d47615508a16e46a3459eb4f564ad906a32"
+    ],
+    "trigger": "0x07a61c083420b5d95bd3e4738669b9a4fca3c046",
+    "price": 5.288e-05
    }
   ],
-  "events_total": 19
+  "events_total": 20
  },
  "risk_track": {
-  "updated": 1792670893,
+  "updated": 1792671384,
   "rejected": {
-   "n": 67,
+   "n": 68,
    "1h": {
     "n": 60,
     "avg_ret": 0.0772,
@@ -464,7 +482,7 @@
   },
   "rules": {
    "LP only locked/burned": {
-    "n": 43,
+    "n": 44,
     "1h": {
      "n": 39,
      "avg_ret": -0.0313,
@@ -2175,6 +2193,22 @@
      "top10 holders 100%"
     ],
     "ts": 1792670893,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "WSPP",
+    "token": "0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f",
+    "ok": false,
+    "reasons": [
+     "LP only 0% locked/burned"
+    ],
+    "ts": 1792671384,
     "src": "live",
     "ret": {
      "1h": null,
