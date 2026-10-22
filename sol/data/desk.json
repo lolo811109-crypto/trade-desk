@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792686615,
- "tokens_seen": 14,
+ "updated": 1792686936,
+ "tokens_seen": 16,
  "risk": {
-  "checked": 8,
+  "checked": 11,
   "killed": 5,
-  "passed": 7
+  "passed": 10
  },
  "kills": [
   {
@@ -42,14 +42,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0101,
+  "dd_today": -0.0127,
   "limit": -0.1
  },
  "v2": {
-  "equity": 917.89,
+  "equity": 915.48,
   "day_start": 927.27,
-  "pnl_today": -9.38,
-  "open_positions": 21,
+  "pnl_today": -11.79,
+  "open_positions": 24,
   "closed_positions": 6,
   "closed_sells": 4,
   "win_rate": 0.0,
@@ -62,20 +62,20 @@
    "sym": "BURNIE",
    "pnl": -3.54
   },
-  "copied": 3,
+  "copied": 6,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 10.19
+   "upnl": 11.01
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -8.29
+   "upnl": -8.18
   }
  },
  "baseline": {
-  "equity": 850.81,
+  "equity": 851.65,
   "day_start": 860.79,
-  "pnl_today": -9.98,
+  "pnl_today": -9.14,
   "closed_sells": 2,
   "win_rate": 0.0,
   "realized_today": -2.0,
@@ -90,7 +90,7 @@
   "copied": 2
  },
  "risk_track": {
-  "updated": 1792686542,
+  "updated": 1792686934,
   "rejected": {
    "n": 27,
    "1h": {
@@ -122,7 +122,7 @@
    }
   },
   "passed": {
-   "n": 48,
+   "n": 49,
    "1h": {
     "n": 42,
     "avg_ret": -0.0179,
@@ -1397,6 +1397,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "Jimothy",
+    "token": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792686934,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1404,10 +1420,10 @@
   "warn_lp": 17
  },
  "v3": {
-  "equity": 945.52,
+  "equity": 942.04,
   "day_start": 952.92,
-  "pnl_today": -7.4,
-  "open_positions": 16,
+  "pnl_today": -10.88,
+  "open_positions": 19,
   "closed_positions": 7,
   "closed_sells": 5,
   "win_rate": 0.0,
@@ -1420,10 +1436,10 @@
    "sym": "EXFIL",
    "pnl": -2.66
   },
-  "copied": 4,
+  "copied": 7,
   "best_open": {
-   "sym": "PHP",
-   "upnl": 0.08
+   "sym": "PUMPCADE",
+   "upnl": -0.54
   },
   "worst_open": {
    "sym": "Bert",
@@ -1433,9 +1449,9 @@
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 9,
+  "checked": 12,
   "killed": 5,
-  "passed": 8
+  "passed": 11
  },
  "v3_kills": [
   {
@@ -1471,11 +1487,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0078,
+  "dd_today": -0.0114,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792686542,
+  "updated": 1792686934,
   "rejected": {
    "n": 19,
    "1h": {
@@ -1507,7 +1523,7 @@
    }
   },
   "passed": {
-   "n": 37,
+   "n": 38,
    "1h": {
     "n": 31,
     "avg_ret": -0.0263,
@@ -2574,6 +2590,23 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792686542,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "Jimothy",
+    "token": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792686934,
     "src": "live",
     "ret": {
      "1h": null,
