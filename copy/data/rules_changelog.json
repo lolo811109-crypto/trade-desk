@@ -1,7 +1,42 @@
 [
- {"ts":"2026-10-21T18:54:00+08:00","scope":"POLY v3 (共享池+锦标赛)","change":"v3 start: shared cash pool $1000, $100 budget/wallet, buy = min(10% wallet equity, $50); old per-wallet accounts archived to archive_v2/ at $1071.05"},
- {"ts":"2026-10-22T12:54:00+08:00","scope":"POLY v3","change":"one position per market per wallet; $50 total exposure per market per account"},
- {"ts":"2026-10-22T20:25:00+08:00","scope":"POLY lab","change":"lab accounts start: 共识跟单 (cons), 高胜率精选 (top), 尾盘高概率 (tail), $1000 each"},
- {"ts":"2026-10-23T00:37:00+08:00","scope":"POLY v3 + lab","change":"polyfix: copy only entries 0.30-0.70 resolving <=24h; wallet max 35% budget per event; removed 0x8372/0x54ce from new buys; tail: no started/esports/crypto-day markets, no both sides, stop 0.80"},
- {"ts":"2026-10-23T00:50:00+08:00","scope":"POLY BTC动量 (mom)","change":"BTC动量 lab start: BTC 15m up/down, ROC vs ATR k=1.0, $10/trade, max price 0.75 (approximate start time, see poly_mom.log)"}
+ {
+  "ts": "2026-10-21T18:54:00+08:00",
+  "scope": "POLY v3 (共享池+锦标赛)",
+  "change": "v3 start: shared cash pool $1000, $100 budget/wallet, buy = min(10% wallet equity, $50); old per-wallet accounts archived to archive_v2/ at $1071.05"
+ },
+ {
+  "ts": "2026-10-22T12:54:00+08:00",
+  "scope": "POLY v3",
+  "change": "one position per market per wallet; $50 total exposure per market per account"
+ },
+ {
+  "ts": "2026-10-22T20:25:00+08:00",
+  "scope": "POLY lab",
+  "change": "lab accounts start: 共识跟单 (cons), 高胜率精选 (top), 尾盘高概率 (tail), $1000 each"
+ },
+ {
+  "ts": "2026-10-23T00:37:00+08:00",
+  "scope": "POLY v3 + lab",
+  "change": "polyfix: copy only entries 0.30-0.70 resolving <=24h; wallet max 35% budget per event; removed 0x8372/0x54ce from new buys; tail: no started/esports/crypto-day markets, no both sides, stop 0.80"
+ },
+ {
+  "ts": "2026-10-23T00:50:00+08:00",
+  "scope": "POLY BTC动量 (mom)",
+  "change": "BTC动量 lab start: BTC 15m up/down, ROC vs ATR k=1.0, $10/trade, max price 0.75 (approximate start time, see poly_mom.log)"
+ },
+ {
+  "ts": "2026-10-23T01:49:00+08:00",
+  "scope": "POLY v3 + lab",
+  "change": "realism: official resolution (gamma closed + outcomePrices) replaces price-guess; guess only after 24h with no book and no official data, flagged settle=guess; backfilled missing cid on 23 old positions"
+ },
+ {
+  "ts": "2026-10-23T01:49:00+08:00",
+  "scope": "POLY v3 + lab",
+  "change": "realism: copy buys/sells filled by walking live CLOB book at our action time; record leader px vs fill, delay_s, lat_cost; skip buy if fill > leader px + 0.05 (latency_px)"
+ },
+ {
+  "ts": "2026-10-23T02:11:00+08:00",
+  "scope": "POLY新钱包 (lab_new)",
+  "change": "new paper lab $1000, v3 shared-pool rules, follows scouted top 5: tin54321, isco22, Ksi172, noosh3, Shimi1234 ($200 budget each)"
+ }
 ]

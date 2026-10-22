@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792692754,
- "tokens_seen": 35,
+ "updated": 1792692895,
+ "tokens_seen": 36,
  "risk": {
-  "checked": 30,
-  "killed": 14,
+  "checked": 31,
+  "killed": 15,
   "passed": 29
  },
  "kills": [
@@ -72,23 +72,31 @@
    "reasons": [
     "liq $44,576 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "ANSEM",
+   "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "reasons": [
+    "top10 holders 65%",
+    "warn: LP burned only 0%"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0319,
+  "dd_today": -0.0324,
   "limit": -0.1
  },
  "v2": {
-  "equity": 897.65,
+  "equity": 897.27,
   "day_start": 927.27,
-  "pnl_today": -29.62,
-  "open_positions": 25,
-  "closed_positions": 24,
-  "closed_sells": 22,
-  "win_rate": 0.045,
-  "realized_today": -24.3,
+  "pnl_today": -30.0,
+  "open_positions": 24,
+  "closed_positions": 25,
+  "closed_sells": 23,
+  "win_rate": 0.043,
+  "realized_today": -24.71,
   "best_token": {
    "sym": "CATE",
    "pnl": -0.46
@@ -100,17 +108,17 @@
   "copied": 25,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 7.41
+   "upnl": 7.17
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.34
+   "upnl": -9.33
   }
  },
  "baseline": {
-  "equity": 829.44,
+  "equity": 827.18,
   "day_start": 860.79,
-  "pnl_today": -31.35,
+  "pnl_today": -33.61,
   "closed_sells": 13,
   "win_rate": 0.154,
   "realized_today": 8.08,
@@ -122,10 +130,10 @@
    "sym": "BURNIE",
    "pnl": -3.22
   },
-  "copied": 13
+  "copied": 15
  },
  "risk_track": {
-  "updated": 1792692407,
+  "updated": 1792692895,
   "rejected": {
    "n": 30,
    "1h": {
@@ -166,11 +174,11 @@
     "up_pct": 0.4
    },
    "6h": {
-    "n": 34,
-    "avg_ret": -0.0061,
+    "n": 35,
+    "avg_ret": -0.0089,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.471
+    "up_pct": 0.457
    },
    "24h": {
     "n": 19,
@@ -181,7 +189,7 @@
    },
    "latest": {
     "n": 50,
-    "avg_ret": -0.0581,
+    "avg_ret": -0.0602,
     "bad_pct": 0.0,
     "winners": 2
    }
@@ -1043,7 +1051,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0006,
-     "6h": null,
+     "6h": -0.1058,
      "24h": null
     },
     "rug": false
@@ -1595,14 +1603,14 @@
   "warn_lp": 20
  },
  "v3": {
-  "equity": 927.04,
+  "equity": 925.97,
   "day_start": 952.92,
-  "pnl_today": -25.88,
-  "open_positions": 21,
-  "closed_positions": 25,
-  "closed_sells": 23,
-  "win_rate": 0.043,
-  "realized_today": -21.17,
+  "pnl_today": -26.95,
+  "open_positions": 20,
+  "closed_positions": 26,
+  "closed_sells": 24,
+  "win_rate": 0.042,
+  "realized_today": -21.58,
   "best_token": {
    "sym": "CATE",
    "pnl": -0.46
@@ -1614,18 +1622,18 @@
   "copied": 27,
   "best_open": {
    "sym": "swordcat",
-   "upnl": -0.26
+   "upnl": -0.3
   },
   "worst_open": {
    "sym": "Bert",
-   "upnl": -1.54
+   "upnl": -1.55
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 32,
-  "killed": 14,
+  "checked": 33,
+  "killed": 15,
   "passed": 31
  },
  "v3_kills": [
@@ -1692,16 +1700,25 @@
    "reasons": [
     "liq $44,576 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "ANSEM",
+   "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+   "reasons": [
+    "top10 holders 65%",
+    "warn: LP burned only 0%",
+    "info: dev holds 0.0% via pump.fun"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0272,
+  "dd_today": -0.0283,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792692407,
+  "updated": 1792692895,
   "rejected": {
    "n": 22,
    "1h": {
@@ -1742,11 +1759,11 @@
     "up_pct": 0.308
    },
    "6h": {
-    "n": 22,
-    "avg_ret": -0.0428,
+    "n": 23,
+    "avg_ret": -0.0455,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.227
+    "up_pct": 0.217
    },
    "24h": {
     "n": 0,
@@ -1757,7 +1774,7 @@
    },
    "latest": {
     "n": 39,
-    "avg_ret": -0.0391,
+    "avg_ret": -0.0418,
     "bad_pct": 0.0,
     "winners": 1
    }
@@ -2379,7 +2396,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0006,
-     "6h": null,
+     "6h": -0.1058,
      "24h": null
     },
     "rug": false
