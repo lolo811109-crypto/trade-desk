@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-22",
  "tz": "UTC+8",
- "updated": 1792669982,
+ "updated": 1792670281,
  "tokens_seen": 29,
  "risk": {
   "checked": 20,
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0275,
+  "dd_today": -0.0283,
   "limit": -0.1
  },
  "v2": {
-  "equity": 952.07,
+  "equity": 951.25,
   "day_start": 979.0,
-  "pnl_today": -26.93,
+  "pnl_today": -27.75,
   "open_positions": 17,
   "closed_positions": 16,
   "closed_sells": 17,
@@ -94,17 +94,17 @@
   "copied": 16,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 9.22
+   "upnl": 9.05
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -8.97
+   "upnl": -9.45
   }
  },
  "baseline": {
-  "equity": 876.25,
+  "equity": 872.62,
   "day_start": 983.73,
-  "pnl_today": -107.48,
+  "pnl_today": -111.11,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -15.89,
@@ -1018,9 +1018,9 @@
   "warn_lp": 14
  },
  "v3": {
-  "equity": 978.78,
+  "equity": 978.62,
   "day_start": 1000.0,
-  "pnl_today": -21.22,
+  "pnl_today": -21.38,
   "open_positions": 11,
   "closed_positions": 13,
   "closed_sells": 13,
@@ -1037,7 +1037,7 @@
   "copied": 24,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": 0.27
+   "upnl": 0.11
   },
   "worst_open": {
    "sym": "EMBER",
@@ -1093,7 +1093,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0212,
+  "dd_today": -0.0214,
   "limit": -0.1
  },
  "v3_track": {
