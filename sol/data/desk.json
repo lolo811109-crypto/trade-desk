@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792728592,
+ "updated": 1792728659,
  "tokens_seen": 68,
  "risk": {
   "checked": 93,
@@ -178,13 +178,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0772,
+  "dd_today": -0.0766,
   "limit": -0.1
  },
  "v2": {
-  "equity": 855.67,
+  "equity": 856.2,
   "day_start": 927.27,
-  "pnl_today": -71.6,
+  "pnl_today": -71.07,
   "open_positions": 26,
   "closed_positions": 65,
   "closed_sells": 63,
@@ -209,9 +209,9 @@
   }
  },
  "baseline": {
-  "equity": 804.96,
+  "equity": 802.33,
   "day_start": 860.79,
-  "pnl_today": -55.83,
+  "pnl_today": -58.46,
   "closed_sells": 49,
   "win_rate": 0.143,
   "realized_today": -13.07,
@@ -1927,9 +1927,9 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 884.75,
+  "equity": 884.83,
   "day_start": 952.92,
-  "pnl_today": -68.17,
+  "pnl_today": -68.09,
   "open_positions": 6,
   "closed_positions": 107,
   "closed_sells": 105,
@@ -1946,11 +1946,11 @@
   "copied": 94,
   "best_open": {
    "sym": "CLAUDIA",
-   "upnl": -0.27
+   "upnl": -0.26
   },
   "worst_open": {
    "sym": "GATO",
-   "upnl": -1.01
+   "upnl": -1.02
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
