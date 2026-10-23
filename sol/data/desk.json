@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792717617,
+ "updated": 1792717897,
  "tokens_seen": 59,
  "risk": {
   "checked": 84,
@@ -157,13 +157,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0625,
+  "dd_today": -0.0655,
   "limit": -0.1
  },
  "v2": {
-  "equity": 869.29,
+  "equity": 866.51,
   "day_start": 927.27,
-  "pnl_today": -57.98,
+  "pnl_today": -60.76,
   "open_positions": 26,
   "closed_positions": 56,
   "closed_sells": 54,
@@ -180,17 +180,17 @@
   "copied": 58,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 3.07
+   "upnl": 2.59
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -11.67
+   "upnl": -11.9
   }
  },
  "baseline": {
-  "equity": 782.53,
+  "equity": 779.2,
   "day_start": 860.79,
-  "pnl_today": -78.26,
+  "pnl_today": -81.59,
   "closed_sells": 37,
   "win_rate": 0.135,
   "realized_today": -11.66,
@@ -205,7 +205,7 @@
   "copied": 53
  },
  "risk_track": {
-  "updated": 1792717513,
+  "updated": 1792717861,
   "rejected": {
    "n": 44,
    "1h": {
@@ -216,11 +216,11 @@
     "up_pct": 0.357
    },
    "6h": {
-    "n": 32,
-    "avg_ret": 0.0144,
-    "bad_pct": 0.156,
+    "n": 33,
+    "avg_ret": 0.0209,
+    "bad_pct": 0.152,
     "rug_pct": 0.0,
-    "up_pct": 0.375
+    "up_pct": 0.394
    },
    "24h": {
     "n": 10,
@@ -231,7 +231,7 @@
    },
    "latest": {
     "n": 42,
-    "avg_ret": -0.0306,
+    "avg_ret": -0.0255,
     "bad_pct": 0.119,
     "winners": 2
    }
@@ -246,11 +246,11 @@
     "up_pct": 0.456
    },
    "6h": {
-    "n": 57,
-    "avg_ret": -0.0317,
-    "bad_pct": 0.018,
+    "n": 58,
+    "avg_ret": -0.0319,
+    "bad_pct": 0.017,
     "rug_pct": 0.0,
-    "up_pct": 0.351
+    "up_pct": 0.345
    },
    "24h": {
     "n": 25,
@@ -261,7 +261,7 @@
    },
    "latest": {
     "n": 68,
-    "avg_ret": -0.0609,
+    "avg_ret": -0.0627,
     "bad_pct": 0.015,
     "winners": 2
    }
@@ -277,11 +277,11 @@
      "up_pct": 0.375
     },
     "6h": {
-     "n": 24,
-     "avg_ret": 0.0208,
-     "bad_pct": 0.208,
+     "n": 25,
+     "avg_ret": 0.029,
+     "bad_pct": 0.2,
      "rug_pct": 0.0,
-     "up_pct": 0.292
+     "up_pct": 0.32
     },
     "24h": {
      "n": 5,
@@ -292,7 +292,7 @@
     },
     "latest": {
      "n": 32,
-     "avg_ret": -0.0176,
+     "avg_ret": -0.0109,
      "bad_pct": 0.156,
      "winners": 2
     }
@@ -1501,7 +1501,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0774,
-     "6h": null,
+     "6h": -0.0387,
      "24h": null
     },
     "rug": false
@@ -1517,7 +1517,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0129,
-     "6h": null,
+     "6h": 0.2271,
      "24h": null
     },
     "rug": false
@@ -1913,14 +1913,14 @@
   "warn_lp": 24
  },
  "v3": {
-  "equity": 898.84,
+  "equity": 898.0,
   "day_start": 952.92,
-  "pnl_today": -54.08,
-  "open_positions": 9,
-  "closed_positions": 87,
-  "closed_sells": 85,
-  "win_rate": 0.141,
-  "realized_today": -59.82,
+  "pnl_today": -54.92,
+  "open_positions": 8,
+  "closed_positions": 89,
+  "closed_sells": 87,
+  "win_rate": 0.138,
+  "realized_today": -61.34,
   "best_token": {
    "sym": "DOPE",
    "pnl": 2.58
@@ -1929,22 +1929,22 @@
    "sym": "Kimchi",
    "pnl": -10.14
   },
-  "copied": 77,
+  "copied": 78,
   "best_open": {
-   "sym": "Agency",
-   "upnl": -0.14
+   "sym": "LARPCHECK",
+   "upnl": -0.19
   },
   "worst_open": {
-   "sym": "CLAUDIA",
-   "upnl": -1.38
+   "sym": "ヤギ",
+   "upnl": -1.45
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 103,
+  "checked": 104,
   "killed": 49,
-  "passed": 81
+  "passed": 82
  },
  "v3_kills": [
   {
@@ -2097,11 +2097,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0567,
+  "dd_today": -0.0576,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792717548,
+  "updated": 1792717861,
   "rejected": {
    "n": 35,
    "1h": {
@@ -2112,11 +2112,11 @@
     "up_pct": 0.364
    },
    "6h": {
-    "n": 23,
-    "avg_ret": -0.0313,
-    "bad_pct": 0.174,
+    "n": 24,
+    "avg_ret": -0.0205,
+    "bad_pct": 0.167,
     "rug_pct": 0.0,
-    "up_pct": 0.304
+    "up_pct": 0.333
    },
    "24h": {
     "n": 2,
@@ -2127,7 +2127,7 @@
    },
    "latest": {
     "n": 33,
-    "avg_ret": -0.0734,
+    "avg_ret": -0.0669,
     "bad_pct": 0.121,
     "winners": 1
    }
@@ -2135,18 +2135,18 @@
   "passed": {
    "n": 69,
    "1h": {
-    "n": 59,
-    "avg_ret": -0.0112,
+    "n": 61,
+    "avg_ret": -0.0099,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.424
+    "up_pct": 0.426
    },
    "6h": {
-    "n": 46,
-    "avg_ret": -0.0563,
-    "bad_pct": 0.022,
+    "n": 47,
+    "avg_ret": -0.0561,
+    "bad_pct": 0.021,
     "rug_pct": 0.0,
-    "up_pct": 0.196
+    "up_pct": 0.191
    },
    "24h": {
     "n": 8,
@@ -2156,9 +2156,9 @@
     "up_pct": 0.0
    },
    "latest": {
-    "n": 59,
-    "avg_ret": -0.0567,
-    "bad_pct": 0.034,
+    "n": 61,
+    "avg_ret": -0.0559,
+    "bad_pct": 0.033,
     "winners": 1
    }
   },
@@ -2173,11 +2173,11 @@
      "up_pct": 0.37
     },
     "6h": {
-     "n": 19,
-     "avg_ret": -0.0301,
-     "bad_pct": 0.211,
+     "n": 20,
+     "avg_ret": -0.0173,
+     "bad_pct": 0.2,
      "rug_pct": 0.0,
-     "up_pct": 0.263
+     "up_pct": 0.3
     },
     "24h": {
      "n": 1,
@@ -2188,7 +2188,7 @@
     },
     "latest": {
      "n": 27,
-     "avg_ret": -0.0818,
+     "avg_ret": -0.0739,
      "bad_pct": 0.148,
      "winners": 1
     }
@@ -3395,7 +3395,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0774,
-     "6h": null,
+     "6h": -0.0453,
      "24h": null
     },
     "rug": false
@@ -3411,7 +3411,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0129,
-     "6h": null,
+     "6h": 0.2271,
      "24h": null
     },
     "rug": false
@@ -3770,7 +3770,7 @@
     "ts": 1792714030,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0892,
      "6h": null,
      "24h": null
     },
@@ -3787,7 +3787,7 @@
     "ts": 1792714067,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0337,
      "6h": null,
      "24h": null
     },
