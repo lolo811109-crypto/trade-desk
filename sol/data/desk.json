@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792751508,
+ "updated": 1792752603,
  "tokens_seen": 79,
  "risk": {
   "checked": 131,
@@ -213,13 +213,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0834,
+  "dd_today": -0.0843,
   "limit": -0.1
  },
  "v2": {
-  "equity": 849.92,
+  "equity": 849.14,
   "day_start": 927.27,
-  "pnl_today": -77.35,
+  "pnl_today": -78.13,
   "open_positions": 22,
   "closed_positions": 91,
   "closed_sells": 89,
@@ -236,17 +236,17 @@
   "copied": 89,
   "best_open": {
    "sym": "McRib",
-   "upnl": 5.71
+   "upnl": 4.3
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.91
+   "upnl": -10.64
   }
  },
  "baseline": {
-  "equity": 793.91,
+  "equity": 792.72,
   "day_start": 860.79,
-  "pnl_today": -66.88,
+  "pnl_today": -68.07,
   "closed_sells": 74,
   "win_rate": 0.149,
   "realized_today": -68.86,
@@ -258,10 +258,10 @@
    "sym": "SURY",
    "pnl": -45.87
   },
-  "copied": 97
+  "copied": 98
  },
  "risk_track": {
-  "updated": 1792750784,
+  "updated": 1792751613,
   "rejected": {
    "n": 57,
    "1h": {
@@ -272,11 +272,11 @@
     "up_pct": 0.368
    },
    "6h": {
-    "n": 49,
-    "avg_ret": 0.085,
-    "bad_pct": 0.102,
+    "n": 50,
+    "avg_ret": 0.0783,
+    "bad_pct": 0.1,
     "rug_pct": 0.0,
-    "up_pct": 0.449
+    "up_pct": 0.44
    },
    "24h": {
     "n": 15,
@@ -287,7 +287,7 @@
    },
    "latest": {
     "n": 57,
-    "avg_ret": 0.0202,
+    "avg_ret": 0.0147,
     "bad_pct": 0.088,
     "winners": 6
    }
@@ -333,11 +333,11 @@
      "up_pct": 0.364
     },
     "6h": {
-     "n": 38,
-     "avg_ret": 0.1117,
-     "bad_pct": 0.132,
+     "n": 39,
+     "avg_ret": 0.1024,
+     "bad_pct": 0.128,
      "rug_pct": 0.0,
-     "up_pct": 0.395
+     "up_pct": 0.385
     },
     "24h": {
      "n": 9,
@@ -348,7 +348,7 @@
     },
     "latest": {
      "n": 44,
-     "avg_ret": 0.0497,
+     "avg_ret": 0.0425,
      "bad_pct": 0.114,
      "winners": 6
     }
@@ -1688,7 +1688,7 @@
     "src": "live",
     "ret": {
      "1h": 0.065,
-     "6h": null,
+     "6h": -0.2521,
      "24h": null
     },
     "rug": false
@@ -2190,7 +2190,7 @@
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792750058,
+  "updated": 1792751613,
   "rejected": {
    "n": 48,
    "1h": {
@@ -2201,11 +2201,11 @@
     "up_pct": 0.375
    },
    "6h": {
-    "n": 40,
-    "avg_ret": 0.0746,
-    "bad_pct": 0.1,
+    "n": 41,
+    "avg_ret": 0.0667,
+    "bad_pct": 0.098,
     "rug_pct": 0.0,
-    "up_pct": 0.425
+    "up_pct": 0.415
    },
    "24h": {
     "n": 7,
@@ -2216,7 +2216,7 @@
    },
    "latest": {
     "n": 48,
-    "avg_ret": 0.0003,
+    "avg_ret": -0.0063,
     "bad_pct": 0.083,
     "winners": 5
    }
@@ -2262,11 +2262,11 @@
      "up_pct": 0.359
     },
     "6h": {
-     "n": 33,
-     "avg_ret": 0.0962,
-     "bad_pct": 0.121,
+     "n": 34,
+     "avg_ret": 0.086,
+     "bad_pct": 0.118,
      "rug_pct": 0.0,
-     "up_pct": 0.394
+     "up_pct": 0.382
     },
     "24h": {
      "n": 5,
@@ -2277,7 +2277,7 @@
     },
     "latest": {
      "n": 39,
-     "avg_ret": 0.0138,
+     "avg_ret": 0.0057,
      "bad_pct": 0.103,
      "winners": 5
     }
@@ -3726,7 +3726,7 @@
     "src": "live",
     "ret": {
      "1h": 0.065,
-     "6h": null,
+     "6h": -0.2521,
      "24h": null
     },
     "rug": false
