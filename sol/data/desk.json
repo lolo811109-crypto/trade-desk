@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792715133,
- "tokens_seen": 52,
+ "updated": 1792715731,
+ "tokens_seen": 56,
  "risk": {
-  "checked": 77,
-  "killed": 47,
-  "passed": 57
+  "checked": 80,
+  "killed": 49,
+  "passed": 58
  },
  "kills": [
   {
@@ -144,19 +144,27 @@
     "top10 holders 62%",
     "warn: LP burned only 0%"
    ]
+  },
+  {
+   "sym": "KMNO",
+   "token": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+   "reasons": [
+    "top10 holders 53%",
+    "warn: LP burned only 0%"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0601,
+  "dd_today": -0.0604,
   "limit": -0.1
  },
  "v2": {
-  "equity": 871.58,
+  "equity": 871.23,
   "day_start": 927.27,
-  "pnl_today": -55.69,
-  "open_positions": 22,
+  "pnl_today": -56.04,
+  "open_positions": 23,
   "closed_positions": 55,
   "closed_sells": 53,
   "win_rate": 0.094,
@@ -169,10 +177,10 @@
    "sym": "Kimchi",
    "pnl": -9.84
   },
-  "copied": 53,
+  "copied": 54,
   "best_open": {
    "sym": "COMPUTE",
-   "upnl": 5.19
+   "upnl": 3.75
   },
   "worst_open": {
    "sym": "Agency",
@@ -180,12 +188,12 @@
   }
  },
  "baseline": {
-  "equity": 777.8,
+  "equity": 786.36,
   "day_start": 860.79,
-  "pnl_today": -82.99,
-  "closed_sells": 35,
-  "win_rate": 0.143,
-  "realized_today": -8.4,
+  "pnl_today": -74.43,
+  "closed_sells": 36,
+  "win_rate": 0.139,
+  "realized_today": -8.98,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -194,12 +202,12 @@
    "sym": "PHP",
    "pnl": -8.56
   },
-  "copied": 50
+  "copied": 52
  },
  "risk_track": {
-  "updated": 1792714925,
+  "updated": 1792715515,
   "rejected": {
-   "n": 43,
+   "n": 44,
    "1h": {
     "n": 40,
     "avg_ret": -0.007,
@@ -290,7 +298,7 @@
     }
    },
    "top holders": {
-    "n": 10,
+    "n": 11,
     "1h": {
      "n": 9,
      "avg_ret": -0.0437,
@@ -320,7 +328,7 @@
     }
    },
    "warn: LP burned only": {
-    "n": 6,
+    "n": 7,
     "1h": {
      "n": 5,
      "avg_ret": -0.0169,
@@ -351,20 +359,6 @@
    }
   },
   "items": [
-   {
-    "sym": "Kimchi",
-    "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-    "ok": true,
-    "reasons": [],
-    "ts": 1792576233,
-    "src": "live",
-    "ret": {
-     "1h": 0.0402,
-     "6h": 0.1556,
-     "24h": -0.2342
-    },
-    "rug": false
-   },
    {
     "sym": "TROLL",
     "token": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
@@ -1896,17 +1890,34 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "KMNO",
+    "token": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+    "ok": false,
+    "reasons": [
+     "top10 holders 53%",
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792715515,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
  "risk_warn": {
-  "warn_lp": 22
+  "warn_lp": 23
  },
  "v3": {
-  "equity": 905.38,
+  "equity": 903.14,
   "day_start": 952.92,
-  "pnl_today": -47.54,
-  "open_positions": 8,
+  "pnl_today": -49.78,
+  "open_positions": 12,
   "closed_positions": 79,
   "closed_sells": 77,
   "win_rate": 0.117,
@@ -1919,22 +1930,22 @@
    "sym": "Kimchi",
    "pnl": -9.21
   },
-  "copied": 68,
+  "copied": 72,
   "best_open": {
    "sym": "Pepper",
-   "upnl": 1.98
+   "upnl": 1.19
   },
   "worst_open": {
-   "sym": "DOPE",
-   "upnl": -1.15
+   "sym": "CLAUDIA",
+   "upnl": -1.54
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 92,
-  "killed": 47,
-  "passed": 72
+  "checked": 98,
+  "killed": 49,
+  "passed": 76
  },
  "v3_kills": [
   {
@@ -2073,18 +2084,27 @@
     "warn: LP burned only 0%",
     "warn: dev holding unknown"
    ]
+  },
+  {
+   "sym": "KMNO",
+   "token": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+   "reasons": [
+    "top10 holders 53%",
+    "warn: LP burned only 0%",
+    "info: dev holds 0.0% via pump.fun"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0499,
+  "dd_today": -0.0522,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792714925,
+  "updated": 1792715518,
   "rejected": {
-   "n": 34,
+   "n": 35,
    "1h": {
     "n": 31,
     "avg_ret": 0.0325,
@@ -2114,7 +2134,7 @@
    }
   },
   "passed": {
-   "n": 63,
+   "n": 66,
    "1h": {
     "n": 55,
     "avg_ret": -0.0115,
@@ -2175,7 +2195,7 @@
     }
    },
    "top holders": {
-    "n": 6,
+    "n": 7,
     "1h": {
      "n": 5,
      "avg_ret": -0.0141,
@@ -2205,7 +2225,7 @@
     }
    },
    "info: dev holds. via pump.fun": {
-    "n": 5,
+    "n": 6,
     "1h": {
      "n": 5,
      "avg_ret": -0.0141,
@@ -2235,7 +2255,7 @@
     }
    },
    "warn: LP burned only": {
-    "n": 5,
+    "n": 6,
     "1h": {
      "n": 4,
      "avg_ret": -0.0106,
@@ -2296,23 +2316,6 @@
    }
   },
   "items": [
-   {
-    "sym": "CLAUDIA",
-    "token": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%",
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792608506,
-    "src": "live",
-    "ret": {
-     "1h": -0.0111,
-     "6h": -0.1696,
-     "24h": -0.3447
-    },
-    "rug": false
-   },
    {
     "sym": "ANSEM",
     "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
@@ -3884,6 +3887,73 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792714920,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TCG",
+    "token": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792715515,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "KMNO",
+    "token": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+    "ok": false,
+    "reasons": [
+     "top10 holders 53%",
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792715516,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "COMPUTE",
+    "token": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792715518,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TripleT",
+    "token": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792715518,
     "src": "live",
     "ret": {
      "1h": null,
