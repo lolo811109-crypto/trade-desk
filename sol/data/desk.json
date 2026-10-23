@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792734261,
+ "updated": 1792734564,
  "tokens_seen": 73,
  "risk": {
   "checked": 98,
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0798,
+  "dd_today": -0.0805,
   "limit": -0.1
  },
  "v2": {
-  "equity": 853.27,
+  "equity": 852.61,
   "day_start": 927.27,
-  "pnl_today": -74.0,
+  "pnl_today": -74.66,
   "open_positions": 22,
   "closed_positions": 72,
   "closed_sells": 70,
@@ -219,13 +219,13 @@
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.78
+   "upnl": -10.92
   }
  },
  "baseline": {
-  "equity": 772.37,
+  "equity": 774.27,
   "day_start": 860.79,
-  "pnl_today": -88.42,
+  "pnl_today": -86.52,
   "closed_sells": 53,
   "win_rate": 0.132,
   "realized_today": -18.31,
@@ -240,7 +240,7 @@
   "copied": 74
  },
  "risk_track": {
-  "updated": 1792734061,
+  "updated": 1792734564,
   "rejected": {
    "n": 53,
    "1h": {
@@ -258,15 +258,15 @@
     "up_pct": 0.429
    },
    "24h": {
-    "n": 12,
-    "avg_ret": -0.0382,
-    "bad_pct": 0.167,
+    "n": 13,
+    "avg_ret": -0.104,
+    "bad_pct": 0.231,
     "rug_pct": 0.0,
-    "up_pct": 0.25
+    "up_pct": 0.231
    },
    "latest": {
     "n": 50,
-    "avg_ret": 0.0275,
+    "avg_ret": 0.0201,
     "bad_pct": 0.1,
     "winners": 6
    }
@@ -319,15 +319,15 @@
      "up_pct": 0.375
     },
     "24h": {
-     "n": 7,
-     "avg_ret": 0.0203,
-     "bad_pct": 0.286,
+     "n": 8,
+     "avg_ret": -0.0939,
+     "bad_pct": 0.375,
      "rug_pct": 0.0,
-     "up_pct": 0.286
+     "up_pct": 0.25
     },
     "latest": {
      "n": 39,
-     "avg_ret": 0.0549,
+     "avg_ret": 0.0454,
      "bad_pct": 0.128,
      "winners": 6
     }
@@ -514,7 +514,7 @@
     "ret": {
      "1h": -0.439,
      "6h": -0.5213,
-     "24h": null
+     "24h": -0.893
     },
     "rug": false
    },
@@ -1944,9 +1944,9 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 877.13,
+  "equity": 876.98,
   "day_start": 952.92,
-  "pnl_today": -75.79,
+  "pnl_today": -75.94,
   "open_positions": 3,
   "closed_positions": 120,
   "closed_sells": 118,
@@ -1963,11 +1963,11 @@
   "copied": 104,
   "best_open": {
    "sym": "Buttcoin",
-   "upnl": -0.65
+   "upnl": -0.55
   },
   "worst_open": {
    "sym": "Kimchi",
-   "upnl": -1.0
+   "upnl": -1.04
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -2164,11 +2164,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0795,
+  "dd_today": -0.0797,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792734061,
+  "updated": 1792734564,
   "rejected": {
    "n": 44,
    "1h": {
@@ -2186,15 +2186,15 @@
     "up_pct": 0.394
    },
    "24h": {
-    "n": 4,
-    "avg_ret": -0.3462,
-    "bad_pct": 0.25,
+    "n": 5,
+    "avg_ret": -0.4555,
+    "bad_pct": 0.4,
     "rug_pct": 0.0,
     "up_pct": 0.0
    },
    "latest": {
     "n": 41,
-    "avg_ret": 0.0058,
+    "avg_ret": -0.0032,
     "bad_pct": 0.098,
     "winners": 5
    }
@@ -2247,15 +2247,15 @@
      "up_pct": 0.37
     },
     "24h": {
-     "n": 3,
-     "avg_ret": -0.4315,
-     "bad_pct": 0.333,
+     "n": 4,
+     "avg_ret": -0.5469,
+     "bad_pct": 0.5,
      "rug_pct": 0.0,
      "up_pct": 0.0
     },
     "latest": {
      "n": 34,
-     "avg_ret": 0.0145,
+     "avg_ret": 0.0036,
      "bad_pct": 0.118,
      "winners": 5
     }
