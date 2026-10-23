@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792768480,
+ "updated": 1792768794,
  "tokens_seen": 86,
  "risk": {
   "checked": 165,
@@ -220,13 +220,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0856,
+  "dd_today": -0.0862,
   "limit": -0.1
  },
  "v2": {
-  "equity": 847.89,
+  "equity": 847.35,
   "day_start": 927.27,
-  "pnl_today": -79.38,
+  "pnl_today": -79.92,
   "open_positions": 21,
   "closed_positions": 109,
   "closed_sells": 108,
@@ -243,17 +243,17 @@
   "copied": 106,
   "best_open": {
    "sym": "McRib",
-   "upnl": 1.56
+   "upnl": 1.87
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -8.59
+   "upnl": -9.19
   }
  },
  "baseline": {
-  "equity": 766.66,
+  "equity": 771.68,
   "day_start": 860.79,
-  "pnl_today": -94.13,
+  "pnl_today": -89.11,
   "closed_sells": 89,
   "win_rate": 0.18,
   "realized_today": -77.98,
@@ -268,7 +268,7 @@
   "copied": 120
  },
  "risk_track": {
-  "updated": 1792768480,
+  "updated": 1792768794,
   "rejected": {
    "n": 61,
    "1h": {
@@ -309,11 +309,11 @@
     "up_pct": 0.454
    },
    "6h": {
-    "n": 89,
-    "avg_ret": -0.0088,
+    "n": 90,
+    "avg_ret": -0.0086,
     "bad_pct": 0.011,
     "rug_pct": 0.0,
-    "up_pct": 0.427
+    "up_pct": 0.433
    },
    "24h": {
     "n": 42,
@@ -324,7 +324,7 @@
    },
    "latest": {
     "n": 97,
-    "avg_ret": -0.0561,
+    "avg_ret": -0.0557,
     "bad_pct": 0.031,
     "winners": 2
    }
@@ -1738,7 +1738,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0298,
-     "6h": null,
+     "6h": 0.0091,
      "24h": null
     },
     "rug": false
