@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792793241,
- "tokens_seen": 44,
+ "updated": 1792795035,
+ "tokens_seen": 45,
  "risk": {
-  "checked": 71,
+  "checked": 72,
   "killed": 54,
-  "passed": 32
+  "passed": 33
  },
  "kills": [
   {
@@ -99,46 +99,46 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0328,
+  "dd_today": -0.0333,
   "limit": -0.1
  },
  "v2": {
-  "equity": 819.34,
+  "equity": 818.94,
   "day_start": 847.14,
-  "pnl_today": -27.8,
+  "pnl_today": -28.2,
   "open_positions": 21,
-  "closed_positions": 32,
-  "closed_sells": 32,
-  "win_rate": 0.156,
-  "realized_today": -18.68,
+  "closed_positions": 33,
+  "closed_sells": 33,
+  "win_rate": 0.182,
+  "realized_today": -17.95,
   "best_token": {
    "sym": "DOPE",
-   "pnl": 1.51
+   "pnl": 2.24
   },
   "worst_token": {
    "sym": "ヤギ",
    "pnl": -5.67
   },
-  "copied": 31,
+  "copied": 32,
   "best_open": {
    "sym": "McRib",
-   "upnl": 1.22
+   "upnl": 0.54
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -12.97
+   "upnl": -12.54
   }
  },
  "baseline": {
-  "equity": 718.76,
+  "equity": 700.04,
   "day_start": 773.92,
-  "pnl_today": -55.16,
-  "closed_sells": 15,
-  "win_rate": 0.2,
-  "realized_today": -13.49,
+  "pnl_today": -73.88,
+  "closed_sells": 16,
+  "win_rate": 0.25,
+  "realized_today": -12.76,
   "best_token": {
-   "sym": "HOOKED",
-   "pnl": 0.56
+   "sym": "DOPE",
+   "pnl": 0.73
   },
   "worst_token": {
    "sym": "NIO",
@@ -147,22 +147,22 @@
   "copied": 18
  },
  "risk_track": {
-  "updated": 1792793241,
+  "updated": 1792795001,
   "rejected": {
    "n": 72,
    "1h": {
-    "n": 71,
-    "avg_ret": 0.0091,
+    "n": 72,
+    "avg_ret": 0.0071,
     "bad_pct": 0.014,
     "rug_pct": 0.0,
-    "up_pct": 0.366
+    "up_pct": 0.361
    },
    "6h": {
-    "n": 63,
-    "avg_ret": 0.0838,
-    "bad_pct": 0.079,
+    "n": 65,
+    "avg_ret": 0.0711,
+    "bad_pct": 0.077,
     "rug_pct": 0.0,
-    "up_pct": 0.429
+    "up_pct": 0.415
    },
    "24h": {
     "n": 36,
@@ -172,38 +172,38 @@
     "up_pct": 0.417
    },
    "latest": {
-    "n": 71,
-    "avg_ret": 0.0208,
-    "bad_pct": 0.113,
+    "n": 72,
+    "avg_ret": 0.015,
+    "bad_pct": 0.111,
     "winners": 10
    }
   },
   "passed": {
    "n": 121,
    "1h": {
-    "n": 119,
-    "avg_ret": -0.0077,
+    "n": 121,
+    "avg_ret": -0.0071,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.437
+    "up_pct": 0.438
    },
    "6h": {
-    "n": 101,
-    "avg_ret": -0.0065,
+    "n": 102,
+    "avg_ret": -0.008,
     "bad_pct": 0.01,
     "rug_pct": 0.0,
-    "up_pct": 0.436
+    "up_pct": 0.431
    },
    "24h": {
-    "n": 62,
-    "avg_ret": -0.1113,
+    "n": 63,
+    "avg_ret": -0.1072,
     "bad_pct": 0.048,
     "rug_pct": 0.0,
-    "up_pct": 0.226
+    "up_pct": 0.238
    },
    "latest": {
-    "n": 119,
-    "avg_ret": -0.0499,
+    "n": 121,
+    "avg_ret": -0.0482,
     "bad_pct": 0.025,
     "winners": 3
    }
@@ -212,18 +212,18 @@
    "liq $, < $, v floor": {
     "n": 56,
     "1h": {
-     "n": 55,
-     "avg_ret": 0.0218,
+     "n": 56,
+     "avg_ret": 0.019,
      "bad_pct": 0.018,
      "rug_pct": 0.0,
-     "up_pct": 0.364
+     "up_pct": 0.357
     },
     "6h": {
-     "n": 47,
-     "avg_ret": 0.1145,
-     "bad_pct": 0.106,
+     "n": 49,
+     "avg_ret": 0.0965,
+     "bad_pct": 0.102,
      "rug_pct": 0.0,
-     "up_pct": 0.404
+     "up_pct": 0.388
     },
     "24h": {
      "n": 28,
@@ -233,9 +233,9 @@
      "up_pct": 0.464
     },
     "latest": {
-     "n": 55,
-     "avg_ret": 0.0321,
-     "bad_pct": 0.145,
+     "n": 56,
+     "avg_ret": 0.0243,
+     "bad_pct": 0.143,
      "winners": 9
     }
    },
@@ -385,7 +385,7 @@
     "ret": {
      "1h": -0.0265,
      "6h": -0.0277,
-     "24h": null
+     "24h": 0.1428
     },
     "rug": false
    },
@@ -1396,7 +1396,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0211,
-     "6h": null,
+     "6h": -0.1546,
      "24h": null
     },
     "rug": false
@@ -1412,7 +1412,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0484,
-     "6h": null,
+     "6h": -0.1907,
      "24h": null
     },
     "rug": false
@@ -1428,7 +1428,7 @@
     "src": "live",
     "ret": {
      "1h": -0.3417,
-     "6h": null,
+     "6h": -0.4645,
      "24h": null
     },
     "rug": false
@@ -1791,7 +1791,7 @@
     "ts": 1792791101,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0655,
      "6h": null,
      "24h": null
     },
@@ -1807,7 +1807,7 @@
     "ts": 1792791102,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0055,
      "6h": null,
      "24h": null
     },
@@ -1823,7 +1823,7 @@
     "ts": 1792791179,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.1369,
      "6h": null,
      "24h": null
     },
@@ -1835,14 +1835,14 @@
   "warn_lp": 29
  },
  "v3": {
-  "equity": 829.04,
+  "equity": 827.99,
   "day_start": 857.86,
-  "pnl_today": -28.82,
-  "open_positions": 3,
-  "closed_positions": 37,
-  "closed_sells": 37,
-  "win_rate": 0.108,
-  "realized_today": -27.8,
+  "pnl_today": -29.87,
+  "open_positions": 1,
+  "closed_positions": 40,
+  "closed_sells": 40,
+  "win_rate": 0.125,
+  "realized_today": -29.26,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.12
@@ -1851,22 +1851,22 @@
    "sym": "ヤギ",
    "pnl": -6.83
   },
-  "copied": 39,
+  "copied": 40,
   "best_open": {
-   "sym": "DOPE",
-   "upnl": 0.34
+   "sym": "GLITCH",
+   "upnl": -0.59
   },
   "worst_open": {
-   "sym": "McRib",
-   "upnl": -0.69
+   "sym": "GLITCH",
+   "upnl": -0.59
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 79,
+  "checked": 80,
   "killed": 54,
-  "passed": 40
+  "passed": 41
  },
  "v3_kills": [
   {
@@ -1959,26 +1959,26 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0336,
+  "dd_today": -0.0348,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792793241,
+  "updated": 1792795001,
   "rejected": {
    "n": 62,
    "1h": {
-    "n": 61,
-    "avg_ret": 0.0359,
+    "n": 62,
+    "avg_ret": 0.0331,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.393
+    "up_pct": 0.387
    },
    "6h": {
-    "n": 53,
-    "avg_ret": 0.0812,
-    "bad_pct": 0.075,
+    "n": 55,
+    "avg_ret": 0.0663,
+    "bad_pct": 0.073,
     "rug_pct": 0.0,
-    "up_pct": 0.453
+    "up_pct": 0.436
    },
    "24h": {
     "n": 27,
@@ -1988,39 +1988,39 @@
     "up_pct": 0.407
    },
    "latest": {
-    "n": 61,
-    "avg_ret": 0.0066,
-    "bad_pct": 0.115,
+    "n": 62,
+    "avg_ret": -0.0,
+    "bad_pct": 0.113,
     "winners": 9
    }
   },
   "passed": {
    "n": 118,
    "1h": {
-    "n": 115,
-    "avg_ret": -0.0115,
+    "n": 118,
+    "avg_ret": -0.0116,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.374
+    "up_pct": 0.373
    },
    "6h": {
-    "n": 90,
-    "avg_ret": -0.0178,
+    "n": 92,
+    "avg_ret": -0.0187,
     "bad_pct": 0.011,
     "rug_pct": 0.0,
-    "up_pct": 0.378
+    "up_pct": 0.38
    },
    "24h": {
-    "n": 52,
-    "avg_ret": -0.1115,
-    "bad_pct": 0.077,
+    "n": 53,
+    "avg_ret": -0.1111,
+    "bad_pct": 0.075,
     "rug_pct": 0.0,
-    "up_pct": 0.25
+    "up_pct": 0.245
    },
    "latest": {
-    "n": 115,
-    "avg_ret": -0.0425,
-    "bad_pct": 0.035,
+    "n": 118,
+    "avg_ret": -0.0447,
+    "bad_pct": 0.034,
     "winners": 1
    }
   },
@@ -2028,18 +2028,18 @@
    "liq $, < $, v floor": {
     "n": 52,
     "1h": {
-     "n": 51,
-     "avg_ret": 0.0452,
+     "n": 52,
+     "avg_ret": 0.0417,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.373
+     "up_pct": 0.365
     },
     "6h": {
-     "n": 43,
-     "avg_ret": 0.1015,
-     "bad_pct": 0.093,
+     "n": 45,
+     "avg_ret": 0.0824,
+     "bad_pct": 0.089,
      "rug_pct": 0.0,
-     "up_pct": 0.419
+     "up_pct": 0.4
     },
     "24h": {
      "n": 23,
@@ -2049,9 +2049,9 @@
      "up_pct": 0.435
     },
     "latest": {
-     "n": 51,
-     "avg_ret": 0.0004,
-     "bad_pct": 0.137,
+     "n": 52,
+     "avg_ret": -0.0073,
+     "bad_pct": 0.135,
      "winners": 8
     }
    },
@@ -3223,7 +3223,7 @@
     "src": "live",
     "ret": {
      "1h": 0.2349,
-     "6h": null,
+     "6h": 0.0404,
      "24h": null
     },
     "rug": false
@@ -3239,7 +3239,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0211,
-     "6h": null,
+     "6h": -0.1546,
      "24h": null
     },
     "rug": false
@@ -3255,7 +3255,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0484,
-     "6h": null,
+     "6h": -0.1907,
      "24h": null
     },
     "rug": false
@@ -3271,7 +3271,7 @@
     "src": "live",
     "ret": {
      "1h": -0.3417,
-     "6h": null,
+     "6h": -0.4645,
      "24h": null
     },
     "rug": false
@@ -3761,7 +3761,7 @@
     "ts": 1792791102,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0655,
      "6h": null,
      "24h": null
     },
@@ -3778,7 +3778,7 @@
     "ts": 1792791104,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0055,
      "6h": null,
      "24h": null
     },
@@ -3794,7 +3794,7 @@
     "ts": 1792791108,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.1019,
      "6h": null,
      "24h": null
     },
@@ -3810,7 +3810,7 @@
     "ts": 1792791179,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.1369,
      "6h": null,
      "24h": null
     },
