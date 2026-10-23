@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792723163,
- "tokens_seen": 62,
+ "updated": 1792724057,
+ "tokens_seen": 63,
  "risk": {
-  "checked": 88,
+  "checked": 89,
   "killed": 53,
-  "passed": 66
+  "passed": 67
  },
  "kills": [
   {
@@ -164,14 +164,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0712,
+  "dd_today": -0.0707,
   "limit": -0.1
  },
  "v2": {
-  "equity": 861.26,
+  "equity": 861.7,
   "day_start": 927.27,
-  "pnl_today": -66.01,
-  "open_positions": 23,
+  "pnl_today": -65.57,
+  "open_positions": 24,
   "closed_positions": 63,
   "closed_sells": 61,
   "win_rate": 0.115,
@@ -184,23 +184,23 @@
    "sym": "Kimchi",
    "pnl": -11.18
   },
-  "copied": 62,
+  "copied": 63,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 1.68
+   "upnl": 1.59
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -11.44
+   "upnl": -11.51
   }
  },
  "baseline": {
-  "equity": 815.44,
+  "equity": 818.91,
   "day_start": 860.79,
-  "pnl_today": -45.35,
-  "closed_sells": 44,
-  "win_rate": 0.136,
-  "realized_today": -10.91,
+  "pnl_today": -41.88,
+  "closed_sells": 45,
+  "win_rate": 0.133,
+  "realized_today": -11.46,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -209,10 +209,10 @@
    "sym": "PHP",
    "pnl": -8.56
   },
-  "copied": 61
+  "copied": 63
  },
  "risk_track": {
-  "updated": 1792723128,
+  "updated": 1792724038,
   "rejected": {
    "n": 47,
    "1h": {
@@ -244,7 +244,7 @@
    }
   },
   "passed": {
-   "n": 76,
+   "n": 77,
    "1h": {
     "n": 73,
     "avg_ret": -0.0127,
@@ -366,22 +366,6 @@
    }
   },
   "items": [
-   {
-    "sym": "WiSP",
-    "token": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
-    "ok": false,
-    "reasons": [
-     "liq $15,739 < $50,000 v2 floor"
-    ],
-    "ts": 1792598035,
-    "src": "live",
-    "ret": {
-     "1h": -0.3797,
-     "6h": 2.1607,
-     "24h": 2.4106
-    },
-    "rug": false
-   },
    {
     "sym": "DCT",
     "token": "HMm396e2kPf6GvvEp7fDYWH9MLFMmUUqAHTeeQX8pump",
@@ -1909,6 +1893,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "OTC",
+    "token": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792724038,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1916,10 +1916,10 @@
   "warn_lp": 24
  },
  "v3": {
-  "equity": 894.47,
+  "equity": 894.51,
   "day_start": 952.92,
-  "pnl_today": -58.45,
-  "open_positions": 3,
+  "pnl_today": -58.41,
+  "open_positions": 4,
   "closed_positions": 99,
   "closed_sells": 97,
   "win_rate": 0.134,
@@ -1932,22 +1932,22 @@
    "sym": "Kimchi",
    "pnl": -10.14
   },
-  "copied": 83,
+  "copied": 84,
   "best_open": {
-   "sym": "GATO",
-   "upnl": -0.48
+   "sym": "McRib",
+   "upnl": -0.09
   },
   "worst_open": {
-   "sym": "McRib",
-   "upnl": -1.16
+   "sym": "Kimchi",
+   "upnl": -0.83
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 109,
+  "checked": 110,
   "killed": 53,
-  "passed": 87
+  "passed": 88
  },
  "v3_kills": [
   {
@@ -2111,7 +2111,7 @@
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792723093,
+  "updated": 1792724054,
   "rejected": {
    "n": 38,
    "1h": {
@@ -2143,7 +2143,7 @@
    }
   },
   "passed": {
-   "n": 72,
+   "n": 73,
    "1h": {
     "n": 69,
     "avg_ret": -0.0122,
@@ -2325,22 +2325,6 @@
    }
   },
   "items": [
-   {
-    "sym": "BACKERS",
-    "token": "CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump",
-    "ok": false,
-    "reasons": [
-     "liq $49,402 < $50,000 v2 floor"
-    ],
-    "ts": 1792640137,
-    "src": "live",
-    "ret": {
-     "1h": -0.0298,
-     "6h": -0.0312,
-     "24h": null
-    },
-    "rug": false
-   },
    {
     "sym": "PULLBACK",
     "token": "96AsCWA8TjVcZDqVfMMPT2J3BfMYjYhyyMdYLjg3pump",
@@ -3959,6 +3943,23 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792723093,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "OTC",
+    "token": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "warn: dev holding unknown"
+    ],
+    "ts": 1792724054,
     "src": "live",
     "ret": {
      "1h": null,
