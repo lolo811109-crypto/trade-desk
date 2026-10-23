@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792733204,
- "tokens_seen": 72,
+ "updated": 1792733661,
+ "tokens_seen": 73,
  "risk": {
-  "checked": 97,
+  "checked": 98,
   "killed": 60,
-  "passed": 73
+  "passed": 74
  },
  "kills": [
   {
@@ -192,14 +192,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0799,
+  "dd_today": -0.0798,
   "limit": -0.1
  },
  "v2": {
-  "equity": 853.22,
+  "equity": 853.29,
   "day_start": 927.27,
-  "pnl_today": -74.05,
-  "open_positions": 21,
+  "pnl_today": -73.98,
+  "open_positions": 22,
   "closed_positions": 72,
   "closed_sells": 70,
   "win_rate": 0.114,
@@ -212,10 +212,10 @@
    "sym": "Kimchi",
    "pnl": -11.18
   },
-  "copied": 69,
+  "copied": 70,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 0.9
+   "upnl": 0.75
   },
   "worst_open": {
    "sym": "Agency",
@@ -223,12 +223,12 @@
   }
  },
  "baseline": {
-  "equity": 778.14,
+  "equity": 774.15,
   "day_start": 860.79,
-  "pnl_today": -82.65,
-  "closed_sells": 52,
-  "win_rate": 0.135,
-  "realized_today": -14.88,
+  "pnl_today": -86.64,
+  "closed_sells": 53,
+  "win_rate": 0.132,
+  "realized_today": -18.31,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -240,15 +240,15 @@
   "copied": 74
  },
  "risk_track": {
-  "updated": 1792733201,
+  "updated": 1792733661,
   "rejected": {
    "n": 53,
    "1h": {
-    "n": 49,
-    "avg_ret": 0.0057,
+    "n": 50,
+    "avg_ret": 0.0069,
     "bad_pct": 0.02,
     "rug_pct": 0.0,
-    "up_pct": 0.367
+    "up_pct": 0.38
    },
    "6h": {
     "n": 40,
@@ -265,14 +265,14 @@
     "up_pct": 0.25
    },
    "latest": {
-    "n": 49,
-    "avg_ret": 0.0259,
-    "bad_pct": 0.102,
+    "n": 50,
+    "avg_ret": 0.0266,
+    "bad_pct": 0.1,
     "winners": 6
    }
   },
   "passed": {
-   "n": 80,
+   "n": 81,
    "1h": {
     "n": 80,
     "avg_ret": -0.0147,
@@ -305,11 +305,11 @@
    "liq $, < $, v floor": {
     "n": 40,
     "1h": {
-     "n": 38,
-     "avg_ret": 0.0172,
+     "n": 39,
+     "avg_ret": 0.0184,
      "bad_pct": 0.026,
      "rug_pct": 0.0,
-     "up_pct": 0.368
+     "up_pct": 0.385
     },
     "6h": {
      "n": 31,
@@ -326,9 +326,9 @@
      "up_pct": 0.286
     },
     "latest": {
-     "n": 38,
-     "avg_ret": 0.0533,
-     "bad_pct": 0.132,
+     "n": 39,
+     "avg_ret": 0.0536,
+     "bad_pct": 0.128,
      "winners": 6
     }
    },
@@ -394,22 +394,6 @@
    }
   },
   "items": [
-   {
-    "sym": "FTR",
-    "token": "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%"
-    ],
-    "ts": 1792627039,
-    "src": "live",
-    "ret": {
-     "1h": -0.1209,
-     "6h": -0.2616,
-     "24h": -0.2658
-    },
-    "rug": false
-   },
    {
     "sym": "TROLL",
     "token": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
@@ -1885,7 +1869,7 @@
     "ts": 1792729989,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.065,
      "6h": null,
      "24h": null
     },
@@ -1939,6 +1923,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "Buttcoin",
+    "token": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792733434,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1946,38 +1944,38 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 878.7,
+  "equity": 877.99,
   "day_start": 952.92,
-  "pnl_today": -74.22,
+  "pnl_today": -74.93,
   "open_positions": 2,
-  "closed_positions": 119,
-  "closed_sells": 117,
-  "win_rate": 0.111,
-  "realized_today": -83.61,
+  "closed_positions": 120,
+  "closed_sells": 118,
+  "win_rate": 0.11,
+  "realized_today": -84.42,
   "best_token": {
    "sym": "DOPE",
    "pnl": 1.6
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -13.31
+   "pnl": -14.12
   },
-  "copied": 102,
+  "copied": 103,
   "best_open": {
-   "sym": "CLAUDIA",
-   "upnl": -0.81
+   "sym": "Buttcoin",
+   "upnl": -0.65
   },
   "worst_open": {
-   "sym": "Kimchi",
-   "upnl": -0.92
+   "sym": "CLAUDIA",
+   "upnl": -0.98
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 130,
+  "checked": 131,
   "killed": 60,
-  "passed": 106
+  "passed": 107
  },
  "v3_kills": [
   {
@@ -2166,19 +2164,19 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0779,
+  "dd_today": -0.0786,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792733202,
+  "updated": 1792733661,
   "rejected": {
    "n": 44,
    "1h": {
-    "n": 40,
-    "avg_ret": 0.0392,
+    "n": 41,
+    "avg_ret": 0.0399,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.375
+    "up_pct": 0.39
    },
    "6h": {
     "n": 31,
@@ -2195,14 +2193,14 @@
     "up_pct": 0.0
    },
    "latest": {
-    "n": 40,
-    "avg_ret": 0.0033,
-    "bad_pct": 0.1,
+    "n": 41,
+    "avg_ret": 0.0048,
+    "bad_pct": 0.098,
     "winners": 5
    }
   },
   "passed": {
-   "n": 77,
+   "n": 78,
    "1h": {
     "n": 77,
     "avg_ret": -0.0148,
@@ -2235,11 +2233,11 @@
    "liq $, < $, v floor": {
     "n": 35,
     "1h": {
-     "n": 33,
-     "avg_ret": 0.0491,
+     "n": 34,
+     "avg_ret": 0.0495,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.364
+     "up_pct": 0.382
     },
     "6h": {
      "n": 26,
@@ -2256,9 +2254,9 @@
      "up_pct": 0.0
     },
     "latest": {
-     "n": 33,
-     "avg_ret": 0.0115,
-     "bad_pct": 0.121,
+     "n": 34,
+     "avg_ret": 0.013,
+     "bad_pct": 0.118,
      "winners": 5
     }
    },
@@ -2384,23 +2382,6 @@
    }
   },
   "items": [
-   {
-    "sym": "PUMPCADE",
-    "token": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%",
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792654724,
-    "src": "live",
-    "ret": {
-     "1h": -0.05,
-     "6h": -0.0789,
-     "24h": null
-    },
-    "rug": false
-   },
    {
     "sym": "TCG",
     "token": "DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump",
@@ -3972,7 +3953,7 @@
     "ts": 1792729989,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.065,
      "6h": null,
      "24h": null
     },
@@ -4021,6 +4002,22 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792733202,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "Buttcoin",
+    "token": "Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792733434,
     "src": "live",
     "ret": {
      "1h": null,
