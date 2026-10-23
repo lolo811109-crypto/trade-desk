@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792730532,
+ "updated": 1792730666,
  "tokens_seen": 69,
  "risk": {
   "checked": 95,
@@ -185,13 +185,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0811,
+  "dd_today": -0.0817,
   "limit": -0.1
  },
  "v2": {
-  "equity": 852.06,
+  "equity": 851.48,
   "day_start": 927.27,
-  "pnl_today": -75.21,
+  "pnl_today": -75.79,
   "open_positions": 23,
   "closed_positions": 70,
   "closed_sells": 68,
@@ -208,7 +208,7 @@
   "copied": 69,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 1.24
+   "upnl": 0.92
   },
   "worst_open": {
    "sym": "Agency",
@@ -216,12 +216,12 @@
   }
  },
  "baseline": {
-  "equity": 792.95,
+  "equity": 793.87,
   "day_start": 860.79,
-  "pnl_today": -67.84,
-  "closed_sells": 51,
-  "win_rate": 0.137,
-  "realized_today": -14.56,
+  "pnl_today": -66.92,
+  "closed_sells": 52,
+  "win_rate": 0.135,
+  "realized_today": -14.88,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -1934,30 +1934,30 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 879.92,
+  "equity": 879.48,
   "day_start": 952.92,
-  "pnl_today": -73.0,
-  "open_positions": 5,
-  "closed_positions": 114,
-  "closed_sells": 112,
-  "win_rate": 0.116,
-  "realized_today": -81.12,
+  "pnl_today": -73.44,
+  "open_positions": 4,
+  "closed_positions": 115,
+  "closed_sells": 113,
+  "win_rate": 0.115,
+  "realized_today": -81.44,
   "best_token": {
    "sym": "DOPE",
    "pnl": 2.58
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -12.99
+   "pnl": -13.31
   },
   "copied": 100,
   "best_open": {
-   "sym": "Kimchi",
-   "upnl": -0.28
+   "sym": "SI",
+   "upnl": -0.51
   },
   "worst_open": {
    "sym": "McRib",
-   "upnl": -1.1
+   "upnl": -1.19
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -2146,7 +2146,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0766,
+  "dd_today": -0.0771,
   "limit": -0.1
  },
  "v3_track": {
