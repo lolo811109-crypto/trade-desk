@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792742590,
+ "updated": 1792742890,
  "tokens_seen": 75,
  "risk": {
   "checked": 113,
@@ -199,18 +199,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0875,
+  "dd_today": -0.0878,
   "limit": -0.1
  },
  "v2": {
-  "equity": 846.11,
+  "equity": 845.88,
   "day_start": 927.27,
-  "pnl_today": -81.16,
-  "open_positions": 20,
-  "closed_positions": 82,
-  "closed_sells": 80,
-  "win_rate": 0.113,
-  "realized_today": -77.02,
+  "pnl_today": -81.39,
+  "open_positions": 19,
+  "closed_positions": 83,
+  "closed_sells": 81,
+  "win_rate": 0.111,
+  "realized_today": -78.52,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 2.72
@@ -221,21 +221,21 @@
   },
   "copied": 78,
   "best_open": {
-   "sym": "SI",
-   "upnl": 0.66
+   "sym": "Kimchi",
+   "upnl": 0.4
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.93
+   "upnl": -10.25
   }
  },
  "baseline": {
-  "equity": 756.24,
+  "equity": 753.37,
   "day_start": 860.79,
-  "pnl_today": -104.55,
-  "closed_sells": 65,
-  "win_rate": 0.138,
-  "realized_today": -68.97,
+  "pnl_today": -107.42,
+  "closed_sells": 66,
+  "win_rate": 0.136,
+  "realized_today": -69.47,
   "best_token": {
    "sym": "WiSP",
    "pnl": 20.92
@@ -244,7 +244,7 @@
    "sym": "SURY",
    "pnl": -45.87
   },
-  "copied": 86
+  "copied": 90
  },
  "risk_track": {
   "updated": 1792742505,
@@ -1949,10 +1949,10 @@
   "warn_lp": 26
  },
  "v3": {
-  "equity": 864.96,
+  "equity": 864.08,
   "day_start": 952.92,
-  "pnl_today": -87.96,
-  "open_positions": 5,
+  "pnl_today": -88.84,
+  "open_positions": 6,
   "closed_positions": 138,
   "closed_sells": 136,
   "win_rate": 0.103,
@@ -1965,22 +1965,22 @@
    "sym": "Kimchi",
    "pnl": -18.43
   },
-  "copied": 124,
+  "copied": 125,
   "best_open": {
-   "sym": "KLED",
-   "upnl": -0.57
+   "sym": "LARPCHECK",
+   "upnl": -0.43
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -1.12
+   "upnl": -1.13
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 158,
+  "checked": 159,
   "killed": 75,
-  "passed": 128
+  "passed": 129
  },
  "v3_kills": [
   {
@@ -2169,11 +2169,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0923,
+  "dd_today": -0.0932,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792742505,
+  "updated": 1792742754,
   "rejected": {
    "n": 47,
    "1h": {
@@ -2205,7 +2205,7 @@
    }
   },
   "passed": {
-   "n": 84,
+   "n": 85,
    "1h": {
     "n": 82,
     "avg_ret": -0.016,
@@ -2387,22 +2387,6 @@
    }
   },
   "items": [
-   {
-    "sym": "TripleT",
-    "token": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
-    "ok": true,
-    "reasons": [
-     "warn: dev holding unknown"
-    ],
-    "ts": 1792672275,
-    "src": "live",
-    "ret": {
-     "1h": 0.0116,
-     "6h": -0.049,
-     "24h": null
-    },
-    "rug": false
-   },
    {
     "sym": "JEANPHIL",
     "token": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
@@ -4019,6 +4003,22 @@
      "info: dev holds 0.2% via pump.fun"
     ],
     "ts": 1792742501,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "LARPCHECK",
+    "token": "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP",
+    "ok": true,
+    "reasons": [
+     "warn: dev holding unknown"
+    ],
+    "ts": 1792742754,
     "src": "live",
     "ret": {
      "1h": null,
