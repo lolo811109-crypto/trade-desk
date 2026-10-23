@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792738266,
+ "updated": 1792738598,
  "tokens_seen": 74,
  "risk": {
-  "checked": 105,
-  "killed": 65,
+  "checked": 106,
+  "killed": 66,
   "passed": 77
  },
  "kills": [
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0818,
+  "dd_today": -0.0831,
   "limit": -0.1
  },
  "v2": {
-  "equity": 851.38,
+  "equity": 850.24,
   "day_start": 927.27,
-  "pnl_today": -75.89,
+  "pnl_today": -77.03,
   "open_positions": 23,
   "closed_positions": 74,
   "closed_sells": 72,
@@ -214,8 +214,8 @@
   },
   "copied": 73,
   "best_open": {
-   "sym": "ヤギ",
-   "upnl": 1.22
+   "sym": "McRib",
+   "upnl": 0.59
   },
   "worst_open": {
    "sym": "Agency",
@@ -223,9 +223,9 @@
   }
  },
  "baseline": {
-  "equity": 754.15,
+  "equity": 755.24,
   "day_start": 860.79,
-  "pnl_today": -106.64,
+  "pnl_today": -105.55,
   "closed_sells": 58,
   "win_rate": 0.121,
   "realized_today": -25.33,
@@ -1942,10 +1942,10 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 876.44,
+  "equity": 876.0,
   "day_start": 952.92,
-  "pnl_today": -76.48,
-  "open_positions": 2,
+  "pnl_today": -76.92,
+  "open_positions": 3,
   "closed_positions": 128,
   "closed_sells": 126,
   "win_rate": 0.111,
@@ -1958,22 +1958,22 @@
    "sym": "Kimchi",
    "pnl": -15.95
   },
-  "copied": 111,
+  "copied": 112,
   "best_open": {
    "sym": "McRib",
-   "upnl": 0.49
+   "upnl": 0.59
   },
   "worst_open": {
    "sym": "Kimchi",
-   "upnl": -0.63
+   "upnl": -0.59
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 143,
-  "killed": 65,
-  "passed": 115
+  "checked": 145,
+  "killed": 66,
+  "passed": 116
  },
  "v3_kills": [
   {
@@ -2162,11 +2162,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0803,
+  "dd_today": -0.0807,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792737292,
+  "updated": 1792738596,
   "rejected": {
    "n": 44,
    "1h": {
@@ -2198,7 +2198,7 @@
    }
   },
   "passed": {
-   "n": 79,
+   "n": 80,
    "1h": {
     "n": 78,
     "avg_ret": -0.0146,
@@ -2380,23 +2380,6 @@
    }
   },
   "items": [
-   {
-    "sym": "fone",
-    "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%",
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792654726,
-    "src": "live",
-    "ret": {
-     "1h": -0.0343,
-     "6h": -0.0326,
-     "24h": null
-    },
-    "rug": false
-   },
    {
     "sym": "PHP",
     "token": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -4015,6 +3998,23 @@
      "warn: dev holding unknown"
     ],
     "ts": 1792735727,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CLAUDIA",
+    "token": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792738596,
     "src": "live",
     "ret": {
      "1h": null,
