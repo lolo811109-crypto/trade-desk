@@ -1,15 +1,3 @@
-2026-10-24 00:50:02,511 V3 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x0cde6936d305d5b34667fc46425e852efd73559a', 'sym': 'QQQon', 'price': 712.17, 'action': 'skip-liq'}
-2026-10-24 00:50:02,512 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x0cde6936d305d5b34667fc46425e852efd73559a', 'tx': '0x25633f5c9dd8b1ca133462de7304a54508b12b9c157512b36493db0a84d57fbc', 'sym': 'QQQon', 'price': 712.17, 'liq': 1793, 'action': 'skip-liq'}
-2026-10-24 00:50:02,613 V2 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x6a708ead771238919d85930b5a0f10454e1c331a', 'sym': 'SPYon', 'price': 772.36, 'action': 'skip-liq'}
-2026-10-24 00:50:02,613 V3 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x6a708ead771238919d85930b5a0f10454e1c331a', 'sym': 'SPYon', 'price': 772.36, 'action': 'skip-liq'}
-2026-10-24 00:50:02,613 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x6a708ead771238919d85930b5a0f10454e1c331a', 'tx': '0x25633f5c9dd8b1ca133462de7304a54508b12b9c157512b36493db0a84d57fbc', 'sym': 'SPYon', 'price': 772.36, 'liq': 890, 'action': 'skip-liq'}
-2026-10-24 00:50:03,012 V2-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 91%; LP only 0% locked/burned
-2026-10-24 00:50:03,012 V2 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 147.8, 'action': 'kill-risk', 'reasons': ['top10 holders 91%', 'LP only 0% locked/burned']}
-2026-10-24 00:50:03,992 V3-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 91%; LP only 0% locked/burned; info: dev holds 0.0%
-2026-10-24 00:50:03,992 V3 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 147.8, 'action': 'kill-risk', 'reasons': ['top10 holders 91%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 00:50:03,993 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'tx': '0x25633f5c9dd8b1ca133462de7304a54508b12b9c157512b36493db0a84d57fbc', 'sym': 'SPCXB', 'price': 147.8, 'liq': 750226, 'action': 'skip-cash'}
-2026-10-24 00:50:04,367 V2-RISK NVDAB 0x02fca66c1d1afb4e2a7884261eb00f63598a7436 KILL top10 holders 74%; LP only 0% locked/burned
-2026-10-24 00:50:04,367 V2 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x02fca66c1d1afb4e2a7884261eb00f63598a7436', 'sym': 'NVDAB', 'price': 212.73, 'action': 'kill-risk', 'reasons': ['top10 holders 74%', 'LP only 0% locked/burned']}
 2026-10-24 00:50:05,170 V3-RISK NVDAB 0x02fca66c1d1afb4e2a7884261eb00f63598a7436 KILL top10 holders 74%; LP only 0% locked/burned; info: dev holds 0.0%
 2026-10-24 00:50:05,170 V3 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x02fca66c1d1afb4e2a7884261eb00f63598a7436', 'sym': 'NVDAB', 'price': 212.73, 'action': 'kill-risk', 'reasons': ['top10 holders 74%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
 2026-10-24 00:50:05,171 {'ts': 1792774151, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x02fca66c1d1afb4e2a7884261eb00f63598a7436', 'tx': '0x25633f5c9dd8b1ca133462de7304a54508b12b9c157512b36493db0a84d57fbc', 'sym': 'NVDAB', 'price': 212.73, 'liq': 5240931, 'action': 'skip-cash'}
@@ -298,3 +286,15 @@
 2026-10-24 04:02:06,442 tick equity=765.06 pnl=-234.94 head=129382380 v3=971.96
 2026-10-24 04:02:29,633 tick equity=765.20 pnl=-234.80 head=129382433 v3=972.03
 2026-10-24 04:02:53,406 tick equity=765.22 pnl=-234.78 head=129382485 v3=972.25
+2026-10-24 04:03:19,404 tick equity=764.04 pnl=-235.96 head=129382537 v3=972.26
+2026-10-24 04:03:42,609 tick equity=764.04 pnl=-235.96 head=129382596 v3=972.26
+2026-10-24 04:04:06,103 tick equity=763.97 pnl=-236.03 head=129382647 v3=972.27
+2026-10-24 04:04:45,065 tick equity=764.01 pnl=-235.99 head=129382699 v3=972.27
+2026-10-24 04:05:09,767 tick equity=764.20 pnl=-235.80 head=129382786 v3=972.27
+2026-10-24 04:05:32,921 tick equity=764.21 pnl=-235.79 head=129382841 v3=972.33
+2026-10-24 04:07:00,696 tick equity=764.53 pnl=-235.47 head=129382964 v3=972.34
+2026-10-24 04:07:30,041 V2 {'ts': 1792786033, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.001084, 'action': 'sell', 'proceeds': 8.73, 'pnl': -1.27}
+2026-10-24 04:07:30,043 V3 {'ts': 1792786033, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.001084, 'action': 'sell', 'proceeds': 8.73, 'pnl': -1.27}
+2026-10-24 04:07:35,082 tick equity=764.60 pnl=-235.40 head=129383099 v3=972.37
+2026-10-24 04:08:02,457 tick equity=764.62 pnl=-235.38 head=129383173 v3=972.37
+2026-10-24 04:08:27,390 tick equity=764.46 pnl=-235.54 head=129383224 v3=972.37
