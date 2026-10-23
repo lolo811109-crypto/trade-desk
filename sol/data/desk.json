@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792785169,
+ "updated": 1792785481,
  "tokens_seen": 31,
  "risk": {
   "checked": 57,
@@ -71,13 +71,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0232,
+  "dd_today": -0.0242,
   "limit": -0.1
  },
  "v2": {
-  "equity": 827.52,
+  "equity": 826.68,
   "day_start": 847.14,
-  "pnl_today": -19.62,
+  "pnl_today": -20.46,
   "open_positions": 26,
   "closed_positions": 18,
   "closed_sells": 18,
@@ -94,17 +94,17 @@
   "copied": 22,
   "best_open": {
    "sym": "McRib",
-   "upnl": 5.52
+   "upnl": 4.91
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.65
+   "upnl": -10.79
   }
  },
  "baseline": {
-  "equity": 737.85,
+  "equity": 736.75,
   "day_start": 773.92,
-  "pnl_today": -36.07,
+  "pnl_today": -37.17,
   "closed_sells": 10,
   "win_rate": 0.2,
   "realized_today": -10.37,
@@ -1807,14 +1807,14 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 838.59,
+  "equity": 837.83,
   "day_start": 857.86,
-  "pnl_today": -19.27,
-  "open_positions": 9,
-  "closed_positions": 18,
-  "closed_sells": 18,
-  "win_rate": 0.167,
-  "realized_today": -12.31,
+  "pnl_today": -20.03,
+  "open_positions": 6,
+  "closed_positions": 21,
+  "closed_sells": 21,
+  "win_rate": 0.143,
+  "realized_today": -15.09,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.73
@@ -1825,12 +1825,12 @@
   },
   "copied": 26,
   "best_open": {
-   "sym": "GATO",
-   "upnl": -0.2
+   "sym": "LARP",
+   "upnl": -0.36
   },
   "worst_open": {
-   "sym": "Saturween",
-   "upnl": -1.35
+   "sym": "ヤギ",
+   "upnl": -1.14
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -1903,7 +1903,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0225,
+  "dd_today": -0.0233,
   "limit": -0.1
  },
  "v3_track": {
