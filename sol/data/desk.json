@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792784575,
- "tokens_seen": 30,
+ "updated": 1792784857,
+ "tokens_seen": 31,
  "risk": {
-  "checked": 55,
+  "checked": 56,
   "killed": 42,
-  "passed": 21
+  "passed": 22
  },
  "kills": [
   {
@@ -71,18 +71,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0216,
+  "dd_today": -0.021,
   "limit": -0.1
  },
  "v2": {
-  "equity": 828.86,
+  "equity": 829.37,
   "day_start": 847.14,
-  "pnl_today": -18.28,
+  "pnl_today": -17.77,
   "open_positions": 25,
-  "closed_positions": 17,
-  "closed_sells": 17,
-  "win_rate": 0.235,
-  "realized_today": -8.2,
+  "closed_positions": 18,
+  "closed_sells": 18,
+  "win_rate": 0.222,
+  "realized_today": -9.46,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 1.62
@@ -91,20 +91,20 @@
    "sym": "ヤギ",
    "pnl": -2.05
   },
-  "copied": 20,
+  "copied": 21,
   "best_open": {
    "sym": "McRib",
-   "upnl": 4.6
+   "upnl": 5.32
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.23
+   "upnl": -10.29
   }
  },
  "baseline": {
-  "equity": 737.65,
+  "equity": 734.69,
   "day_start": 773.92,
-  "pnl_today": -36.27,
+  "pnl_today": -39.23,
   "closed_sells": 10,
   "win_rate": 0.2,
   "realized_today": -10.37,
@@ -119,7 +119,7 @@
   "copied": 10
  },
  "risk_track": {
-  "updated": 1792784330,
+  "updated": 1792784678,
   "rejected": {
    "n": 68,
    "1h": {
@@ -151,7 +151,7 @@
    }
   },
   "passed": {
-   "n": 114,
+   "n": 115,
    "1h": {
     "n": 109,
     "avg_ret": -0.0072,
@@ -273,20 +273,6 @@
    }
   },
   "items": [
-   {
-    "sym": "ALON",
-    "token": "8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS",
-    "ok": true,
-    "reasons": [],
-    "ts": 1792692129,
-    "src": "live",
-    "ret": {
-     "1h": -0.0097,
-     "6h": -0.0314,
-     "24h": -0.063
-    },
-    "rug": false
-   },
    {
     "sym": "CATE",
     "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
@@ -1800,6 +1786,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "CRAWL",
+    "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792784678,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1807,10 +1809,10 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 841.42,
+  "equity": 840.07,
   "day_start": 857.86,
-  "pnl_today": -16.44,
-  "open_positions": 7,
+  "pnl_today": -17.79,
+  "open_positions": 8,
   "closed_positions": 18,
   "closed_sells": 18,
   "win_rate": 0.167,
@@ -1823,22 +1825,22 @@
    "sym": "ヤギ",
    "pnl": -5.14
   },
-  "copied": 24,
+  "copied": 25,
   "best_open": {
    "sym": "GATO",
-   "upnl": -0.15
+   "upnl": -0.17
   },
   "worst_open": {
    "sym": "BLACKTOBER",
-   "upnl": -0.91
+   "upnl": -1.2
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 59,
+  "checked": 60,
   "killed": 42,
-  "passed": 25
+  "passed": 26
  },
  "v3_kills": [
   {
@@ -1903,11 +1905,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0192,
+  "dd_today": -0.0207,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792784366,
+  "updated": 1792784857,
   "rejected": {
    "n": 58,
    "1h": {
@@ -1918,11 +1920,11 @@
     "up_pct": 0.386
    },
    "6h": {
-    "n": 49,
-    "avg_ret": 0.095,
-    "bad_pct": 0.082,
+    "n": 50,
+    "avg_ret": 0.0942,
+    "bad_pct": 0.08,
     "rug_pct": 0.0,
-    "up_pct": 0.449
+    "up_pct": 0.46
    },
    "24h": {
     "n": 25,
@@ -1933,19 +1935,19 @@
    },
    "latest": {
     "n": 57,
-    "avg_ret": 0.0347,
+    "avg_ret": 0.0332,
     "bad_pct": 0.105,
     "winners": 9
    }
   },
   "passed": {
-   "n": 109,
+   "n": 110,
    "1h": {
-    "n": 102,
-    "avg_ret": -0.0092,
+    "n": 103,
+    "avg_ret": -0.0098,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.392
+    "up_pct": 0.388
    },
    "6h": {
     "n": 89,
@@ -1962,8 +1964,8 @@
     "up_pct": 0.245
    },
    "latest": {
-    "n": 102,
-    "avg_ret": -0.0352,
+    "n": 103,
+    "avg_ret": -0.0357,
     "bad_pct": 0.039,
     "winners": 1
    }
@@ -1979,11 +1981,11 @@
      "up_pct": 0.362
     },
     "6h": {
-     "n": 40,
-     "avg_ret": 0.1191,
-     "bad_pct": 0.1,
+     "n": 41,
+     "avg_ret": 0.1174,
+     "bad_pct": 0.098,
      "rug_pct": 0.0,
-     "up_pct": 0.425
+     "up_pct": 0.439
     },
     "24h": {
      "n": 21,
@@ -1994,7 +1996,7 @@
     },
     "latest": {
      "n": 47,
-     "avg_ret": 0.033,
+     "avg_ret": 0.0311,
      "bad_pct": 0.128,
      "winners": 8
     }
@@ -2121,23 +2123,6 @@
    }
   },
   "items": [
-   {
-    "sym": "LARP",
-    "token": "EygStH4gHv1h4E8w4raYv6NGsrDiij3nbfCc26iTpump",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%",
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792695656,
-    "src": "live",
-    "ret": {
-     "1h": 0.0537,
-     "6h": 0.3074,
-     "24h": 0.084
-    },
-    "rug": false
-   },
    {
     "sym": "MANIFEST",
     "token": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
@@ -3296,7 +3281,7 @@
     "src": "live",
     "ret": {
      "1h": 0.1384,
-     "6h": null,
+     "6h": 0.0516,
      "24h": null
     },
     "rug": false
@@ -3637,7 +3622,7 @@
     "ts": 1792781248,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0798,
      "6h": null,
      "24h": null
     },
@@ -3749,6 +3734,23 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792784324,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CRAWL",
+    "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792784679,
     "src": "live",
     "ret": {
      "1h": null,
