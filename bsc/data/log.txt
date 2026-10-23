@@ -1,12 +1,3 @@
-2026-10-24 02:02:22,553 V3-RISK 超脑 0xf29d978fffb456ff4b91b1c20d3e42696cb07777 PASS info: dev holds 0.0%
-2026-10-24 02:02:22,553 V3 {'ts': 1792777735, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xf29d978fffb456ff4b91b1c20d3e42696cb07777', 'sym': '超脑', 'price': 2.712e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-24 02:02:22,553 {'ts': 1792777735, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xf29d978fffb456ff4b91b1c20d3e42696cb07777', 'tx': '0x66d0738380ae4effbf1b6f61b6e2aae10be563609eebba3014219e0b1c2092b0', 'sym': '超脑', 'price': 2.712e-05, 'liq': 14713, 'action': 'buy', 'stake': 10.0}
-2026-10-24 02:02:22,669 V2 {'ts': 1792777754, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xf29d978fffb456ff4b91b1c20d3e42696cb07777', 'sym': '超脑', 'price': 2.712e-05, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
-2026-10-24 02:02:22,670 V3 {'ts': 1792777754, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xf29d978fffb456ff4b91b1c20d3e42696cb07777', 'sym': '超脑', 'price': 2.712e-05, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
-2026-10-24 02:02:22,670 {'ts': 1792777754, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xf29d978fffb456ff4b91b1c20d3e42696cb07777', 'tx': '0x0cde6ffd31d4d0f59fe40e1ca37a20b6322be5b6438a308b8307b228b6caf378', 'sym': '超脑', 'price': 2.712e-05, 'liq': 14713, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
-2026-10-24 02:02:27,855 V2 {'ts': 1792777414, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0001213, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 02:02:27,952 V3 {'ts': 1792777414, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0001213, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 02:02:28,162 V2 {'ts': 1792777606, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x637a7dcb36ec545e751e4c332efa64614a9d7777', 'sym': '三星堆', 'price': 0.0001902, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
 2026-10-24 02:02:28,258 V3 {'ts': 1792777606, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x637a7dcb36ec545e751e4c332efa64614a9d7777', 'sym': '三星堆', 'price': 0.0001902, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'warn: dev holding unknown']}
 2026-10-24 02:02:28,258 CONFLUENCE 三星堆 0x637a7dcb36ec545e751e4c332efa64614a9d7777 wallets=['0xdf579d27140000251421f3bb2b4ed43835eb3b6b', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
 2026-10-24 02:02:28,587 V2-RISK 三星堆 0x637a7dcb36ec545e751e4c332efa64614a9d7777 KILL LP only 0% locked/burned
@@ -298,3 +289,12 @@
 2026-10-24 04:44:33,217 tick equity=763.86 pnl=-236.14 head=129388040 v3=972.37
 2026-10-24 04:44:56,734 tick equity=763.80 pnl=-236.20 head=129388093 v3=972.37
 2026-10-24 04:45:19,422 tick equity=763.78 pnl=-236.22 head=129388144 v3=972.37
+2026-10-24 04:45:43,149 tick equity=763.94 pnl=-236.06 head=129388196 v3=972.37
+2026-10-24 04:46:05,561 tick equity=763.94 pnl=-236.06 head=129388248 v3=972.37
+2026-10-24 04:46:30,447 tick equity=763.81 pnl=-236.19 head=129388298 v3=972.37
+2026-10-24 04:46:53,519 tick equity=763.83 pnl=-236.17 head=129388353 v3=972.37
+2026-10-24 04:47:30,259 tick equity=763.85 pnl=-236.15 head=129388432 v3=972.37
+2026-10-24 04:56:54,604 {'ts': 1792788543, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0xdd806e436dda5588bf54061c11590c77ddc87777', 'tx': '0x04b0faca66044508d21b81db4da226841d9ce0052633b02cabd3ce8419e1fc0d', 'action': 'skip-noprice'}
+2026-10-24 04:56:55,008 V2 {'ts': 1792788566, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea', 'sym': 'PANGEA', 'price': 0.0006203010144, 'action': 'skip-7d'}
+2026-10-24 04:56:55,008 V3 {'ts': 1792788566, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea', 'sym': 'PANGEA', 'price': 0.0006203010144, 'action': 'skip-7d'}
+2026-10-24 04:56:55,009 {'ts': 1792788566, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea', 'tx': '0x772d86f214cc52cc3ecd5b9d17bbb7538f3b7a802b99b346b6061a58227ca240', 'sym': 'PANGEA', 'price': 0.0006203010144, 'liq': 44964, 'action': 'buy', 'stake': 10.0}

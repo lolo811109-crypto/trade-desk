@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792788313,
+ "updated": 1792788973,
  "tokens_seen": 37,
  "risk": {
   "checked": 62,
@@ -85,13 +85,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0284,
+  "dd_today": -0.0259,
   "limit": -0.1
  },
  "v2": {
-  "equity": 823.06,
+  "equity": 825.19,
   "day_start": 847.14,
-  "pnl_today": -24.08,
+  "pnl_today": -21.95,
   "open_positions": 22,
   "closed_positions": 26,
   "closed_sells": 26,
@@ -108,17 +108,17 @@
   "copied": 26,
   "best_open": {
    "sym": "McRib",
-   "upnl": 3.53
+   "upnl": 4.45
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.86
+   "upnl": -10.75
   }
  },
  "baseline": {
-  "equity": 733.57,
+  "equity": 742.34,
   "day_start": 773.92,
-  "pnl_today": -40.35,
+  "pnl_today": -31.58,
   "closed_sells": 13,
   "win_rate": 0.231,
   "realized_today": -11.01,
@@ -133,7 +133,7 @@
   "copied": 16
  },
  "risk_track": {
-  "updated": 1792788278,
+  "updated": 1792788973,
   "rejected": {
    "n": 70,
    "1h": {
@@ -167,18 +167,18 @@
   "passed": {
    "n": 117,
    "1h": {
-    "n": 115,
-    "avg_ret": -0.0084,
+    "n": 116,
+    "avg_ret": -0.008,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.426
+    "up_pct": 0.431
    },
    "6h": {
-    "n": 97,
-    "avg_ret": -0.0082,
+    "n": 98,
+    "avg_ret": -0.0078,
     "bad_pct": 0.01,
     "rug_pct": 0.0,
-    "up_pct": 0.433
+    "up_pct": 0.439
    },
    "24h": {
     "n": 60,
@@ -188,8 +188,8 @@
     "up_pct": 0.233
    },
    "latest": {
-    "n": 115,
-    "avg_ret": -0.0477,
+    "n": 116,
+    "avg_ret": -0.0468,
     "bad_pct": 0.026,
     "winners": 2
    }
@@ -1381,7 +1381,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0032,
-     "6h": null,
+     "6h": 0.0222,
      "24h": null
     },
     "rug": false
@@ -1761,7 +1761,7 @@
     "ts": 1792785098,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.0302,
      "6h": null,
      "24h": null
     },
@@ -1821,14 +1821,14 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 832.15,
+  "equity": 832.72,
   "day_start": 857.86,
-  "pnl_today": -25.71,
-  "open_positions": 4,
-  "closed_positions": 29,
-  "closed_sells": 29,
-  "win_rate": 0.103,
-  "realized_today": -21.63,
+  "pnl_today": -25.14,
+  "open_positions": 3,
+  "closed_positions": 30,
+  "closed_sells": 30,
+  "win_rate": 0.1,
+  "realized_today": -22.29,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.12
@@ -1840,11 +1840,11 @@
   "copied": 32,
   "best_open": {
    "sym": "TROLL",
-   "upnl": -0.69
+   "upnl": -0.57
   },
   "worst_open": {
    "sym": "HOTBOT",
-   "upnl": -1.5
+   "upnl": -1.2
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -1931,7 +1931,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.03,
+  "dd_today": -0.0293,
   "limit": -0.1
  },
  "v3_track": {
