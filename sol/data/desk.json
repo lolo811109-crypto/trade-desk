@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792740761,
+ "updated": 1792741031,
  "tokens_seen": 74,
  "risk": {
   "checked": 110,
-  "killed": 72,
+  "killed": 73,
   "passed": 80
  },
  "kills": [
@@ -106,7 +106,7 @@
    "sym": "HIGGS",
    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
    "reasons": [
-    "liq $39,734 < $50,000 v2 floor"
+    "liq $39,802 < $50,000 v2 floor"
    ]
   },
   {
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0864,
+  "dd_today": -0.086,
   "limit": -0.1
  },
  "v2": {
-  "equity": 847.13,
+  "equity": 847.48,
   "day_start": 927.27,
-  "pnl_today": -80.14,
+  "pnl_today": -79.79,
   "open_positions": 22,
   "closed_positions": 78,
   "closed_sells": 76,
@@ -223,9 +223,9 @@
   }
  },
  "baseline": {
-  "equity": 754.36,
+  "equity": 755.47,
   "day_start": 860.79,
-  "pnl_today": -106.43,
+  "pnl_today": -105.32,
   "closed_sells": 62,
   "win_rate": 0.129,
   "realized_today": -68.71,
@@ -1940,9 +1940,9 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 869.31,
+  "equity": 868.96,
   "day_start": 952.92,
-  "pnl_today": -83.61,
+  "pnl_today": -83.96,
   "open_positions": 5,
   "closed_positions": 133,
   "closed_sells": 131,
@@ -1959,18 +1959,18 @@
   "copied": 119,
   "best_open": {
    "sym": "OTC",
-   "upnl": -0.47
+   "upnl": -0.45
   },
   "worst_open": {
-   "sym": "TripleT",
-   "upnl": -0.7
+   "sym": "ヤギ",
+   "upnl": -0.93
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
   "checked": 153,
-  "killed": 72,
+  "killed": 73,
   "passed": 123
  },
  "v3_kills": [
@@ -2072,7 +2072,7 @@
    "sym": "HIGGS",
    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
    "reasons": [
-    "liq $39,734 < $50,000 v2 floor"
+    "liq $39,802 < $50,000 v2 floor"
    ]
   },
   {
@@ -2160,7 +2160,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0877,
+  "dd_today": -0.0881,
   "limit": -0.1
  },
  "v3_track": {
