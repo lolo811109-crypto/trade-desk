@@ -2,8 +2,8 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792751152,
- "tokens_seen": 78,
+ "updated": 1792751508,
+ "tokens_seen": 79,
  "risk": {
   "checked": 131,
   "killed": 86,
@@ -213,13 +213,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0806,
+  "dd_today": -0.0834,
   "limit": -0.1
  },
  "v2": {
-  "equity": 852.53,
+  "equity": 849.92,
   "day_start": 927.27,
-  "pnl_today": -74.74,
+  "pnl_today": -77.35,
   "open_positions": 22,
   "closed_positions": 91,
   "closed_sells": 89,
@@ -236,7 +236,7 @@
   "copied": 89,
   "best_open": {
    "sym": "McRib",
-   "upnl": 8.37
+   "upnl": 5.71
   },
   "worst_open": {
    "sym": "Agency",
@@ -244,9 +244,9 @@
   }
  },
  "baseline": {
-  "equity": 800.37,
+  "equity": 793.91,
   "day_start": 860.79,
-  "pnl_today": -60.42,
+  "pnl_today": -66.88,
   "closed_sells": 74,
   "win_rate": 0.149,
   "realized_today": -68.86,
