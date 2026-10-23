@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792772088,
- "tokens_seen": 4,
+ "updated": 1792773566,
+ "tokens_seen": 7,
  "risk": {
-  "checked": 9,
-  "killed": 6,
+  "checked": 11,
+  "killed": 10,
   "passed": 3
  },
  "kills": [
@@ -17,18 +17,32 @@
     "top10 holders 81%",
     "warn: LP burned only 0%"
    ]
+  },
+  {
+   "sym": "onkey",
+   "token": "9nXSvn8bUmboPdgA4qnmtzxQdgjXWquK6sYaCFLRgPs1",
+   "reasons": [
+    "liq $26,899 < $50,000 v2 floor"
+   ]
+  },
+  {
+   "sym": "CYBER",
+   "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
+   "reasons": [
+    "liq $12,239 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0011,
+  "dd_today": 0.0,
   "limit": -0.1
  },
  "v2": {
-  "equity": 846.24,
+  "equity": 847.15,
   "day_start": 847.14,
-  "pnl_today": -0.9,
+  "pnl_today": 0.01,
   "open_positions": 23,
   "closed_positions": 1,
   "closed_sells": 1,
@@ -45,34 +59,34 @@
   "copied": 2,
   "best_open": {
    "sym": "McRib",
-   "upnl": 4.02
+   "upnl": 3.68
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.6
+   "upnl": -9.28
   }
  },
  "baseline": {
-  "equity": 815.57,
+  "equity": 800.93,
   "day_start": 773.92,
-  "pnl_today": 41.65,
-  "closed_sells": 1,
+  "pnl_today": 27.01,
+  "closed_sells": 2,
   "win_rate": 0.0,
-  "realized_today": -0.53,
+  "realized_today": -4.3,
   "best_token": {
    "sym": "DJI6930",
    "pnl": -0.53
   },
   "worst_token": {
-   "sym": "DJI6930",
-   "pnl": -0.53
+   "sym": "NIO",
+   "pnl": -3.77
   },
-  "copied": 0
+  "copied": 1
  },
  "risk_track": {
-  "updated": 1792772081,
+  "updated": 1792773360,
   "rejected": {
-   "n": 63,
+   "n": 65,
    "1h": {
     "n": 61,
     "avg_ret": 0.021,
@@ -118,22 +132,22 @@
     "up_pct": 0.433
    },
    "24h": {
-    "n": 46,
-    "avg_ret": -0.1472,
-    "bad_pct": 0.065,
+    "n": 49,
+    "avg_ret": -0.1397,
+    "bad_pct": 0.061,
     "rug_pct": 0.0,
-    "up_pct": 0.13
+    "up_pct": 0.163
    },
    "latest": {
     "n": 100,
-    "avg_ret": -0.0567,
+    "avg_ret": -0.0548,
     "bad_pct": 0.03,
     "winners": 2
    }
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 47,
+    "n": 49,
     "1h": {
      "n": 46,
      "avg_ret": 0.0394,
@@ -224,38 +238,6 @@
    }
   },
   "items": [
-   {
-    "sym": "CYBER",
-    "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
-    "ok": false,
-    "reasons": [
-     "liq $21,040 < $50,000 v2 floor"
-    ],
-    "ts": 1792683411,
-    "src": "live",
-    "ret": {
-     "1h": -0.342,
-     "6h": -0.5214,
-     "24h": -0.6427
-    },
-    "rug": false
-   },
-   {
-    "sym": "ORACLE7",
-    "token": "DU7Lhe2QtcRBJdor7KbpjfUDmLyA2kdhR49Li3czpump",
-    "ok": false,
-    "reasons": [
-     "liq $34,196 < $50,000 v2 floor"
-    ],
-    "ts": 1792683411,
-    "src": "live",
-    "ret": {
-     "1h": 0.0529,
-     "6h": -0.0765,
-     "24h": 0.0143
-    },
-    "rug": false
-   },
    {
     "sym": "ALPENGLOW",
     "token": "DNq98kymaw7GxhvLDTtrpUTBzi3L2KvnSedutZMyVhbm",
@@ -358,7 +340,7 @@
     "ret": {
      "1h": -0.0637,
      "6h": -0.1032,
-     "24h": null
+     "24h": 0.011
     },
     "rug": false
    },
@@ -372,7 +354,7 @@
     "ret": {
      "1h": -0.0877,
      "6h": -0.0769,
-     "24h": null
+     "24h": -0.0978
     },
     "rug": false
    },
@@ -388,7 +370,7 @@
     "ret": {
      "1h": -0.053,
      "6h": -0.0869,
-     "24h": null
+     "24h": 0.011
     },
     "rug": false
    },
@@ -1755,6 +1737,38 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "onkey",
+    "token": "9nXSvn8bUmboPdgA4qnmtzxQdgjXWquK6sYaCFLRgPs1",
+    "ok": false,
+    "reasons": [
+     "liq $26,899 < $50,000 v2 floor"
+    ],
+    "ts": 1792773354,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CYBER",
+    "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
+    "ok": false,
+    "reasons": [
+     "liq $12,239 < $50,000 v2 floor"
+    ],
+    "ts": 1792773356,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1762,31 +1776,37 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 855.88,
+  "equity": 857.55,
   "day_start": 857.86,
-  "pnl_today": -1.98,
-  "open_positions": 3,
-  "closed_positions": 0,
-  "closed_sells": 0,
-  "win_rate": null,
-  "realized_today": 0,
-  "best_token": null,
-  "worst_token": null,
+  "pnl_today": -0.31,
+  "open_positions": 1,
+  "closed_positions": 2,
+  "closed_sells": 2,
+  "win_rate": 0.5,
+  "realized_today": 0.78,
+  "best_token": {
+   "sym": "MEMEOS",
+   "pnl": 2.73
+  },
+  "worst_token": {
+   "sym": "ヤギ",
+   "pnl": -1.95
+  },
   "copied": 2,
   "best_open": {
-   "sym": "ヤギ",
-   "upnl": -0.55
+   "sym": "Pepper",
+   "upnl": -1.08
   },
   "worst_open": {
-   "sym": "MEMEOS",
-   "upnl": -0.84
+   "sym": "Pepper",
+   "upnl": -1.08
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 9,
-  "killed": 6,
+  "checked": 11,
+  "killed": 10,
   "passed": 3
  },
  "v3_kills": [
@@ -1798,18 +1818,32 @@
     "warn: LP burned only 0%",
     "info: dev holds 0.0% via pump.fun"
    ]
+  },
+  {
+   "sym": "onkey",
+   "token": "9nXSvn8bUmboPdgA4qnmtzxQdgjXWquK6sYaCFLRgPs1",
+   "reasons": [
+    "liq $26,899 < $50,000 v2 floor"
+   ]
+  },
+  {
+   "sym": "CYBER",
+   "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
+   "reasons": [
+    "liq $12,239 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0023,
+  "dd_today": -0.0004,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792772082,
+  "updated": 1792773360,
   "rejected": {
-   "n": 53,
+   "n": 55,
    "1h": {
     "n": 51,
     "avg_ret": 0.0531,
@@ -1855,22 +1889,22 @@
     "up_pct": 0.382
    },
    "24h": {
-    "n": 36,
-    "avg_ret": -0.157,
-    "bad_pct": 0.111,
+    "n": 38,
+    "avg_ret": -0.151,
+    "bad_pct": 0.105,
     "rug_pct": 0.0,
-    "up_pct": 0.139
+    "up_pct": 0.158
    },
    "latest": {
     "n": 89,
-    "avg_ret": -0.0503,
+    "avg_ret": -0.0494,
     "bad_pct": 0.045,
     "winners": 1
    }
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 43,
+    "n": 45,
     "1h": {
      "n": 42,
      "avg_ret": 0.0694,
@@ -2022,38 +2056,6 @@
   },
   "items": [
    {
-    "sym": "MEMEOS",
-    "token": "5q5pEZZwhkuazS4rGa66LcNotdsnUE9KcJ7xQmXSpump",
-    "ok": true,
-    "reasons": [
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792683410,
-    "src": "live",
-    "ret": {
-     "1h": -0.0026,
-     "6h": -0.0056,
-     "24h": -0.1281
-    },
-    "rug": false
-   },
-   {
-    "sym": "CYBER",
-    "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
-    "ok": false,
-    "reasons": [
-     "liq $21,040 < $50,000 v2 floor"
-    ],
-    "ts": 1792683411,
-    "src": "live",
-    "ret": {
-     "1h": -0.342,
-     "6h": -0.5214,
-     "24h": -0.6427
-    },
-    "rug": false
-   },
-   {
     "sym": "ORACLE7",
     "token": "DU7Lhe2QtcRBJdor7KbpjfUDmLyA2kdhR49Li3czpump",
     "ok": false,
@@ -2195,7 +2197,7 @@
     "ret": {
      "1h": -0.0877,
      "6h": -0.0769,
-     "24h": null
+     "24h": -0.0978
     },
     "rug": false
    },
@@ -2212,7 +2214,7 @@
     "ret": {
      "1h": -0.053,
      "6h": -0.0869,
-     "24h": null
+     "24h": 0.011
     },
     "rug": false
    },
@@ -3650,6 +3652,38 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792772082,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "onkey",
+    "token": "9nXSvn8bUmboPdgA4qnmtzxQdgjXWquK6sYaCFLRgPs1",
+    "ok": false,
+    "reasons": [
+     "liq $26,899 < $50,000 v2 floor"
+    ],
+    "ts": 1792773354,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CYBER",
+    "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
+    "ok": false,
+    "reasons": [
+     "liq $12,239 < $50,000 v2 floor"
+    ],
+    "ts": 1792773356,
     "src": "live",
     "ret": {
      "1h": null,
