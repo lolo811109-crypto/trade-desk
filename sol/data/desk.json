@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792781822,
+ "updated": 1792782056,
  "tokens_seen": 21,
  "risk": {
-  "checked": 35,
+  "checked": 36,
   "killed": 26,
-  "passed": 14
+  "passed": 15
  },
  "kills": [
   {
@@ -50,18 +50,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0082,
+  "dd_today": -0.0096,
   "limit": -0.1
  },
  "v2": {
-  "equity": 840.2,
+  "equity": 839.05,
   "day_start": 847.14,
-  "pnl_today": -6.94,
-  "open_positions": 22,
-  "closed_positions": 13,
-  "closed_sells": 13,
-  "win_rate": 0.308,
-  "realized_today": -5.34,
+  "pnl_today": -8.09,
+  "open_positions": 21,
+  "closed_positions": 15,
+  "closed_sells": 15,
+  "win_rate": 0.267,
+  "realized_today": -6.52,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 1.62
@@ -70,10 +70,10 @@
    "sym": "ヤギ",
    "pnl": -2.05
   },
-  "copied": 13,
+  "copied": 14,
   "best_open": {
    "sym": "McRib",
-   "upnl": 7.56
+   "upnl": 6.49
   },
   "worst_open": {
    "sym": "Agency",
@@ -81,9 +81,9 @@
   }
  },
  "baseline": {
-  "equity": 770.07,
+  "equity": 765.72,
   "day_start": 773.92,
-  "pnl_today": -3.85,
+  "pnl_today": -8.2,
   "closed_sells": 9,
   "win_rate": 0.222,
   "realized_today": -7.27,
@@ -98,7 +98,7 @@
   "copied": 7
  },
  "risk_track": {
-  "updated": 1792781822,
+  "updated": 1792782056,
   "rejected": {
    "n": 67,
    "1h": {
@@ -116,16 +116,16 @@
     "up_pct": 0.458
    },
    "24h": {
-    "n": 31,
-    "avg_ret": -0.0251,
-    "bad_pct": 0.194,
+    "n": 32,
+    "avg_ret": -0.0427,
+    "bad_pct": 0.219,
     "rug_pct": 0.0,
-    "up_pct": 0.452
+    "up_pct": 0.438
    },
    "latest": {
     "n": 65,
-    "avg_ret": 0.0605,
-    "bad_pct": 0.092,
+    "avg_ret": 0.0568,
+    "bad_pct": 0.108,
     "winners": 10
    }
   },
@@ -146,15 +146,15 @@
     "up_pct": 0.432
    },
    "24h": {
-    "n": 55,
-    "avg_ret": -0.1156,
-    "bad_pct": 0.055,
+    "n": 56,
+    "avg_ret": -0.112,
+    "bad_pct": 0.054,
     "rug_pct": 0.0,
-    "up_pct": 0.2
+    "up_pct": 0.214
    },
    "latest": {
     "n": 108,
-    "avg_ret": -0.0435,
+    "avg_ret": -0.0456,
     "bad_pct": 0.028,
     "winners": 2
    }
@@ -177,16 +177,16 @@
      "up_pct": 0.422
     },
     "24h": {
-     "n": 23,
-     "avg_ret": -0.0243,
-     "bad_pct": 0.261,
+     "n": 24,
+     "avg_ret": -0.0479,
+     "bad_pct": 0.292,
      "rug_pct": 0.0,
-     "up_pct": 0.522
+     "up_pct": 0.5
     },
     "latest": {
      "n": 49,
-     "avg_ret": 0.0852,
-     "bad_pct": 0.122,
+     "avg_ret": 0.0803,
+     "bad_pct": 0.143,
      "winners": 9
     }
    },
@@ -420,7 +420,7 @@
     "ret": {
      "1h": -0.1446,
      "6h": -0.3488,
-     "24h": null
+     "24h": -0.5896
     },
     "rug": false
    },
@@ -436,7 +436,7 @@
     "ret": {
      "1h": 0.0537,
      "6h": 0.3074,
-     "24h": null
+     "24h": 0.084
     },
     "rug": false
    },
@@ -1790,10 +1790,10 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 848.88,
+  "equity": 848.29,
   "day_start": 857.86,
-  "pnl_today": -8.98,
-  "open_positions": 0,
+  "pnl_today": -9.57,
+  "open_positions": 1,
   "closed_positions": 16,
   "closed_sells": 16,
   "win_rate": 0.188,
@@ -1806,16 +1806,22 @@
    "sym": "ヤギ",
    "pnl": -2.43
   },
-  "copied": 15,
-  "best_open": null,
-  "worst_open": null,
+  "copied": 16,
+  "best_open": {
+   "sym": "ヤギ",
+   "upnl": -0.59
+  },
+  "worst_open": {
+   "sym": "ヤギ",
+   "upnl": -0.59
+  },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 37,
+  "checked": 38,
   "killed": 26,
-  "passed": 16
+  "passed": 17
  },
  "v3_kills": [
   {
@@ -1859,11 +1865,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0105,
+  "dd_today": -0.0112,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792781248,
+  "updated": 1792782056,
   "rejected": {
    "n": 57,
    "1h": {
@@ -1881,16 +1887,16 @@
     "up_pct": 0.449
    },
    "24h": {
-    "n": 22,
-    "avg_ret": -0.0937,
-    "bad_pct": 0.227,
+    "n": 23,
+    "avg_ret": -0.1153,
+    "bad_pct": 0.261,
     "rug_pct": 0.0,
-    "up_pct": 0.455
+    "up_pct": 0.435
    },
    "latest": {
     "n": 55,
-    "avg_ret": 0.0536,
-    "bad_pct": 0.091,
+    "avg_ret": 0.0492,
+    "bad_pct": 0.109,
     "winners": 9
    }
   },
@@ -1911,15 +1917,15 @@
     "up_pct": 0.382
    },
    "24h": {
-    "n": 44,
-    "avg_ret": -0.1198,
-    "bad_pct": 0.091,
+    "n": 45,
+    "avg_ret": -0.1152,
+    "bad_pct": 0.089,
     "rug_pct": 0.0,
-    "up_pct": 0.205
+    "up_pct": 0.222
    },
    "latest": {
     "n": 100,
-    "avg_ret": -0.0319,
+    "avg_ret": -0.0341,
     "bad_pct": 0.04,
     "winners": 1
    }
@@ -1942,16 +1948,16 @@
      "up_pct": 0.425
     },
     "24h": {
-     "n": 18,
-     "avg_ret": -0.1309,
-     "bad_pct": 0.278,
+     "n": 19,
+     "avg_ret": -0.155,
+     "bad_pct": 0.316,
      "rug_pct": 0.0,
-     "up_pct": 0.5
+     "up_pct": 0.474
     },
     "latest": {
      "n": 45,
-     "avg_ret": 0.056,
-     "bad_pct": 0.111,
+     "avg_ret": 0.0506,
+     "bad_pct": 0.133,
      "winners": 8
     }
    },
@@ -2188,7 +2194,7 @@
     "ret": {
      "1h": -0.1446,
      "6h": -0.3488,
-     "24h": null
+     "24h": -0.5896
     },
     "rug": false
    },
@@ -2205,7 +2211,7 @@
     "ret": {
      "1h": 0.0537,
      "6h": 0.3074,
-     "24h": null
+     "24h": 0.084
     },
     "rug": false
    },
