@@ -1,31 +1,3 @@
-2026-10-23 15:38:19,172 tick equity=816.02 pnl=-183.98 head=129283243 v3=978.92
-2026-10-23 15:38:42,408 tick equity=815.98 pnl=-184.02 head=129283290 v3=978.92
-2026-10-23 15:39:04,825 tick equity=816.09 pnl=-183.91 head=129283342 v3=978.92
-2026-10-23 15:39:27,707 tick equity=816.08 pnl=-183.92 head=129283392 v3=978.92
-2026-10-23 15:39:50,413 tick equity=815.86 pnl=-184.14 head=129283443 v3=978.92
-2026-10-23 15:40:13,623 tick equity=815.87 pnl=-184.13 head=129283493 v3=978.92
-2026-10-23 15:40:36,152 tick equity=816.59 pnl=-183.41 head=129283545 v3=978.92
-2026-10-23 15:41:00,965 tick equity=817.35 pnl=-182.65 head=129283595 v3=978.92
-2026-10-23 15:41:24,278 tick equity=817.58 pnl=-182.42 head=129283650 v3=978.92
-2026-10-23 15:41:46,915 tick equity=816.96 pnl=-183.04 head=129283702 v3=978.92
-2026-10-23 15:42:09,486 tick equity=813.45 pnl=-186.55 head=129283752 v3=978.92
-2026-10-23 15:42:32,891 tick equity=812.04 pnl=-187.96 head=129283802 v3=978.92
-2026-10-23 15:42:54,730 tick equity=810.91 pnl=-189.09 head=129283854 v3=978.92
-2026-10-23 15:43:18,550 tick equity=810.93 pnl=-189.07 head=129283903 v3=978.92
-2026-10-23 15:43:40,560 tick equity=809.88 pnl=-190.12 head=129283956 v3=978.92
-2026-10-23 15:44:03,580 tick equity=809.70 pnl=-190.30 head=129284005 v3=978.92
-2026-10-23 15:44:26,686 tick equity=809.79 pnl=-190.21 head=129284056 v3=978.92
-2026-10-23 15:44:50,327 tick equity=810.17 pnl=-189.83 head=129284107 v3=978.92
-2026-10-23 15:45:12,723 tick equity=810.09 pnl=-189.91 head=129284160 v3=978.92
-2026-10-23 15:45:36,694 tick equity=810.05 pnl=-189.95 head=129284209 v3=978.92
-2026-10-23 15:45:59,393 tick equity=810.25 pnl=-189.75 head=129284263 v3=978.92
-2026-10-23 15:46:22,432 tick equity=810.30 pnl=-189.70 head=129284313 v3=978.92
-2026-10-23 15:46:45,534 tick equity=810.37 pnl=-189.63 head=129284364 v3=978.92
-2026-10-23 15:47:50,589 loop error rpc fail eth_blockNumber
-2026-10-23 15:49:01,955 tick equity=809.95 pnl=-190.05 head=129284560 v3=978.92
-2026-10-23 15:49:44,393 tick equity=808.00 pnl=-192.00 head=129284752 v3=978.92
-2026-10-23 15:50:06,826 tick equity=807.93 pnl=-192.07 head=129284813 v3=978.92
-2026-10-23 15:50:30,576 tick equity=808.92 pnl=-191.08 head=129284863 v3=978.92
 2026-10-23 15:50:53,220 tick equity=809.38 pnl=-190.62 head=129284915 v3=978.92
 2026-10-23 15:51:16,651 tick equity=810.70 pnl=-189.30 head=129284966 v3=978.92
 2026-10-23 15:51:39,094 tick equity=810.51 pnl=-189.49 head=129285018 v3=978.92
@@ -298,3 +270,31 @@
 2026-10-23 19:14:39,617 tick equity=799.06 pnl=-200.94 head=129312071 v3=977.19
 2026-10-23 19:15:04,489 tick equity=798.90 pnl=-201.10 head=129312127 v3=977.19
 2026-10-23 19:15:28,886 tick equity=798.84 pnl=-201.16 head=129312182 v3=977.19
+2026-10-23 19:15:53,166 tick equity=798.52 pnl=-201.48 head=129312236 v3=977.19
+2026-10-23 19:16:16,757 tick equity=798.55 pnl=-201.45 head=129312290 v3=977.19
+2026-10-23 19:38:35,510 tick equity=795.30 pnl=-204.70 head=129312403 v3=977.29
+2026-10-23 19:39:14,054 V2-RISK CRAZYCOIN 0xfeef9e068dcd8d9b662d6ad70e946cc4e31dffff KILL top10 holders 95%
+2026-10-23 19:39:14,055 V2 {'ts': 1792754857, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xfeef9e068dcd8d9b662d6ad70e946cc4e31dffff', 'sym': 'CRAZYCOIN', 'price': 0.002939, 'action': 'kill-risk', 'reasons': ['top10 holders 95%']}
+2026-10-23 19:39:14,732 V3-RISK CRAZYCOIN 0xfeef9e068dcd8d9b662d6ad70e946cc4e31dffff KILL top10 holders 95%; info: dev holds 0.0%
+2026-10-23 19:39:14,732 V3 {'ts': 1792754857, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xfeef9e068dcd8d9b662d6ad70e946cc4e31dffff', 'sym': 'CRAZYCOIN', 'price': 0.002939, 'action': 'kill-risk', 'reasons': ['top10 holders 95%', 'info: dev holds 0.0%']}
+2026-10-23 19:39:14,735 {'ts': 1792754857, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xfeef9e068dcd8d9b662d6ad70e946cc4e31dffff', 'tx': '0x8496df839a6b00f8fe2206545fa2e969126965dda659614b97550f3a6f97b165', 'sym': 'CRAZYCOIN', 'price': 0.002939, 'liq': 114527, 'action': 'skip-cash'}
+2026-10-23 19:39:14,928 {'ts': 1792754874, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x5be8dca38cff485d3a80809195284c7f74c77777', 'tx': '0x41de4ceb1c1c4e3f6cde1546bcf170b072ede84e4359e3c1fbcdc5958e6f6dec', 'sym': 'HackiOS', 'price': 3.84e-05, 'liq': 18385, 'action': 'sell', 'proceeds': 10.5, 'pnl': 0.5}
+2026-10-23 19:39:15,086 {'ts': 1792754878, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x098e0825220d94a110ac77f4c99a4f1a1e1b7777', 'tx': '0xb871744083aa8c88b761a802e32152331b4144805de3e1f51bfbea22e7457482', 'sym': 'QBTC', 'price': 8.773e-06, 'liq': 13793, 'action': 'sell', 'proceeds': 7.93, 'pnl': -2.07}
+2026-10-23 19:39:17,753 V2 {'ts': 1792754804, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ba36d43f44a45db6f6c1c7812b33b103737777', 'sym': '美元', 'price': 6.494e-06, 'action': 'skip-7d'}
+2026-10-23 19:39:17,753 V3 {'ts': 1792754804, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x42ba36d43f44a45db6f6c1c7812b33b103737777', 'sym': '美元', 'price': 6.494e-06, 'action': 'skip-7d'}
+2026-10-23 19:39:18,038 V2 {'ts': 1792755043, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x39694de0b6e26194a1043df5422e3e198e487777', 'sym': 'B', 'price': 4.656e-06, 'action': 'skip-7d'}
+2026-10-23 19:39:18,038 V3 {'ts': 1792755043, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x39694de0b6e26194a1043df5422e3e198e487777', 'sym': 'B', 'price': 4.656e-06, 'action': 'skip-7d'}
+2026-10-23 19:39:23,644 V2-RISK 派大星 0xe3405f29db98173b3eb0b620ba5567da4e947777 KILL buy_tax unknown; sell_tax unknown
+2026-10-23 19:39:23,644 V2 {'ts': 1792755105, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe3405f29db98173b3eb0b620ba5567da4e947777', 'sym': '派大星', 'price': 0.0002509, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-23 19:39:27,145 V3-RISK 派大星 0xe3405f29db98173b3eb0b620ba5567da4e947777 KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%
+2026-10-23 19:39:27,146 V3 {'ts': 1792755105, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe3405f29db98173b3eb0b620ba5567da4e947777', 'sym': '派大星', 'price': 0.0002509, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%']}
+2026-10-23 19:39:27,698 V2-RISK PANGEA 0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea KILL LP only 0% locked/burned
+2026-10-23 19:39:27,699 V2 {'ts': 1792755439, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea', 'sym': 'PANGEA', 'price': 0.001084533758, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-23 19:39:27,789 V3 {'ts': 1792755439, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd0cb4279e2b74c2d72eea20df308fb9604e3d6ea', 'sym': 'PANGEA', 'price': 0.001084533758, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
+2026-10-23 19:41:13,803 V2 {'ts': 1792754557, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.007123, 'action': 'skip-7d'}
+2026-10-23 19:41:13,803 V3 {'ts': 1792754557, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.007123, 'action': 'skip-7d'}
+2026-10-23 19:41:13,947 V2 {'ts': 1792754837, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.007123, 'action': 'skip-7d'}
+2026-10-23 19:41:13,948 V3 {'ts': 1792754837, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.007123, 'action': 'skip-7d'}
+2026-10-23 19:41:14,151 V2 {'ts': 1792754921, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.0001173, 'action': 'skip-7d'}
+2026-10-23 19:41:14,151 V3 {'ts': 1792754921, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x097dd7ee96b36444ad3439b32a8518e682ff7777', 'sym': 'フリーダム・オブ・マネー', 'price': 0.0001173, 'action': 'skip-7d'}
+2026-10-23 19:41:16,684 tick equity=795.62 pnl=-204.38 head=129315352 v3=977.29
