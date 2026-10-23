@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792771862,
- "tokens_seen": 3,
+ "updated": 1792772088,
+ "tokens_seen": 4,
  "risk": {
-  "checked": 8,
+  "checked": 9,
   "killed": 6,
-  "passed": 2
+  "passed": 3
  },
  "kills": [
   {
@@ -22,14 +22,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.001,
+  "dd_today": -0.0011,
   "limit": -0.1
  },
  "v2": {
-  "equity": 846.33,
+  "equity": 846.24,
   "day_start": 847.14,
-  "pnl_today": -0.81,
-  "open_positions": 22,
+  "pnl_today": -0.9,
+  "open_positions": 23,
   "closed_positions": 1,
   "closed_sells": 1,
   "win_rate": 0.0,
@@ -42,20 +42,20 @@
    "sym": "DJI6930",
    "pnl": -0.53
   },
-  "copied": 1,
+  "copied": 2,
   "best_open": {
    "sym": "McRib",
-   "upnl": 3.83
+   "upnl": 4.02
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.56
+   "upnl": -9.6
   }
  },
  "baseline": {
-  "equity": 822.04,
+  "equity": 815.57,
   "day_start": 773.92,
-  "pnl_today": 48.12,
+  "pnl_today": 41.65,
   "closed_sells": 1,
   "win_rate": 0.0,
   "realized_today": -0.53,
@@ -70,7 +70,7 @@
   "copied": 0
  },
  "risk_track": {
-  "updated": 1792771615,
+  "updated": 1792772081,
   "rejected": {
    "n": 63,
    "1h": {
@@ -102,7 +102,7 @@
    }
   },
   "passed": {
-   "n": 101,
+   "n": 102,
    "1h": {
     "n": 100,
     "avg_ret": -0.0096,
@@ -224,20 +224,6 @@
    }
   },
   "items": [
-   {
-    "sym": "MEMEOS",
-    "token": "5q5pEZZwhkuazS4rGa66LcNotdsnUE9KcJ7xQmXSpump",
-    "ok": true,
-    "reasons": [],
-    "ts": 1792683409,
-    "src": "live",
-    "ret": {
-     "1h": -0.0026,
-     "6h": -0.0056,
-     "24h": -0.1281
-    },
-    "rug": false
-   },
    {
     "sym": "CYBER",
     "token": "7J5pp54YwSNhqungZUWvojgGB7ws3WihkXMUiq1ipump",
@@ -1755,6 +1741,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "Pepper",
+    "token": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792772081,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1762,32 +1762,32 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 856.0,
+  "equity": 855.88,
   "day_start": 857.86,
-  "pnl_today": -1.86,
-  "open_positions": 2,
+  "pnl_today": -1.98,
+  "open_positions": 3,
   "closed_positions": 0,
   "closed_sells": 0,
   "win_rate": null,
   "realized_today": 0,
   "best_token": null,
   "worst_token": null,
-  "copied": 1,
+  "copied": 2,
   "best_open": {
    "sym": "ヤギ",
-   "upnl": -0.62
+   "upnl": -0.55
   },
   "worst_open": {
    "sym": "MEMEOS",
-   "upnl": -1.25
+   "upnl": -0.84
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 8,
+  "checked": 9,
   "killed": 6,
-  "passed": 2
+  "passed": 3
  },
  "v3_kills": [
   {
@@ -1803,11 +1803,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0022,
+  "dd_today": -0.0023,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792771821,
+  "updated": 1792772082,
   "rejected": {
    "n": 53,
    "1h": {
@@ -1839,7 +1839,7 @@
    }
   },
   "passed": {
-   "n": 91,
+   "n": 92,
    "1h": {
     "n": 89,
     "avg_ret": -0.0158,
@@ -2021,22 +2021,6 @@
    }
   },
   "items": [
-   {
-    "sym": "DRMR",
-    "token": "7Xgc5RacHtGzfhw2HukUBk5V986yBbvshr7rrCoopump",
-    "ok": false,
-    "reasons": [
-     "liq $49,192 < $50,000 v2 floor"
-    ],
-    "ts": 1792682062,
-    "src": "live",
-    "ret": {
-     "1h": -0.0535,
-     "6h": -0.0703,
-     "24h": 0.0336
-    },
-    "rug": false
-   },
    {
     "sym": "MEMEOS",
     "token": "5q5pEZZwhkuazS4rGa66LcNotdsnUE9KcJ7xQmXSpump",
@@ -3650,6 +3634,22 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792771821,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "Pepper",
+    "token": "9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792772082,
     "src": "live",
     "ret": {
      "1h": null,
