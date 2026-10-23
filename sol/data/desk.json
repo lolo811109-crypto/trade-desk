@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792796517,
+ "updated": 1792796826,
  "tokens_seen": 50,
  "risk": {
-  "checked": 74,
+  "checked": 75,
   "killed": 60,
-  "passed": 34
+  "passed": 35
  },
  "kills": [
   {
@@ -120,14 +120,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0409,
+  "dd_today": -0.0412,
   "limit": -0.1
  },
  "v2": {
-  "equity": 812.46,
+  "equity": 812.22,
   "day_start": 847.14,
-  "pnl_today": -34.68,
-  "open_positions": 20,
+  "pnl_today": -34.92,
+  "open_positions": 21,
   "closed_positions": 35,
   "closed_sells": 35,
   "win_rate": 0.171,
@@ -140,20 +140,20 @@
    "sym": "Agency",
    "pnl": -13.83
   },
-  "copied": 33,
+  "copied": 34,
   "best_open": {
    "sym": "GATO",
-   "upnl": 0.49
+   "upnl": 0.84
   },
   "worst_open": {
    "sym": "CYBERLEEK",
-   "upnl": -3.08
+   "upnl": -3.1
   }
  },
  "baseline": {
-  "equity": 680.08,
+  "equity": 683.12,
   "day_start": 773.92,
-  "pnl_today": -93.84,
+  "pnl_today": -90.8,
   "closed_sells": 17,
   "win_rate": 0.235,
   "realized_today": -13.4,
@@ -168,7 +168,7 @@
   "copied": 19
  },
  "risk_track": {
-  "updated": 1792796311,
+  "updated": 1792796685,
   "rejected": {
    "n": 77,
    "1h": {
@@ -200,7 +200,7 @@
    }
   },
   "passed": {
-   "n": 122,
+   "n": 123,
    "1h": {
     "n": 121,
     "avg_ret": -0.0071,
@@ -322,22 +322,6 @@
    }
   },
   "items": [
-   {
-    "sym": "tinybeehee",
-    "token": "8anXQ9oBP5GwK21ZUbv82SQTn3Xz2Wd7jbzxSEfppump",
-    "ok": false,
-    "reasons": [
-     "liq $10,181 < $50,000 v2 floor"
-    ],
-    "ts": 1792708680,
-    "src": "live",
-    "ret": {
-     "1h": 0.1655,
-     "6h": 0.7531,
-     "24h": 0.3466
-    },
-    "rug": false
-   },
    {
     "sym": "CRAWL",
     "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
@@ -1858,6 +1842,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "ヤギ",
+    "token": "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792796685,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1865,10 +1863,10 @@
   "warn_lp": 29
  },
  "v3": {
-  "equity": 824.79,
+  "equity": 823.96,
   "day_start": 857.86,
-  "pnl_today": -33.07,
-  "open_positions": 6,
+  "pnl_today": -33.9,
+  "open_positions": 7,
   "closed_positions": 40,
   "closed_sells": 40,
   "win_rate": 0.125,
@@ -1881,22 +1879,22 @@
    "sym": "ヤギ",
    "pnl": -6.83
   },
-  "copied": 45,
+  "copied": 46,
   "best_open": {
-   "sym": "JEANPHIL",
-   "upnl": -0.33
+   "sym": "Agency",
+   "upnl": -0.4
   },
   "worst_open": {
-   "sym": "GLITCH",
-   "upnl": -0.94
+   "sym": "ヤギ",
+   "upnl": -1.02
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 86,
+  "checked": 87,
   "killed": 60,
-  "passed": 46
+  "passed": 47
  },
  "v3_kills": [
   {
@@ -2010,11 +2008,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0385,
+  "dd_today": -0.0395,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792796311,
+  "updated": 1792796686,
   "rejected": {
    "n": 67,
    "1h": {
@@ -2046,7 +2044,7 @@
    }
   },
   "passed": {
-   "n": 120,
+   "n": 121,
    "1h": {
     "n": 118,
     "avg_ret": -0.0116,
@@ -2228,22 +2226,6 @@
    }
   },
   "items": [
-   {
-    "sym": "SLOPCORE",
-    "token": "EkFRff9a2jKztJHML1LG9FRmEkPJDR6XAYp3uCPdpump",
-    "ok": true,
-    "reasons": [
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792712264,
-    "src": "live",
-    "ret": {
-     "1h": 0.0138,
-     "6h": -0.0669,
-     "24h": null
-    },
-    "rug": false
-   },
    {
     "sym": "LARPCHECK",
     "token": "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP",
@@ -3857,6 +3839,22 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792796309,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "ヤギ",
+    "token": "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792796686,
     "src": "live",
     "ret": {
      "1h": null,
