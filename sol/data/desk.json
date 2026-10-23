@@ -2,8 +2,8 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792785481,
- "tokens_seen": 31,
+ "updated": 1792785759,
+ "tokens_seen": 32,
  "risk": {
   "checked": 57,
   "killed": 42,
@@ -71,30 +71,30 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0242,
+  "dd_today": -0.0253,
   "limit": -0.1
  },
  "v2": {
-  "equity": 826.68,
+  "equity": 825.67,
   "day_start": 847.14,
-  "pnl_today": -20.46,
-  "open_positions": 26,
-  "closed_positions": 18,
-  "closed_sells": 18,
-  "win_rate": 0.222,
-  "realized_today": -9.46,
+  "pnl_today": -21.47,
+  "open_positions": 24,
+  "closed_positions": 20,
+  "closed_sells": 20,
+  "win_rate": 0.2,
+  "realized_today": -12.67,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 1.62
   },
   "worst_token": {
    "sym": "ヤギ",
-   "pnl": -2.05
+   "pnl": -4.95
   },
   "copied": 22,
   "best_open": {
    "sym": "McRib",
-   "upnl": 4.91
+   "upnl": 4.86
   },
   "worst_open": {
    "sym": "Agency",
@@ -102,12 +102,12 @@
   }
  },
  "baseline": {
-  "equity": 736.75,
+  "equity": 731.44,
   "day_start": 773.92,
-  "pnl_today": -37.17,
-  "closed_sells": 10,
-  "win_rate": 0.2,
-  "realized_today": -10.37,
+  "pnl_today": -42.48,
+  "closed_sells": 12,
+  "win_rate": 0.167,
+  "realized_today": -11.53,
   "best_token": {
    "sym": "HOOKED",
    "pnl": 0.56
@@ -1807,38 +1807,38 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 837.83,
+  "equity": 836.55,
   "day_start": 857.86,
-  "pnl_today": -20.03,
+  "pnl_today": -21.31,
   "open_positions": 6,
-  "closed_positions": 21,
-  "closed_sells": 21,
-  "win_rate": 0.143,
-  "realized_today": -15.09,
+  "closed_positions": 22,
+  "closed_sells": 22,
+  "win_rate": 0.136,
+  "realized_today": -16.06,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.73
   },
   "worst_token": {
    "sym": "ヤギ",
-   "pnl": -5.14
+   "pnl": -6.11
   },
-  "copied": 26,
+  "copied": 27,
   "best_open": {
    "sym": "LARP",
-   "upnl": -0.36
+   "upnl": -0.54
   },
   "worst_open": {
-   "sym": "ヤギ",
-   "upnl": -1.14
+   "sym": "LARPCHECK",
+   "upnl": -1.2
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 61,
+  "checked": 62,
   "killed": 42,
-  "passed": 27
+  "passed": 28
  },
  "v3_kills": [
   {
@@ -1903,11 +1903,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0233,
+  "dd_today": -0.0248,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792784857,
+  "updated": 1792785513,
   "rejected": {
    "n": 58,
    "1h": {
@@ -1939,7 +1939,7 @@
    }
   },
   "passed": {
-   "n": 110,
+   "n": 111,
    "1h": {
     "n": 103,
     "avg_ret": -0.0098,
@@ -2121,22 +2121,6 @@
    }
   },
   "items": [
-   {
-    "sym": "MANIFEST",
-    "token": "BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
-    "ok": true,
-    "reasons": [
-     "info: dev holds 0.6% via pump.fun"
-    ],
-    "ts": 1792695658,
-    "src": "live",
-    "ret": {
-     "1h": -0.0085,
-     "6h": -0.0328,
-     "24h": 0.0683
-    },
-    "rug": false
-   },
    {
     "sym": "Kimchi",
     "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
@@ -3749,6 +3733,23 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792784679,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "CATE",
+    "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792785513,
     "src": "live",
     "ret": {
      "1h": null,
