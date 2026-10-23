@@ -2,8 +2,8 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792732597,
- "tokens_seen": 69,
+ "updated": 1792732901,
+ "tokens_seen": 70,
  "risk": {
   "checked": 96,
   "killed": 58,
@@ -185,21 +185,21 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0804,
+  "dd_today": -0.0807,
   "limit": -0.1
  },
  "v2": {
-  "equity": 852.72,
+  "equity": 852.41,
   "day_start": 927.27,
-  "pnl_today": -74.55,
-  "open_positions": 23,
-  "closed_positions": 70,
-  "closed_sells": 68,
-  "win_rate": 0.118,
-  "realized_today": -65.45,
+  "pnl_today": -74.86,
+  "open_positions": 22,
+  "closed_positions": 71,
+  "closed_sells": 69,
+  "win_rate": 0.116,
+  "realized_today": -66.13,
   "best_token": {
    "sym": "COMPUTE",
-   "pnl": 3.4
+   "pnl": 2.72
   },
   "worst_token": {
    "sym": "Kimchi",
@@ -208,17 +208,17 @@
   "copied": 69,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 0.74
+   "upnl": 0.9
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -11.01
+   "upnl": -11.35
   }
  },
  "baseline": {
-  "equity": 780.11,
+  "equity": 776.26,
   "day_start": 860.79,
-  "pnl_today": -80.68,
+  "pnl_today": -84.53,
   "closed_sells": 52,
   "win_rate": 0.135,
   "realized_today": -14.88,
@@ -1937,38 +1937,38 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 880.44,
+  "equity": 879.71,
   "day_start": 952.92,
-  "pnl_today": -72.48,
-  "open_positions": 2,
-  "closed_positions": 117,
-  "closed_sells": 115,
-  "win_rate": 0.113,
-  "realized_today": -82.47,
+  "pnl_today": -73.21,
+  "open_positions": 1,
+  "closed_positions": 119,
+  "closed_sells": 117,
+  "win_rate": 0.111,
+  "realized_today": -83.61,
   "best_token": {
    "sym": "DOPE",
-   "pnl": 2.58
+   "pnl": 1.6
   },
   "worst_token": {
    "sym": "Kimchi",
    "pnl": -13.31
   },
-  "copied": 100,
+  "copied": 101,
   "best_open": {
-   "sym": "McRib",
-   "upnl": -0.14
+   "sym": "Kimchi",
+   "upnl": -0.72
   },
   "worst_open": {
-   "sym": "DOPE",
-   "upnl": -0.98
+   "sym": "Kimchi",
+   "upnl": -0.72
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 127,
+  "checked": 128,
   "killed": 58,
-  "passed": 104
+  "passed": 105
  },
  "v3_kills": [
   {
@@ -2149,7 +2149,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0761,
+  "dd_today": -0.0768,
   "limit": -0.1
  },
  "v3_track": {
