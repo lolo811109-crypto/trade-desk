@@ -2,8 +2,8 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792737696,
- "tokens_seen": 73,
+ "updated": 1792737995,
+ "tokens_seen": 74,
  "risk": {
   "checked": 104,
   "killed": 64,
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0819,
+  "dd_today": -0.0816,
   "limit": -0.1
  },
  "v2": {
-  "equity": 851.37,
+  "equity": 851.58,
   "day_start": 927.27,
-  "pnl_today": -75.9,
+  "pnl_today": -75.69,
   "open_positions": 23,
   "closed_positions": 74,
   "closed_sells": 72,
@@ -215,7 +215,7 @@
   "copied": 73,
   "best_open": {
    "sym": "ヤギ",
-   "upnl": 2.48
+   "upnl": 2.33
   },
   "worst_open": {
    "sym": "Agency",
@@ -223,9 +223,9 @@
   }
  },
  "baseline": {
-  "equity": 759.01,
+  "equity": 758.78,
   "day_start": 860.79,
-  "pnl_today": -101.78,
+  "pnl_today": -102.01,
   "closed_sells": 58,
   "win_rate": 0.121,
   "realized_today": -25.33,
@@ -1942,17 +1942,17 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 875.76,
+  "equity": 875.97,
   "day_start": 952.92,
-  "pnl_today": -77.16,
-  "open_positions": 3,
-  "closed_positions": 126,
-  "closed_sells": 124,
-  "win_rate": 0.113,
-  "realized_today": -84.99,
+  "pnl_today": -76.95,
+  "open_positions": 1,
+  "closed_positions": 128,
+  "closed_sells": 126,
+  "win_rate": 0.111,
+  "realized_today": -87.46,
   "best_token": {
-   "sym": "DOPE",
-   "pnl": 1.6
+   "sym": "ヤギ",
+   "pnl": 1.25
   },
   "worst_token": {
    "sym": "Kimchi",
@@ -1960,12 +1960,12 @@
   },
   "copied": 110,
   "best_open": {
-   "sym": "DOPE",
-   "upnl": -0.6
+   "sym": "McRib",
+   "upnl": -0.62
   },
   "worst_open": {
-   "sym": "PHP",
-   "upnl": -1.7
+   "sym": "McRib",
+   "upnl": -0.62
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -2162,7 +2162,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.081,
+  "dd_today": -0.0808,
   "limit": -0.1
  },
  "v3_track": {
