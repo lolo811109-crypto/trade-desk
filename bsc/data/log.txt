@@ -1,18 +1,3 @@
-2026-10-23 13:42:54,651 tick equity=817.78 pnl=-182.22 head=129267852 v3=981.85
-2026-10-23 13:43:17,476 tick equity=818.04 pnl=-181.96 head=129267905 v3=981.85
-2026-10-23 13:43:39,906 tick equity=818.31 pnl=-181.69 head=129267956 v3=981.85
-2026-10-23 13:44:02,819 tick equity=818.41 pnl=-181.59 head=129268006 v3=981.85
-2026-10-23 13:44:25,527 tick equity=818.39 pnl=-181.61 head=129268057 v3=981.85
-2026-10-23 13:44:48,176 tick equity=818.09 pnl=-181.91 head=129268107 v3=981.85
-2026-10-23 13:45:11,244 tick equity=817.86 pnl=-182.14 head=129268157 v3=981.85
-2026-10-23 13:45:34,454 tick equity=817.83 pnl=-182.17 head=129268209 v3=981.85
-2026-10-23 13:45:56,768 tick equity=818.43 pnl=-181.57 head=129268260 v3=981.85
-2026-10-23 13:46:19,926 tick equity=819.51 pnl=-180.49 head=129268310 v3=981.85
-2026-10-23 13:46:42,454 tick equity=819.94 pnl=-180.06 head=129268361 v3=981.85
-2026-10-23 13:47:05,182 tick equity=819.90 pnl=-180.10 head=129268411 v3=981.85
-2026-10-23 13:47:28,035 tick equity=820.67 pnl=-179.33 head=129268462 v3=981.85
-2026-10-23 13:47:50,920 tick equity=820.15 pnl=-179.85 head=129268513 v3=981.85
-2026-10-23 13:48:12,945 tick equity=821.42 pnl=-178.58 head=129268562 v3=981.85
 2026-10-23 13:48:35,094 tick equity=821.40 pnl=-178.60 head=129268611 v3=981.85
 2026-10-23 13:48:58,485 tick equity=820.94 pnl=-179.06 head=129268661 v3=981.85
 2026-10-23 13:49:21,561 tick equity=820.63 pnl=-179.37 head=129268713 v3=981.85
@@ -298,3 +283,18 @@
 2026-10-23 15:57:45,232 V3 {'ts': 1792742241, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x53c9fe9680d68e0b8c2fad733a850f2bd3b34444', 'sym': 'CZH', 'price': 7.186966713e-06, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
 2026-10-23 15:57:45,233 {'ts': 1792742241, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x53c9fe9680d68e0b8c2fad733a850f2bd3b34444', 'tx': '0x08bd86a674914665a24a7180ace3f58b917b2f49851c91b85913d43df4bf5e05', 'sym': 'CZH', 'price': 7.186966713e-06, 'liq': 5017, 'action': 'buy', 'stake': 10.0}
 2026-10-23 15:57:48,190 tick equity=807.92 pnl=-192.08 head=129285834 v3=978.92
+2026-10-23 15:58:12,150 tick equity=808.22 pnl=-191.78 head=129285888 v3=978.92
+2026-10-23 15:58:34,982 tick equity=809.87 pnl=-190.13 head=129285941 v3=978.92
+2026-10-23 15:58:57,651 tick equity=809.94 pnl=-190.06 head=129285992 v3=978.92
+2026-10-23 16:00:22,722 tick equity=810.39 pnl=-189.61 head=129286109 v3=978.92
+2026-10-23 16:01:27,753 loop error rpc fail eth_blockNumber
+2026-10-23 16:01:49,059 V2 {'ts': 1792742415, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d4433e7c6b257bd01af75a6e900efb5bb4d7777', 'sym': 'Bunny', 'price': 5.362e-06, 'action': 'skip-7d'}
+2026-10-23 16:01:49,059 V3 {'ts': 1792742415, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d4433e7c6b257bd01af75a6e900efb5bb4d7777', 'sym': 'Bunny', 'price': 5.362e-06, 'action': 'skip-7d'}
+2026-10-23 16:01:49,205 V2 {'ts': 1792742421, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d4433e7c6b257bd01af75a6e900efb5bb4d7777', 'sym': 'Bunny', 'price': 5.362e-06, 'action': 'skip-7d'}
+2026-10-23 16:01:49,205 V3 {'ts': 1792742421, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d4433e7c6b257bd01af75a6e900efb5bb4d7777', 'sym': 'Bunny', 'price': 5.362e-06, 'action': 'skip-7d'}
+2026-10-23 16:01:50,227 V2-RISK GANG 0x0c6302401aa5325c2e36f170f52c00b1d220b405 PASS 
+2026-10-23 16:01:50,227 V2 {'ts': 1792742398, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.001169, 'action': 'buy', 'stake': 10.0}
+2026-10-23 16:01:50,889 V3-RISK GANG 0x0c6302401aa5325c2e36f170f52c00b1d220b405 PASS info: dev holds 0.0%
+2026-10-23 16:01:50,889 V3 {'ts': 1792742398, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.001169, 'action': 'buy', 'stake': 10.0}
+2026-10-23 16:02:31,470 tick equity=811.08 pnl=-188.92 head=129286374 v3=978.13
+2026-10-23 16:02:58,167 tick equity=811.08 pnl=-188.92 head=129286516 v3=978.13
