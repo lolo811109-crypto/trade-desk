@@ -1,26 +1,3 @@
-2026-10-23 15:10:24,709 tick equity=814.05 pnl=-185.95 head=129279517 v3=978.92
-2026-10-23 15:10:47,551 tick equity=814.14 pnl=-185.86 head=129279569 v3=978.92
-2026-10-23 15:11:09,910 tick equity=814.51 pnl=-185.49 head=129279620 v3=978.92
-2026-10-23 15:12:08,135 tick equity=817.80 pnl=-182.20 head=129279744 v3=978.92
-2026-10-23 15:13:43,491 {'ts': 1792739576, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x6ea3b94191330e6e144de0bd0f93b20448a47777', 'tx': '0xa2946e6bb25f6148cd54604d2fcdeaac8f0c8e67b8481420eb2af36d2827c7b0', 'action': 'skip-noprice'}
-2026-10-23 15:13:49,875 tick equity=818.78 pnl=-181.22 head=129279898 v3=978.92
-2026-10-23 15:14:14,230 tick equity=818.78 pnl=-181.22 head=129280025 v3=978.92
-2026-10-23 15:14:37,342 tick equity=817.12 pnl=-182.88 head=129280079 v3=978.92
-2026-10-23 15:14:59,954 tick equity=816.79 pnl=-183.21 head=129280131 v3=978.92
-2026-10-23 15:15:23,333 tick equity=815.01 pnl=-184.99 head=129280181 v3=978.92
-2026-10-23 15:15:46,088 tick equity=815.50 pnl=-184.50 head=129280233 v3=978.92
-2026-10-23 15:16:09,202 tick equity=815.99 pnl=-184.01 head=129280284 v3=978.92
-2026-10-23 15:16:32,467 tick equity=816.33 pnl=-183.67 head=129280335 v3=978.92
-2026-10-23 15:16:55,768 tick equity=816.36 pnl=-183.64 head=129280387 v3=978.92
-2026-10-23 15:17:18,100 tick equity=817.50 pnl=-182.50 head=129280438 v3=978.92
-2026-10-23 15:17:41,432 tick equity=817.45 pnl=-182.55 head=129280488 v3=978.92
-2026-10-23 15:25:00,910 {'ts': 1792740197, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0x6ea3b94191330e6e144de0bd0f93b20448a47777', 'tx': '0xe8c4b0a2a1f51e9f4ecc7b2d579478e577f21225e54031b20a503596afd03658', 'action': 'skip-noprice'}
-2026-10-23 15:25:19,830 tick equity=812.99 pnl=-187.01 head=129281402 v3=978.92
-2026-10-23 15:25:46,150 tick equity=813.46 pnl=-186.54 head=129281559 v3=978.92
-2026-10-23 15:26:09,829 tick equity=813.44 pnl=-186.56 head=129281617 v3=978.92
-2026-10-23 15:26:32,052 tick equity=813.36 pnl=-186.64 head=129281670 v3=978.92
-2026-10-23 15:26:54,738 tick equity=813.06 pnl=-186.94 head=129281718 v3=978.92
-2026-10-23 15:27:16,729 tick equity=816.67 pnl=-183.33 head=129281769 v3=978.92
 2026-10-23 15:27:39,633 tick equity=816.65 pnl=-183.35 head=129281818 v3=978.92
 2026-10-23 15:29:04,995 tick equity=817.62 pnl=-182.38 head=129281936 v3=978.92
 2026-10-23 15:29:25,599 V2 {'ts': 1792740528, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x714d16701024efb3384a4c68aeb74525a27a7777', 'sym': '牛回', 'price': 7.136e-06, 'action': 'skip-7d'}
@@ -298,3 +275,26 @@
 2026-10-23 18:35:06,464 tick equity=806.36 pnl=-193.64 head=129306800 v3=977.97
 2026-10-23 18:35:30,661 tick equity=806.27 pnl=-193.73 head=129306854 v3=977.97
 2026-10-23 18:36:21,335 tick equity=806.29 pnl=-193.71 head=129306907 v3=977.97
+2026-10-23 18:50:47,515 {'ts': 1792752472, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'tx': '0xd3848739cfc20cdbdebbced92ed6d357de4dc4ebe1edccd356495733919d4689', 'action': 'skip-noprice'}
+2026-10-23 18:50:49,453 V2-RISK HackiOS 0x5be8dca38cff485d3a80809195284c7f74c77777 KILL LP only 0% locked/burned
+2026-10-23 18:50:49,455 V2 {'ts': 1792751781, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5be8dca38cff485d3a80809195284c7f74c77777', 'sym': 'HackiOS', 'price': 3.37e-05, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-23 18:50:50,101 V3-RISK HackiOS 0x5be8dca38cff485d3a80809195284c7f74c77777 KILL LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-23 18:50:50,101 V3 {'ts': 1792751781, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5be8dca38cff485d3a80809195284c7f74c77777', 'sym': 'HackiOS', 'price': 3.37e-05, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-23 18:50:50,103 {'ts': 1792751781, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5be8dca38cff485d3a80809195284c7f74c77777', 'tx': '0x96251a1ceef409a1d93b890f2621cc3841296793292752b351cb425a90dc4404', 'sym': 'HackiOS', 'price': 3.37e-05, 'liq': 17215, 'action': 'buy', 'stake': 10.0}
+2026-10-23 18:50:53,257 V2-RISK BNC 0x9e14915f39c213447aa5bbbd7e9570d480027777 KILL buy_tax unknown; sell_tax unknown
+2026-10-23 18:50:53,257 V2 {'ts': 1792752444, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9e14915f39c213447aa5bbbd7e9570d480027777', 'sym': 'BNC', 'price': 9.108e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-23 18:50:56,634 V3-RISK BNC 0x9e14915f39c213447aa5bbbd7e9570d480027777 KILL buy_tax unknown; sell_tax unknown; dev holds 34% (>18%) creator 0xe2ce
+2026-10-23 18:50:56,634 V3 {'ts': 1792752444, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9e14915f39c213447aa5bbbd7e9570d480027777', 'sym': 'BNC', 'price': 9.108e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'dev holds 34% (>18%) creator 0xe2ce']}
+2026-10-23 18:50:56,635 {'ts': 1792752444, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9e14915f39c213447aa5bbbd7e9570d480027777', 'tx': '0x0ce2465cc6932cc14810d796aea14eb00df57ffe900bbf217ed27f902e2ec2ae', 'sym': 'BNC', 'price': 9.108e-05, 'liq': 28713, 'action': 'buy', 'stake': 10.0}
+2026-10-23 18:50:56,841 {'ts': 1792752522, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x9e14915f39c213447aa5bbbd7e9570d480027777', 'tx': '0x77f8735c9c697e7b851be1bc12c9bf1dd31e00c5989e95c271016fddfbcb0905', 'sym': 'BNC', 'price': 9.108e-05, 'liq': 28713, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
+2026-10-23 18:52:02,500 tick equity=806.75 pnl=-193.25 head=129308831 v3=977.97
+2026-10-23 18:52:32,592 tick equity=806.75 pnl=-193.25 head=129309111 v3=977.97
+2026-10-23 18:52:55,094 tick equity=806.83 pnl=-193.17 head=129309178 v3=977.97
+2026-10-23 18:53:18,788 tick equity=806.79 pnl=-193.21 head=129309228 v3=977.97
+2026-10-23 18:53:39,686 V2 {'ts': 1792752804, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9e14915f39c213447aa5bbbd7e9570d480027777', 'sym': 'BNC', 'price': 9.942e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-23 18:53:39,783 V3 {'ts': 1792752804, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9e14915f39c213447aa5bbbd7e9570d480027777', 'sym': 'BNC', 'price': 9.942e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'dev holds 34% (>18%) creator 0xe2ce']}
+2026-10-23 18:53:39,784 {'ts': 1792752804, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9e14915f39c213447aa5bbbd7e9570d480027777', 'tx': '0xc1ba95442c59beac650580406723e8d0c82bcc91c74d568ed9af07c32890b7b0', 'sym': 'BNC', 'price': 9.942e-05, 'liq': 29977, 'action': 'buy', 'stake': 10.0}
+2026-10-23 18:53:41,778 tick equity=806.48 pnl=-193.52 head=129309280 v3=977.97
+2026-10-23 18:54:05,125 tick equity=805.87 pnl=-194.13 head=129309332 v3=977.97
+2026-10-23 18:54:27,806 tick equity=806.87 pnl=-193.13 head=129309382 v3=977.97
+2026-10-23 18:54:51,568 tick equity=805.74 pnl=-194.26 head=129309434 v3=977.97
