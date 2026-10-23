@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792786987,
- "tokens_seen": 33,
+ "updated": 1792787300,
+ "tokens_seen": 34,
  "risk": {
   "checked": 59,
-  "killed": 44,
+  "killed": 46,
   "passed": 25
  },
  "kills": [
@@ -64,7 +64,7 @@
    "sym": "shiit",
    "token": "412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump",
    "reasons": [
-    "liq $49,054 < $50,000 v2 floor"
+    "liq $47,223 < $50,000 v2 floor"
    ]
   },
   {
@@ -73,18 +73,25 @@
    "reasons": [
     "liq $40,190 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "LilPengu",
+   "token": "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump",
+   "reasons": [
+    "liq $12,225 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.028,
+  "dd_today": -0.0251,
   "limit": -0.1
  },
  "v2": {
-  "equity": 823.39,
+  "equity": 825.91,
   "day_start": 847.14,
-  "pnl_today": -23.75,
+  "pnl_today": -21.23,
   "open_positions": 23,
   "closed_positions": 23,
   "closed_sells": 23,
@@ -101,17 +108,17 @@
   "copied": 24,
   "best_open": {
    "sym": "McRib",
-   "upnl": 4.94
+   "upnl": 5.67
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.77
+   "upnl": -10.84
   }
  },
  "baseline": {
-  "equity": 733.46,
+  "equity": 737.67,
   "day_start": 773.92,
-  "pnl_today": -40.46,
+  "pnl_today": -36.25,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -11.53,
@@ -126,9 +133,9 @@
   "copied": 11
  },
  "risk_track": {
-  "updated": 1792786987,
+  "updated": 1792787229,
   "rejected": {
-   "n": 69,
+   "n": 70,
    "1h": {
     "n": 68,
     "avg_ret": 0.0055,
@@ -189,7 +196,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 53,
+    "n": 54,
     "1h": {
      "n": 52,
      "avg_ret": 0.0178,
@@ -280,22 +287,6 @@
    }
   },
   "items": [
-   {
-    "sym": "LARPCHECK",
-    "token": "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP",
-    "ok": false,
-    "reasons": [
-     "liq $45,696 < $50,000 v2 floor"
-    ],
-    "ts": 1792695112,
-    "src": "live",
-    "ret": {
-     "1h": 0.0345,
-     "6h": 0.2102,
-     "24h": 0.3591
-    },
-    "rug": false
-   },
    {
     "sym": "SURY",
     "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
@@ -1807,6 +1798,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "LilPengu",
+    "token": "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump",
+    "ok": false,
+    "reasons": [
+     "liq $12,225 < $50,000 v2 floor"
+    ],
+    "ts": 1792787229,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1814,14 +1821,14 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 833.55,
+  "equity": 834.06,
   "day_start": 857.86,
-  "pnl_today": -24.31,
-  "open_positions": 8,
-  "closed_positions": 23,
-  "closed_sells": 23,
-  "win_rate": 0.13,
-  "realized_today": -16.79,
+  "pnl_today": -23.8,
+  "open_positions": 6,
+  "closed_positions": 25,
+  "closed_sells": 25,
+  "win_rate": 0.12,
+  "realized_today": -19.07,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.73
@@ -1833,18 +1840,18 @@
   "copied": 30,
   "best_open": {
    "sym": "CRAWL",
-   "upnl": -0.66
+   "upnl": -0.44
   },
   "worst_open": {
-   "sym": "CLAUDIA",
-   "upnl": -1.37
+   "sym": "Pepper",
+   "upnl": -1.08
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
   "checked": 65,
-  "killed": 44,
+  "killed": 46,
   "passed": 31
  },
  "v3_kills": [
@@ -1903,7 +1910,7 @@
    "sym": "shiit",
    "token": "412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump",
    "reasons": [
-    "liq $49,054 < $50,000 v2 floor"
+    "liq $47,223 < $50,000 v2 floor"
    ]
   },
   {
@@ -1912,18 +1919,25 @@
    "reasons": [
     "liq $40,190 < $50,000 v2 floor"
    ]
+  },
+  {
+   "sym": "LilPengu",
+   "token": "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump",
+   "reasons": [
+    "liq $12,225 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0283,
+  "dd_today": -0.0277,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792786987,
+  "updated": 1792787229,
   "rejected": {
-   "n": 59,
+   "n": 60,
    "1h": {
     "n": 58,
     "avg_ret": 0.0331,
@@ -1984,7 +1998,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 49,
+    "n": 50,
     "1h": {
      "n": 48,
      "avg_ret": 0.0423,
@@ -2135,22 +2149,6 @@
    }
   },
   "items": [
-   {
-    "sym": "UHI",
-    "token": "FGkCj28xhabWTYg9QyzACvs4NsN6LUyesP6EwiHepump",
-    "ok": false,
-    "reasons": [
-     "liq $32,523 < $50,000 v2 floor"
-    ],
-    "ts": 1792696253,
-    "src": "live",
-    "ret": {
-     "1h": 0.0129,
-     "6h": 0.2271,
-     "24h": -0.1097
-    },
-    "rug": false
-   },
    {
     "sym": "fone",
     "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
@@ -3764,6 +3762,22 @@
      "liq $40,190 < $50,000 v2 floor"
     ],
     "ts": 1792786326,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "LilPengu",
+    "token": "EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump",
+    "ok": false,
+    "reasons": [
+     "liq $12,225 < $50,000 v2 floor"
+    ],
+    "ts": 1792787229,
     "src": "live",
     "ret": {
      "1h": null,
