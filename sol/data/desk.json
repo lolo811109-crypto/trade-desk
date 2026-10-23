@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792735932,
+ "updated": 1792736233,
  "tokens_seen": 73,
  "risk": {
-  "checked": 101,
+  "checked": 102,
   "killed": 62,
-  "passed": 75
+  "passed": 76
  },
  "kills": [
   {
@@ -192,14 +192,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0826,
+  "dd_today": -0.0828,
   "limit": -0.1
  },
  "v2": {
-  "equity": 850.65,
+  "equity": 850.53,
   "day_start": 927.27,
-  "pnl_today": -76.62,
-  "open_positions": 23,
+  "pnl_today": -76.74,
+  "open_positions": 24,
   "closed_positions": 72,
   "closed_sells": 70,
   "win_rate": 0.114,
@@ -212,20 +212,20 @@
    "sym": "Kimchi",
    "pnl": -11.18
   },
-  "copied": 71,
+  "copied": 72,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 0.72
+   "upnl": 0.93
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.87
+   "upnl": -10.9
   }
  },
  "baseline": {
-  "equity": 766.07,
+  "equity": 774.69,
   "day_start": 860.79,
-  "pnl_today": -94.72,
+  "pnl_today": -86.1,
   "closed_sells": 54,
   "win_rate": 0.13,
   "realized_today": -18.88,
@@ -1942,14 +1942,14 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 874.49,
+  "equity": 873.91,
   "day_start": 952.92,
-  "pnl_today": -78.43,
+  "pnl_today": -79.01,
   "open_positions": 4,
-  "closed_positions": 122,
-  "closed_sells": 120,
-  "win_rate": 0.108,
-  "realized_today": -86.67,
+  "closed_positions": 123,
+  "closed_sells": 121,
+  "win_rate": 0.107,
+  "realized_today": -87.29,
   "best_token": {
    "sym": "DOPE",
    "pnl": 1.6
@@ -1958,22 +1958,22 @@
    "sym": "Kimchi",
    "pnl": -15.26
   },
-  "copied": 107,
+  "copied": 108,
   "best_open": {
-   "sym": "DOPE",
-   "upnl": -0.49
+   "sym": "Kimchi",
+   "upnl": -0.41
   },
   "worst_open": {
    "sym": "PHP",
-   "upnl": -1.01
+   "upnl": -1.04
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 137,
+  "checked": 138,
   "killed": 62,
-  "passed": 111
+  "passed": 112
  },
  "v3_kills": [
   {
@@ -2162,7 +2162,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0823,
+  "dd_today": -0.0829,
   "limit": -0.1
  },
  "v3_track": {
