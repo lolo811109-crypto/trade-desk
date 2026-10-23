@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792787300,
- "tokens_seen": 34,
+ "updated": 1792787619,
+ "tokens_seen": 36,
  "risk": {
-  "checked": 59,
+  "checked": 60,
   "killed": 46,
-  "passed": 25
+  "passed": 26
  },
  "kills": [
   {
@@ -85,18 +85,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0251,
+  "dd_today": -0.0254,
   "limit": -0.1
  },
  "v2": {
-  "equity": 825.91,
+  "equity": 825.64,
   "day_start": 847.14,
-  "pnl_today": -21.23,
+  "pnl_today": -21.5,
   "open_positions": 23,
-  "closed_positions": 23,
-  "closed_sells": 23,
-  "win_rate": 0.174,
-  "realized_today": -15.04,
+  "closed_positions": 24,
+  "closed_sells": 24,
+  "win_rate": 0.167,
+  "realized_today": -15.63,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 1.62
@@ -105,23 +105,23 @@
    "sym": "ヤギ",
    "pnl": -4.95
   },
-  "copied": 24,
+  "copied": 25,
   "best_open": {
    "sym": "McRib",
-   "upnl": 5.67
+   "upnl": 5.55
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.84
+   "upnl": -10.86
   }
  },
  "baseline": {
-  "equity": 737.67,
+  "equity": 741.73,
   "day_start": 773.92,
-  "pnl_today": -36.25,
-  "closed_sells": 12,
-  "win_rate": 0.167,
-  "realized_today": -11.53,
+  "pnl_today": -32.19,
+  "closed_sells": 13,
+  "win_rate": 0.231,
+  "realized_today": -11.01,
   "best_token": {
    "sym": "HOOKED",
    "pnl": 0.56
@@ -130,10 +130,10 @@
    "sym": "NIO",
    "pnl": -3.77
   },
-  "copied": 11
+  "copied": 15
  },
  "risk_track": {
-  "updated": 1792787229,
+  "updated": 1792787435,
   "rejected": {
    "n": 70,
    "1h": {
@@ -165,7 +165,7 @@
    }
   },
   "passed": {
-   "n": 116,
+   "n": 117,
    "1h": {
     "n": 113,
     "avg_ret": -0.0078,
@@ -287,22 +287,6 @@
    }
   },
   "items": [
-   {
-    "sym": "SURY",
-    "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
-    "ok": false,
-    "reasons": [
-     "liq $18,441 < $50,000 v2 floor"
-    ],
-    "ts": 1792695575,
-    "src": "live",
-    "ret": {
-     "1h": -0.1446,
-     "6h": -0.3488,
-     "24h": -0.5896
-    },
-    "rug": false
-   },
    {
     "sym": "LARP",
     "token": "EygStH4gHv1h4E8w4raYv6NGsrDiij3nbfCc26iTpump",
@@ -1814,6 +1798,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "TROLL",
+    "token": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 17%"
+    ],
+    "ts": 1792787435,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1821,14 +1821,14 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 834.06,
+  "equity": 833.53,
   "day_start": 857.86,
-  "pnl_today": -23.8,
+  "pnl_today": -24.33,
   "open_positions": 6,
-  "closed_positions": 25,
-  "closed_sells": 25,
-  "win_rate": 0.12,
-  "realized_today": -19.07,
+  "closed_positions": 26,
+  "closed_sells": 26,
+  "win_rate": 0.115,
+  "realized_today": -19.51,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.73
@@ -1837,22 +1837,22 @@
    "sym": "ヤギ",
    "pnl": -6.11
   },
-  "copied": 30,
+  "copied": 31,
   "best_open": {
-   "sym": "CRAWL",
-   "upnl": -0.44
+   "sym": "TROLL",
+   "upnl": -0.62
   },
   "worst_open": {
    "sym": "Pepper",
-   "upnl": -1.08
+   "upnl": -1.09
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 65,
+  "checked": 66,
   "killed": 46,
-  "passed": 31
+  "passed": 32
  },
  "v3_kills": [
   {
@@ -1931,11 +1931,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0277,
+  "dd_today": -0.0284,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792787229,
+  "updated": 1792787436,
   "rejected": {
    "n": 60,
    "1h": {
@@ -1967,7 +1967,7 @@
    }
   },
   "passed": {
-   "n": 111,
+   "n": 112,
    "1h": {
     "n": 107,
     "avg_ret": -0.0102,
@@ -2149,23 +2149,6 @@
    }
   },
   "items": [
-   {
-    "sym": "fone",
-    "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%",
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792696652,
-    "src": "live",
-    "ret": {
-     "1h": 0.0083,
-     "6h": 0.0115,
-     "24h": -0.0225
-    },
-    "rug": false
-   },
    {
     "sym": "HIGGS",
     "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
@@ -3778,6 +3761,23 @@
      "liq $12,225 < $50,000 v2 floor"
     ],
     "ts": 1792787229,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "TROLL",
+    "token": "5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 17%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792787436,
     "src": "live",
     "ret": {
      "1h": null,
