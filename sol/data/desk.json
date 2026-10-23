@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792786397,
+ "updated": 1792786705,
  "tokens_seen": 33,
  "risk": {
-  "checked": 57,
+  "checked": 58,
   "killed": 44,
-  "passed": 23
+  "passed": 24
  },
  "kills": [
   {
@@ -78,14 +78,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0251,
+  "dd_today": -0.0265,
   "limit": -0.1
  },
  "v2": {
-  "equity": 825.84,
+  "equity": 824.69,
   "day_start": 847.14,
-  "pnl_today": -21.3,
-  "open_positions": 21,
+  "pnl_today": -22.45,
+  "open_positions": 22,
   "closed_positions": 23,
   "closed_sells": 23,
   "win_rate": 0.174,
@@ -98,20 +98,20 @@
    "sym": "ヤギ",
    "pnl": -4.95
   },
-  "copied": 22,
+  "copied": 23,
   "best_open": {
    "sym": "McRib",
-   "upnl": 4.73
+   "upnl": 4.53
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.79
+   "upnl": -10.77
   }
  },
  "baseline": {
-  "equity": 733.31,
+  "equity": 736.07,
   "day_start": 773.92,
-  "pnl_today": -40.61,
+  "pnl_today": -37.85,
   "closed_sells": 12,
   "win_rate": 0.167,
   "realized_today": -11.53,
@@ -1814,10 +1814,10 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 836.19,
+  "equity": 834.8,
   "day_start": 857.86,
-  "pnl_today": -21.67,
-  "open_positions": 6,
+  "pnl_today": -23.06,
+  "open_positions": 7,
   "closed_positions": 23,
   "closed_sells": 23,
   "win_rate": 0.13,
@@ -1830,22 +1830,22 @@
    "sym": "ヤギ",
    "pnl": -6.11
   },
-  "copied": 28,
+  "copied": 29,
   "best_open": {
-   "sym": "MEMEOS",
-   "upnl": -0.54
+   "sym": "LARPCHECK",
+   "upnl": -0.58
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -1.02
+   "upnl": -1.39
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 63,
+  "checked": 64,
   "killed": 44,
-  "passed": 29
+  "passed": 30
  },
  "v3_kills": [
   {
@@ -1917,7 +1917,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0253,
+  "dd_today": -0.0269,
   "limit": -0.1
  },
  "v3_track": {
