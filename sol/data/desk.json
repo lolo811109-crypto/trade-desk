@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792741898,
+ "updated": 1792742274,
  "tokens_seen": 74,
  "risk": {
-  "checked": 110,
-  "killed": 74,
-  "passed": 80
+  "checked": 111,
+  "killed": 75,
+  "passed": 81
  },
  "kills": [
   {
@@ -106,7 +106,7 @@
    "sym": "HIGGS",
    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
    "reasons": [
-    "liq $39,802 < $50,000 v2 floor"
+    "liq $39,735 < $50,000 v2 floor"
    ]
   },
   {
@@ -192,40 +192,40 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0859,
+  "dd_today": -0.0875,
   "limit": -0.1
  },
  "v2": {
-  "equity": 847.59,
+  "equity": 846.16,
   "day_start": 927.27,
-  "pnl_today": -79.68,
-  "open_positions": 21,
-  "closed_positions": 79,
-  "closed_sells": 77,
-  "win_rate": 0.104,
-  "realized_today": -73.51,
+  "pnl_today": -81.11,
+  "open_positions": 20,
+  "closed_positions": 81,
+  "closed_sells": 79,
+  "win_rate": 0.114,
+  "realized_today": -76.53,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 2.72
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -11.18
+   "pnl": -14.68
   },
-  "copied": 76,
+  "copied": 77,
   "best_open": {
-   "sym": "BURNIE",
-   "upnl": 0.69
+   "sym": "Kimchi",
+   "upnl": 0.33
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.87
+   "upnl": -10.56
   }
  },
  "baseline": {
-  "equity": 753.29,
+  "equity": 755.11,
   "day_start": 860.79,
-  "pnl_today": -107.5,
+  "pnl_today": -105.68,
   "closed_sells": 62,
   "win_rate": 0.129,
   "realized_today": -68.71,
@@ -1942,9 +1942,9 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 866.02,
+  "equity": 865.7,
   "day_start": 952.92,
-  "pnl_today": -86.9,
+  "pnl_today": -87.22,
   "open_positions": 4,
   "closed_positions": 138,
   "closed_sells": 136,
@@ -1961,18 +1961,18 @@
   "copied": 123,
   "best_open": {
    "sym": "ヤギ",
-   "upnl": -0.41
+   "upnl": -0.32
   },
   "worst_open": {
-   "sym": "CLAUDIA",
-   "upnl": -1.03
+   "sym": "Kimchi",
+   "upnl": -0.98
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
   "checked": 157,
-  "killed": 74,
+  "killed": 75,
   "passed": 127
  },
  "v3_kills": [
@@ -2074,7 +2074,7 @@
    "sym": "HIGGS",
    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
    "reasons": [
-    "liq $39,802 < $50,000 v2 floor"
+    "liq $39,735 < $50,000 v2 floor"
    ]
   },
   {
@@ -2162,11 +2162,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0912,
+  "dd_today": -0.0915,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792741134,
+  "updated": 1792742241,
   "rejected": {
    "n": 47,
    "1h": {
@@ -2200,11 +2200,11 @@
   "passed": {
    "n": 83,
    "1h": {
-    "n": 79,
-    "avg_ret": -0.0158,
+    "n": 80,
+    "avg_ret": -0.0157,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.405
+    "up_pct": 0.4
    },
    "6h": {
     "n": 69,
@@ -2221,9 +2221,9 @@
     "up_pct": 0.0
    },
    "latest": {
-    "n": 79,
-    "avg_ret": -0.0696,
-    "bad_pct": 0.038,
+    "n": 80,
+    "avg_ret": -0.0689,
+    "bad_pct": 0.037,
     "winners": 1
    }
   },
@@ -3916,7 +3916,7 @@
     "ts": 1792738596,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0135,
      "6h": null,
      "24h": null
     },
