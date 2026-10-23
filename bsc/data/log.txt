@@ -1,23 +1,3 @@
-2026-10-23 16:35:09,239 tick equity=806.87 pnl=-193.13 head=129290813 v3=977.97
-2026-10-23 16:35:31,566 tick equity=806.32 pnl=-193.68 head=129290864 v3=977.97
-2026-10-23 16:35:55,206 tick equity=806.96 pnl=-193.04 head=129290914 v3=977.97
-2026-10-23 16:36:17,053 tick equity=807.06 pnl=-192.94 head=129290966 v3=977.97
-2026-10-23 16:36:39,807 tick equity=806.83 pnl=-193.17 head=129291015 v3=977.97
-2026-10-23 16:37:03,481 tick equity=806.85 pnl=-193.15 head=129291065 v3=977.97
-2026-10-23 16:58:36,178 {'ts': 1792744800, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x098e0825220d94a110ac77f4c99a4f1a1e1b7777', 'tx': '0xd74b1b61db0570d9eebb22b093b83c8cc591f650d0c2ad26ee1fc391e44a1810', 'action': 'skip-noprice'}
-2026-10-23 16:59:21,919 V2 {'ts': 1792744990, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x41f510348ef293ae93952ac803a5a75143ea7777', 'sym': '冰淇淋土狗', 'price': 9.485e-06, 'action': 'skip-7d'}
-2026-10-23 16:59:21,919 V3 {'ts': 1792744990, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x41f510348ef293ae93952ac803a5a75143ea7777', 'sym': '冰淇淋土狗', 'price': 9.485e-06, 'action': 'skip-7d'}
-2026-10-23 16:59:22,045 V2 {'ts': 1792745221, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xcb6747ed8b68653356681adee613a2dc5b9b7777', 'sym': '领头羊', 'price': 1.914e-05, 'action': 'skip-7d'}
-2026-10-23 16:59:22,045 V3 {'ts': 1792745221, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xcb6747ed8b68653356681adee613a2dc5b9b7777', 'sym': '领头羊', 'price': 1.914e-05, 'action': 'skip-7d'}
-2026-10-23 16:59:22,736 V2 {'ts': 1792745639, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x41f510348ef293ae93952ac803a5a75143ea7777', 'sym': '冰淇淋土狗', 'price': 9.485e-06, 'action': 'skip-7d'}
-2026-10-23 16:59:22,736 V3 {'ts': 1792745639, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x41f510348ef293ae93952ac803a5a75143ea7777', 'sym': '冰淇淋土狗', 'price': 9.485e-06, 'action': 'skip-7d'}
-2026-10-23 16:59:35,659 V2 {'ts': 1792744897, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.006118, 'action': 'skip-7d'}
-2026-10-23 16:59:35,659 V3 {'ts': 1792744897, 'wallet': '0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a', 'side': 'BUY', 'token': '0x87ae267002cd1ea0ec86bf3601d4a8ad76a47777', 'sym': '蝴蝶人生', 'price': 0.006118, 'action': 'skip-7d'}
-2026-10-23 16:59:37,825 tick equity=803.41 pnl=-196.59 head=129293878 v3=977.97
-2026-10-23 17:00:03,466 tick equity=805.03 pnl=-194.97 head=129294128 v3=977.97
-2026-10-23 17:00:25,881 tick equity=805.04 pnl=-194.96 head=129294185 v3=977.97
-2026-10-23 17:00:48,615 tick equity=804.59 pnl=-195.41 head=129294235 v3=977.97
-2026-10-23 17:01:11,746 tick equity=805.21 pnl=-194.79 head=129294285 v3=977.97
 2026-10-23 17:01:34,613 tick equity=805.27 pnl=-194.73 head=129294336 v3=977.97
 2026-10-23 17:01:57,035 tick equity=805.53 pnl=-194.47 head=129294387 v3=977.97
 2026-10-23 17:02:19,502 tick equity=804.83 pnl=-195.17 head=129294437 v3=977.97
@@ -298,3 +278,23 @@
 2026-10-23 20:59:43,998 {'ts': 1792760362, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe0d03f38a2462b7c1883427889183981ca0f7777', 'tx': '0x06b956ec453bbc8cbdc10edd721967e20ee955c2d733186dd021d8ca53f4c5a4', 'sym': '牛牛币', 'price': 4.498e-06, 'liq': 8660, 'action': 'skip-cash'}
 2026-10-23 20:59:46,107 tick equity=784.15 pnl=-215.85 head=129326086 v3=975.98
 2026-10-23 21:00:10,236 tick equity=784.16 pnl=-215.84 head=129326137 v3=975.98
+2026-10-23 21:11:01,178 tick equity=784.66 pnl=-215.34 head=129326191 v3=975.98
+2026-10-23 21:11:37,747 V2 {'ts': 1792760462, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe0d03f38a2462b7c1883427889183981ca0f7777', 'sym': '牛牛币', 'price': 4.275e-06, 'action': 'skip-7d'}
+2026-10-23 21:11:37,747 V3 {'ts': 1792760462, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe0d03f38a2462b7c1883427889183981ca0f7777', 'sym': '牛牛币', 'price': 4.275e-06, 'action': 'skip-7d'}
+2026-10-23 21:11:37,748 {'ts': 1792760462, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xe0d03f38a2462b7c1883427889183981ca0f7777', 'tx': '0xa2df3cb481bb660ca1911d363c68acfdcfc1d6529ce7aac7ad16882a75669f5c', 'sym': '牛牛币', 'price': 4.275e-06, 'liq': 8433, 'action': 'skip-cash'}
+2026-10-23 21:12:56,862 tick equity=785.00 pnl=-215.00 head=129327670 v3=975.98
+2026-10-23 21:13:24,467 V2 {'ts': 1792761169, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0003649, 'action': 'skip-7d'}
+2026-10-23 21:13:24,467 V3 {'ts': 1792761169, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0003649, 'action': 'skip-7d'}
+2026-10-23 21:13:30,025 tick equity=785.97 pnl=-214.03 head=129327893 v3=975.98
+2026-10-23 21:13:55,907 tick equity=786.17 pnl=-213.83 head=129327967 v3=975.98
+2026-10-23 21:14:18,581 V2 {'ts': 1792761233, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0003684, 'action': 'skip-7d'}
+2026-10-23 21:14:18,581 V3 {'ts': 1792761233, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0003684, 'action': 'skip-7d'}
+2026-10-23 21:14:18,726 V2 {'ts': 1792761251, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0003684, 'action': 'skip-7d'}
+2026-10-23 21:14:18,726 V3 {'ts': 1792761251, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0003684, 'action': 'skip-7d'}
+2026-10-23 21:14:22,061 tick equity=786.22 pnl=-213.78 head=129328024 v3=975.98
+2026-10-23 21:14:43,328 V2-RISK 大肥鱼 0x22cc04d8d201eeaecbace9ce91c5ef117f167777 KILL LP only 0% locked/burned
+2026-10-23 21:14:43,328 V2 {'ts': 1792761257, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x22cc04d8d201eeaecbace9ce91c5ef117f167777', 'sym': '大肥鱼', 'price': 0.0002065, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-23 21:14:44,067 V3-RISK 大肥鱼 0x22cc04d8d201eeaecbace9ce91c5ef117f167777 KILL LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-23 21:14:44,067 V3 {'ts': 1792761257, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x22cc04d8d201eeaecbace9ce91c5ef117f167777', 'sym': '大肥鱼', 'price': 0.0002065, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-23 21:14:47,690 tick equity=786.29 pnl=-213.71 head=129328082 v3=975.98
+2026-10-23 21:15:13,401 tick equity=786.75 pnl=-213.25 head=129328139 v3=975.98
