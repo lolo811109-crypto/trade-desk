@@ -1,19 +1,3 @@
-2026-10-23 17:13:04,366 tick equity=809.02 pnl=-190.98 head=129295867 v3=977.97
-2026-10-23 17:13:26,795 tick equity=809.67 pnl=-190.33 head=129295918 v3=977.97
-2026-10-23 17:13:49,033 tick equity=809.60 pnl=-190.40 head=129295969 v3=977.97
-2026-10-23 17:14:11,261 tick equity=809.71 pnl=-190.29 head=129296018 v3=977.97
-2026-10-23 17:14:34,453 tick equity=810.13 pnl=-189.87 head=129296068 v3=977.97
-2026-10-23 17:16:19,430 tick equity=809.48 pnl=-190.52 head=129296292 v3=977.97
-2026-10-23 17:30:17,452 {'ts': 1792747437, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x4902c5ebc598265ed2212b559b042de8a5eeec3f', 'tx': '0x8851f59b385ee8b6566a3ae1703dff321a46af8e24fea90b8e6092030fd3843b', 'action': 'skip-noprice'}
-2026-10-23 17:30:40,963 V2 {'ts': 1792747197, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x97acca21fcf2435f1a0bfa94f9c27d412b88c1c8', 'sym': 'GStock', 'price': 6.212e-05, 'action': 'skip-7d'}
-2026-10-23 17:30:40,963 V3 {'ts': 1792747197, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x97acca21fcf2435f1a0bfa94f9c27d412b88c1c8', 'sym': 'GStock', 'price': 6.212e-05, 'action': 'skip-7d'}
-2026-10-23 17:30:41,110 V2 {'ts': 1792747270, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x97acca21fcf2435f1a0bfa94f9c27d412b88c1c8', 'sym': 'GStock', 'price': 6.212e-05, 'action': 'skip-7d'}
-2026-10-23 17:30:41,110 V3 {'ts': 1792747270, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x97acca21fcf2435f1a0bfa94f9c27d412b88c1c8', 'sym': 'GStock', 'price': 6.212e-05, 'action': 'skip-7d'}
-2026-10-23 17:30:41,359 V2 {'ts': 1792747766, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xaacbc156435dbab7815a61bccba1c827e52a7777', 'sym': '股城', 'price': 4.827e-05, 'action': 'skip-7d'}
-2026-10-23 17:30:41,360 V3 {'ts': 1792747766, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xaacbc156435dbab7815a61bccba1c827e52a7777', 'sym': '股城', 'price': 4.827e-05, 'action': 'skip-7d'}
-2026-10-23 17:30:53,360 tick equity=808.37 pnl=-191.63 head=129298100 v3=977.97
-2026-10-23 17:31:19,696 tick equity=808.37 pnl=-191.63 head=129298294 v3=977.97
-2026-10-23 17:31:43,059 tick equity=807.11 pnl=-192.89 head=129298353 v3=977.97
 2026-10-23 17:32:04,722 tick equity=807.06 pnl=-192.94 head=129298404 v3=977.97
 2026-10-23 17:32:27,721 tick equity=807.07 pnl=-192.93 head=129298452 v3=977.97
 2026-10-23 17:32:49,898 tick equity=808.19 pnl=-191.81 head=129298504 v3=977.97
@@ -298,3 +282,19 @@
 2026-10-23 21:19:20,032 tick equity=789.89 pnl=-210.11 head=129328685 v3=975.98
 2026-10-23 21:19:45,170 tick equity=789.50 pnl=-210.50 head=129328744 v3=975.98
 2026-10-23 21:20:13,219 tick equity=789.57 pnl=-210.43 head=129328798 v3=975.98
+2026-10-23 21:28:27,832 V2 {'ts': 1792761632, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x97acca21fcf2435f1a0bfa94f9c27d412b88c1c8', 'sym': 'GStock', 'price': 3.463897752e-05, 'action': 'skip-7d'}
+2026-10-23 21:28:27,833 V3 {'ts': 1792761632, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x97acca21fcf2435f1a0bfa94f9c27d412b88c1c8', 'sym': 'GStock', 'price': 3.463897752e-05, 'action': 'skip-7d'}
+2026-10-23 21:34:36,730 loop error rpc fail eth_getTransactionCount
+2026-10-23 21:34:58,083 V2 {'ts': 1792762452, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x79df67f79937933266b291869886c074c46b7777', 'sym': 'Garip', 'price': 5.88e-06, 'action': 'skip-7d'}
+2026-10-23 21:34:58,084 V3 {'ts': 1792762452, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x79df67f79937933266b291869886c074c46b7777', 'sym': 'Garip', 'price': 5.88e-06, 'action': 'skip-7d'}
+2026-10-23 21:34:58,194 V2 {'ts': 1792762454, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x79df67f79937933266b291869886c074c46b7777', 'sym': 'Garip', 'price': 5.88e-06, 'action': 'skip-7d'}
+2026-10-23 21:34:58,194 V3 {'ts': 1792762454, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x79df67f79937933266b291869886c074c46b7777', 'sym': 'Garip', 'price': 5.88e-06, 'action': 'skip-7d'}
+2026-10-23 21:35:00,744 V2 {'ts': 1792762224, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe3405f29db98173b3eb0b620ba5567da4e947777', 'sym': '派大星', 'price': 0.0001521, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-23 21:35:00,852 V3 {'ts': 1792762224, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe3405f29db98173b3eb0b620ba5567da4e947777', 'sym': '派大星', 'price': 0.0001521, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%']}
+2026-10-23 21:37:09,117 tick equity=787.65 pnl=-212.35 head=129330779 v3=975.98
+2026-10-23 21:37:30,624 V2 {'ts': 1792762586, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x79df67f79937933266b291869886c074c46b7777', 'sym': 'Garip', 'price': 5.756e-06, 'action': 'skip-7d'}
+2026-10-23 21:37:30,624 V3 {'ts': 1792762586, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x79df67f79937933266b291869886c074c46b7777', 'sym': 'Garip', 'price': 5.756e-06, 'action': 'skip-7d'}
+2026-10-23 21:37:48,237 tick equity=787.52 pnl=-212.48 head=129331118 v3=975.98
+2026-10-23 21:38:14,934 tick equity=787.40 pnl=-212.60 head=129331204 v3=975.98
+2026-10-23 21:38:41,977 tick equity=787.37 pnl=-212.63 head=129331264 v3=975.98
+2026-10-23 21:39:07,751 tick equity=786.49 pnl=-213.51 head=129331323 v3=975.98
