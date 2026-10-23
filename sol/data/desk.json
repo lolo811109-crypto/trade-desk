@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792732298,
+ "updated": 1792732597,
  "tokens_seen": 69,
  "risk": {
   "checked": 96,
@@ -185,13 +185,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0808,
+  "dd_today": -0.0804,
   "limit": -0.1
  },
  "v2": {
-  "equity": 852.33,
+  "equity": 852.72,
   "day_start": 927.27,
-  "pnl_today": -74.94,
+  "pnl_today": -74.55,
   "open_positions": 23,
   "closed_positions": 70,
   "closed_sells": 68,
@@ -212,13 +212,13 @@
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -11.56
+   "upnl": -11.01
   }
  },
  "baseline": {
-  "equity": 779.72,
+  "equity": 780.11,
   "day_start": 860.79,
-  "pnl_today": -81.07,
+  "pnl_today": -80.68,
   "closed_sells": 52,
   "win_rate": 0.135,
   "realized_today": -14.88,
@@ -233,7 +233,7 @@
   "copied": 74
  },
  "risk_track": {
-  "updated": 1792732264,
+  "updated": 1792732430,
   "rejected": {
    "n": 51,
    "1h": {
@@ -244,11 +244,11 @@
     "up_pct": 0.367
    },
    "6h": {
-    "n": 39,
-    "avg_ret": 0.062,
-    "bad_pct": 0.128,
+    "n": 40,
+    "avg_ret": 0.0776,
+    "bad_pct": 0.125,
     "rug_pct": 0.0,
-    "up_pct": 0.41
+    "up_pct": 0.425
    },
    "24h": {
     "n": 12,
@@ -259,9 +259,9 @@
    },
    "latest": {
     "n": 49,
-    "avg_ret": 0.0133,
+    "avg_ret": 0.0259,
     "bad_pct": 0.102,
-    "winners": 5
+    "winners": 6
    }
   },
   "passed": {
@@ -305,11 +305,11 @@
      "up_pct": 0.368
     },
     "6h": {
-     "n": 30,
-     "avg_ret": 0.0841,
-     "bad_pct": 0.167,
+     "n": 31,
+     "avg_ret": 0.1034,
+     "bad_pct": 0.161,
      "rug_pct": 0.0,
-     "up_pct": 0.367
+     "up_pct": 0.387
     },
     "24h": {
      "n": 7,
@@ -320,9 +320,9 @@
     },
     "latest": {
      "n": 38,
-     "avg_ret": 0.0371,
+     "avg_ret": 0.0533,
      "bad_pct": 0.132,
-     "winners": 5
+     "winners": 6
     }
    },
    "top holders": {
@@ -1525,7 +1525,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0682,
-     "6h": null,
+     "6h": 0.6828,
      "24h": null
     },
     "rug": false
@@ -1937,9 +1937,9 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 879.85,
+  "equity": 880.44,
   "day_start": 952.92,
-  "pnl_today": -73.07,
+  "pnl_today": -72.48,
   "open_positions": 2,
   "closed_positions": 117,
   "closed_sells": 115,
@@ -1956,11 +1956,11 @@
   "copied": 100,
   "best_open": {
    "sym": "McRib",
-   "upnl": -0.7
+   "upnl": -0.14
   },
   "worst_open": {
    "sym": "DOPE",
-   "upnl": -1.02
+   "upnl": -0.98
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -2149,11 +2149,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0767,
+  "dd_today": -0.0761,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792732264,
+  "updated": 1792732430,
   "rejected": {
    "n": 42,
    "1h": {
@@ -2164,11 +2164,11 @@
     "up_pct": 0.375
    },
    "6h": {
-    "n": 30,
-    "avg_ret": 0.0413,
-    "bad_pct": 0.133,
+    "n": 31,
+    "avg_ret": 0.062,
+    "bad_pct": 0.129,
     "rug_pct": 0.0,
-    "up_pct": 0.367
+    "up_pct": 0.387
    },
    "24h": {
     "n": 4,
@@ -2179,9 +2179,9 @@
    },
    "latest": {
     "n": 40,
-    "avg_ret": -0.0121,
+    "avg_ret": 0.0033,
     "bad_pct": 0.1,
-    "winners": 4
+    "winners": 5
    }
   },
   "passed": {
@@ -2225,11 +2225,11 @@
      "up_pct": 0.364
     },
     "6h": {
-     "n": 25,
-     "avg_ret": 0.0581,
-     "bad_pct": 0.16,
+     "n": 26,
+     "avg_ret": 0.0821,
+     "bad_pct": 0.154,
      "rug_pct": 0.0,
-     "up_pct": 0.36
+     "up_pct": 0.385
     },
     "24h": {
      "n": 3,
@@ -2240,9 +2240,9 @@
     },
     "latest": {
      "n": 33,
-     "avg_ret": -0.0072,
+     "avg_ret": 0.0115,
      "bad_pct": 0.121,
-     "winners": 4
+     "winners": 5
     }
    },
    "top holders": {
@@ -3461,7 +3461,7 @@
     "src": "live",
     "ret": {
      "1h": 0.0682,
-     "6h": null,
+     "6h": 0.6828,
      "24h": null
     },
     "rug": false
