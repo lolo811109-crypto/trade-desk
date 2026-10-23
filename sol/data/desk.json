@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792734564,
+ "updated": 1792735042,
  "tokens_seen": 73,
  "risk": {
-  "checked": 98,
-  "killed": 60,
+  "checked": 99,
+  "killed": 61,
   "passed": 74
  },
  "kills": [
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0805,
+  "dd_today": -0.0813,
   "limit": -0.1
  },
  "v2": {
-  "equity": 852.61,
+  "equity": 851.89,
   "day_start": 927.27,
-  "pnl_today": -74.66,
+  "pnl_today": -75.38,
   "open_positions": 22,
   "closed_positions": 72,
   "closed_sells": 70,
@@ -215,17 +215,17 @@
   "copied": 70,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 0.73
+   "upnl": 0.72
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.92
+   "upnl": -10.87
   }
  },
  "baseline": {
-  "equity": 774.27,
+  "equity": 768.5,
   "day_start": 860.79,
-  "pnl_today": -86.52,
+  "pnl_today": -92.29,
   "closed_sells": 53,
   "win_rate": 0.132,
   "realized_today": -18.31,
@@ -1944,21 +1944,21 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 876.98,
+  "equity": 876.69,
   "day_start": 952.92,
-  "pnl_today": -75.94,
-  "open_positions": 3,
-  "closed_positions": 120,
-  "closed_sells": 118,
-  "win_rate": 0.11,
-  "realized_today": -84.42,
+  "pnl_today": -76.23,
+  "open_positions": 2,
+  "closed_positions": 121,
+  "closed_sells": 119,
+  "win_rate": 0.109,
+  "realized_today": -85.56,
   "best_token": {
    "sym": "DOPE",
    "pnl": 1.6
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -14.12
+   "pnl": -15.26
   },
   "copied": 104,
   "best_open": {
@@ -1966,15 +1966,15 @@
    "upnl": -0.55
   },
   "worst_open": {
-   "sym": "Kimchi",
-   "upnl": -1.04
+   "sym": "CLAUDIA",
+   "upnl": -1.24
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 132,
-  "killed": 60,
+  "checked": 133,
+  "killed": 61,
   "passed": 108
  },
  "v3_kills": [
@@ -2164,7 +2164,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0797,
+  "dd_today": -0.08,
   "limit": -0.1
  },
  "v3_track": {
