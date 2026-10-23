@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792741619,
+ "updated": 1792741898,
  "tokens_seen": 74,
  "risk": {
   "checked": 110,
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0847,
+  "dd_today": -0.0859,
   "limit": -0.1
  },
  "v2": {
-  "equity": 848.68,
+  "equity": 847.59,
   "day_start": 927.27,
-  "pnl_today": -78.59,
+  "pnl_today": -79.68,
   "open_positions": 21,
   "closed_positions": 79,
   "closed_sells": 77,
@@ -215,7 +215,7 @@
   "copied": 76,
   "best_open": {
    "sym": "BURNIE",
-   "upnl": 0.72
+   "upnl": 0.69
   },
   "worst_open": {
    "sym": "Agency",
@@ -223,9 +223,9 @@
   }
  },
  "baseline": {
-  "equity": 757.76,
+  "equity": 753.29,
   "day_start": 860.79,
-  "pnl_today": -103.03,
+  "pnl_today": -107.5,
   "closed_sells": 62,
   "win_rate": 0.129,
   "realized_today": -68.71,
@@ -1942,38 +1942,38 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 867.99,
+  "equity": 866.02,
   "day_start": 952.92,
-  "pnl_today": -84.93,
-  "open_positions": 3,
-  "closed_positions": 137,
-  "closed_sells": 135,
-  "win_rate": 0.104,
-  "realized_today": -94.52,
+  "pnl_today": -86.9,
+  "open_positions": 4,
+  "closed_positions": 138,
+  "closed_sells": 136,
+  "win_rate": 0.103,
+  "realized_today": -95.45,
   "best_token": {
    "sym": "Pepper",
    "pnl": 0.34
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -17.5
+   "pnl": -18.43
   },
-  "copied": 121,
+  "copied": 123,
   "best_open": {
    "sym": "ヤギ",
-   "upnl": -0.28
+   "upnl": -0.41
   },
   "worst_open": {
-   "sym": "Kimchi",
-   "upnl": -0.65
+   "sym": "CLAUDIA",
+   "upnl": -1.03
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 155,
+  "checked": 157,
   "killed": 74,
-  "passed": 125
+  "passed": 127
  },
  "v3_kills": [
   {
@@ -2162,7 +2162,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0891,
+  "dd_today": -0.0912,
   "limit": -0.1
  },
  "v3_track": {
