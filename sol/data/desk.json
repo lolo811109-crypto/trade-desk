@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792721324,
- "tokens_seen": 59,
+ "updated": 1792721569,
+ "tokens_seen": 60,
  "risk": {
-  "checked": 85,
-  "killed": 49,
-  "passed": 63
+  "checked": 86,
+  "killed": 51,
+  "passed": 64
  },
  "kills": [
   {
@@ -92,7 +92,7 @@
    "sym": "SURY",
    "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
    "reasons": [
-    "liq $17,405 < $50,000 v2 floor"
+    "liq $13,027 < $50,000 v2 floor"
    ]
   },
   {
@@ -152,23 +152,30 @@
     "top10 holders 53%",
     "warn: LP burned only 0%"
    ]
+  },
+  {
+   "sym": "PHP2SHELL",
+   "token": "Bo61v44TWErCNGF4qzu2nEWyGgPWeNrNpu1FsV8dpump",
+   "reasons": [
+    "liq $11,445 < $50,000 v2 floor"
+   ]
   }
  ],
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0658,
+  "dd_today": -0.0678,
   "limit": -0.1
  },
  "v2": {
-  "equity": 866.28,
+  "equity": 864.43,
   "day_start": 927.27,
-  "pnl_today": -60.99,
+  "pnl_today": -62.84,
   "open_positions": 23,
-  "closed_positions": 60,
-  "closed_sells": 58,
-  "win_rate": 0.121,
-  "realized_today": -54.25,
+  "closed_positions": 61,
+  "closed_sells": 59,
+  "win_rate": 0.119,
+  "realized_today": -56.38,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 3.4
@@ -177,23 +184,23 @@
    "sym": "Kimchi",
    "pnl": -11.18
   },
-  "copied": 59,
+  "copied": 60,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 2.06
+   "upnl": 2.0
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -11.15
+   "upnl": -11.42
   }
  },
  "baseline": {
-  "equity": 805.33,
+  "equity": 822.05,
   "day_start": 860.79,
-  "pnl_today": -55.46,
-  "closed_sells": 39,
-  "win_rate": 0.154,
-  "realized_today": -5.22,
+  "pnl_today": -38.74,
+  "closed_sells": 41,
+  "win_rate": 0.146,
+  "realized_today": -9.93,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -202,12 +209,12 @@
    "sym": "PHP",
    "pnl": -8.56
   },
-  "copied": 55
+  "copied": 59
  },
  "risk_track": {
-  "updated": 1792721324,
+  "updated": 1792721396,
   "rejected": {
-   "n": 44,
+   "n": 46,
    "1h": {
     "n": 44,
     "avg_ret": 0.007,
@@ -237,7 +244,7 @@
    }
   },
   "passed": {
-   "n": 73,
+   "n": 74,
    "1h": {
     "n": 72,
     "avg_ret": -0.0129,
@@ -268,7 +275,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 33,
+    "n": 35,
     "1h": {
      "n": 33,
      "avg_ret": 0.0206,
@@ -359,52 +366,6 @@
    }
   },
   "items": [
-   {
-    "sym": "COMPUTE",
-    "token": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
-    "ok": true,
-    "reasons": [],
-    "ts": 1792579882,
-    "src": "live",
-    "ret": {
-     "1h": -0.0114,
-     "6h": -0.2037,
-     "24h": 1.4055
-    },
-    "rug": false
-   },
-   {
-    "sym": "INMUKING",
-    "token": "26RsPKnoUNU8ejytaKTxMLDDosS5DJZD5BQ8YYgwpump",
-    "ok": false,
-    "reasons": [
-     "top10 holders 54%"
-    ],
-    "ts": 1792588712,
-    "src": "live",
-    "ret": {
-     "1h": -0.0259,
-     "6h": -0.0931,
-     "24h": -0.3375
-    },
-    "rug": false
-   },
-   {
-    "sym": "PUMPCADE",
-    "token": "Eg2ymQ2aQqjMcibnmTt8erC6Tvk9PVpJZCxvVPJz2agu",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%"
-    ],
-    "ts": 1792589465,
-    "src": "live",
-    "ret": {
-     "1h": -0.019,
-     "6h": 0.1106,
-     "24h": -0.0509
-    },
-    "rug": false
-   },
    {
     "sym": "PONKE",
     "token": "5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
@@ -1906,6 +1867,52 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "Kimchi",
+    "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792721378,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "PHP2SHELL",
+    "token": "Bo61v44TWErCNGF4qzu2nEWyGgPWeNrNpu1FsV8dpump",
+    "ok": false,
+    "reasons": [
+     "liq $11,445 < $50,000 v2 floor"
+    ],
+    "ts": 1792721396,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "SURY",
+    "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
+    "ok": false,
+    "reasons": [
+     "liq $13,027 < $50,000 v2 floor"
+    ],
+    "ts": 1792721396,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1913,10 +1920,10 @@
   "warn_lp": 24
  },
  "v3": {
-  "equity": 896.71,
+  "equity": 895.84,
   "day_start": 952.92,
-  "pnl_today": -56.21,
-  "open_positions": 2,
+  "pnl_today": -57.08,
+  "open_positions": 3,
   "closed_positions": 97,
   "closed_sells": 95,
   "win_rate": 0.137,
@@ -1929,22 +1936,22 @@
    "sym": "Kimchi",
    "pnl": -10.14
   },
-  "copied": 80,
+  "copied": 81,
   "best_open": {
    "sym": "Agency",
-   "upnl": -0.41
+   "upnl": -0.5
   },
   "worst_open": {
-   "sym": "JEANPHIL",
-   "upnl": -0.46
+   "sym": "Kimchi",
+   "upnl": -0.7
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 106,
-  "killed": 49,
-  "passed": 84
+  "checked": 107,
+  "killed": 51,
+  "passed": 85
  },
  "v3_kills": [
   {
@@ -2030,7 +2037,7 @@
    "sym": "SURY",
    "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
    "reasons": [
-    "liq $17,405 < $50,000 v2 floor"
+    "liq $13,027 < $50,000 v2 floor"
    ]
   },
   {
@@ -2092,18 +2099,25 @@
     "warn: LP burned only 0%",
     "info: dev holds 0.0% via pump.fun"
    ]
+  },
+  {
+   "sym": "PHP2SHELL",
+   "token": "Bo61v44TWErCNGF4qzu2nEWyGgPWeNrNpu1FsV8dpump",
+   "reasons": [
+    "liq $11,445 < $50,000 v2 floor"
+   ]
   }
  ],
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.059,
+  "dd_today": -0.0599,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792721324,
+  "updated": 1792721396,
   "rejected": {
-   "n": 35,
+   "n": 37,
    "1h": {
     "n": 35,
     "avg_ret": 0.0456,
@@ -2133,7 +2147,7 @@
    }
   },
   "passed": {
-   "n": 69,
+   "n": 70,
    "1h": {
     "n": 69,
     "avg_ret": -0.0122,
@@ -2164,7 +2178,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 28,
+    "n": 30,
     "1h": {
      "n": 28,
      "avg_ret": 0.0588,
@@ -2315,55 +2329,6 @@
    }
   },
   "items": [
-   {
-    "sym": "fone",
-    "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%",
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792609120,
-    "src": "live",
-    "ret": {
-     "1h": -0.0462,
-     "6h": -0.0442,
-     "24h": -0.2404
-    },
-    "rug": false
-   },
-   {
-    "sym": "Bert",
-    "token": "HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump",
-    "ok": true,
-    "reasons": [
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792609255,
-    "src": "live",
-    "ret": {
-     "1h": -0.0044,
-     "6h": -0.058,
-     "24h": -0.1059
-    },
-    "rug": false
-   },
-   {
-    "sym": "EXFIL",
-    "token": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
-    "ok": true,
-    "reasons": [
-     "info: dev holds 1.9% via pump.fun"
-    ],
-    "ts": 1792619561,
-    "src": "live",
-    "ret": {
-     "1h": -0.0124,
-     "6h": -0.2018,
-     "24h": -0.2246
-    },
-    "rug": false
-   },
    {
     "sym": "FTR",
     "token": "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump",
@@ -3955,6 +3920,54 @@
     "src": "live",
     "ret": {
      "1h": 0.0026,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "Kimchi",
+    "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+    "ok": true,
+    "reasons": [
+     "warn: dev holding unknown"
+    ],
+    "ts": 1792721395,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "PHP2SHELL",
+    "token": "Bo61v44TWErCNGF4qzu2nEWyGgPWeNrNpu1FsV8dpump",
+    "ok": false,
+    "reasons": [
+     "liq $11,445 < $50,000 v2 floor"
+    ],
+    "ts": 1792721396,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "SURY",
+    "token": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
+    "ok": false,
+    "reasons": [
+     "liq $13,027 < $50,000 v2 floor"
+    ],
+    "ts": 1792721396,
+    "src": "live",
+    "ret": {
+     "1h": null,
      "6h": null,
      "24h": null
     },
