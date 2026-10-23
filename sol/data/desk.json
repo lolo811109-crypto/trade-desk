@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792796826,
- "tokens_seen": 50,
+ "updated": 1792796965,
+ "tokens_seen": 51,
  "risk": {
-  "checked": 75,
+  "checked": 77,
   "killed": 60,
-  "passed": 35
+  "passed": 37
  },
  "kills": [
   {
@@ -120,14 +120,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0412,
+  "dd_today": -0.0433,
   "limit": -0.1
  },
  "v2": {
-  "equity": 812.22,
+  "equity": 810.47,
   "day_start": 847.14,
-  "pnl_today": -34.92,
-  "open_positions": 21,
+  "pnl_today": -36.67,
+  "open_positions": 23,
   "closed_positions": 35,
   "closed_sells": 35,
   "win_rate": 0.171,
@@ -140,10 +140,10 @@
    "sym": "Agency",
    "pnl": -13.83
   },
-  "copied": 34,
+  "copied": 36,
   "best_open": {
    "sym": "GATO",
-   "upnl": 0.84
+   "upnl": 0.8
   },
   "worst_open": {
    "sym": "CYBERLEEK",
@@ -151,9 +151,9 @@
   }
  },
  "baseline": {
-  "equity": 683.12,
+  "equity": 681.23,
   "day_start": 773.92,
-  "pnl_today": -90.8,
+  "pnl_today": -92.69,
   "closed_sells": 17,
   "win_rate": 0.235,
   "realized_today": -13.4,
@@ -165,10 +165,10 @@
    "sym": "NIO",
    "pnl": -3.77
   },
-  "copied": 19
+  "copied": 20
  },
  "risk_track": {
-  "updated": 1792796685,
+  "updated": 1792796892,
   "rejected": {
    "n": 77,
    "1h": {
@@ -200,7 +200,7 @@
    }
   },
   "passed": {
-   "n": 123,
+   "n": 124,
    "1h": {
     "n": 121,
     "avg_ret": -0.0071,
@@ -322,22 +322,6 @@
    }
   },
   "items": [
-   {
-    "sym": "CRAWL",
-    "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%"
-    ],
-    "ts": 1792709755,
-    "src": "live",
-    "ret": {
-     "1h": 0.0013,
-     "6h": 0.0799,
-     "24h": 0.1775
-    },
-    "rug": false
-   },
    {
     "sym": "ANSEM",
     "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
@@ -1856,6 +1840,22 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "HOOKED",
+    "token": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%"
+    ],
+    "ts": 1792796892,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1863,10 +1863,10 @@
   "warn_lp": 29
  },
  "v3": {
-  "equity": 823.96,
+  "equity": 822.17,
   "day_start": 857.86,
-  "pnl_today": -33.9,
-  "open_positions": 7,
+  "pnl_today": -35.69,
+  "open_positions": 9,
   "closed_positions": 40,
   "closed_sells": 40,
   "win_rate": 0.125,
@@ -1879,22 +1879,22 @@
    "sym": "ヤギ",
    "pnl": -6.83
   },
-  "copied": 46,
+  "copied": 48,
   "best_open": {
    "sym": "Agency",
    "upnl": -0.4
   },
   "worst_open": {
    "sym": "ヤギ",
-   "upnl": -1.02
+   "upnl": -1.38
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 87,
+  "checked": 89,
   "killed": 60,
-  "passed": 47
+  "passed": 49
  },
  "v3_kills": [
   {
@@ -2008,11 +2008,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0395,
+  "dd_today": -0.0416,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792796686,
+  "updated": 1792796892,
   "rejected": {
    "n": 67,
    "1h": {
@@ -2044,7 +2044,7 @@
    }
   },
   "passed": {
-   "n": 121,
+   "n": 122,
    "1h": {
     "n": 118,
     "avg_ret": -0.0116,
@@ -2226,22 +2226,6 @@
    }
   },
   "items": [
-   {
-    "sym": "LARPCHECK",
-    "token": "t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP",
-    "ok": true,
-    "reasons": [
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792712265,
-    "src": "live",
-    "ret": {
-     "1h": 0.1302,
-     "6h": 0.1128,
-     "24h": null
-    },
-    "rug": false
-   },
    {
     "sym": "PHP",
     "token": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
@@ -3855,6 +3839,23 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792796686,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "HOOKED",
+    "token": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE",
+    "ok": true,
+    "reasons": [
+     "warn: LP burned only 0%",
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792796892,
     "src": "live",
     "ret": {
      "1h": null,

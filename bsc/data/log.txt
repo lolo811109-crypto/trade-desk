@@ -1,51 +1,3 @@
-2026-10-24 03:20:34,300 CONFLUENCE 派大星 0xe3405f29db98173b3eb0b620ba5567da4e947777 wallets=['0xdf579d27140000251421f3bb2b4ed43835eb3b6b', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
-2026-10-24 03:20:34,621 V2-RISK 派大星 0xe3405f29db98173b3eb0b620ba5567da4e947777 KILL LP only 0% locked/burned
-2026-10-24 03:20:34,621 V2 {'ts': 1792783217, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xe3405f29db98173b3eb0b620ba5567da4e947777', 'sym': '派大星', 'price': 0.0001897, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 03:20:36,875 tick equity=768.71 pnl=-231.29 head=129376848 v3=973.36
-2026-10-24 03:21:01,523 tick equity=768.59 pnl=-231.41 head=129376901 v3=973.33
-2026-10-24 03:21:23,920 tick equity=768.93 pnl=-231.07 head=129376956 v3=973.66
-2026-10-24 03:21:47,282 tick equity=768.66 pnl=-231.34 head=129377005 v3=973.7
-2026-10-24 03:22:11,193 tick equity=768.30 pnl=-231.70 head=129377057 v3=973.36
-2026-10-24 03:22:35,082 tick equity=768.29 pnl=-231.71 head=129377110 v3=973.36
-2026-10-24 03:22:56,109 V2 {'ts': 1792783370, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xdd806e436dda5588bf54061c11590c77ddc87777', 'sym': 'SAFU', 'price': 0.0005228, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 03:22:56,167 V3 {'ts': 1792783370, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xdd806e436dda5588bf54061c11590c77ddc87777', 'sym': 'SAFU', 'price': 0.0005228, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 03:22:58,889 tick equity=768.09 pnl=-231.91 head=129377164 v3=973.16
-2026-10-24 03:23:23,680 tick equity=768.10 pnl=-231.90 head=129377216 v3=973.16
-2026-10-24 03:23:46,314 tick equity=768.07 pnl=-231.93 head=129377271 v3=973.16
-2026-10-24 03:28:46,928 V2 {'ts': 1792783478, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0003849, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 03:28:47,022 V3 {'ts': 1792783478, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0003849, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'warn: dev holding unknown']}
-2026-10-24 03:28:47,172 V2 {'ts': 1792783486, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0003849, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 03:28:47,172 V3 {'ts': 1792783486, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0003849, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'warn: dev holding unknown']}
-2026-10-24 03:28:47,354 V2 {'ts': 1792783633, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.001217, 'action': 'sell', 'proceeds': 9.49, 'pnl': -0.51}
-2026-10-24 03:28:47,354 V3 {'ts': 1792783633, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.001217, 'action': 'sell', 'proceeds': 9.49, 'pnl': -0.51}
-2026-10-24 03:28:47,354 V2 {'ts': 1792783633, 'wallet': 'confluence', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.001217, 'action': 'sell', 'proceeds': 9.46, 'pnl': -0.54}
-2026-10-24 03:38:33,831 loop error rpc fail eth_getTransactionCount
-2026-10-24 03:39:34,464 V2 {'ts': 1792783743, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xdd806e436dda5588bf54061c11590c77ddc87777', 'sym': 'SAFU', 'price': 0.0004692, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 03:39:34,562 V3 {'ts': 1792783743, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xdd806e436dda5588bf54061c11590c77ddc87777', 'sym': 'SAFU', 'price': 0.0004692, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 03:39:34,982 V2-RISK GM 0x13920fe6467e9e3c852b8d365a036c995f0f7777 KILL LP only 0% locked/burned
-2026-10-24 03:39:34,982 V2 {'ts': 1792783935, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x13920fe6467e9e3c852b8d365a036c995f0f7777', 'sym': 'GM', 'price': 0.0006412, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 03:39:35,622 V3-RISK GM 0x13920fe6467e9e3c852b8d365a036c995f0f7777 KILL LP only 0% locked/burned; info: dev holds 0.0%
-2026-10-24 03:39:35,622 V3 {'ts': 1792783935, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x13920fe6467e9e3c852b8d365a036c995f0f7777', 'sym': 'GM', 'price': 0.0006412, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 03:40:02,553 tick equity=763.87 pnl=-236.13 head=129379295 v3=973.64
-2026-10-24 03:40:25,387 tick equity=763.77 pnl=-236.23 head=129379491 v3=973.64
-2026-10-24 03:40:48,939 tick equity=763.76 pnl=-236.24 head=129379542 v3=973.64
-2026-10-24 03:41:11,046 tick equity=763.01 pnl=-236.99 head=129379594 v3=973.64
-2026-10-24 03:41:36,242 tick equity=763.03 pnl=-236.97 head=129379643 v3=973.64
-2026-10-24 03:41:58,579 tick equity=763.08 pnl=-236.92 head=129379699 v3=973.64
-2026-10-24 03:42:21,370 tick equity=763.15 pnl=-236.85 head=129379749 v3=973.64
-2026-10-24 03:42:45,285 tick equity=763.20 pnl=-236.80 head=129379800 v3=973.64
-2026-10-24 03:43:08,527 tick equity=763.22 pnl=-236.78 head=129379853 v3=973.64
-2026-10-24 03:43:29,205 {'ts': 1792784590, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'tx': '0x52ef818151c8527d19531eb197bef7759bbb6c3c671d488bb9f9956e5a9533e2', 'sym': 'GANG', 'price': 0.001123, 'liq': 128351, 'action': 'sell', 'proceeds': 8.73, 'pnl': -1.27}
-2026-10-24 03:43:31,692 tick equity=763.20 pnl=-236.80 head=129379905 v3=973.64
-2026-10-24 03:43:54,793 tick equity=763.14 pnl=-236.86 head=129379956 v3=973.64
-2026-10-24 03:44:16,806 tick equity=763.07 pnl=-236.93 head=129380007 v3=973.64
-2026-10-24 03:44:40,459 tick equity=763.07 pnl=-236.93 head=129380056 v3=973.64
-2026-10-24 03:45:03,381 tick equity=763.02 pnl=-236.98 head=129380109 v3=973.64
-2026-10-24 03:45:26,332 tick equity=762.79 pnl=-237.21 head=129380160 v3=973.64
-2026-10-24 03:45:49,346 tick equity=762.79 pnl=-237.21 head=129380210 v3=973.64
-2026-10-24 03:46:12,114 tick equity=762.53 pnl=-237.47 head=129380262 v3=973.64
-2026-10-24 03:46:33,077 V2 {'ts': 1792784777, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x13920fe6467e9e3c852b8d365a036c995f0f7777', 'sym': 'GM', 'price': 0.0006376, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
-2026-10-24 03:46:33,127 V3 {'ts': 1792784777, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x13920fe6467e9e3c852b8d365a036c995f0f7777', 'sym': 'GM', 'price': 0.0006376, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
 2026-10-24 03:46:34,870 tick equity=762.57 pnl=-237.43 head=129380312 v3=973.64
 2026-10-24 03:46:57,810 tick equity=762.65 pnl=-237.35 head=129380363 v3=973.64
 2026-10-24 03:47:21,339 tick equity=762.65 pnl=-237.35 head=129380414 v3=973.64
@@ -298,3 +250,51 @@
 2026-10-24 07:06:28,439 tick equity=768.25 pnl=-231.75 head=129406959 v3=972.37
 2026-10-24 07:06:51,579 tick equity=768.07 pnl=-231.93 head=129407009 v3=972.37
 2026-10-24 07:07:13,949 tick equity=768.05 pnl=-231.95 head=129407061 v3=972.37
+2026-10-24 07:07:37,023 tick equity=767.92 pnl=-232.08 head=129407111 v3=972.37
+2026-10-24 07:07:59,234 tick equity=767.88 pnl=-232.12 head=129407161 v3=972.37
+2026-10-24 07:08:21,563 tick equity=767.87 pnl=-232.13 head=129407211 v3=972.37
+2026-10-24 07:08:44,043 tick equity=768.54 pnl=-231.46 head=129407261 v3=972.37
+2026-10-24 07:09:06,510 tick equity=768.50 pnl=-231.50 head=129407311 v3=972.37
+2026-10-24 07:09:29,428 tick equity=768.20 pnl=-231.80 head=129407361 v3=972.37
+2026-10-24 07:12:09,335 V2 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,336 V3 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,409 V2 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,410 V3 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,460 V2 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,460 V3 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,528 V2 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,528 V3 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,625 V2 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,625 V3 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,694 V2 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,695 V3 {'ts': 1792797076, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,746 V2 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,746 V3 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,782 V2 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,782 V3 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,914 V2 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,914 V3 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,937 V2 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:09,938 V3 {'ts': 1792797077, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,028 V2 {'ts': 1792797078, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,029 V3 {'ts': 1792797078, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,170 V2 {'ts': 1792797078, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,170 V3 {'ts': 1792797078, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,264 V2 {'ts': 1792797079, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,264 V3 {'ts': 1792797079, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,357 V2 {'ts': 1792797079, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,357 V3 {'ts': 1792797079, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,497 V2 {'ts': 1792797080, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,498 V3 {'ts': 1792797080, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,635 V2 {'ts': 1792797080, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,635 V3 {'ts': 1792797080, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,766 V2 {'ts': 1792797081, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,766 V3 {'ts': 1792797081, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,904 V2 {'ts': 1792797081, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:10,904 V3 {'ts': 1792797081, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:11,040 V2 {'ts': 1792797081, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:11,040 V3 {'ts': 1792797081, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:11,175 V2 {'ts': 1792797082, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:11,175 V3 {'ts': 1792797082, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:11,266 V2 {'ts': 1792797082, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
+2026-10-24 07:12:11,266 V3 {'ts': 1792797082, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa1cb5a5915c43829a33c7cb508f65eebed177777', 'sym': 'Heyi', 'price': 0.0001859, 'action': 'skip-7d'}
