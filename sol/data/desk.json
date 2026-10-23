@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792750192,
+ "updated": 1792750851,
  "tokens_seen": 78,
  "risk": {
-  "checked": 124,
+  "checked": 125,
   "killed": 80,
-  "passed": 92
+  "passed": 93
  },
  "kills": [
   {
@@ -213,14 +213,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0838,
+  "dd_today": -0.0824,
   "limit": -0.1
  },
  "v2": {
-  "equity": 849.56,
+  "equity": 850.89,
   "day_start": 927.27,
-  "pnl_today": -77.71,
-  "open_positions": 21,
+  "pnl_today": -76.38,
+  "open_positions": 22,
   "closed_positions": 91,
   "closed_sells": 89,
   "win_rate": 0.101,
@@ -233,20 +233,20 @@
    "sym": "Kimchi",
    "pnl": -16.54
   },
-  "copied": 88,
+  "copied": 89,
   "best_open": {
    "sym": "McRib",
-   "upnl": 5.66
+   "upnl": 6.85
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.35
+   "upnl": -11.08
   }
  },
  "baseline": {
-  "equity": 800.59,
+  "equity": 796.54,
   "day_start": 860.79,
-  "pnl_today": -60.2,
+  "pnl_today": -64.25,
   "closed_sells": 74,
   "win_rate": 0.149,
   "realized_today": -68.86,
@@ -258,10 +258,10 @@
    "sym": "SURY",
    "pnl": -45.87
   },
-  "copied": 95
+  "copied": 96
  },
  "risk_track": {
-  "updated": 1792750058,
+  "updated": 1792750784,
   "rejected": {
    "n": 57,
    "1h": {
@@ -295,11 +295,11 @@
   "passed": {
    "n": 90,
    "1h": {
-    "n": 89,
-    "avg_ret": -0.0141,
+    "n": 90,
+    "avg_ret": -0.0142,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.427
+    "up_pct": 0.422
    },
    "6h": {
     "n": 80,
@@ -316,8 +316,8 @@
     "up_pct": 0.094
    },
    "latest": {
-    "n": 89,
-    "avg_ret": -0.0611,
+    "n": 90,
+    "avg_ret": -0.0607,
     "bad_pct": 0.022,
     "winners": 2
    }
@@ -1946,7 +1946,7 @@
     "ts": 1792746973,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": -0.0298,
      "6h": null,
      "24h": null
     },
