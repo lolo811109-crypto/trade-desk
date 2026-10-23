@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792780744,
+ "updated": 1792781059,
  "tokens_seen": 20,
  "risk": {
   "checked": 31,
-  "killed": 22,
+  "killed": 23,
   "passed": 13
  },
  "kills": [
@@ -22,7 +22,7 @@
    "sym": "onkey",
    "token": "9nXSvn8bUmboPdgA4qnmtzxQdgjXWquK6sYaCFLRgPs1",
    "reasons": [
-    "liq $26,899 < $50,000 v2 floor"
+    "liq $24,186 < $50,000 v2 floor"
    ]
   },
   {
@@ -50,13 +50,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0045,
+  "dd_today": -0.0043,
   "limit": -0.1
  },
  "v2": {
-  "equity": 843.34,
+  "equity": 843.52,
   "day_start": 847.14,
-  "pnl_today": -3.8,
+  "pnl_today": -3.62,
   "open_positions": 21,
   "closed_positions": 13,
   "closed_sells": 13,
@@ -73,17 +73,17 @@
   "copied": 12,
   "best_open": {
    "sym": "McRib",
-   "upnl": 6.66
+   "upnl": 7.91
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.72
+   "upnl": -10.07
   }
  },
  "baseline": {
-  "equity": 776.52,
+  "equity": 771.65,
   "day_start": 773.92,
-  "pnl_today": 2.6,
+  "pnl_today": -2.27,
   "closed_sells": 9,
   "win_rate": 0.222,
   "realized_today": -7.27,
@@ -1790,14 +1790,14 @@
   "warn_lp": 28
  },
  "v3": {
-  "equity": 851.77,
+  "equity": 851.26,
   "day_start": 857.86,
-  "pnl_today": -6.09,
-  "open_positions": 3,
-  "closed_positions": 12,
-  "closed_sells": 12,
-  "win_rate": 0.167,
-  "realized_today": -5.4,
+  "pnl_today": -6.6,
+  "open_positions": 2,
+  "closed_positions": 13,
+  "closed_sells": 13,
+  "win_rate": 0.231,
+  "realized_today": -5.3,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.73
@@ -1808,19 +1808,19 @@
   },
   "copied": 14,
   "best_open": {
-   "sym": "shiit",
-   "upnl": 0.49
+   "sym": "FARTBOY",
+   "upnl": -0.56
   },
   "worst_open": {
    "sym": "OTC",
-   "upnl": -0.62
+   "upnl": -0.74
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
   "checked": 33,
-  "killed": 22,
+  "killed": 23,
   "passed": 15
  },
  "v3_kills": [
@@ -1837,7 +1837,7 @@
    "sym": "onkey",
    "token": "9nXSvn8bUmboPdgA4qnmtzxQdgjXWquK6sYaCFLRgPs1",
    "reasons": [
-    "liq $26,899 < $50,000 v2 floor"
+    "liq $24,186 < $50,000 v2 floor"
    ]
   },
   {
@@ -1865,7 +1865,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0071,
+  "dd_today": -0.0077,
   "limit": -0.1
  },
  "v3_track": {
