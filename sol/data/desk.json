@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792741335,
+ "updated": 1792741619,
  "tokens_seen": 74,
  "risk": {
   "checked": 110,
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.085,
+  "dd_today": -0.0847,
   "limit": -0.1
  },
  "v2": {
-  "equity": 848.42,
+  "equity": 848.68,
   "day_start": 927.27,
-  "pnl_today": -78.85,
+  "pnl_today": -78.59,
   "open_positions": 21,
   "closed_positions": 79,
   "closed_sells": 77,
@@ -215,7 +215,7 @@
   "copied": 76,
   "best_open": {
    "sym": "BURNIE",
-   "upnl": 0.59
+   "upnl": 0.72
   },
   "worst_open": {
    "sym": "Agency",
@@ -223,9 +223,9 @@
   }
  },
  "baseline": {
-  "equity": 758.33,
+  "equity": 757.76,
   "day_start": 860.79,
-  "pnl_today": -102.46,
+  "pnl_today": -103.03,
   "closed_sells": 62,
   "win_rate": 0.129,
   "realized_today": -68.71,
@@ -1942,38 +1942,38 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 868.58,
+  "equity": 867.99,
   "day_start": 952.92,
-  "pnl_today": -84.34,
-  "open_positions": 5,
-  "closed_positions": 134,
-  "closed_sells": 132,
-  "win_rate": 0.106,
-  "realized_today": -92.32,
+  "pnl_today": -84.93,
+  "open_positions": 3,
+  "closed_positions": 137,
+  "closed_sells": 135,
+  "win_rate": 0.104,
+  "realized_today": -94.52,
   "best_token": {
-   "sym": "DOPE",
-   "pnl": 0.93
+   "sym": "Pepper",
+   "pnl": 0.34
   },
   "worst_token": {
    "sym": "Kimchi",
    "pnl": -17.5
   },
-  "copied": 120,
+  "copied": 121,
   "best_open": {
    "sym": "ヤギ",
-   "upnl": -0.51
+   "upnl": -0.28
   },
   "worst_open": {
-   "sym": "TripleT",
-   "upnl": -0.77
+   "sym": "Kimchi",
+   "upnl": -0.65
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 154,
+  "checked": 155,
   "killed": 74,
-  "passed": 124
+  "passed": 125
  },
  "v3_kills": [
   {
@@ -2162,7 +2162,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0885,
+  "dd_today": -0.0891,
   "limit": -0.1
  },
  "v3_track": {
