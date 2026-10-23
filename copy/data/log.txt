@@ -1,63 +1,3 @@
-2026-10-23 13:30:08,361 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
-2026-10-23 13:30:08,458 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
-2026-10-23 13:30:08,557 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
-2026-10-23 13:30:09,539 tick equity=1027.03 pnl=27.03
-2026-10-23 13:30:09,570 tour equity=1022.35 pnl=22.35
-2026-10-23 13:33:37,498 fetch fail https://data-api.polymarket.com/trades HTTPSConnectionPool(host='data-api.polymarket.com', port=443): Read timed out. (read timeout=15)
-2026-10-23 13:33:52,690 fetch fail https://clob.polymarket.com/midpoint HTTPSConnectionPool(host='clob.polymarket.com', port=443): Read timed out. (read timeout=15)
-2026-10-23 13:33:52,940 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
-2026-10-23 13:33:53,317 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
-2026-10-23 13:33:53,679 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
-2026-10-23 13:33:54,035 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
-2026-10-23 13:33:54,392 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
-2026-10-23 13:33:54,748 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
-2026-10-23 13:33:55,104 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
-2026-10-23 13:33:55,481 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
-2026-10-23 13:33:56,052 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
-2026-10-23 13:33:56,400 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
-2026-10-23 13:33:57,488 tick equity=1027.03 pnl=27.03
-2026-10-23 13:33:57,527 tour equity=1022.35 pnl=22.35
-2026-10-23 13:34:58,108 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
-2026-10-23 13:34:58,199 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
-2026-10-23 13:34:58,300 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
-2026-10-23 13:34:58,404 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
-2026-10-23 13:34:58,495 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
-2026-10-23 13:34:58,595 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
-2026-10-23 13:34:58,703 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
-2026-10-23 13:34:58,796 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
-2026-10-23 13:34:58,894 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
-2026-10-23 13:34:58,994 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
-2026-10-23 13:34:59,898 tick equity=1027.03 pnl=27.03
-2026-10-23 13:34:59,930 tour equity=1022.35 pnl=22.35
-2026-10-23 13:36:00,436 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
-2026-10-23 13:36:00,530 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
-2026-10-23 13:36:00,635 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
-2026-10-23 13:36:00,735 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
-2026-10-23 13:36:00,851 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
-2026-10-23 13:36:00,945 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
-2026-10-23 13:36:01,041 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
-2026-10-23 13:36:01,133 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
-2026-10-23 13:36:01,230 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
-2026-10-23 13:36:01,324 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
-2026-10-23 13:36:02,243 tick equity=1027.03 pnl=27.03
-2026-10-23 13:36:02,270 tour equity=1022.35 pnl=22.35
-2026-10-23 13:37:02,604 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
-2026-10-23 13:37:02,698 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
-2026-10-23 13:37:02,790 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
-2026-10-23 13:37:02,888 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
-2026-10-23 13:37:02,992 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
-2026-10-23 13:37:03,085 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
-2026-10-23 13:37:03,178 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
-2026-10-23 13:37:03,289 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
-2026-10-23 13:37:03,382 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
-2026-10-23 13:37:03,475 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
-2026-10-23 13:37:04,379 tick equity=1027.03 pnl=27.03
-2026-10-23 13:37:04,406 tour equity=1022.35 pnl=22.35
-2026-10-23 13:38:04,887 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
-2026-10-23 13:38:04,985 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
-2026-10-23 13:38:05,075 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
-2026-10-23 13:38:05,169 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
-2026-10-23 13:38:05,267 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
 2026-10-23 13:38:05,366 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
 2026-10-23 13:38:05,466 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
 2026-10-23 13:38:05,563 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
@@ -298,3 +238,63 @@
 2026-10-23 14:01:32,033 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
 2026-10-23 14:01:33,108 tick equity=1027.12 pnl=27.12
 2026-10-23 14:01:33,144 tour equity=1022.45 pnl=22.45
+2026-10-23 14:02:33,492 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
+2026-10-23 14:02:33,583 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
+2026-10-23 14:02:33,672 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
+2026-10-23 14:02:33,765 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
+2026-10-23 14:02:33,861 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
+2026-10-23 14:02:33,952 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
+2026-10-23 14:02:34,044 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
+2026-10-23 14:02:34,135 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
+2026-10-23 14:02:34,226 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
+2026-10-23 14:02:34,325 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
+2026-10-23 14:02:35,246 tick equity=1027.12 pnl=27.12
+2026-10-23 14:02:35,279 tour equity=1022.45 pnl=22.45
+2026-10-23 14:03:35,625 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
+2026-10-23 14:03:35,718 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
+2026-10-23 14:03:35,808 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
+2026-10-23 14:03:35,904 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
+2026-10-23 14:03:36,004 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
+2026-10-23 14:03:36,096 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
+2026-10-23 14:03:36,192 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
+2026-10-23 14:03:36,285 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
+2026-10-23 14:03:36,375 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
+2026-10-23 14:03:36,470 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
+2026-10-23 14:03:37,344 tick equity=1027.12 pnl=27.12
+2026-10-23 14:03:37,374 tour equity=1022.45 pnl=22.45
+2026-10-23 14:04:37,796 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
+2026-10-23 14:04:37,894 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
+2026-10-23 14:04:37,988 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
+2026-10-23 14:04:38,080 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
+2026-10-23 14:04:38,177 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
+2026-10-23 14:04:38,272 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
+2026-10-23 14:04:38,366 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
+2026-10-23 14:04:38,459 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
+2026-10-23 14:04:38,555 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
+2026-10-23 14:04:38,651 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
+2026-10-23 14:04:39,524 tick equity=1027.12 pnl=27.12
+2026-10-23 14:04:39,556 tour equity=1022.45 pnl=22.45
+2026-10-23 14:05:39,994 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
+2026-10-23 14:05:40,091 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
+2026-10-23 14:05:40,203 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
+2026-10-23 14:05:40,297 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
+2026-10-23 14:05:40,392 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
+2026-10-23 14:05:40,486 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
+2026-10-23 14:05:40,580 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
+2026-10-23 14:05:40,693 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
+2026-10-23 14:05:40,787 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
+2026-10-23 14:05:40,881 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
+2026-10-23 14:05:41,773 tick equity=1027.12 pnl=27.12
+2026-10-23 14:05:41,810 tour equity=1022.45 pnl=22.45
+2026-10-23 14:06:42,429 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1523816834808068721213403753476149592118903355270715141789476533731267182593
+2026-10-23 14:06:42,773 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1465991971615620265110968508784770394635930453813396259343778548315487993857
+2026-10-23 14:06:43,137 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1567978980241634970476694323444361741543119164947381710895374200110221099009
+2026-10-23 14:06:44,757 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1516631463842935911972378949432082037508106029811618161171111714810761314304
+2026-10-23 14:06:45,102 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1707273180749775436734927737410287466138660846320285605999794016827077558273
+2026-10-23 14:06:45,454 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1789712863254314329494226863690375881342364949884078511042394931793703731201
+2026-10-23 14:06:45,807 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1418050481296732861869790101738843719834327748919714978595807537709027688449
+2026-10-23 14:06:46,160 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1691384362505234768624649935123553303963230063735076750948303105987948052481
+2026-10-23 14:06:46,515 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1589441195698341280702717757428913689791906697248738108921778422388432568321
+2026-10-23 14:06:46,873 fetch fail https://clob.polymarket.com/midpoint 404 Client Error: Not Found for url: https://clob.polymarket.com/midpoint?token_id=1413268616775135462035303267946156159923133365074611287191343899749176573953
+2026-10-23 14:06:47,912 tick equity=1027.12 pnl=27.12
+2026-10-23 14:06:47,945 tour equity=1022.45 pnl=22.45
