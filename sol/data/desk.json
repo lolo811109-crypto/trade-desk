@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792761313,
+ "updated": 1792761584,
  "tokens_seen": 83,
  "risk": {
   "checked": 152,
@@ -220,13 +220,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0855,
+  "dd_today": -0.086,
   "limit": -0.1
  },
  "v2": {
-  "equity": 847.95,
+  "equity": 847.48,
   "day_start": 927.27,
-  "pnl_today": -79.32,
+  "pnl_today": -79.79,
   "open_positions": 25,
   "closed_positions": 100,
   "closed_sells": 99,
@@ -243,7 +243,7 @@
   "copied": 101,
   "best_open": {
    "sym": "McRib",
-   "upnl": 3.72
+   "upnl": 3.53
   },
   "worst_open": {
    "sym": "Agency",
@@ -251,12 +251,12 @@
   }
  },
  "baseline": {
-  "equity": 762.49,
+  "equity": 765.92,
   "day_start": 860.79,
-  "pnl_today": -98.3,
-  "closed_sells": 80,
-  "win_rate": 0.163,
-  "realized_today": -71.69,
+  "pnl_today": -94.87,
+  "closed_sells": 81,
+  "win_rate": 0.16,
+  "realized_today": -72.25,
   "best_token": {
    "sym": "WiSP",
    "pnl": 20.92
