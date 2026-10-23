@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792742890,
+ "updated": 1792743190,
  "tokens_seen": 75,
  "risk": {
   "checked": 113,
@@ -199,30 +199,30 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0878,
+  "dd_today": -0.0876,
   "limit": -0.1
  },
  "v2": {
-  "equity": 845.88,
+  "equity": 846.03,
   "day_start": 927.27,
-  "pnl_today": -81.39,
-  "open_positions": 19,
-  "closed_positions": 83,
-  "closed_sells": 81,
-  "win_rate": 0.111,
-  "realized_today": -78.52,
+  "pnl_today": -81.24,
+  "open_positions": 17,
+  "closed_positions": 85,
+  "closed_sells": 83,
+  "win_rate": 0.108,
+  "realized_today": -79.99,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 2.72
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -14.68
+   "pnl": -15.49
   },
   "copied": 78,
   "best_open": {
    "sym": "Kimchi",
-   "upnl": 0.4
+   "upnl": 0.34
   },
   "worst_open": {
    "sym": "Agency",
@@ -230,12 +230,12 @@
   }
  },
  "baseline": {
-  "equity": 753.37,
+  "equity": 748.13,
   "day_start": 860.79,
-  "pnl_today": -107.42,
-  "closed_sells": 66,
-  "win_rate": 0.136,
-  "realized_today": -69.47,
+  "pnl_today": -112.66,
+  "closed_sells": 67,
+  "win_rate": 0.134,
+  "realized_today": -70.35,
   "best_token": {
    "sym": "WiSP",
    "pnl": 20.92
@@ -247,7 +247,7 @@
   "copied": 90
  },
  "risk_track": {
-  "updated": 1792742505,
+  "updated": 1792743023,
   "rejected": {
    "n": 56,
    "1h": {
@@ -258,11 +258,11 @@
     "up_pct": 0.37
    },
    "6h": {
-    "n": 44,
-    "avg_ret": 0.0975,
-    "bad_pct": 0.114,
+    "n": 46,
+    "avg_ret": 0.089,
+    "bad_pct": 0.109,
     "rug_pct": 0.0,
-    "up_pct": 0.455
+    "up_pct": 0.457
    },
    "24h": {
     "n": 15,
@@ -273,7 +273,7 @@
    },
    "latest": {
     "n": 54,
-    "avg_ret": 0.0237,
+    "avg_ret": 0.0222,
     "bad_pct": 0.093,
     "winners": 6
    }
@@ -288,11 +288,11 @@
     "up_pct": 0.434
    },
    "6h": {
-    "n": 73,
-    "avg_ret": -0.0066,
+    "n": 74,
+    "avg_ret": -0.0111,
     "bad_pct": 0.014,
     "rug_pct": 0.0,
-    "up_pct": 0.397
+    "up_pct": 0.392
    },
    "24h": {
     "n": 32,
@@ -303,7 +303,7 @@
    },
    "latest": {
     "n": 83,
-    "avg_ret": -0.0697,
+    "avg_ret": -0.0726,
     "bad_pct": 0.024,
     "winners": 2
    }
@@ -319,11 +319,11 @@
      "up_pct": 0.366
     },
     "6h": {
-     "n": 33,
-     "avg_ret": 0.1325,
-     "bad_pct": 0.152,
+     "n": 35,
+     "avg_ret": 0.1192,
+     "bad_pct": 0.143,
      "rug_pct": 0.0,
-     "up_pct": 0.394
+     "up_pct": 0.4
     },
     "24h": {
      "n": 9,
@@ -334,7 +334,7 @@
     },
     "latest": {
      "n": 41,
-     "avg_ret": 0.0563,
+     "avg_ret": 0.0544,
      "bad_pct": 0.122,
      "winners": 6
     }
@@ -1585,7 +1585,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0911,
-     "6h": null,
+     "6h": -0.3333,
      "24h": null
     },
     "rug": false
@@ -1601,7 +1601,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0554,
-     "6h": null,
+     "6h": 0.0117,
      "24h": null
     },
     "rug": false
@@ -1617,7 +1617,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0637,
-     "6h": null,
+     "6h": -0.2108,
      "24h": null
     },
     "rug": false
@@ -1949,30 +1949,30 @@
   "warn_lp": 26
  },
  "v3": {
-  "equity": 864.08,
+  "equity": 863.85,
   "day_start": 952.92,
-  "pnl_today": -88.84,
-  "open_positions": 6,
-  "closed_positions": 138,
-  "closed_sells": 136,
-  "win_rate": 0.103,
-  "realized_today": -95.45,
+  "pnl_today": -89.07,
+  "open_positions": 4,
+  "closed_positions": 140,
+  "closed_sells": 138,
+  "win_rate": 0.101,
+  "realized_today": -97.25,
   "best_token": {
    "sym": "Pepper",
    "pnl": 0.34
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -18.43
+   "pnl": -19.49
   },
   "copied": 125,
   "best_open": {
-   "sym": "LARPCHECK",
-   "upnl": -0.43
+   "sym": "DOPE",
+   "upnl": -0.53
   },
   "worst_open": {
    "sym": "CLAUDIA",
-   "upnl": -1.13
+   "upnl": -1.2
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -2169,11 +2169,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0932,
+  "dd_today": -0.0935,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792742754,
+  "updated": 1792743023,
   "rejected": {
    "n": 47,
    "1h": {
@@ -2184,11 +2184,11 @@
     "up_pct": 0.378
    },
    "6h": {
-    "n": 35,
-    "avg_ret": 0.0889,
-    "bad_pct": 0.114,
+    "n": 37,
+    "avg_ret": 0.0787,
+    "bad_pct": 0.108,
     "rug_pct": 0.0,
-    "up_pct": 0.429
+    "up_pct": 0.432
    },
    "24h": {
     "n": 7,
@@ -2199,7 +2199,7 @@
    },
    "latest": {
     "n": 45,
-    "avg_ret": 0.0031,
+    "avg_ret": 0.0014,
     "bad_pct": 0.089,
     "winners": 5
    }
@@ -2214,11 +2214,11 @@
     "up_pct": 0.39
    },
    "6h": {
-    "n": 69,
-    "avg_ret": -0.0193,
+    "n": 70,
+    "avg_ret": -0.0238,
     "bad_pct": 0.014,
     "rug_pct": 0.0,
-    "up_pct": 0.333
+    "up_pct": 0.329
    },
    "24h": {
     "n": 19,
@@ -2229,7 +2229,7 @@
    },
    "latest": {
     "n": 82,
-    "avg_ret": -0.0678,
+    "avg_ret": -0.0708,
     "bad_pct": 0.037,
     "winners": 1
    }
@@ -2245,11 +2245,11 @@
      "up_pct": 0.361
     },
     "6h": {
-     "n": 28,
-     "avg_ret": 0.1179,
-     "bad_pct": 0.143,
+     "n": 30,
+     "avg_ret": 0.1034,
+     "bad_pct": 0.133,
      "rug_pct": 0.0,
-     "up_pct": 0.393
+     "up_pct": 0.4
     },
     "24h": {
      "n": 5,
@@ -2260,7 +2260,7 @@
     },
     "latest": {
      "n": 36,
-     "avg_ret": 0.0184,
+     "avg_ret": 0.0162,
      "bad_pct": 0.111,
      "winners": 5
     }
@@ -3580,7 +3580,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0911,
-     "6h": null,
+     "6h": -0.3312,
      "24h": null
     },
     "rug": false
@@ -3596,7 +3596,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0554,
-     "6h": null,
+     "6h": 0.0117,
      "24h": null
     },
     "rug": false
@@ -3612,7 +3612,7 @@
     "src": "live",
     "ret": {
      "1h": -0.0637,
-     "6h": null,
+     "6h": -0.2108,
      "24h": null
     },
     "rug": false
