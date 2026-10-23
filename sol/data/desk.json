@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792767122,
+ "updated": 1792767553,
  "tokens_seen": 85,
  "risk": {
   "checked": 163,
@@ -220,18 +220,18 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0852,
+  "dd_today": -0.0843,
   "limit": -0.1
  },
  "v2": {
-  "equity": 848.23,
+  "equity": 849.12,
   "day_start": 927.27,
-  "pnl_today": -79.04,
-  "open_positions": 20,
-  "closed_positions": 108,
-  "closed_sells": 107,
-  "win_rate": 0.15,
-  "realized_today": -83.12,
+  "pnl_today": -78.15,
+  "open_positions": 19,
+  "closed_positions": 109,
+  "closed_sells": 108,
+  "win_rate": 0.148,
+  "realized_today": -83.78,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 2.72
@@ -243,20 +243,20 @@
   "copied": 104,
   "best_open": {
    "sym": "McRib",
-   "upnl": 2.13
+   "upnl": 1.79
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.4
+   "upnl": -9.12
   }
  },
  "baseline": {
-  "equity": 765.96,
+  "equity": 774.8,
   "day_start": 860.79,
-  "pnl_today": -94.83,
-  "closed_sells": 88,
-  "win_rate": 0.182,
-  "realized_today": -77.32,
+  "pnl_today": -85.99,
+  "closed_sells": 89,
+  "win_rate": 0.18,
+  "realized_today": -77.98,
   "best_token": {
    "sym": "WiSP",
    "pnl": 20.92
@@ -268,7 +268,7 @@
   "copied": 118
  },
  "risk_track": {
-  "updated": 1792766818,
+  "updated": 1792767520,
   "rejected": {
    "n": 61,
    "1h": {
@@ -286,15 +286,15 @@
     "up_pct": 0.446
    },
    "24h": {
-    "n": 18,
-    "avg_ret": -0.0548,
-    "bad_pct": 0.222,
+    "n": 21,
+    "avg_ret": -0.0474,
+    "bad_pct": 0.19,
     "rug_pct": 0.0,
-    "up_pct": 0.333
+    "up_pct": 0.381
    },
    "latest": {
     "n": 60,
-    "avg_ret": 0.0645,
+    "avg_ret": 0.0658,
     "bad_pct": 0.083,
     "winners": 9
    }
@@ -347,15 +347,15 @@
      "up_pct": 0.395
     },
     "24h": {
-     "n": 12,
-     "avg_ret": -0.0221,
-     "bad_pct": 0.333,
+     "n": 14,
+     "avg_ret": -0.0122,
+     "bad_pct": 0.286,
      "rug_pct": 0.0,
-     "up_pct": 0.417
+     "up_pct": 0.5
     },
     "latest": {
      "n": 45,
-     "avg_ret": 0.1035,
+     "avg_ret": 0.1085,
      "bad_pct": 0.111,
      "winners": 9
     }
@@ -377,15 +377,15 @@
      "up_pct": 0.615
     },
     "24h": {
-     "n": 6,
-     "avg_ret": -0.12,
+     "n": 7,
+     "avg_ret": -0.1178,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.167
+     "up_pct": 0.143
     },
     "latest": {
      "n": 15,
-     "avg_ret": -0.0526,
+     "avg_ret": -0.0621,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -407,15 +407,15 @@
      "up_pct": 0.625
     },
     "24h": {
-     "n": 3,
-     "avg_ret": -0.1472,
+     "n": 4,
+     "avg_ret": -0.1365,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
      "up_pct": 0.0
     },
     "latest": {
      "n": 9,
-     "avg_ret": -0.0494,
+     "avg_ret": -0.0653,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -450,7 +450,7 @@
     "ret": {
      "1h": -0.0642,
      "6h": -0.001,
-     "24h": null
+     "24h": 0.0243
     },
     "rug": false
    },
@@ -466,7 +466,7 @@
     "ret": {
      "1h": 0.2659,
      "6h": -0.1283,
-     "24h": null
+     "24h": 0.07
     },
     "rug": false
    },
@@ -483,7 +483,7 @@
     "ret": {
      "1h": 0.0273,
      "6h": 0.0385,
-     "24h": null
+     "24h": -0.1046
     },
     "rug": false
    },
@@ -2200,7 +2200,7 @@
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792766820,
+  "updated": 1792767520,
   "rejected": {
    "n": 51,
    "1h": {
@@ -2218,15 +2218,15 @@
     "up_pct": 0.426
    },
    "24h": {
-    "n": 10,
-    "avg_ret": -0.1911,
-    "bad_pct": 0.3,
+    "n": 13,
+    "avg_ret": -0.1478,
+    "bad_pct": 0.231,
     "rug_pct": 0.0,
-    "up_pct": 0.3
+    "up_pct": 0.385
    },
    "latest": {
     "n": 50,
-    "avg_ret": 0.0574,
+    "avg_ret": 0.059,
     "bad_pct": 0.08,
     "winners": 8
    }
@@ -2248,15 +2248,15 @@
     "up_pct": 0.386
    },
    "24h": {
-    "n": 30,
-    "avg_ret": -0.1634,
-    "bad_pct": 0.1,
+    "n": 31,
+    "avg_ret": -0.1482,
+    "bad_pct": 0.097,
     "rug_pct": 0.0,
-    "up_pct": 0.133
+    "up_pct": 0.161
    },
    "latest": {
     "n": 89,
-    "avg_ret": -0.052,
+    "avg_ret": -0.0482,
     "bad_pct": 0.045,
     "winners": 1
    }
@@ -2279,15 +2279,15 @@
      "up_pct": 0.395
     },
     "24h": {
-     "n": 8,
-     "avg_ret": -0.2127,
-     "bad_pct": 0.375,
+     "n": 10,
+     "avg_ret": -0.1608,
+     "bad_pct": 0.3,
      "rug_pct": 0.0,
-     "up_pct": 0.375
+     "up_pct": 0.5
     },
     "latest": {
      "n": 41,
-     "avg_ret": 0.0768,
+     "avg_ret": 0.0823,
      "bad_pct": 0.098,
      "winners": 8
     }
@@ -2309,7 +2309,7 @@
      "up_pct": 0.556
     },
     "24h": {
-     "n": 2,
+     "n": 3,
      "avg_ret": -0.1047,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
@@ -2317,7 +2317,7 @@
     },
     "latest": {
      "n": 9,
-     "avg_ret": -0.0312,
+     "avg_ret": -0.0471,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -2339,7 +2339,7 @@
      "up_pct": 0.5
     },
     "24h": {
-     "n": 2,
+     "n": 3,
      "avg_ret": -0.1047,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
@@ -2347,7 +2347,7 @@
     },
     "latest": {
      "n": 8,
-     "avg_ret": -0.0366,
+     "avg_ret": -0.0545,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -2369,7 +2369,7 @@
      "up_pct": 0.571
     },
     "24h": {
-     "n": 2,
+     "n": 3,
      "avg_ret": -0.1047,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
@@ -2377,7 +2377,7 @@
     },
     "latest": {
      "n": 7,
-     "avg_ret": -0.0314,
+     "avg_ret": -0.0519,
      "bad_pct": 0.0,
      "winners": 0
     }
@@ -2426,7 +2426,7 @@
     "ret": {
      "1h": -0.0642,
      "6h": -0.001,
-     "24h": null
+     "24h": 0.0243
     },
     "rug": false
    },
@@ -2442,7 +2442,7 @@
     "ret": {
      "1h": -0.0385,
      "6h": -0.0262,
-     "24h": null
+     "24h": 0.3064
     },
     "rug": false
    },
@@ -2458,7 +2458,7 @@
     "ret": {
      "1h": 0.2659,
      "6h": -0.1283,
-     "24h": null
+     "24h": 0.07
     },
     "rug": false
    },
@@ -2476,7 +2476,7 @@
     "ret": {
      "1h": 0.0273,
      "6h": 0.0385,
-     "24h": null
+     "24h": -0.1046
     },
     "rug": false
    },
