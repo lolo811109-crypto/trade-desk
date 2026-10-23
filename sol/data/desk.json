@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792739763,
+ "updated": 1792740426,
  "tokens_seen": 74,
  "risk": {
-  "checked": 108,
-  "killed": 68,
-  "passed": 79
+  "checked": 110,
+  "killed": 72,
+  "passed": 80
  },
  "kills": [
   {
@@ -42,7 +42,7 @@
    "sym": "WiSP",
    "token": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
    "reasons": [
-    "liq $25,905 < $50,000 v2 floor"
+    "liq $24,404 < $50,000 v2 floor"
    ]
   },
   {
@@ -106,7 +106,7 @@
    "sym": "HIGGS",
    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
    "reasons": [
-    "liq $41,151 < $50,000 v2 floor"
+    "liq $39,734 < $50,000 v2 floor"
    ]
   },
   {
@@ -192,14 +192,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0844,
+  "dd_today": -0.0859,
   "limit": -0.1
  },
  "v2": {
-  "equity": 849.01,
+  "equity": 847.58,
   "day_start": 927.27,
-  "pnl_today": -78.26,
-  "open_positions": 22,
+  "pnl_today": -79.69,
+  "open_positions": 23,
   "closed_positions": 77,
   "closed_sells": 75,
   "win_rate": 0.107,
@@ -212,23 +212,23 @@
    "sym": "Kimchi",
    "pnl": -11.18
   },
-  "copied": 75,
+  "copied": 76,
   "best_open": {
    "sym": "Kimchi",
    "upnl": 0.55
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -10.26
+   "upnl": -10.87
   }
  },
  "baseline": {
-  "equity": 763.07,
+  "equity": 755.32,
   "day_start": 860.79,
-  "pnl_today": -97.72,
-  "closed_sells": 60,
-  "win_rate": 0.117,
-  "realized_today": -70.02,
+  "pnl_today": -105.47,
+  "closed_sells": 61,
+  "win_rate": 0.131,
+  "realized_today": -68.61,
   "best_token": {
    "sym": "WiSP",
    "pnl": 21.35
@@ -237,12 +237,12 @@
    "sym": "SURY",
    "pnl": -45.87
   },
-  "copied": 81
+  "copied": 84
  },
  "risk_track": {
-  "updated": 1792739326,
+  "updated": 1792740316,
   "rejected": {
-   "n": 54,
+   "n": 55,
    "1h": {
     "n": 53,
     "avg_ret": 0.002,
@@ -272,7 +272,7 @@
    }
   },
   "passed": {
-   "n": 83,
+   "n": 84,
    "1h": {
     "n": 82,
     "avg_ret": -0.0157,
@@ -303,7 +303,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 41,
+    "n": 42,
     "1h": {
      "n": 40,
      "avg_ret": 0.016,
@@ -394,36 +394,6 @@
    }
   },
   "items": [
-   {
-    "sym": "BURNIE",
-    "token": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
-    "ok": true,
-    "reasons": [],
-    "ts": 1792641229,
-    "src": "live",
-    "ret": {
-     "1h": 0.0256,
-     "6h": 0.0769,
-     "24h": -0.3064
-    },
-    "rug": false
-   },
-   {
-    "sym": "CRAWL",
-    "token": "BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%"
-    ],
-    "ts": 1792644925,
-    "src": "live",
-    "ret": {
-     "1h": -0.1616,
-     "6h": -0.1539,
-     "24h": -0.312
-    },
-    "rug": false
-   },
    {
     "sym": "CYBER",
     "token": "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump",
@@ -1933,6 +1903,36 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "ヤギ",
+    "token": "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792740315,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "HIGGS",
+    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
+    "ok": false,
+    "reasons": [
+     "liq $39,734 < $50,000 v2 floor"
+    ],
+    "ts": 1792740316,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1940,14 +1940,14 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 872.09,
+  "equity": 869.54,
   "day_start": 952.92,
-  "pnl_today": -80.83,
-  "open_positions": 5,
-  "closed_positions": 131,
-  "closed_sells": 129,
-  "win_rate": 0.109,
-  "realized_today": -89.2,
+  "pnl_today": -83.38,
+  "open_positions": 6,
+  "closed_positions": 132,
+  "closed_sells": 130,
+  "win_rate": 0.108,
+  "realized_today": -90.65,
   "best_token": {
    "sym": "DOPE",
    "pnl": 0.93
@@ -1956,22 +1956,22 @@
    "sym": "Kimchi",
    "pnl": -16.32
   },
-  "copied": 117,
+  "copied": 119,
   "best_open": {
-   "sym": "CLAUDIA",
-   "upnl": -0.38
+   "sym": "OTC",
+   "upnl": -0.47
   },
   "worst_open": {
-   "sym": "TripleT",
-   "upnl": -0.64
+   "sym": "Kimchi",
+   "upnl": -1.02
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 150,
-  "killed": 68,
-  "passed": 121
+  "checked": 153,
+  "killed": 72,
+  "passed": 123
  },
  "v3_kills": [
   {
@@ -2007,7 +2007,7 @@
    "sym": "WiSP",
    "token": "USEu5qroduzuvrSZfvs3xM1MwyU83joapQF5LMyWiSP",
    "reasons": [
-    "liq $25,905 < $50,000 v2 floor"
+    "liq $24,404 < $50,000 v2 floor"
    ]
   },
   {
@@ -2072,7 +2072,7 @@
    "sym": "HIGGS",
    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
    "reasons": [
-    "liq $41,151 < $50,000 v2 floor"
+    "liq $39,734 < $50,000 v2 floor"
    ]
   },
   {
@@ -2160,13 +2160,13 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0848,
+  "dd_today": -0.0875,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792739611,
+  "updated": 1792740316,
   "rejected": {
-   "n": 45,
+   "n": 46,
    "1h": {
     "n": 44,
     "avg_ret": 0.0317,
@@ -2227,7 +2227,7 @@
   },
   "rules": {
    "liq $, < $, v floor": {
-    "n": 36,
+    "n": 37,
     "1h": {
      "n": 35,
      "avg_ret": 0.0458,
@@ -2378,22 +2378,6 @@
    }
   },
   "items": [
-   {
-    "sym": "Kimchi",
-    "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-    "ok": true,
-    "reasons": [
-     "warn: dev holding unknown"
-    ],
-    "ts": 1792670600,
-    "src": "live",
-    "ret": {
-     "1h": -0.1284,
-     "6h": -0.3418,
-     "24h": null
-    },
-    "rug": false
-   },
    {
     "sym": "PAID",
     "token": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
@@ -4010,6 +3994,22 @@
      "warn: dev holding unknown"
     ],
     "ts": 1792739611,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "HIGGS",
+    "token": "DoVAVzViX8Bjy3r15nwikSaSbzE6dV4ovd28aWpJpump",
+    "ok": false,
+    "reasons": [
+     "liq $39,734 < $50,000 v2 floor"
+    ],
+    "ts": 1792740316,
     "src": "live",
     "ret": {
      "1h": null,
