@@ -2,11 +2,11 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792737995,
+ "updated": 1792738266,
  "tokens_seen": 74,
  "risk": {
-  "checked": 104,
-  "killed": 64,
+  "checked": 105,
+  "killed": 65,
   "passed": 77
  },
  "kills": [
@@ -192,13 +192,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0816,
+  "dd_today": -0.0818,
   "limit": -0.1
  },
  "v2": {
-  "equity": 851.58,
+  "equity": 851.38,
   "day_start": 927.27,
-  "pnl_today": -75.69,
+  "pnl_today": -75.89,
   "open_positions": 23,
   "closed_positions": 74,
   "closed_sells": 72,
@@ -215,7 +215,7 @@
   "copied": 73,
   "best_open": {
    "sym": "ヤギ",
-   "upnl": 2.33
+   "upnl": 1.22
   },
   "worst_open": {
    "sym": "Agency",
@@ -223,9 +223,9 @@
   }
  },
  "baseline": {
-  "equity": 758.78,
+  "equity": 754.15,
   "day_start": 860.79,
-  "pnl_today": -102.01,
+  "pnl_today": -106.64,
   "closed_sells": 58,
   "win_rate": 0.121,
   "realized_today": -25.33,
@@ -237,7 +237,7 @@
    "sym": "PHP",
    "pnl": -8.56
   },
-  "copied": 77
+  "copied": 78
  },
  "risk_track": {
   "updated": 1792737292,
@@ -1942,10 +1942,10 @@
   "warn_lp": 25
  },
  "v3": {
-  "equity": 875.97,
+  "equity": 876.44,
   "day_start": 952.92,
-  "pnl_today": -76.95,
-  "open_positions": 1,
+  "pnl_today": -76.48,
+  "open_positions": 2,
   "closed_positions": 128,
   "closed_sells": 126,
   "win_rate": 0.111,
@@ -1958,22 +1958,22 @@
    "sym": "Kimchi",
    "pnl": -15.95
   },
-  "copied": 110,
+  "copied": 111,
   "best_open": {
    "sym": "McRib",
-   "upnl": -0.62
+   "upnl": 0.49
   },
   "worst_open": {
-   "sym": "McRib",
-   "upnl": -0.62
+   "sym": "Kimchi",
+   "upnl": -0.63
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 141,
-  "killed": 64,
-  "passed": 114
+  "checked": 143,
+  "killed": 65,
+  "passed": 115
  },
  "v3_kills": [
   {
@@ -2162,7 +2162,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0808,
+  "dd_today": -0.0803,
   "limit": -0.1
  },
  "v3_track": {
