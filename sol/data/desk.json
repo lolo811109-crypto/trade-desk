@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-23",
  "tz": "UTC+8",
- "updated": 1792766540,
- "tokens_seen": 84,
+ "updated": 1792766854,
+ "tokens_seen": 85,
  "risk": {
-  "checked": 162,
+  "checked": 163,
   "killed": 107,
-  "passed": 107
+  "passed": 108
  },
  "kills": [
   {
@@ -220,40 +220,40 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0859,
+  "dd_today": -0.0851,
   "limit": -0.1
  },
  "v2": {
-  "equity": 847.66,
+  "equity": 848.39,
   "day_start": 927.27,
-  "pnl_today": -79.61,
+  "pnl_today": -78.88,
   "open_positions": 20,
-  "closed_positions": 107,
-  "closed_sells": 106,
-  "win_rate": 0.151,
-  "realized_today": -81.63,
+  "closed_positions": 108,
+  "closed_sells": 107,
+  "win_rate": 0.15,
+  "realized_today": -83.12,
   "best_token": {
    "sym": "COMPUTE",
    "pnl": 2.72
   },
   "worst_token": {
    "sym": "Kimchi",
-   "pnl": -18.77
+   "pnl": -20.26
   },
-  "copied": 103,
+  "copied": 104,
   "best_open": {
    "sym": "McRib",
-   "upnl": 2.15
+   "upnl": 2.26
   },
   "worst_open": {
    "sym": "Agency",
-   "upnl": -9.33
+   "upnl": -9.53
   }
  },
  "baseline": {
-  "equity": 769.93,
+  "equity": 769.14,
   "day_start": 860.79,
-  "pnl_today": -90.86,
+  "pnl_today": -91.65,
   "closed_sells": 87,
   "win_rate": 0.184,
   "realized_today": -71.62,
@@ -265,10 +265,10 @@
    "sym": "SURY",
    "pnl": -45.87
   },
-  "copied": 113
+  "copied": 114
  },
  "risk_track": {
-  "updated": 1792766336,
+  "updated": 1792766818,
   "rejected": {
    "n": 61,
    "1h": {
@@ -300,7 +300,7 @@
    }
   },
   "passed": {
-   "n": 97,
+   "n": 98,
    "1h": {
     "n": 96,
     "avg_ret": -0.0109,
@@ -422,22 +422,6 @@
    }
   },
   "items": [
-   {
-    "sym": "CyberAxe",
-    "token": "2Srf6mhufzWJKZ5nniVXgwamLmDJWXPQBmddJ1MMpump",
-    "ok": false,
-    "reasons": [
-     "liq $42,197 < $50,000 v2 floor"
-    ],
-    "ts": 1792679749,
-    "src": "live",
-    "ret": {
-     "1h": -0.0147,
-     "6h": -0.2068,
-     "24h": 0.261
-    },
-    "rug": false
-   },
    {
     "sym": "CLAUDIA",
     "token": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
@@ -1957,6 +1941,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "FARTBOY",
+    "token": "y1AZt42vceCmStjW4zetK3VoNarC1VxJ5iDjpiupump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792766818,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -2202,15 +2200,15 @@
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792766336,
+  "updated": 1792766820,
   "rejected": {
    "n": 51,
    "1h": {
-    "n": 49,
-    "avg_ret": 0.0493,
+    "n": 50,
+    "avg_ret": 0.0511,
     "bad_pct": 0.0,
     "rug_pct": 0.0,
-    "up_pct": 0.388
+    "up_pct": 0.4
    },
    "6h": {
     "n": 47,
@@ -2227,9 +2225,9 @@
     "up_pct": 0.3
    },
    "latest": {
-    "n": 49,
-    "avg_ret": 0.0557,
-    "bad_pct": 0.082,
+    "n": 50,
+    "avg_ret": 0.0574,
+    "bad_pct": 0.08,
     "winners": 8
    }
   },
@@ -2267,11 +2265,11 @@
    "liq $, < $, v floor": {
     "n": 42,
     "1h": {
-     "n": 40,
-     "avg_ret": 0.0656,
+     "n": 41,
+     "avg_ret": 0.0674,
      "bad_pct": 0.0,
      "rug_pct": 0.0,
-     "up_pct": 0.375
+     "up_pct": 0.39
     },
     "6h": {
      "n": 38,
@@ -2288,9 +2286,9 @@
      "up_pct": 0.375
     },
     "latest": {
-     "n": 40,
-     "avg_ret": 0.0753,
-     "bad_pct": 0.1,
+     "n": 41,
+     "avg_ret": 0.0768,
+     "bad_pct": 0.098,
      "winners": 8
     }
    },
@@ -4031,7 +4029,7 @@
     "ts": 1792763088,
     "src": "live",
     "ret": {
-     "1h": null,
+     "1h": 0.1384,
      "6h": null,
      "24h": null
     },
