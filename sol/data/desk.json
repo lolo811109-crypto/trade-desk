@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792804614,
+ "updated": 1792804879,
  "tokens_seen": 65,
  "risk": {
-  "checked": 111,
+  "checked": 112,
   "killed": 93,
-  "passed": 45
+  "passed": 46
  },
  "kills": [
   {
@@ -171,14 +171,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0559,
+  "dd_today": -0.0565,
   "limit": -0.1
  },
  "v2": {
-  "equity": 799.78,
+  "equity": 799.31,
   "day_start": 847.14,
-  "pnl_today": -47.36,
-  "open_positions": 20,
+  "pnl_today": -47.83,
+  "open_positions": 21,
   "closed_positions": 46,
   "closed_sells": 46,
   "win_rate": 0.174,
@@ -191,20 +191,20 @@
    "sym": "Agency",
    "pnl": -13.83
   },
-  "copied": 44,
+  "copied": 45,
   "best_open": {
-   "sym": "GATO",
-   "upnl": -0.03
+   "sym": "CYBERLEEK",
+   "upnl": -0.1
   },
   "worst_open": {
    "sym": "DARK",
-   "upnl": -2.55
+   "upnl": -2.64
   }
  },
  "baseline": {
-  "equity": 670.61,
+  "equity": 669.89,
   "day_start": 773.92,
-  "pnl_today": -103.31,
+  "pnl_today": -104.03,
   "closed_sells": 19,
   "win_rate": 0.263,
   "realized_today": -12.48,
@@ -1911,10 +1911,10 @@
   "warn_lp": 29
  },
  "v3": {
-  "equity": 813.21,
+  "equity": 812.8,
   "day_start": 857.86,
-  "pnl_today": -44.65,
-  "open_positions": 4,
+  "pnl_today": -45.06,
+  "open_positions": 5,
   "closed_positions": 60,
   "closed_sells": 60,
   "win_rate": 0.1,
@@ -1927,22 +1927,22 @@
    "sym": "ヤギ",
    "pnl": -7.71
   },
-  "copied": 63,
+  "copied": 64,
   "best_open": {
    "sym": "CATE",
-   "upnl": -0.03
+   "upnl": 0.04
   },
   "worst_open": {
    "sym": "fone",
-   "upnl": -0.64
+   "upnl": -0.63
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 128,
+  "checked": 129,
   "killed": 91,
-  "passed": 64
+  "passed": 65
  },
  "v3_kills": [
   {
@@ -2109,7 +2109,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0521,
+  "dd_today": -0.0525,
   "limit": -0.1
  },
  "v3_track": {
