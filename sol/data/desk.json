@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792816704,
- "tokens_seen": 73,
+ "updated": 1792817757,
+ "tokens_seen": 75,
  "risk": {
-  "checked": 130,
-  "killed": 108,
-  "passed": 52
+  "checked": 133,
+  "killed": 110,
+  "passed": 53
  },
  "kills": [
   {
@@ -185,14 +185,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0599,
+  "dd_today": -0.0617,
   "limit": -0.1
  },
  "v2": {
-  "equity": 796.39,
+  "equity": 794.91,
   "day_start": 847.14,
-  "pnl_today": -50.75,
-  "open_positions": 17,
+  "pnl_today": -52.23,
+  "open_positions": 18,
   "closed_positions": 56,
   "closed_sells": 56,
   "win_rate": 0.143,
@@ -205,20 +205,20 @@
    "sym": "Agency",
    "pnl": -13.83
   },
-  "copied": 51,
+  "copied": 52,
   "best_open": {
    "sym": "HOOKED",
-   "upnl": 2.4
+   "upnl": 1.5
   },
   "worst_open": {
    "sym": "fone",
-   "upnl": -3.06
+   "upnl": -2.98
   }
  },
  "baseline": {
-  "equity": 689.12,
+  "equity": 684.88,
   "day_start": 773.92,
-  "pnl_today": -84.8,
+  "pnl_today": -89.04,
   "closed_sells": 24,
   "win_rate": 0.208,
   "realized_today": -22.01,
@@ -233,7 +233,7 @@
   "copied": 25
  },
  "risk_track": {
-  "updated": 1792816605,
+  "updated": 1792817718,
   "rejected": {
    "n": 86,
    "1h": {
@@ -265,7 +265,7 @@
    }
   },
   "passed": {
-   "n": 134,
+   "n": 135,
    "1h": {
     "n": 134,
     "avg_ret": -0.0091,
@@ -387,22 +387,6 @@
    }
   },
   "items": [
-   {
-    "sym": "NIO",
-    "token": "7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump",
-    "ok": false,
-    "reasons": [
-     "liq $36,869 < $50,000 v2 floor"
-    ],
-    "ts": 1792722954,
-    "src": "live",
-    "ret": {
-     "1h": -0.0811,
-     "6h": 0.1505,
-     "24h": 0.6204
-    },
-    "rug": false
-   },
    {
     "sym": "GATO",
     "token": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
@@ -1916,6 +1900,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "BLACKTOBER",
+    "token": "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792817718,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1923,14 +1921,14 @@
   "warn_lp": 30
  },
  "v3": {
-  "equity": 804.86,
+  "equity": 803.45,
   "day_start": 857.86,
-  "pnl_today": -53.0,
+  "pnl_today": -54.41,
   "open_positions": 2,
-  "closed_positions": 78,
-  "closed_sells": 78,
-  "win_rate": 0.115,
-  "realized_today": -54.78,
+  "closed_positions": 79,
+  "closed_sells": 79,
+  "win_rate": 0.114,
+  "realized_today": -55.29,
   "best_token": {
    "sym": "MEMEOS",
    "pnl": 2.12
@@ -1939,22 +1937,22 @@
    "sym": "ヤギ",
    "pnl": -7.71
   },
-  "copied": 79,
+  "copied": 80,
   "best_open": {
    "sym": "HOOKED",
-   "upnl": 2.4
+   "upnl": 1.5
   },
   "worst_open": {
-   "sym": "CYBERLEEK",
+   "sym": "BLACKTOBER",
    "upnl": -0.59
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 156,
-  "killed": 106,
-  "passed": 80
+  "checked": 159,
+  "killed": 108,
+  "passed": 81
  },
  "v3_kills": [
   {
@@ -2135,11 +2133,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0618,
+  "dd_today": -0.0634,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792816605,
+  "updated": 1792817719,
   "rejected": {
    "n": 76,
    "1h": {
@@ -2171,7 +2169,7 @@
    }
   },
   "passed": {
-   "n": 133,
+   "n": 134,
    "1h": {
     "n": 133,
     "avg_ret": -0.0119,
@@ -2353,22 +2351,6 @@
    }
   },
   "items": [
-   {
-    "sym": "McRib",
-    "token": "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
-    "ok": true,
-    "reasons": [
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792723093,
-    "src": "live",
-    "ret": {
-     "1h": -0.0946,
-     "6h": 0.1857,
-     "24h": -0.5946
-    },
-    "rug": false
-   },
    {
     "sym": "OTC",
     "token": "MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump",
@@ -3982,6 +3964,22 @@
      "liq $49,033 < $50,000 v2 floor"
     ],
     "ts": 1792814683,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "BLACKTOBER",
+    "token": "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 0.0% via pump.fun"
+    ],
+    "ts": 1792817719,
     "src": "live",
     "ret": {
      "1h": null,
