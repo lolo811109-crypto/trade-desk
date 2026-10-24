@@ -2,12 +2,12 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792820254,
+ "updated": 1792820288,
  "tokens_seen": 78,
  "risk": {
-  "checked": 137,
+  "checked": 138,
   "killed": 115,
-  "passed": 56
+  "passed": 57
  },
  "kills": [
   {
@@ -199,14 +199,14 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0629,
+  "dd_today": -0.0637,
   "limit": -0.1
  },
  "v2": {
-  "equity": 793.85,
+  "equity": 793.16,
   "day_start": 847.14,
-  "pnl_today": -53.29,
-  "open_positions": 19,
+  "pnl_today": -53.98,
+  "open_positions": 20,
   "closed_positions": 58,
   "closed_sells": 58,
   "win_rate": 0.138,
@@ -219,20 +219,20 @@
    "sym": "Agency",
    "pnl": -13.83
   },
-  "copied": 55,
+  "copied": 56,
   "best_open": {
    "sym": "RETARDIO",
    "upnl": 1.63
   },
   "worst_open": {
    "sym": "fone",
-   "upnl": -2.79
+   "upnl": -2.87
   }
  },
  "baseline": {
-  "equity": 676.32,
+  "equity": 676.3,
   "day_start": 773.92,
-  "pnl_today": -97.6,
+  "pnl_today": -97.62,
   "closed_sells": 24,
   "win_rate": 0.208,
   "realized_today": -22.01,
@@ -247,7 +247,7 @@
   "copied": 27
  },
  "risk_track": {
-  "updated": 1792819885,
+  "updated": 1792820285,
   "rejected": {
    "n": 89,
    "1h": {
@@ -279,7 +279,7 @@
    }
   },
   "passed": {
-   "n": 138,
+   "n": 139,
    "1h": {
     "n": 134,
     "avg_ret": -0.0091,
@@ -401,22 +401,6 @@
    }
   },
   "items": [
-   {
-    "sym": "MOMO",
-    "token": "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump",
-    "ok": false,
-    "reasons": [
-     "liq $10,168 < $50,000 v2 floor"
-    ],
-    "ts": 1792728419,
-    "src": "live",
-    "ret": {
-     "1h": 0.1778,
-     "6h": -0.0279,
-     "24h": -0.3636
-    },
-    "rug": false
-   },
    {
     "sym": "COMPUTE",
     "token": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
@@ -1935,6 +1919,20 @@
      "24h": null
     },
     "rug": false
+   },
+   {
+    "sym": "EXFIL",
+    "token": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+    "ok": true,
+    "reasons": [],
+    "ts": 1792820285,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
    }
   ]
  },
@@ -1942,10 +1940,10 @@
   "warn_lp": 32
  },
  "v3": {
-  "equity": 802.93,
+  "equity": 802.34,
   "day_start": 857.86,
-  "pnl_today": -54.93,
-  "open_positions": 4,
+  "pnl_today": -55.52,
+  "open_positions": 5,
   "closed_positions": 80,
   "closed_sells": 80,
   "win_rate": 0.125,
@@ -1958,7 +1956,7 @@
    "sym": "ヤギ",
    "pnl": -7.71
   },
-  "copied": 83,
+  "copied": 84,
   "best_open": {
    "sym": "RETARDIO",
    "upnl": 1.63
@@ -1971,9 +1969,9 @@
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
  },
  "v3_risk": {
-  "checked": 163,
+  "checked": 164,
   "killed": 113,
-  "passed": 84
+  "passed": 85
  },
  "v3_kills": [
   {
@@ -2168,11 +2166,11 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.064,
+  "dd_today": -0.0647,
   "limit": -0.1
  },
  "v3_track": {
-  "updated": 1792819886,
+  "updated": 1792820286,
   "rejected": {
    "n": 78,
    "1h": {
@@ -2204,7 +2202,7 @@
    }
   },
   "passed": {
-   "n": 137,
+   "n": 138,
    "1h": {
     "n": 133,
     "avg_ret": -0.0119,
@@ -2386,23 +2384,6 @@
    }
   },
   "items": [
-   {
-    "sym": "SI",
-    "token": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
-    "ok": true,
-    "reasons": [
-     "warn: LP burned only 0%",
-     "info: dev holds 0.0% via pump.fun"
-    ],
-    "ts": 1792728416,
-    "src": "live",
-    "ret": {
-     "1h": 0.0065,
-     "6h": 0.123,
-     "24h": -0.0392
-    },
-    "rug": false
-   },
    {
     "sym": "MOMO",
     "token": "FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump",
@@ -4015,6 +3996,22 @@
      "info: dev holds 0.0% via pump.fun"
     ],
     "ts": 1792819886,
+    "src": "live",
+    "ret": {
+     "1h": null,
+     "6h": null,
+     "24h": null
+    },
+    "rug": false
+   },
+   {
+    "sym": "EXFIL",
+    "token": "6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump",
+    "ok": true,
+    "reasons": [
+     "info: dev holds 2.0% via pump.fun"
+    ],
+    "ts": 1792820286,
     "src": "live",
     "ret": {
      "1h": null,
