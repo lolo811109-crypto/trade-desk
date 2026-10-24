@@ -1,18 +1,3 @@
-2026-10-24 17:45:15,505 tick equity=790.76 pnl=-209.24 head=129492117 v3=969.77
-2026-10-24 18:04:28,103 V3 {'ts': 1792835283, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'BUY', 'token': '0xcd6a1b8f6e1498672724397de679a9ad19470c0c', 'sym': 'LITY', 'price': 0.0008185406482, 'action': 'skip-dup', 'reasons': ['already holding this token']}
-2026-10-24 18:04:29,458 V3-RISK hooks 0x07bcb8e8226f671300e135b4a61dc157359b7777 PASS info: dev holds 0.0%
-2026-10-24 18:04:29,459 V3 {'ts': 1792835979, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x07bcb8e8226f671300e135b4a61dc157359b7777', 'sym': 'hooks', 'price': 3.825e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-24 18:04:30,979 V3-RISK 舒沃替尼 0x9849e46495088c577bb332c2ad1d2d4524957777 KILL LP only 0% locked/burned; info: dev holds 0.0%
-2026-10-24 18:04:30,979 V3 {'ts': 1792836072, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9849e46495088c577bb332c2ad1d2d4524957777', 'sym': '舒沃替尼', 'price': 3.017e-05, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 18:04:32,294 V3 {'ts': 1792835763, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x925258569f9b6f9c6225a69a8e72a991cc417777', 'sym': 'Hg', 'price': 4.875e-06, 'action': 'skip-7d'}
-2026-10-24 18:04:32,423 V3 {'ts': 1792835767, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x925258569f9b6f9c6225a69a8e72a991cc417777', 'sym': 'Hg', 'price': 4.875e-06, 'action': 'skip-7d'}
-2026-10-24 18:04:32,510 V3 {'ts': 1792835767, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x925258569f9b6f9c6225a69a8e72a991cc417777', 'sym': 'Hg', 'price': 4.875e-06, 'action': 'skip-7d'}
-2026-10-24 18:04:33,870 V3 {'ts': 1792835151, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xbf68ad3b380b954aadbe3fde0cd37dfc61df7777', 'sym': '念定人生', 'price': 0.0001918, 'action': 'sell', 'proceeds': 8.53, 'pnl': -1.47}
-2026-10-24 18:04:34,769 V3 {'ts': 1792835203, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0002689, 'action': 'skip-7d'}
-2026-10-24 18:04:49,304 tick equity=790.76 pnl=-209.24 head=129494646 v3=968.59
-2026-10-24 18:05:10,324 {'ts': 1792836304, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xf96234291b1133931cee8f67dc3188abb4ae7777', 'tx': '0xd12471339ef41460923cda1c4b62143f81462b955d44e1c1ea497fe6c3d38a92', 'action': 'skip-noprice'}
-2026-10-24 18:05:10,937 tick equity=790.76 pnl=-209.24 head=129494774 v3=968.59
-2026-10-24 18:05:32,343 tick equity=790.76 pnl=-209.24 head=129494822 v3=968.59
 2026-10-24 18:05:53,832 tick equity=790.76 pnl=-209.24 head=129494868 v3=968.59
 2026-10-24 18:06:15,267 tick equity=790.76 pnl=-209.24 head=129494917 v3=968.59
 2026-10-24 18:06:36,249 tick equity=790.76 pnl=-209.24 head=129494965 v3=968.59
@@ -298,3 +283,18 @@
 2026-10-24 21:37:50,792 tick equity=790.76 pnl=-209.24 head=129523119 v3=962.1
 2026-10-24 21:38:13,163 tick equity=790.76 pnl=-209.24 head=129523167 v3=962.1
 2026-10-24 21:38:34,300 tick equity=790.76 pnl=-209.24 head=129523216 v3=962.1
+2026-10-24 21:38:55,346 tick equity=790.76 pnl=-209.24 head=129523262 v3=962.1
+2026-10-24 21:39:16,145 tick equity=790.76 pnl=-209.24 head=129523309 v3=962.1
+2026-10-24 21:39:37,882 tick equity=790.76 pnl=-209.24 head=129523356 v3=962.1
+2026-10-24 21:39:58,920 tick equity=790.76 pnl=-209.24 head=129523403 v3=962.1
+2026-10-24 21:40:20,052 tick equity=790.76 pnl=-209.24 head=129523450 v3=962.1
+2026-10-24 21:40:41,007 tick equity=790.76 pnl=-209.24 head=129523498 v3=962.1
+2026-10-24 21:41:01,732 tick equity=790.76 pnl=-209.24 head=129523544 v3=962.1
+2026-10-24 21:41:22,615 tick equity=790.76 pnl=-209.24 head=129523590 v3=962.1
+2026-10-24 21:41:44,662 tick equity=790.76 pnl=-209.24 head=129523637 v3=962.1
+2026-10-24 21:42:05,359 tick equity=790.76 pnl=-209.24 head=129523686 v3=962.1
+2026-10-24 21:42:26,479 tick equity=790.76 pnl=-209.24 head=129523731 v3=962.1
+2026-10-24 21:42:47,479 V3 {'ts': 1792849346, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x5fc85dac8e10f3be0b8bc216088feed1a5047777', 'sym': '模因人生', 'price': 8.466e-06, 'action': 'skip-7d'}
+2026-10-24 21:42:48,016 tick equity=790.76 pnl=-209.24 head=129523778 v3=962.1
+2026-10-24 21:43:09,226 tick equity=790.76 pnl=-209.24 head=129523826 v3=962.1
+2026-10-24 21:43:30,811 tick equity=790.76 pnl=-209.24 head=129523873 v3=962.1
