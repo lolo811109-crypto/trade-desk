@@ -1,14 +1,3 @@
-2026-10-24 06:04:54,530 tick equity=768.63 pnl=-231.37 head=129398755 v3=972.37
-2026-10-24 06:05:17,389 tick equity=771.55 pnl=-228.45 head=129398805 v3=972.37
-2026-10-24 06:05:39,893 tick equity=771.26 pnl=-228.74 head=129398856 v3=972.37
-2026-10-24 06:06:03,106 tick equity=771.08 pnl=-228.92 head=129398906 v3=972.37
-2026-10-24 06:06:25,433 tick equity=771.12 pnl=-228.88 head=129398958 v3=972.37
-2026-10-24 06:06:49,188 tick equity=771.09 pnl=-228.91 head=129399007 v3=972.37
-2026-10-24 06:07:11,601 tick equity=771.20 pnl=-228.80 head=129399060 v3=972.37
-2026-10-24 06:07:34,670 tick equity=771.15 pnl=-228.85 head=129399110 v3=972.37
-2026-10-24 06:07:57,073 tick equity=771.37 pnl=-228.63 head=129399161 v3=972.37
-2026-10-24 06:08:20,504 tick equity=771.39 pnl=-228.61 head=129399211 v3=972.37
-2026-10-24 06:36:05,599 WATCHDOG: loop stalled 1665s, exiting for restart
 2026-10-24 06:36:42,286 tick equity=768.57 pnl=-231.43 head=129402988 v3=972.37
 2026-10-24 06:37:04,905 tick equity=768.36 pnl=-231.64 head=129403042 v3=972.37
 2026-10-24 06:37:28,012 tick equity=768.37 pnl=-231.63 head=129403092 v3=972.37
@@ -298,3 +287,14 @@
 2026-10-24 10:12:25,726 tick equity=762.86 pnl=-237.14 head=129431750 v3=971.59
 2026-10-24 10:12:47,721 tick equity=762.54 pnl=-237.46 head=129431801 v3=971.59
 2026-10-24 10:13:10,238 tick equity=763.02 pnl=-236.98 head=129431850 v3=971.59
+2026-10-24 10:13:32,538 tick equity=763.10 pnl=-236.90 head=129431900 v3=971.59
+2026-10-24 10:13:55,110 tick equity=763.95 pnl=-236.05 head=129431950 v3=971.59
+2026-10-24 10:14:16,367 V2-RISK 大肥鱼 0x22cc04d8d201eeaecbace9ce91c5ef117f167777 KILL LP only 0% locked/burned
+2026-10-24 10:14:16,367 V2 {'ts': 1792808044, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x22cc04d8d201eeaecbace9ce91c5ef117f167777', 'sym': '大肥鱼', 'price': 0.0001916, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned']}
+2026-10-24 10:14:17,049 V3-RISK 大肥鱼 0x22cc04d8d201eeaecbace9ce91c5ef117f167777 KILL LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-24 10:14:17,049 V3 {'ts': 1792808044, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x22cc04d8d201eeaecbace9ce91c5ef117f167777', 'sym': '大肥鱼', 'price': 0.0001916, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-24 10:14:18,457 tick equity=763.15 pnl=-236.85 head=129432000 v3=971.59
+2026-10-24 10:14:41,236 tick equity=763.15 pnl=-236.85 head=129432052 v3=971.59
+2026-10-24 10:15:03,988 tick equity=763.44 pnl=-236.56 head=129432102 v3=971.59
+2026-10-24 10:17:20,078 tick equity=763.12 pnl=-236.88 head=129432401 v3=971.59
+2026-10-24 10:39:42,407 {'ts': 1792808834, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xe6df1162a3243e3064e43f187ea14808ddfdffff', 'tx': '0xe39c3bec0bd1d84ade388805b7faa63c85bedc9b1d242ce334c45ef8c2776f2c', 'action': 'skip-noprice'}
