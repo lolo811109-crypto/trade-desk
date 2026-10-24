@@ -1,26 +1,3 @@
-2026-10-24 04:58:25,707 tick equity=760.80 pnl=-239.20 head=129389893 v3=972.37
-2026-10-24 04:58:48,753 tick equity=760.80 pnl=-239.20 head=129389943 v3=972.37
-2026-10-24 04:59:10,978 tick equity=760.75 pnl=-239.25 head=129389994 v3=972.37
-2026-10-24 04:59:34,402 tick equity=760.76 pnl=-239.24 head=129390043 v3=972.37
-2026-10-24 04:59:57,040 tick equity=760.61 pnl=-239.39 head=129390095 v3=972.37
-2026-10-24 05:00:21,320 tick equity=760.61 pnl=-239.39 head=129390146 v3=972.37
-2026-10-24 05:00:46,500 tick equity=760.66 pnl=-239.34 head=129390200 v3=972.37
-2026-10-24 05:01:11,908 tick equity=760.82 pnl=-239.18 head=129390259 v3=972.37
-2026-10-24 05:03:01,675 tick equity=761.19 pnl=-238.81 head=129390433 v3=972.37
-2026-10-24 05:03:24,832 tick equity=761.18 pnl=-238.82 head=129390556 v3=972.37
-2026-10-24 05:03:47,672 tick equity=761.19 pnl=-238.81 head=129390608 v3=972.37
-2026-10-24 05:04:10,901 tick equity=761.32 pnl=-238.68 head=129390656 v3=972.37
-2026-10-24 05:04:34,461 tick equity=761.39 pnl=-238.61 head=129390710 v3=972.37
-2026-10-24 05:04:57,173 tick equity=761.29 pnl=-238.71 head=129390762 v3=972.37
-2026-10-24 05:05:20,831 tick equity=761.29 pnl=-238.71 head=129390813 v3=972.37
-2026-10-24 05:05:43,788 tick equity=761.33 pnl=-238.67 head=129390865 v3=972.37
-2026-10-24 05:06:07,152 tick equity=761.34 pnl=-238.66 head=129390916 v3=972.37
-2026-10-24 05:06:29,795 tick equity=761.36 pnl=-238.64 head=129390968 v3=972.37
-2026-10-24 05:06:55,233 tick equity=761.54 pnl=-238.46 head=129391019 v3=972.37
-2026-10-24 05:31:05,376 tick equity=760.53 pnl=-239.47 head=129391503 v3=972.37
-2026-10-24 05:31:43,421 V2 {'ts': 1792790920, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7bc023e0693589817ed258cd1507b66b1e207777', 'sym': '螃蟹', 'price': 0.0003465, 'action': 'skip-liq'}
-2026-10-24 05:31:43,421 V3 {'ts': 1792790920, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7bc023e0693589817ed258cd1507b66b1e207777', 'sym': '螃蟹', 'price': 0.0003465, 'action': 'skip-liq'}
-2026-10-24 05:32:17,945 tick equity=760.99 pnl=-239.01 head=129394331 v3=972.37
 2026-10-24 05:32:41,583 tick equity=760.98 pnl=-239.02 head=129394457 v3=972.37
 2026-10-24 05:33:04,684 tick equity=761.12 pnl=-238.88 head=129394510 v3=972.37
 2026-10-24 05:33:27,330 tick equity=761.12 pnl=-238.88 head=129394561 v3=972.37
@@ -298,3 +275,26 @@
 2026-10-24 09:39:33,711 tick equity=769.44 pnl=-230.56 head=129427370 v3=972.37
 2026-10-24 09:39:55,882 tick equity=769.35 pnl=-230.65 head=129427420 v3=972.37
 2026-10-24 09:40:18,024 tick equity=767.93 pnl=-232.07 head=129427467 v3=972.37
+2026-10-24 09:42:58,641 tick equity=767.04 pnl=-232.96 head=129427823 v3=972.37
+2026-10-24 10:04:36,504 {'ts': 1792806689, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'SELL', 'token': '0x9bac4e7d8019ee974d8ccf91db8a921457e67777', 'tx': '0x1b301d10ee275aff07b4ffc876c5cf432d7319662f508292a4e06ab0ff7bd49b', 'action': 'skip-noprice'}
+2026-10-24 10:04:39,619 V2-RISK 慈善羊 0xb3a23165ba376986530f01e732fb65d2ba7d7777 KILL buy_tax unknown; sell_tax unknown; top10 holders 88%
+2026-10-24 10:04:39,619 V2 {'ts': 1792806689, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xb3a23165ba376986530f01e732fb65d2ba7d7777', 'sym': '慈善羊', 'price': 2.716e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 88%']}
+2026-10-24 10:04:42,967 V3-RISK 慈善羊 0xb3a23165ba376986530f01e732fb65d2ba7d7777 KILL buy_tax unknown; sell_tax unknown; top10 holders 88%; info: dev holds 0.0%
+2026-10-24 10:04:42,967 V3 {'ts': 1792806689, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xb3a23165ba376986530f01e732fb65d2ba7d7777', 'sym': '慈善羊', 'price': 2.716e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 88%', 'info: dev holds 0.0%']}
+2026-10-24 10:04:42,968 {'ts': 1792806689, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xb3a23165ba376986530f01e732fb65d2ba7d7777', 'tx': '0x1b301d10ee275aff07b4ffc876c5cf432d7319662f508292a4e06ab0ff7bd49b', 'sym': '慈善羊', 'price': 2.716e-05, 'liq': 22240, 'action': 'skip-cash'}
+2026-10-24 10:04:45,849 V2-RISK BIBI 0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777 PASS 
+2026-10-24 10:04:45,849 V2 {'ts': 1792807140, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0004285, 'action': 'buy', 'stake': 10.0}
+2026-10-24 10:04:46,533 V3-RISK BIBI 0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777 PASS info: dev holds 0.0%
+2026-10-24 10:04:46,534 V3 {'ts': 1792807140, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0004285, 'action': 'buy', 'stake': 10.0}
+2026-10-24 10:04:46,665 V2 {'ts': 1792807435, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0004285, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
+2026-10-24 10:04:46,665 V3 {'ts': 1792807435, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0004285, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
+2026-10-24 10:04:59,105 tick equity=765.08 pnl=-234.92 head=129430646 v3=971.59
+2026-10-24 10:05:21,061 tick equity=765.18 pnl=-234.82 head=129430809 v3=971.59
+2026-10-24 10:05:44,944 tick equity=764.96 pnl=-235.04 head=129430858 v3=971.59
+2026-10-24 10:06:07,377 tick equity=764.96 pnl=-235.04 head=129430911 v3=971.59
+2026-10-24 10:06:29,872 tick equity=764.95 pnl=-235.05 head=129430960 v3=971.59
+2026-10-24 10:06:51,664 tick equity=764.96 pnl=-235.04 head=129431010 v3=971.59
+2026-10-24 10:07:14,349 tick equity=764.87 pnl=-235.13 head=129431059 v3=971.59
+2026-10-24 10:07:36,385 tick equity=764.98 pnl=-235.02 head=129431109 v3=971.59
+2026-10-24 10:07:59,120 tick equity=764.78 pnl=-235.22 head=129431158 v3=971.59
+2026-10-24 10:08:20,887 tick equity=764.85 pnl=-235.15 head=129431209 v3=971.59
