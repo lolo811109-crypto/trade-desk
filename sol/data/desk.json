@@ -2,7 +2,7 @@
  "chain": "sol",
  "date": "2026-10-24",
  "tz": "UTC+8",
- "updated": 1792819955,
+ "updated": 1792820254,
  "tokens_seen": 78,
  "risk": {
   "checked": 137,
@@ -199,13 +199,13 @@
  "halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0634,
+  "dd_today": -0.0629,
   "limit": -0.1
  },
  "v2": {
-  "equity": 793.43,
+  "equity": 793.85,
   "day_start": 847.14,
-  "pnl_today": -53.71,
+  "pnl_today": -53.29,
   "open_positions": 19,
   "closed_positions": 58,
   "closed_sells": 58,
@@ -222,17 +222,17 @@
   "copied": 55,
   "best_open": {
    "sym": "RETARDIO",
-   "upnl": 1.72
+   "upnl": 1.63
   },
   "worst_open": {
    "sym": "fone",
-   "upnl": -2.86
+   "upnl": -2.79
   }
  },
  "baseline": {
-  "equity": 677.11,
+  "equity": 676.32,
   "day_start": 773.92,
-  "pnl_today": -96.81,
+  "pnl_today": -97.6,
   "closed_sells": 24,
   "win_rate": 0.208,
   "realized_today": -22.01,
@@ -1942,9 +1942,9 @@
   "warn_lp": 32
  },
  "v3": {
-  "equity": 802.89,
+  "equity": 802.93,
   "day_start": 857.86,
-  "pnl_today": -54.97,
+  "pnl_today": -54.93,
   "open_positions": 4,
   "closed_positions": 80,
   "closed_sells": 80,
@@ -1961,11 +1961,11 @@
   "copied": 83,
   "best_open": {
    "sym": "RETARDIO",
-   "upnl": 1.72
+   "upnl": 1.63
   },
   "worst_open": {
-   "sym": "BLACKTOBER",
-   "upnl": -0.73
+   "sym": "DOPE",
+   "upnl": -0.62
   },
   "label": "V3 紧止损",
   "rules": "SL -12% full, TP all @+35%, dev>18% skip"
@@ -2168,7 +2168,7 @@
  "v3_halt": {
   "halted": false,
   "at": null,
-  "dd_today": -0.0641,
+  "dd_today": -0.064,
   "limit": -0.1
  },
  "v3_track": {
