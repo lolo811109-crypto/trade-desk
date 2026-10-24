@@ -43,5 +43,17 @@
   "ts": "2026-10-23T02:58:00+08:00",
   "scope": "BNB V3, SOL V3, BNB 新币狙击",
   "change": "desk rules: liquidity_pulled exit (<60% of entry liq0; open positions get liq0 on first check); time_stop_45m (held>=45m, no partial TP, <+10%; old time stops kept); size<=1% pool liq else skip pool_too_small_for_size; honeypot guard: skip if DexScreener txns.h1.sells==0, missing -> skip missing_data. Originals/v2 unchanged (control)."
+ },
+ {
+  "ts": "2026-10-24T14:20+08:00",
+  "change": "用户要求停用 6 个亏损模拟版本：SOL 原版/V2/V3（paper_sol.py 已停止）、BSC 新币狙击（snipe_bsc.py 已停止）、BSC 原版与 BSC V2（paper_bsc.py 内 STOPPED_BASE/STOPPED_V2 冻结，不再开平仓与标记）。权益冻结于停用时刻。BSC V3、共振、Polymarket 全部继续运行。0x8372 串关未冲销。keepalive.sh 已移除 paper_sol/snipe_bsc 自动重启。",
+  "frozen": {
+   "bsc_base": 790.76,
+   "bsc_v2": 876.39,
+   "bsc_snipe": 869.83,
+   "sol_base": 675.0,
+   "sol_v2": 793.07,
+   "sol_v3": 801.37
+  }
  }
 ]
