@@ -1,15 +1,3 @@
-2026-10-24 21:02:18,969 tick equity=790.76 pnl=-209.24 head=129518384 v3=964.21
-2026-10-24 21:02:41,347 tick equity=790.76 pnl=-209.24 head=129518431 v3=964.21
-2026-10-24 21:03:03,575 tick equity=790.76 pnl=-209.24 head=129518480 v3=964.21
-2026-10-24 21:03:24,977 tick equity=790.76 pnl=-209.24 head=129518530 v3=964.21
-2026-10-24 21:03:46,142 {'ts': 1792847016, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x7b19b48550028497f0bcf3320efbe6ec8cfe7777', 'tx': '0xa4a7bb113a0392f9934b426b4f2872dc1768353ba104c4d17a4bffd957e22864', 'action': 'skip-noprice'}
-2026-10-24 21:03:46,885 tick equity=790.76 pnl=-209.24 head=129518577 v3=964.21
-2026-10-24 21:04:08,576 tick equity=790.76 pnl=-209.24 head=129518626 v3=964.21
-2026-10-24 21:04:29,990 V3-RISK yoki酱 0xa96402db0112ed21a6613b43cdfb766d9e5c7777 KILL LP only 0% locked/burned; info: dev holds 0.0%
-2026-10-24 21:04:29,990 V3 {'ts': 1792847057, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa96402db0112ed21a6613b43cdfb766d9e5c7777', 'sym': 'yoki酱', 'price': 0.0002595, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 21:04:31,431 tick equity=790.76 pnl=-209.24 head=129518674 v3=964.21
-2026-10-24 21:04:53,566 tick equity=790.76 pnl=-209.24 head=129518725 v3=964.21
-2026-10-24 21:05:14,529 {'ts': 1792847104, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'SELL', 'token': '0x7b19b48550028497f0bcf3320efbe6ec8cfe7777', 'tx': '0xc3c55f1b046f9f9b299c6e55f20226fef1843697446ed93a94e745d35e40c405', 'action': 'skip-noprice'}
 2026-10-24 21:05:15,025 tick equity=790.76 pnl=-209.24 head=129518774 v3=964.21
 2026-10-24 21:05:36,574 V3-RISK GAIN 0xa890f8ba60051ec8a5b528f056da362ba208a96f KILL top10 holders 82%; LP only 0% locked/burned; info: dev holds 0.0%
 2026-10-24 21:05:36,574 V3 {'ts': 1792847117, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xa890f8ba60051ec8a5b528f056da362ba208a96f', 'sym': 'GAIN', 'price': 0.002369, 'action': 'kill-risk', 'reasons': ['top10 holders 82%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
@@ -298,3 +286,15 @@
 2026-10-25 02:06:59,603 tick equity=790.76 pnl=-209.24 head=129558993 v3=951.53
 2026-10-25 02:07:20,797 tick equity=790.76 pnl=-209.24 head=129559040 v3=951.53
 2026-10-25 02:07:41,814 tick equity=790.76 pnl=-209.24 head=129559087 v3=951.53
+2026-10-25 02:08:02,694 tick equity=790.76 pnl=-209.24 head=129559134 v3=950.68
+2026-10-25 02:08:23,904 tick equity=790.76 pnl=-209.24 head=129559180 v3=950.68
+2026-10-25 02:08:44,776 V3 {'ts': 1792865324, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x9a2b4b320b233b21d060a0bde31c02c30b447777', 'sym': 'CC', 'price': 0.0001999, 'action': 'stop-loss', 'proceeds': 7.98, 'pnl': -2.02}
+2026-10-25 02:08:44,806 tick equity=790.76 pnl=-209.24 head=129559227 v3=950.27
+2026-10-25 02:09:06,109 tick equity=790.76 pnl=-209.24 head=129559274 v3=950.27
+2026-10-25 02:09:27,012 tick equity=790.76 pnl=-209.24 head=129559321 v3=950.27
+2026-10-25 02:09:48,206 tick equity=790.76 pnl=-209.24 head=129559366 v3=950.27
+2026-10-25 02:10:09,120 tick equity=790.76 pnl=-209.24 head=129559414 v3=950.27
+2026-10-25 02:10:29,923 tick equity=790.76 pnl=-209.24 head=129559461 v3=950.27
+2026-10-25 02:10:51,214 tick equity=790.76 pnl=-209.24 head=129559508 v3=950.27
+2026-10-25 02:11:11,988 tick equity=790.76 pnl=-209.24 head=129559555 v3=950.27
+2026-10-25 02:11:33,150 tick equity=790.76 pnl=-209.24 head=129559601 v3=950.27
