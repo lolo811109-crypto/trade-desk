@@ -1,10 +1,3 @@
-2026-10-24 21:34:15,583 V3 {'ts': 1792848649, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x316f6310c54f08b8677116b862f85b5ef94d7777', 'sym': '慈善币安', 'price': 1.851e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'dev holds 35% (>18%) creator 0xe2ce']}
-2026-10-24 21:34:18,233 V3 {'ts': 1792847865, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xa890f8ba60051ec8a5b528f056da362ba208a96f', 'sym': 'GAIN', 'price': 0.002415, 'action': 'kill-risk', 'reasons': ['top10 holders 82%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 21:34:18,335 V3 {'ts': 1792847887, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xa890f8ba60051ec8a5b528f056da362ba208a96f', 'sym': 'GAIN', 'price': 0.002415, 'action': 'kill-risk', 'reasons': ['top10 holders 82%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-24 21:34:22,890 V3-RISK 造车少年 0x899b3e14228a4e86a1f52df6bb8a48f9d4cd7777 KILL buy_tax unknown; sell_tax unknown; top10 holders 100%; info: dev holds 0.0%
-2026-10-24 21:34:22,890 V3 {'ts': 1792847518, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x899b3e14228a4e86a1f52df6bb8a48f9d4cd7777', 'sym': '造车少年', 'price': 6.011e-06, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%']}
-2026-10-24 21:34:22,986 V3 {'ts': 1792847519, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x899b3e14228a4e86a1f52df6bb8a48f9d4cd7777', 'sym': '造车少年', 'price': 6.011e-06, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%']}
-2026-10-24 21:34:29,995 V3 {'ts': 1792848524, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x9a2b4b320b233b21d060a0bde31c02c30b447777', 'sym': 'CC', 'price': 0.0002811, 'action': 'buy', 'stake': 10.0}
 2026-10-24 21:34:33,669 V3 {'ts': 1792847602, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0001527, 'action': 'skip-7d'}
 2026-10-24 21:34:33,805 V3 {'ts': 1792847611, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0001527, 'action': 'skip-7d'}
 2026-10-24 21:34:33,945 V3 {'ts': 1792847893, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xe5aae9c95a81b1b8f2b3dee624c0750b05277777', 'sym': '牛币', 'price': 0.0001527, 'action': 'skip-7d'}
@@ -298,3 +291,10 @@
 2026-10-25 02:59:56,976 tick equity=790.76 pnl=-209.24 head=129566052 v3=946.16
 2026-10-25 03:00:18,057 tick equity=790.76 pnl=-209.24 head=129566099 v3=946.16
 2026-10-25 03:00:39,348 tick equity=790.76 pnl=-209.24 head=129566146 v3=946.16
+2026-10-25 03:01:00,367 tick equity=790.76 pnl=-209.24 head=129566193 v3=946.18
+2026-10-25 03:01:21,352 tick equity=790.76 pnl=-209.24 head=129566240 v3=946.23
+2026-10-25 03:01:42,091 tick equity=790.76 pnl=-209.24 head=129566286 v3=946.23
+2026-10-25 03:02:02,981 tick equity=790.76 pnl=-209.24 head=129566332 v3=946.23
+2026-10-25 03:02:24,497 tick equity=790.76 pnl=-209.24 head=129566379 v3=946.23
+2026-10-25 03:02:46,387 tick equity=790.76 pnl=-209.24 head=129566427 v3=946.21
+2026-10-25 03:03:07,611 tick equity=790.76 pnl=-209.24 head=129566475 v3=946.21
