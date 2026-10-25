@@ -1,15 +1,3 @@
-2026-10-25 14:08:24,707 V3-DEV-WARN 0x5f6a1ce1733fc4834a526798c0e8cf85137effff creator/holding unknown, allowing
-2026-10-25 14:08:24,713 V3-RISK 4AGENT 0x5f6a1ce1733fc4834a526798c0e8cf85137effff KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown
-2026-10-25 14:08:24,713 V3 {'ts': 1792908277, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003523, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown']}
-2026-10-25 14:08:25,204 V3 {'ts': 1792908436, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003288, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown']}
-2026-10-25 14:08:31,471 V3 {'ts': 1792908368, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003288, 'action': 'skip-7d'}
-2026-10-25 14:08:31,471 CONFLUENCE 4AGENT 0x5f6a1ce1733fc4834a526798c0e8cf85137effff wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc9ac2d47615508a16e46a3459eb4f564ad906a32']
-2026-10-25 14:08:34,638 V2-RISK 4AGENT 0x5f6a1ce1733fc4834a526798c0e8cf85137effff KILL buy_tax unknown; sell_tax unknown
-2026-10-25 14:08:34,638 V2 {'ts': 1792908368, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003288, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-25 14:08:43,475 tick equity=790.76 pnl=-209.24 head=129655045 v3=937.76
-2026-10-25 14:09:06,140 tick equity=790.76 pnl=-209.24 head=129655179 v3=937.76
-2026-10-25 14:09:27,429 tick equity=790.76 pnl=-209.24 head=129655229 v3=937.61
-2026-10-25 14:09:48,383 tick equity=790.76 pnl=-209.24 head=129655276 v3=937.61
 2026-10-25 14:10:10,000 tick equity=790.76 pnl=-209.24 head=129655323 v3=937.61
 2026-10-25 14:10:30,938 V3 {'ts': 1792908619, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x9a2b4b320b233b21d060a0bde31c02c30b447777', 'sym': 'CC', 'price': 0.0001266, 'action': 'buy', 'stake': 10.0}
 2026-10-25 14:10:31,639 tick equity=790.76 pnl=-209.24 head=129655371 v3=936.83
@@ -298,3 +286,15 @@
 2026-10-25 17:36:29,725 tick equity=790.76 pnl=-209.24 head=129682821 v3=933.73
 2026-10-25 17:36:51,814 tick equity=790.76 pnl=-209.24 head=129682870 v3=933.73
 2026-10-25 17:37:12,583 tick equity=790.76 pnl=-209.24 head=129682919 v3=933.73
+2026-10-25 17:37:33,797 tick equity=790.76 pnl=-209.24 head=129682965 v3=933.73
+2026-10-25 17:37:55,048 tick equity=790.76 pnl=-209.24 head=129683012 v3=933.73
+2026-10-25 17:38:16,189 tick equity=790.76 pnl=-209.24 head=129683059 v3=933.73
+2026-10-25 17:38:37,315 tick equity=790.76 pnl=-209.24 head=129683106 v3=933.73
+2026-10-25 17:38:58,056 tick equity=790.76 pnl=-209.24 head=129683153 v3=933.73
+2026-10-25 17:39:18,684 tick equity=790.76 pnl=-209.24 head=129683199 v3=933.73
+2026-10-25 17:39:39,450 tick equity=790.76 pnl=-209.24 head=129683245 v3=933.73
+2026-10-25 17:39:59,865 tick equity=790.76 pnl=-209.24 head=129683291 v3=933.73
+2026-10-25 17:40:20,613 tick equity=790.76 pnl=-209.24 head=129683337 v3=933.73
+2026-10-25 17:40:41,231 tick equity=790.76 pnl=-209.24 head=129683383 v3=933.73
+2026-10-25 17:41:02,269 tick equity=790.76 pnl=-209.24 head=129683429 v3=933.73
+2026-10-25 17:41:23,353 tick equity=790.76 pnl=-209.24 head=129683475 v3=933.73
