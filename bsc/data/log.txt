@@ -1,26 +1,3 @@
-2026-10-26 02:46:28,438 tick equity=790.76 pnl=-209.24 head=129756037 v3=932.61
-2026-10-26 02:46:50,230 tick equity=790.76 pnl=-209.24 head=129756085 v3=932.61
-2026-10-26 02:47:12,424 tick equity=790.76 pnl=-209.24 head=129756133 v3=932.61
-2026-10-26 02:47:33,706 tick equity=790.76 pnl=-209.24 head=129756183 v3=932.61
-2026-10-26 02:47:54,882 tick equity=790.76 pnl=-209.24 head=129756230 v3=932.61
-2026-10-26 02:48:17,317 tick equity=790.76 pnl=-209.24 head=129756277 v3=932.61
-2026-10-26 02:48:37,902 tick equity=790.76 pnl=-209.24 head=129756327 v3=932.61
-2026-10-26 02:48:58,605 tick equity=790.76 pnl=-209.24 head=129756372 v3=932.61
-2026-10-26 02:49:19,707 tick equity=790.76 pnl=-209.24 head=129756418 v3=932.61
-2026-10-26 02:50:19,628 tick equity=790.76 pnl=-209.24 head=129756550 v3=932.61
-2026-10-26 02:53:01,298 tick equity=790.76 pnl=-209.24 head=129756902 v3=932.61
-2026-10-26 02:53:22,205 tick equity=790.76 pnl=-209.24 head=129756958 v3=932.61
-2026-10-26 02:53:43,374 tick equity=790.76 pnl=-209.24 head=129757004 v3=932.61
-2026-10-26 02:54:04,583 tick equity=790.76 pnl=-209.24 head=129757051 v3=932.61
-2026-10-26 02:54:26,229 tick equity=790.76 pnl=-209.24 head=129757098 v3=932.61
-2026-10-26 02:54:47,158 tick equity=790.76 pnl=-209.24 head=129757146 v3=932.61
-2026-10-26 02:55:08,459 tick equity=790.76 pnl=-209.24 head=129757193 v3=932.61
-2026-10-26 02:55:29,677 tick equity=790.76 pnl=-209.24 head=129757240 v3=932.61
-2026-10-26 02:55:50,447 tick equity=790.76 pnl=-209.24 head=129757287 v3=932.61
-2026-10-26 02:56:11,216 tick equity=790.76 pnl=-209.24 head=129757334 v3=932.61
-2026-10-26 02:56:32,127 tick equity=790.76 pnl=-209.24 head=129757380 v3=932.61
-2026-10-26 02:56:53,572 tick equity=790.76 pnl=-209.24 head=129757426 v3=932.61
-2026-10-26 02:57:14,746 tick equity=790.76 pnl=-209.24 head=129757472 v3=932.61
 2026-10-26 02:57:35,924 tick equity=790.76 pnl=-209.24 head=129757521 v3=932.61
 2026-10-26 02:59:19,024 tick equity=790.76 pnl=-209.24 head=129757744 v3=932.61
 2026-10-26 03:05:00,311 {'ts': 1792954769, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xa9cb21aac801301711a13b69d76f2af8216c7777', 'tx': '0x7ae13e42d43d8a096b307d3961b6a171712373536075037d55c416461096364f', 'action': 'skip-noprice'}
@@ -298,3 +275,26 @@
 2026-10-26 05:10:15,741 tick equity=790.76 pnl=-209.24 head=129775207 v3=931.91
 2026-10-26 05:10:37,181 tick equity=790.76 pnl=-209.24 head=129775256 v3=931.91
 2026-10-26 05:10:58,833 tick equity=790.76 pnl=-209.24 head=129775303 v3=931.91
+2026-10-26 05:11:20,395 tick equity=790.76 pnl=-209.24 head=129775352 v3=931.91
+2026-10-26 05:11:41,713 tick equity=790.76 pnl=-209.24 head=129775399 v3=931.91
+2026-10-26 05:12:02,849 tick equity=790.76 pnl=-209.24 head=129775447 v3=931.91
+2026-10-26 05:12:24,394 tick equity=790.76 pnl=-209.24 head=129775494 v3=931.91
+2026-10-26 05:12:46,296 tick equity=790.76 pnl=-209.24 head=129775542 v3=931.91
+2026-10-26 05:13:09,377 tick equity=790.76 pnl=-209.24 head=129775590 v3=931.91
+2026-10-26 05:13:35,580 tick equity=790.76 pnl=-209.24 head=129775649 v3=931.91
+2026-10-26 05:37:02,488 {'ts': 1792963784, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'SELL', 'token': '0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f', 'tx': '0x13c8741200d40669a2fff577a8ced6b3b6cd0503578e27be60bba701ade4f20b', 'action': 'skip-noprice'}
+2026-10-26 05:37:05,511 V3 {'ts': 1792963182, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 9.270646981e-05, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
+2026-10-26 05:37:06,720 V3-RISK FXIon 0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1 KILL LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-26 05:37:06,721 V3 {'ts': 1792963230, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1', 'sym': 'FXIon', 'price': 32.43, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-26 05:37:07,425 V3-RISK QQQB 0x205812cdbed920aff76c6580abd681a46d11efc7 KILL top10 holders 85%; LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-26 05:37:07,425 V3 {'ts': 1792963230, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x205812cdbed920aff76c6580abd681a46d11efc7', 'sym': 'QQQB', 'price': 707.57, 'action': 'kill-risk', 'reasons': ['top10 holders 85%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-26 05:37:08,114 V3-RISK BNCB 0x4902c5ebc598265ed2212b559b042de8a5eeec3f KILL top10 holders 76%; LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-26 05:37:08,114 V3 {'ts': 1792963230, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4902c5ebc598265ed2212b559b042de8a5eeec3f', 'sym': 'BNCB', 'price': 5.57, 'action': 'kill-risk', 'reasons': ['top10 holders 76%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-26 05:37:08,812 V3-RISK BABAB 0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec KILL top10 holders 67%; LP only 0% locked/burned; info: dev holds 0.0%
+2026-10-26 05:37:08,812 V3 {'ts': 1792963230, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec', 'sym': 'BABAB', 'price': 99.86, 'action': 'kill-risk', 'reasons': ['top10 holders 67%', 'LP only 0% locked/burned', 'info: dev holds 0.0%']}
+2026-10-26 05:37:13,946 V3 {'ts': 1792963082, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb0e974ee58899dd77eb13c2c0a0adefeb30f7777', 'sym': 'BIBI', 'price': 0.0009053, 'action': 'buy', 'stake': 10.0}
+2026-10-26 05:37:14,094 V3 {'ts': 1792963256, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 9.270646981e-05, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
+2026-10-26 05:37:14,192 {'ts': 1792963260, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'tx': '0x8f7df9d474ede208ba623da6ccddc261f281a92e84eae872c6362885292bfb05', 'action': 'skip-noprice'}
+2026-10-26 05:37:14,335 {'ts': 1792963300, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'tx': '0x3a95083785d45e4eba4cded44fbcf6f0d4543f6165915842b737cec8ef1cba86', 'action': 'skip-noprice'}
+2026-10-26 05:37:14,535 {'ts': 1792963345, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'tx': '0xab542ea5ab22eb3d70a7633d3db6b70521d05687d6aff0bbd1ac4cb66fdcc9cd', 'action': 'skip-noprice'}
+2026-10-26 05:37:14,658 {'ts': 1792963860, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x0d1a5954dad14a05ebde84e9c5e1595bf64ce6ea', 'tx': '0xe37933af2fb06a6a3d437688ad510202c5bbd663b1af9d9b14e8695e7284e765', 'action': 'skip-noprice'}
