@@ -1,31 +1,3 @@
-2026-10-25 09:41:31,513 tick equity=790.76 pnl=-209.24 head=129619475 v3=941.2
-2026-10-25 09:41:52,271 tick equity=790.76 pnl=-209.24 head=129619524 v3=941.2
-2026-10-25 09:42:13,489 tick equity=790.76 pnl=-209.24 head=129619571 v3=941.2
-2026-10-25 09:42:35,127 tick equity=790.76 pnl=-209.24 head=129619613 v3=941.2
-2026-10-25 09:42:56,046 tick equity=790.76 pnl=-209.24 head=129619662 v3=941.2
-2026-10-25 09:43:17,341 tick equity=790.76 pnl=-209.24 head=129619707 v3=941.2
-2026-10-25 09:43:37,966 tick equity=790.76 pnl=-209.24 head=129619754 v3=941.2
-2026-10-25 09:43:59,054 tick equity=790.76 pnl=-209.24 head=129619792 v3=941.2
-2026-10-25 09:46:35,521 V3-RISK 大肥鱼 0x22cc04d8d201eeaecbace9ce91c5ef117f167777 KILL LP only 0% locked/burned; info: dev holds 0.0%
-2026-10-25 09:46:35,522 V3 {'ts': 1792892688, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x22cc04d8d201eeaecbace9ce91c5ef117f167777', 'sym': '大肥鱼', 'price': 0.0003635, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%']}
-2026-10-25 09:46:36,369 tick equity=790.76 pnl=-209.24 head=129620140 v3=941.2
-2026-10-25 10:03:30,565 tick equity=790.76 pnl=-209.24 head=129622419 v3=941.2
-2026-10-25 10:03:51,390 tick equity=790.76 pnl=-209.24 head=129622492 v3=941.2
-2026-10-25 10:04:12,165 tick equity=790.76 pnl=-209.24 head=129622538 v3=941.2
-2026-10-25 10:04:33,045 tick equity=790.76 pnl=-209.24 head=129622584 v3=941.2
-2026-10-25 10:05:09,562 tick equity=790.76 pnl=-209.24 head=129622631 v3=941.2
-2026-10-25 10:05:30,454 tick equity=790.76 pnl=-209.24 head=129622712 v3=941.2
-2026-10-25 10:05:51,715 tick equity=790.76 pnl=-209.24 head=129622758 v3=941.2
-2026-10-25 10:06:12,478 tick equity=790.76 pnl=-209.24 head=129622805 v3=941.2
-2026-10-25 10:06:33,631 tick equity=790.76 pnl=-209.24 head=129622852 v3=941.2
-2026-10-25 10:06:54,643 tick equity=790.76 pnl=-209.24 head=129622898 v3=941.2
-2026-10-25 10:07:15,445 tick equity=790.76 pnl=-209.24 head=129622945 v3=941.2
-2026-10-25 10:07:36,240 tick equity=790.76 pnl=-209.24 head=129622992 v3=941.2
-2026-10-25 10:07:57,072 tick equity=790.76 pnl=-209.24 head=129623038 v3=941.2
-2026-10-25 10:08:17,930 tick equity=790.76 pnl=-209.24 head=129623084 v3=941.2
-2026-10-25 10:08:38,708 tick equity=790.76 pnl=-209.24 head=129623130 v3=941.2
-2026-10-25 10:08:59,700 tick equity=790.76 pnl=-209.24 head=129623177 v3=941.2
-2026-10-25 10:09:20,509 tick equity=790.76 pnl=-209.24 head=129623223 v3=941.2
 2026-10-25 10:09:41,248 tick equity=790.76 pnl=-209.24 head=129623269 v3=941.2
 2026-10-25 10:10:02,509 tick equity=790.76 pnl=-209.24 head=129623315 v3=941.2
 2026-10-25 10:10:23,894 tick equity=790.76 pnl=-209.24 head=129623362 v3=941.2
@@ -298,3 +270,31 @@
 2026-10-25 14:38:06,268 V3 {'ts': 1792909890, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'buy', 'stake': 10.0}
 2026-10-25 14:38:06,472 V3 {'ts': 1792909899, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
 2026-10-25 14:38:08,272 V3 {'ts': 1792909496, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0004827, 'action': 'buy', 'stake': 10.0}
+2026-10-25 14:38:13,041 V3 {'ts': 1792909843, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003067, 'action': 'skip-7d'}
+2026-10-25 14:38:16,989 V3 {'ts': 1792909786, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'skip-7d'}
+2026-10-25 14:38:16,989 CONFLUENCE BIBI 0x967b26d369571a8c5a035aaac1f4b1594287ffff wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xdf579d27140000251421f3bb2b4ed43835eb3b6b']
+2026-10-25 14:38:17,313 V2-RISK BIBI 0x967b26d369571a8c5a035aaac1f4b1594287ffff PASS 
+2026-10-25 14:38:17,313 V2 {'ts': 1792909786, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'buy', 'stake': 10.0}
+2026-10-25 14:38:17,447 V3 {'ts': 1792909817, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003067, 'action': 'skip-7d'}
+2026-10-25 14:38:17,965 V3 {'ts': 1792910001, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003067, 'action': 'skip-7d'}
+2026-10-25 14:38:18,121 V2 {'ts': 1792910052, 'wallet': 'confluence', 'side': 'SELL', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'sell', 'proceeds': 9.22, 'pnl': -0.78}
+2026-10-25 14:38:18,259 V3 {'ts': 1792910084, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'skip-7d'}
+2026-10-25 14:38:18,389 V3 {'ts': 1792910130, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'skip-7d'}
+2026-10-25 14:38:18,515 V3 {'ts': 1792910139, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'skip-7d'}
+2026-10-25 14:38:18,647 V3 {'ts': 1792910194, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003067, 'action': 'skip-7d'}
+2026-10-25 14:38:18,774 V3 {'ts': 1792910206, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 4.208e-05, 'action': 'skip-7d'}
+2026-10-25 14:38:26,015 tick equity=790.76 pnl=-209.24 head=129659009 v3=934.76
+2026-10-25 14:38:46,558 V3 {'ts': 1792910277, 'wallet': '0x9bee11202478166584fc2cd2735a302ed995bd26', 'side': 'BUY', 'token': '0xcd6a1b8f6e1498672724397de679a9ad19470c0c', 'sym': 'LITY', 'price': 0.0008228, 'action': 'skip-dup', 'reasons': ['already holding this token']}
+2026-10-25 14:38:47,217 V3 {'ts': 1792910282, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5f6a1ce1733fc4834a526798c0e8cf85137effff', 'sym': '4AGENT', 'price': 0.0003162, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown']}
+2026-10-25 14:38:47,801 tick equity=790.76 pnl=-209.24 head=129659138 v3=934.67
+2026-10-25 14:39:09,317 tick equity=790.76 pnl=-209.24 head=129659186 v3=934.74
+2026-10-25 14:39:30,337 V3 {'ts': 1792910356, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 3.561e-05, 'action': 'skip-7d'}
+2026-10-25 14:39:31,219 tick equity=790.76 pnl=-209.24 head=129659234 v3=934.74
+2026-10-25 14:39:53,036 tick equity=790.76 pnl=-209.24 head=129659283 v3=934.91
+2026-10-25 14:40:14,187 tick equity=790.76 pnl=-209.24 head=129659331 v3=934.91
+2026-10-25 14:40:35,267 tick equity=790.76 pnl=-209.24 head=129659378 v3=934.91
+2026-10-25 14:40:56,879 tick equity=790.76 pnl=-209.24 head=129659425 v3=934.93
+2026-10-25 14:41:17,698 tick equity=790.76 pnl=-209.24 head=129659473 v3=934.93
+2026-10-25 14:41:38,786 tick equity=790.76 pnl=-209.24 head=129659519 v3=934.93
+2026-10-25 14:41:59,771 tick equity=790.76 pnl=-209.24 head=129659566 v3=934.85
+2026-10-25 14:42:22,257 tick equity=790.76 pnl=-209.24 head=129659613 v3=934.85
