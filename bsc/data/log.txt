@@ -1,14 +1,3 @@
-2026-10-26 21:06:21,374 tick equity=790.76 pnl=-209.24 head=129902564 v3=928.74
-2026-10-26 21:06:44,533 tick equity=790.76 pnl=-209.24 head=129902616 v3=928.74
-2026-10-26 21:07:08,532 tick equity=790.76 pnl=-209.24 head=129902668 v3=928.74
-2026-10-26 21:07:32,998 tick equity=790.76 pnl=-209.24 head=129902721 v3=928.74
-2026-10-26 21:07:57,753 tick equity=790.76 pnl=-209.24 head=129902776 v3=928.74
-2026-10-26 21:08:22,234 tick equity=790.76 pnl=-209.24 head=129902831 v3=928.74
-2026-10-26 21:08:44,002 V3 {'ts': 1793020102, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x33794b7149a27dd730eb2b186faddea592e87777', 'sym': 'AIDCOIN', 'price': 5.209e-05, 'action': 'skip-7d'}
-2026-10-26 21:08:49,208 tick equity=790.76 pnl=-209.24 head=129902885 v3=928.74
-2026-10-26 21:11:30,069 tick equity=790.76 pnl=-209.24 head=129902945 v3=928.74
-2026-10-26 21:12:09,974 V3 {'ts': 1793020230, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xf49725118cb0707b8706ffffe895f3ab16da7777', 'sym': 'b-money', 'price': 0.0004312, 'liq': 88778, 'action': 'skip-badwallet', 'reasons': ['v3 record 44 closes wr 7% pnl -42.36']}
-2026-10-26 21:13:52,092 tick equity=790.76 pnl=-209.24 head=129903302 v3=928.74
 2026-10-26 21:16:08,825 tick equity=790.76 pnl=-209.24 head=129903618 v3=928.74
 2026-10-26 21:35:58,102 loop error rpc fail eth_blockNumber
 2026-10-26 21:36:52,784 {'ts': 1793020594, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'SELL', 'token': '0x012c50cdc9b94fa664431b1d25053662555a7777', 'tx': '0xaf6f6fdf282bcc1fecf938cbdbffd6cd04af233d63d3b2dee24a27114341e9f1', 'action': 'skip-noprice'}
@@ -298,3 +287,14 @@
 2026-10-27 02:36:56,001 tick equity=790.76 pnl=-209.24 head=129946623 v3=928.74
 2026-10-27 02:37:21,490 tick equity=790.76 pnl=-209.24 head=129946682 v3=928.74
 2026-10-27 02:37:45,935 tick equity=790.76 pnl=-209.24 head=129946739 v3=928.74
+2026-10-27 02:50:35,193 WATCHDOG: no successful tick 769s, exiting for restart
+2026-10-27 02:51:48,330 v2 pnl7d unavailable RuntimeError
+2026-10-27 02:52:00,000 tick equity=790.76 pnl=-209.24 head=129948623 v3=928.74
+2026-10-27 02:52:25,324 tick equity=790.76 pnl=-209.24 head=129948689 v3=928.74
+2026-10-27 02:52:49,650 tick equity=790.76 pnl=-209.24 head=129948746 v3=928.74
+2026-10-27 02:53:12,335 tick equity=790.76 pnl=-209.24 head=129948800 v3=928.74
+2026-10-27 02:53:39,554 tick equity=790.76 pnl=-209.24 head=129948850 v3=928.74
+2026-10-27 02:54:06,246 tick equity=790.76 pnl=-209.24 head=129948911 v3=928.74
+2026-10-27 02:54:30,937 V3 {'ts': 1793040844, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x4dbd98428fb82ac64534f61fe6ea11e1fae27777', 'sym': 'Doupi', 'price': 2.482e-05, 'action': 'skip-7d'}
+2026-10-27 02:54:31,398 tick equity=790.76 pnl=-209.24 head=129948970 v3=928.74
+2026-10-27 02:54:55,525 tick equity=790.76 pnl=-209.24 head=129949026 v3=928.74
