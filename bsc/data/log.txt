@@ -1,7 +1,3 @@
-2026-10-26 20:25:27,031 tick equity=790.76 pnl=-209.24 head=129896990 v3=928.74
-2026-10-26 20:25:48,396 V3 {'ts': 1793017529, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
-2026-10-26 20:25:50,229 V3 {'ts': 1793017502, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
-2026-10-26 20:25:50,327 V3 {'ts': 1793017503, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
 2026-10-26 20:25:50,476 V3 {'ts': 1793017505, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
 2026-10-26 20:25:50,575 V3 {'ts': 1793017511, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
 2026-10-26 20:25:50,673 V3 {'ts': 1793017511, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
@@ -298,3 +294,7 @@
 2026-10-26 23:29:20,397 V3 {'ts': 1793028306, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x09dd91c404587154390b9a0c9bfe67c8f5c77777', 'sym': 'GINNAN', 'price': 5.162e-05, 'action': 'skip-7d'}
 2026-10-26 23:29:23,521 V3 {'ts': 1793028317, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x09dd91c404587154390b9a0c9bfe67c8f5c77777', 'sym': 'GINNAN', 'price': 5.162e-05, 'action': 'skip-7d'}
 2026-10-26 23:29:26,809 V3 {'ts': 1793028328, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x09dd91c404587154390b9a0c9bfe67c8f5c77777', 'sym': 'GINNAN', 'price': 5.162e-05, 'action': 'skip-7d'}
+2026-10-26 23:41:15,711 V3 {'ts': 1793028182, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xbb300d79495a5232d337481c75e8dbc3924e7777', 'sym': 'TAPE', 'price': 4.919e-05, 'action': 'skip-7d'}
+2026-10-26 23:41:15,711 CONFLUENCE TAPE 0xbb300d79495a5232d337481c75e8dbc3924e7777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc9ac2d47615508a16e46a3459eb4f564ad906a32']
+2026-10-26 23:41:16,013 V2-RISK TAPE 0xbb300d79495a5232d337481c75e8dbc3924e7777 PASS 
+2026-10-26 23:41:16,014 V2 {'ts': 1793028182, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xbb300d79495a5232d337481c75e8dbc3924e7777', 'sym': 'TAPE', 'price': 4.919e-05, 'action': 'buy', 'stake': 10.0}
