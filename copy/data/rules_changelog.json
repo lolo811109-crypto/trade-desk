@@ -70,5 +70,11 @@
   "ts": "2026-10-26T11:10:00+08:00",
   "scope": "高胜率精选 (lab_top)",
   "change": "daily wallet pick: was sort by pnl only → score = PnL/100 + 2×ROI + win rate − drawdown/100, need ≥5 closed trades and PnL>0, top 3. Circuit breaker unchanged."
+ },
+ {
+  "date": "2026-10-27",
+  "account": "BSC paper_bsc",
+  "change": "watchdog: heartbeat only on successful tick, exit if none for 10 min; RPC timeout (5s connect,10s read); if >600 blocks behind, skip ahead to tip (logged SKIP-AHEAD). Frozen 原版/v2 untouched.",
+  "backup": "bsc/paper_bsc.py.bak-watchdog1027"
  }
 ]
