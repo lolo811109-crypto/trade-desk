@@ -1,14 +1,3 @@
-2026-10-26 23:28:24,787 V3 {'ts': 1793028362, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x052ab28c0c146982a3b231ae326c2e96ab757777', 'sym': 'Ginnan', 'price': 5.622e-06, 'action': 'skip-7d'}
-2026-10-26 23:29:20,397 V3 {'ts': 1793028306, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x09dd91c404587154390b9a0c9bfe67c8f5c77777', 'sym': 'GINNAN', 'price': 5.162e-05, 'action': 'skip-7d'}
-2026-10-26 23:29:23,521 V3 {'ts': 1793028317, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x09dd91c404587154390b9a0c9bfe67c8f5c77777', 'sym': 'GINNAN', 'price': 5.162e-05, 'action': 'skip-7d'}
-2026-10-26 23:29:26,809 V3 {'ts': 1793028328, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x09dd91c404587154390b9a0c9bfe67c8f5c77777', 'sym': 'GINNAN', 'price': 5.162e-05, 'action': 'skip-7d'}
-2026-10-26 23:41:15,711 V3 {'ts': 1793028182, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xbb300d79495a5232d337481c75e8dbc3924e7777', 'sym': 'TAPE', 'price': 4.919e-05, 'action': 'skip-7d'}
-2026-10-26 23:41:15,711 CONFLUENCE TAPE 0xbb300d79495a5232d337481c75e8dbc3924e7777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc9ac2d47615508a16e46a3459eb4f564ad906a32']
-2026-10-26 23:41:16,013 V2-RISK TAPE 0xbb300d79495a5232d337481c75e8dbc3924e7777 PASS 
-2026-10-26 23:41:16,014 V2 {'ts': 1793028182, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xbb300d79495a5232d337481c75e8dbc3924e7777', 'sym': 'TAPE', 'price': 4.919e-05, 'action': 'buy', 'stake': 10.0}
-2026-10-26 23:42:35,752 V3 {'ts': 1793028441, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xbb300d79495a5232d337481c75e8dbc3924e7777', 'sym': 'TAPE', 'price': 4.891e-05, 'action': 'skip-7d'}
-2026-10-26 23:42:42,999 V3 {'ts': 1793028188, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x8d29eff4f9db75921537fbeeeb6f0dd2ccf57777', 'sym': 'GINNAN', 'price': 9.892e-06, 'action': 'skip-7d'}
-2026-10-26 23:43:17,327 V3 {'ts': 1793028329, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'sym': '불개미', 'price': 6.613739878e-05, 'action': 'skip-7d'}
 2026-10-26 23:43:43,612 V3 {'ts': 1793028434, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x09dd91c404587154390b9a0c9bfe67c8f5c77777', 'sym': 'GINNAN', 'price': 5.91e-05, 'action': 'skip-7d'}
 2026-10-26 23:45:02,612 tick equity=790.76 pnl=-209.24 head=129921404 v3=928.74
 2026-10-27 00:09:36,213 loop error rpc fail eth_getTransactionReceipt
@@ -298,3 +287,14 @@
 2026-10-27 05:44:03,019 tick equity=790.76 pnl=-209.24 head=129971573 v3=928.74
 2026-10-27 05:44:26,279 tick equity=790.76 pnl=-209.24 head=129971626 v3=928.74
 2026-10-27 05:48:50,960 tick equity=790.76 pnl=-209.24 head=129971678 v3=928.74
+2026-10-27 06:11:12,215 WATCHDOG: no successful tick 1340s, exiting for restart
+2026-10-27 06:12:24,376 v2 pnl7d unavailable RuntimeError
+2026-10-27 06:12:33,364 tick equity=790.76 pnl=-209.24 head=129975367 v3=928.74
+2026-10-27 06:13:00,559 tick equity=790.76 pnl=-209.24 head=129975427 v3=928.74
+2026-10-27 06:13:26,467 tick equity=790.76 pnl=-209.24 head=129975487 v3=928.74
+2026-10-27 06:13:48,221 tick equity=790.76 pnl=-209.24 head=129975545 v3=928.74
+2026-10-27 06:14:12,644 tick equity=790.76 pnl=-209.24 head=129975593 v3=928.74
+2026-10-27 06:14:38,065 tick equity=790.76 pnl=-209.24 head=129975647 v3=928.74
+2026-10-27 06:15:03,539 tick equity=790.76 pnl=-209.24 head=129975704 v3=928.74
+2026-10-27 06:15:27,714 tick equity=790.76 pnl=-209.24 head=129975760 v3=928.74
+2026-10-27 06:15:52,527 tick equity=790.76 pnl=-209.24 head=129975814 v3=928.74
