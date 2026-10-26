@@ -1,41 +1,3 @@
-2026-10-26 18:11:28,545 tick equity=790.76 pnl=-209.24 head=129879328 v3=928.74
-2026-10-26 18:11:49,694 tick equity=790.76 pnl=-209.24 head=129879376 v3=928.74
-2026-10-26 18:12:11,347 tick equity=790.76 pnl=-209.24 head=129879423 v3=928.74
-2026-10-26 18:12:33,008 tick equity=790.76 pnl=-209.24 head=129879471 v3=928.74
-2026-10-26 18:12:53,909 {'ts': 1793009556, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x8aeb285c613993d90cf35d16453b478f81527777', 'tx': '0x5054f20b6fcb6b2c71dfc7f74b6a06281829ee39e1a77e26fd1676bc58e566f8', 'action': 'skip-noprice'}
-2026-10-26 18:12:54,067 tick equity=790.76 pnl=-209.24 head=129879520 v3=928.74
-2026-10-26 18:13:16,131 {'ts': 1793009579, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x8aeb285c613993d90cf35d16453b478f81527777', 'tx': '0x11393e2a92eb41d9bbea6f891b1591d1d25568f261a80835abf866b9e491e23b', 'action': 'skip-noprice'}
-2026-10-26 18:13:16,618 tick equity=790.76 pnl=-209.24 head=129879566 v3=928.74
-2026-10-26 18:13:38,671 tick equity=790.76 pnl=-209.24 head=129879616 v3=928.74
-2026-10-26 18:14:00,255 tick equity=790.76 pnl=-209.24 head=129879666 v3=928.74
-2026-10-26 18:14:22,786 tick equity=790.76 pnl=-209.24 head=129879714 v3=928.74
-2026-10-26 18:14:44,796 V3 {'ts': 1793009681, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x9d9e7d7bbd5851609c317d9afe873d2c3922ffff', 'sym': 'BAgent', 'price': 8.567e-06, 'action': 'skip-7d'}
-2026-10-26 18:14:45,438 tick equity=790.76 pnl=-209.24 head=129879763 v3=928.74
-2026-10-26 18:15:07,912 {'ts': 1793009701, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'SELL', 'token': '0x8aeb285c613993d90cf35d16453b478f81527777', 'tx': '0x00243b7bfba1464eb64968dc868dd4232dcd4ecb6186e167ff4f473e75eda85d', 'action': 'skip-noprice'}
-2026-10-26 18:15:08,470 tick equity=790.76 pnl=-209.24 head=129879814 v3=928.74
-2026-10-26 18:15:30,217 tick equity=790.76 pnl=-209.24 head=129879865 v3=928.74
-2026-10-26 18:15:52,334 V3 {'ts': 1793009747, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x9d9e7d7bbd5851609c317d9afe873d2c3922ffff', 'sym': 'BAgent', 'price': 1.203e-05, 'action': 'skip-7d'}
-2026-10-26 18:15:53,131 tick equity=790.76 pnl=-209.24 head=129879913 v3=928.74
-2026-10-26 18:16:14,721 tick equity=790.76 pnl=-209.24 head=129879964 v3=928.74
-2026-10-26 18:16:36,726 tick equity=790.76 pnl=-209.24 head=129880012 v3=928.74
-2026-10-26 18:16:59,238 tick equity=790.76 pnl=-209.24 head=129880061 v3=928.74
-2026-10-26 18:17:21,148 tick equity=790.76 pnl=-209.24 head=129880111 v3=928.74
-2026-10-26 18:17:42,865 tick equity=790.76 pnl=-209.24 head=129880160 v3=928.74
-2026-10-26 18:18:04,646 tick equity=790.76 pnl=-209.24 head=129880208 v3=928.74
-2026-10-26 18:18:26,042 tick equity=790.76 pnl=-209.24 head=129880256 v3=928.74
-2026-10-26 18:18:48,692 tick equity=790.76 pnl=-209.24 head=129880304 v3=928.74
-2026-10-26 18:19:10,187 tick equity=790.76 pnl=-209.24 head=129880354 v3=928.74
-2026-10-26 18:37:16,608 V3 {'ts': 1793010214, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd421e4368ac7d3878d589bb60ec22dd54002fee8', 'sym': '大肥鱼', 'price': 0.0001144, 'liq': 32766, 'action': 'skip-badwallet', 'reasons': ['v3 record 51 closes wr 8% pnl -47.32']}
-2026-10-26 18:37:16,876 V3 {'ts': 1793010322, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd7ccd29b6fd1464edb425f24b01115556e737777', 'sym': 'sauce', 'price': 0.002223, 'liq': 186147, 'action': 'skip-badwallet', 'reasons': ['v3 record 51 closes wr 8% pnl -47.32']}
-2026-10-26 18:37:28,406 V3 {'ts': 1793009966, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xbb300d79495a5232d337481c75e8dbc3924e7777', 'sym': 'TAPE', 'price': 3.079e-05, 'action': 'skip-7d'}
-2026-10-26 18:37:37,804 tick equity=790.76 pnl=-209.24 head=129881202 v3=928.74
-2026-10-26 18:37:58,758 V3 {'ts': 1793011022, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x7ffcf7b3b52adcc00c76f50ce2e37bf3c7e215dc', 'sym': '.ai', 'price': 0.0003734, 'action': 'skip-7d'}
-2026-10-26 18:38:00,812 V3 {'ts': 1793010427, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.004237, 'liq': 257268, 'action': 'skip-badwallet', 'reasons': ['v3 record 51 closes wr 8% pnl -47.32']}
-2026-10-26 18:38:17,823 V3 {'ts': 1793010683, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xb726477d1743b02c5fdae5ab094745665eeb7777', 'sym': '7AGENT', 'price': 0.00016, 'action': 'skip-7d'}
-2026-10-26 18:38:30,459 tick equity=790.76 pnl=-209.24 head=129882864 v3=928.74
-2026-10-26 18:38:52,831 tick equity=790.76 pnl=-209.24 head=129882981 v3=928.74
-2026-10-26 18:39:13,948 tick equity=790.76 pnl=-209.24 head=129883030 v3=928.74
-2026-10-26 18:39:35,201 tick equity=790.76 pnl=-209.24 head=129883077 v3=928.74
 2026-10-26 18:39:56,009 tick equity=790.76 pnl=-209.24 head=129883124 v3=928.74
 2026-10-26 18:40:16,943 tick equity=790.76 pnl=-209.24 head=129883167 v3=928.74
 2026-10-26 18:40:38,465 tick equity=790.76 pnl=-209.24 head=129883182 v3=928.74
@@ -298,3 +260,41 @@
 2026-10-26 20:22:52,410 V3 {'ts': 1793017368, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 2.671e-05, 'action': 'skip-7d'}
 2026-10-26 20:22:53,474 tick equity=790.76 pnl=-209.24 head=129896768 v3=928.74
 2026-10-26 20:23:18,847 tick equity=790.76 pnl=-209.24 head=129896821 v3=928.74
+2026-10-26 20:23:45,164 tick equity=790.76 pnl=-209.24 head=129896877 v3=928.74
+2026-10-26 20:24:09,687 tick equity=790.76 pnl=-209.24 head=129896935 v3=928.74
+2026-10-26 20:24:30,530 V3 {'ts': 1793017469, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 7.163e-05, 'action': 'skip-7d'}
+2026-10-26 20:24:30,530 CONFLUENCE BNC 0xfb35af4bc3b90e0b700088642e368c59c1e87777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xdf579d27140000251421f3bb2b4ed43835eb3b6b']
+2026-10-26 20:24:33,643 V2-RISK BNC 0xfb35af4bc3b90e0b700088642e368c59c1e87777 KILL buy_tax unknown; sell_tax unknown
+2026-10-26 20:24:33,643 V2 {'ts': 1793017469, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 7.163e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-26 20:25:27,031 tick equity=790.76 pnl=-209.24 head=129896990 v3=928.74
+2026-10-26 20:25:48,396 V3 {'ts': 1793017529, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:50,229 V3 {'ts': 1793017502, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:50,327 V3 {'ts': 1793017503, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:50,476 V3 {'ts': 1793017505, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:50,575 V3 {'ts': 1793017511, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:50,673 V3 {'ts': 1793017511, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:50,775 V3 {'ts': 1793017512, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:50,869 V3 {'ts': 1793017512, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,020 V3 {'ts': 1793017512, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,116 V3 {'ts': 1793017513, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,224 V3 {'ts': 1793017513, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,368 V3 {'ts': 1793017514, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,418 V3 {'ts': 1793017514, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,488 V3 {'ts': 1793017514, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,596 V3 {'ts': 1793017515, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,734 V3 {'ts': 1793017515, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,875 V3 {'ts': 1793017516, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:51,952 V3 {'ts': 1793017516, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:52,099 V3 {'ts': 1793017516, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:52,186 V3 {'ts': 1793017517, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:52,216 V3 {'ts': 1793017517, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:52,337 V3 {'ts': 1793017517, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:52,390 V3 {'ts': 1793017518, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:25:52,490 V3 {'ts': 1793017518, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfb35af4bc3b90e0b700088642e368c59c1e87777', 'sym': 'BNC', 'price': 6.745e-05, 'action': 'skip-7d'}
+2026-10-26 20:26:06,236 tick equity=790.76 pnl=-209.24 head=129897162 v3=928.74
+2026-10-26 20:26:33,243 tick equity=790.76 pnl=-209.24 head=129897249 v3=928.74
+2026-10-26 20:26:54,294 V3 {'ts': 1793017608, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'sym': '불개미', 'price': 0.0002056348887, 'liq': 21591, 'action': 'skip-badwallet', 'reasons': ['v3 record 45 closes wr 7% pnl -42.87']}
+2026-10-26 20:26:57,678 tick equity=790.76 pnl=-209.24 head=129897309 v3=928.74
+2026-10-26 20:27:20,518 tick equity=790.76 pnl=-209.24 head=129897363 v3=928.74
+2026-10-26 20:27:44,703 tick equity=790.76 pnl=-209.24 head=129897414 v3=928.74
+2026-10-26 20:28:08,734 tick equity=790.76 pnl=-209.24 head=129897468 v3=928.74
