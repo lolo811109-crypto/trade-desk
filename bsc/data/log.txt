@@ -1,7 +1,3 @@
-2026-10-26 19:28:18,276 {'ts': 1793014002, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0x92372288a2e78a07397d0225ff7f2cc46de20dd0069649121d426ae4022ebb97', 'action': 'skip-noprice'}
-2026-10-26 19:28:18,480 {'ts': 1793014075, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0xb2ed49f7767acab751dd875756f9a29e64f3f08c719ef1d16d22a4250c20430d', 'action': 'skip-noprice'}
-2026-10-26 19:28:18,630 {'ts': 1793014085, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0x8aef194c6e8a43eda3565d712d8badb6886c07915a01b7eaeb767b1b876d7695', 'action': 'skip-noprice'}
-2026-10-26 19:28:20,721 {'ts': 1793013852, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x7ed3364aeffdef4b484c81bc8385edb912327777', 'tx': '0x510789240a2c1446b8887302b27043812d1f53a32465e4cec0b0fe7874d95f7d', 'action': 'skip-noprice'}
 2026-10-26 19:28:20,876 {'ts': 1793013878, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x7ed3364aeffdef4b484c81bc8385edb912327777', 'tx': '0x26f7397957b5019d738cfc0c43863b836c6242c08b47fe996b0b6e27414a681d', 'action': 'skip-noprice'}
 2026-10-26 19:28:21,071 {'ts': 1793014024, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0x7ed3364aeffdef4b484c81bc8385edb912327777', 'tx': '0x04fb346ae6dc6035cda4b1a0db6c4d2078114ebc4e13c6afb9aa1c4b82f1319e', 'action': 'skip-noprice'}
 2026-10-26 19:28:21,216 {'ts': 1793014064, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x59c694e8b38f23c25ce51aa38719106fd5887777', 'tx': '0xc7a27c5e925c421ee94cfa222eaa86bd93c0102e509b8f20d90e790b8241283e', 'action': 'skip-noprice'}
@@ -298,3 +294,7 @@
 2026-10-26 21:07:32,998 tick equity=790.76 pnl=-209.24 head=129902721 v3=928.74
 2026-10-26 21:07:57,753 tick equity=790.76 pnl=-209.24 head=129902776 v3=928.74
 2026-10-26 21:08:22,234 tick equity=790.76 pnl=-209.24 head=129902831 v3=928.74
+2026-10-26 21:08:44,002 V3 {'ts': 1793020102, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x33794b7149a27dd730eb2b186faddea592e87777', 'sym': 'AIDCOIN', 'price': 5.209e-05, 'action': 'skip-7d'}
+2026-10-26 21:08:49,208 tick equity=790.76 pnl=-209.24 head=129902885 v3=928.74
+2026-10-26 21:11:30,069 tick equity=790.76 pnl=-209.24 head=129902945 v3=928.74
+2026-10-26 21:12:09,974 V3 {'ts': 1793020230, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xf49725118cb0707b8706ffffe895f3ab16da7777', 'sym': 'b-money', 'price': 0.0004312, 'liq': 88778, 'action': 'skip-badwallet', 'reasons': ['v3 record 44 closes wr 7% pnl -42.36']}
