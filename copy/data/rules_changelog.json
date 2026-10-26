@@ -60,5 +60,15 @@
   "ts": "2026-10-25T09:16:00+08:00",
   "scope": "POLY新钱包 (lab_new)",
   "change": "rescreen: drop isco22/Ksi172/noosh3/Shimi1234 (paper losers; only tin54321 was green at +$62). Keep tin54321; add FinalOrder, BanfieldChris, Pjosully (leaderboard WEEK∩MONTH>0, short≤24h, copy_filter sample). Per-wallet budget $200→$80; MAX_STAKE $50→$25. Flattened dropped wallets' open positions into pool at mark. 高胜率精选 circuit breaker left alone (auto day-roll already on 2026-10-25, re-halted after ~20% day drawdown)."
+ },
+ {
+  "ts": "2026-10-26T11:10:00+08:00",
+  "scope": "BSC v3",
+  "change": "entry tightened: liq floor $5,000→$20,000; skip wallet if its own v3 record ≥8 closes with win rate <20% and net PnL <0 (0xee10: 50 closes, 4 wins, −46); no re-entry on same token within 2h of exit. SL/TP/dev gate unchanged. 原版/v2 frozen untouched, 共振 untouched."
+ },
+ {
+  "ts": "2026-10-26T11:10:00+08:00",
+  "scope": "高胜率精选 (lab_top)",
+  "change": "daily wallet pick: was sort by pnl only → score = PnL/100 + 2×ROI + win rate − drawdown/100, need ≥5 closed trades and PnL>0, top 3. Circuit breaker unchanged."
  }
 ]
