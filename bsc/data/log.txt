@@ -1,18 +1,3 @@
-2026-10-26 04:06:19,917 V3 {'ts': 1792958755, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.0001696380372, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
-2026-10-26 04:06:24,643 tick equity=790.76 pnl=-209.24 head=129766686 v3=932.18
-2026-10-26 04:06:45,920 V3 {'ts': 1792958783, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.0001696380372, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
-2026-10-26 04:06:46,075 V3 {'ts': 1792958784, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.0001696380372, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
-2026-10-26 04:06:46,261 {'ts': 1792958801, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'tx': '0x56660e03d5b84457d7f66d73ae51af977de12489d4dc4f9e4c630d00aaeeadc7', 'action': 'skip-noprice'}
-2026-10-26 04:06:49,186 tick equity=790.76 pnl=-209.24 head=129766743 v3=932.18
-2026-10-26 04:07:14,313 tick equity=790.76 pnl=-209.24 head=129766797 v3=932.2
-2026-10-26 04:07:35,679 V3 {'ts': 1792958846, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.000127176249, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
-2026-10-26 04:07:38,575 tick equity=790.76 pnl=-209.24 head=129766853 v3=932.2
-2026-10-26 04:08:01,390 tick equity=790.76 pnl=-209.24 head=129766907 v3=932.28
-2026-10-26 04:08:25,021 tick equity=790.76 pnl=-209.24 head=129766958 v3=932.12
-2026-10-26 04:08:46,184 V3 {'ts': 1792958903, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.0001152859843, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
-2026-10-26 04:08:48,766 tick equity=790.76 pnl=-209.24 head=129767010 v3=932.17
-2026-10-26 04:09:09,699 V3 {'ts': 1792958931, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.0001152859843, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
-2026-10-26 04:09:13,356 tick equity=790.76 pnl=-209.24 head=129767063 v3=932.17
 2026-10-26 04:09:34,696 V3 {'ts': 1792958964, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.0001152859843, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
 2026-10-26 04:09:39,262 tick equity=790.76 pnl=-209.24 head=129767118 v3=932.35
 2026-10-26 04:10:00,759 V3 {'ts': 1792958992, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b6b3e166ec666ea16525265c533360b769e56ea', 'sym': 'ONECOIN', 'price': 0.0001152859843, 'action': 'skip-missing_data', 'reasons': ['missing_data: h1 sells unknown (honeypot guard)']}
@@ -298,3 +283,18 @@
 2026-10-26 08:13:50,929 tick equity=790.76 pnl=-209.24 head=129799679 v3=931.01
 2026-10-26 08:14:12,609 tick equity=790.76 pnl=-209.24 head=129799728 v3=931.01
 2026-10-26 08:14:33,987 tick equity=790.76 pnl=-209.24 head=129799776 v3=931.01
+2026-10-26 08:20:12,497 tick equity=790.76 pnl=-209.24 head=129799823 v3=931.01
+2026-10-26 08:30:10,817 tick equity=790.76 pnl=-209.24 head=129800576 v3=931.01
+2026-10-26 08:30:34,021 V3-RISK Max 0xe9bc5c6a86caa44fd7b469bf3cc7c563e4f77777 PASS info: dev holds 0.0%
+2026-10-26 08:30:34,021 V3 {'ts': 1792974102, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe9bc5c6a86caa44fd7b469bf3cc7c563e4f77777', 'sym': 'Max', 'price': 0.002548, 'action': 'buy', 'stake': 10.0}
+2026-10-26 08:30:44,831 tick equity=790.76 pnl=-209.24 head=129801904 v3=930.22
+2026-10-26 08:31:07,067 tick equity=790.76 pnl=-209.24 head=129801979 v3=930.22
+2026-10-26 08:31:29,584 tick equity=790.76 pnl=-209.24 head=129802029 v3=930.22
+2026-10-26 08:31:50,466 tick equity=790.76 pnl=-209.24 head=129802079 v3=930.25
+2026-10-26 08:32:11,340 tick equity=790.76 pnl=-209.24 head=129802125 v3=930.25
+2026-10-26 08:32:32,383 tick equity=790.76 pnl=-209.24 head=129802172 v3=930.36
+2026-10-26 08:32:53,443 tick equity=790.76 pnl=-209.24 head=129802219 v3=930.36
+2026-10-26 08:33:15,125 tick equity=790.76 pnl=-209.24 head=129802265 v3=930.45
+2026-10-26 08:33:36,744 tick equity=790.76 pnl=-209.24 head=129802314 v3=930.5
+2026-10-26 08:33:57,683 tick equity=790.76 pnl=-209.24 head=129802362 v3=930.5
+2026-10-26 08:34:19,639 tick equity=790.76 pnl=-209.24 head=129802408 v3=930.51
