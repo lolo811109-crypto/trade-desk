@@ -1,6 +1,3 @@
-2026-10-26 19:29:16,131 {'ts': 1793013830, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0x0459aae560e54d39aa20ba209609cf5f50d0c3d0536457c158bab672a52f3476', 'action': 'skip-noprice'}
-2026-10-26 19:29:16,191 {'ts': 1793013932, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0xe5735576d6aa649b59dfd95c2cf591fe4631ff34140b5de9b12389b1235e1693', 'action': 'skip-noprice'}
-2026-10-26 19:29:16,299 {'ts': 1793013969, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0xcefbbdf62dabd55812bed9de4d72534edc06ea85b147652b2bbd02eef9509f1b', 'action': 'skip-noprice'}
 2026-10-26 19:29:16,443 {'ts': 1793013987, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0x8b7f374749c7ca91ec3103737c5c903a66f5a4681fbd7080b2e3464919227ce9', 'action': 'skip-noprice'}
 2026-10-26 19:29:16,561 {'ts': 1793014044, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'SELL', 'token': '0x988635ef13f78daf7022f6109dbf6b02f35c7777', 'tx': '0x8d0bc7e2e5b001d44d1311605d84bc6e756d1ef20dea649aa802478d3f0da02e', 'action': 'skip-noprice'}
 2026-10-26 19:30:28,867 tick equity=790.76 pnl=-209.24 head=129889473 v3=928.74
@@ -298,3 +295,6 @@
 2026-10-26 21:50:40,669 V3 {'ts': 1793021536, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x1d3437e570e93581bd94b2fd8fbf202d4a65654a', 'sym': 'NBT', 'price': 0.001004, 'action': 'skip-7d'}
 2026-10-26 21:51:24,694 V3 {'ts': 1793021715, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x1d3437e570e93581bd94b2fd8fbf202d4a65654a', 'sym': 'NBT', 'price': 0.001004, 'action': 'skip-7d'}
 2026-10-26 21:53:26,260 V3 {'ts': 1793020882, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x967b26d369571a8c5a035aaac1f4b1594287ffff', 'sym': 'BIBI', 'price': 2.76e-05, 'action': 'skip-7d'}
+2026-10-26 21:56:40,165 V3 {'ts': 1793021674, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xcafdbce93477261db8250e42bdae6e66733f9e20', 'sym': 'GSTOCK', 'price': 0.004788, 'action': 'skip-7d'}
+2026-10-26 21:56:40,749 V3 {'ts': 1793021675, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xcafdbce93477261db8250e42bdae6e66733f9e20', 'sym': 'GSTOCK', 'price': 0.004788, 'action': 'skip-7d'}
+2026-10-26 22:13:40,911 WATCHDOG: loop stalled 2262s, exiting for restart
