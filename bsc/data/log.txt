@@ -1,14 +1,3 @@
-2026-10-27 17:20:28,541 V3 {'ts': 1793092805, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd421e4368ac7d3878d589bb60ec22dd54002fee8', 'sym': '大肥鱼', 'price': 0.0002608, 'liq': 51289, 'action': 'skip-badwallet', 'reasons': ['v3 record 39 closes wr 5% pnl -37.69']}
-2026-10-27 17:20:30,970 V3 {'ts': 1793092826, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x4b1f0b4ac6d634f223cea6379ce855f372ffac65', 'sym': 'TURF', 'price': 1.731e-05, 'action': 'skip-7d'}
-2026-10-27 17:20:31,989 tick equity=790.76 pnl=-209.24 head=130064366 v3=928.74
-2026-10-27 17:20:55,823 tick equity=790.76 pnl=-209.24 head=130064422 v3=928.74
-2026-10-27 17:21:19,259 tick equity=790.76 pnl=-209.24 head=130064475 v3=928.74
-2026-10-27 17:21:43,498 tick equity=790.76 pnl=-209.24 head=130064527 v3=928.74
-2026-10-27 17:22:08,563 tick equity=790.76 pnl=-209.24 head=130064581 v3=928.74
-2026-10-27 17:25:58,325 loop error rpc fail eth_blockNumber
-2026-10-27 17:26:42,527 {'ts': 1793092963, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'SELL', 'token': '0x77111f4d6820cc1e8a2ebcb5fe9db8a424f27777', 'tx': '0x3f279d8cbff5b1ffd3b188ab8eca1350dc28efc8c7ec34798a70c213abda6a90', 'action': 'skip-noprice'}
-2026-10-27 17:29:47,335 tick equity=790.76 pnl=-209.24 head=130065147 v3=928.74
-2026-10-27 17:34:36,334 loop error rpc fail eth_getBlockByNumber
 2026-10-27 17:35:06,445 SKIP-AHEAD 0xb9b069 behind 664 blocks (130065655->130066319)
 2026-10-27 17:35:06,596 SKIP-AHEAD 0xd392fc behind 664 blocks (130065655->130066319)
 2026-10-27 17:35:06,673 SKIP-AHEAD 0xa03fa8 behind 664 blocks (130065655->130066319)
@@ -298,3 +287,14 @@
 2026-10-27 20:41:46,801 tick equity=790.76 pnl=-209.24 head=130091183 v3=933.3
 2026-10-27 20:42:08,846 V3 {'ts': 1793104898, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x43abc54aa0e2fab430203ae1e53391e630bc7777', 'sym': 'HUSHC', 'price': 1.262e-05, 'action': 'skip-7d'}
 2026-10-27 20:42:10,710 tick equity=790.76 pnl=-209.24 head=130091248 v3=933.3
+2026-10-27 20:53:10,760 WATCHDOG: no successful tick 660s, exiting for restart
+2026-10-27 20:54:23,614 v2 pnl7d unavailable RuntimeError
+2026-10-27 20:54:33,004 tick equity=790.76 pnl=-209.24 head=130092889 v3=933.3
+2026-10-27 20:54:58,110 tick equity=790.76 pnl=-209.24 head=130092950 v3=933.3
+2026-10-27 20:55:24,135 tick equity=790.76 pnl=-209.24 head=130093006 v3=933.3
+2026-10-27 20:55:52,544 tick equity=790.76 pnl=-209.24 head=130093064 v3=933.3
+2026-10-27 20:56:16,056 V3 {'ts': 1793105748, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xb98959c6445ab2a1f4e37c50cf9346e0cedd7777', 'sym': 'TP', 'price': 2.939e-05, 'action': 'skip-7d'}
+2026-10-27 20:56:17,372 tick equity=790.76 pnl=-209.24 head=130093127 v3=933.3
+2026-10-27 20:56:41,013 tick equity=790.76 pnl=-209.24 head=130093182 v3=933.3
+2026-10-27 20:57:05,021 tick equity=790.76 pnl=-209.24 head=130093235 v3=933.3
+2026-10-27 20:57:30,685 tick equity=790.76 pnl=-209.24 head=130093288 v3=933.3
