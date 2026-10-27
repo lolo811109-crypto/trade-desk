@@ -76,5 +76,11 @@
   "account": "BSC paper_bsc",
   "change": "watchdog: heartbeat only on successful tick, exit if none for 10 min; RPC timeout (5s connect,10s read); if >600 blocks behind, skip ahead to tip (logged SKIP-AHEAD). Frozen 原版/v2 untouched.",
   "backup": "bsc/paper_bsc.py.bak-watchdog1027"
+ },
+ {
+  "date": "2026-10-27",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选 (poly_lab.py)",
+  "change": "esports markets (LoL/CS/Dota/Valorant etc. by title keyword, esports.py): map/game/handicap/kills lines skipped (why=esports_map) in 共享池/锦标赛/共识; match-level esports stake = min(50% normal, $10). 精选 only gets the stake cap (its esports were net positive). Analysis: esports_analysis_1027.json",
+  "backup": "*.bak-esports1027"
  }
 ]
