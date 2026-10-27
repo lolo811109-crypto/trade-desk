@@ -1,18 +1,3 @@
-2026-10-27 18:22:14,377 tick equity=790.76 pnl=-209.24 head=130072596 v3=928.74
-2026-10-27 18:22:36,020 tick equity=790.76 pnl=-209.24 head=130072647 v3=928.74
-2026-10-27 18:22:58,151 tick equity=790.76 pnl=-209.24 head=130072695 v3=928.74
-2026-10-27 18:23:22,082 tick equity=790.76 pnl=-209.24 head=130072745 v3=928.74
-2026-10-27 18:23:47,443 tick equity=790.76 pnl=-209.24 head=130072798 v3=928.74
-2026-10-27 18:24:10,678 tick equity=790.76 pnl=-209.24 head=130072854 v3=928.74
-2026-10-27 18:24:33,628 tick equity=790.76 pnl=-209.24 head=130072906 v3=928.74
-2026-10-27 18:24:55,480 tick equity=790.76 pnl=-209.24 head=130072957 v3=928.74
-2026-10-27 18:25:19,294 tick equity=790.76 pnl=-209.24 head=130073005 v3=928.74
-2026-10-27 18:25:40,730 V3 {'ts': 1793096731, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b2ce31a577d92f73516c7a91febc7672247e694', 'sym': 'Gangstar', 'price': 0.0004122, 'liq': 99550, 'action': 'skip-badwallet', 'reasons': ['v3 record 38 closes wr 5% pnl -36.77']}
-2026-10-27 18:25:43,799 V3 {'ts': 1793096734, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x6b2ce31a577d92f73516c7a91febc7672247e694', 'sym': 'Gangstar', 'price': 0.0004122, 'action': 'skip-7d'}
-2026-10-27 18:25:43,800 CONFLUENCE Gangstar 0x6b2ce31a577d92f73516c7a91febc7672247e694 wallets=['0xdf579d27140000251421f3bb2b4ed43835eb3b6b', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
-2026-10-27 18:25:46,764 V2-RISK Gangstar 0x6b2ce31a577d92f73516c7a91febc7672247e694 KILL buy_tax unknown; sell_tax unknown
-2026-10-27 18:25:46,764 V2 {'ts': 1793096734, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x6b2ce31a577d92f73516c7a91febc7672247e694', 'sym': 'Gangstar', 'price': 0.0004122, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-27 18:25:46,913 tick equity=790.76 pnl=-209.24 head=130073058 v3=928.74
 2026-10-27 18:26:10,355 tick equity=790.76 pnl=-209.24 head=130073120 v3=928.74
 2026-10-27 18:26:32,922 tick equity=790.76 pnl=-209.24 head=130073172 v3=928.74
 2026-10-27 18:26:54,541 tick equity=790.76 pnl=-209.24 head=130073222 v3=928.74
@@ -298,3 +283,18 @@
 2026-10-27 21:20:30,515 tick equity=790.76 pnl=-209.24 head=130096359 v3=933.3
 2026-10-27 21:20:52,063 tick equity=790.76 pnl=-209.24 head=130096411 v3=933.3
 2026-10-27 21:21:15,626 tick equity=790.76 pnl=-209.24 head=130096459 v3=933.3
+2026-10-27 21:36:45,569 WATCHDOG: no successful tick 929s, exiting for restart
+2026-10-27 21:37:55,702 v2 pnl7d unavailable RuntimeError
+2026-10-27 21:38:04,043 V3 {'ts': 1793108267, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xaa1bf035cdaf381585d223acb73228c59ca37777', 'sym': '蜜猴', 'price': 1.961e-05, 'action': 'skip-7d'}
+2026-10-27 21:38:06,134 tick equity=790.76 pnl=-209.24 head=130098691 v3=933.3
+2026-10-27 21:38:31,341 V3 {'ts': 1793108304, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0xaa1bf035cdaf381585d223acb73228c59ca37777', 'sym': '蜜猴', 'price': 1.943e-05, 'action': 'skip-7d'}
+2026-10-27 21:38:31,341 CONFLUENCE 蜜猴 0xaa1bf035cdaf381585d223acb73228c59ca37777 wallets=['0xc9ac2d47615508a16e46a3459eb4f564ad906a32', '0xdf579d27140000251421f3bb2b4ed43835eb3b6b']
+2026-10-27 21:38:31,684 V2-RISK 蜜猴 0xaa1bf035cdaf381585d223acb73228c59ca37777 PASS 
+2026-10-27 21:38:31,684 V2 {'ts': 1793108304, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xaa1bf035cdaf381585d223acb73228c59ca37777', 'sym': '蜜猴', 'price': 1.943e-05, 'action': 'buy', 'stake': 10.0}
+2026-10-27 21:38:33,372 tick equity=790.76 pnl=-209.24 head=130098755 v3=933.3
+2026-10-27 21:38:57,206 tick equity=790.76 pnl=-209.24 head=130098816 v3=933.3
+2026-10-27 21:39:20,332 tick equity=790.76 pnl=-209.24 head=130098869 v3=933.3
+2026-10-27 21:39:44,664 tick equity=790.76 pnl=-209.24 head=130098920 v3=933.3
+2026-10-27 21:40:07,228 tick equity=790.76 pnl=-209.24 head=130098974 v3=933.3
+2026-10-27 21:40:31,271 tick equity=790.76 pnl=-209.24 head=130099024 v3=933.3
+2026-10-27 21:40:54,341 tick equity=790.76 pnl=-209.24 head=130099078 v3=933.3
