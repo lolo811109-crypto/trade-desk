@@ -1,5 +1,3 @@
-2026-10-27 14:42:23,135 V3 {'ts': 1793083334, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x22cc04d8d201eeaecbace9ce91c5ef117f167777', 'sym': '大肥鱼', 'price': 0.0001393, 'liq': 34408, 'action': 'skip-badwallet', 'reasons': ['v3 record 44 closes wr 7% pnl -42.36']}
-2026-10-27 14:42:27,330 tick equity=790.76 pnl=-209.24 head=130043333 v3=928.74
 2026-10-27 14:42:52,326 tick equity=790.76 pnl=-209.24 head=130043391 v3=928.74
 2026-10-27 14:43:14,143 V3 {'ts': 1793083382, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x400067859346b77ee6a838e8ce6b8e712f96177a', 'sym': 'AGI', 'price': 0.0001162, 'action': 'skip-7d'}
 2026-10-27 14:43:19,061 tick equity=790.76 pnl=-209.24 head=130043447 v3=928.74
@@ -298,3 +296,5 @@
 2026-10-27 17:21:43,498 tick equity=790.76 pnl=-209.24 head=130064527 v3=928.74
 2026-10-27 17:22:08,563 tick equity=790.76 pnl=-209.24 head=130064581 v3=928.74
 2026-10-27 17:25:58,325 loop error rpc fail eth_blockNumber
+2026-10-27 17:26:42,527 {'ts': 1793092963, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'SELL', 'token': '0x77111f4d6820cc1e8a2ebcb5fe9db8a424f27777', 'tx': '0x3f279d8cbff5b1ffd3b188ab8eca1350dc28efc8c7ec34798a70c213abda6a90', 'action': 'skip-noprice'}
+2026-10-27 17:29:47,335 tick equity=790.76 pnl=-209.24 head=130065147 v3=928.74
