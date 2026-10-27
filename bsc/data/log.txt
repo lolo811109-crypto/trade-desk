@@ -1,17 +1,3 @@
-2026-10-27 22:56:42,226 tick equity=790.76 pnl=-209.24 head=130109159 v3=933.3
-2026-10-27 22:57:09,108 tick equity=790.76 pnl=-209.24 head=130109231 v3=933.3
-2026-10-27 22:57:31,102 V3 {'ts': 1793113032, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xd421e4368ac7d3878d589bb60ec22dd54002fee8', 'sym': '大肥鱼', 'price': 0.0001755, 'liq': 42307, 'action': 'skip-badwallet', 'reasons': ['v3 record 37 closes wr 5% pnl -35.82']}
-2026-10-27 22:57:35,970 tick equity=790.76 pnl=-209.24 head=130109291 v3=933.3
-2026-10-27 22:58:02,923 tick equity=790.76 pnl=-209.24 head=130109351 v3=933.3
-2026-10-27 22:58:29,513 tick equity=790.76 pnl=-209.24 head=130109411 v3=933.3
-2026-10-27 22:58:55,031 tick equity=790.76 pnl=-209.24 head=130109470 v3=933.3
-2026-10-27 22:59:17,087 V3 {'ts': 1793113136, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6b2ce31a577d92f73516c7a91febc7672247e694', 'sym': 'Gangstar', 'price': 0.0002751, 'liq': 77114, 'action': 'skip-badwallet', 'reasons': ['v3 record 37 closes wr 5% pnl -35.82']}
-2026-10-27 22:59:20,669 tick equity=790.76 pnl=-209.24 head=130109526 v3=933.3
-2026-10-27 23:04:13,678 {'ts': 1793113272, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x8b0593f84bb8a35be12eee891d919ff0fc2c7777', 'tx': '0x0c10698fc5892fde5b0747c3c24b7d223774569687167d30c2267d94b6de21c7', 'action': 'skip-noprice'}
-2026-10-27 23:04:20,763 {'ts': 1793113298, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0x8b0593f84bb8a35be12eee891d919ff0fc2c7777', 'tx': '0xd29095a647808395b4fb7902b60aae92b9c91260fd85c1eb65f3b6e8ae3b2740', 'action': 'skip-noprice'}
-2026-10-27 23:08:08,443 tick equity=790.76 pnl=-209.24 head=130110122 v3=933.3
-2026-10-27 23:08:28,523 SKIP-AHEAD 0xb9b069 behind 634 blocks (130110122->130110756)
-2026-10-27 23:08:28,650 SKIP-AHEAD 0xd392fc behind 634 blocks (130110122->130110756)
 2026-10-27 23:08:28,733 SKIP-AHEAD 0xa03fa8 behind 634 blocks (130110122->130110756)
 2026-10-27 23:08:28,819 SKIP-AHEAD 0x9bee11 behind 634 blocks (130110122->130110756)
 2026-10-27 23:08:28,951 SKIP-AHEAD 0x5bc3a8 behind 634 blocks (130110122->130110756)
@@ -298,3 +284,17 @@
 2026-10-28 04:10:06,742 tick equity=790.76 pnl=-209.24 head=130150960 v3=933.3
 2026-10-28 04:10:31,076 tick equity=790.76 pnl=-209.24 head=130151011 v3=933.3
 2026-10-28 04:10:56,753 tick equity=790.76 pnl=-209.24 head=130151065 v3=933.3
+2026-10-28 04:16:47,884 tick equity=790.76 pnl=-209.24 head=130151122 v3=933.3
+2026-10-28 04:36:20,838 WATCHDOG: no successful tick 1172s, exiting for restart
+2026-10-28 04:37:33,474 v2 pnl7d unavailable RuntimeError
+2026-10-28 04:37:38,831 tick equity=790.76 pnl=-209.24 head=130154630 v3=933.3
+2026-10-28 04:38:01,302 tick equity=790.76 pnl=-209.24 head=130154682 v3=933.3
+2026-10-28 04:38:22,874 tick equity=790.76 pnl=-209.24 head=130154732 v3=933.3
+2026-10-28 04:38:45,376 V3 {'ts': 1793133504, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x1fa0f5ed24a1a2b43741e88f8fec19633e67082b', 'sym': 'DIAM', 'price': 0.001815, 'action': 'skip-7d'}
+2026-10-28 04:38:48,239 tick equity=790.76 pnl=-209.24 head=130154780 v3=933.3
+2026-10-28 04:39:10,086 tick equity=790.76 pnl=-209.24 head=130154837 v3=933.3
+2026-10-28 04:39:31,876 tick equity=790.76 pnl=-209.24 head=130154885 v3=933.3
+2026-10-28 04:39:53,570 V3 {'ts': 1793133570, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x1fa0f5ed24a1a2b43741e88f8fec19633e67082b', 'sym': 'DIAM', 'price': 0.001862, 'action': 'skip-7d'}
+2026-10-28 04:39:55,489 tick equity=790.76 pnl=-209.24 head=130154934 v3=933.3
+2026-10-28 04:40:19,157 tick equity=790.76 pnl=-209.24 head=130154986 v3=933.3
+2026-10-28 04:40:42,643 tick equity=790.76 pnl=-209.24 head=130155039 v3=933.3
