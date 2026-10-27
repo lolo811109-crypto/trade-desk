@@ -82,5 +82,73 @@
   "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选 (poly_lab.py)",
   "change": "esports markets (LoL/CS/Dota/Valorant etc. by title keyword, esports.py): map/game/handicap/kills lines skipped (why=esports_map) in 共享池/锦标赛/共识; match-level esports stake = min(50% normal, $10). 精选 only gets the stake cap (its esports were net positive). Analysis: esports_analysis_1027.json",
   "backup": "*.bak-esports1027"
+ },
+ {
+  "date": "2026-10-27",
+  "account": "Poly 信息型钱包 (poly_info.py, paper_state_lab_info.json)",
+  "change": "NEW paper account $1000: daily picks 3-5 wallets from shortlist+new_wallets by score=batch+cold+hold+winrate (recent 200 closed positions; need >=5 closed & PnL>0). $20/buy, $50/market, esports rules, 10% daily breaker, slippage as poly_lab.",
+  "backup": "*.bak-info1027"
+ },
+ {
+  "date": "2026-10-27",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: [] -> ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x27f738fe203827445690339104aae35b20bc44b0', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26']",
+  "scores": {
+   "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
+    "score": 2.042,
+    "batch": 0.053,
+    "cold": 0.024,
+    "hold": 0.995,
+    "winrate": 0.97,
+    "closed": 33,
+    "realized_pnl": 76562.99,
+    "n_trades": 211,
+    "eligible": true
+   },
+   "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": {
+    "score": 1.935,
+    "batch": 0.0,
+    "cold": 0.08,
+    "hold": 1.0,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 144192.88,
+    "n_trades": 500,
+    "eligible": true
+   },
+   "0x27f738fe203827445690339104aae35b20bc44b0": {
+    "score": 1.896,
+    "batch": 0.029,
+    "cold": 0.012,
+    "hold": 1.0,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 305276.93,
+    "n_trades": 500,
+    "eligible": true
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 1.858,
+    "batch": 0.15,
+    "cold": 0.109,
+    "hold": 0.854,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1373417.93,
+    "n_trades": 500,
+    "eligible": true
+   },
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "score": 1.857,
+    "batch": 0.013,
+    "cold": 0.055,
+    "hold": 0.994,
+    "winrate": 0.795,
+    "closed": 200,
+    "realized_pnl": 666588.02,
+    "n_trades": 500,
+    "eligible": true
+   }
+  }
  }
 ]
