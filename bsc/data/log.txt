@@ -1,9 +1,3 @@
-2026-10-27 12:04:09,001 tick equity=790.76 pnl=-209.24 head=130022233 v3=928.74
-2026-10-27 12:04:32,445 tick equity=790.76 pnl=-209.24 head=130022289 v3=928.74
-2026-10-27 12:04:55,236 tick equity=790.76 pnl=-209.24 head=130022341 v3=928.74
-2026-10-27 12:05:21,562 tick equity=790.76 pnl=-209.24 head=130022391 v3=928.74
-2026-10-27 12:05:45,381 tick equity=790.76 pnl=-209.24 head=130022450 v3=928.74
-2026-10-27 12:06:09,864 tick equity=790.76 pnl=-209.24 head=130022503 v3=928.74
 2026-10-27 12:06:33,289 tick equity=790.76 pnl=-209.24 head=130022557 v3=928.74
 2026-10-27 12:06:56,741 tick equity=790.76 pnl=-209.24 head=130022609 v3=928.74
 2026-10-27 12:07:21,337 tick equity=790.76 pnl=-209.24 head=130022662 v3=928.74
@@ -298,3 +292,9 @@
 2026-10-27 15:52:40,703 V3 {'ts': 1793087527, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0x9d1c95a46c8dea516f4efc2ed845eadedc5e7777', 'sym': '创造历史', 'price': 7.526e-06, 'action': 'skip-7d'}
 2026-10-27 15:52:42,464 tick equity=790.76 pnl=-209.24 head=130052683 v3=928.74
 2026-10-27 15:53:08,923 tick equity=790.76 pnl=-209.24 head=130052753 v3=928.74
+2026-10-27 15:53:33,753 tick equity=790.76 pnl=-209.24 head=130052812 v3=928.74
+2026-10-27 15:53:55,427 V3 {'ts': 1793087616, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe6df1162a3243e3064e43f187ea14808ddfdffff', 'sym': 'TapeFour', 'price': 0.0002321, 'liq': 28122, 'action': 'skip-badwallet', 'reasons': ['v3 record 42 closes wr 7% pnl -41.04']}
+2026-10-27 15:53:58,959 tick equity=790.76 pnl=-209.24 head=130052867 v3=928.74
+2026-10-27 15:54:22,132 V3 {'ts': 1793087637, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x400067859346b77ee6a838e8ce6b8e712f96177a', 'sym': 'AGI', 'price': 9.463e-05, 'action': 'skip-7d'}
+2026-10-27 15:54:22,412 tick equity=790.76 pnl=-209.24 head=130052923 v3=928.74
+2026-10-27 15:58:05,174 loop error rpc fail eth_getBlockByNumber
