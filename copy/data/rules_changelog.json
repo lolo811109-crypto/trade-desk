@@ -369,5 +369,51 @@
   "tour_reclaimed": 100.0,
   "screen": "wallet_replace_screen_1028b.json",
   "backup": "*.bak-1028b"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T22:08:57+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选/尾盘 (poly_lab.py), 新钱包 (poly_new.py)",
+  "change": "体育同场堆仓上限：账户级同一 sports event（gamma event id / polyrules.event_key）合计敞口 ≤$35，最多 3 个未平仓；超限 skip why=game_cap / game_n，开仓时 stake 也被 groom 截断。原因：晚报 Lakers -3.5 同场多钱包堆仓约 −14.95；当前 Magic/Raptors 同场两档 O/U 已达 $32.6。单 market 的 MKT_CAP=$50 与钱包 WALLET_EV_FRAC=35% 保留。",
+  "numbers": {
+   "GAME_CAP": 35.0,
+   "GAME_MAX_N": 3,
+   "MKT_CAP": 50.0,
+   "trigger": "Lakers spread stack evening report"
+  },
+  "backup": "*.bak-1028c"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T22:08:57+08:00",
+  "account": "Poly 新钱包 (poly_new.py / paper_state_lab_new.json)",
+  "change": "全天 0 买：跟的 tin54321/FinalOrder/BanfieldChris/Pjosully 自 10/25–26 起在 API 无新成交（last_ts 停更，今日 skip=0 非规则过严）。替换为 4 个 WEEK∩MONTH 正 PnL、近 24h 活跃、copy_filter 通过率高、非串关重仓钱包：Mooseborzoiii、monkeymashingkeyboard、ianf2026、Nooserac。预算仍 $80/钱包，MAX_STAKE$25；权益/资金池不重置（仍 809.30 / −190.70）。同步加上 sports GAME_CAP。",
+  "dropped": [
+   "tin54321",
+   "FinalOrder",
+   "BanfieldChris",
+   "Pjosully"
+  ],
+  "added": {
+   "Mooseborzoiii": {
+    "addr": "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
+    "note": "CS match ML, copy_ok 20/20, wr~0.88"
+   },
+   "monkeymashingkeyboard": {
+    "addr": "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+    "note": "NBA ML/spread, copy_ok 16/20, wr~0.76"
+   },
+   "ianf2026": {
+    "addr": "0x81d972dbea298a5064d4ba51031e0386182fe9c9",
+    "note": "NBA spreads, copy_ok 20/20, wr~0.88"
+   },
+   "Nooserac": {
+    "addr": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "note": "NBA/NFL match ML, copy_ok 9/20, wr~0.78"
+   }
+  },
+  "equity_unchanged": 809.3,
+  "screen": "new_wallets_refresh_1028c.json",
+  "backup": "*.bak-1028c"
  }
 ]
