@@ -1,11 +1,3 @@
-2026-10-28 23:12:30,245 tick equity=790.76 pnl=-209.24 head=130303104 v3=933.3
-2026-10-28 23:13:08,343 tick equity=790.76 pnl=-209.24 head=130303191 v3=933.3
-2026-10-28 23:13:46,924 tick equity=790.76 pnl=-209.24 head=130303276 v3=933.3
-2026-10-28 23:14:12,229 V3 {'ts': 1793200414, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 3.51e-07, 'action': 'skip-7d'}
-2026-10-28 23:14:12,668 V3 {'ts': 1793200417, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 3.51e-07, 'action': 'skip-7d'}
-2026-10-28 23:14:13,129 V3 {'ts': 1793200423, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 3.51e-07, 'action': 'skip-7d'}
-2026-10-28 23:14:13,533 V3 {'ts': 1793200425, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 3.51e-07, 'action': 'skip-7d'}
-2026-10-28 23:14:31,541 tick equity=790.76 pnl=-209.24 head=130303362 v3=933.3
 2026-10-28 23:14:54,854 V3 {'ts': 1793200454, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 3.397e-07, 'action': 'skip-7d'}
 2026-10-28 23:36:33,283 WATCHDOG: no successful tick 1321s, exiting for restart
 2026-10-28 23:37:16,530 v2 pnl7d unavailable RuntimeError
@@ -298,3 +290,11 @@
 2026-10-29 04:51:46,481 V3 {'ts': 1793220688, 'wallet': '0xd392fc61934309f168cf7eb7a5c3132c7b46f253', 'side': 'BUY', 'token': '0x12fb1bfeaf16cadbc9ede202d2837a396208a8e8', 'sym': 'Zuiver Moon', 'price': 2.239e-11, 'action': 'skip-liq'}
 2026-10-29 04:51:52,838 tick equity=790.76 pnl=-209.24 head=130348375 v3=933.3
 2026-10-29 04:52:16,213 tick equity=790.76 pnl=-209.24 head=130348435 v3=933.3
+2026-10-29 04:52:40,242 tick equity=790.76 pnl=-209.24 head=130348487 v3=933.3
+2026-10-29 04:53:02,581 tick equity=790.76 pnl=-209.24 head=130348541 v3=933.3
+2026-10-29 04:53:25,907 tick equity=790.76 pnl=-209.24 head=130348590 v3=933.3
+2026-10-29 04:53:55,612 tick equity=790.76 pnl=-209.24 head=130348642 v3=933.3
+2026-10-29 04:55:30,569 tick equity=790.76 pnl=-209.24 head=130348708 v3=933.3
+2026-10-29 06:03:05,602 WATCHDOG: no successful tick 4055s, exiting for restart
+2026-10-29 06:04:18,394 v2 pnl7d unavailable RuntimeError
+2026-10-29 06:04:26,870 tick equity=790.76 pnl=-209.24 head=130358050 v3=933.3
