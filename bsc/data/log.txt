@@ -1,7 +1,3 @@
-2026-10-28 15:48:59,195 tick equity=790.76 pnl=-209.24 head=130244024 v3=933.3
-2026-10-28 16:05:36,689 WATCHDOG: no successful tick 996s, exiting for restart
-2026-10-28 16:06:48,940 v2 pnl7d unavailable RuntimeError
-2026-10-28 16:06:53,124 tick equity=790.76 pnl=-209.24 head=130246427 v3=933.3
 2026-10-28 16:07:15,768 tick equity=790.76 pnl=-209.24 head=130246477 v3=933.3
 2026-10-28 16:07:37,415 tick equity=790.76 pnl=-209.24 head=130246527 v3=933.3
 2026-10-28 16:08:00,283 V3 {'ts': 1793174856, 'wallet': '0xc9ac2d47615508a16e46a3459eb4f564ad906a32', 'side': 'BUY', 'token': '0xface7912f7425e098f8411e596a8ae6a47917777', 'sym': 'BUILDER', 'price': 2.409e-05, 'action': 'skip-7d'}
@@ -298,3 +294,7 @@
 2026-10-28 20:58:27,403 tick equity=790.76 pnl=-209.24 head=130285249 v3=933.3
 2026-10-28 20:58:49,701 V3 {'ts': 1793192295, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd1459d41ff9651101ace78770e38f0508e557777', 'sym': 'BATCOIN', 'price': 0.0002663, 'action': 'skip-7d'}
 2026-10-28 20:58:49,970 V3 {'ts': 1793192299, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd1459d41ff9651101ace78770e38f0508e557777', 'sym': 'BATCOIN', 'price': 0.0002663, 'action': 'skip-7d'}
+2026-10-28 20:59:13,483 tick equity=790.76 pnl=-209.24 head=130285327 v3=933.3
+2026-10-28 21:02:32,396 tick equity=790.76 pnl=-209.24 head=130285430 v3=933.3
+2026-10-28 21:02:55,206 V3 {'ts': 1793192413, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x8344e021edfe72a8aa8382328edd096565487777', 'sym': 'CATCH', 'price': 8.863e-05, 'action': 'skip-7d'}
+2026-10-28 21:04:00,663 tick equity=790.76 pnl=-209.24 head=130285872 v3=933.3
