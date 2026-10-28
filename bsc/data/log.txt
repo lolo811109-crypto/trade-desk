@@ -1,6 +1,3 @@
-2026-10-28 15:19:08,181 SKIP-AHEAD 0x8d2896 behind 1252 blocks (130238811->130240063)
-2026-10-28 15:19:08,281 tick equity=790.76 pnl=-209.24 head=130240063 v3=933.3
-2026-10-28 15:30:35,115 WATCHDOG: no successful tick 686s, exiting for restart
 2026-10-28 15:31:47,958 v2 pnl7d unavailable RuntimeError
 2026-10-28 15:31:52,078 tick equity=790.76 pnl=-209.24 head=130241758 v3=933.3
 2026-10-28 15:32:15,535 tick equity=790.76 pnl=-209.24 head=130241808 v3=933.3
@@ -298,3 +295,6 @@
 2026-10-28 20:08:22,734 tick equity=790.76 pnl=-209.24 head=130278587 v3=933.3
 2026-10-28 20:08:44,420 V3 {'ts': 1793189320, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x386bf5d829a8e24311120bebec1d7aec32930b01', 'sym': 'LEAF', 'price': 0.5013, 'action': 'skip-7d'}
 2026-10-28 20:08:50,634 tick equity=790.76 pnl=-209.24 head=130278652 v3=933.3
+2026-10-28 20:09:18,303 tick equity=790.76 pnl=-209.24 head=130278715 v3=933.3
+2026-10-28 20:09:43,907 tick equity=790.76 pnl=-209.24 head=130278776 v3=933.3
+2026-10-28 20:19:52,515 WATCHDOG: no successful tick 608s, exiting for restart
