@@ -1,9 +1,3 @@
-2026-10-28 19:14:01,705 tick equity=790.76 pnl=-209.24 head=130271355 v3=933.3
-2026-10-28 19:14:26,129 tick equity=790.76 pnl=-209.24 head=130271408 v3=933.3
-2026-10-28 19:14:48,463 tick equity=790.76 pnl=-209.24 head=130271462 v3=933.3
-2026-10-28 19:15:11,655 tick equity=790.76 pnl=-209.24 head=130271511 v3=933.3
-2026-10-28 19:15:35,256 tick equity=790.76 pnl=-209.24 head=130271563 v3=933.3
-2026-10-28 19:25:39,405 SKIP-AHEAD 0xb9b069 behind 1349 blocks (130271563->130272912)
 2026-10-28 19:25:40,554 SKIP-AHEAD 0xd392fc behind 1349 blocks (130271563->130272912)
 2026-10-28 19:35:53,646 WATCHDOG: no successful tick 1218s, exiting for restart
 2026-10-28 19:37:06,323 v2 pnl7d unavailable RuntimeError
@@ -298,3 +292,9 @@
 2026-10-28 23:14:13,533 V3 {'ts': 1793200425, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 3.51e-07, 'action': 'skip-7d'}
 2026-10-28 23:14:31,541 tick equity=790.76 pnl=-209.24 head=130303362 v3=933.3
 2026-10-28 23:14:54,854 V3 {'ts': 1793200454, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 3.397e-07, 'action': 'skip-7d'}
+2026-10-28 23:36:33,283 WATCHDOG: no successful tick 1321s, exiting for restart
+2026-10-28 23:37:16,530 v2 pnl7d unavailable RuntimeError
+2026-10-28 23:37:51,771 tick equity=790.76 pnl=-209.24 head=130306453 v3=933.3
+2026-10-28 23:38:51,731 tick equity=790.76 pnl=-209.24 head=130306572 v3=933.3
+2026-10-28 23:39:42,264 tick equity=790.76 pnl=-209.24 head=130306706 v3=933.3
+2026-10-28 23:41:03,595 tick equity=790.76 pnl=-209.24 head=130306818 v3=933.3
