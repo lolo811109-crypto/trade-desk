@@ -279,5 +279,95 @@
     "signal": 0.178
    }
   }
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T13:09:45+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py)",
+  "change": "按 10/28 NO-GO 复盘：替换弱势钱包 0xa38a/0xd38b/0xdaef（预算近耗尽）与 0x54ce（10/26 后无新单）。保留 0x8c0b/0x27f7/0x23d8 及 0x2117/0x20d6/0x8372。新跟：jakepaulthegoat2008、nigiri99、Eugycom、Woaifacai（公开 leaderboard WEEK∩MONTH 正 PnL，低 prop/parlay/map-handicap，近期活跃）。正权益均分给新钱包；负权益冲销。REMOVED 扩展。仅模拟盘。",
+  "dropped": {
+   "0xa38a": {
+    "equity": 0.0,
+    "budget": 100.0,
+    "realized": -100.0,
+    "pnl": -100.0,
+    "npos": 0
+   },
+   "0xd38b": {
+    "equity": 2.36,
+    "budget": 100.0,
+    "realized": -97.64,
+    "pnl": -97.64,
+    "npos": 0
+   },
+   "0xdaef": {
+    "equity": 9.61,
+    "budget": 100.0,
+    "realized": -90.39,
+    "pnl": -90.39,
+    "npos": 0
+   },
+   "0x54ce": {
+    "equity": 100.0,
+    "budget": 100.0,
+    "realized": 0.0,
+    "pnl": 0.0,
+    "npos": 0
+   }
+  },
+  "added": {
+   "jakepaulthegoat2008": {
+    "addr": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+    "pnl7": 921937,
+    "pnl30": 366431,
+    "wr": 0.96,
+    "n7": 250,
+    "sport": 0.06,
+    "prop": 0.0,
+    "note": "NBA/LoL match ML",
+    "base_budget": 27.99,
+    "tour_budget": 25.0
+   },
+   "nigiri99": {
+    "addr": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "pnl7": 507362,
+    "pnl30": 327219,
+    "wr": 0.86,
+    "n7": 250,
+    "sport": 0.27,
+    "prop": 0.22,
+    "note": "mixed politics+sports ML",
+    "base_budget": 27.99,
+    "tour_budget": 25.0
+   },
+   "Eugycom": {
+    "addr": "0x64ceab3becc143e1b97a8e16dc270c2297566015",
+    "pnl7": 219189,
+    "pnl30": 219189,
+    "wr": 1.0,
+    "n7": 250,
+    "sport": 0.0,
+    "prop": 0.0,
+    "note": "NBA match ML only",
+    "base_budget": 27.99,
+    "tour_budget": 25.0
+   },
+   "Woaifacai": {
+    "addr": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
+    "pnl7": 148694,
+    "pnl30": 168933,
+    "wr": 0.64,
+    "n7": 250,
+    "sport": 0.42,
+    "prop": 0.0,
+    "note": "soccer/tennis match ML",
+    "base_budget": 28.0,
+    "tour_budget": 25.0
+   }
+  },
+  "base_reclaimed": 111.97,
+  "tour_reclaimed": 100.0,
+  "screen": "wallet_replace_screen_1028b.json",
+  "backup": "*.bak-1028b"
  }
 ]
