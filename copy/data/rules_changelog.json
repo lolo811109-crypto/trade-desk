@@ -150,5 +150,134 @@
     "eligible": true
    }
   }
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T09:09:30+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识 (poly_lab.py)",
+  "change": "评估停跟 0x8c0b 的 LoL 单：根据 paper.log 历史成交，0x8c0b LoL 已平仓净盈亏 共享池 +285.30（17笔,8胜）、锦标赛 +417.57（20笔,9胜），历史上净赚钱。按规则不停跟，维持既有电竞半仓+上限$10（esports.py）。注：单笔 LYON vs Karmine Corp 贡献 +315/+450，去掉后接近打平；地图/局盘已在 10/27 跳过。共识账户 state 内可见 LoL 平仓合计 −110（6笔全亏，含非仅 8c0b 支持的仓）。",
+  "numbers": {
+   "wallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
+   "base_lol_closed_pnl": 285.3,
+   "base_lol_closes": 17,
+   "base_lol_wins": 8,
+   "tour_lol_closed_pnl": 417.57,
+   "tour_lol_closes": 20,
+   "tour_lol_wins": 9,
+   "decision": "KEEP_ESPORTS_CAP_NO_LOL_BAN"
+  },
+  "backup": "paper.py.bak-1028 (neg_equity only; no LoL code change)"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T09:09:30+08:00",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "开张约12h 权益 1000→906.65（−9.3%，未重置）。26个未平仓浮亏约 −90.65。亏损主要：0x27f738 18仓体育/盘口 cost360 upnl−12；0x23d81 以色列选举+已平−16，开仓upnl−24.7；0xd38b 两笔 Spread upnl−30.8；0x2117 体育 upnl−23。收紧：STAKE 20→10；MAX_OPEN=8；MAX_PER_W=3；跳过 sports/esports_match/sports_title(Spread|O/U|vs.)；入选门槛 closed≥10 且 batch+cold≥0.05。权益不重置。",
+  "numbers": {
+   "equity_before_change": 906.65,
+   "pnl": -93.35,
+   "open": 26,
+   "open_upnl": -90.65,
+   "n_buys": 33,
+   "n_closed": 7,
+   "by_wallet_open_upnl": {
+    "0x27f738": -12.18,
+    "0x23d81": -24.65,
+    "0xd38b": -30.76,
+    "0x2117": -23.05
+   }
+  },
+  "backup": "poly_info.py.bak-1028"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T09:09:30+08:00",
+  "account": "Poly 锦标赛 (paper.py / paper_state_t_v3.json)",
+  "change": "负权益不是公式 bug：equity=budget+realized+upnl，日频调仓削减 budget 后，realized 亏损已超过剩余 budget（0xa38a bud80 real−100 eq−20；0xd38b bud64 real−76.14 eq−12.14；0xdaef bud80 real−90.39 eq−10.39）。修复：1) equity≤0 跳过新开仓 why=neg_equity；2) 调仓不得把资金分给 equity≤0 的钱包；3) 从 worst 抽预算时最多抽到其 equity=0（floor_eq0）。共享池无调仓，同加 neg_equity 守卫。",
+  "numbers": {
+   "0xa38a": {
+    "budget": 80.0,
+    "realized": -100.0,
+    "equity": -20.0
+   },
+   "0xd38b": {
+    "budget": 64.0,
+    "realized": -76.14,
+    "equity": -12.14
+   },
+   "0xdaef": {
+    "budget": 80.0,
+    "realized": -90.39,
+    "equity": -10.39
+   }
+  },
+  "backup": "paper.py.bak-1028"
+ },
+ {
+  "date": "2026-10-28",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0x23d81ba9371e576015c1e562db09c689f56b0288'] -> ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9']",
+  "scores": {
+   "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
+    "score": 2.042,
+    "batch": 0.053,
+    "cold": 0.024,
+    "hold": 0.995,
+    "winrate": 0.97,
+    "closed": 33,
+    "realized_pnl": 76562.99,
+    "n_trades": 211,
+    "eligible": true,
+    "signal": 0.077
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 1.987,
+    "batch": 0.227,
+    "cold": 0.032,
+    "hold": 0.982,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1391069.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.26
+   },
+   "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": {
+    "score": 1.935,
+    "batch": 0.0,
+    "cold": 0.08,
+    "hold": 1.0,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 144192.88,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.08
+   },
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "score": 1.867,
+    "batch": 0.013,
+    "cold": 0.056,
+    "hold": 0.994,
+    "winrate": 0.805,
+    "closed": 200,
+    "realized_pnl": 524925.66,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.068
+   },
+   "0xdaef2be2a19ad331737d06545f85615b094554e9": {
+    "score": 1.793,
+    "batch": 0.143,
+    "cold": 0.035,
+    "hold": 0.93,
+    "winrate": 0.685,
+    "closed": 200,
+    "realized_pnl": 1150949.53,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.178
+   }
+  }
  }
 ]
