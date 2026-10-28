@@ -1,15 +1,3 @@
-2026-10-28 20:55:07,668 SKIP-AHEAD 0x8d2896 behind 1709 blocks (130283124->130284833)
-2026-10-28 20:55:07,881 tick equity=790.76 pnl=-209.24 head=130284833 v3=933.3
-2026-10-28 20:55:38,606 tick equity=790.76 pnl=-209.24 head=130284884 v3=933.3
-2026-10-28 20:56:08,601 tick equity=790.76 pnl=-209.24 head=130284952 v3=933.3
-2026-10-28 20:56:30,453 V3 {'ts': 1793192161, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd1459d41ff9651101ace78770e38f0508e557777', 'sym': 'BATCOIN', 'price': 0.0003647, 'action': 'skip-7d'}
-2026-10-28 20:56:43,748 tick equity=790.76 pnl=-209.24 head=130285019 v3=933.3
-2026-10-28 20:57:19,270 tick equity=790.76 pnl=-209.24 head=130285097 v3=933.3
-2026-10-28 20:57:52,474 tick equity=790.76 pnl=-209.24 head=130285176 v3=933.3
-2026-10-28 20:58:14,119 V3 {'ts': 1793192284, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd1459d41ff9651101ace78770e38f0508e557777', 'sym': 'BATCOIN', 'price': 0.0003426, 'action': 'skip-7d'}
-2026-10-28 20:58:27,403 tick equity=790.76 pnl=-209.24 head=130285249 v3=933.3
-2026-10-28 20:58:49,701 V3 {'ts': 1793192295, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd1459d41ff9651101ace78770e38f0508e557777', 'sym': 'BATCOIN', 'price': 0.0002663, 'action': 'skip-7d'}
-2026-10-28 20:58:49,970 V3 {'ts': 1793192299, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd1459d41ff9651101ace78770e38f0508e557777', 'sym': 'BATCOIN', 'price': 0.0002663, 'action': 'skip-7d'}
 2026-10-28 20:59:13,483 tick equity=790.76 pnl=-209.24 head=130285327 v3=933.3
 2026-10-28 21:02:32,396 tick equity=790.76 pnl=-209.24 head=130285430 v3=933.3
 2026-10-28 21:02:55,206 V3 {'ts': 1793192413, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x8344e021edfe72a8aa8382328edd096565487777', 'sym': 'CATCH', 'price': 8.863e-05, 'action': 'skip-7d'}
@@ -298,3 +286,15 @@
 2026-10-29 01:32:23,736 {'ts': 1793208718, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x65b26136235616b40e0a3bf7d771694b15d797e9', 'tx': '0xc66aedac49ee0b5e7586633569ff1f16e310f2a2d8d7d76032940461dd1f73bd', 'action': 'skip-noprice'}
 2026-10-29 01:32:24,143 V3 {'ts': 1793208726, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6c0b008499239ccedd48595763225db54ac9585c', 'sym': 'DOG', 'price': 0.0002068171094, 'action': 'skip-7d'}
 2026-10-29 01:32:24,509 V3 {'ts': 1793208730, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6c0b008499239ccedd48595763225db54ac9585c', 'sym': 'DOG', 'price': 0.0002068171094, 'action': 'skip-7d'}
+2026-10-29 01:32:54,719 tick equity=790.76 pnl=-209.24 head=130321781 v3=933.3
+2026-10-29 01:33:47,912 tick equity=790.76 pnl=-209.24 head=130321909 v3=933.3
+2026-10-29 01:34:11,356 {'ts': 1793208813, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd1fbb8bcbcdec93568b905847b050060aef66666', 'tx': '0x62f72f9f50d5ea85aeabe76b6043b39edaa2cb88f3463c3ba25dac7354172d45', 'action': 'skip-noprice'}
+2026-10-29 01:34:11,904 {'ts': 1793208816, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xd1fbb8bcbcdec93568b905847b050060aef66666', 'tx': '0xee4bdb7b42cfe0f58cd2d23a1a9e6aad4efa515d3b0be85d1a291acd905328e4', 'action': 'skip-noprice'}
+2026-10-29 01:34:44,414 tick equity=790.76 pnl=-209.24 head=130322027 v3=933.3
+2026-10-29 01:35:38,721 tick equity=790.76 pnl=-209.24 head=130322152 v3=933.3
+2026-10-29 01:36:28,771 tick equity=790.76 pnl=-209.24 head=130322273 v3=933.3
+2026-10-29 01:36:52,145 V3 {'ts': 1793208990, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6c0b008499239ccedd48595763225db54ac9585c', 'sym': 'DOG', 'price': 0.0004235320377, 'action': 'skip-7d'}
+2026-10-29 01:36:52,300 V3 {'ts': 1793208990, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6c0b008499239ccedd48595763225db54ac9585c', 'sym': 'DOG', 'price': 0.0004235320377, 'action': 'skip-7d'}
+2026-10-29 01:36:52,562 V3 {'ts': 1793208998, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6c0b008499239ccedd48595763225db54ac9585c', 'sym': 'DOG', 'price': 0.0004235320377, 'action': 'skip-7d'}
+2026-10-29 01:37:05,531 tick equity=790.76 pnl=-209.24 head=130322385 v3=933.3
+2026-10-29 01:37:38,110 tick equity=790.76 pnl=-209.24 head=130322466 v3=933.3
