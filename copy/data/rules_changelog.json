@@ -415,5 +415,72 @@
   "equity_unchanged": 809.3,
   "screen": "new_wallets_refresh_1028c.json",
   "backup": "*.bak-1028c"
+ },
+ {
+  "date": "2026-10-29",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9'] -> ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9']",
+  "scores": {
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.053,
+    "batch": 0.316,
+    "cold": 0.03,
+    "hold": 0.962,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1391069.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.346
+   },
+   "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
+    "score": 2.042,
+    "batch": 0.053,
+    "cold": 0.024,
+    "hold": 0.995,
+    "winrate": 0.97,
+    "closed": 33,
+    "realized_pnl": 76562.99,
+    "n_trades": 211,
+    "eligible": true,
+    "signal": 0.077
+   },
+   "0x27f738fe203827445690339104aae35b20bc44b0": {
+    "score": 1.902,
+    "batch": 0.034,
+    "cold": 0.018,
+    "hold": 1.0,
+    "winrate": 0.85,
+    "closed": 200,
+    "realized_pnl": 289618.49,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.052
+   },
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "score": 1.886,
+    "batch": 0.012,
+    "cold": 0.067,
+    "hold": 0.992,
+    "winrate": 0.815,
+    "closed": 200,
+    "realized_pnl": 526036.98,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.079
+   },
+   "0xdaef2be2a19ad331737d06545f85615b094554e9": {
+    "score": 1.793,
+    "batch": 0.143,
+    "cold": 0.035,
+    "hold": 0.93,
+    "winrate": 0.685,
+    "closed": 200,
+    "realized_pnl": 1149185.64,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.178
+   }
+  }
  }
 ]
