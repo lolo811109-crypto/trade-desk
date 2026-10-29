@@ -1,12 +1,3 @@
-2026-10-29 01:42:05,689 V3 {'ts': 1793209292, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6c0b008499239ccedd48595763225db54ac9585c', 'sym': 'DOG', 'price': 0.0003035306161, 'action': 'skip-7d'}
-2026-10-29 01:42:08,958 {'ts': 1793209315, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0xd1d8ed5307281fe9804ef3b51d8cb97c7497cc8190ec07e78b70f831ec01642d', 'action': 'skip-noprice'}
-2026-10-29 01:42:09,214 {'ts': 1793209315, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0xd1680d2049e026bca2431164becb493156665a6fd1f55302161c7fccd2d8291b', 'action': 'skip-noprice'}
-2026-10-29 01:42:09,445 {'ts': 1793209316, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0xfcd8a1d996dc606a0294bdabdaec6eef8d6e8e466f67ed1693129a8b54b11f6e', 'action': 'skip-noprice'}
-2026-10-29 01:42:09,660 {'ts': 1793209317, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0xf46934a903826a22ace92b8313fa66e4e1af5b05ce56af897b2674c1672f733b', 'action': 'skip-noprice'}
-2026-10-29 01:42:09,911 {'ts': 1793209317, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0x5b7b0eab3488b8d22af85639385b37619d97f4f2b7c6bff12f109413949f51d6', 'action': 'skip-noprice'}
-2026-10-29 01:42:09,994 {'ts': 1793209317, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0xcc9ea0e8a3fe0014e0f70de0404ab8bbbe9d96fb0ddb1200eefe3cb50c69695e', 'action': 'skip-noprice'}
-2026-10-29 01:42:10,193 {'ts': 1793209317, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0x2e8a4d6634ecedd7cafcec5b97b1bfe0c0711ce0c3933356746421d28ea7f01d', 'action': 'skip-noprice'}
-2026-10-29 01:42:10,317 {'ts': 1793209317, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0x65420208a38bae6cbbdb9f076394049b6a61b9e6add6ff85718a817f154ed147', 'action': 'skip-noprice'}
 2026-10-29 01:42:10,402 {'ts': 1793209317, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0x858ff478bf88ed2b692231a6e0b58c9aec73f48df79e0fdf9d79ecd1ae621c61', 'action': 'skip-noprice'}
 2026-10-29 01:42:10,638 {'ts': 1793209318, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0x8f4d0de4e859acaca0f4689c1f6773ee508b110a6928a4a62c15dbed0650dca6', 'action': 'skip-noprice'}
 2026-10-29 01:42:10,881 {'ts': 1793209318, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x912e681698aabbed0212705d41c271b752edad06', 'tx': '0xbaed2d4f19a8ce7bb66ba2657fbe4d7446bce2d471ce0f904bdc475994f6788d', 'action': 'skip-noprice'}
@@ -298,3 +289,12 @@
 2026-10-29 07:39:22,666 tick equity=790.76 pnl=-209.24 head=130370711 v3=932.51
 2026-10-29 07:39:45,579 tick equity=790.76 pnl=-209.24 head=130370767 v3=932.51
 2026-10-29 07:40:08,505 tick equity=790.76 pnl=-209.24 head=130370817 v3=932.54
+2026-10-29 08:01:51,295 WATCHDOG: no successful tick 1302s, exiting for restart
+2026-10-29 08:02:34,321 v2 pnl7d unavailable RuntimeError
+2026-10-29 08:02:59,329 tick equity=790.76 pnl=-209.24 head=130373817 v3=932.35
+2026-10-29 08:03:38,315 tick equity=790.76 pnl=-209.24 head=130373912 v3=932.35
+2026-10-29 08:04:22,255 tick equity=790.76 pnl=-209.24 head=130373999 v3=932.4
+2026-10-29 08:05:04,662 tick equity=790.76 pnl=-209.24 head=130374097 v3=932.4
+2026-10-29 08:05:42,398 tick equity=790.76 pnl=-209.24 head=130374191 v3=932.4
+2026-10-29 08:06:15,592 tick equity=790.76 pnl=-209.24 head=130374275 v3=932.4
+2026-10-29 08:06:45,911 tick equity=790.76 pnl=-209.24 head=130374349 v3=932.4
