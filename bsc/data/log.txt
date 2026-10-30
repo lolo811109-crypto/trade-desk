@@ -1,13 +1,3 @@
-2026-10-30 17:34:08,901 {'ts': 1793352830, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xae330a0a048782122c6a8ee31349035146c37777', 'tx': '0xa69c4173efff458fab2560f92ceb5ce2421bb12774451e9d92bf0bcd34da612f', 'action': 'skip-noprice'}
-2026-10-30 17:34:15,667 tick equity=790.76 pnl=-209.24 head=130641869 v3=932.44
-2026-10-30 17:34:46,108 tick equity=790.76 pnl=-209.24 head=130641937 v3=932.44
-2026-10-30 17:35:14,512 tick equity=790.76 pnl=-209.24 head=130642005 v3=932.44
-2026-10-30 17:35:43,637 tick equity=790.76 pnl=-209.24 head=130642068 v3=932.44
-2026-10-30 17:36:11,911 tick equity=790.76 pnl=-209.24 head=130642133 v3=932.44
-2026-10-30 17:36:39,261 tick equity=790.76 pnl=-209.24 head=130642196 v3=932.44
-2026-10-30 17:37:06,639 tick equity=790.76 pnl=-209.24 head=130642257 v3=932.44
-2026-10-30 17:37:32,320 tick equity=790.76 pnl=-209.24 head=130642317 v3=932.44
-2026-10-30 17:37:58,601 tick equity=790.76 pnl=-209.24 head=130642374 v3=932.44
 2026-10-30 17:38:21,583 {'ts': 1793353082, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xf71a04db2bc0b4cee45da92549700aca2a856666', 'tx': '0xdaaabda19f026c3c76225a88d95f8a94f4446513cd7dda9de2133376887f6485', 'action': 'skip-noprice'}
 2026-10-30 17:38:22,084 {'ts': 1793353086, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xf71a04db2bc0b4cee45da92549700aca2a856666', 'tx': '0x2474bdf634ceecdf94f26fdfe9bd15d3a482f903dcf98d409af9e3b2a7134b88', 'action': 'skip-noprice'}
 2026-10-30 17:38:22,633 {'ts': 1793353098, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xf71a04db2bc0b4cee45da92549700aca2a856666', 'tx': '0xf50696ccceef8bb3ae53ed9fa72b3884e82bf555bafe748fe4efb6d7eb4540ac', 'action': 'skip-noprice'}
@@ -298,3 +288,13 @@
 2026-10-30 21:20:23,387 V3 {'ts': 1793366338, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x217cf0412af377c1e3f56414ff72757f4f6a7777', 'sym': 'flap Agent', 'price': 2.602e-05, 'action': 'skip-7d'}
 2026-10-30 21:21:18,995 tick equity=790.76 pnl=-209.24 head=130671993 v3=932.44
 2026-10-30 21:37:54,774 WATCHDOG: no successful tick 995s, exiting for restart
+2026-10-30 21:39:12,838 v2 pnl7d unavailable RuntimeError
+2026-10-30 21:39:40,990 tick equity=790.76 pnl=-209.24 head=130674562 v3=932.44
+2026-10-30 21:40:19,858 tick equity=790.76 pnl=-209.24 head=130674652 v3=932.44
+2026-10-30 21:40:54,058 tick equity=790.76 pnl=-209.24 head=130674739 v3=932.44
+2026-10-30 21:41:35,479 tick equity=790.76 pnl=-209.24 head=130674814 v3=932.44
+2026-10-30 21:42:04,968 V3 {'ts': 1793367712, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x463a9b7a6cbdbaae8888be43e62f25c0d1717777', 'sym': 'TapeFlap', 'price': 1.834e-05, 'action': 'skip-7d'}
+2026-10-30 21:42:21,975 tick equity=790.76 pnl=-209.24 head=130674907 v3=932.44
+2026-10-30 21:42:58,231 V3 {'ts': 1793367719, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x463a9b7a6cbdbaae8888be43e62f25c0d1717777', 'sym': 'TapeFlap', 'price': 1.858e-05, 'action': 'skip-7d'}
+2026-10-30 21:42:59,709 V3 {'ts': 1793367721, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x463a9b7a6cbdbaae8888be43e62f25c0d1717777', 'sym': 'TapeFlap', 'price': 1.858e-05, 'action': 'skip-7d'}
+2026-10-30 21:46:17,878 V3 {'ts': 1793367727, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x463a9b7a6cbdbaae8888be43e62f25c0d1717777', 'sym': 'TapeFlap', 'price': 1.858e-05, 'action': 'skip-7d'}
