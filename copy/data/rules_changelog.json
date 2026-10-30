@@ -674,5 +674,19 @@
     "signal": 0.081
    }
   }
+ },
+ {
+  "date": "2026-10-31",
+  "ts": "2026-10-31T02:42:19+08:00",
+  "account": "BTC动量 (poly_mom.py / paper_state_lab_mom.json)",
+  "change": "纸面加公允价边缘过滤+更严跳窗（仍15m，不切5m）。σ_left=atr*sqrt(t_left/300)，p_up=Φ(move/σ)；仅当 fair-fill≥0.05 才买（skip edge_lt_5）。MAXPX 0.75→0.70，K 1.0→1.25。新增连续3个上海日历日亏损则 losing_halt（赢一天或 clear_losing_halt 解除）。不重置权益/历史。备份 *.bak-1031-fv。",
+  "params": {
+   "k": 1.25,
+   "max_px": 0.7,
+   "edge": 0.05,
+   "stake": 10,
+   "lose_days": 3,
+   "window": "15m"
+  }
  }
 ]
