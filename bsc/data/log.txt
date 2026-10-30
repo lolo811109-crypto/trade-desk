@@ -1,14 +1,3 @@
-2026-10-30 18:04:05,501 tick equity=790.76 pnl=-209.24 head=130645857 v3=932.44
-2026-10-30 18:04:33,103 tick equity=790.76 pnl=-209.24 head=130645914 v3=932.44
-2026-10-30 18:05:04,866 tick equity=790.76 pnl=-209.24 head=130645976 v3=932.44
-2026-10-30 18:05:30,195 V3 {'ts': 1793354695, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
-2026-10-30 18:05:30,487 V3 {'ts': 1793354696, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
-2026-10-30 18:05:30,726 V3 {'ts': 1793354696, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
-2026-10-30 18:05:30,802 V3 {'ts': 1793354696, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
-2026-10-30 18:05:31,066 V3 {'ts': 1793354697, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
-2026-10-30 18:05:31,247 V3 {'ts': 1793354697, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
-2026-10-30 18:05:31,587 V3 {'ts': 1793354697, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
-2026-10-30 18:05:31,828 V3 {'ts': 1793354698, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
 2026-10-30 18:05:32,180 V3 {'ts': 1793354710, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
 2026-10-30 18:05:32,453 V3 {'ts': 1793354710, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
 2026-10-30 18:05:32,799 V3 {'ts': 1793354713, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3b056facce631561be371e0bc14f07d826737777', 'sym': 'WTB', 'price': 2.763e-05, 'action': 'skip-7d'}
@@ -298,3 +287,14 @@
 2026-10-30 22:17:43,932 tick equity=790.76 pnl=-209.24 head=130679556 v3=932.36
 2026-10-30 22:18:51,352 tick equity=790.76 pnl=-209.24 head=130679725 v3=932.55
 2026-10-30 22:19:40,656 tick equity=790.76 pnl=-209.24 head=130679874 v3=932.3
+2026-10-30 22:38:31,932 WATCHDOG: no successful tick 1131s, exiting for restart
+2026-10-30 22:39:49,894 v2 pnl7d unavailable RuntimeError
+2026-10-30 22:40:15,056 V3 {'ts': 1793371148, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'liq': 98871, 'action': 'skip-badwallet', 'reasons': ['v3 record 29 closes wr 3% pnl -30.15']}
+2026-10-30 22:40:15,056 CONFLUENCE SAFU 0x7c907d1ce734b73e9236dcd06cefcb6346857777 wallets=['0x77018191c32bdf7542d8d82007ae26b41f614d96', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
+2026-10-30 22:40:18,003 V2-RISK SAFU 0x7c907d1ce734b73e9236dcd06cefcb6346857777 KILL buy_tax unknown; sell_tax unknown
+2026-10-30 22:40:18,003 V2 {'ts': 1793371148, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
+2026-10-30 22:40:19,365 V3 {'ts': 1793371164, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'liq': 98871, 'action': 'skip-badwallet', 'reasons': ['v3 record 29 closes wr 3% pnl -30.15']}
+2026-10-30 22:41:13,640 V3 {'ts': 1793371273, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'SELL', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001087, 'action': 'stop-loss', 'proceeds': 5.8, 'pnl': -4.2}
+2026-10-30 22:41:13,690 tick equity=790.76 pnl=-209.24 head=130682648 v3=928.24
+2026-10-30 22:41:42,386 V3 {'ts': 1793371253, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x4f0ed1f48beaa4797a62202a21804cadc2170d6b', 'sym': 'SHOPINX', 'price': 0.0332, 'action': 'skip-7d'}
+2026-10-30 22:42:37,411 tick equity=790.76 pnl=-209.24 head=130682855 v3=928.24
