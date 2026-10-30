@@ -607,5 +607,72 @@
    }
   },
   "backup": "poly_lab.py.bak-1030"
+ },
+ {
+  "date": "2026-10-31",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26'] -> ['0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e']",
+  "scores": {
+   "0xf0318c32136c2db7fec88b84869aee6a1106c80c": {
+    "score": 2.034,
+    "batch": 0.0,
+    "cold": 0.202,
+    "hold": 0.882,
+    "winrate": 0.95,
+    "closed": 200,
+    "realized_pnl": 21367332.28,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.202
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.033,
+    "batch": 0.3,
+    "cold": 0.03,
+    "hold": 0.958,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1391069.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.33
+   },
+   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+    "score": 1.944,
+    "batch": 0.066,
+    "cold": 0.041,
+    "hold": 0.992,
+    "winrate": 0.845,
+    "closed": 200,
+    "realized_pnl": 606202.59,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.107
+   },
+   "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": {
+    "score": 1.871,
+    "batch": 0.0,
+    "cold": 0.108,
+    "hold": 0.908,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 1613721.51,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.108
+   },
+   "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": {
+    "score": 1.761,
+    "batch": 0.0,
+    "cold": 0.081,
+    "hold": 1.0,
+    "winrate": 0.68,
+    "closed": 200,
+    "realized_pnl": 1460028.93,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.081
+   }
+  }
  }
 ]
