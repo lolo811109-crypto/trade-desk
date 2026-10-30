@@ -1,8 +1,3 @@
-2026-10-30 22:19:40,656 tick equity=790.76 pnl=-209.24 head=130679874 v3=932.3
-2026-10-30 22:38:31,932 WATCHDOG: no successful tick 1131s, exiting for restart
-2026-10-30 22:39:49,894 v2 pnl7d unavailable RuntimeError
-2026-10-30 22:40:15,056 V3 {'ts': 1793371148, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'liq': 98871, 'action': 'skip-badwallet', 'reasons': ['v3 record 29 closes wr 3% pnl -30.15']}
-2026-10-30 22:40:15,056 CONFLUENCE SAFU 0x7c907d1ce734b73e9236dcd06cefcb6346857777 wallets=['0x77018191c32bdf7542d8d82007ae26b41f614d96', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
 2026-10-30 22:40:18,003 V2-RISK SAFU 0x7c907d1ce734b73e9236dcd06cefcb6346857777 KILL buy_tax unknown; sell_tax unknown
 2026-10-30 22:40:18,003 V2 {'ts': 1793371148, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
 2026-10-30 22:40:19,365 V3 {'ts': 1793371164, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'liq': 98871, 'action': 'skip-badwallet', 'reasons': ['v3 record 29 closes wr 3% pnl -30.15']}
@@ -298,3 +293,8 @@
 2026-10-31 03:00:49,374 tick equity=790.76 pnl=-209.24 head=130717373 v3=928.24
 2026-10-31 03:01:27,895 tick equity=790.76 pnl=-209.24 head=130717459 v3=928.24
 2026-10-31 03:02:12,370 tick equity=790.76 pnl=-209.24 head=130717546 v3=928.24
+2026-10-31 03:03:24,235 tick equity=790.76 pnl=-209.24 head=130717644 v3=928.24
+2026-10-31 03:04:20,771 tick equity=790.76 pnl=-209.24 head=130717804 v3=928.24
+2026-10-31 03:05:21,617 tick equity=790.76 pnl=-209.24 head=130717930 v3=928.24
+2026-10-31 03:06:25,933 tick equity=790.76 pnl=-209.24 head=130718065 v3=928.24
+2026-10-31 03:07:24,518 tick equity=790.76 pnl=-209.24 head=130718208 v3=928.24
