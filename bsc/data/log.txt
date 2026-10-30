@@ -1,9 +1,3 @@
-2026-10-30 18:01:51,230 WATCHDOG: no successful tick 1261s, exiting for restart
-2026-10-30 18:02:35,470 v2 pnl7d unavailable RuntimeError
-2026-10-30 18:02:45,981 tick equity=790.76 pnl=-209.24 head=130645675 v3=932.44
-2026-10-30 18:03:08,453 {'ts': 1793354578, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x4014f45e17dd5dcee28384e71633c4ab65077777', 'tx': '0x04f33cb52233040214a2a6666251bb549a2a139cf6dd90a20d30e623e75e714c', 'action': 'skip-noprice'}
-2026-10-30 18:03:12,927 tick equity=790.76 pnl=-209.24 head=130645737 v3=932.44
-2026-10-30 18:03:35,691 V3 {'ts': 1793354593, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x13920fe6467e9e3c852b8d365a036c995f0f7777', 'sym': 'GM', 'price': 0.0005048, 'liq': 94704, 'action': 'skip-badwallet', 'reasons': ['v3 record 30 closes wr 3% pnl -31.62']}
 2026-10-30 18:03:39,897 tick equity=790.76 pnl=-209.24 head=130645797 v3=932.44
 2026-10-30 18:04:05,501 tick equity=790.76 pnl=-209.24 head=130645857 v3=932.44
 2026-10-30 18:04:33,103 tick equity=790.76 pnl=-209.24 head=130645914 v3=932.44
@@ -298,3 +292,9 @@
 2026-10-30 22:11:49,161 tick equity=790.76 pnl=-209.24 head=130678812 v3=932.44
 2026-10-30 22:12:51,002 tick equity=790.76 pnl=-209.24 head=130678936 v3=932.44
 2026-10-30 22:13:58,803 tick equity=790.76 pnl=-209.24 head=130679073 v3=932.44
+2026-10-30 22:15:03,336 tick equity=790.76 pnl=-209.24 head=130679224 v3=932.44
+2026-10-30 22:15:32,770 V3-RISK SAFU 0x7c907d1ce734b73e9236dcd06cefcb6346857777 PASS info: dev holds 0.0%
+2026-10-30 22:15:32,770 V3 {'ts': 1793369719, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001727, 'action': 'buy', 'stake': 10.0}
+2026-10-30 22:16:28,064 tick equity=790.76 pnl=-209.24 head=130679367 v3=932.43
+2026-10-30 22:17:43,932 tick equity=790.76 pnl=-209.24 head=130679556 v3=932.36
+2026-10-30 22:18:51,352 tick equity=790.76 pnl=-209.24 head=130679725 v3=932.55
