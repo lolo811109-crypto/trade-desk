@@ -1,15 +1,3 @@
-2026-10-30 07:06:53,478 V3 {'ts': 1793315200, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x75d5c2e31ef374f92b201c06d83e2d98368c7777', 'sym': 'ZERODAY', 'price': 0.000229, 'liq': 49797, 'action': 'skip-badwallet', 'reasons': ['v3 record 30 closes wr 3% pnl -31.62']}
-2026-10-30 07:06:57,396 tick equity=790.76 pnl=-209.24 head=130558257 v3=932.44
-2026-10-30 07:07:19,794 V3 {'ts': 1793315213, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x75d5c2e31ef374f92b201c06d83e2d98368c7777', 'sym': 'ZERODAY', 'price': 0.000229, 'liq': 49797, 'action': 'skip-badwallet', 'reasons': ['v3 record 30 closes wr 3% pnl -31.62']}
-2026-10-30 07:07:19,898 V3 {'ts': 1793315227, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x75d5c2e31ef374f92b201c06d83e2d98368c7777', 'sym': 'ZERODAY', 'price': 0.000229, 'liq': 49797, 'action': 'skip-badwallet', 'reasons': ['v3 record 30 closes wr 3% pnl -31.62']}
-2026-10-30 07:07:23,244 tick equity=790.76 pnl=-209.24 head=130558317 v3=932.44
-2026-10-30 07:07:47,674 tick equity=790.76 pnl=-209.24 head=130558374 v3=932.44
-2026-10-30 07:09:06,712 tick equity=790.76 pnl=-209.24 head=130558428 v3=932.44
-2026-10-30 07:19:00,468 SKIP-AHEAD 0xb9b069 behind 1449 blocks (130558428->130559877)
-2026-10-30 07:19:00,649 SKIP-AHEAD 0xd392fc behind 1449 blocks (130558428->130559877)
-2026-10-30 07:19:00,776 SKIP-AHEAD 0xa03fa8 behind 1449 blocks (130558428->130559877)
-2026-10-30 07:19:00,898 SKIP-AHEAD 0x9bee11 behind 1449 blocks (130558428->130559877)
-2026-10-30 07:19:01,019 SKIP-AHEAD 0x5bc3a8 behind 1449 blocks (130558428->130559877)
 2026-10-30 07:19:01,146 SKIP-AHEAD 0x770181 behind 1449 blocks (130558428->130559877)
 2026-10-30 07:19:01,275 SKIP-AHEAD 0x7dfd45 behind 1449 blocks (130558428->130559877)
 2026-10-30 07:19:01,348 SKIP-AHEAD 0x07a61c behind 1449 blocks (130558428->130559877)
@@ -298,3 +286,15 @@
 2026-10-30 11:12:34,347 tick equity=790.76 pnl=-209.24 head=130591006 v3=932.44
 2026-10-30 11:13:44,319 tick equity=790.76 pnl=-209.24 head=130591148 v3=932.44
 2026-10-30 11:34:48,915 WATCHDOG: no successful tick 1264s, exiting for restart
+2026-10-30 11:36:02,204 v2 pnl7d unavailable RuntimeError
+2026-10-30 11:36:05,323 tick equity=790.76 pnl=-209.24 head=130594142 v3=932.44
+2026-10-30 11:36:27,024 tick equity=790.76 pnl=-209.24 head=130594191 v3=932.44
+2026-10-30 11:36:49,279 tick equity=790.76 pnl=-209.24 head=130594239 v3=932.44
+2026-10-30 11:37:11,063 tick equity=790.76 pnl=-209.24 head=130594289 v3=932.44
+2026-10-30 11:37:33,618 tick equity=790.76 pnl=-209.24 head=130594337 v3=932.44
+2026-10-30 11:37:56,246 tick equity=790.76 pnl=-209.24 head=130594387 v3=932.44
+2026-10-30 11:38:17,922 tick equity=790.76 pnl=-209.24 head=130594437 v3=932.44
+2026-10-30 11:38:41,178 tick equity=790.76 pnl=-209.24 head=130594485 v3=932.44
+2026-10-30 11:39:02,826 tick equity=790.76 pnl=-209.24 head=130594537 v3=932.44
+2026-10-30 11:39:24,563 tick equity=790.76 pnl=-209.24 head=130594585 v3=932.44
+2026-10-30 11:39:59,314 tick equity=790.76 pnl=-209.24 head=130594661 v3=932.44
