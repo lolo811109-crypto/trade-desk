@@ -1,5 +1,3 @@
-2026-10-30 17:33:44,848 tick equity=790.76 pnl=-209.24 head=130641806 v3=932.44
-2026-10-30 17:34:07,087 V3 {'ts': 1793352840, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xea6a169b7fc3a9d9f2a226693dfc4f379d627777', 'sym': 'CTO', 'price': 4.368e-06, 'action': 'skip-7d'}
 2026-10-30 17:34:08,901 {'ts': 1793352830, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xae330a0a048782122c6a8ee31349035146c37777', 'tx': '0xa69c4173efff458fab2560f92ceb5ce2421bb12774451e9d92bf0bcd34da612f', 'action': 'skip-noprice'}
 2026-10-30 17:34:15,667 tick equity=790.76 pnl=-209.24 head=130641869 v3=932.44
 2026-10-30 17:34:46,108 tick equity=790.76 pnl=-209.24 head=130641937 v3=932.44
@@ -298,3 +296,5 @@
 2026-10-30 21:20:21,436 V3 {'ts': 1793366338, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x217cf0412af377c1e3f56414ff72757f4f6a7777', 'sym': 'flap Agent', 'price': 2.602e-05, 'action': 'skip-7d'}
 2026-10-30 21:20:22,837 V3 {'ts': 1793366338, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x217cf0412af377c1e3f56414ff72757f4f6a7777', 'sym': 'flap Agent', 'price': 2.602e-05, 'action': 'skip-7d'}
 2026-10-30 21:20:23,387 V3 {'ts': 1793366338, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x217cf0412af377c1e3f56414ff72757f4f6a7777', 'sym': 'flap Agent', 'price': 2.602e-05, 'action': 'skip-7d'}
+2026-10-30 21:21:18,995 tick equity=790.76 pnl=-209.24 head=130671993 v3=932.44
+2026-10-30 21:37:54,774 WATCHDOG: no successful tick 995s, exiting for restart
