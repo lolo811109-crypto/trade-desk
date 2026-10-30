@@ -1,7 +1,3 @@
-2026-10-30 22:40:18,003 V2-RISK SAFU 0x7c907d1ce734b73e9236dcd06cefcb6346857777 KILL buy_tax unknown; sell_tax unknown
-2026-10-30 22:40:18,003 V2 {'ts': 1793371148, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown']}
-2026-10-30 22:40:19,365 V3 {'ts': 1793371164, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001001, 'liq': 98871, 'action': 'skip-badwallet', 'reasons': ['v3 record 29 closes wr 3% pnl -30.15']}
-2026-10-30 22:41:13,640 V3 {'ts': 1793371273, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'SELL', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.001087, 'action': 'stop-loss', 'proceeds': 5.8, 'pnl': -4.2}
 2026-10-30 22:41:13,690 tick equity=790.76 pnl=-209.24 head=130682648 v3=928.24
 2026-10-30 22:41:42,386 V3 {'ts': 1793371253, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0x4f0ed1f48beaa4797a62202a21804cadc2170d6b', 'sym': 'SHOPINX', 'price': 0.0332, 'action': 'skip-7d'}
 2026-10-30 22:42:37,411 tick equity=790.76 pnl=-209.24 head=130682855 v3=928.24
@@ -298,3 +294,7 @@
 2026-10-31 03:05:21,617 tick equity=790.76 pnl=-209.24 head=130717930 v3=928.24
 2026-10-31 03:06:25,933 tick equity=790.76 pnl=-209.24 head=130718065 v3=928.24
 2026-10-31 03:07:24,518 tick equity=790.76 pnl=-209.24 head=130718208 v3=928.24
+2026-10-31 03:08:16,187 tick equity=790.76 pnl=-209.24 head=130718338 v3=928.24
+2026-10-31 03:09:07,549 tick equity=790.76 pnl=-209.24 head=130718452 v3=928.24
+2026-10-31 03:10:13,616 tick equity=790.76 pnl=-209.24 head=130718567 v3=928.24
+2026-10-31 03:11:53,351 tick equity=790.76 pnl=-209.24 head=130718713 v3=928.24
