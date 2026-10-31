@@ -1,735 +1,802 @@
 [
-  {
-    "ts": "2026-10-21T18:54:00+08:00",
-    "scope": "POLY v3 (共享池+锦标赛)",
-    "change": "v3 start: shared cash pool $1000, $100 budget/wallet, buy = min(10% wallet equity, $50); old per-wallet accounts archived to archive_v2/ at $1071.05"
-  },
-  {
-    "ts": "2026-10-22T12:54:00+08:00",
-    "scope": "POLY v3",
-    "change": "one position per market per wallet; $50 total exposure per market per account"
-  },
-  {
-    "ts": "2026-10-22T20:25:00+08:00",
-    "scope": "POLY lab",
-    "change": "lab accounts start: 共识跟单 (cons), 高胜率精选 (top), 尾盘高概率 (tail), $1000 each"
-  },
-  {
-    "ts": "2026-10-23T00:37:00+08:00",
-    "scope": "POLY v3 + lab",
-    "change": "polyfix: copy only entries 0.30-0.70 resolving <=24h; wallet max 35% budget per event; removed 0x8372/0x54ce from new buys; tail: no started/esports/crypto-day markets, no both sides, stop 0.80"
-  },
-  {
-    "ts": "2026-10-23T00:50:00+08:00",
-    "scope": "POLY BTC动量 (mom)",
-    "change": "BTC动量 lab start: BTC 15m up/down, ROC vs ATR k=1.0, $10/trade, max price 0.75 (approximate start time, see poly_mom.log)"
-  },
-  {
-    "ts": "2026-10-23T01:49:00+08:00",
-    "scope": "POLY v3 + lab",
-    "change": "realism: official resolution (gamma closed + outcomePrices) replaces price-guess; guess only after 24h with no book and no official data, flagged settle=guess; backfilled missing cid on 23 old positions"
-  },
-  {
-    "ts": "2026-10-23T01:49:00+08:00",
-    "scope": "POLY v3 + lab",
-    "change": "realism: copy buys/sells filled by walking live CLOB book at our action time; record leader px vs fill, delay_s, lat_cost; skip buy if fill > leader px + 0.05 (latency_px)"
-  },
-  {
-    "ts": "2026-10-23T02:11:00+08:00",
-    "scope": "POLY新钱包 (lab_new)",
-    "change": "new paper lab $1000, v3 shared-pool rules, follows scouted top 5: tin54321, isco22, Ksi172, noosh3, Shimi1234 ($200 budget each)"
-  },
-  {
-    "ts": "2026-10-23T02:58:00+08:00",
-    "scope": "BNB V3, SOL V3, BNB 新币狙击",
-    "change": "desk rules: liquidity_pulled exit (<60% of entry liq0; open positions get liq0 on first check); time_stop_45m (held>=45m, no partial TP, <+10%; old time stops kept); size<=1% pool liq else skip pool_too_small_for_size; honeypot guard: skip if DexScreener txns.h1.sells==0, missing -> skip missing_data. Originals/v2 unchanged (control)."
-  },
-  {
-    "ts": "2026-10-24T14:20+08:00",
-    "change": "用户要求停用 6 个亏损模拟版本：SOL 原版/V2/V3（paper_sol.py 已停止）、BSC 新币狙击（snipe_bsc.py 已停止）、BSC 原版与 BSC V2（paper_bsc.py 内 STOPPED_BASE/STOPPED_V2 冻结，不再开平仓与标记）。权益冻结于停用时刻。BSC V3、共振、Polymarket 全部继续运行。0x8372 串关未冲销。keepalive.sh 已移除 paper_sol/snipe_bsc 自动重启。",
-    "frozen": {
-      "bsc_base": 790.76,
-      "bsc_v2": 876.39,
-      "bsc_snipe": 869.83,
-      "sol_base": 675.0,
-      "sol_v2": 793.07,
-      "sol_v3": 801.37
-    }
-  },
-  {
-    "ts": "2026-10-25T09:16:00+08:00",
-    "scope": "POLY新钱包 (lab_new)",
-    "change": "rescreen: drop isco22/Ksi172/noosh3/Shimi1234 (paper losers; only tin54321 was green at +$62). Keep tin54321; add FinalOrder, BanfieldChris, Pjosully (leaderboard WEEK∩MONTH>0, short≤24h, copy_filter sample). Per-wallet budget $200→$80; MAX_STAKE $50→$25. Flattened dropped wallets' open positions into pool at mark. 高胜率精选 circuit breaker left alone (auto day-roll already on 2026-10-25, re-halted after ~20% day drawdown)."
-  },
-  {
-    "ts": "2026-10-26T11:10:00+08:00",
-    "scope": "BSC v3",
-    "change": "entry tightened: liq floor $5,000→$20,000; skip wallet if its own v3 record ≥8 closes with win rate <20% and net PnL <0 (0xee10: 50 closes, 4 wins, −46); no re-entry on same token within 2h of exit. SL/TP/dev gate unchanged. 原版/v2 frozen untouched, 共振 untouched."
-  },
-  {
-    "ts": "2026-10-26T11:10:00+08:00",
-    "scope": "高胜率精选 (lab_top)",
-    "change": "daily wallet pick: was sort by pnl only → score = PnL/100 + 2×ROI + win rate − drawdown/100, need ≥5 closed trades and PnL>0, top 3. Circuit breaker unchanged."
-  },
-  {
-    "date": "2026-10-27",
-    "account": "BSC paper_bsc",
-    "change": "watchdog: heartbeat only on successful tick, exit if none for 10 min; RPC timeout (5s connect,10s read); if >600 blocks behind, skip ahead to tip (logged SKIP-AHEAD). Frozen 原版/v2 untouched.",
-    "backup": "bsc/paper_bsc.py.bak-watchdog1027"
-  },
-  {
-    "date": "2026-10-27",
-    "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选 (poly_lab.py)",
-    "change": "esports markets (LoL/CS/Dota/Valorant etc. by title keyword, esports.py): map/game/handicap/kills lines skipped (why=esports_map) in 共享池/锦标赛/共识; match-level esports stake = min(50% normal, $10). 精选 only gets the stake cap (its esports were net positive). Analysis: esports_analysis_1027.json",
-    "backup": "*.bak-esports1027"
-  },
-  {
-    "date": "2026-10-27",
-    "account": "Poly 信息型钱包 (poly_info.py, paper_state_lab_info.json)",
-    "change": "NEW paper account $1000: daily picks 3-5 wallets from shortlist+new_wallets by score=batch+cold+hold+winrate (recent 200 closed positions; need >=5 closed & PnL>0). $20/buy, $50/market, esports rules, 10% daily breaker, slippage as poly_lab.",
-    "backup": "*.bak-info1027"
-  },
-  {
-    "date": "2026-10-27",
-    "account": "Poly 信息型钱包 (poly_info.py)",
-    "change": "daily wallet reselect: [] -> ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x27f738fe203827445690339104aae35b20bc44b0', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26']",
-    "scores": {
-      "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
-        "score": 2.042,
-        "batch": 0.053,
-        "cold": 0.024,
-        "hold": 0.995,
-        "winrate": 0.97,
-        "closed": 33,
-        "realized_pnl": 76562.99,
-        "n_trades": 211,
-        "eligible": true
-      },
-      "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": {
-        "score": 1.935,
-        "batch": 0.0,
-        "cold": 0.08,
-        "hold": 1.0,
-        "winrate": 0.855,
-        "closed": 200,
-        "realized_pnl": 144192.88,
-        "n_trades": 500,
-        "eligible": true
-      },
-      "0x27f738fe203827445690339104aae35b20bc44b0": {
-        "score": 1.896,
-        "batch": 0.029,
-        "cold": 0.012,
-        "hold": 1.0,
-        "winrate": 0.855,
-        "closed": 200,
-        "realized_pnl": 305276.93,
-        "n_trades": 500,
-        "eligible": true
-      },
-      "0x23d81ba9371e576015c1e562db09c689f56b0288": {
-        "score": 1.858,
-        "batch": 0.15,
-        "cold": 0.109,
-        "hold": 0.854,
-        "winrate": 0.745,
-        "closed": 200,
-        "realized_pnl": 1373417.93,
-        "n_trades": 500,
-        "eligible": true
-      },
-      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
-        "score": 1.857,
-        "batch": 0.013,
-        "cold": 0.055,
-        "hold": 0.994,
-        "winrate": 0.795,
-        "closed": 200,
-        "realized_pnl": 666588.02,
-        "n_trades": 500,
-        "eligible": true
-      }
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "ts": "2026-10-28T09:09:30+08:00",
-    "account": "Poly 共享池/锦标赛 (paper.py), 共识 (poly_lab.py)",
-    "change": "评估停跟 0x8c0b 的 LoL 单：根据 paper.log 历史成交，0x8c0b LoL 已平仓净盈亏 共享池 +285.30（17笔,8胜）、锦标赛 +417.57（20笔,9胜），历史上净赚钱。按规则不停跟，维持既有电竞半仓+上限$10（esports.py）。注：单笔 LYON vs Karmine Corp 贡献 +315/+450，去掉后接近打平；地图/局盘已在 10/27 跳过。共识账户 state 内可见 LoL 平仓合计 −110（6笔全亏，含非仅 8c0b 支持的仓）。",
-    "numbers": {
-      "wallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
-      "base_lol_closed_pnl": 285.3,
-      "base_lol_closes": 17,
-      "base_lol_wins": 8,
-      "tour_lol_closed_pnl": 417.57,
-      "tour_lol_closes": 20,
-      "tour_lol_wins": 9,
-      "decision": "KEEP_ESPORTS_CAP_NO_LOL_BAN"
-    },
-    "backup": "paper.py.bak-1028 (neg_equity only; no LoL code change)"
-  },
-  {
-    "date": "2026-10-28",
-    "ts": "2026-10-28T09:09:30+08:00",
-    "account": "Poly 信息型钱包 (poly_info.py)",
-    "change": "开张约12h 权益 1000→906.65（−9.3%，未重置）。26个未平仓浮亏约 −90.65。亏损主要：0x27f738 18仓体育/盘口 cost360 upnl−12；0x23d81 以色列选举+已平−16，开仓upnl−24.7；0xd38b 两笔 Spread upnl−30.8；0x2117 体育 upnl−23。收紧：STAKE 20→10；MAX_OPEN=8；MAX_PER_W=3；跳过 sports/esports_match/sports_title(Spread|O/U|vs.)；入选门槛 closed≥10 且 batch+cold≥0.05。权益不重置。",
-    "numbers": {
-      "equity_before_change": 906.65,
-      "pnl": -93.35,
-      "open": 26,
-      "open_upnl": -90.65,
-      "n_buys": 33,
-      "n_closed": 7,
-      "by_wallet_open_upnl": {
-        "0x27f738": -12.18,
-        "0x23d81": -24.65,
-        "0xd38b": -30.76,
-        "0x2117": -23.05
-      }
-    },
-    "backup": "poly_info.py.bak-1028"
-  },
-  {
-    "date": "2026-10-28",
-    "ts": "2026-10-28T09:09:30+08:00",
-    "account": "Poly 锦标赛 (paper.py / paper_state_t_v3.json)",
-    "change": "负权益不是公式 bug：equity=budget+realized+upnl，日频调仓削减 budget 后，realized 亏损已超过剩余 budget（0xa38a bud80 real−100 eq−20；0xd38b bud64 real−76.14 eq−12.14；0xdaef bud80 real−90.39 eq−10.39）。修复：1) equity≤0 跳过新开仓 why=neg_equity；2) 调仓不得把资金分给 equity≤0 的钱包；3) 从 worst 抽预算时最多抽到其 equity=0（floor_eq0）。共享池无调仓，同加 neg_equity 守卫。",
-    "numbers": {
-      "0xa38a": {
-        "budget": 80.0,
-        "realized": -100.0,
-        "equity": -20.0
-      },
-      "0xd38b": {
-        "budget": 64.0,
-        "realized": -76.14,
-        "equity": -12.14
-      },
-      "0xdaef": {
-        "budget": 80.0,
-        "realized": -90.39,
-        "equity": -10.39
-      }
-    },
-    "backup": "paper.py.bak-1028"
-  },
-  {
-    "date": "2026-10-28",
-    "account": "Poly 信息型钱包 (poly_info.py)",
-    "change": "daily wallet reselect: ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0x23d81ba9371e576015c1e562db09c689f56b0288'] -> ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9']",
-    "scores": {
-      "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
-        "score": 2.042,
-        "batch": 0.053,
-        "cold": 0.024,
-        "hold": 0.995,
-        "winrate": 0.97,
-        "closed": 33,
-        "realized_pnl": 76562.99,
-        "n_trades": 211,
-        "eligible": true,
-        "signal": 0.077
-      },
-      "0x23d81ba9371e576015c1e562db09c689f56b0288": {
-        "score": 1.987,
-        "batch": 0.227,
-        "cold": 0.032,
-        "hold": 0.982,
-        "winrate": 0.745,
-        "closed": 200,
-        "realized_pnl": 1391069.94,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.26
-      },
-      "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": {
-        "score": 1.935,
-        "batch": 0.0,
-        "cold": 0.08,
-        "hold": 1.0,
-        "winrate": 0.855,
-        "closed": 200,
-        "realized_pnl": 144192.88,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.08
-      },
-      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
-        "score": 1.867,
-        "batch": 0.013,
-        "cold": 0.056,
-        "hold": 0.994,
-        "winrate": 0.805,
-        "closed": 200,
-        "realized_pnl": 524925.66,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.068
-      },
-      "0xdaef2be2a19ad331737d06545f85615b094554e9": {
-        "score": 1.793,
-        "batch": 0.143,
-        "cold": 0.035,
-        "hold": 0.93,
-        "winrate": 0.685,
-        "closed": 200,
-        "realized_pnl": 1150949.53,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.178
-      }
-    }
-  },
-  {
-    "date": "2026-10-28",
-    "ts": "2026-10-28T13:09:45+08:00",
-    "account": "Poly 共享池/锦标赛 (paper.py)",
-    "change": "按 10/28 NO-GO 复盘：替换弱势钱包 0xa38a/0xd38b/0xdaef（预算近耗尽）与 0x54ce（10/26 后无新单）。保留 0x8c0b/0x27f7/0x23d8 及 0x2117/0x20d6/0x8372。新跟：jakepaulthegoat2008、nigiri99、Eugycom、Woaifacai（公开 leaderboard WEEK∩MONTH 正 PnL，低 prop/parlay/map-handicap，近期活跃）。正权益均分给新钱包；负权益冲销。REMOVED 扩展。仅模拟盘。",
-    "dropped": {
-      "0xa38a": {
-        "equity": 0.0,
-        "budget": 100.0,
-        "realized": -100.0,
-        "pnl": -100.0,
-        "npos": 0
-      },
-      "0xd38b": {
-        "equity": 2.36,
-        "budget": 100.0,
-        "realized": -97.64,
-        "pnl": -97.64,
-        "npos": 0
-      },
-      "0xdaef": {
-        "equity": 9.61,
-        "budget": 100.0,
-        "realized": -90.39,
-        "pnl": -90.39,
-        "npos": 0
-      },
-      "0x54ce": {
-        "equity": 100.0,
-        "budget": 100.0,
-        "realized": 0.0,
-        "pnl": 0.0,
-        "npos": 0
-      }
-    },
-    "added": {
-      "jakepaulthegoat2008": {
-        "addr": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
-        "pnl7": 921937,
-        "pnl30": 366431,
-        "wr": 0.96,
-        "n7": 250,
-        "sport": 0.06,
-        "prop": 0.0,
-        "note": "NBA/LoL match ML",
-        "base_budget": 27.99,
-        "tour_budget": 25.0
-      },
-      "nigiri99": {
-        "addr": "0xdc41c39b95453c943174f369926018f6963bdd7e",
-        "pnl7": 507362,
-        "pnl30": 327219,
-        "wr": 0.86,
-        "n7": 250,
-        "sport": 0.27,
-        "prop": 0.22,
-        "note": "mixed politics+sports ML",
-        "base_budget": 27.99,
-        "tour_budget": 25.0
-      },
-      "Eugycom": {
-        "addr": "0x64ceab3becc143e1b97a8e16dc270c2297566015",
-        "pnl7": 219189,
-        "pnl30": 219189,
-        "wr": 1.0,
-        "n7": 250,
-        "sport": 0.0,
-        "prop": 0.0,
-        "note": "NBA match ML only",
-        "base_budget": 27.99,
-        "tour_budget": 25.0
-      },
-      "Woaifacai": {
-        "addr": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
-        "pnl7": 148694,
-        "pnl30": 168933,
-        "wr": 0.64,
-        "n7": 250,
-        "sport": 0.42,
-        "prop": 0.0,
-        "note": "soccer/tennis match ML",
-        "base_budget": 28.0,
-        "tour_budget": 25.0
-      }
-    },
-    "base_reclaimed": 111.97,
-    "tour_reclaimed": 100.0,
-    "screen": "wallet_replace_screen_1028b.json",
-    "backup": "*.bak-1028b"
-  },
-  {
-    "date": "2026-10-28",
-    "ts": "2026-10-28T22:08:57+08:00",
-    "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选/尾盘 (poly_lab.py), 新钱包 (poly_new.py)",
-    "change": "体育同场堆仓上限：账户级同一 sports event（gamma event id / polyrules.event_key）合计敞口 ≤$35，最多 3 个未平仓；超限 skip why=game_cap / game_n，开仓时 stake 也被 groom 截断。原因：晚报 Lakers -3.5 同场多钱包堆仓约 −14.95；当前 Magic/Raptors 同场两档 O/U 已达 $32.6。单 market 的 MKT_CAP=$50 与钱包 WALLET_EV_FRAC=35% 保留。",
-    "numbers": {
-      "GAME_CAP": 35.0,
-      "GAME_MAX_N": 3,
-      "MKT_CAP": 50.0,
-      "trigger": "Lakers spread stack evening report"
-    },
-    "backup": "*.bak-1028c"
-  },
-  {
-    "date": "2026-10-28",
-    "ts": "2026-10-28T22:08:57+08:00",
-    "account": "Poly 新钱包 (poly_new.py / paper_state_lab_new.json)",
-    "change": "全天 0 买：跟的 tin54321/FinalOrder/BanfieldChris/Pjosully 自 10/25–26 起在 API 无新成交（last_ts 停更，今日 skip=0 非规则过严）。替换为 4 个 WEEK∩MONTH 正 PnL、近 24h 活跃、copy_filter 通过率高、非串关重仓钱包：Mooseborzoiii、monkeymashingkeyboard、ianf2026、Nooserac。预算仍 $80/钱包，MAX_STAKE$25；权益/资金池不重置（仍 809.30 / −190.70）。同步加上 sports GAME_CAP。",
-    "dropped": [
-      "tin54321",
-      "FinalOrder",
-      "BanfieldChris",
-      "Pjosully"
-    ],
-    "added": {
-      "Mooseborzoiii": {
-        "addr": "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
-        "note": "CS match ML, copy_ok 20/20, wr~0.88"
-      },
-      "monkeymashingkeyboard": {
-        "addr": "0x684baa57c338c2549aec0aa3f034f695d72a8409",
-        "note": "NBA ML/spread, copy_ok 16/20, wr~0.76"
-      },
-      "ianf2026": {
-        "addr": "0x81d972dbea298a5064d4ba51031e0386182fe9c9",
-        "note": "NBA spreads, copy_ok 20/20, wr~0.88"
-      },
-      "Nooserac": {
-        "addr": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
-        "note": "NBA/NFL match ML, copy_ok 9/20, wr~0.78"
-      }
-    },
-    "equity_unchanged": 809.3,
-    "screen": "new_wallets_refresh_1028c.json",
-    "backup": "*.bak-1028c"
-  },
-  {
-    "date": "2026-10-29",
-    "account": "Poly 信息型钱包 (poly_info.py)",
-    "change": "daily wallet reselect: ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9'] -> ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9']",
-    "scores": {
-      "0x23d81ba9371e576015c1e562db09c689f56b0288": {
-        "score": 2.053,
-        "batch": 0.316,
-        "cold": 0.03,
-        "hold": 0.962,
-        "winrate": 0.745,
-        "closed": 200,
-        "realized_pnl": 1391069.94,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.346
-      },
-      "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
-        "score": 2.042,
-        "batch": 0.053,
-        "cold": 0.024,
-        "hold": 0.995,
-        "winrate": 0.97,
-        "closed": 33,
-        "realized_pnl": 76562.99,
-        "n_trades": 211,
-        "eligible": true,
-        "signal": 0.077
-      },
-      "0x27f738fe203827445690339104aae35b20bc44b0": {
-        "score": 1.902,
-        "batch": 0.034,
-        "cold": 0.018,
-        "hold": 1.0,
-        "winrate": 0.85,
-        "closed": 200,
-        "realized_pnl": 289618.49,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.052
-      },
-      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
-        "score": 1.886,
-        "batch": 0.012,
-        "cold": 0.067,
-        "hold": 0.992,
-        "winrate": 0.815,
-        "closed": 200,
-        "realized_pnl": 526036.98,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.079
-      },
-      "0xdaef2be2a19ad331737d06545f85615b094554e9": {
-        "score": 1.793,
-        "batch": 0.143,
-        "cold": 0.035,
-        "hold": 0.93,
-        "winrate": 0.685,
-        "closed": 200,
-        "realized_pnl": 1149185.64,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.178
-      }
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "account": "Poly 信息型钱包 (poly_info.py)",
-    "change": "daily wallet reselect: ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9'] -> ['0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26']",
-    "scores": {
-      "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
-        "score": 2.094,
-        "batch": 0.0,
-        "cold": 0.214,
-        "hold": 1.0,
-        "winrate": 0.88,
-        "closed": 200,
-        "realized_pnl": 2584880.2,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.214
-      },
-      "0x23d81ba9371e576015c1e562db09c689f56b0288": {
-        "score": 2.053,
-        "batch": 0.316,
-        "cold": 0.03,
-        "hold": 0.962,
-        "winrate": 0.745,
-        "closed": 200,
-        "realized_pnl": 1391069.94,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.346
-      },
-      "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
-        "score": 1.926,
-        "batch": 0.055,
-        "cold": 0.031,
-        "hold": 0.99,
-        "winrate": 0.85,
-        "closed": 200,
-        "realized_pnl": 613366.31,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.086
-      },
-      "0x27f738fe203827445690339104aae35b20bc44b0": {
-        "score": 1.893,
-        "batch": 0.044,
-        "cold": 0.018,
-        "hold": 1.0,
-        "winrate": 0.83,
-        "closed": 200,
-        "realized_pnl": 283902.33,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.063
-      },
-      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
-        "score": 1.873,
-        "batch": 0.019,
-        "cold": 0.042,
-        "hold": 0.988,
-        "winrate": 0.825,
-        "closed": 200,
-        "realized_pnl": 311357.27,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.06
-      }
-    }
-  },
-  {
-    "date": "2026-10-30",
-    "ts": "2026-10-30T09:14:20+08:00",
-    "account": "Poly 共享池/锦标赛 (paper.py)",
-    "change": "按早报：替换最差钱包 0x2117（Zzzz87，共享池约 −85 / 锦标赛约 −74）。加入 REMOVED，不再新开仓。未平仓按 mark 平到资金池后，剩余权益转给新钱包 BreakTheBank（0xf0318c…）。保留 0x8c0b/0x27f7/0x23d8 及 10/28 四个替换钱包。BreakTheBank：公开 leaderboard WEEK∩MONTH 正 PnL（约 +2.8M / +6.7M），近 50 笔平仓胜率 0.98，活跃，非串关/地图盘口重仓，copy_filter 近 40 笔通过 34。仅模拟盘，账户权益不重置。",
-    "dropped": {
-      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
-        "name": "Zzzz87",
-        "BASE_pnl": -85.27,
-        "TOUR_pnl": -74.4,
-        "BASE_freed": 14.73,
-        "TOUR_freed": 2.97
-      }
-    },
-    "added": {
-      "BreakTheBank": {
-        "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
-        "pnl7": 2806717,
-        "pnl30": 6669949,
-        "wr": 0.98,
-        "sport": 0.0,
-        "parlay": 0.0,
-        "maph": 0.0,
-        "note": "politics+sports ML; copy_ok 34/40"
-      }
-    },
-    "equity_preserved": {
-      "BASE": 1044.19,
-      "TOUR": 1235.92
-    },
-    "backup": "*.bak-1030",
-    "screen": "wallet_replace_screen_1030.json"
-  },
-  {
-    "date": "2026-10-30",
-    "ts": "2026-10-30T09:14:20+08:00",
-    "account": "Poly 尾盘高概率 (poly_lab.py / paper_state_lab_tail.json)",
-    "change": "累计约 −9.4%。复盘 29 笔平仓：止损 stop_0.80 共 17 笔 −64.91（全亏），官方结算 12 笔 +25.10（全赢）。亏损集中：入场 0.85–0.88（−36.5）、政治选举类 7 笔 −20.9、Spread/Exact Score。收紧（不重置权益）：买价带 0.85–0.95→0.90–0.95；到期窗口 48h→24h；单笔 $20→$10；跳过 politics（election/president/seats 等）与 Spread/O/U/Exact Score。",
-    "numbers": {
-      "equity": 905.8,
-      "pnl": -94.2,
-      "n_closed": 29,
-      "stop_pnl": -64.91,
-      "resolve_pnl": 25.1,
-      "band_0.85_0.88_pnl": -36.47,
-      "politics_pnl": -20.91,
-      "new": {
-        "ask": "0.90-0.95",
-        "window_h": 24,
-        "stake": 10,
-        "skip": [
-          "politics",
-          "spread_ou"
-        ]
-      }
-    },
-    "backup": "poly_lab.py.bak-1030"
-  },
-  {
-    "date": "2026-10-31",
-    "account": "Poly 信息型钱包 (poly_info.py)",
-    "change": "daily wallet reselect: ['0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26'] -> ['0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e']",
-    "scores": {
-      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": {
-        "score": 2.034,
-        "batch": 0.0,
-        "cold": 0.202,
-        "hold": 0.882,
-        "winrate": 0.95,
-        "closed": 200,
-        "realized_pnl": 21367332.28,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.202
-      },
-      "0x23d81ba9371e576015c1e562db09c689f56b0288": {
-        "score": 2.033,
-        "batch": 0.3,
-        "cold": 0.03,
-        "hold": 0.958,
-        "winrate": 0.745,
-        "closed": 200,
-        "realized_pnl": 1391069.94,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.33
-      },
-      "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
-        "score": 1.944,
-        "batch": 0.066,
-        "cold": 0.041,
-        "hold": 0.992,
-        "winrate": 0.845,
-        "closed": 200,
-        "realized_pnl": 606202.59,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.107
-      },
-      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": {
-        "score": 1.871,
-        "batch": 0.0,
-        "cold": 0.108,
-        "hold": 0.908,
-        "winrate": 0.855,
-        "closed": 200,
-        "realized_pnl": 1613721.51,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.108
-      },
-      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": {
-        "score": 1.761,
-        "batch": 0.0,
-        "cold": 0.081,
-        "hold": 1.0,
-        "winrate": 0.68,
-        "closed": 200,
-        "realized_pnl": 1460028.93,
-        "n_trades": 500,
-        "eligible": true,
-        "signal": 0.081
-      }
-    }
-  },
-  {
-    "date": "2026-10-31",
-    "ts": "2026-10-31T02:42:19+08:00",
-    "account": "BTC动量 (poly_mom.py / paper_state_lab_mom.json)",
-    "change": "纸面加公允价边缘过滤+更严跳窗（仍15m，不切5m）。σ_left=atr*sqrt(t_left/300)，p_up=Φ(move/σ)；仅当 fair-fill≥0.05 才买（skip edge_lt_5）。MAXPX 0.75→0.70，K 1.0→1.25。新增连续3个上海日历日亏损则 losing_halt（赢一天或 clear_losing_halt 解除）。不重置权益/历史。备份 *.bak-1031-fv。",
-    "params": {
-      "k": 1.25,
-      "max_px": 0.7,
-      "edge": 0.05,
-      "stake": 10,
-      "lose_days": 3,
-      "window": "15m"
-    }
-  },
-  {
-    "date": "2026-10-31",
-    "ts": "2026-10-31T21:18:25+08:00",
-    "account": "BSC V3 + 共振 (paper_bsc.py / nr_lib.py)",
-    "change": "诊断全日零成交：非进程卡死。V3今日信号43笔skip-7d（负7日盈亏钱包）+3 skip-badwallet(0xee1004 WR~3%)+1 skip-liqfloor；活跃钱包池偏冷。共振近24h几乎无新共振事件，近事件均kill-risk（tax unknown/LP unlocked，后验收益更差）。不过滤放宽。仅修nr_lib：HEAD/CHUNKS改为懒加载，避免import超时导致pnl7d=None、7日过滤停滞~5.5天无法刷新。权益不重置。",
-    "numbers": {
-      "v3_equity": 928.24,
-      "conf_equity": 992.11,
-      "v3_actions_today": {
-        "skip-7d": 43,
-        "skip-badwallet": 3,
-        "skip-liqfloor": 1
-      },
-      "filter_age_h": 132,
-      "active_wallets": 5
-    },
-    "params": {
-      "filters": "unchanged",
-      "nr_lib": "lazy HEAD/CHUNKS"
-    },
-    "backup": "bsc/*.bak-1031-bsc"
-  },
-  {
-    "date": "2026-10-31",
-    "ts": "2026-10-31T21:18:25+08:00",
-    "account": "共享池/锦标赛 (paper.py)",
-    "change": "复盘0x8c0b集中度与今日回撤。不移除0x8c0b。10/28新钱包：0x6ac5/0xdc41仍赚钱；0x64ce/0x9b89/0x20d6小亏且样本少，暂不替换。GAME_CAP/WALLET_EV_FRAC不改（已有game_cap跳过）。标记0x8372已REMOVED但仍占$100+10笔未结算组合盘僵尸仓，待家长拍板是否核销。",
-    "numbers": {
-      "shared_eq": 983.66,
-      "tour_eq": 1205.51,
-      "shared_8c0b_eq": 366.84,
-      "tour_8c0b_eq": 498.38,
-      "losers": {
-        "0x20d6": -16.26,
-        "0x64ce": -5.3,
-        "0x9b89": -8.5
-      }
-    },
-    "params": {
-      "changed": false
-    },
-    "backup": null
+ {
+  "ts": "2026-10-21T18:54:00+08:00",
+  "scope": "POLY v3 (共享池+锦标赛)",
+  "change": "v3 start: shared cash pool $1000, $100 budget/wallet, buy = min(10% wallet equity, $50); old per-wallet accounts archived to archive_v2/ at $1071.05"
+ },
+ {
+  "ts": "2026-10-22T12:54:00+08:00",
+  "scope": "POLY v3",
+  "change": "one position per market per wallet; $50 total exposure per market per account"
+ },
+ {
+  "ts": "2026-10-22T20:25:00+08:00",
+  "scope": "POLY lab",
+  "change": "lab accounts start: 共识跟单 (cons), 高胜率精选 (top), 尾盘高概率 (tail), $1000 each"
+ },
+ {
+  "ts": "2026-10-23T00:37:00+08:00",
+  "scope": "POLY v3 + lab",
+  "change": "polyfix: copy only entries 0.30-0.70 resolving <=24h; wallet max 35% budget per event; removed 0x8372/0x54ce from new buys; tail: no started/esports/crypto-day markets, no both sides, stop 0.80"
+ },
+ {
+  "ts": "2026-10-23T00:50:00+08:00",
+  "scope": "POLY BTC动量 (mom)",
+  "change": "BTC动量 lab start: BTC 15m up/down, ROC vs ATR k=1.0, $10/trade, max price 0.75 (approximate start time, see poly_mom.log)"
+ },
+ {
+  "ts": "2026-10-23T01:49:00+08:00",
+  "scope": "POLY v3 + lab",
+  "change": "realism: official resolution (gamma closed + outcomePrices) replaces price-guess; guess only after 24h with no book and no official data, flagged settle=guess; backfilled missing cid on 23 old positions"
+ },
+ {
+  "ts": "2026-10-23T01:49:00+08:00",
+  "scope": "POLY v3 + lab",
+  "change": "realism: copy buys/sells filled by walking live CLOB book at our action time; record leader px vs fill, delay_s, lat_cost; skip buy if fill > leader px + 0.05 (latency_px)"
+ },
+ {
+  "ts": "2026-10-23T02:11:00+08:00",
+  "scope": "POLY新钱包 (lab_new)",
+  "change": "new paper lab $1000, v3 shared-pool rules, follows scouted top 5: tin54321, isco22, Ksi172, noosh3, Shimi1234 ($200 budget each)"
+ },
+ {
+  "ts": "2026-10-23T02:58:00+08:00",
+  "scope": "BNB V3, SOL V3, BNB 新币狙击",
+  "change": "desk rules: liquidity_pulled exit (<60% of entry liq0; open positions get liq0 on first check); time_stop_45m (held>=45m, no partial TP, <+10%; old time stops kept); size<=1% pool liq else skip pool_too_small_for_size; honeypot guard: skip if DexScreener txns.h1.sells==0, missing -> skip missing_data. Originals/v2 unchanged (control)."
+ },
+ {
+  "ts": "2026-10-24T14:20+08:00",
+  "change": "用户要求停用 6 个亏损模拟版本：SOL 原版/V2/V3（paper_sol.py 已停止）、BSC 新币狙击（snipe_bsc.py 已停止）、BSC 原版与 BSC V2（paper_bsc.py 内 STOPPED_BASE/STOPPED_V2 冻结，不再开平仓与标记）。权益冻结于停用时刻。BSC V3、共振、Polymarket 全部继续运行。0x8372 串关未冲销。keepalive.sh 已移除 paper_sol/snipe_bsc 自动重启。",
+  "frozen": {
+   "bsc_base": 790.76,
+   "bsc_v2": 876.39,
+   "bsc_snipe": 869.83,
+   "sol_base": 675.0,
+   "sol_v2": 793.07,
+   "sol_v3": 801.37
   }
+ },
+ {
+  "ts": "2026-10-25T09:16:00+08:00",
+  "scope": "POLY新钱包 (lab_new)",
+  "change": "rescreen: drop isco22/Ksi172/noosh3/Shimi1234 (paper losers; only tin54321 was green at +$62). Keep tin54321; add FinalOrder, BanfieldChris, Pjosully (leaderboard WEEK∩MONTH>0, short≤24h, copy_filter sample). Per-wallet budget $200→$80; MAX_STAKE $50→$25. Flattened dropped wallets' open positions into pool at mark. 高胜率精选 circuit breaker left alone (auto day-roll already on 2026-10-25, re-halted after ~20% day drawdown)."
+ },
+ {
+  "ts": "2026-10-26T11:10:00+08:00",
+  "scope": "BSC v3",
+  "change": "entry tightened: liq floor $5,000→$20,000; skip wallet if its own v3 record ≥8 closes with win rate <20% and net PnL <0 (0xee10: 50 closes, 4 wins, −46); no re-entry on same token within 2h of exit. SL/TP/dev gate unchanged. 原版/v2 frozen untouched, 共振 untouched."
+ },
+ {
+  "ts": "2026-10-26T11:10:00+08:00",
+  "scope": "高胜率精选 (lab_top)",
+  "change": "daily wallet pick: was sort by pnl only → score = PnL/100 + 2×ROI + win rate − drawdown/100, need ≥5 closed trades and PnL>0, top 3. Circuit breaker unchanged."
+ },
+ {
+  "date": "2026-10-27",
+  "account": "BSC paper_bsc",
+  "change": "watchdog: heartbeat only on successful tick, exit if none for 10 min; RPC timeout (5s connect,10s read); if >600 blocks behind, skip ahead to tip (logged SKIP-AHEAD). Frozen 原版/v2 untouched.",
+  "backup": "bsc/paper_bsc.py.bak-watchdog1027"
+ },
+ {
+  "date": "2026-10-27",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选 (poly_lab.py)",
+  "change": "esports markets (LoL/CS/Dota/Valorant etc. by title keyword, esports.py): map/game/handicap/kills lines skipped (why=esports_map) in 共享池/锦标赛/共识; match-level esports stake = min(50% normal, $10). 精选 only gets the stake cap (its esports were net positive). Analysis: esports_analysis_1027.json",
+  "backup": "*.bak-esports1027"
+ },
+ {
+  "date": "2026-10-27",
+  "account": "Poly 信息型钱包 (poly_info.py, paper_state_lab_info.json)",
+  "change": "NEW paper account $1000: daily picks 3-5 wallets from shortlist+new_wallets by score=batch+cold+hold+winrate (recent 200 closed positions; need >=5 closed & PnL>0). $20/buy, $50/market, esports rules, 10% daily breaker, slippage as poly_lab.",
+  "backup": "*.bak-info1027"
+ },
+ {
+  "date": "2026-10-27",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: [] -> ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x27f738fe203827445690339104aae35b20bc44b0', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26']",
+  "scores": {
+   "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
+    "score": 2.042,
+    "batch": 0.053,
+    "cold": 0.024,
+    "hold": 0.995,
+    "winrate": 0.97,
+    "closed": 33,
+    "realized_pnl": 76562.99,
+    "n_trades": 211,
+    "eligible": true
+   },
+   "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": {
+    "score": 1.935,
+    "batch": 0.0,
+    "cold": 0.08,
+    "hold": 1.0,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 144192.88,
+    "n_trades": 500,
+    "eligible": true
+   },
+   "0x27f738fe203827445690339104aae35b20bc44b0": {
+    "score": 1.896,
+    "batch": 0.029,
+    "cold": 0.012,
+    "hold": 1.0,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 305276.93,
+    "n_trades": 500,
+    "eligible": true
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 1.858,
+    "batch": 0.15,
+    "cold": 0.109,
+    "hold": 0.854,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1373417.93,
+    "n_trades": 500,
+    "eligible": true
+   },
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "score": 1.857,
+    "batch": 0.013,
+    "cold": 0.055,
+    "hold": 0.994,
+    "winrate": 0.795,
+    "closed": 200,
+    "realized_pnl": 666588.02,
+    "n_trades": 500,
+    "eligible": true
+   }
+  }
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T09:09:30+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识 (poly_lab.py)",
+  "change": "评估停跟 0x8c0b 的 LoL 单：根据 paper.log 历史成交，0x8c0b LoL 已平仓净盈亏 共享池 +285.30（17笔,8胜）、锦标赛 +417.57（20笔,9胜），历史上净赚钱。按规则不停跟，维持既有电竞半仓+上限$10（esports.py）。注：单笔 LYON vs Karmine Corp 贡献 +315/+450，去掉后接近打平；地图/局盘已在 10/27 跳过。共识账户 state 内可见 LoL 平仓合计 −110（6笔全亏，含非仅 8c0b 支持的仓）。",
+  "numbers": {
+   "wallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
+   "base_lol_closed_pnl": 285.3,
+   "base_lol_closes": 17,
+   "base_lol_wins": 8,
+   "tour_lol_closed_pnl": 417.57,
+   "tour_lol_closes": 20,
+   "tour_lol_wins": 9,
+   "decision": "KEEP_ESPORTS_CAP_NO_LOL_BAN"
+  },
+  "backup": "paper.py.bak-1028 (neg_equity only; no LoL code change)"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T09:09:30+08:00",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "开张约12h 权益 1000→906.65（−9.3%，未重置）。26个未平仓浮亏约 −90.65。亏损主要：0x27f738 18仓体育/盘口 cost360 upnl−12；0x23d81 以色列选举+已平−16，开仓upnl−24.7；0xd38b 两笔 Spread upnl−30.8；0x2117 体育 upnl−23。收紧：STAKE 20→10；MAX_OPEN=8；MAX_PER_W=3；跳过 sports/esports_match/sports_title(Spread|O/U|vs.)；入选门槛 closed≥10 且 batch+cold≥0.05。权益不重置。",
+  "numbers": {
+   "equity_before_change": 906.65,
+   "pnl": -93.35,
+   "open": 26,
+   "open_upnl": -90.65,
+   "n_buys": 33,
+   "n_closed": 7,
+   "by_wallet_open_upnl": {
+    "0x27f738": -12.18,
+    "0x23d81": -24.65,
+    "0xd38b": -30.76,
+    "0x2117": -23.05
+   }
+  },
+  "backup": "poly_info.py.bak-1028"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T09:09:30+08:00",
+  "account": "Poly 锦标赛 (paper.py / paper_state_t_v3.json)",
+  "change": "负权益不是公式 bug：equity=budget+realized+upnl，日频调仓削减 budget 后，realized 亏损已超过剩余 budget（0xa38a bud80 real−100 eq−20；0xd38b bud64 real−76.14 eq−12.14；0xdaef bud80 real−90.39 eq−10.39）。修复：1) equity≤0 跳过新开仓 why=neg_equity；2) 调仓不得把资金分给 equity≤0 的钱包；3) 从 worst 抽预算时最多抽到其 equity=0（floor_eq0）。共享池无调仓，同加 neg_equity 守卫。",
+  "numbers": {
+   "0xa38a": {
+    "budget": 80.0,
+    "realized": -100.0,
+    "equity": -20.0
+   },
+   "0xd38b": {
+    "budget": 64.0,
+    "realized": -76.14,
+    "equity": -12.14
+   },
+   "0xdaef": {
+    "budget": 80.0,
+    "realized": -90.39,
+    "equity": -10.39
+   }
+  },
+  "backup": "paper.py.bak-1028"
+ },
+ {
+  "date": "2026-10-28",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0x23d81ba9371e576015c1e562db09c689f56b0288'] -> ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9']",
+  "scores": {
+   "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
+    "score": 2.042,
+    "batch": 0.053,
+    "cold": 0.024,
+    "hold": 0.995,
+    "winrate": 0.97,
+    "closed": 33,
+    "realized_pnl": 76562.99,
+    "n_trades": 211,
+    "eligible": true,
+    "signal": 0.077
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 1.987,
+    "batch": 0.227,
+    "cold": 0.032,
+    "hold": 0.982,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1391069.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.26
+   },
+   "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": {
+    "score": 1.935,
+    "batch": 0.0,
+    "cold": 0.08,
+    "hold": 1.0,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 144192.88,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.08
+   },
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "score": 1.867,
+    "batch": 0.013,
+    "cold": 0.056,
+    "hold": 0.994,
+    "winrate": 0.805,
+    "closed": 200,
+    "realized_pnl": 524925.66,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.068
+   },
+   "0xdaef2be2a19ad331737d06545f85615b094554e9": {
+    "score": 1.793,
+    "batch": 0.143,
+    "cold": 0.035,
+    "hold": 0.93,
+    "winrate": 0.685,
+    "closed": 200,
+    "realized_pnl": 1150949.53,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.178
+   }
+  }
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T13:09:45+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py)",
+  "change": "按 10/28 NO-GO 复盘：替换弱势钱包 0xa38a/0xd38b/0xdaef（预算近耗尽）与 0x54ce（10/26 后无新单）。保留 0x8c0b/0x27f7/0x23d8 及 0x2117/0x20d6/0x8372。新跟：jakepaulthegoat2008、nigiri99、Eugycom、Woaifacai（公开 leaderboard WEEK∩MONTH 正 PnL，低 prop/parlay/map-handicap，近期活跃）。正权益均分给新钱包；负权益冲销。REMOVED 扩展。仅模拟盘。",
+  "dropped": {
+   "0xa38a": {
+    "equity": 0.0,
+    "budget": 100.0,
+    "realized": -100.0,
+    "pnl": -100.0,
+    "npos": 0
+   },
+   "0xd38b": {
+    "equity": 2.36,
+    "budget": 100.0,
+    "realized": -97.64,
+    "pnl": -97.64,
+    "npos": 0
+   },
+   "0xdaef": {
+    "equity": 9.61,
+    "budget": 100.0,
+    "realized": -90.39,
+    "pnl": -90.39,
+    "npos": 0
+   },
+   "0x54ce": {
+    "equity": 100.0,
+    "budget": 100.0,
+    "realized": 0.0,
+    "pnl": 0.0,
+    "npos": 0
+   }
+  },
+  "added": {
+   "jakepaulthegoat2008": {
+    "addr": "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+    "pnl7": 921937,
+    "pnl30": 366431,
+    "wr": 0.96,
+    "n7": 250,
+    "sport": 0.06,
+    "prop": 0.0,
+    "note": "NBA/LoL match ML",
+    "base_budget": 27.99,
+    "tour_budget": 25.0
+   },
+   "nigiri99": {
+    "addr": "0xdc41c39b95453c943174f369926018f6963bdd7e",
+    "pnl7": 507362,
+    "pnl30": 327219,
+    "wr": 0.86,
+    "n7": 250,
+    "sport": 0.27,
+    "prop": 0.22,
+    "note": "mixed politics+sports ML",
+    "base_budget": 27.99,
+    "tour_budget": 25.0
+   },
+   "Eugycom": {
+    "addr": "0x64ceab3becc143e1b97a8e16dc270c2297566015",
+    "pnl7": 219189,
+    "pnl30": 219189,
+    "wr": 1.0,
+    "n7": 250,
+    "sport": 0.0,
+    "prop": 0.0,
+    "note": "NBA match ML only",
+    "base_budget": 27.99,
+    "tour_budget": 25.0
+   },
+   "Woaifacai": {
+    "addr": "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
+    "pnl7": 148694,
+    "pnl30": 168933,
+    "wr": 0.64,
+    "n7": 250,
+    "sport": 0.42,
+    "prop": 0.0,
+    "note": "soccer/tennis match ML",
+    "base_budget": 28.0,
+    "tour_budget": 25.0
+   }
+  },
+  "base_reclaimed": 111.97,
+  "tour_reclaimed": 100.0,
+  "screen": "wallet_replace_screen_1028b.json",
+  "backup": "*.bak-1028b"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T22:08:57+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选/尾盘 (poly_lab.py), 新钱包 (poly_new.py)",
+  "change": "体育同场堆仓上限：账户级同一 sports event（gamma event id / polyrules.event_key）合计敞口 ≤$35，最多 3 个未平仓；超限 skip why=game_cap / game_n，开仓时 stake 也被 groom 截断。原因：晚报 Lakers -3.5 同场多钱包堆仓约 −14.95；当前 Magic/Raptors 同场两档 O/U 已达 $32.6。单 market 的 MKT_CAP=$50 与钱包 WALLET_EV_FRAC=35% 保留。",
+  "numbers": {
+   "GAME_CAP": 35.0,
+   "GAME_MAX_N": 3,
+   "MKT_CAP": 50.0,
+   "trigger": "Lakers spread stack evening report"
+  },
+  "backup": "*.bak-1028c"
+ },
+ {
+  "date": "2026-10-28",
+  "ts": "2026-10-28T22:08:57+08:00",
+  "account": "Poly 新钱包 (poly_new.py / paper_state_lab_new.json)",
+  "change": "全天 0 买：跟的 tin54321/FinalOrder/BanfieldChris/Pjosully 自 10/25–26 起在 API 无新成交（last_ts 停更，今日 skip=0 非规则过严）。替换为 4 个 WEEK∩MONTH 正 PnL、近 24h 活跃、copy_filter 通过率高、非串关重仓钱包：Mooseborzoiii、monkeymashingkeyboard、ianf2026、Nooserac。预算仍 $80/钱包，MAX_STAKE$25；权益/资金池不重置（仍 809.30 / −190.70）。同步加上 sports GAME_CAP。",
+  "dropped": [
+   "tin54321",
+   "FinalOrder",
+   "BanfieldChris",
+   "Pjosully"
+  ],
+  "added": {
+   "Mooseborzoiii": {
+    "addr": "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2",
+    "note": "CS match ML, copy_ok 20/20, wr~0.88"
+   },
+   "monkeymashingkeyboard": {
+    "addr": "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+    "note": "NBA ML/spread, copy_ok 16/20, wr~0.76"
+   },
+   "ianf2026": {
+    "addr": "0x81d972dbea298a5064d4ba51031e0386182fe9c9",
+    "note": "NBA spreads, copy_ok 20/20, wr~0.88"
+   },
+   "Nooserac": {
+    "addr": "0xf68a281980f8c13828e84e147e3822381d6e5b1b",
+    "note": "NBA/NFL match ML, copy_ok 9/20, wr~0.78"
+   }
+  },
+  "equity_unchanged": 809.3,
+  "screen": "new_wallets_refresh_1028c.json",
+  "backup": "*.bak-1028c"
+ },
+ {
+  "date": "2026-10-29",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9'] -> ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9']",
+  "scores": {
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.053,
+    "batch": 0.316,
+    "cold": 0.03,
+    "hold": 0.962,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1391069.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.346
+   },
+   "0x5c89768e750ef8baecad3307aa8a8333e65589e8": {
+    "score": 2.042,
+    "batch": 0.053,
+    "cold": 0.024,
+    "hold": 0.995,
+    "winrate": 0.97,
+    "closed": 33,
+    "realized_pnl": 76562.99,
+    "n_trades": 211,
+    "eligible": true,
+    "signal": 0.077
+   },
+   "0x27f738fe203827445690339104aae35b20bc44b0": {
+    "score": 1.902,
+    "batch": 0.034,
+    "cold": 0.018,
+    "hold": 1.0,
+    "winrate": 0.85,
+    "closed": 200,
+    "realized_pnl": 289618.49,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.052
+   },
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "score": 1.886,
+    "batch": 0.012,
+    "cold": 0.067,
+    "hold": 0.992,
+    "winrate": 0.815,
+    "closed": 200,
+    "realized_pnl": 526036.98,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.079
+   },
+   "0xdaef2be2a19ad331737d06545f85615b094554e9": {
+    "score": 1.793,
+    "batch": 0.143,
+    "cold": 0.035,
+    "hold": 0.93,
+    "winrate": 0.685,
+    "closed": 200,
+    "realized_pnl": 1149185.64,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.178
+   }
+  }
+ },
+ {
+  "date": "2026-10-30",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0x5c89768e750ef8baecad3307aa8a8333e65589e8', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26', '0xdaef2be2a19ad331737d06545f85615b094554e9'] -> ['0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26']",
+  "scores": {
+   "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
+    "score": 2.094,
+    "batch": 0.0,
+    "cold": 0.214,
+    "hold": 1.0,
+    "winrate": 0.88,
+    "closed": 200,
+    "realized_pnl": 2584880.2,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.214
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.053,
+    "batch": 0.316,
+    "cold": 0.03,
+    "hold": 0.962,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1391069.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.346
+   },
+   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+    "score": 1.926,
+    "batch": 0.055,
+    "cold": 0.031,
+    "hold": 0.99,
+    "winrate": 0.85,
+    "closed": 200,
+    "realized_pnl": 613366.31,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.086
+   },
+   "0x27f738fe203827445690339104aae35b20bc44b0": {
+    "score": 1.893,
+    "batch": 0.044,
+    "cold": 0.018,
+    "hold": 1.0,
+    "winrate": 0.83,
+    "closed": 200,
+    "realized_pnl": 283902.33,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.063
+   },
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "score": 1.873,
+    "batch": 0.019,
+    "cold": 0.042,
+    "hold": 0.988,
+    "winrate": 0.825,
+    "closed": 200,
+    "realized_pnl": 311357.27,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.06
+   }
+  }
+ },
+ {
+  "date": "2026-10-30",
+  "ts": "2026-10-30T09:14:20+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py)",
+  "change": "按早报：替换最差钱包 0x2117（Zzzz87，共享池约 −85 / 锦标赛约 −74）。加入 REMOVED，不再新开仓。未平仓按 mark 平到资金池后，剩余权益转给新钱包 BreakTheBank（0xf0318c…）。保留 0x8c0b/0x27f7/0x23d8 及 10/28 四个替换钱包。BreakTheBank：公开 leaderboard WEEK∩MONTH 正 PnL（约 +2.8M / +6.7M），近 50 笔平仓胜率 0.98，活跃，非串关/地图盘口重仓，copy_filter 近 40 笔通过 34。仅模拟盘，账户权益不重置。",
+  "dropped": {
+   "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": {
+    "name": "Zzzz87",
+    "BASE_pnl": -85.27,
+    "TOUR_pnl": -74.4,
+    "BASE_freed": 14.73,
+    "TOUR_freed": 2.97
+   }
+  },
+  "added": {
+   "BreakTheBank": {
+    "addr": "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+    "pnl7": 2806717,
+    "pnl30": 6669949,
+    "wr": 0.98,
+    "sport": 0.0,
+    "parlay": 0.0,
+    "maph": 0.0,
+    "note": "politics+sports ML; copy_ok 34/40"
+   }
+  },
+  "equity_preserved": {
+   "BASE": 1044.19,
+   "TOUR": 1235.92
+  },
+  "backup": "*.bak-1030",
+  "screen": "wallet_replace_screen_1030.json"
+ },
+ {
+  "date": "2026-10-30",
+  "ts": "2026-10-30T09:14:20+08:00",
+  "account": "Poly 尾盘高概率 (poly_lab.py / paper_state_lab_tail.json)",
+  "change": "累计约 −9.4%。复盘 29 笔平仓：止损 stop_0.80 共 17 笔 −64.91（全亏），官方结算 12 笔 +25.10（全赢）。亏损集中：入场 0.85–0.88（−36.5）、政治选举类 7 笔 −20.9、Spread/Exact Score。收紧（不重置权益）：买价带 0.85–0.95→0.90–0.95；到期窗口 48h→24h；单笔 $20→$10；跳过 politics（election/president/seats 等）与 Spread/O/U/Exact Score。",
+  "numbers": {
+   "equity": 905.8,
+   "pnl": -94.2,
+   "n_closed": 29,
+   "stop_pnl": -64.91,
+   "resolve_pnl": 25.1,
+   "band_0.85_0.88_pnl": -36.47,
+   "politics_pnl": -20.91,
+   "new": {
+    "ask": "0.90-0.95",
+    "window_h": 24,
+    "stake": 10,
+    "skip": [
+     "politics",
+     "spread_ou"
+    ]
+   }
+  },
+  "backup": "poly_lab.py.bak-1030"
+ },
+ {
+  "date": "2026-10-31",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x27f738fe203827445690339104aae35b20bc44b0', '0x2117ae94a97d69b78cbc81b6680a62deb1955c26'] -> ['0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e']",
+  "scores": {
+   "0xf0318c32136c2db7fec88b84869aee6a1106c80c": {
+    "score": 2.034,
+    "batch": 0.0,
+    "cold": 0.202,
+    "hold": 0.882,
+    "winrate": 0.95,
+    "closed": 200,
+    "realized_pnl": 21367332.28,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.202
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.033,
+    "batch": 0.3,
+    "cold": 0.03,
+    "hold": 0.958,
+    "winrate": 0.745,
+    "closed": 200,
+    "realized_pnl": 1391069.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.33
+   },
+   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+    "score": 1.944,
+    "batch": 0.066,
+    "cold": 0.041,
+    "hold": 0.992,
+    "winrate": 0.845,
+    "closed": 200,
+    "realized_pnl": 606202.59,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.107
+   },
+   "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": {
+    "score": 1.871,
+    "batch": 0.0,
+    "cold": 0.108,
+    "hold": 0.908,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 1613721.51,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.108
+   },
+   "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": {
+    "score": 1.761,
+    "batch": 0.0,
+    "cold": 0.081,
+    "hold": 1.0,
+    "winrate": 0.68,
+    "closed": 200,
+    "realized_pnl": 1460028.93,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.081
+   }
+  }
+ },
+ {
+  "date": "2026-10-31",
+  "ts": "2026-10-31T02:42:19+08:00",
+  "account": "BTC动量 (poly_mom.py / paper_state_lab_mom.json)",
+  "change": "纸面加公允价边缘过滤+更严跳窗（仍15m，不切5m）。σ_left=atr*sqrt(t_left/300)，p_up=Φ(move/σ)；仅当 fair-fill≥0.05 才买（skip edge_lt_5）。MAXPX 0.75→0.70，K 1.0→1.25。新增连续3个上海日历日亏损则 losing_halt（赢一天或 clear_losing_halt 解除）。不重置权益/历史。备份 *.bak-1031-fv。",
+  "params": {
+   "k": 1.25,
+   "max_px": 0.7,
+   "edge": 0.05,
+   "stake": 10,
+   "lose_days": 3,
+   "window": "15m"
+  }
+ },
+ {
+  "date": "2026-10-31",
+  "ts": "2026-10-31T21:18:25+08:00",
+  "account": "BSC V3 + 共振 (paper_bsc.py / nr_lib.py)",
+  "change": "诊断全日零成交：非进程卡死。V3今日信号43笔skip-7d（负7日盈亏钱包）+3 skip-badwallet(0xee1004 WR~3%)+1 skip-liqfloor；活跃钱包池偏冷。共振近24h几乎无新共振事件，近事件均kill-risk（tax unknown/LP unlocked，后验收益更差）。不过滤放宽。仅修nr_lib：HEAD/CHUNKS改为懒加载，避免import超时导致pnl7d=None、7日过滤停滞~5.5天无法刷新。权益不重置。",
+  "numbers": {
+   "v3_equity": 928.24,
+   "conf_equity": 992.11,
+   "v3_actions_today": {
+    "skip-7d": 43,
+    "skip-badwallet": 3,
+    "skip-liqfloor": 1
+   },
+   "filter_age_h": 132,
+   "active_wallets": 5
+  },
+  "params": {
+   "filters": "unchanged",
+   "nr_lib": "lazy HEAD/CHUNKS"
+  },
+  "backup": "bsc/*.bak-1031-bsc"
+ },
+ {
+  "date": "2026-10-31",
+  "ts": "2026-10-31T21:18:25+08:00",
+  "account": "共享池/锦标赛 (paper.py)",
+  "change": "复盘0x8c0b集中度与今日回撤。不移除0x8c0b。10/28新钱包：0x6ac5/0xdc41仍赚钱；0x64ce/0x9b89/0x20d6小亏且样本少，暂不替换。GAME_CAP/WALLET_EV_FRAC不改（已有game_cap跳过）。标记0x8372已REMOVED但仍占$100+10笔未结算组合盘僵尸仓，待家长拍板是否核销。",
+  "numbers": {
+   "shared_eq": 983.66,
+   "tour_eq": 1205.51,
+   "shared_8c0b_eq": 366.84,
+   "tour_8c0b_eq": 498.38,
+   "losers": {
+    "0x20d6": -16.26,
+    "0x64ce": -5.3,
+    "0x9b89": -8.5
+   }
+  },
+  "params": {
+   "changed": false
+  },
+  "backup": null
+ },
+ {
+  "date": "2026-11-01",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e'] -> ['0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5', '0xf68a281980f8c13828e84e147e3822381d6e5b1b']",
+  "scores": {
+   "0xf0318c32136c2db7fec88b84869aee6a1106c80c": {
+    "score": 2.231,
+    "batch": 0.0,
+    "cold": 0.821,
+    "hold": 0.47,
+    "winrate": 0.94,
+    "closed": 200,
+    "realized_pnl": 21485906.0,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.821
+   },
+   "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
+    "score": 2.022,
+    "batch": 0.0,
+    "cold": 0.152,
+    "hold": 1.0,
+    "winrate": 0.87,
+    "closed": 200,
+    "realized_pnl": 3137792.02,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.152
+   },
+   "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": {
+    "score": 1.972,
+    "batch": 0.133,
+    "cold": 0.114,
+    "hold": 1.0,
+    "winrate": 0.725,
+    "closed": 200,
+    "realized_pnl": 2474063.52,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.247
+   },
+   "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": {
+    "score": 1.884,
+    "batch": 0.0,
+    "cold": 0.141,
+    "hold": 0.888,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 1678157.28,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.141
+   },
+   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+    "score": 1.879,
+    "batch": 0.046,
+    "cold": 0.026,
+    "hold": 0.982,
+    "winrate": 0.825,
+    "closed": 200,
+    "realized_pnl": 652872.78,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.072
+   }
+  }
+ }
 ]
