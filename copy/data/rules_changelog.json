@@ -798,5 +798,72 @@
     "signal": 0.072
    }
   }
+ },
+ {
+  "date": "2026-11-02",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5', '0xf68a281980f8c13828e84e147e3822381d6e5b1b'] -> ['0x27f738fe203827445690339104aae35b20bc44b0', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5', '0x20d6436849f930584892730c7f96ebb2ac763856']",
+  "scores": {
+   "0x27f738fe203827445690339104aae35b20bc44b0": {
+    "score": 1.928,
+    "batch": 0.088,
+    "cold": 0.025,
+    "hold": 1.0,
+    "winrate": 0.815,
+    "closed": 200,
+    "realized_pnl": 258701.65,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.113
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 1.906,
+    "batch": 0.2,
+    "cold": 0.047,
+    "hold": 0.924,
+    "winrate": 0.735,
+    "closed": 200,
+    "realized_pnl": 1381930.28,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.247
+   },
+   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+    "score": 1.895,
+    "batch": 0.018,
+    "cold": 0.051,
+    "hold": 0.996,
+    "winrate": 0.83,
+    "closed": 200,
+    "realized_pnl": 777737.75,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.069
+   },
+   "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": {
+    "score": 1.831,
+    "batch": 0.0,
+    "cold": 0.232,
+    "hold": 0.744,
+    "winrate": 0.855,
+    "closed": 200,
+    "realized_pnl": 1663766.79,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.232
+   },
+   "0x20d6436849f930584892730c7f96ebb2ac763856": {
+    "score": 1.704,
+    "batch": 0.186,
+    "cold": 0.015,
+    "hold": 0.668,
+    "winrate": 0.835,
+    "closed": 200,
+    "realized_pnl": 751098.76,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.201
+   }
+  }
  }
 ]
