@@ -1,12 +1,3 @@
-2026-11-01 11:37:17,580 tick equity=790.76 pnl=-209.24 head=130978144 v3=928.24
-2026-11-01 11:37:51,281 V3 {'ts': 1793504244, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x7c907d1ce734b73e9236dcd06cefcb6346857777', 'sym': 'SAFU', 'price': 0.0003286, 'liq': 58720, 'action': 'skip-badwallet', 'reasons': ['v3 record 27 closes wr 4% pnl -26.12']}
-2026-11-01 11:38:28,638 tick equity=790.76 pnl=-209.24 head=130978256 v3=928.24
-2026-11-01 11:40:03,590 tick equity=790.76 pnl=-209.24 head=130978415 v3=928.24
-2026-11-01 11:40:32,174 V3 {'ts': 1793504334, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x14f6a94909c407854390aa2d2462a3095d317777', 'sym': '旺柴', 'price': 0.004669, 'action': 'skip-7d'}
-2026-11-01 11:41:25,488 tick equity=790.76 pnl=-209.24 head=130978626 v3=928.24
-2026-11-01 11:42:42,075 tick equity=790.76 pnl=-209.24 head=130978808 v3=928.24
-2026-11-01 11:43:50,101 tick equity=790.76 pnl=-209.24 head=130978978 v3=928.24
-2026-11-01 11:44:52,881 tick equity=790.76 pnl=-209.24 head=130979129 v3=928.24
 2026-11-01 12:01:28,506 WATCHDOG: no successful tick 995s, exiting for restart
 2026-11-01 12:02:32,494 tick equity=790.76 pnl=-209.24 head=130981554 v3=928.24
 2026-11-01 12:03:04,629 tick equity=790.76 pnl=-209.24 head=130981622 v3=928.24
@@ -298,3 +289,12 @@
 2026-11-01 18:36:21,062 V3 {'ts': 1793529365, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd96b5791f4e24b130efcc9979e9da85865b0c212', 'sym': 'SI', 'price': 4.261e-05, 'action': 'skip-7d'}
 2026-11-01 18:36:22,297 V3 {'ts': 1793529366, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd96b5791f4e24b130efcc9979e9da85865b0c212', 'sym': 'SI', 'price': 4.261e-05, 'action': 'skip-7d'}
 2026-11-01 18:36:32,084 tick equity=790.76 pnl=-209.24 head=131034039 v3=928.24
+2026-11-01 18:37:26,811 tick equity=790.76 pnl=-209.24 head=131034133 v3=928.24
+2026-11-01 18:37:57,322 V3 {'ts': 1793529434, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xd96b5791f4e24b130efcc9979e9da85865b0c212', 'sym': 'SI', 'price': 4.062e-05, 'action': 'skip-7d'}
+2026-11-01 18:37:57,322 CONFLUENCE SI 0xd96b5791f4e24b130efcc9979e9da85865b0c212 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f']
+2026-11-01 18:37:57,681 V2-RISK SI 0xd96b5791f4e24b130efcc9979e9da85865b0c212 KILL top10 holders 100%
+2026-11-01 18:37:57,681 V2 {'ts': 1793529434, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xd96b5791f4e24b130efcc9979e9da85865b0c212', 'sym': 'SI', 'price': 4.062e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%']}
+2026-11-01 18:38:34,843 tick equity=790.76 pnl=-209.24 head=131034254 v3=928.24
+2026-11-01 18:39:36,410 tick equity=790.76 pnl=-209.24 head=131034406 v3=928.24
+2026-11-01 18:40:19,219 tick equity=790.76 pnl=-209.24 head=131034543 v3=928.24
+2026-11-01 18:41:14,153 tick equity=790.76 pnl=-209.24 head=131034637 v3=928.24
