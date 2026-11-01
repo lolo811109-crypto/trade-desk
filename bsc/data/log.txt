@@ -1,11 +1,3 @@
-2026-11-01 10:03:56,233 tick equity=790.76 pnl=-209.24 head=130962894 v3=928.24
-2026-11-01 10:04:16,987 SKIP-AHEAD 0xb9b069 behind 2917 blocks (130962894->130965811)
-2026-11-01 10:04:17,740 SKIP-AHEAD 0xd392fc behind 2917 blocks (130962894->130965811)
-2026-11-01 10:04:18,216 SKIP-AHEAD 0xa03fa8 behind 2917 blocks (130962894->130965811)
-2026-11-01 10:04:18,968 SKIP-AHEAD 0x9bee11 behind 2917 blocks (130962894->130965811)
-2026-11-01 10:04:19,441 SKIP-AHEAD 0x5bc3a8 behind 2917 blocks (130962894->130965811)
-2026-11-01 10:04:20,192 SKIP-AHEAD 0x770181 behind 2917 blocks (130962894->130965811)
-2026-11-01 10:04:20,664 SKIP-AHEAD 0x7dfd45 behind 2917 blocks (130962894->130965811)
 2026-11-01 10:04:21,410 SKIP-AHEAD 0x07a61c behind 2917 blocks (130962894->130965811)
 2026-11-01 10:04:22,161 SKIP-AHEAD 0xc5606c behind 2917 blocks (130962894->130965811)
 2026-11-01 10:04:22,912 SKIP-AHEAD 0xee1004 behind 2917 blocks (130962894->130965811)
@@ -298,3 +290,11 @@
 2026-11-01 16:06:17,752 V3 {'ts': 1793520342, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x91158a7de56ea0279767c0b15756bf17f9ea7777', 'sym': '币安', 'price': 2.892e-05, 'action': 'skip-7d'}
 2026-11-01 16:06:40,004 tick equity=790.76 pnl=-209.24 head=131014046 v3=928.24
 2026-11-01 16:07:40,311 tick equity=790.76 pnl=-209.24 head=131014163 v3=928.24
+2026-11-01 16:08:18,085 V3 {'ts': 1793520440, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x91158a7de56ea0279767c0b15756bf17f9ea7777', 'sym': '币安', 'price': 2.524e-05, 'action': 'skip-7d'}
+2026-11-01 16:08:19,329 V3 {'ts': 1793520448, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x91158a7de56ea0279767c0b15756bf17f9ea7777', 'sym': '币安', 'price': 2.524e-05, 'action': 'skip-7d'}
+2026-11-01 16:08:20,572 V3 {'ts': 1793520469, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x91158a7de56ea0279767c0b15756bf17f9ea7777', 'sym': '币安', 'price': 2.524e-05, 'action': 'skip-7d'}
+2026-11-01 16:08:58,964 tick equity=790.76 pnl=-209.24 head=131014297 v3=928.24
+2026-11-01 16:10:44,340 tick equity=790.76 pnl=-209.24 head=131014472 v3=928.24
+2026-11-01 16:11:22,865 V3 {'ts': 1793520560, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x74f72928f565f9b6eb189cfa1a20493559657777', 'sym': '信任', 'price': 1.158e-05, 'action': 'skip-7d'}
+2026-11-01 16:11:26,371 V3 {'ts': 1793520635, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x91158a7de56ea0279767c0b15756bf17f9ea7777', 'sym': '币安', 'price': 3.16e-05, 'action': 'skip-7d'}
+2026-11-01 16:31:36,372 WATCHDOG: no successful tick 1252s, exiting for restart
