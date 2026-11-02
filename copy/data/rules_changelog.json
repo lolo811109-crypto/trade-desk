@@ -945,5 +945,23 @@
     "signal": 0.116
    }
   }
+ },
+ {
+  "ts": "2026-11-03T00:12:00+08:00",
+  "scope": "BSC v3 + 共振 (paper_bsc)",
+  "change": "买入前加开发者历史过滤：公共 RPC eth_getLogs 索引 four.meme/Flap TokenCreate（近7天，后台增量），GoPlus 取 creator，DexScreener 判归零。规则：该 creator 既往发币≥3 且归零比例≥60% 则 skip；查不到/超时/样本不足标「未知」或「样本不足」放行。不用 NodeReal/BscScan key；four.meme HTTP 本机 403 不可用。",
+  "backup": "bsc/paper_bsc.py.bak-1103-dev",
+  "module": "bsc/dev_hist.py",
+  "sources": [
+   "publicnode/bnbchain getLogs",
+   "GoPlus token_security creator_address",
+   "DexScreener tokens/v1"
+  ],
+  "params": {
+   "MIN_N": 3,
+   "DEAD_RATIO": 0.6,
+   "DEAD_LIQ_USD": 200,
+   "LOOKBACK_DAYS": 7
+  }
  }
 ]
