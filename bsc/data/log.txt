@@ -1,17 +1,3 @@
-2026-11-02 17:33:35,694 V3 {'ts': 1793612005, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x8cafc39863386538b04172b268bdd38e9f626e94', 'sym': 'CHEESE', 'price': 0.0154, 'action': 'skip-7d'}
-2026-11-02 17:33:36,459 V3 {'ts': 1793612012, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8cafc39863386538b04172b268bdd38e9f626e94', 'sym': 'CHEESE', 'price': 0.0154, 'action': 'skip-7d'}
-2026-11-02 17:33:36,459 CONFLUENCE CHEESE 0x8cafc39863386538b04172b268bdd38e9f626e94 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f']
-2026-11-02 17:33:36,747 V2-RISK CHEESE 0x8cafc39863386538b04172b268bdd38e9f626e94 KILL top10 holders 100%
-2026-11-02 17:33:36,747 V2 {'ts': 1793612012, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x8cafc39863386538b04172b268bdd38e9f626e94', 'sym': 'CHEESE', 'price': 0.0154, 'action': 'kill-risk', 'reasons': ['top10 holders 100%']}
-2026-11-02 17:33:38,193 tick equity=790.76 pnl=-209.24 head=131217647 v3=928.24
-2026-11-02 17:34:01,163 tick equity=790.76 pnl=-209.24 head=131217699 v3=928.24
-2026-11-02 17:34:23,746 tick equity=790.76 pnl=-209.24 head=131217751 v3=928.24
-2026-11-02 17:34:45,217 tick equity=790.76 pnl=-209.24 head=131217801 v3=928.24
-2026-11-02 17:35:07,383 tick equity=790.76 pnl=-209.24 head=131217848 v3=928.24
-2026-11-02 17:35:30,527 tick equity=790.76 pnl=-209.24 head=131217898 v3=928.24
-2026-11-02 17:35:53,783 tick equity=790.76 pnl=-209.24 head=131217949 v3=928.24
-2026-11-02 17:36:15,281 tick equity=790.76 pnl=-209.24 head=131218001 v3=928.24
-2026-11-02 17:36:39,335 tick equity=790.76 pnl=-209.24 head=131218049 v3=928.24
 2026-11-02 17:37:00,753 tick equity=790.76 pnl=-209.24 head=131218102 v3=928.24
 2026-11-02 18:07:05,391 WATCHDOG: no successful tick 1804s, exiting for restart
 2026-11-02 18:07:09,035 tick equity=790.76 pnl=-209.24 head=131222120 v3=928.24
@@ -298,3 +284,17 @@
 2026-11-02 21:22:51,917 V3 {'ts': 1793625652, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x3db2114a7abd610efa450384a8d8aeb4b3107777', 'sym': '我靠', 'price': 0.0001192, 'liq': 36688, 'action': 'skip-badwallet', 'reasons': ['v3 record 17 closes wr 0% pnl -15.82']}
 2026-11-02 21:24:06,484 tick equity=790.76 pnl=-209.24 head=131248094 v3=928.24
 2026-11-02 21:25:34,630 tick equity=790.76 pnl=-209.24 head=131248422 v3=928.24
+2026-11-02 21:26:06,633 V3 {'ts': 1793625908, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3ba0355d56a24ba06eb59a5384fd242b1caf7777', 'sym': 'BEYOND', 'price': 1.335e-05, 'action': 'skip-7d'}
+2026-11-02 21:26:07,950 V3 {'ts': 1793625909, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3ba0355d56a24ba06eb59a5384fd242b1caf7777', 'sym': 'BEYOND', 'price': 1.335e-05, 'action': 'skip-7d'}
+2026-11-02 21:26:08,442 V3 {'ts': 1793625909, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3ba0355d56a24ba06eb59a5384fd242b1caf7777', 'sym': 'BEYOND', 'price': 1.335e-05, 'action': 'skip-7d'}
+2026-11-02 21:26:15,916 V3 {'ts': 1793625881, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x3db2114a7abd610efa450384a8d8aeb4b3107777', 'sym': '我靠', 'price': 0.000114, 'liq': 35891, 'action': 'skip-badwallet', 'reasons': ['v3 record 17 closes wr 0% pnl -15.82']}
+2026-11-02 21:30:48,590 tick equity=790.76 pnl=-209.24 head=131248618 v3=928.24
+2026-11-02 21:31:09,053 SKIP-AHEAD 0xb9b069 behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:09,516 SKIP-AHEAD 0xd392fc behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:09,978 SKIP-AHEAD 0xa03fa8 behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:10,710 SKIP-AHEAD 0x9bee11 behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:11,445 SKIP-AHEAD 0x5bc3a8 behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:11,909 SKIP-AHEAD 0x770181 behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:12,371 SKIP-AHEAD 0x7dfd45 behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:12,834 SKIP-AHEAD 0x07a61c behind 698 blocks (131248618->131249316)
+2026-11-02 21:31:13,559 SKIP-AHEAD 0xc5606c behind 698 blocks (131248618->131249316)
