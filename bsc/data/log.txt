@@ -1,10 +1,3 @@
-2026-11-03 18:40:23,431 tick equity=790.76 pnl=-209.24 head=131418499 v3=928.24
-2026-11-03 18:40:44,837 tick equity=790.76 pnl=-209.24 head=131418547 v3=928.24
-2026-11-03 18:41:29,337 V3-ENTRY KILL 屎壳郎Agent 0x3d1adf72e6efb1c1733ddee72b8df002a0838e80 liq $18,891 < $20,000 v2 floor
-2026-11-03 18:41:29,345 V3 {'ts': 1793702460, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3d1adf72e6efb1c1733ddee72b8df002a0838e80', 'sym': '屎壳郎Agent', 'price': 2.669e-08, 'action': 'skip-liqfloor', 'reasons': ['liq $18,891 < $20,000 v2 floor']}
-2026-11-03 18:41:29,438 V3-ENTRY KILL 屎壳郎Agent 0x3d1adf72e6efb1c1733ddee72b8df002a0838e80 liq $18,891 < $20,000 v2 floor
-2026-11-03 18:41:29,438 V3 {'ts': 1793702461, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3d1adf72e6efb1c1733ddee72b8df002a0838e80', 'sym': '屎壳郎Agent', 'price': 2.669e-08, 'action': 'skip-liqfloor', 'reasons': ['liq $18,891 < $20,000 v2 floor']}
-2026-11-03 18:41:29,640 V3-ENTRY KILL 屎壳郎Agent 0x3d1adf72e6efb1c1733ddee72b8df002a0838e80 liq $18,891 < $20,000 v2 floor
 2026-11-03 18:41:29,640 V3 {'ts': 1793702482, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3d1adf72e6efb1c1733ddee72b8df002a0838e80', 'sym': '屎壳郎Agent', 'price': 2.669e-08, 'action': 'skip-liqfloor', 'reasons': ['liq $18,891 < $20,000 v2 floor']}
 2026-11-03 18:41:29,747 V3-ENTRY KILL 屎壳郎Agent 0x3d1adf72e6efb1c1733ddee72b8df002a0838e80 liq $18,891 < $20,000 v2 floor
 2026-11-03 18:41:29,747 V3 {'ts': 1793702482, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3d1adf72e6efb1c1733ddee72b8df002a0838e80', 'sym': '屎壳郎Agent', 'price': 2.669e-08, 'action': 'skip-liqfloor', 'reasons': ['liq $18,891 < $20,000 v2 floor']}
@@ -298,3 +291,10 @@
 2026-11-03 21:34:26,430 SKIP-AHEAD 0x8d2896 behind 977 blocks (131440705->131441682)
 2026-11-03 21:34:26,960 tick equity=790.76 pnl=-209.24 head=131441682 v3=928.24
 2026-11-03 21:35:07,348 tick equity=790.76 pnl=-209.24 head=131441751 v3=928.24
+2026-11-03 21:35:44,575 DEVHIST loop err rpc eth_blockNumber ReadTimeout
+2026-11-03 21:35:59,240 tick equity=790.76 pnl=-209.24 head=131441840 v3=928.24
+2026-11-03 21:36:40,425 tick equity=790.76 pnl=-209.24 head=131441954 v3=928.24
+2026-11-03 21:37:47,205 tick equity=790.76 pnl=-209.24 head=131442046 v3=928.24
+2026-11-03 21:38:21,862 tick equity=790.76 pnl=-209.24 head=131442194 v3=928.24
+2026-11-03 21:38:51,707 tick equity=790.76 pnl=-209.24 head=131442271 v3=928.24
+2026-11-03 21:39:34,731 tick equity=790.76 pnl=-209.24 head=131442337 v3=928.24
