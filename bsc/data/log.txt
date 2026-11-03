@@ -1,15 +1,3 @@
-2026-11-03 22:36:57,336 tick equity=790.76 pnl=-209.24 head=131450011 v3=928.24
-2026-11-03 22:38:02,913 tick equity=790.76 pnl=-209.24 head=131450082 v3=928.24
-2026-11-03 22:39:47,344 tick equity=790.76 pnl=-209.24 head=131450228 v3=928.24
-2026-11-03 22:41:34,244 tick equity=790.76 pnl=-209.24 head=131450459 v3=928.24
-2026-11-03 22:43:08,450 tick equity=790.76 pnl=-209.24 head=131450697 v3=928.24
-2026-11-03 22:44:31,072 tick equity=790.76 pnl=-209.24 head=131450906 v3=928.24
-2026-11-03 22:44:42,939 DEVHIST chunk err 131450935-131451068 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-03 22:48:51,197 SKIP-AHEAD 0xb9b069 behind 718 blocks (131450906->131451624)
-2026-11-03 22:48:51,414 SKIP-AHEAD 0xd392fc behind 718 blocks (131450906->131451624)
-2026-11-03 22:48:51,506 SKIP-AHEAD 0xa03fa8 behind 718 blocks (131450906->131451624)
-2026-11-03 22:48:51,543 SKIP-AHEAD 0x9bee11 behind 718 blocks (131450906->131451624)
-2026-11-03 22:48:51,643 SKIP-AHEAD 0x5bc3a8 behind 718 blocks (131450906->131451624)
 2026-11-03 22:48:51,685 SKIP-AHEAD 0x770181 behind 718 blocks (131450906->131451624)
 2026-11-03 22:48:51,787 SKIP-AHEAD 0x7dfd45 behind 718 blocks (131450906->131451624)
 2026-11-03 22:48:51,832 SKIP-AHEAD 0x07a61c behind 718 blocks (131450906->131451624)
@@ -298,3 +286,15 @@
 2026-11-04 01:42:10,769 V3 {'ts': 1793727597, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 4.379e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
 2026-11-04 01:42:12,033 V3 {'ts': 1793727598, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 4.379e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
 2026-11-04 01:42:12,526 V3 {'ts': 1793727598, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 4.379e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:44:15,051 tick equity=790.76 pnl=-209.24 head=131474678 v3=928.24
+2026-11-04 01:44:53,362 V3 {'ts': 1793727708, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 5.772e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:44:54,319 V3 {'ts': 1793727734, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 5.772e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:46:11,022 tick equity=790.76 pnl=-209.24 head=131475049 v3=928.24
+2026-11-04 01:46:47,320 V3 {'ts': 1793727912, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 6.983e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:46:48,566 V3 {'ts': 1793727913, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 6.983e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:46:49,046 V3 {'ts': 1793727913, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 6.983e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:46:50,539 V3 {'ts': 1793727933, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 6.983e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:46:51,023 V3 {'ts': 1793727933, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 6.983e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-04 01:47:04,036 {'ts': 1793727893, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x6cbc15de6323b6c975668c7b07fb00e7a2acbed0', 'tx': '0x3acd750bc1d9c7fb6979f2519fa259bade4683bf571ea8e5fd4ed36cf0fecc37', 'action': 'skip-noprice'}
+2026-11-04 01:47:05,026 {'ts': 1793727922, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x6cbc15de6323b6c975668c7b07fb00e7a2acbed0', 'tx': '0xd239a0a8cd5b671c021044dcec89dae7801ab67450429803a757904fac95b766', 'action': 'skip-noprice'}
+2026-11-04 01:47:07,058 {'ts': 1793727932, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0x6cbc15de6323b6c975668c7b07fb00e7a2acbed0', 'tx': '0xc98a9e45239bfeebba4a1d5996fb50ef052ac26d3b316ab6062582c7b76fd7a0', 'action': 'skip-noprice'}
