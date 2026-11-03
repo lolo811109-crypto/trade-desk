@@ -1,16 +1,3 @@
-2026-11-03 22:48:52,172 SKIP-AHEAD 0x329ca2 behind 718 blocks (131450906->131451624)
-2026-11-03 22:48:52,208 SKIP-AHEAD 0x8d2896 behind 718 blocks (131450906->131451624)
-2026-11-03 22:48:52,545 tick equity=790.76 pnl=-209.24 head=131451624 v3=928.24
-2026-11-03 22:49:14,819 tick equity=790.76 pnl=-209.24 head=131451671 v3=928.24
-2026-11-03 22:49:21,115 DEVHIST loop err rpc eth_blockNumber ReadTimeout
-2026-11-03 22:49:37,807 tick equity=790.76 pnl=-209.24 head=131451720 v3=928.24
-2026-11-03 22:50:01,326 tick equity=790.76 pnl=-209.24 head=131451771 v3=928.24
-2026-11-03 22:50:25,509 tick equity=790.76 pnl=-209.24 head=131451824 v3=928.24
-2026-11-03 22:50:49,160 tick equity=790.76 pnl=-209.24 head=131451877 v3=928.24
-2026-11-03 22:51:12,480 tick equity=790.76 pnl=-209.24 head=131451930 v3=928.24
-2026-11-03 22:51:36,532 tick equity=790.76 pnl=-209.24 head=131451979 v3=928.24
-2026-11-03 22:51:59,973 tick equity=790.76 pnl=-209.24 head=131452035 v3=928.24
-2026-11-03 22:52:24,009 tick equity=790.76 pnl=-209.24 head=131452087 v3=928.24
 2026-11-03 22:52:48,936 tick equity=790.76 pnl=-209.24 head=131452141 v3=928.24
 2026-11-03 23:00:29,283 tick equity=790.76 pnl=-209.24 head=131452717 v3=928.24
 2026-11-03 23:03:18,573 tick equity=790.76 pnl=-209.24 head=131453219 v3=928.24
@@ -298,3 +285,16 @@
 2026-11-04 01:50:58,421 V3 {'ts': 1793728217, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 5.502e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
 2026-11-04 01:51:34,894 tick equity=790.76 pnl=-209.24 head=131475859 v3=928.24
 2026-11-04 01:52:54,729 tick equity=790.76 pnl=-209.24 head=131476027 v3=928.24
+2026-11-04 01:53:53,081 tick equity=790.76 pnl=-209.24 head=131476204 v3=928.24
+2026-11-04 01:54:55,302 tick equity=790.76 pnl=-209.24 head=131476333 v3=928.24
+2026-11-04 01:55:25,676 V3-ENTRY KILL HomeBrew 0x594552eadefade097358811ca54bf5b120efaac8 liq $10,995 < $20,000 v2 floor
+2026-11-04 01:55:25,685 V3 {'ts': 1793728508, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x594552eadefade097358811ca54bf5b120efaac8', 'sym': 'HomeBrew', 'price': 1.269e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $10,995 < $20,000 v2 floor']}
+2026-11-04 01:55:26,932 V3-ENTRY KILL HomeBrew 0x594552eadefade097358811ca54bf5b120efaac8 liq $10,995 < $20,000 v2 floor
+2026-11-04 01:55:26,932 V3 {'ts': 1793728510, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x594552eadefade097358811ca54bf5b120efaac8', 'sym': 'HomeBrew', 'price': 1.269e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $10,995 < $20,000 v2 floor']}
+2026-11-04 01:55:53,839 tick equity=790.76 pnl=-209.24 head=131476471 v3=928.24
+2026-11-04 01:56:24,792 V3-ENTRY KILL HomeBrew 0x594552eadefade097358811ca54bf5b120efaac8 liq $14,362 < $20,000 v2 floor
+2026-11-04 01:56:24,792 V3 {'ts': 1793728519, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x594552eadefade097358811ca54bf5b120efaac8', 'sym': 'HomeBrew', 'price': 1.839e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $14,362 < $20,000 v2 floor']}
+2026-11-04 01:56:56,401 tick equity=790.76 pnl=-209.24 head=131476602 v3=928.24
+2026-11-04 01:57:51,537 tick equity=790.76 pnl=-209.24 head=131476741 v3=928.24
+2026-11-04 01:58:22,246 V3-ENTRY KILL HomeBrew 0x594552eadefade097358811ca54bf5b120efaac8 liq $12,983 < $20,000 v2 floor
+2026-11-04 01:58:22,246 V3 {'ts': 1793728646, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x594552eadefade097358811ca54bf5b120efaac8', 'sym': 'HomeBrew', 'price': 1.567e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $12,983 < $20,000 v2 floor']}
