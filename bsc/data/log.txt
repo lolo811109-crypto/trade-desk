@@ -1,18 +1,3 @@
-2026-11-04 01:34:36,830 tick equity=790.76 pnl=-209.24 head=131473602 v3=928.24
-2026-11-04 01:35:42,580 tick equity=790.76 pnl=-209.24 head=131473764 v3=928.24
-2026-11-04 01:36:28,456 V3-RISK 1113 0x064f86075d930544ac655350f8295d1ef04d7777 KILL api-fail: TimeoutError
-2026-11-04 01:36:28,456 V3 {'ts': 1793727310, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x064f86075d930544ac655350f8295d1ef04d7777', 'sym': '1113', 'price': 5.897e-05, 'action': 'kill-risk', 'reasons': ['api-fail: TimeoutError']}
-2026-11-04 01:36:44,841 V3-RISK 1113 0x064f86075d930544ac655350f8295d1ef04d7777 KILL api-fail: TimeoutError
-2026-11-04 01:36:44,841 V3 {'ts': 1793727311, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x064f86075d930544ac655350f8295d1ef04d7777', 'sym': '1113', 'price': 6.743e-05, 'action': 'kill-risk', 'reasons': ['api-fail: TimeoutError']}
-2026-11-04 01:37:00,968 V3-RISK 1113 0x064f86075d930544ac655350f8295d1ef04d7777 KILL api-fail: TimeoutError
-2026-11-04 01:37:00,968 V3 {'ts': 1793727311, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x064f86075d930544ac655350f8295d1ef04d7777', 'sym': '1113', 'price': 6.743e-05, 'action': 'kill-risk', 'reasons': ['api-fail: TimeoutError']}
-2026-11-04 01:38:07,244 tick equity=790.76 pnl=-209.24 head=131473910 v3=928.24
-2026-11-04 01:38:56,580 V3-DEV-WARN 0x064f86075d930544ac655350f8295d1ef04d7777 creator/holding unknown, allowing
-2026-11-04 01:38:57,070 V3-RISK 1113 0x064f86075d930544ac655350f8295d1ef04d7777 KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown; info: 开发者历史 0x497b9e… prior=24 dead=9/20 (45%)
-2026-11-04 01:38:57,070 V3 {'ts': 1793727389, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x064f86075d930544ac655350f8295d1ef04d7777', 'sym': '1113', 'price': 5.221e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown', 'info: 开发者历史 0x497b9e… prior=24 dead=9/20 (45%)']}
-2026-11-04 01:38:57,548 V3 {'ts': 1793727389, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x064f86075d930544ac655350f8295d1ef04d7777', 'sym': '1113', 'price': 5.241e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown', 'info: 开发者历史 0x497b9e… prior=24 dead=9/20 (45%)']}
-2026-11-04 01:41:27,777 tick equity=790.76 pnl=-209.24 head=131474231 v3=928.24
-2026-11-04 01:41:55,594 V3 {'ts': 1793727618, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x05580db0267e67d163e681408275952d14f37777', 'sym': 'KIM', 'price': 5.012970647e-06, 'action': 'skip-7d'}
 2026-11-04 01:42:10,769 V3-RISK BBF 0x6fde01375dee314c56193e177512767f88545232 KILL owner can mint; top10 holders 55%; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
 2026-11-04 01:42:10,769 V3 {'ts': 1793727597, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 4.379e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
 2026-11-04 01:42:12,033 V3 {'ts': 1793727598, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6fde01375dee314c56193e177512767f88545232', 'sym': 'BBF', 'price': 4.379e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 55%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
@@ -298,3 +283,18 @@
 2026-11-04 04:40:00,041 tick equity=790.76 pnl=-209.24 head=131498425 v3=928.24
 2026-11-04 04:40:21,351 tick equity=790.76 pnl=-209.24 head=131498475 v3=928.24
 2026-11-04 04:40:43,831 tick equity=790.76 pnl=-209.24 head=131498522 v3=928.24
+2026-11-04 04:43:46,372 tick equity=790.76 pnl=-209.24 head=131498925 v3=928.24
+2026-11-04 04:44:07,402 tick equity=790.76 pnl=-209.24 head=131498978 v3=928.24
+2026-11-04 04:58:27,459 WATCHDOG: no successful tick 859s, exiting for restart
+2026-11-04 04:58:57,682 DEVHIST backfill 131498927 -> 131500959 (~7d)
+2026-11-04 04:58:57,871 DEVHIST ready creators=1582 tokens=17311
+2026-11-04 04:59:00,326 tick equity=790.76 pnl=-209.24 head=131500961 v3=928.24
+2026-11-04 04:59:22,310 tick equity=790.76 pnl=-209.24 head=131501009 v3=928.24
+2026-11-04 04:59:44,306 tick equity=790.76 pnl=-209.24 head=131501057 v3=928.24
+2026-11-04 05:00:05,539 tick equity=790.76 pnl=-209.24 head=131501106 v3=928.24
+2026-11-04 05:00:28,749 tick equity=790.76 pnl=-209.24 head=131501154 v3=928.24
+2026-11-04 05:00:50,560 tick equity=790.76 pnl=-209.24 head=131501205 v3=928.24
+2026-11-04 05:01:11,947 tick equity=790.76 pnl=-209.24 head=131501254 v3=928.24
+2026-11-04 05:02:11,796 tick equity=790.76 pnl=-209.24 head=131501386 v3=928.24
+2026-11-04 05:03:03,871 tick equity=790.76 pnl=-209.24 head=131501496 v3=928.24
+2026-11-04 05:03:27,308 tick equity=790.76 pnl=-209.24 head=131501550 v3=928.24
