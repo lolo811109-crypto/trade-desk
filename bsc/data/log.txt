@@ -1,13 +1,3 @@
-2026-11-05 03:08:07,985 V3 {'ts': 1793819276, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x75fd4cf6f8392e41e70391d60c90c0d5211603a1', 'sym': 'AMDB', 'price': 461.67, 'action': 'skip-liq'}
-2026-11-05 03:08:08,620 V3-RISK NVDAB 0x02fca66c1d1afb4e2a7884261eb00f63598a7436 KILL top10 holders 77%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-05 03:08:08,620 V3 {'ts': 1793819276, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x02fca66c1d1afb4e2a7884261eb00f63598a7436', 'sym': 'NVDAB', 'price': 203.96, 'action': 'kill-risk', 'reasons': ['top10 holders 77%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-05 03:08:09,303 V3-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 93%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-05 03:08:09,303 V3 {'ts': 1793819276, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 135.38, 'action': 'kill-risk', 'reasons': ['top10 holders 93%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-05 03:08:09,925 V3-RISK EWYB 0xbe82f76637dba2c114c41df856c2c51e522e2cb8 KILL top10 holders 98%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-05 03:08:09,925 V3 {'ts': 1793819276, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe82f76637dba2c114c41df856c2c51e522e2cb8', 'sym': 'EWYB', 'price': 153.15, 'action': 'kill-risk', 'reasons': ['top10 holders 98%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-05 03:08:10,782 V3-RISK GMEB 0x46ceefda28dd7207059ed19b0acdc026955bb15c KILL top10 holders 81%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-05 03:08:10,782 V3 {'ts': 1793819276, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x46ceefda28dd7207059ed19b0acdc026955bb15c', 'sym': 'GMEB', 'price': 25.081, 'action': 'kill-risk', 'reasons': ['top10 holders 81%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-05 03:08:13,300 tick equity=790.76 pnl=-209.24 head=131678132 v3=931.82
 2026-11-05 03:08:35,570 V3 {'ts': 1793819295, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xae7484d162ba80b340eba7769a7a67838b1c16c1', 'sym': 'NXT', 'price': 0.06872, 'action': 'skip-7d'}
 2026-11-05 03:08:38,105 tick equity=790.76 pnl=-209.24 head=131678197 v3=931.82
 2026-11-05 03:09:04,499 tick equity=790.76 pnl=-209.24 head=131678252 v3=931.82
@@ -298,3 +288,13 @@
 2026-11-05 07:05:34,487 tick equity=790.76 pnl=-209.24 head=131709790 v3=931.82
 2026-11-05 07:05:57,888 tick equity=790.76 pnl=-209.24 head=131709839 v3=931.82
 2026-11-05 07:06:55,670 tick equity=790.76 pnl=-209.24 head=131709963 v3=931.82
+2026-11-05 07:08:19,762 tick equity=790.76 pnl=-209.24 head=131710019 v3=931.82
+2026-11-05 07:08:41,931 tick equity=790.76 pnl=-209.24 head=131710207 v3=931.82
+2026-11-05 07:09:05,081 tick equity=790.76 pnl=-209.24 head=131710256 v3=931.82
+2026-11-05 07:09:22,020 DEVHIST loop err rpc eth_blockNumber ReadTimeout
+2026-11-05 07:09:28,591 tick equity=790.76 pnl=-209.24 head=131710307 v3=931.82
+2026-11-05 07:09:51,249 tick equity=790.76 pnl=-209.24 head=131710359 v3=931.82
+2026-11-05 07:10:14,501 tick equity=790.76 pnl=-209.24 head=131710410 v3=931.82
+2026-11-05 07:10:38,106 tick equity=790.76 pnl=-209.24 head=131710462 v3=931.82
+2026-11-05 07:11:00,959 tick equity=790.76 pnl=-209.24 head=131710514 v3=931.82
+2026-11-05 07:11:24,140 tick equity=790.76 pnl=-209.24 head=131710565 v3=931.82
