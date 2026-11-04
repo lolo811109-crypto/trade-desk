@@ -978,5 +978,72 @@
   "module": "poly_data.py",
   "root_cause": "https://data-api.polymarket.com/trades -> 410 Data API v1 retired",
   "replacement": "https://data-api.polymarket.com/v2/trades"
+ },
+ {
+  "date": "2026-11-04",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: [] -> ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0xdc41c39b95453c943174f369926018f6963bdd7e', '0x27f738fe203827445690339104aae35b20bc44b0', '0x684baa57c338c2549aec0aa3f034f695d72a8409', '0xf68a281980f8c13828e84e147e3822381d6e5b1b']",
+  "scores": {
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.379,
+    "batch": 0.316,
+    "cold": 0.306,
+    "hold": 0.758,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 4200730.94,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.621
+   },
+   "0xdc41c39b95453c943174f369926018f6963bdd7e": {
+    "score": 2.18,
+    "batch": 0.0,
+    "cold": 0.18,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 8703718.12,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.18
+   },
+   "0x27f738fe203827445690339104aae35b20bc44b0": {
+    "score": 2.136,
+    "batch": 0.104,
+    "cold": 0.032,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 4163202.79,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.136
+   },
+   "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
+    "score": 2.107,
+    "batch": 0.107,
+    "cold": 0.0,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 6787775.53,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.107
+   },
+   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+    "score": 2.098,
+    "batch": 0.011,
+    "cold": 0.089,
+    "hold": 0.998,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 5274071.62,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.1
+   }
+  }
  }
 ]
