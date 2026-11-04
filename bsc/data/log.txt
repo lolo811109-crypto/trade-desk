@@ -1,15 +1,3 @@
-2026-11-04 18:51:25,738 tick equity=790.76 pnl=-209.24 head=131611863 v3=928.24
-2026-11-04 18:52:04,020 tick equity=790.76 pnl=-209.24 head=131611980 v3=928.24
-2026-11-04 18:52:37,199 tick equity=790.76 pnl=-209.24 head=131612066 v3=928.24
-2026-11-04 18:53:16,931 tick equity=790.76 pnl=-209.24 head=131612139 v3=928.24
-2026-11-04 18:53:59,425 tick equity=790.76 pnl=-209.24 head=131612228 v3=928.24
-2026-11-04 18:55:45,716 tick equity=790.76 pnl=-209.24 head=131612322 v3=928.24
-2026-11-04 18:57:47,740 tick equity=790.76 pnl=-209.24 head=131612728 v3=928.24
-2026-11-04 18:58:20,260 tick equity=790.76 pnl=-209.24 head=131612829 v3=928.24
-2026-11-04 18:58:48,150 V3-RISK BOLT 0xbbdd8c7720d1eeb1d63738eaabb584a4b72c7777 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-04 18:58:48,150 V3 {'ts': 1793789913, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbbdd8c7720d1eeb1d63738eaabb584a4b72c7777', 'sym': 'BOLT', 'price': 5.937e-05, 'action': 'buy', 'stake': 10.0}
-2026-11-04 18:58:49,043 V3 {'ts': 1793789913, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbbdd8c7720d1eeb1d63738eaabb584a4b72c7777', 'sym': 'BOLT', 'price': 5.937e-05, 'action': 'skip-dup', 'reasons': ['already holding this token']}
-2026-11-04 18:58:59,237 tick equity=790.76 pnl=-209.24 head=131612901 v3=927.46
 2026-11-04 18:59:40,246 tick equity=790.76 pnl=-209.24 head=131612987 v3=928.61
 2026-11-04 19:00:13,093 tick equity=790.76 pnl=-209.24 head=131613078 v3=929.14
 2026-11-04 19:00:48,626 tick equity=790.76 pnl=-209.24 head=131613152 v3=929.04
@@ -298,3 +286,15 @@
 2026-11-04 21:14:48,779 tick equity=790.76 pnl=-209.24 head=131631017 v3=931.82
 2026-11-04 21:15:20,120 tick equity=790.76 pnl=-209.24 head=131631094 v3=931.82
 2026-11-04 21:15:52,798 tick equity=790.76 pnl=-209.24 head=131631162 v3=931.82
+2026-11-04 21:16:37,761 tick equity=790.76 pnl=-209.24 head=131631237 v3=931.82
+2026-11-04 21:17:15,765 tick equity=790.76 pnl=-209.24 head=131631336 v3=931.82
+2026-11-04 21:17:50,828 tick equity=790.76 pnl=-209.24 head=131631421 v3=931.82
+2026-11-04 21:18:27,400 tick equity=790.76 pnl=-209.24 head=131631498 v3=931.82
+2026-11-04 21:19:17,386 tick equity=790.76 pnl=-209.24 head=131631579 v3=931.82
+2026-11-04 21:19:45,673 V3-RISK 胖五 0x58b2931f2bf31d2a6299e4f987c1d7ac6a967777 KILL top10 holders 100%; LP only 0% locked/burned; info: dev holds 9.3%; 开发者历史大多归零 9/10 (≥60%, n≥3) creator 0xc152f087
+2026-11-04 21:19:45,673 V3 {'ts': 1793798346, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x58b2931f2bf31d2a6299e4f987c1d7ac6a967777', 'sym': '胖五', 'price': 7.652e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%', 'LP only 0% locked/burned', 'info: dev holds 9.3%', '开发者历史大多归零 9/10 (≥60%, n≥3) creator 0xc152f087']}
+2026-11-04 21:19:45,674 CONFLUENCE 胖五 0x58b2931f2bf31d2a6299e4f987c1d7ac6a967777 wallets=['0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', '0xc5606cde16fb8c39cc68d1d97700883ae951ff56']
+2026-11-04 21:19:46,446 V2-RISK 胖五 0x58b2931f2bf31d2a6299e4f987c1d7ac6a967777 KILL top10 holders 100%; LP only 0% locked/burned; 开发者历史大多归零 9/10 (≥60%, n≥3) creator 0xc152f087
+2026-11-04 21:19:46,446 V2 {'ts': 1793798346, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x58b2931f2bf31d2a6299e4f987c1d7ac6a967777', 'sym': '胖五', 'price': 7.652e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%', 'LP only 0% locked/burned', '开发者历史大多归零 9/10 (≥60%, n≥3) creator 0xc152f087']}
+2026-11-04 21:20:01,860 tick equity=790.76 pnl=-209.24 head=131631691 v3=931.82
+2026-11-04 21:20:50,736 tick equity=790.76 pnl=-209.24 head=131631789 v3=931.82
