@@ -1,20 +1,3 @@
-2026-11-04 14:11:26,069 tick equity=790.76 pnl=-209.24 head=131574609 v3=928.24
-2026-11-04 14:11:47,577 tick equity=790.76 pnl=-209.24 head=131574657 v3=928.24
-2026-11-04 14:12:09,015 tick equity=790.76 pnl=-209.24 head=131574705 v3=928.24
-2026-11-04 14:12:31,040 tick equity=790.76 pnl=-209.24 head=131574752 v3=928.24
-2026-11-04 14:12:52,355 tick equity=790.76 pnl=-209.24 head=131574801 v3=928.24
-2026-11-04 14:13:13,826 tick equity=790.76 pnl=-209.24 head=131574848 v3=928.24
-2026-11-04 14:13:35,377 tick equity=790.76 pnl=-209.24 head=131574896 v3=928.24
-2026-11-04 14:16:14,792 DEVHIST chunk err 131574926-131575254 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-04 14:16:15,783 tick equity=790.76 pnl=-209.24 head=131575253 v3=928.24
-2026-11-04 14:16:37,700 tick equity=790.76 pnl=-209.24 head=131575301 v3=928.24
-2026-11-04 14:38:15,055 WATCHDOG: no successful tick 1297s, exiting for restart
-2026-11-04 14:38:42,123 DEVHIST backfill 131575255 -> 131578248 (~7d)
-2026-11-04 14:38:42,245 DEVHIST ready creators=1678 tokens=18580
-2026-11-04 14:38:45,742 tick equity=790.76 pnl=-209.24 head=131578252 v3=928.24
-2026-11-04 14:39:07,343 tick equity=790.76 pnl=-209.24 head=131578300 v3=928.24
-2026-11-04 14:39:29,094 tick equity=790.76 pnl=-209.24 head=131578349 v3=928.24
-2026-11-04 14:39:50,979 tick equity=790.76 pnl=-209.24 head=131578397 v3=928.24
 2026-11-04 14:40:12,739 tick equity=790.76 pnl=-209.24 head=131578445 v3=928.24
 2026-11-04 14:40:34,616 tick equity=790.76 pnl=-209.24 head=131578494 v3=928.24
 2026-11-04 14:40:56,308 tick equity=790.76 pnl=-209.24 head=131578542 v3=928.24
@@ -298,3 +281,20 @@
 2026-11-04 17:40:26,341 tick equity=790.76 pnl=-209.24 head=131602441 v3=928.24
 2026-11-04 17:40:55,525 tick equity=790.76 pnl=-209.24 head=131602518 v3=928.24
 2026-11-04 17:41:37,606 tick equity=790.76 pnl=-209.24 head=131602583 v3=928.24
+2026-11-04 17:42:20,538 tick equity=790.76 pnl=-209.24 head=131602677 v3=928.24
+2026-11-04 17:42:56,532 tick equity=790.76 pnl=-209.24 head=131602772 v3=928.24
+2026-11-04 17:43:25,429 tick equity=790.76 pnl=-209.24 head=131602851 v3=928.24
+2026-11-04 17:44:13,726 tick equity=790.76 pnl=-209.24 head=131602960 v3=928.24
+2026-11-04 18:02:58,674 WATCHDOG: no successful tick 1124s, exiting for restart
+2026-11-04 18:03:31,325 DEVHIST backfill 131602885 -> 131605549 (~7d)
+2026-11-04 18:03:31,445 DEVHIST ready creators=1740 tokens=19309
+2026-11-04 18:03:48,207 tick equity=790.76 pnl=-209.24 head=131605567 v3=928.24
+2026-11-04 18:04:25,872 V3-DEV-WARN 0xb47db73293380088a1d78fb5c51bf9038f217777 creator/holding unknown, allowing
+2026-11-04 18:04:25,887 V3-RISK AGENTINE 0xb47db73293380088a1d78fb5c51bf9038f217777 KILL top10 holders 100%; warn: dev holding unknown; info: 开发者历史未知
+2026-11-04 18:04:25,887 V3 {'ts': 1793786625, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb47db73293380088a1d78fb5c51bf9038f217777', 'sym': 'AGENTINE', 'price': 4.367e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%', 'warn: dev holding unknown', 'info: 开发者历史未知']}
+2026-11-04 18:04:27,136 V3 {'ts': 1793786626, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb47db73293380088a1d78fb5c51bf9038f217777', 'sym': 'AGENTINE', 'price': 4.367e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%', 'warn: dev holding unknown', 'info: 开发者历史未知']}
+2026-11-04 18:04:30,426 V3 {'ts': 1793786642, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb47db73293380088a1d78fb5c51bf9038f217777', 'sym': 'AGENTINE', 'price': 4.367e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%', 'warn: dev holding unknown', 'info: 开发者历史未知']}
+2026-11-04 18:04:34,245 tick equity=790.76 pnl=-209.24 head=131605631 v3=928.24
+2026-11-04 18:05:20,564 tick equity=790.76 pnl=-209.24 head=131605733 v3=928.24
+2026-11-04 18:05:51,917 V3 {'ts': 1793786728, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb47db73293380088a1d78fb5c51bf9038f217777', 'sym': 'AGENTINE', 'price': 5.36e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%', 'warn: dev holding unknown', 'info: 开发者历史未知']}
+2026-11-04 18:05:52,712 V3 {'ts': 1793786728, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb47db73293380088a1d78fb5c51bf9038f217777', 'sym': 'AGENTINE', 'price': 5.36e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 100%', 'warn: dev holding unknown', 'info: 开发者历史未知']}
