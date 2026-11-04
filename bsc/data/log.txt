@@ -1,18 +1,3 @@
-2026-11-04 13:06:47,922 tick equity=790.76 pnl=-209.24 head=131565993 v3=928.24
-2026-11-04 13:07:09,309 tick equity=790.76 pnl=-209.24 head=131566041 v3=928.24
-2026-11-04 13:07:30,751 tick equity=790.76 pnl=-209.24 head=131566088 v3=928.24
-2026-11-04 13:07:52,841 tick equity=790.76 pnl=-209.24 head=131566136 v3=928.24
-2026-11-04 13:08:14,221 tick equity=790.76 pnl=-209.24 head=131566185 v3=928.24
-2026-11-04 13:08:35,700 tick equity=790.76 pnl=-209.24 head=131566232 v3=928.24
-2026-11-04 13:08:57,177 tick equity=790.76 pnl=-209.24 head=131566280 v3=928.24
-2026-11-04 13:09:18,675 tick equity=790.76 pnl=-209.24 head=131566328 v3=928.24
-2026-11-04 13:09:39,988 tick equity=790.76 pnl=-209.24 head=131566376 v3=928.24
-2026-11-04 13:10:01,366 tick equity=790.76 pnl=-209.24 head=131566423 v3=928.24
-2026-11-04 13:10:22,638 tick equity=790.76 pnl=-209.24 head=131566470 v3=928.24
-2026-11-04 13:10:44,748 tick equity=790.76 pnl=-209.24 head=131566518 v3=928.24
-2026-11-04 13:11:06,172 tick equity=790.76 pnl=-209.24 head=131566567 v3=928.24
-2026-11-04 13:11:27,297 tick equity=790.76 pnl=-209.24 head=131566615 v3=928.24
-2026-11-04 13:11:48,647 tick equity=790.76 pnl=-209.24 head=131566662 v3=928.24
 2026-11-04 13:12:12,999 tick equity=790.76 pnl=-209.24 head=131566709 v3=928.24
 2026-11-04 13:12:34,593 V3 {'ts': 1793769144, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x29921a532878bf66efc9ca92694b8a40e6157777', 'sym': '我画地为牢', 'price': 0.000206, 'action': 'skip-7d'}
 2026-11-04 13:12:35,116 tick equity=790.76 pnl=-209.24 head=131566763 v3=928.24
@@ -298,3 +283,18 @@
 2026-11-04 17:07:27,896 tick equity=790.76 pnl=-209.24 head=131598058 v3=928.24
 2026-11-04 17:08:00,181 tick equity=790.76 pnl=-209.24 head=131598124 v3=928.24
 2026-11-04 17:08:35,958 tick equity=790.76 pnl=-209.24 head=131598195 v3=928.24
+2026-11-04 17:09:03,790 tick equity=790.76 pnl=-209.24 head=131598275 v3=928.24
+2026-11-04 17:09:48,145 V3-RISK 我画地为牢 0x29921a532878bf66efc9ca92694b8a40e6157777 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史 0x149ef4… prior=31 dead=10/20 (50%)
+2026-11-04 17:09:48,146 V3 {'ts': 1793783355, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x29921a532878bf66efc9ca92694b8a40e6157777', 'sym': '我画地为牢', 'price': 0.0002184870416, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x149ef4… prior=31 dead=10/20 (50%)']}
+2026-11-04 17:09:48,807 V3 {'ts': 1793783355, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x29921a532878bf66efc9ca92694b8a40e6157777', 'sym': '我画地为牢', 'price': 0.0002166, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x149ef4… prior=31 dead=10/20 (50%)']}
+2026-11-04 17:09:55,645 tick equity=790.76 pnl=-209.24 head=131598336 v3=928.24
+2026-11-04 17:10:36,018 tick equity=790.76 pnl=-209.24 head=131598452 v3=928.24
+2026-11-04 17:11:10,613 V3-ENTRY KILL 불사조 0xa965bd00bbde5e2db8362c8ed6ab0ccafb7b7777 liq $11,161 < $20,000 v2 floor
+2026-11-04 17:11:10,620 V3 {'ts': 1793783425, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xa965bd00bbde5e2db8362c8ed6ab0ccafb7b7777', 'sym': '불사조', 'price': 6.518e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $11,161 < $20,000 v2 floor']}
+2026-11-04 17:11:12,919 V3-ENTRY KILL 不死鸟 0x2a05a1db973c45b7e13e75babe6212c38ae47777 liq $9,558 < $20,000 v2 floor
+2026-11-04 17:11:12,926 V3 {'ts': 1793783450, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x2a05a1db973c45b7e13e75babe6212c38ae47777', 'sym': '不死鸟', 'price': 4.78e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $9,558 < $20,000 v2 floor']}
+2026-11-04 17:11:24,947 tick equity=790.76 pnl=-209.24 head=131598541 v3=928.24
+2026-11-04 17:12:09,682 tick equity=790.76 pnl=-209.24 head=131598650 v3=928.24
+2026-11-04 17:12:35,802 V3 {'ts': 1793783537, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x2ab8a4dd2191989ac2898006df350b236d2b7777', 'sym': 'Sue', 'price': 0.0002716, 'action': 'skip-7d'}
+2026-11-04 17:12:52,680 tick equity=790.76 pnl=-209.24 head=131598749 v3=928.24
+2026-11-04 17:13:20,475 tick equity=790.76 pnl=-209.24 head=131598844 v3=928.24
