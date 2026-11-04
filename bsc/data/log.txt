@@ -1,3 +1,6 @@
+2026-11-04 19:10:39,767 V3-ENTRY KILL CZH 0x53c9fe9680d68e0b8c2fad733a850f2bd3b34444 liq $9,638 < $20,000 v2 floor
+2026-11-04 19:10:39,775 V3 {'ts': 1793790601, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x53c9fe9680d68e0b8c2fad733a850f2bd3b34444', 'sym': 'CZH', 'price': 6.908e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $9,638 < $20,000 v2 floor']}
+2026-11-04 19:10:53,328 tick equity=790.76 pnl=-209.24 head=131614483 v3=931.82
 2026-11-04 19:11:23,299 tick equity=790.76 pnl=-209.24 head=131614572 v3=931.82
 2026-11-04 19:11:58,220 tick equity=790.76 pnl=-209.24 head=131614639 v3=931.82
 2026-11-04 19:12:32,056 tick equity=790.76 pnl=-209.24 head=131614716 v3=931.82
@@ -284,17 +287,14 @@
 2026-11-04 21:25:32,749 V3 {'ts': 1793798693, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x8351311fe78e9045a5eebcb11db9d700658c7777', 'sym': 'Slime', 'price': 1.228e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $10,576 < $20,000 v2 floor']}
 2026-11-04 21:26:00,720 tick equity=790.76 pnl=-209.24 head=131632458 v3=931.82
 2026-11-04 21:26:48,070 tick equity=790.76 pnl=-209.24 head=131632586 v3=931.82
-2026-11-04 21:27:28,791 tick equity=790.76 pnl=-209.24 head=131632692 v3=931.82
-2026-11-04 21:27:55,857 tick equity=790.76 pnl=-209.24 head=131632782 v3=931.82
-2026-11-04 21:28:22,092 tick equity=790.76 pnl=-209.24 head=131632842 v3=931.82
-2026-11-04 21:28:51,373 tick equity=790.76 pnl=-209.24 head=131632901 v3=931.82
-2026-11-04 21:29:27,772 tick equity=790.76 pnl=-209.24 head=131632965 v3=931.82
-2026-11-04 21:30:05,486 tick equity=790.76 pnl=-209.24 head=131633046 v3=931.82
-2026-11-04 21:30:34,163 V3 {'ts': 1793798989, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x7b48474d25431dfad4337735a0a2e57b63573abb', 'sym': 'ORE', 'price': 0.06401, 'action': 'kill-risk', 'reasons': ['owner can mint', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-04 21:30:34,163 CONFLUENCE ORE 0x7b48474d25431dfad4337735a0a2e57b63573abb wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f']
-2026-11-04 21:30:34,833 V2-RISK ORE 0x7b48474d25431dfad4337735a0a2e57b63573abb KILL owner can mint; info: 开发者历史样本不足 n=0 (<3)
-2026-11-04 21:30:34,834 V2 {'ts': 1793798989, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x7b48474d25431dfad4337735a0a2e57b63573abb', 'sym': 'ORE', 'price': 0.06401, 'action': 'kill-risk', 'reasons': ['owner can mint', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-04 21:30:36,042 V3 {'ts': 1793798991, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x7b48474d25431dfad4337735a0a2e57b63573abb', 'sym': 'ORE', 'price': 0.06401, 'action': 'kill-risk', 'reasons': ['owner can mint', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-04 21:30:50,371 tick equity=790.76 pnl=-209.24 head=131633129 v3=931.82
-2026-11-04 21:31:21,737 tick equity=790.76 pnl=-209.24 head=131633229 v3=931.82
-2026-11-04 21:31:54,652 tick equity=790.76 pnl=-209.24 head=131633299 v3=931.82
+2026-11-04 21:36:29,572 DEVHIST backfill 131632618 -> 131633939 (~7d)
+2026-11-04 21:36:29,857 DEVHIST ready creators=1849 tokens=20343
+2026-11-04 21:36:49,140 tick equity=790.76 pnl=-209.24 head=131633956 v3=931.82
+2026-11-04 21:37:25,346 tick equity=790.76 pnl=-209.24 head=131634027 v3=931.82
+2026-11-04 21:37:59,306 tick equity=790.76 pnl=-209.24 head=131634107 v3=931.82
+2026-11-04 21:38:40,850 tick equity=790.76 pnl=-209.24 head=131634182 v3=931.82
+2026-11-04 21:39:09,647 tick equity=790.76 pnl=-209.24 head=131634275 v3=931.82
+2026-11-04 21:39:43,147 tick equity=790.76 pnl=-209.24 head=131634339 v3=931.82
+2026-11-04 21:40:15,287 tick equity=790.76 pnl=-209.24 head=131634413 v3=931.82
+2026-11-04 21:40:50,826 tick equity=790.76 pnl=-209.24 head=131634485 v3=931.82
+2026-11-04 21:41:23,751 tick equity=790.76 pnl=-209.24 head=131634564 v3=931.82
