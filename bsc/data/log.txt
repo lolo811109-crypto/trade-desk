@@ -1,26 +1,3 @@
-2026-11-05 14:12:30,041 tick equity=790.76 pnl=-209.24 head=131766678 v3=931.82
-2026-11-05 14:12:58,338 tick equity=790.76 pnl=-209.24 head=131766742 v3=931.82
-2026-11-05 14:13:27,618 tick equity=790.76 pnl=-209.24 head=131766805 v3=931.82
-2026-11-05 14:14:01,921 tick equity=790.76 pnl=-209.24 head=131766870 v3=931.82
-2026-11-05 14:16:44,293 tick equity=790.76 pnl=-209.24 head=131766945 v3=931.82
-2026-11-05 14:19:44,443 DEVHIST chunk err 131767257-131767661 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:19:45,492 DEVHIST chunk err 131767257-131767661 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:20:46,586 DEVHIST chunk err 131767662-131767800 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:20:47,585 DEVHIST chunk err 131767662-131767800 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:21:04,507 tick equity=790.76 pnl=-209.24 head=131767308 v3=931.82
-2026-11-05 14:21:48,737 DEVHIST chunk err 131767801-131767938 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:21:49,728 DEVHIST chunk err 131767801-131767938 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:22:50,874 DEVHIST chunk err 131767939-131768076 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:22:51,920 DEVHIST chunk err 131767939-131768076 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:23:16,683 tick equity=790.76 pnl=-209.24 head=131767886 v3=931.82
-2026-11-05 14:23:53,068 DEVHIST chunk err 131768077-131768215 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:23:54,114 DEVHIST chunk err 131768077-131768215 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:24:55,715 DEVHIST chunk err 131768216-131768353 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:24:56,758 DEVHIST chunk err 131768216-131768353 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:25:01,737 tick equity=790.76 pnl=-209.24 head=131768180 v3=931.82
-2026-11-05 14:25:57,900 DEVHIST chunk err 131768354-131768492 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:25:58,902 DEVHIST chunk err 131768354-131768492 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 14:26:39,434 tick equity=790.76 pnl=-209.24 head=131768412 v3=931.82
 2026-11-05 14:27:00,492 DEVHIST chunk err 131768493-131768630 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-05 14:27:01,505 DEVHIST chunk err 131768493-131768630 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-05 14:28:02,744 DEVHIST chunk err 131768631-131768769 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
@@ -298,3 +275,26 @@
 2026-11-05 18:41:37,320 tick equity=790.76 pnl=-209.24 head=131802546 v3=931.82
 2026-11-05 18:42:03,779 tick equity=790.76 pnl=-209.24 head=131802611 v3=931.82
 2026-11-05 18:42:30,101 tick equity=790.76 pnl=-209.24 head=131802669 v3=931.82
+2026-11-05 18:42:56,380 tick equity=790.76 pnl=-209.24 head=131802728 v3=931.82
+2026-11-05 18:43:20,261 tick equity=790.76 pnl=-209.24 head=131802786 v3=931.82
+2026-11-05 18:43:42,920 tick equity=790.76 pnl=-209.24 head=131802839 v3=931.82
+2026-11-05 18:44:06,759 tick equity=790.76 pnl=-209.24 head=131802890 v3=931.82
+2026-11-05 18:44:29,982 tick equity=790.76 pnl=-209.24 head=131802943 v3=931.82
+2026-11-05 18:44:52,874 V3-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 93%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-05 18:44:52,874 V3 {'ts': 1793875484, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 134.67, 'action': 'kill-risk', 'reasons': ['top10 holders 93%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-05 18:44:53,496 V3-RISK FXIon 0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-05 18:44:53,496 V3 {'ts': 1793875484, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1', 'sym': 'FXIon', 'price': 35.39, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-05 18:44:54,152 V3-RISK DOGE 0xba2ae424d960c26247dd6c32edc70b295c744c43 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-05 18:44:54,152 V3 {'ts': 1793875484, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xba2ae424d960c26247dd6c32edc70b295c744c43', 'sym': 'DOGE', 'price': 0.07702, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-05 18:44:54,802 V3-RISK AAPLB 0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a KILL top10 holders 74%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-05 18:44:54,802 V3 {'ts': 1793875484, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a', 'sym': 'AAPLB', 'price': 351.27, 'action': 'kill-risk', 'reasons': ['top10 holders 74%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-05 18:44:56,945 tick equity=790.76 pnl=-209.24 head=131802994 v3=931.82
+2026-11-05 18:45:21,007 V3-RISK QQQB 0x205812cdbed920aff76c6580abd681a46d11efc7 KILL top10 holders 87%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-05 18:45:21,007 V3 {'ts': 1793875492, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x205812cdbed920aff76c6580abd681a46d11efc7', 'sym': 'QQQB', 'price': 689.47, 'action': 'kill-risk', 'reasons': ['top10 holders 87%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-05 18:45:21,626 V3-RISK TSLAB 0x5b1910eaad6450e50f816082aa078c41f10c292f KILL top10 holders 88%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-05 18:45:21,626 V3 {'ts': 1793875492, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5b1910eaad6450e50f816082aa078c41f10c292f', 'sym': 'TSLAB', 'price': 378.92, 'action': 'kill-risk', 'reasons': ['top10 holders 88%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-05 18:45:21,818 V3 {'ts': 1793875492, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 134.67, 'action': 'kill-risk', 'reasons': ['top10 holders 93%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-05 18:45:25,044 tick equity=790.76 pnl=-209.24 head=131803054 v3=931.82
+2026-11-05 18:45:52,975 tick equity=790.76 pnl=-209.24 head=131803117 v3=931.82
+2026-11-05 18:46:18,066 tick equity=790.76 pnl=-209.24 head=131803179 v3=931.82
+2026-11-05 18:46:41,710 tick equity=790.76 pnl=-209.24 head=131803235 v3=931.82
