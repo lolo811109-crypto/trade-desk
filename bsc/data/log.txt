@@ -1,16 +1,3 @@
-2026-11-05 09:44:15,497 tick equity=790.76 pnl=-209.24 head=131730936 v3=931.82
-2026-11-05 09:44:40,431 tick equity=790.76 pnl=-209.24 head=131730991 v3=931.82
-2026-11-05 09:45:03,434 tick equity=790.76 pnl=-209.24 head=131731047 v3=931.82
-2026-11-05 09:45:26,276 tick equity=790.76 pnl=-209.24 head=131731097 v3=931.82
-2026-11-05 09:50:40,068 tick equity=790.76 pnl=-209.24 head=131731149 v3=931.82
-2026-11-05 09:51:00,161 SKIP-AHEAD 0xb9b069 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:00,255 SKIP-AHEAD 0xd392fc behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:00,355 SKIP-AHEAD 0xa03fa8 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:00,542 SKIP-AHEAD 0x9bee11 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:00,636 SKIP-AHEAD 0x5bc3a8 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:00,819 SKIP-AHEAD 0x770181 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:00,913 SKIP-AHEAD 0x7dfd45 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:01,096 SKIP-AHEAD 0x07a61c behind 696 blocks (131731149->131731845)
 2026-11-05 09:51:01,279 SKIP-AHEAD 0xc5606c behind 696 blocks (131731149->131731845)
 2026-11-05 09:51:01,374 SKIP-AHEAD 0xee1004 behind 696 blocks (131731149->131731845)
 2026-11-05 09:51:01,467 SKIP-AHEAD 0xe95033 behind 696 blocks (131731149->131731845)
@@ -298,3 +285,16 @@
 2026-11-05 14:25:01,737 tick equity=790.76 pnl=-209.24 head=131768180 v3=931.82
 2026-11-05 14:25:57,900 DEVHIST chunk err 131768354-131768492 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-05 14:25:58,902 DEVHIST chunk err 131768354-131768492 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:26:39,434 tick equity=790.76 pnl=-209.24 head=131768412 v3=931.82
+2026-11-05 14:27:00,492 DEVHIST chunk err 131768493-131768630 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:27:01,505 DEVHIST chunk err 131768493-131768630 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:28:02,744 DEVHIST chunk err 131768631-131768769 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:28:03,860 DEVHIST chunk err 131768631-131768769 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:28:25,907 tick equity=790.76 pnl=-209.24 head=131768630 v3=931.82
+2026-11-05 14:29:04,981 DEVHIST chunk err 131768770-131768907 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:29:06,029 DEVHIST chunk err 131768770-131768907 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:30:05,380 tick equity=790.76 pnl=-209.24 head=131768865 v3=931.82
+2026-11-05 14:30:07,871 DEVHIST chunk err 131768908-131769046 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:30:08,923 DEVHIST chunk err 131768908-131769046 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:30:53,453 V3 {'ts': 1793860127, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbf27fe918edc767a08cc6735ef34eb1c9f2c7777', 'sym': '珍珠币', 'price': 0.002673081965, 'action': 'skip-liq'}
+2026-11-05 14:30:54,389 V3 {'ts': 1793860142, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbf27fe918edc767a08cc6735ef34eb1c9f2c7777', 'sym': '珍珠币', 'price': 0.002657, 'action': 'skip-liq'}
