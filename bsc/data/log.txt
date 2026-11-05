@@ -1,11 +1,3 @@
-2026-11-05 09:51:01,374 SKIP-AHEAD 0xee1004 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:01,467 SKIP-AHEAD 0xe95033 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:01,561 SKIP-AHEAD 0xc9ac2d behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:01,748 SKIP-AHEAD 0xdf579d behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:01,930 SKIP-AHEAD 0x329ca2 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:02,115 SKIP-AHEAD 0x8d2896 behind 696 blocks (131731149->131731845)
-2026-11-05 09:51:02,247 tick equity=790.76 pnl=-209.24 head=131731845 v3=931.82
-2026-11-05 10:04:56,982 WATCHDOG: no successful tick 834s, exiting for restart
 2026-11-05 10:05:20,591 DEVHIST backfill 131731839 -> 131733756 (~7d)
 2026-11-05 10:05:20,931 DEVHIST ready creators=2035 tokens=22975
 2026-11-05 10:05:26,433 tick equity=790.76 pnl=-209.24 head=131733761 v3=931.82
@@ -298,3 +290,11 @@
 2026-11-05 14:30:53,453 V3 {'ts': 1793860127, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbf27fe918edc767a08cc6735ef34eb1c9f2c7777', 'sym': '珍珠币', 'price': 0.002673081965, 'action': 'skip-liq'}
 2026-11-05 14:30:54,389 V3 {'ts': 1793860142, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbf27fe918edc767a08cc6735ef34eb1c9f2c7777', 'sym': '珍珠币', 'price': 0.002657, 'action': 'skip-liq'}
 2026-11-05 14:32:48,735 tick equity=790.76 pnl=-209.24 head=131769087 v3=931.82
+2026-11-05 14:36:34,117 tick equity=790.76 pnl=-209.24 head=131769450 v3=931.82
+2026-11-05 14:37:13,594 DEVHIST chunk err 131769856-131769988 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:37:14,595 DEVHIST chunk err 131769856-131769988 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 14:55:58,148 WATCHDOG: no successful tick 1163s, exiting for restart
+2026-11-05 14:56:26,768 DEVHIST backfill 131770339 -> 131772554 (~7d)
+2026-11-05 14:56:27,116 DEVHIST ready creators=2073 tokens=23551
+2026-11-05 14:56:31,190 tick equity=790.76 pnl=-209.24 head=131772558 v3=931.82
+2026-11-05 14:57:00,057 tick equity=790.76 pnl=-209.24 head=131772608 v3=931.82
