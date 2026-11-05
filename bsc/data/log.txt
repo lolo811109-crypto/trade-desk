@@ -1,4 +1,3 @@
-2026-11-05 11:34:29,145 tick equity=790.76 pnl=-209.24 head=131745632 v3=931.82
 2026-11-05 11:34:51,525 tick equity=790.76 pnl=-209.24 head=131745682 v3=931.82
 2026-11-05 11:35:13,809 tick equity=790.76 pnl=-209.24 head=131745731 v3=931.82
 2026-11-05 11:35:37,053 tick equity=790.76 pnl=-209.24 head=131745781 v3=931.82
@@ -298,3 +297,4 @@
 2026-11-05 15:45:19,645 tick equity=790.76 pnl=-209.24 head=131779050 v3=931.82
 2026-11-05 15:45:47,213 tick equity=790.76 pnl=-209.24 head=131779113 v3=931.82
 2026-11-05 15:48:02,563 DEVHIST chunk err 131779090-131779428 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 16:00:28,659 WATCHDOG: no successful tick 881s, exiting for restart
