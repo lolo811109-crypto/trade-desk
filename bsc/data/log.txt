@@ -1,17 +1,3 @@
-2026-11-05 15:42:33,908 tick equity=790.76 pnl=-209.24 head=131778675 v3=931.82
-2026-11-05 15:43:04,028 tick equity=790.76 pnl=-209.24 head=131778744 v3=931.82
-2026-11-05 15:43:30,276 tick equity=790.76 pnl=-209.24 head=131778811 v3=931.82
-2026-11-05 15:43:55,602 tick equity=790.76 pnl=-209.24 head=131778869 v3=931.82
-2026-11-05 15:44:17,524 V3 {'ts': 1793864637, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x085b526f5e1715abc6d6b64046d9d6c91de04444', 'sym': 'M4GA', 'price': 1.879e-05, 'action': 'skip-liq'}
-2026-11-05 15:44:21,902 tick equity=790.76 pnl=-209.24 head=131778926 v3=931.82
-2026-11-05 15:44:51,664 tick equity=790.76 pnl=-209.24 head=131778984 v3=931.82
-2026-11-05 15:45:19,645 tick equity=790.76 pnl=-209.24 head=131779050 v3=931.82
-2026-11-05 15:45:47,213 tick equity=790.76 pnl=-209.24 head=131779113 v3=931.82
-2026-11-05 15:48:02,563 DEVHIST chunk err 131779090-131779428 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-05 16:00:28,659 WATCHDOG: no successful tick 881s, exiting for restart
-2026-11-05 16:00:55,904 DEVHIST backfill 131779429 -> 131781147 (~7d)
-2026-11-05 16:00:56,485 DEVHIST ready creators=2111 tokens=23983
-2026-11-05 16:01:14,061 tick equity=790.76 pnl=-209.24 head=131781168 v3=931.82
 2026-11-05 16:02:06,440 tick equity=790.76 pnl=-209.24 head=131781232 v3=931.82
 2026-11-05 16:03:31,305 tick equity=790.76 pnl=-209.24 head=131781349 v3=931.82
 2026-11-05 16:04:03,611 V3 {'ts': 1793865770, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x085b526f5e1715abc6d6b64046d9d6c91de04444', 'sym': 'M4GA', 'price': 8.376e-05, 'action': 'skip-liq'}
@@ -298,3 +284,17 @@
 2026-11-05 20:11:39,100 tick equity=790.76 pnl=-209.24 head=131814525 v3=931.82
 2026-11-05 20:12:21,840 tick equity=790.76 pnl=-209.24 head=131814614 v3=931.82
 2026-11-05 20:13:08,083 tick equity=790.76 pnl=-209.24 head=131814709 v3=931.82
+2026-11-05 20:31:39,783 WATCHDOG: no successful tick 1111s, exiting for restart
+2026-11-05 20:32:04,125 DEVHIST backfill 131814725 -> 131817290 (~7d)
+2026-11-05 20:32:04,792 DEVHIST chunk err 131814725-131817290 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-05 20:32:05,217 DEVHIST ready creators=2229 tokens=25233
+2026-11-05 20:32:11,002 tick equity=790.76 pnl=-209.24 head=131817295 v3=931.82
+2026-11-05 20:32:33,799 V3-ENTRY KILL 来财 0xc84a0ff2e7bab3d32cb6426f07855b70694f7777 liq $9,866 < $20,000 v2 floor
+2026-11-05 20:32:33,808 V3 {'ts': 1793881933, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc84a0ff2e7bab3d32cb6426f07855b70694f7777', 'sym': '来财', 'price': 5.019e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $9,866 < $20,000 v2 floor']}
+2026-11-05 20:32:37,191 tick equity=790.76 pnl=-209.24 head=131817350 v3=931.82
+2026-11-05 20:33:00,811 tick equity=790.76 pnl=-209.24 head=131817408 v3=931.82
+2026-11-05 20:33:26,687 tick equity=790.76 pnl=-209.24 head=131817460 v3=931.82
+2026-11-05 20:33:54,802 tick equity=790.76 pnl=-209.24 head=131817518 v3=931.82
+2026-11-05 20:34:17,696 V3 {'ts': 1793882049, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xb726477d1743b02c5fdae5ab094745665eeb7777', 'sym': '7AGENT', 'price': 0.0005544, 'action': 'skip-7d'}
+2026-11-05 20:34:21,027 tick equity=790.76 pnl=-209.24 head=131817581 v3=931.82
+2026-11-05 20:34:47,496 tick equity=790.76 pnl=-209.24 head=131817639 v3=931.82
