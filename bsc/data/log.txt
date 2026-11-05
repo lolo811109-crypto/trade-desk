@@ -1,10 +1,3 @@
-2026-11-05 10:44:24,763 tick equity=790.76 pnl=-209.24 head=131738955 v3=931.82
-2026-11-05 10:44:47,131 tick equity=790.76 pnl=-209.24 head=131739007 v3=931.82
-2026-11-05 10:45:09,587 tick equity=790.76 pnl=-209.24 head=131739056 v3=931.82
-2026-11-05 10:45:31,739 tick equity=790.76 pnl=-209.24 head=131739106 v3=931.82
-2026-11-05 10:45:57,203 tick equity=790.76 pnl=-209.24 head=131739155 v3=931.82
-2026-11-05 10:46:22,305 tick equity=790.76 pnl=-209.24 head=131739212 v3=931.82
-2026-11-05 10:46:47,402 tick equity=790.76 pnl=-209.24 head=131739268 v3=931.82
 2026-11-05 10:47:14,306 tick equity=790.76 pnl=-209.24 head=131739324 v3=931.82
 2026-11-05 10:47:58,480 tick equity=790.76 pnl=-209.24 head=131739429 v3=931.82
 2026-11-05 10:48:20,782 tick equity=790.76 pnl=-209.24 head=131739481 v3=931.82
@@ -298,3 +291,10 @@
 2026-11-05 15:21:06,034 V3 {'ts': 1793863225, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x28ad2c7d08d83a85467bd4afcfd673dfce564444', 'sym': 'memes', 'price': 3.388e-05, 'action': 'skip-liq'}
 2026-11-05 15:22:01,942 tick equity=790.76 pnl=-209.24 head=131775797 v3=931.82
 2026-11-05 15:22:29,944 V3 {'ts': 1793863308, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x05580db0267e67d163e681408275952d14f37777', 'sym': 'KIM', 'price': 3.7951786e-06, 'action': 'skip-7d'}
+2026-11-05 15:23:35,800 tick equity=790.76 pnl=-209.24 head=131776010 v3=931.82
+2026-11-05 15:24:02,407 V3 {'ts': 1793863357, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x4efa15a46b53f8fc55a22777905834b6a3797777', 'sym': '飞行滑板', 'price': 5.082e-06, 'action': 'skip-7d'}
+2026-11-05 15:25:23,009 tick equity=790.76 pnl=-209.24 head=131776218 v3=931.82
+2026-11-05 15:25:54,308 V3-ENTRY KILL babydoge 0x9d28d0d1085bccfd45518d8de73c3b9944e27777 liq $16,887 < $20,000 v2 floor
+2026-11-05 15:25:54,320 V3 {'ts': 1793863439, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9d28d0d1085bccfd45518d8de73c3b9944e27777', 'sym': 'babydoge', 'price': 3.957e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $16,887 < $20,000 v2 floor']}
+2026-11-05 15:27:54,085 tick equity=790.76 pnl=-209.24 head=131776456 v3=931.82
+2026-11-05 15:28:09,637 DEVHIST chunk err 131776643-131776777 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
