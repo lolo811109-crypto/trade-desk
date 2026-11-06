@@ -1,4 +1,3 @@
-2026-11-06 13:01:13,246 SKIP-AHEAD 0x770181 behind 799 blocks (131948346->131949145)
 2026-11-06 13:01:13,431 SKIP-AHEAD 0x7dfd45 behind 799 blocks (131948346->131949145)
 2026-11-06 13:01:13,615 SKIP-AHEAD 0x07a61c behind 799 blocks (131948346->131949145)
 2026-11-06 13:01:13,798 SKIP-AHEAD 0xc5606c behind 799 blocks (131948346->131949145)
@@ -298,3 +297,4 @@
 2026-11-06 17:16:56,583 tick equity=790.76 pnl=-209.24 head=131983205 v3=931.82
 2026-11-06 17:17:38,698 tick equity=790.76 pnl=-209.24 head=131983284 v3=931.82
 2026-11-06 17:20:21,069 V3 {'ts': 1793956706, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe451b966aa64bee4046cfcb0db5fe6aa9f647777', 'sym': '躺枪', 'price': 0.0001762, 'action': 'skip-7d'}
+2026-11-06 17:35:01,293 WATCHDOG: no successful tick 1042s, exiting for restart
