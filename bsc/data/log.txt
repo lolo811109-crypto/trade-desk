@@ -1,7 +1,3 @@
-2026-11-06 15:17:46,809 tick equity=790.76 pnl=-209.24 head=131967300 v3=931.82
-2026-11-06 15:18:25,793 tick equity=790.76 pnl=-209.24 head=131967397 v3=931.82
-2026-11-06 15:18:49,266 V3 {'ts': 1793949488, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.00026, 'action': 'skip-7d'}
-2026-11-06 15:18:49,266 CONFLUENCE RM 0x33fe24f4298a8659668e8d1f2044fd01e8a57777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
 2026-11-06 15:18:50,004 V2-RISK RM 0x33fe24f4298a8659668e8d1f2044fd01e8a57777 KILL LP only 0% locked/burned; 开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5
 2026-11-06 15:18:50,004 V2 {'ts': 1793949488, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.00026, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', '开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5']}
 2026-11-06 15:19:07,026 tick equity=790.76 pnl=-209.24 head=131967484 v3=931.82
@@ -298,3 +294,7 @@
 2026-11-06 20:55:35,099 tick equity=790.76 pnl=-209.24 head=132012295 v3=931.82
 2026-11-06 20:56:53,426 tick equity=790.76 pnl=-209.24 head=132012427 v3=931.82
 2026-11-06 20:58:08,411 tick equity=790.76 pnl=-209.24 head=132012602 v3=931.82
+2026-11-06 20:59:31,949 tick equity=790.76 pnl=-209.24 head=132012768 v3=931.82
+2026-11-06 21:00:30,289 tick equity=790.76 pnl=-209.24 head=132012954 v3=931.82
+2026-11-06 21:02:23,082 tick equity=790.76 pnl=-209.24 head=132013083 v3=931.82
+2026-11-06 21:04:13,831 tick equity=790.76 pnl=-209.24 head=132013334 v3=931.82
