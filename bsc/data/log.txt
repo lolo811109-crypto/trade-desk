@@ -1,15 +1,3 @@
-2026-11-06 10:21:07,050 SKIP-AHEAD 0x5bc3a8 behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,136 SKIP-AHEAD 0x770181 behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,223 SKIP-AHEAD 0x7dfd45 behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,308 SKIP-AHEAD 0x07a61c behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,454 SKIP-AHEAD 0xc5606c behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,542 SKIP-AHEAD 0xee1004 behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,630 SKIP-AHEAD 0xe95033 behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,716 SKIP-AHEAD 0xc9ac2d behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,803 SKIP-AHEAD 0xdf579d behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:07,953 SKIP-AHEAD 0x329ca2 behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:08,103 SKIP-AHEAD 0x8d2896 behind 716 blocks (131927088->131927804)
-2026-11-06 10:21:08,311 tick equity=790.76 pnl=-209.24 head=131927804 v3=931.82
 2026-11-06 10:35:01,682 WATCHDOG: no successful tick 833s, exiting for restart
 2026-11-06 10:35:24,748 DEVHIST backfill 131926995 -> 131929712 (~7d)
 2026-11-06 10:35:25,051 DEVHIST ready creators=2525 tokens=28190
@@ -298,3 +286,15 @@
 2026-11-06 15:16:46,494 V3 {'ts': 1793949395, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xef270d8996cc774044f5bbc1f9da928c94b77777', 'sym': 'RM', 'price': 3.638e-06, 'action': 'skip-7d'}
 2026-11-06 15:17:03,072 tick equity=790.76 pnl=-209.24 head=131967212 v3=931.82
 2026-11-06 15:17:46,809 tick equity=790.76 pnl=-209.24 head=131967300 v3=931.82
+2026-11-06 15:18:25,793 tick equity=790.76 pnl=-209.24 head=131967397 v3=931.82
+2026-11-06 15:18:49,266 V3 {'ts': 1793949488, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.00026, 'action': 'skip-7d'}
+2026-11-06 15:18:49,266 CONFLUENCE RM 0x33fe24f4298a8659668e8d1f2044fd01e8a57777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
+2026-11-06 15:18:50,004 V2-RISK RM 0x33fe24f4298a8659668e8d1f2044fd01e8a57777 KILL LP only 0% locked/burned; 开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5
+2026-11-06 15:18:50,004 V2 {'ts': 1793949488, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.00026, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', '开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5']}
+2026-11-06 15:19:07,026 tick equity=790.76 pnl=-209.24 head=131967484 v3=931.82
+2026-11-06 15:19:46,776 tick equity=790.76 pnl=-209.24 head=131967576 v3=931.82
+2026-11-06 15:20:11,482 V3 {'ts': 1793949579, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.0002213, 'action': 'skip-7d'}
+2026-11-06 15:20:30,874 tick equity=790.76 pnl=-209.24 head=131967664 v3=931.82
+2026-11-06 15:20:53,492 V3 {'ts': 1793949646, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.0001871, 'action': 'skip-7d'}
+2026-11-06 15:20:53,884 V3 {'ts': 1793949646, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.0001871, 'action': 'skip-7d'}
+2026-11-06 15:21:10,747 tick equity=790.76 pnl=-209.24 head=131967762 v3=931.82
