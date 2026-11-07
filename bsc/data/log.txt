@@ -1,18 +1,3 @@
-2026-11-07 23:09:57,024 V3 {'ts': 1794064184, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0x8e6442663a4f8c50b6132c68d42a30e7dfe4ae15', 'sym': 'JAGENT', 'price': 2.713e-06, 'action': 'skip-7d'}
-2026-11-07 23:10:10,220 tick equity=790.76 pnl=-209.24 head=132222200 v3=928.47
-2026-11-07 23:10:38,030 tick equity=790.76 pnl=-209.24 head=132222278 v3=928.47
-2026-11-07 23:11:02,904 tick equity=790.76 pnl=-209.24 head=132222340 v3=928.47
-2026-11-07 23:11:26,681 tick equity=790.76 pnl=-209.24 head=132222395 v3=928.47
-2026-11-07 23:11:52,532 tick equity=790.76 pnl=-209.24 head=132222448 v3=928.47
-2026-11-07 23:12:18,389 tick equity=790.76 pnl=-209.24 head=132222505 v3=928.47
-2026-11-07 23:12:43,937 tick equity=790.76 pnl=-209.24 head=132222562 v3=928.47
-2026-11-07 23:13:09,565 tick equity=790.76 pnl=-209.24 head=132222619 v3=928.47
-2026-11-07 23:13:33,643 tick equity=790.76 pnl=-209.24 head=132222676 v3=928.47
-2026-11-07 23:13:55,938 tick equity=790.76 pnl=-209.24 head=132222730 v3=928.47
-2026-11-07 23:14:19,701 tick equity=790.76 pnl=-209.24 head=132222779 v3=928.47
-2026-11-07 23:14:46,708 tick equity=790.76 pnl=-209.24 head=132222832 v3=928.47
-2026-11-07 23:15:18,330 tick equity=790.76 pnl=-209.24 head=132222892 v3=928.47
-2026-11-07 23:24:12,770 tick equity=790.76 pnl=-209.24 head=132222962 v3=928.47
 2026-11-07 23:24:32,876 SKIP-AHEAD 0xb9b069 behind 1188 blocks (132222962->132224150)
 2026-11-07 23:24:33,031 SKIP-AHEAD 0xd392fc behind 1188 blocks (132222962->132224150)
 2026-11-07 23:24:33,128 SKIP-AHEAD 0xa03fa8 behind 1188 blocks (132222962->132224150)
@@ -298,3 +283,18 @@
 2026-11-08 02:38:01,563 tick equity=790.76 pnl=-209.24 head=132249926 v3=928.47
 2026-11-08 02:38:29,978 tick equity=790.76 pnl=-209.24 head=132249989 v3=928.47
 2026-11-08 02:38:53,852 tick equity=790.76 pnl=-209.24 head=132250052 v3=928.47
+2026-11-08 02:39:15,909 V3 {'ts': 1794076748, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 4.943e-06, 'action': 'skip-7d'}
+2026-11-08 02:39:16,531 tick equity=790.76 pnl=-209.24 head=132250105 v3=928.47
+2026-11-08 02:42:21,978 {'ts': 1794076826, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'tx': '0x172816e0503b953cfa1cb364f8b869648bde4edfa5dba0952b47e29520f6d439', 'action': 'skip-noprice'}
+2026-11-08 02:42:44,503 tick equity=790.76 pnl=-209.24 head=132250481 v3=928.47
+2026-11-08 02:43:12,969 tick equity=790.76 pnl=-209.24 head=132250617 v3=928.47
+2026-11-08 02:43:36,812 V3-RISK Monkey 0x684a1768c8d0098811017b7812c23978dd58c276 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-08 02:43:36,812 V3 {'ts': 1794076992, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x684a1768c8d0098811017b7812c23978dd58c276', 'sym': 'Monkey', 'price': 8.699e-24, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-08 02:43:41,299 tick equity=790.76 pnl=-209.24 head=132250681 v3=928.47
+2026-11-08 02:44:05,243 tick equity=790.76 pnl=-209.24 head=132250744 v3=928.47
+2026-11-08 02:44:27,794 V3-RISK 友谊使者 0x6196cc4e1a04f8fcce9593012d708d5c7a6a7777 KILL LP only 0% locked/burned; info: dev holds 0.0%; 开发者历史大多归零 6/7 (≥60%, n≥3) creator 0x9f89a65b
+2026-11-08 02:44:27,794 V3 {'ts': 1794077054, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x6196cc4e1a04f8fcce9593012d708d5c7a6a7777', 'sym': '友谊使者', 'price': 4.724e-05, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', '开发者历史大多归零 6/7 (≥60%, n≥3) creator 0x9f89a65b']}
+2026-11-08 02:44:33,587 tick equity=790.76 pnl=-209.24 head=132250797 v3=928.47
+2026-11-08 02:44:57,629 tick equity=790.76 pnl=-209.24 head=132250860 v3=928.47
+2026-11-08 02:45:24,190 tick equity=790.76 pnl=-209.24 head=132250913 v3=928.47
+2026-11-08 02:45:54,152 tick equity=790.76 pnl=-209.24 head=132250972 v3=928.47
