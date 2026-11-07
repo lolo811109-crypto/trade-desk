@@ -1,32 +1,3 @@
-2026-11-08 02:44:33,587 tick equity=790.76 pnl=-209.24 head=132250797 v3=928.47
-2026-11-08 02:44:57,629 tick equity=790.76 pnl=-209.24 head=132250860 v3=928.47
-2026-11-08 02:45:24,190 tick equity=790.76 pnl=-209.24 head=132250913 v3=928.47
-2026-11-08 02:45:54,152 tick equity=790.76 pnl=-209.24 head=132250972 v3=928.47
-2026-11-08 02:46:28,718 tick equity=790.76 pnl=-209.24 head=132251039 v3=928.47
-2026-11-08 02:47:01,273 tick equity=790.76 pnl=-209.24 head=132251115 v3=928.47
-2026-11-08 02:47:24,569 V3-ENTRY KILL José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 liq $15,086 < $20,000 v2 floor
-2026-11-08 02:47:24,578 V3 {'ts': 1794077217, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 1.111e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $15,086 < $20,000 v2 floor']}
-2026-11-08 02:47:24,578 CONFLUENCE José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 wallets=['0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', '0xc5606cde16fb8c39cc68d1d97700883ae951ff56']
-2026-11-08 02:47:27,747 V2-RISK José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 KILL buy_tax unknown; sell_tax unknown; top10 holders 100%; info: 开发者历史样本不足 n=1 (<3)
-2026-11-08 02:47:27,747 V2 {'ts': 1794077217, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 1.111e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: 开发者历史样本不足 n=1 (<3)']}
-2026-11-08 02:47:31,367 tick equity=790.76 pnl=-209.24 head=132251188 v3=928.47
-2026-11-08 02:47:55,265 V3-ENTRY KILL José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 liq $18,285 < $20,000 v2 floor
-2026-11-08 02:47:55,265 V3 {'ts': 1794077253, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 1.633e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,285 < $20,000 v2 floor']}
-2026-11-08 02:47:55,595 V3-ENTRY KILL José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 liq $18,285 < $20,000 v2 floor
-2026-11-08 02:47:55,595 V3 {'ts': 1794077254, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 1.633e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,285 < $20,000 v2 floor']}
-2026-11-08 02:47:56,011 V3-ENTRY KILL José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 liq $18,285 < $20,000 v2 floor
-2026-11-08 02:47:56,011 V3 {'ts': 1794077268, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 1.633e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,285 < $20,000 v2 floor']}
-2026-11-08 02:47:58,775 tick equity=790.76 pnl=-209.24 head=132251255 v3=928.47
-2026-11-08 02:48:25,543 tick equity=790.76 pnl=-209.24 head=132251316 v3=928.47
-2026-11-08 02:48:51,383 V3-RISK José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 KILL buy_tax unknown; sell_tax unknown; top10 holders 100%; info: dev holds 0.0%; info: 开发者历史样本不足 n=1 (<3)
-2026-11-08 02:48:51,383 V3 {'ts': 1794077323, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 2.893e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=1 (<3)']}
-2026-11-08 02:48:55,489 tick equity=790.76 pnl=-209.24 head=132251374 v3=928.47
-2026-11-08 02:49:19,201 V3 {'ts': 1794077341, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 3.379e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=1 (<3)']}
-2026-11-08 02:49:27,716 tick equity=790.76 pnl=-209.24 head=132251441 v3=928.47
-2026-11-08 02:50:01,506 tick equity=790.76 pnl=-209.24 head=132251513 v3=928.47
-2026-11-08 02:50:37,135 tick equity=790.76 pnl=-209.24 head=132251588 v3=928.47
-2026-11-08 02:50:59,757 V3-ENTRY KILL José 0xc022fdb61b5dfbd3b167f74fcba7d0381b937777 liq $19,848 < $20,000 v2 floor
-2026-11-08 02:50:59,757 V3 {'ts': 1794077448, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 4.073e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,848 < $20,000 v2 floor']}
 2026-11-08 02:51:09,983 tick equity=790.76 pnl=-209.24 head=132251667 v3=928.47
 2026-11-08 02:51:40,597 tick equity=790.76 pnl=-209.24 head=132251740 v3=928.47
 2026-11-08 02:52:11,749 tick equity=790.76 pnl=-209.24 head=132251808 v3=928.47
@@ -298,3 +269,32 @@
 2026-11-08 06:43:29,159 tick equity=790.76 pnl=-209.24 head=132282659 v3=928.47
 2026-11-08 06:43:54,360 tick equity=790.76 pnl=-209.24 head=132282710 v3=928.47
 2026-11-08 06:44:19,615 tick equity=790.76 pnl=-209.24 head=132282766 v3=928.47
+2026-11-08 06:44:43,378 tick equity=790.76 pnl=-209.24 head=132282822 v3=928.47
+2026-11-08 06:56:19,045 WATCHDOG: no successful tick 695s, exiting for restart
+2026-11-08 06:56:48,392 DEVHIST backfill 132282759 -> 132284442 (~7d)
+2026-11-08 06:56:48,661 DEVHIST ready creators=3483 tokens=38274
+2026-11-08 06:56:53,489 tick equity=790.76 pnl=-209.24 head=132284447 v3=928.47
+2026-11-08 06:57:17,025 tick equity=790.76 pnl=-209.24 head=132284497 v3=928.47
+2026-11-08 06:57:41,807 tick equity=790.76 pnl=-209.24 head=132284549 v3=928.47
+2026-11-08 06:58:08,622 tick equity=790.76 pnl=-209.24 head=132284604 v3=928.47
+2026-11-08 06:58:31,934 tick equity=790.76 pnl=-209.24 head=132284664 v3=928.47
+2026-11-08 06:58:56,654 tick equity=790.76 pnl=-209.24 head=132284716 v3=928.47
+2026-11-08 07:08:04,166 SKIP-AHEAD 0xb9b069 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:04,632 SKIP-AHEAD 0xd392fc behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:04,789 SKIP-AHEAD 0xa03fa8 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:04,888 SKIP-AHEAD 0x9bee11 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:04,987 SKIP-AHEAD 0x5bc3a8 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:05,086 SKIP-AHEAD 0x770181 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:05,184 SKIP-AHEAD 0x7dfd45 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:05,340 SKIP-AHEAD 0x07a61c behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:05,501 SKIP-AHEAD 0xc5606c behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:05,657 SKIP-AHEAD 0xee1004 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:05,761 SKIP-AHEAD 0xe95033 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:05,859 SKIP-AHEAD 0xc9ac2d behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:06,011 SKIP-AHEAD 0xdf579d behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:06,164 SKIP-AHEAD 0x329ca2 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:06,316 SKIP-AHEAD 0x8d2896 behind 1227 blocks (132284716->132285943)
+2026-11-08 07:08:06,467 tick equity=790.76 pnl=-209.24 head=132285943 v3=928.47
+2026-11-08 07:08:31,568 tick equity=790.76 pnl=-209.24 head=132285993 v3=928.47
+2026-11-08 07:08:55,736 tick equity=790.76 pnl=-209.24 head=132286048 v3=928.47
+2026-11-08 07:09:20,642 tick equity=790.76 pnl=-209.24 head=132286102 v3=928.47
