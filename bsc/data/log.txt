@@ -1,8 +1,3 @@
-2026-11-07 23:35:16,591 tick equity=790.76 pnl=-209.24 head=132225568 v3=928.47
-2026-11-07 23:35:41,506 tick equity=790.76 pnl=-209.24 head=132225625 v3=928.47
-2026-11-07 23:36:03,172 V3 {'ts': 1794065747, 'wallet': '0xb9b06949dffb672a2a0dc76b32e2d64e782febbe', 'side': 'BUY', 'token': '0xf72265021d5acfea7dfbdef87b9bce2f67d87777', 'sym': '八仙', 'price': 0.000146, 'action': 'skip-7d'}
-2026-11-07 23:36:10,114 tick equity=790.76 pnl=-209.24 head=132225680 v3=928.47
-2026-11-07 23:36:34,872 tick equity=790.76 pnl=-209.24 head=132225744 v3=928.47
 2026-11-07 23:36:59,857 tick equity=790.76 pnl=-209.24 head=132225799 v3=928.47
 2026-11-07 23:37:23,673 tick equity=790.76 pnl=-209.24 head=132225855 v3=928.47
 2026-11-07 23:37:47,346 tick equity=790.76 pnl=-209.24 head=132225906 v3=928.47
@@ -298,3 +293,8 @@
 2026-11-08 03:02:10,896 tick equity=790.76 pnl=-209.24 head=132252916 v3=928.47
 2026-11-08 03:02:56,230 DEVHIST loop err rpc eth_blockNumber ReadTimeout
 2026-11-08 03:03:16,363 {'ts': 1794078087, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xd7e1e010b6aeb5744ff69b8dc61c397456174444', 'tx': '0xd3c811517dae2d336ea0cfefb04165810b6d7fa32045947a9402eace34c11fe6', 'action': 'skip-noprice'}
+2026-11-08 03:03:31,781 V3 {'ts': 1794078116, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 8.072e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=1 (<3)']}
+2026-11-08 03:03:33,164 V3 {'ts': 1794078123, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 8.072e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=1 (<3)']}
+2026-11-08 03:05:39,131 tick equity=790.76 pnl=-209.24 head=132253209 v3=928.47
+2026-11-08 03:06:12,566 V3 {'ts': 1794078178, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xd7e1e010b6aeb5744ff69b8dc61c397456174444', 'sym': 'GNC', 'price': 0.0006231, 'action': 'skip-7d'}
+2026-11-08 03:06:13,664 V3 {'ts': 1794078323, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xd7e1e010b6aeb5744ff69b8dc61c397456174444', 'sym': 'GNC', 'price': 0.0006231, 'action': 'skip-7d'}
