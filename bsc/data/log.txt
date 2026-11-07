@@ -1,21 +1,3 @@
-2026-11-08 00:39:28,068 tick equity=790.76 pnl=-209.24 head=132234131 v3=928.47
-2026-11-08 00:41:10,262 tick equity=790.76 pnl=-209.24 head=132234331 v3=928.47
-2026-11-08 00:41:41,729 tick equity=790.76 pnl=-209.24 head=132234410 v3=928.47
-2026-11-08 00:42:14,202 tick equity=790.76 pnl=-209.24 head=132234480 v3=928.47
-2026-11-08 00:42:41,007 tick equity=790.76 pnl=-209.24 head=132234553 v3=928.47
-2026-11-08 00:43:09,074 tick equity=790.76 pnl=-209.24 head=132234617 v3=928.47
-2026-11-08 00:58:36,734 WATCHDOG: no successful tick 927s, exiting for restart
-2026-11-08 00:59:20,069 DEVHIST backfill 132234569 -> 132236787 (~7d)
-2026-11-08 00:59:20,514 DEVHIST ready creators=3397 tokens=37308
-2026-11-08 00:59:24,832 tick equity=790.76 pnl=-209.24 head=132236792 v3=928.47
-2026-11-08 00:59:50,496 tick equity=790.76 pnl=-209.24 head=132236842 v3=928.47
-2026-11-08 01:00:16,337 tick equity=790.76 pnl=-209.24 head=132236899 v3=928.47
-2026-11-08 01:00:40,084 tick equity=790.76 pnl=-209.24 head=132236956 v3=928.47
-2026-11-08 01:01:03,471 tick equity=790.76 pnl=-209.24 head=132237009 v3=928.47
-2026-11-08 01:01:26,041 tick equity=790.76 pnl=-209.24 head=132237061 v3=928.47
-2026-11-08 01:02:55,131 tick equity=790.76 pnl=-209.24 head=132237253 v3=928.47
-2026-11-08 01:03:18,856 tick equity=790.76 pnl=-209.24 head=132237309 v3=928.47
-2026-11-08 01:03:43,044 tick equity=790.76 pnl=-209.24 head=132237362 v3=928.47
 2026-11-08 01:04:05,804 tick equity=790.76 pnl=-209.24 head=132237416 v3=928.47
 2026-11-08 01:04:28,630 tick equity=790.76 pnl=-209.24 head=132237467 v3=928.47
 2026-11-08 01:04:52,659 tick equity=790.76 pnl=-209.24 head=132237517 v3=928.47
@@ -298,3 +280,21 @@
 2026-11-08 04:07:47,895 tick equity=790.76 pnl=-209.24 head=132261903 v3=928.47
 2026-11-08 04:08:11,298 tick equity=790.76 pnl=-209.24 head=132261955 v3=928.47
 2026-11-08 04:08:36,745 tick equity=790.76 pnl=-209.24 head=132262007 v3=928.47
+2026-11-08 04:08:59,006 V3 {'ts': 1794082117, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xc022fdb61b5dfbd3b167f74fcba7d0381b937777', 'sym': 'José', 'price': 6.945e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=1 (<3)']}
+2026-11-08 04:09:00,977 tick equity=790.76 pnl=-209.24 head=132262063 v3=928.47
+2026-11-08 04:09:24,227 tick equity=790.76 pnl=-209.24 head=132262117 v3=928.47
+2026-11-08 04:09:50,337 tick equity=790.76 pnl=-209.24 head=132262169 v3=928.47
+2026-11-08 04:10:12,255 tick equity=790.76 pnl=-209.24 head=132262227 v3=928.47
+2026-11-08 04:10:35,704 tick equity=790.76 pnl=-209.24 head=132262276 v3=928.47
+2026-11-08 04:36:30,121 WATCHDOG: no successful tick 1554s, exiting for restart
+2026-11-08 04:37:30,386 DEVHIST backfill 132262225 -> 132265871 (~7d)
+2026-11-08 04:37:30,695 DEVHIST ready creators=3445 tokens=37958
+2026-11-08 04:37:34,883 tick equity=790.76 pnl=-209.24 head=132265876 v3=928.47
+2026-11-08 04:37:57,024 V3 {'ts': 1794083867, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xd7e1e010b6aeb5744ff69b8dc61c397456174444', 'sym': 'GNC', 'price': 0.0005389, 'action': 'skip-7d'}
+2026-11-08 04:38:00,982 tick equity=790.76 pnl=-209.24 head=132265925 v3=928.47
+2026-11-08 04:38:24,417 V3 {'ts': 1794083883, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xd7e1e010b6aeb5744ff69b8dc61c397456174444', 'sym': 'GNC', 'price': 0.0005868, 'action': 'skip-7d'}
+2026-11-08 04:38:24,742 V3 {'ts': 1794083890, 'wallet': '0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23', 'side': 'BUY', 'token': '0xd7e1e010b6aeb5744ff69b8dc61c397456174444', 'sym': 'GNC', 'price': 0.0005868, 'action': 'skip-7d'}
+2026-11-08 04:38:27,682 tick equity=790.76 pnl=-209.24 head=132265984 v3=928.47
+2026-11-08 04:38:50,994 V3-RISK Chiikawa 0x6fb1f17be7baa565723c94d4665dc917d9157777 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-08 04:38:50,994 V3 {'ts': 1794083916, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x6fb1f17be7baa565723c94d4665dc917d9157777', 'sym': 'Chiikawa', 'price': 0.0001907, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-08 04:38:54,925 tick equity=790.76 pnl=-209.24 head=132266043 v3=928.47
