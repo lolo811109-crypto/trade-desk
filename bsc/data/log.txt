@@ -1,10 +1,3 @@
-2026-11-08 23:44:21,760 SKIP-AHEAD 0xc5606c behind 915 blocks (132417794->132418709)
-2026-11-08 23:44:22,179 SKIP-AHEAD 0xee1004 behind 915 blocks (132417794->132418709)
-2026-11-08 23:44:22,870 SKIP-AHEAD 0xe95033 behind 915 blocks (132417794->132418709)
-2026-11-08 23:44:23,290 SKIP-AHEAD 0xc9ac2d behind 915 blocks (132417794->132418709)
-2026-11-08 23:44:23,983 SKIP-AHEAD 0xdf579d behind 915 blocks (132417794->132418709)
-2026-11-08 23:44:24,403 SKIP-AHEAD 0x329ca2 behind 915 blocks (132417794->132418709)
-2026-11-08 23:44:24,823 SKIP-AHEAD 0x8d2896 behind 915 blocks (132417794->132418709)
 2026-11-09 00:06:29,690 tick equity=790.76 pnl=-209.24 head=132418709 v3=930.01
 2026-11-09 00:07:11,518 SKIP-AHEAD 0xb9b069 behind 3054 blocks (132418709->132421763)
 2026-11-09 00:07:12,861 SKIP-AHEAD 0xd392fc behind 3054 blocks (132418709->132421763)
@@ -298,3 +291,10 @@
 2026-11-09 06:08:08,013 V3-RISK RM 0x33fe24f4298a8659668e8d1f2044fd01e8a57777 KILL LP only 0% locked/burned; info: dev holds 0.0%; 开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5
 2026-11-09 06:08:08,013 V3 {'ts': 1794175657, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.000173, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', '开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5']}
 2026-11-09 06:08:42,739 tick equity=790.76 pnl=-209.24 head=132469857 v3=930.07
+2026-11-09 06:09:22,465 V3-RISK うさぎ 0x113d68c8cca4fe5ba25f49c00784079d168e7777 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-09 06:09:22,465 V3 {'ts': 1794175721, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x113d68c8cca4fe5ba25f49c00784079d168e7777', 'sym': 'うさぎ', 'price': 0.001838, 'action': 'buy', 'stake': 10.0}
+2026-11-09 06:10:33,814 tick equity=790.76 pnl=-209.24 head=132470008 v3=929.29
+2026-11-09 06:32:55,099 WATCHDOG: no successful tick 1341s, exiting for restart
+2026-11-09 06:33:27,753 DEVHIST backfill 132470400 -> 132473262 (~7d)
+2026-11-09 06:33:28,132 DEVHIST ready creators=3893 tokens=42932
+2026-11-09 06:33:53,472 tick equity=790.76 pnl=-209.24 head=132473284 v3=930.61
