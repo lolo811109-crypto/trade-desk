@@ -1,24 +1,3 @@
-2026-11-09 00:07:13,922 SKIP-AHEAD 0x5bc3a8 behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:14,413 SKIP-AHEAD 0x770181 behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:14,909 SKIP-AHEAD 0x7dfd45 behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:15,189 SKIP-AHEAD 0x07a61c behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:15,469 SKIP-AHEAD 0xc5606c behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:15,962 SKIP-AHEAD 0xee1004 behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:16,454 SKIP-AHEAD 0xe95033 behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:16,735 SKIP-AHEAD 0xc9ac2d behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:17,016 SKIP-AHEAD 0xdf579d behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:17,505 SKIP-AHEAD 0x329ca2 behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:17,998 SKIP-AHEAD 0x8d2896 behind 3054 blocks (132418709->132421763)
-2026-11-09 00:07:18,701 tick equity=790.76 pnl=-209.24 head=132421763 v3=930.01
-2026-11-09 00:07:38,405 DEVHIST loop err rpc eth_blockNumber ReadTimeout
-2026-11-09 00:07:47,014 V3-RISK STONK 0x332efb8a690fd31cb174683f23ff81ed0a4d7f29 KILL buy_tax 99%; sell_tax 99%; owner can mint; owner can modify balances; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-09 00:07:47,014 V3 {'ts': 1794154056, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x332efb8a690fd31cb174683f23ff81ed0a4d7f29', 'sym': 'STONK', 'price': 0.0002381, 'action': 'kill-risk', 'reasons': ['buy_tax 99%', 'sell_tax 99%', 'owner can mint', 'owner can modify balances', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-09 00:07:55,962 tick equity=790.76 pnl=-209.24 head=132421825 v3=930.01
-2026-11-09 00:08:41,308 tick equity=790.76 pnl=-209.24 head=132421907 v3=930.01
-2026-11-09 00:09:28,022 tick equity=790.76 pnl=-209.24 head=132422008 v3=930.01
-2026-11-09 00:10:02,253 tick equity=790.76 pnl=-209.24 head=132422112 v3=930.01
-2026-11-09 00:10:37,193 tick equity=790.76 pnl=-209.24 head=132422188 v3=930.01
-2026-11-09 00:11:13,456 tick equity=790.76 pnl=-209.24 head=132422266 v3=930.01
 2026-11-09 00:11:56,459 tick equity=790.76 pnl=-209.24 head=132422346 v3=930.01
 2026-11-09 00:12:41,403 tick equity=790.76 pnl=-209.24 head=132422442 v3=930.01
 2026-11-09 00:13:11,917 tick equity=790.76 pnl=-209.24 head=132422541 v3=930.01
@@ -298,3 +277,24 @@
 2026-11-09 06:38:34,903 V3-ENTRY KILL CPU 0x5ac9886b8629d38094a6cae7cf9879b40ceb7777 liq $18,604 < $20,000 v2 floor
 2026-11-09 06:38:34,904 V3 {'ts': 1794177366, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5ac9886b8629d38094a6cae7cf9879b40ceb7777', 'sym': 'CPU', 'price': 0.0001746337386, 'action': 'skip-liqfloor', 'reasons': ['liq $18,604 < $20,000 v2 floor']}
 2026-11-09 06:40:08,371 tick equity=790.76 pnl=-209.24 head=132473884 v3=930.22
+2026-11-09 06:41:57,545 tick equity=790.76 pnl=-209.24 head=132474198 v3=930.16
+2026-11-09 06:42:34,166 V3-RISK CPU 0x5ac9886b8629d38094a6cae7cf9879b40ceb7777 KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%; info: 开发者历史 0xfbca5f… prior=58 dead=6/20 (30%)
+2026-11-09 06:42:34,166 V3 {'ts': 1794177671, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5ac9886b8629d38094a6cae7cf9879b40ceb7777', 'sym': 'CPU', 'price': 0.0001371, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0xfbca5f… prior=58 dead=6/20 (30%)']}
+2026-11-09 06:43:52,789 tick equity=790.76 pnl=-209.24 head=132474440 v3=930.2
+2026-11-09 06:52:13,777 tick equity=790.76 pnl=-209.24 head=132474696 v3=930.56
+2026-11-09 06:52:34,478 SKIP-AHEAD 0xb9b069 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:35,179 SKIP-AHEAD 0xd392fc behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:35,595 SKIP-AHEAD 0xa03fa8 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:36,008 SKIP-AHEAD 0x9bee11 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:36,710 SKIP-AHEAD 0x5bc3a8 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:37,412 SKIP-AHEAD 0x770181 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:38,111 SKIP-AHEAD 0x7dfd45 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:38,811 SKIP-AHEAD 0x07a61c behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:39,512 SKIP-AHEAD 0xc5606c behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:40,212 SKIP-AHEAD 0xee1004 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:40,625 SKIP-AHEAD 0xe95033 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:41,323 SKIP-AHEAD 0xc9ac2d behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:41,736 SKIP-AHEAD 0xdf579d behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:42,435 SKIP-AHEAD 0x329ca2 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:43,136 SKIP-AHEAD 0x8d2896 behind 1114 blocks (132474696->132475810)
+2026-11-09 06:52:44,116 tick equity=790.76 pnl=-209.24 head=132475810 v3=930.54
