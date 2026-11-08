@@ -1,19 +1,3 @@
-2026-11-08 15:01:09,106 tick equity=790.76 pnl=-209.24 head=132348966 v3=928.47
-2026-11-08 15:04:24,965 tick equity=790.76 pnl=-209.24 head=132349043 v3=928.47
-2026-11-08 15:06:11,584 tick equity=790.76 pnl=-209.24 head=132349479 v3=928.47
-2026-11-08 15:08:04,684 tick equity=790.76 pnl=-209.24 head=132349716 v3=928.47
-2026-11-08 15:09:26,203 tick equity=790.76 pnl=-209.24 head=132349967 v3=928.47
-2026-11-08 15:10:21,670 tick equity=790.76 pnl=-209.24 head=132350149 v3=928.47
-2026-11-08 15:11:03,835 tick equity=790.76 pnl=-209.24 head=132350271 v3=928.47
-2026-11-08 15:35:33,908 WATCHDOG: no successful tick 1470s, exiting for restart
-2026-11-08 15:35:38,697 DEVHIST backfill 132350276 -> 132353598 (~7d)
-2026-11-08 15:35:39,159 DEVHIST ready creators=3590 tokens=39628
-2026-11-08 15:36:06,713 tick equity=790.76 pnl=-209.24 head=132353616 v3=928.47
-2026-11-08 15:37:34,488 tick equity=790.76 pnl=-209.24 head=132353705 v3=928.47
-2026-11-08 15:39:01,529 tick equity=790.76 pnl=-209.24 head=132353900 v3=928.47
-2026-11-08 15:40:53,846 tick equity=790.76 pnl=-209.24 head=132354093 v3=928.47
-2026-11-08 15:42:53,493 tick equity=790.76 pnl=-209.24 head=132354343 v3=928.47
-2026-11-08 16:03:30,024 WATCHDOG: no successful tick 1236s, exiting for restart
 2026-11-08 16:03:58,901 DEVHIST backfill 132354539 -> 132357374 (~7d)
 2026-11-08 16:03:59,240 DEVHIST ready creators=3596 tokens=39771
 2026-11-08 16:04:27,938 tick equity=790.76 pnl=-209.24 head=132357393 v3=928.47
@@ -298,3 +282,19 @@
 2026-11-08 21:04:28,637 tick equity=790.76 pnl=-209.24 head=132397387 v3=928.56
 2026-11-08 21:05:04,333 tick equity=790.76 pnl=-209.24 head=132397458 v3=928.56
 2026-11-08 21:05:37,643 tick equity=790.76 pnl=-209.24 head=132397537 v3=928.56
+2026-11-08 21:06:00,260 V3-ENTRY KILL 币安骑士 0x0fe805ae8ca0ff9971ddfacdbfd837d41c597777 liq $17,452 < $20,000 v2 floor
+2026-11-08 21:06:00,272 V3 {'ts': 1794143143, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x0fe805ae8ca0ff9971ddfacdbfd837d41c597777', 'sym': '币安骑士', 'price': 3.388e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $17,452 < $20,000 v2 floor']}
+2026-11-08 21:06:09,387 tick equity=790.76 pnl=-209.24 head=132397611 v3=928.56
+2026-11-08 21:06:38,826 tick equity=790.76 pnl=-209.24 head=132397682 v3=928.56
+2026-11-08 21:07:13,407 tick equity=790.76 pnl=-209.24 head=132397748 v3=928.56
+2026-11-08 21:07:45,844 tick equity=790.76 pnl=-209.24 head=132397824 v3=928.56
+2026-11-08 21:08:31,049 V3-DEV-WARN 0x90ff4a1883805b322ab4861e4a1c32b72b187777 creator/holding unknown, allowing
+2026-11-08 21:08:31,501 V3-RISK FFF 0x90ff4a1883805b322ab4861e4a1c32b72b187777 KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown; info: 开发者历史 0xbca420… prior=148 dead=0/20 (0%)
+2026-11-08 21:08:31,501 V3 {'ts': 1794143303, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x90ff4a1883805b322ab4861e4a1c32b72b187777', 'sym': 'FFF', 'price': 2.41e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown', 'info: 开发者历史 0xbca420… prior=148 dead=0/20 (0%)']}
+2026-11-08 21:08:47,661 tick equity=790.76 pnl=-209.24 head=132397939 v3=928.56
+2026-11-08 21:35:25,961 WATCHDOG: no successful tick 1598s, exiting for restart
+2026-11-08 21:35:52,967 DEVHIST backfill 132397862 -> 132401600 (~7d)
+2026-11-08 21:35:53,409 DEVHIST ready creators=3731 tokens=41146
+2026-11-08 21:35:58,544 tick equity=790.76 pnl=-209.24 head=132401606 v3=928.56
+2026-11-08 21:36:29,372 tick equity=790.76 pnl=-209.24 head=132401657 v3=928.56
+2026-11-08 21:36:59,015 tick equity=790.76 pnl=-209.24 head=132401725 v3=928.56
