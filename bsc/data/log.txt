@@ -1,12 +1,3 @@
-2026-11-09 18:09:15,195 tick equity=790.76 pnl=-209.24 head=132565981 v3=924.85
-2026-11-09 18:09:40,174 tick equity=790.76 pnl=-209.24 head=132566050 v3=924.85
-2026-11-09 18:10:05,982 tick equity=790.76 pnl=-209.24 head=132566106 v3=924.85
-2026-11-09 18:10:34,651 tick equity=790.76 pnl=-209.24 head=132566163 v3=924.85
-2026-11-09 18:10:57,588 {'ts': 1794219051, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x48d70bd972505a02033fbc0bfe1a0e7686ee7777', 'tx': '0x0721cd98739e83e7d0a95c28d88980d16fa524c75d94d0d68b6782363f98bee9', 'action': 'skip-noprice'}
-2026-11-09 18:11:09,619 tick equity=790.76 pnl=-209.24 head=132566227 v3=924.85
-2026-11-09 18:11:43,531 tick equity=790.76 pnl=-209.24 head=132566305 v3=924.85
-2026-11-09 18:12:13,253 tick equity=790.76 pnl=-209.24 head=132566380 v3=924.85
-2026-11-09 18:12:44,843 tick equity=790.76 pnl=-209.24 head=132566446 v3=924.85
 2026-11-09 18:13:11,113 V3-RISK 大火箭 0x48d70bd972505a02033fbc0bfe1a0e7686ee7777 KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%; info: 开发者历史 0x030d39… prior=108 dead=4/20 (20%)
 2026-11-09 18:13:11,113 V3 {'ts': 1794219160, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x48d70bd972505a02033fbc0bfe1a0e7686ee7777', 'sym': '大火箭', 'price': 6.882e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0x030d39… prior=108 dead=4/20 (20%)']}
 2026-11-09 18:13:26,665 tick equity=790.76 pnl=-209.24 head=132566516 v3=924.85
@@ -298,3 +289,12 @@
 2026-11-09 22:41:02,185 DEVHIST chunk err 132602088-132602221 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-09 22:43:23,478 tick equity=790.76 pnl=-209.24 head=132602202 v3=924.85
 2026-11-09 22:47:03,143 tick equity=790.76 pnl=-209.24 head=132602550 v3=924.85
+2026-11-09 22:50:24,857 tick equity=790.76 pnl=-209.24 head=132602966 v3=924.85
+2026-11-09 22:51:14,096 V3-ENTRY KILL CLACK 0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3 liq $7,770 < $20,000 v2 floor
+2026-11-09 22:51:14,108 V3 {'ts': 1794235746, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3', 'sym': 'CLACK', 'price': 3.1972548023, 'action': 'skip-liqfloor', 'reasons': ['liq $7,770 < $20,000 v2 floor']}
+2026-11-09 22:51:14,690 V3-ENTRY KILL CLACK 0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3 liq $7,770 < $20,000 v2 floor
+2026-11-09 22:51:14,690 V3 {'ts': 1794235746, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3', 'sym': 'CLACK', 'price': 3.1972548023, 'action': 'skip-liqfloor', 'reasons': ['liq $7,770 < $20,000 v2 floor']}
+2026-11-09 22:51:20,439 V3-ENTRY KILL CLACK 0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3 liq $7,770 < $20,000 v2 floor
+2026-11-09 22:51:20,439 V3 {'ts': 1794235769, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3', 'sym': 'CLACK', 'price': 3.1972548023, 'action': 'skip-liqfloor', 'reasons': ['liq $7,770 < $20,000 v2 floor']}
+2026-11-09 22:51:21,956 {'ts': 1794235769, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3', 'tx': '0x06cad9360dad5d87f358cc42764fcb23444aae623572a061e66b285a0243a724', 'action': 'skip-noprice'}
+2026-11-09 22:51:24,004 {'ts': 1794235819, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xb8d56bb3981e9edf05c3b84a10b5a5c908315bc3', 'tx': '0x251f982de0cf54dd67b3700d5804e8a1aa74466e44b231694609ecb177dfdd85', 'action': 'skip-noprice'}
