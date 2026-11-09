@@ -1,16 +1,3 @@
-2026-11-09 14:33:15,117 tick equity=790.76 pnl=-209.24 head=132536748 v3=928.36
-2026-11-09 14:37:51,258 tick equity=790.76 pnl=-209.24 head=132537259 v3=928.36
-2026-11-09 14:38:11,765 SKIP-AHEAD 0xb9b069 behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:12,277 SKIP-AHEAD 0xd392fc behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:12,784 SKIP-AHEAD 0xa03fa8 behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:13,073 SKIP-AHEAD 0x9bee11 behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:13,580 SKIP-AHEAD 0x5bc3a8 behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:14,085 SKIP-AHEAD 0x770181 behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:14,385 SKIP-AHEAD 0x7dfd45 behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:14,674 SKIP-AHEAD 0x07a61c behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:14,963 SKIP-AHEAD 0xc5606c behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:15,468 SKIP-AHEAD 0xee1004 behind 614 blocks (132537259->132537873)
-2026-11-09 14:38:15,974 SKIP-AHEAD 0xe95033 behind 614 blocks (132537259->132537873)
 2026-11-09 14:38:16,480 SKIP-AHEAD 0xc9ac2d behind 614 blocks (132537259->132537873)
 2026-11-09 14:38:16,984 SKIP-AHEAD 0xdf579d behind 614 blocks (132537259->132537873)
 2026-11-09 14:38:17,492 SKIP-AHEAD 0x329ca2 behind 614 blocks (132537259->132537873)
@@ -298,3 +285,16 @@
 2026-11-09 18:12:44,843 tick equity=790.76 pnl=-209.24 head=132566446 v3=924.85
 2026-11-09 18:13:11,113 V3-RISK 大火箭 0x48d70bd972505a02033fbc0bfe1a0e7686ee7777 KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%; info: 开发者历史 0x030d39… prior=108 dead=4/20 (20%)
 2026-11-09 18:13:11,113 V3 {'ts': 1794219160, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x48d70bd972505a02033fbc0bfe1a0e7686ee7777', 'sym': '大火箭', 'price': 6.882e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0x030d39… prior=108 dead=4/20 (20%)']}
+2026-11-09 18:13:26,665 tick equity=790.76 pnl=-209.24 head=132566516 v3=924.85
+2026-11-09 18:14:03,911 tick equity=790.76 pnl=-209.24 head=132566609 v3=924.85
+2026-11-09 18:14:26,511 V3-ENTRY KILL 大火箭 0xabc2edd41c6885ef20bf5d43497ed2a96bb87777 liq $12,361 < $20,000 v2 floor
+2026-11-09 18:14:26,520 V3 {'ts': 1794219242, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xabc2edd41c6885ef20bf5d43497ed2a96bb87777', 'sym': '大火箭', 'price': 7.418e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $12,361 < $20,000 v2 floor']}
+2026-11-09 18:14:44,259 tick equity=790.76 pnl=-209.24 head=132566692 v3=924.85
+2026-11-09 18:15:23,282 tick equity=790.76 pnl=-209.24 head=132566782 v3=924.85
+2026-11-09 18:15:55,832 tick equity=790.76 pnl=-209.24 head=132566868 v3=924.85
+2026-11-09 18:16:29,874 tick equity=790.76 pnl=-209.24 head=132566941 v3=924.85
+2026-11-09 18:17:09,049 tick equity=790.76 pnl=-209.24 head=132567016 v3=924.85
+2026-11-09 18:27:59,873 WATCHDOG: no successful tick 650s, exiting for restart
+2026-11-09 18:28:23,870 DEVHIST backfill 132566961 -> 132568556 (~7d)
+2026-11-09 18:28:24,467 DEVHIST ready creators=4175 tokens=47477
+2026-11-09 18:28:55,711 tick equity=790.76 pnl=-209.24 head=132568576 v3=924.85
