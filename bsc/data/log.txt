@@ -1,6 +1,3 @@
-2026-11-09 01:07:06,376 tick equity=790.76 pnl=-209.24 head=132429714 v3=930.01
-2026-11-09 01:07:32,614 tick equity=790.76 pnl=-209.24 head=132429795 v3=930.01
-2026-11-09 01:08:02,940 tick equity=790.76 pnl=-209.24 head=132429853 v3=930.01
 2026-11-09 01:08:32,324 tick equity=790.76 pnl=-209.24 head=132429921 v3=930.01
 2026-11-09 01:08:59,926 V3 {'ts': 1794157728, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x0cee7a04355b2e2d7248d9566db8889cf44f7777', 'sym': 'MI', 'price': 0.0001785, 'liq': 41331, 'action': 'skip-cooldown', 'reasons': ['re-entry within 2h of exit']}
 2026-11-09 01:09:12,684 tick equity=790.76 pnl=-209.24 head=132429986 v3=930.01
@@ -298,3 +295,6 @@
 2026-11-09 08:42:24,585 tick equity=790.76 pnl=-209.24 head=132490229 v3=930.13
 2026-11-09 08:43:43,182 tick equity=790.76 pnl=-209.24 head=132490494 v3=930.13
 2026-11-09 08:44:14,497 V3 {'ts': 1794185021, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5ac9886b8629d38094a6cae7cf9879b40ceb7777', 'sym': 'CPU', 'price': 0.0001334, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0xfbca5f… prior=58 dead=6/20 (30%)']}
+2026-11-09 08:57:19,806 WATCHDOG: no successful tick 816s, exiting for restart
+2026-11-09 08:57:22,435 DEVHIST backfill 132490703 -> 132492444 (~7d)
+2026-11-09 08:57:22,842 DEVHIST ready creators=3917 tokens=43182
