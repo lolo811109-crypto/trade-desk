@@ -1,37 +1,3 @@
-2026-11-09 20:55:02,181 SKIP-AHEAD 0xc5606c behind 1347 blocks (132586739->132588086)
-2026-11-09 20:55:02,595 SKIP-AHEAD 0xee1004 behind 1347 blocks (132586739->132588086)
-2026-11-09 20:55:03,297 SKIP-AHEAD 0xe95033 behind 1347 blocks (132586739->132588086)
-2026-11-09 20:55:03,711 SKIP-AHEAD 0xc9ac2d behind 1347 blocks (132586739->132588086)
-2026-11-09 20:55:04,135 SKIP-AHEAD 0xdf579d behind 1347 blocks (132586739->132588086)
-2026-11-09 20:55:04,550 SKIP-AHEAD 0x329ca2 behind 1347 blocks (132586739->132588086)
-2026-11-09 20:55:04,964 SKIP-AHEAD 0x8d2896 behind 1347 blocks (132586739->132588086)
-2026-11-09 20:55:05,465 tick equity=790.76 pnl=-209.24 head=132588086 v3=924.85
-2026-11-09 20:55:50,546 tick equity=790.76 pnl=-209.24 head=132588148 v3=924.85
-2026-11-09 20:56:56,009 tick equity=790.76 pnl=-209.24 head=132588249 v3=924.85
-2026-11-09 20:57:57,960 {'ts': 1794228986, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xdd806e436dda5588bf54061c11590c77ddc87777', 'tx': '0xdd5bdf915bda844238afe59c741c879f733167868c446f797edeb6e7552b04b0', 'action': 'skip-noprice'}
-2026-11-09 20:58:49,659 tick equity=790.76 pnl=-209.24 head=132588394 v3=924.85
-2026-11-09 21:01:10,341 tick equity=790.76 pnl=-209.24 head=132588647 v3=924.85
-2026-11-09 21:04:08,696 tick equity=790.76 pnl=-209.24 head=132588959 v3=924.85
-2026-11-09 21:07:11,751 tick equity=790.76 pnl=-209.24 head=132589355 v3=924.85
-2026-11-09 21:13:10,245 tick equity=790.76 pnl=-209.24 head=132589833 v3=924.85
-2026-11-09 21:13:30,942 SKIP-AHEAD 0xb9b069 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:31,357 SKIP-AHEAD 0xd392fc behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:31,771 SKIP-AHEAD 0xa03fa8 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:32,485 SKIP-AHEAD 0x9bee11 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:33,183 SKIP-AHEAD 0x5bc3a8 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:33,598 SKIP-AHEAD 0x770181 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:34,011 SKIP-AHEAD 0x7dfd45 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:34,426 SKIP-AHEAD 0x07a61c behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:34,840 SKIP-AHEAD 0xc5606c behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:35,539 SKIP-AHEAD 0xee1004 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:35,953 SKIP-AHEAD 0xe95033 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:36,662 SKIP-AHEAD 0xc9ac2d behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:37,076 SKIP-AHEAD 0xdf579d behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:37,493 SKIP-AHEAD 0x329ca2 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:38,190 SKIP-AHEAD 0x8d2896 behind 726 blocks (132589833->132590559)
-2026-11-09 21:13:38,648 tick equity=790.76 pnl=-209.24 head=132590559 v3=924.85
-2026-11-09 21:14:40,244 tick equity=790.76 pnl=-209.24 head=132590621 v3=924.85
-2026-11-09 21:21:09,433 tick equity=790.76 pnl=-209.24 head=132590758 v3=924.85
 2026-11-09 21:21:29,849 SKIP-AHEAD 0xb9b069 behind 865 blocks (132590758->132591623)
 2026-11-09 21:21:30,265 SKIP-AHEAD 0xd392fc behind 865 blocks (132590758->132591623)
 2026-11-09 21:21:30,686 SKIP-AHEAD 0xa03fa8 behind 865 blocks (132590758->132591623)
@@ -298,3 +264,37 @@
 2026-11-10 00:33:21,588 tick equity=790.76 pnl=-209.24 head=132617001 v3=924.85
 2026-11-10 00:34:03,223 tick equity=790.76 pnl=-209.24 head=132617100 v3=924.85
 2026-11-10 00:34:47,068 tick equity=790.76 pnl=-209.24 head=132617193 v3=924.85
+2026-11-10 00:35:27,657 tick equity=790.76 pnl=-209.24 head=132617290 v3=924.85
+2026-11-10 00:35:59,031 tick equity=790.76 pnl=-209.24 head=132617381 v3=924.85
+2026-11-10 00:36:31,122 V3-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 93%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:31,122 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 142.21, 'action': 'kill-risk', 'reasons': ['top10 holders 93%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:31,785 V3-RISK NVDAB 0x02fca66c1d1afb4e2a7884261eb00f63598a7436 KILL top10 holders 79%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:31,785 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x02fca66c1d1afb4e2a7884261eb00f63598a7436', 'sym': 'NVDAB', 'price': 174.94, 'action': 'kill-risk', 'reasons': ['top10 holders 79%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:32,480 V3-RISK QQQB 0x205812cdbed920aff76c6580abd681a46d11efc7 KILL top10 holders 89%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:32,480 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x205812cdbed920aff76c6580abd681a46d11efc7', 'sym': 'QQQB', 'price': 675.3, 'action': 'kill-risk', 'reasons': ['top10 holders 89%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:33,144 V3-RISK DOGE 0xba2ae424d960c26247dd6c32edc70b295c744c43 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:33,144 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xba2ae424d960c26247dd6c32edc70b295c744c43', 'sym': 'DOGE', 'price': 0.07019, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:33,877 V3-RISK FXIon 0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:33,877 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1', 'sym': 'FXIon', 'price': 34.78, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:37,205 V3-RISK ASTER 0x000ae314e2a2172a039b26378814c252734f556a KILL info: tax via honeypot.is; honeypot (honeypot.is); top10 holders 91%; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:37,205 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x000ae314e2a2172a039b26378814c252734f556a', 'sym': 'ASTER', 'price': 0.6366, 'action': 'kill-risk', 'reasons': ['info: tax via honeypot.is', 'honeypot (honeypot.is)', 'top10 holders 91%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:37,879 V3-RISK BNCB 0x4902c5ebc598265ed2212b559b042de8a5eeec3f KILL top10 holders 74%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:37,879 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4902c5ebc598265ed2212b559b042de8a5eeec3f', 'sym': 'BNCB', 'price': 4.82, 'action': 'kill-risk', 'reasons': ['top10 holders 74%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:38,586 V3-RISK wTCENTx 0x41333df9e7639188bbfca5522dc4844398af9f9e KILL top10 holders 69%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:38,586 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x41333df9e7639188bbfca5522dc4844398af9f9e', 'sym': 'wTCENTx', 'price': 53.042, 'action': 'kill-risk', 'reasons': ['top10 holders 69%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:39,273 V3-RISK ZEC 0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb KILL owner can mint; top10 holders 84%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:39,273 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb', 'sym': 'ZEC', 'price': 1196.62, 'action': 'kill-risk', 'reasons': ['owner can mint', 'top10 holders 84%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:39,977 V3-RISK うさぎ 0x113d68c8cca4fe5ba25f49c00784079d168e7777 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:39,977 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x113d68c8cca4fe5ba25f49c00784079d168e7777', 'sym': 'うさぎ', 'price': 0.002203, 'action': 'buy', 'stake': 10.0}
+2026-11-10 00:36:40,681 V3-RISK BABAB 0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec KILL top10 holders 69%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:40,681 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec', 'sym': 'BABAB', 'price': 105.59, 'action': 'kill-risk', 'reasons': ['top10 holders 69%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:41,318 V3-RISK EWYB 0xbe82f76637dba2c114c41df856c2c51e522e2cb8 KILL top10 holders 98%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:41,318 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbe82f76637dba2c114c41df856c2c51e522e2cb8', 'sym': 'EWYB', 'price': 141.23, 'action': 'kill-risk', 'reasons': ['top10 holders 98%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:42,009 V3-RISK PEPE 0x25d887ce7a35172c62febfd67a1856f20faebb00 KILL owner can mint; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:42,009 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x25d887ce7a35172c62febfd67a1856f20faebb00', 'sym': 'PEPE', 'price': 5.311e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:42,692 V3-RISK PURRon 0x89cc700f308a4c59889fbf3286216554c53b0601 KILL top10 holders 63%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 00:36:42,692 V3 {'ts': 1794242179, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x89cc700f308a4c59889fbf3286216554c53b0601', 'sym': 'PURRon', 'price': 8.81, 'action': 'kill-risk', 'reasons': ['top10 holders 63%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 00:36:57,000 tick equity=790.76 pnl=-209.24 head=132617450 v3=924.07
+2026-11-10 00:37:56,395 tick equity=790.76 pnl=-209.24 head=132617579 v3=924.07
+2026-11-10 00:39:13,268 V3 {'ts': 1794242254, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0x113d68c8cca4fe5ba25f49c00784079d168e7777', 'sym': 'うさぎ', 'price': 0.002202, 'action': 'sell', 'proceeds': 9.21, 'pnl': -0.79}
+2026-11-10 00:39:38,034 tick equity=790.76 pnl=-209.24 head=132617711 v3=924.07
