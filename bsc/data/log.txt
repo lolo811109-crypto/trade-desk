@@ -1,11 +1,3 @@
-2026-11-09 17:03:08,569 tick equity=790.76 pnl=-209.24 head=132557183 v3=928.36
-2026-11-09 17:03:35,858 tick equity=790.76 pnl=-209.24 head=132557236 v3=928.36
-2026-11-09 17:04:03,535 tick equity=790.76 pnl=-209.24 head=132557298 v3=928.36
-2026-11-09 17:04:29,732 tick equity=790.76 pnl=-209.24 head=132557360 v3=928.36
-2026-11-09 17:04:56,869 tick equity=790.76 pnl=-209.24 head=132557418 v3=928.36
-2026-11-09 17:05:21,170 tick equity=790.76 pnl=-209.24 head=132557478 v3=928.36
-2026-11-09 17:05:48,090 tick equity=790.76 pnl=-209.24 head=132557532 v3=928.36
-2026-11-09 17:06:16,042 tick equity=790.76 pnl=-209.24 head=132557592 v3=928.36
 2026-11-09 17:06:45,428 tick equity=790.76 pnl=-209.24 head=132557654 v3=928.36
 2026-11-09 17:07:13,314 tick equity=790.76 pnl=-209.24 head=132557719 v3=928.36
 2026-11-09 17:07:41,189 tick equity=790.76 pnl=-209.24 head=132557782 v3=928.36
@@ -298,3 +290,11 @@
 2026-11-09 20:35:56,527 tick equity=790.76 pnl=-209.24 head=132585486 v3=924.85
 2026-11-09 20:39:56,104 tick equity=790.76 pnl=-209.24 head=132585735 v3=924.85
 2026-11-09 20:42:39,662 tick equity=790.76 pnl=-209.24 head=132586132 v3=924.85
+2026-11-09 20:44:29,790 tick equity=790.76 pnl=-209.24 head=132586494 v3=924.85
+2026-11-09 20:45:05,795 V3-ENTRY KILL 真诚 0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777 liq $19,344 < $20,000 v2 floor
+2026-11-09 20:45:05,805 V3 {'ts': 1794228232, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777', 'sym': '真诚', 'price': 4.132e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,344 < $20,000 v2 floor']}
+2026-11-09 20:45:06,338 V3-ENTRY KILL 真诚 0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777 liq $18,439 < $20,000 v2 floor
+2026-11-09 20:45:06,338 V3 {'ts': 1794228232, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777', 'sym': '真诚', 'price': 3.724e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,439 < $20,000 v2 floor']}
+2026-11-09 20:45:10,767 V3-DEV-WARN 0xed45f05b44aa04d74bf1a93233443b9e59ef7777 creator/holding unknown, allowing
+2026-11-09 20:45:10,777 V3-RISK 真诚 0xed45f05b44aa04d74bf1a93233443b9e59ef7777 KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown; info: 开发者历史未知
+2026-11-09 20:45:10,777 V3 {'ts': 1794228261, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xed45f05b44aa04d74bf1a93233443b9e59ef7777', 'sym': '真诚', 'price': 5.107e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown', 'info: 开发者历史未知']}
