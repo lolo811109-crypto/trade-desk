@@ -1,6 +1,3 @@
-2026-11-09 06:54:49,358 tick equity=790.76 pnl=-209.24 head=132476053 v3=930.13
-2026-11-09 06:55:55,968 tick equity=790.76 pnl=-209.24 head=132476155 v3=930.13
-2026-11-09 06:57:17,826 tick equity=790.76 pnl=-209.24 head=132476303 v3=930.13
 2026-11-09 06:58:44,179 tick equity=790.76 pnl=-209.24 head=132476485 v3=930.13
 2026-11-09 07:06:15,482 tick equity=790.76 pnl=-209.24 head=132476677 v3=930.13
 2026-11-09 07:06:35,916 SKIP-AHEAD 0xb9b069 behind 1002 blocks (132476677->132477679)
@@ -298,3 +295,6 @@
 2026-11-09 12:40:12,646 SKIP-AHEAD 0x8d2896 behind 980 blocks (132521154->132522134)
 2026-11-09 12:40:13,197 tick equity=790.76 pnl=-209.24 head=132522134 v3=928.36
 2026-11-09 12:40:32,268 DEVHIST chunk err 132522057-132522192 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-09 12:41:21,866 tick equity=790.76 pnl=-209.24 head=132522196 v3=928.36
+2026-11-09 12:43:25,819 tick equity=790.76 pnl=-209.24 head=132522348 v3=928.36
+2026-11-09 12:44:13,940 V3 {'ts': 1794199341, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x9665f094d862f4d5c221843e019b463d3c607777', 'sym': '牛逼', 'price': 0.003549298161, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown', 'info: 开发者历史未知']}
