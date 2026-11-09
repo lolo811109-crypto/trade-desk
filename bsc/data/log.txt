@@ -1,7 +1,3 @@
-2026-11-09 16:05:36,969 tick equity=790.76 pnl=-209.24 head=132549382 v3=928.36
-2026-11-09 16:07:27,388 tick equity=790.76 pnl=-209.24 head=132549567 v3=928.36
-2026-11-09 16:09:55,785 tick equity=790.76 pnl=-209.24 head=132549813 v3=928.36
-2026-11-09 16:28:46,178 WATCHDOG: no successful tick 1130s, exiting for restart
 2026-11-09 16:29:18,067 DEVHIST backfill 132550062 -> 132552681 (~7d)
 2026-11-09 16:29:18,467 DEVHIST ready creators=4136 tokens=46747
 2026-11-09 16:29:35,474 tick equity=790.76 pnl=-209.24 head=132552699 v3=928.36
@@ -298,3 +294,7 @@
 2026-11-09 18:54:42,710 tick equity=790.76 pnl=-209.24 head=132571598 v3=924.85
 2026-11-09 18:58:16,745 tick equity=790.76 pnl=-209.24 head=132572109 v3=924.85
 2026-11-09 19:01:11,217 tick equity=790.76 pnl=-209.24 head=132572584 v3=924.85
+2026-11-09 19:04:07,339 tick equity=790.76 pnl=-209.24 head=132572972 v3=924.85
+2026-11-09 19:04:39,355 V3 {'ts': 1794222104, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x2a06ddb8f82b2926ccd852d8cdc2348246857777', 'sym': '涨醒', 'price': 0.0002075, 'liq': 42711, 'action': 'skip-cooldown', 'reasons': ['re-entry within 2h of exit']}
+2026-11-09 19:06:45,897 tick equity=790.76 pnl=-209.24 head=132573363 v3=924.85
+2026-11-09 19:08:50,509 tick equity=790.76 pnl=-209.24 head=132573715 v3=924.85
