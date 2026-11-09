@@ -1,12 +1,3 @@
-2026-11-09 01:43:11,741 tick equity=790.76 pnl=-209.24 head=132434518 v3=929.73
-2026-11-09 01:43:50,345 tick equity=790.76 pnl=-209.24 head=132434607 v3=929.75
-2026-11-09 01:44:21,520 tick equity=790.76 pnl=-209.24 head=132434693 v3=929.75
-2026-11-09 01:46:06,758 tick equity=790.76 pnl=-209.24 head=132434762 v3=929.78
-2026-11-09 02:03:57,110 WATCHDOG: no successful tick 1070s, exiting for restart
-2026-11-09 02:03:59,924 DEVHIST backfill 132434934 -> 132437336 (~7d)
-2026-11-09 02:04:00,344 DEVHIST ready creators=3817 tokens=42294
-2026-11-09 02:04:18,652 tick equity=790.76 pnl=-209.24 head=132437357 v3=929.79
-2026-11-09 02:04:46,233 V3-ENTRY KILL ABTC 0xb3163a3f5875e6988cac64ea6e3c537594417777 liq $19,080 < $20,000 v2 floor
 2026-11-09 02:04:46,243 V3 {'ts': 1794161078, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0xb3163a3f5875e6988cac64ea6e3c537594417777', 'sym': 'ABTC', 'price': 2.605e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,080 < $20,000 v2 floor']}
 2026-11-09 02:05:05,898 tick equity=790.76 pnl=-209.24 head=132437423 v3=929.96
 2026-11-09 02:05:52,748 tick equity=790.76 pnl=-209.24 head=132437527 v3=929.96
@@ -298,3 +289,12 @@
 2026-11-09 09:15:51,624 tick equity=790.76 pnl=-209.24 head=132494866 v3=928.83
 2026-11-09 09:16:21,160 tick equity=790.76 pnl=-209.24 head=132494953 v3=928.83
 2026-11-09 09:16:54,129 tick equity=790.76 pnl=-209.24 head=132495019 v3=928.83
+2026-11-09 09:18:01,075 DEVHIST chunk err 132495000-132495192 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-09 09:32:06,595 WATCHDOG: no successful tick 912s, exiting for restart
+2026-11-09 09:32:39,502 DEVHIST backfill 132495193 -> 132497148 (~7d)
+2026-11-09 09:32:39,833 DEVHIST ready creators=3922 tokens=43252
+2026-11-09 09:32:41,299 DEVHIST chunk err 132497149-132497150 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-09 09:32:57,998 tick equity=790.76 pnl=-209.24 head=132497170 v3=928.6
+2026-11-09 09:33:27,751 tick equity=790.76 pnl=-209.24 head=132497234 v3=928.6
+2026-11-09 09:33:56,597 tick equity=790.76 pnl=-209.24 head=132497300 v3=928.6
+2026-11-09 09:36:34,633 tick equity=790.76 pnl=-209.24 head=132497365 v3=928.6
