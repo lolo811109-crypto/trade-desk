@@ -1,4 +1,3 @@
-2026-11-09 20:09:32,214 tick equity=790.76 pnl=-209.24 head=132581910 v3=924.85
 2026-11-09 20:11:00,490 tick equity=790.76 pnl=-209.24 head=132582082 v3=924.85
 2026-11-09 20:11:31,181 V3-ENTRY KILL floatflap 0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777 liq $18,377 < $20,000 v2 floor
 2026-11-09 20:11:31,193 V3 {'ts': 1794226271, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777', 'sym': 'floatflap', 'price': 1.814e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,377 < $20,000 v2 floor']}
@@ -298,3 +297,4 @@
 2026-11-10 00:12:33,334 tick equity=790.76 pnl=-209.24 head=132614178 v3=924.85
 2026-11-10 00:13:02,865 V3-ENTRY KILL 团子牛逼 0x1dd1d3df872e3590df0996776523a22b5bd37777 liq $10,744 < $20,000 v2 floor
 2026-11-10 00:13:02,877 V3 {'ts': 1794240719, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x1dd1d3df872e3590df0996776523a22b5bd37777', 'sym': '团子牛逼', 'price': 6.841e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $10,744 < $20,000 v2 floor']}
+2026-11-10 00:15:25,770 tick equity=790.76 pnl=-209.24 head=132614327 v3=924.85
