@@ -1,27 +1,3 @@
-2026-11-09 20:11:00,490 tick equity=790.76 pnl=-209.24 head=132582082 v3=924.85
-2026-11-09 20:11:31,181 V3-ENTRY KILL floatflap 0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777 liq $18,377 < $20,000 v2 floor
-2026-11-09 20:11:31,193 V3 {'ts': 1794226271, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777', 'sym': 'floatflap', 'price': 1.814e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,377 < $20,000 v2 floor']}
-2026-11-09 20:11:37,256 V3-ENTRY KILL floatflap 0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777 liq $18,377 < $20,000 v2 floor
-2026-11-09 20:11:37,256 V3 {'ts': 1794226208, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777', 'sym': 'floatflap', 'price': 1.814e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,377 < $20,000 v2 floor']}
-2026-11-09 20:11:37,256 CONFLUENCE floatflap 0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f']
-2026-11-09 20:11:40,656 V2-RISK floatflap 0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777 KILL buy_tax unknown; sell_tax unknown; info: 开发者历史样本不足 n=0 (<3)
-2026-11-09 20:11:40,656 V2 {'ts': 1794226208, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xa5b4f745634e0f354d7ae05f9a4a2fa47d017777', 'sym': 'floatflap', 'price': 1.814e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-09 20:12:52,204 tick equity=790.76 pnl=-209.24 head=132582278 v3=924.85
-2026-11-09 20:34:11,663 WATCHDOG: no successful tick 1279s, exiting for restart
-2026-11-09 20:34:44,475 DEVHIST backfill 132582404 -> 132585395 (~7d)
-2026-11-09 20:34:44,933 DEVHIST ready creators=4271 tokens=48107
-2026-11-09 20:35:05,289 tick equity=790.76 pnl=-209.24 head=132585411 v3=924.85
-2026-11-09 20:35:56,527 tick equity=790.76 pnl=-209.24 head=132585486 v3=924.85
-2026-11-09 20:39:56,104 tick equity=790.76 pnl=-209.24 head=132585735 v3=924.85
-2026-11-09 20:42:39,662 tick equity=790.76 pnl=-209.24 head=132586132 v3=924.85
-2026-11-09 20:44:29,790 tick equity=790.76 pnl=-209.24 head=132586494 v3=924.85
-2026-11-09 20:45:05,795 V3-ENTRY KILL 真诚 0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777 liq $19,344 < $20,000 v2 floor
-2026-11-09 20:45:05,805 V3 {'ts': 1794228232, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777', 'sym': '真诚', 'price': 4.132e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,344 < $20,000 v2 floor']}
-2026-11-09 20:45:06,338 V3-ENTRY KILL 真诚 0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777 liq $18,439 < $20,000 v2 floor
-2026-11-09 20:45:06,338 V3 {'ts': 1794228232, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x2eae4fdb10afe10e0f315190f0ccfa911e9b7777', 'sym': '真诚', 'price': 3.724e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,439 < $20,000 v2 floor']}
-2026-11-09 20:45:10,767 V3-DEV-WARN 0xed45f05b44aa04d74bf1a93233443b9e59ef7777 creator/holding unknown, allowing
-2026-11-09 20:45:10,777 V3-RISK 真诚 0xed45f05b44aa04d74bf1a93233443b9e59ef7777 KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown; info: 开发者历史未知
-2026-11-09 20:45:10,777 V3 {'ts': 1794228261, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xed45f05b44aa04d74bf1a93233443b9e59ef7777', 'sym': '真诚', 'price': 5.107e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown', 'info: 开发者历史未知']}
 2026-11-09 20:48:40,844 tick equity=790.76 pnl=-209.24 head=132586739 v3=924.85
 2026-11-09 20:54:57,329 SKIP-AHEAD 0xb9b069 behind 1347 blocks (132586739->132588086)
 2026-11-09 20:54:59,000 SKIP-AHEAD 0xd392fc behind 1347 blocks (132586739->132588086)
@@ -298,3 +274,27 @@
 2026-11-10 00:13:02,865 V3-ENTRY KILL 团子牛逼 0x1dd1d3df872e3590df0996776523a22b5bd37777 liq $10,744 < $20,000 v2 floor
 2026-11-10 00:13:02,877 V3 {'ts': 1794240719, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x1dd1d3df872e3590df0996776523a22b5bd37777', 'sym': '团子牛逼', 'price': 6.841e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $10,744 < $20,000 v2 floor']}
 2026-11-10 00:15:25,770 tick equity=790.76 pnl=-209.24 head=132614327 v3=924.85
+2026-11-10 00:24:13,245 tick equity=790.76 pnl=-209.24 head=132614711 v3=924.85
+2026-11-10 00:25:49,877 loop error rpc fail eth_blockNumber
+2026-11-10 00:26:11,766 SKIP-AHEAD 0xb9b069 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:12,296 SKIP-AHEAD 0xd392fc behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:13,099 SKIP-AHEAD 0xa03fa8 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:13,630 SKIP-AHEAD 0x9bee11 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:14,520 SKIP-AHEAD 0x5bc3a8 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:15,050 SKIP-AHEAD 0x770181 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:15,857 SKIP-AHEAD 0x7dfd45 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:16,391 SKIP-AHEAD 0x07a61c behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:17,195 SKIP-AHEAD 0xc5606c behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:17,740 SKIP-AHEAD 0xee1004 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:18,273 SKIP-AHEAD 0xe95033 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:19,093 SKIP-AHEAD 0xc9ac2d behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:19,896 SKIP-AHEAD 0xdf579d behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:20,721 SKIP-AHEAD 0x329ca2 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:21,522 SKIP-AHEAD 0x8d2896 behind 1388 blocks (132614711->132616099)
+2026-11-10 00:26:22,401 tick equity=790.76 pnl=-209.24 head=132616099 v3=924.85
+2026-11-10 00:26:39,743 DEVHIST loop err rpc eth_blockNumber ReadTimeout
+2026-11-10 00:27:11,662 tick equity=790.76 pnl=-209.24 head=132616168 v3=924.85
+2026-11-10 00:27:44,976 V3-ENTRY KILL 团子牛逼 0x1dd1d3df872e3590df0996776523a22b5bd37777 liq $9,470 < $20,000 v2 floor
+2026-11-10 00:27:44,976 V3 {'ts': 1794241647, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x1dd1d3df872e3590df0996776523a22b5bd37777', 'sym': '团子牛逼', 'price': 5.336e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $9,470 < $20,000 v2 floor']}
+2026-11-10 00:27:59,446 tick equity=790.76 pnl=-209.24 head=132616278 v3=924.85
+2026-11-10 00:28:50,651 tick equity=790.76 pnl=-209.24 head=132616385 v3=924.85
