@@ -1,57 +1,3 @@
-2026-11-09 04:53:04,053 DEVHIST backfill 132458538 -> 132459878 (~7d)
-2026-11-09 04:53:04,638 DEVHIST ready creators=3860 tokens=42645
-2026-11-09 04:53:28,154 tick equity=790.76 pnl=-209.24 head=132459898 v3=930.07
-2026-11-09 04:54:39,633 tick equity=790.76 pnl=-209.24 head=132459977 v3=930.07
-2026-11-09 04:57:06,212 tick equity=790.76 pnl=-209.24 head=132460136 v3=930.07
-2026-11-09 05:05:25,185 tick equity=790.76 pnl=-209.24 head=132460461 v3=930.07
-2026-11-09 05:05:45,596 SKIP-AHEAD 0xb9b069 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:46,273 SKIP-AHEAD 0xd392fc behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:46,948 SKIP-AHEAD 0xa03fa8 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:47,625 SKIP-AHEAD 0x9bee11 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:48,301 SKIP-AHEAD 0x5bc3a8 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:48,712 SKIP-AHEAD 0x770181 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:49,113 SKIP-AHEAD 0x7dfd45 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:49,514 SKIP-AHEAD 0x07a61c behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:49,916 SKIP-AHEAD 0xc5606c behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:50,593 SKIP-AHEAD 0xee1004 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:51,268 SKIP-AHEAD 0xe95033 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:51,945 SKIP-AHEAD 0xc9ac2d behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:52,348 SKIP-AHEAD 0xdf579d behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:53,025 SKIP-AHEAD 0x329ca2 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:53,705 SKIP-AHEAD 0x8d2896 behind 1109 blocks (132460461->132461570)
-2026-11-09 05:05:54,150 tick equity=790.76 pnl=-209.24 head=132461570 v3=930.07
-2026-11-09 05:06:46,821 tick equity=790.76 pnl=-209.24 head=132461634 v3=930.07
-2026-11-09 05:07:17,604 V3-ENTRY KILL CPU 0x5ac9886b8629d38094a6cae7cf9879b40ceb7777 liq $12,832 < $20,000 v2 floor
-2026-11-09 05:07:17,618 V3 {'ts': 1794171992, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x5ac9886b8629d38094a6cae7cf9879b40ceb7777', 'sym': 'CPU', 'price': 1.163e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $12,832 < $20,000 v2 floor']}
-2026-11-09 05:08:08,294 tick equity=790.76 pnl=-209.24 head=132461752 v3=930.07
-2026-11-09 05:10:17,937 tick equity=790.76 pnl=-209.24 head=132461932 v3=930.07
-2026-11-09 05:33:09,874 tick equity=790.76 pnl=-209.24 head=132462221 v3=930.07
-2026-11-09 05:33:30,368 SKIP-AHEAD 0xb9b069 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:30,649 SKIP-AHEAD 0xd392fc behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:31,140 SKIP-AHEAD 0xa03fa8 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:31,635 SKIP-AHEAD 0x9bee11 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:32,125 SKIP-AHEAD 0x5bc3a8 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:32,624 SKIP-AHEAD 0x770181 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:33,120 SKIP-AHEAD 0x7dfd45 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:33,609 SKIP-AHEAD 0x07a61c behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:34,100 SKIP-AHEAD 0xc5606c behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:34,592 SKIP-AHEAD 0xee1004 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:35,084 SKIP-AHEAD 0xe95033 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:35,576 SKIP-AHEAD 0xc9ac2d behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:36,083 SKIP-AHEAD 0xdf579d behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:36,364 SKIP-AHEAD 0x329ca2 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:36,852 SKIP-AHEAD 0x8d2896 behind 3048 blocks (132462221->132465269)
-2026-11-09 05:33:37,177 tick equity=790.76 pnl=-209.24 head=132465269 v3=930.07
-2026-11-09 05:34:53,521 tick equity=790.76 pnl=-209.24 head=132465329 v3=930.07
-2026-11-09 05:36:49,851 tick equity=790.76 pnl=-209.24 head=132465498 v3=930.07
-2026-11-09 06:03:43,482 WATCHDOG: no successful tick 1613s, exiting for restart
-2026-11-09 06:04:29,074 DEVHIST backfill 132466281 -> 132469399 (~7d)
-2026-11-09 06:04:29,554 DEVHIST ready creators=3890 tokens=42867
-2026-11-09 06:04:46,864 tick equity=790.76 pnl=-209.24 head=132469418 v3=930.07
-2026-11-09 06:05:43,125 tick equity=790.76 pnl=-209.24 head=132469484 v3=930.07
-2026-11-09 06:06:33,378 tick equity=790.76 pnl=-209.24 head=132469609 v3=930.07
-2026-11-09 06:07:34,603 tick equity=790.76 pnl=-209.24 head=132469721 v3=930.07
-2026-11-09 06:08:08,013 V3-RISK RM 0x33fe24f4298a8659668e8d1f2044fd01e8a57777 KILL LP only 0% locked/burned; info: dev holds 0.0%; 开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5
 2026-11-09 06:08:08,013 V3 {'ts': 1794175657, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.000173, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', '开发者历史大多归零 20/20 (≥60%, n≥3) creator 0x403582c5']}
 2026-11-09 06:08:42,739 tick equity=790.76 pnl=-209.24 head=132469857 v3=930.07
 2026-11-09 06:09:22,465 V3-RISK うさぎ 0x113d68c8cca4fe5ba25f49c00784079d168e7777 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
@@ -298,3 +244,57 @@
 2026-11-09 11:19:58,328 {'ts': 1794194354, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'tx': '0x5b848764e040712a93750f08d2dfc97a9e80562c1839757cc561dd8fb64c205b', 'action': 'skip-noprice'}
 2026-11-09 11:20:41,391 tick equity=790.76 pnl=-209.24 head=132511402 v3=928.36
 2026-11-09 11:21:10,211 V3 {'ts': 1794194412, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5ac9886b8629d38094a6cae7cf9879b40ceb7777', 'sym': 'CPU', 'price': 0.0001917, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0xfbca5f… prior=58 dead=6/20 (30%)']}
+2026-11-09 11:24:09,644 tick equity=790.76 pnl=-209.24 head=132511597 v3=928.36
+2026-11-09 11:25:00,127 V3 {'ts': 1794194487, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:00,974 V3 {'ts': 1794194488, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:01,597 V3 {'ts': 1794194491, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:02,447 V3 {'ts': 1794194491, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:03,072 V3 {'ts': 1794194493, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:03,738 V3 {'ts': 1794194494, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:04,781 V3 {'ts': 1794194494, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:05,835 V3 {'ts': 1794194495, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:06,135 V3 {'ts': 1794194495, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:06,858 V3 {'ts': 1794194495, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:07,692 V3 {'ts': 1794194496, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:08,197 V3 {'ts': 1794194496, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:09,030 V3 {'ts': 1794194496, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:09,865 V3 {'ts': 1794194496, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:10,165 V3 {'ts': 1794194496, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:11,212 V3 {'ts': 1794194497, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:12,064 V3 {'ts': 1794194497, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:12,577 V3 {'ts': 1794194497, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:13,423 V3 {'ts': 1794194498, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:14,254 V3 {'ts': 1794194498, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:15,087 V3 {'ts': 1794194499, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:15,594 V3 {'ts': 1794194499, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:16,429 V3 {'ts': 1794194499, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:17,475 V3 {'ts': 1794194500, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:17,774 V3 {'ts': 1794194500, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:18,608 V3 {'ts': 1794194500, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:19,225 V3 {'ts': 1794194500, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:20,073 V3 {'ts': 1794194501, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:20,372 V3 {'ts': 1794194501, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:20,993 V3 {'ts': 1794194501, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:21,840 V3 {'ts': 1794194502, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:22,690 V3 {'ts': 1794194502, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:23,196 V3 {'ts': 1794194502, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:24,240 V3 {'ts': 1794194503, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:25,288 V3 {'ts': 1794194503, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:25,794 V3 {'ts': 1794194503, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:26,835 V3 {'ts': 1794194504, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:27,873 V3 {'ts': 1794194504, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:28,379 V3 {'ts': 1794194504, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:29,431 V3 {'ts': 1794194505, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:30,268 V3 {'ts': 1794194505, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:30,570 V3 {'ts': 1794194505, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:31,209 V3 {'ts': 1794194505, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:32,329 V3 {'ts': 1794194506, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:33,369 V3 {'ts': 1794194506, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:34,192 V3 {'ts': 1794194507, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:35,036 V3 {'ts': 1794194507, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:35,858 V3 {'ts': 1794194508, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:36,365 V3 {'ts': 1794194508, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:37,521 V3 {'ts': 1794194508, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:38,575 V3 {'ts': 1794194509, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:39,413 V3 {'ts': 1794194509, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
+2026-11-09 11:25:39,710 V3 {'ts': 1794194509, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
