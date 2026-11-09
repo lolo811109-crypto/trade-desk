@@ -1,16 +1,3 @@
-2026-11-09 11:19:12,361 SKIP-AHEAD 0xdf579d behind 1225 blocks (132510115->132511340)
-2026-11-09 11:19:12,702 SKIP-AHEAD 0x329ca2 behind 1225 blocks (132510115->132511340)
-2026-11-09 11:19:12,983 SKIP-AHEAD 0x8d2896 behind 1225 blocks (132510115->132511340)
-2026-11-09 11:19:13,535 tick equity=790.76 pnl=-209.24 head=132511340 v3=928.36
-2026-11-09 11:19:58,328 {'ts': 1794194354, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'tx': '0x5b848764e040712a93750f08d2dfc97a9e80562c1839757cc561dd8fb64c205b', 'action': 'skip-noprice'}
-2026-11-09 11:20:41,391 tick equity=790.76 pnl=-209.24 head=132511402 v3=928.36
-2026-11-09 11:21:10,211 V3 {'ts': 1794194412, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x5ac9886b8629d38094a6cae7cf9879b40ceb7777', 'sym': 'CPU', 'price': 0.0001917, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0xfbca5f… prior=58 dead=6/20 (30%)']}
-2026-11-09 11:24:09,644 tick equity=790.76 pnl=-209.24 head=132511597 v3=928.36
-2026-11-09 11:25:00,127 V3 {'ts': 1794194487, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
-2026-11-09 11:25:00,974 V3 {'ts': 1794194488, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
-2026-11-09 11:25:01,597 V3 {'ts': 1794194491, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
-2026-11-09 11:25:02,447 V3 {'ts': 1794194491, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
-2026-11-09 11:25:03,072 V3 {'ts': 1794194493, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
 2026-11-09 11:25:03,738 V3 {'ts': 1794194494, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
 2026-11-09 11:25:04,781 V3 {'ts': 1794194494, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
 2026-11-09 11:25:05,835 V3 {'ts': 1794194495, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x61a0787ca30557d38026c646cf2d950776547777', 'sym': '马一龙', 'price': 5.548e-05, 'action': 'skip-7d'}
@@ -298,3 +285,16 @@
 2026-11-09 17:10:03,840 tick equity=790.76 pnl=-209.24 head=132558102 v3=926.59
 2026-11-09 17:10:31,436 tick equity=790.76 pnl=-209.24 head=132558160 v3=926.59
 2026-11-09 17:10:57,378 tick equity=790.76 pnl=-209.24 head=132558222 v3=926.75
+2026-11-09 17:11:25,274 tick equity=790.76 pnl=-209.24 head=132558280 v3=926.59
+2026-11-09 17:11:50,594 tick equity=790.76 pnl=-209.24 head=132558341 v3=926.64
+2026-11-09 17:12:18,612 tick equity=790.76 pnl=-209.24 head=132558398 v3=926.71
+2026-11-09 17:12:47,167 tick equity=790.76 pnl=-209.24 head=132558460 v3=926.71
+2026-11-09 17:13:10,369 V3-RISK NianNian 0x9c27c4072738cf4b7b0b7071af0ad5666bddc096 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-09 17:13:10,370 V3 {'ts': 1794215563, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x9c27c4072738cf4b7b0b7071af0ad5666bddc096', 'sym': 'NianNian', 'price': 0.0002602, 'action': 'buy', 'stake': 10.0}
+2026-11-09 17:13:18,986 tick equity=790.76 pnl=-209.24 head=132558524 v3=925.08
+2026-11-09 17:13:45,331 tick equity=790.76 pnl=-209.24 head=132558593 v3=925.12
+2026-11-09 17:14:14,632 tick equity=790.76 pnl=-209.24 head=132558652 v3=925.17
+2026-11-09 17:14:42,121 tick equity=790.76 pnl=-209.24 head=132558718 v3=925.17
+2026-11-09 17:15:09,000 tick equity=790.76 pnl=-209.24 head=132558779 v3=925.18
+2026-11-09 17:15:36,581 tick equity=790.76 pnl=-209.24 head=132558838 v3=925.23
+2026-11-09 17:16:04,133 tick equity=790.76 pnl=-209.24 head=132558900 v3=925.26
