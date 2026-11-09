@@ -1,25 +1,3 @@
-2026-11-09 17:56:29,858 tick equity=790.76 pnl=-209.24 head=132564288 v3=924.85
-2026-11-09 17:56:52,710 V3-ENTRY KILL FROG 0xce29d3ffacfd35c364dba6eac1bd105aa8f97777 liq $12,762 < $20,000 v2 floor
-2026-11-09 17:56:52,718 V3 {'ts': 1794218208, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xce29d3ffacfd35c364dba6eac1bd105aa8f97777', 'sym': 'FROG', 'price': 4.69e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $12,762 < $20,000 v2 floor']}
-2026-11-09 17:56:57,954 tick equity=790.76 pnl=-209.24 head=132564350 v3=924.85
-2026-11-09 17:57:27,918 tick equity=790.76 pnl=-209.24 head=132564412 v3=924.85
-2026-11-09 17:57:50,940 V3-ENTRY KILL FROG 0xce29d3ffacfd35c364dba6eac1bd105aa8f97777 liq $16,464 < $20,000 v2 floor
-2026-11-09 17:57:50,940 V3 {'ts': 1794218249, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xce29d3ffacfd35c364dba6eac1bd105aa8f97777', 'sym': 'FROG', 'price': 7.704e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $16,464 < $20,000 v2 floor']}
-2026-11-09 17:57:56,030 tick equity=790.76 pnl=-209.24 head=132564479 v3=924.85
-2026-11-09 17:58:22,183 tick equity=790.76 pnl=-209.24 head=132564542 v3=924.85
-2026-11-09 17:58:49,768 tick equity=790.76 pnl=-209.24 head=132564600 v3=924.85
-2026-11-09 17:59:22,943 tick equity=790.76 pnl=-209.24 head=132564661 v3=924.85
-2026-11-09 17:59:46,188 V3-ENTRY KILL FROG 0xce29d3ffacfd35c364dba6eac1bd105aa8f97777 liq $14,654 < $20,000 v2 floor
-2026-11-09 17:59:46,189 V3 {'ts': 1794218354, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xce29d3ffacfd35c364dba6eac1bd105aa8f97777', 'sym': 'FROG', 'price': 6.046e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $14,654 < $20,000 v2 floor']}
-2026-11-09 17:59:54,114 tick equity=790.76 pnl=-209.24 head=132564735 v3=924.85
-2026-11-09 18:00:21,812 tick equity=790.76 pnl=-209.24 head=132564804 v3=924.85
-2026-11-09 18:00:44,372 V3-ENTRY KILL FROG 0xce29d3ffacfd35c364dba6eac1bd105aa8f97777 liq $12,940 < $20,000 v2 floor
-2026-11-09 18:00:44,373 V3 {'ts': 1794218426, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xce29d3ffacfd35c364dba6eac1bd105aa8f97777', 'sym': 'FROG', 'price': 4.694e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $12,940 < $20,000 v2 floor']}
-2026-11-09 18:00:46,613 V3-RISK 奶蛙 0xa184d5ad47c9e756117c6590371bee0d0d477777 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-09 18:00:46,613 V3 {'ts': 1794218428, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xa184d5ad47c9e756117c6590371bee0d0d477777', 'sym': '奶蛙', 'price': 0.000394, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-09 18:00:53,682 tick equity=790.76 pnl=-209.24 head=132564865 v3=924.85
-2026-11-09 18:01:23,825 tick equity=790.76 pnl=-209.24 head=132564936 v3=924.85
-2026-11-09 18:01:54,312 tick equity=790.76 pnl=-209.24 head=132565003 v3=924.85
 2026-11-09 18:02:20,458 tick equity=790.76 pnl=-209.24 head=132565071 v3=924.85
 2026-11-09 18:02:43,237 V3-ENTRY KILL FROG 0xce29d3ffacfd35c364dba6eac1bd105aa8f97777 liq $11,938 < $20,000 v2 floor
 2026-11-09 18:02:43,237 V3 {'ts': 1794218535, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xce29d3ffacfd35c364dba6eac1bd105aa8f97777', 'sym': 'FROG', 'price': 3.981e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $11,938 < $20,000 v2 floor']}
@@ -298,3 +276,25 @@
 2026-11-09 22:10:52,468 tick equity=790.76 pnl=-209.24 head=132598177 v3=924.85
 2026-11-09 22:11:40,718 tick equity=790.76 pnl=-209.24 head=132598252 v3=924.85
 2026-11-09 22:12:21,843 tick equity=790.76 pnl=-209.24 head=132598359 v3=924.85
+2026-11-09 22:17:30,003 tick equity=790.76 pnl=-209.24 head=132598451 v3=924.85
+2026-11-09 22:22:57,698 SKIP-AHEAD 0xb9b069 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:00,083 SKIP-AHEAD 0xd392fc behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:00,907 SKIP-AHEAD 0xa03fa8 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:01,711 SKIP-AHEAD 0x9bee11 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:02,250 SKIP-AHEAD 0x5bc3a8 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:02,786 SKIP-AHEAD 0x770181 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:03,622 SKIP-AHEAD 0x7dfd45 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:04,428 SKIP-AHEAD 0x07a61c behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:05,243 SKIP-AHEAD 0xc5606c behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:05,774 SKIP-AHEAD 0xee1004 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:06,578 SKIP-AHEAD 0xe95033 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:07,477 SKIP-AHEAD 0xc9ac2d behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:08,352 SKIP-AHEAD 0xdf579d behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:08,891 SKIP-AHEAD 0x329ca2 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:09,703 SKIP-AHEAD 0x8d2896 behind 1366 blocks (132598451->132599817)
+2026-11-09 22:23:10,317 tick equity=790.76 pnl=-209.24 head=132599817 v3=924.85
+2026-11-09 22:23:50,005 DEVHIST loop err rpc eth_blockNumber ReadTimeout
+2026-11-09 22:23:54,720 tick equity=790.76 pnl=-209.24 head=132599892 v3=924.85
+2026-11-09 22:24:44,758 tick equity=790.76 pnl=-209.24 head=132599990 v3=924.85
+2026-11-09 22:25:52,565 DEVHIST chunk err 132600069-132600203 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-09 22:26:14,477 tick equity=790.76 pnl=-209.24 head=132600101 v3=924.85
