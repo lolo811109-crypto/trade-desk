@@ -1447,5 +1447,24 @@
     "signal": 0.25
    }
   }
+ },
+ {
+  "date": "2026-11-10",
+  "ts": "2026-11-10T01:56:19+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选 (poly_lab.py), 新钱包 (poly_new.py); BSC V3 (paper_bsc.py/v2lib.py)",
+  "change": "利润优先三改（仅模拟）：(1) 体育让分/盘口单笔上限 $12（原可到 GAME_CAP$35/MAX$50），同场让分合计敞口 ≤$18，超限 skip why=spread_game_cap；识别 Spread:/Set Handicap:/sportsMarketType。目标单笔亏不再轻易打到日风控 -3%。(2) 0x8c0b 跟单权重降至 0.35（不移除跟踪），state 写入 pnl_8c0b/pnl_ex_8c0b/equity_8c0b/equity_ex_8c0b 对照；成交记 w_mult。(3) BSC V3：SL -12%→-10%，TP +35%→+25%，新增 25 分钟 flat 超时（ret≤0 出 time_stop_flat），主超时 45m/+10%→60m/+12%；共振版不动。Freqtrade 未装。",
+  "numbers": {
+   "SPREAD_MAX_STAKE": 12.0,
+   "SPREAD_GAME_CAP": 18.0,
+   "GAME_CAP_unchanged": 35.0,
+   "WALLET_STAKE_MULT_0x8c0b": 0.35,
+   "BSC_V3_sl": -0.1,
+   "BSC_V3_tp_mult": 1.25,
+   "BSC_V3_ts_flat_s": 1500,
+   "BSC_V3_ts45_s": 3600,
+   "BSC_V3_ts45_max": 0.12,
+   "trigger": "Richmond spread BASE -24.08 / TOUR -35.00 day halt; 0x8c0b concentration; V3 timeout scrap +0.05 vs SL -1.6~-1.9"
+  },
+  "backup": "*.bak-1110-rr"
  }
 ]
