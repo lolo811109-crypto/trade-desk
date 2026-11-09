@@ -1,14 +1,3 @@
-2026-11-09 21:31:47,309 SKIP-AHEAD 0x8d2896 behind 1355 blocks (132591623->132592978)
-2026-11-09 21:31:48,014 tick equity=790.76 pnl=-209.24 head=132592978 v3=924.85
-2026-11-09 21:32:21,271 tick equity=790.76 pnl=-209.24 head=132593043 v3=924.85
-2026-11-09 21:32:31,072 DEVHIST loop err rpc eth_blockNumber ReadTimeout
-2026-11-09 21:33:01,587 tick equity=790.76 pnl=-209.24 head=132593116 v3=924.85
-2026-11-09 21:36:18,585 tick equity=790.76 pnl=-209.24 head=132593205 v3=924.85
-2026-11-09 21:39:37,139 tick equity=790.76 pnl=-209.24 head=132593643 v3=924.85
-2026-11-09 21:41:17,650 tick equity=790.76 pnl=-209.24 head=132594085 v3=924.85
-2026-11-09 21:42:42,948 tick equity=790.76 pnl=-209.24 head=132594308 v3=924.85
-2026-11-09 21:43:41,569 tick equity=790.76 pnl=-209.24 head=132594497 v3=924.85
-2026-11-09 21:44:35,855 tick equity=790.76 pnl=-209.24 head=132594628 v3=924.85
 2026-11-09 21:47:47,002 V3 {'ts': 1794231893, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0x9665f094d862f4d5c221843e019b463d3c607777', 'sym': '牛逼', 'price': 0.003553, 'action': 'skip-7d'}
 2026-11-09 21:48:11,728 tick equity=790.76 pnl=-209.24 head=132594748 v3=924.85
 2026-11-09 21:52:32,336 SKIP-AHEAD 0xb9b069 behind 1015 blocks (132594748->132595763)
@@ -298,3 +287,14 @@
 2026-11-10 00:54:45,885 tick equity=790.76 pnl=-209.24 head=132619824 v3=924.07
 2026-11-10 00:55:59,306 tick equity=790.76 pnl=-209.24 head=132619952 v3=924.07
 2026-11-10 00:57:00,702 tick equity=790.76 pnl=-209.24 head=132620116 v3=924.07
+2026-11-10 01:01:27,339 tick equity=790.76 pnl=-209.24 head=132620646 v3=924.07
+2026-11-10 01:02:58,841 tick equity=790.76 pnl=-209.24 head=132620844 v3=924.07
+2026-11-10 01:03:30,359 {'ts': 1794243765, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xb48bfbe4a28c2d3afe6745ec9c0083e66c737777', 'tx': '0xd0107a08b97a8cb8cc2311d336158257ad8996ec5bbc8d082bd425d6883d03e5', 'action': 'skip-noprice'}
+2026-11-10 01:03:44,773 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-10 01:04:02,777 tick equity=790.76 pnl=-209.24 head=132621047 v3=924.07
+2026-11-10 01:04:29,140 V3 filter error 0xd392fc61934309f168cf7eb7a5c3132c7b46f253 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-10 01:04:37,161 V3-RISK PEPE 0x57cf26c69fc9171937ba47164a3f8f451fd85b20 KILL buy_tax unknown; sell_tax unknown; owner can mint; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 01:04:37,161 V3 {'ts': 1794243844, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x57cf26c69fc9171937ba47164a3f8f451fd85b20', 'sym': 'PEPE', 'price': 3.198e-08, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'owner can mint', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 01:04:43,963 {'ts': 1794243804, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'SELL', 'token': '0xb48bfbe4a28c2d3afe6745ec9c0083e66c737777', 'tx': '0x58e4fb6231d1042cbf51ea3006588e7a611eaf16579e4390818982a2e5677d17', 'action': 'skip-noprice'}
+2026-11-10 01:05:08,307 tick equity=790.76 pnl=-209.24 head=132621190 v3=924.07
+2026-11-10 01:05:13,819 V3 filter error 0xa03fa805f34b9eebeae0d0adaeda4113246b8f12 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
