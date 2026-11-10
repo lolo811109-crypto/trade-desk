@@ -1,11 +1,3 @@
-2026-11-10 01:18:57,259 tick equity=790.76 pnl=-209.24 head=132623052 v3=924.07
-2026-11-10 01:19:50,761 tick equity=790.76 pnl=-209.24 head=132623176 v3=924.07
-2026-11-10 01:21:14,281 tick equity=790.76 pnl=-209.24 head=132623295 v3=924.07
-2026-11-10 01:22:29,634 V3 {'ts': 1794244877, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.00372, 'action': 'skip-7d'}
-2026-11-10 01:22:41,217 tick equity=790.76 pnl=-209.24 head=132623481 v3=924.07
-2026-11-10 01:23:43,877 tick equity=790.76 pnl=-209.24 head=132623674 v3=924.07
-2026-11-10 01:24:41,134 V3 {'ts': 1794244990, 'wallet': '0xdf579d27140000251421f3bb2b4ed43835eb3b6b', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.003691, 'action': 'skip-7d'}
-2026-11-10 01:24:56,316 tick equity=790.76 pnl=-209.24 head=132623814 v3=924.07
 2026-11-10 01:25:43,006 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-10 01:25:58,384 tick equity=790.76 pnl=-209.24 head=132623974 v3=924.07
 2026-11-10 01:26:27,716 V3 filter error 0xd392fc61934309f168cf7eb7a5c3132c7b46f253 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
@@ -298,3 +290,11 @@
 2026-11-10 08:07:26,594 tick equity=790.76 pnl=-209.24 head=132677426 v3=922.53
 2026-11-10 08:08:00,277 V3 {'ts': 1794269199, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xbb34bf4b2b241b1f7bd258b35ed7270cb2417777', 'sym': '乙寶', 'price': 1.979e-05, 'action': 'skip-7d'}
 2026-11-10 08:08:01,359 V3 {'ts': 1794269203, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xbb34bf4b2b241b1f7bd258b35ed7270cb2417777', 'sym': '乙寶', 'price': 1.979e-05, 'action': 'skip-7d'}
+2026-11-10 08:15:56,245 tick equity=790.76 pnl=-209.24 head=132677636 v3=922.53
+2026-11-10 08:34:33,979 WATCHDOG: no successful tick 1117s, exiting for restart
+2026-11-10 08:34:37,207 DEVHIST backfill 132678702 -> 132681213 (~7d)
+2026-11-10 08:34:37,508 DEVHIST ready creators=4495 tokens=50784
+2026-11-10 08:34:57,780 tick equity=790.76 pnl=-209.24 head=132681235 v3=922.53
+2026-11-10 08:35:49,170 tick equity=790.76 pnl=-209.24 head=132681305 v3=922.53
+2026-11-10 08:36:54,912 tick equity=790.76 pnl=-209.24 head=132681419 v3=922.53
+2026-11-10 08:38:02,763 tick equity=790.76 pnl=-209.24 head=132681565 v3=922.53
