@@ -1,30 +1,3 @@
-2026-11-10 13:13:01,409 tick equity=790.76 pnl=-209.24 head=132718320 v3=922.53
-2026-11-10 13:13:27,296 tick equity=790.76 pnl=-209.24 head=132718373 v3=922.53
-2026-11-10 13:13:51,674 tick equity=790.76 pnl=-209.24 head=132718430 v3=922.53
-2026-11-10 13:14:18,328 tick equity=790.76 pnl=-209.24 head=132718485 v3=922.53
-2026-11-10 13:14:46,065 tick equity=790.76 pnl=-209.24 head=132718544 v3=922.53
-2026-11-10 13:15:12,273 tick equity=790.76 pnl=-209.24 head=132718606 v3=922.53
-2026-11-10 13:15:38,098 tick equity=790.76 pnl=-209.24 head=132718664 v3=922.53
-2026-11-10 13:16:02,261 tick equity=790.76 pnl=-209.24 head=132718721 v3=922.53
-2026-11-10 13:16:27,454 V3 {'ts': 1794287776, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xabffa443547b34ab6c3b3173d26e233900527777', 'sym': 'TRUMAN', 'price': 0.0002492, 'action': 'skip-honeypot_guard', 'reasons': ['honeypot_guard: 0 sells in last 1h']}
-2026-11-10 13:16:31,093 tick equity=790.76 pnl=-209.24 head=132718775 v3=922.53
-2026-11-10 13:16:55,184 tick equity=790.76 pnl=-209.24 head=132718839 v3=922.53
-2026-11-10 13:32:43,433 WATCHDOG: no successful tick 948s, exiting for restart
-2026-11-10 13:33:09,964 DEVHIST backfill 132718838 -> 132721014 (~7d)
-2026-11-10 13:33:10,299 DEVHIST ready creators=4546 tokens=51921
-2026-11-10 13:33:17,848 tick equity=790.76 pnl=-209.24 head=132721022 v3=922.53
-2026-11-10 13:33:45,243 tick equity=790.76 pnl=-209.24 head=132721076 v3=922.53
-2026-11-10 13:34:11,616 tick equity=790.76 pnl=-209.24 head=132721137 v3=922.53
-2026-11-10 13:34:35,649 tick equity=790.76 pnl=-209.24 head=132721196 v3=922.53
-2026-11-10 13:34:59,836 tick equity=790.76 pnl=-209.24 head=132721249 v3=922.53
-2026-11-10 13:35:23,573 tick equity=790.76 pnl=-209.24 head=132721302 v3=922.53
-2026-11-10 13:35:49,380 tick equity=790.76 pnl=-209.24 head=132721355 v3=922.53
-2026-11-10 13:36:15,522 tick equity=790.76 pnl=-209.24 head=132721412 v3=922.53
-2026-11-10 13:36:41,305 tick equity=790.76 pnl=-209.24 head=132721470 v3=922.53
-2026-11-10 13:37:07,616 tick equity=790.76 pnl=-209.24 head=132721527 v3=922.53
-2026-11-10 13:37:31,744 tick equity=790.76 pnl=-209.24 head=132721586 v3=922.53
-2026-11-10 13:37:56,090 tick equity=790.76 pnl=-209.24 head=132721639 v3=922.53
-2026-11-10 13:38:23,712 tick equity=790.76 pnl=-209.24 head=132721694 v3=922.53
 2026-11-10 13:38:50,633 tick equity=790.76 pnl=-209.24 head=132721755 v3=922.53
 2026-11-10 13:39:16,770 tick equity=790.76 pnl=-209.24 head=132721815 v3=922.53
 2026-11-10 13:39:42,597 tick equity=790.76 pnl=-209.24 head=132721873 v3=922.53
@@ -298,3 +271,30 @@
 2026-11-10 19:34:22,055 tick equity=790.76 pnl=-209.24 head=132769076 v3=921.72
 2026-11-10 19:35:23,176 tick equity=790.76 pnl=-209.24 head=132769193 v3=921.72
 2026-11-10 19:36:29,903 tick equity=790.76 pnl=-209.24 head=132769329 v3=921.72
+2026-11-10 19:37:25,562 tick equity=790.76 pnl=-209.24 head=132769477 v3=921.72
+2026-11-10 19:38:17,050 V3-RISK FXIon 0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 19:38:17,050 V3 {'ts': 1794310652, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1', 'sym': 'FXIon', 'price': 34.9351827981, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 19:38:17,765 V3-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 93%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 19:38:17,765 V3 {'ts': 1794310652, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 141.51, 'action': 'kill-risk', 'reasons': ['top10 holders 93%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 19:38:18,414 V3-RISK NVDAB 0x02fca66c1d1afb4e2a7884261eb00f63598a7436 KILL top10 holders 83%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 19:38:18,414 V3 {'ts': 1794310652, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x02fca66c1d1afb4e2a7884261eb00f63598a7436', 'sym': 'NVDAB', 'price': 180.41, 'action': 'kill-risk', 'reasons': ['top10 holders 83%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 19:38:19,018 V3-RISK oANTHROPIC 0x24b518b332543a4e1c3649d063dab199d103760a KILL top10 holders 58%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 19:38:19,018 V3 {'ts': 1794310652, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x24b518b332543a4e1c3649d063dab199d103760a', 'sym': 'oANTHROPIC', 'price': 1018.048, 'action': 'kill-risk', 'reasons': ['top10 holders 58%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-10 19:42:03,843 tick equity=790.76 pnl=-209.24 head=132769600 v3=921.72
+2026-11-10 19:42:24,472 SKIP-AHEAD 0xb9b069 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:24,870 SKIP-AHEAD 0xd392fc behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:25,618 SKIP-AHEAD 0xa03fa8 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:26,017 SKIP-AHEAD 0x9bee11 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:26,631 SKIP-AHEAD 0x5bc3a8 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:27,246 SKIP-AHEAD 0x770181 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:27,862 SKIP-AHEAD 0x7dfd45 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:28,262 SKIP-AHEAD 0x07a61c behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:28,881 SKIP-AHEAD 0xc5606c behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:29,498 SKIP-AHEAD 0xee1004 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:29,898 SKIP-AHEAD 0xe95033 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:30,520 SKIP-AHEAD 0xc9ac2d behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:30,913 SKIP-AHEAD 0xdf579d behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:31,526 SKIP-AHEAD 0x329ca2 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:31,920 SKIP-AHEAD 0x8d2896 behind 619 blocks (132769600->132770219)
+2026-11-10 19:42:32,382 tick equity=790.76 pnl=-209.24 head=132770219 v3=921.72
+2026-11-10 20:01:02,250 WATCHDOG: no successful tick 1109s, exiting for restart
