@@ -1,10 +1,3 @@
-2026-11-10 15:35:27,528 tick equity=790.76 pnl=-209.24 head=132737172 v3=922.53
-2026-11-10 15:37:10,265 tick equity=790.76 pnl=-209.24 head=132737351 v3=922.53
-2026-11-10 15:37:47,620 V3-ENTRY KILL BUFO 0x050af06bac3a031f349479a31be1daea1a607777 liq $12,775 < $20,000 v2 floor
-2026-11-10 15:37:47,630 V3 {'ts': 1794296223, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x050af06bac3a031f349479a31be1daea1a607777', 'sym': 'BUFO', 'price': 7.107616526e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $12,775 < $20,000 v2 floor']}
-2026-11-10 15:37:50,851 V3-ENTRY KILL BUFO 0x050af06bac3a031f349479a31be1daea1a607777 liq $12,775 < $20,000 v2 floor
-2026-11-10 15:37:50,851 V3 {'ts': 1794296247, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x050af06bac3a031f349479a31be1daea1a607777', 'sym': 'BUFO', 'price': 7.107616526e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $12,775 < $20,000 v2 floor']}
-2026-11-10 15:40:48,409 tick equity=790.76 pnl=-209.24 head=132737579 v3=922.53
 2026-11-10 15:58:01,095 WATCHDOG: no successful tick 1032s, exiting for restart
 2026-11-10 15:58:33,996 DEVHIST backfill 132737975 -> 132740386 (~7d)
 2026-11-10 15:58:34,391 DEVHIST ready creators=4592 tokens=53397
@@ -298,3 +291,10 @@
 2026-11-10 21:17:45,287 tick equity=790.76 pnl=-209.24 head=132782867 v3=920.96
 2026-11-10 21:18:31,552 tick equity=790.76 pnl=-209.24 head=132782974 v3=920.97
 2026-11-10 21:19:18,410 tick equity=790.76 pnl=-209.24 head=132783076 v3=921.0
+2026-11-10 21:19:51,147 V3 {'ts': 1794316761, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.00479, 'action': 'sell', 'proceeds': 9.28, 'pnl': -0.72}
+2026-11-10 21:20:04,168 tick equity=790.76 pnl=-209.24 head=132783180 v3=921.0
+2026-11-10 21:20:56,839 tick equity=790.76 pnl=-209.24 head=132783282 v3=921.0
+2026-11-10 21:21:48,465 tick equity=790.76 pnl=-209.24 head=132783399 v3=921.0
+2026-11-10 21:22:49,127 tick equity=790.76 pnl=-209.24 head=132783514 v3=921.0
+2026-11-10 21:23:40,432 tick equity=790.76 pnl=-209.24 head=132783648 v3=921.0
+2026-11-10 21:24:39,583 tick equity=790.76 pnl=-209.24 head=132783762 v3=921.0
