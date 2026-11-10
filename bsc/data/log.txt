@@ -1,9 +1,3 @@
-2026-11-10 18:09:34,350 tick equity=790.76 pnl=-209.24 head=132757832 v3=921.72
-2026-11-10 18:10:17,739 tick equity=790.76 pnl=-209.24 head=132757890 v3=921.72
-2026-11-10 18:10:41,831 tick equity=790.76 pnl=-209.24 head=132757987 v3=921.72
-2026-11-10 18:11:05,840 tick equity=790.76 pnl=-209.24 head=132758040 v3=921.72
-2026-11-10 18:11:31,968 tick equity=790.76 pnl=-209.24 head=132758094 v3=921.72
-2026-11-10 18:11:58,386 tick equity=790.76 pnl=-209.24 head=132758152 v3=921.72
 2026-11-10 18:12:22,895 tick equity=790.76 pnl=-209.24 head=132758210 v3=921.72
 2026-11-10 18:12:50,741 tick equity=790.76 pnl=-209.24 head=132758265 v3=921.72
 2026-11-10 18:13:16,916 tick equity=790.76 pnl=-209.24 head=132758327 v3=921.72
@@ -298,3 +292,9 @@
 2026-11-10 22:56:33,382 V3 {'ts': 1794322570, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.0001271, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x403582… prior=51 dead=4/20 (20%)']}
 2026-11-10 22:57:15,105 tick equity=790.76 pnl=-209.24 head=132796058 v3=921.0
 2026-11-10 22:57:32,968 DEVHIST chunk err 132796093-132796227 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-10 22:58:26,081 tick equity=790.76 pnl=-209.24 head=132796238 v3=921.0
+2026-11-10 22:59:42,944 tick equity=790.76 pnl=-209.24 head=132796394 v3=921.0
+2026-11-10 23:01:56,340 {'ts': 1794322797, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xfd3a6d6d2ad5dbafe2d0858d739010e852c27777', 'tx': '0x5851e58c427eb58210e6eeb615a8ba1e4a3db7e86e0d31e754a44fe994c2e9fb', 'action': 'skip-noprice'}
+2026-11-10 23:01:57,818 {'ts': 1794322801, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0xfd3a6d6d2ad5dbafe2d0858d739010e852c27777', 'tx': '0xb4cb43a73c763753d92ddc7b98816e99a9f921b942f15546e1c58050ee23fd33', 'action': 'skip-noprice'}
+2026-11-10 23:02:45,189 tick equity=790.76 pnl=-209.24 head=132796564 v3=921.0
+2026-11-10 23:02:53,936 DEVHIST chunk err 132796805-132796939 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
