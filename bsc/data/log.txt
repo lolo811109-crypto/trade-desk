@@ -1,9 +1,3 @@
-2026-11-10 15:31:16,575 WATCHDOG: no successful tick 1072s, exiting for restart
-2026-11-10 15:31:19,790 DEVHIST backfill 132734853 -> 132736755 (~7d)
-2026-11-10 15:31:20,146 DEVHIST ready creators=4577 tokens=53010
-2026-11-10 15:31:45,935 tick equity=790.76 pnl=-209.24 head=132736778 v3=922.53
-2026-11-10 15:32:46,931 tick equity=790.76 pnl=-209.24 head=132736859 v3=922.53
-2026-11-10 15:34:06,950 tick equity=790.76 pnl=-209.24 head=132736995 v3=922.53
 2026-11-10 15:35:27,528 tick equity=790.76 pnl=-209.24 head=132737172 v3=922.53
 2026-11-10 15:37:10,265 tick equity=790.76 pnl=-209.24 head=132737351 v3=922.53
 2026-11-10 15:37:47,620 V3-ENTRY KILL BUFO 0x050af06bac3a031f349479a31be1daea1a607777 liq $12,775 < $20,000 v2 floor
@@ -298,3 +292,9 @@
 2026-11-10 21:14:25,405 V3 {'ts': 1794316424, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 2.014e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,411 < $20,000 v2 floor']}
 2026-11-10 21:14:26,572 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $19,411 < $20,000 v2 floor
 2026-11-10 21:14:26,573 V3 {'ts': 1794316425, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 2.014e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,411 < $20,000 v2 floor']}
+2026-11-10 21:15:08,998 tick equity=790.76 pnl=-209.24 head=132782458 v3=920.77
+2026-11-10 21:16:04,417 tick equity=790.76 pnl=-209.24 head=132782626 v3=920.9
+2026-11-10 21:16:57,614 tick equity=790.76 pnl=-209.24 head=132782749 v3=920.95
+2026-11-10 21:17:45,287 tick equity=790.76 pnl=-209.24 head=132782867 v3=920.96
+2026-11-10 21:18:31,552 tick equity=790.76 pnl=-209.24 head=132782974 v3=920.97
+2026-11-10 21:19:18,410 tick equity=790.76 pnl=-209.24 head=132783076 v3=921.0
