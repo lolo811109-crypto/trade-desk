@@ -1,13 +1,3 @@
-2026-11-10 18:01:53,118 V3 {'ts': 1794304913, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xf98f6b1204cc742b259100395ebd30bfbeac7777', 'sym': '奶蛙', 'price': 0.0001966, 'action': 'time_stop_flat', 'proceeds': 9.19, 'pnl': -0.81}
-2026-11-10 18:01:53,161 tick equity=790.76 pnl=-209.24 head=132756788 v3=921.72
-2026-11-10 18:02:31,430 tick equity=790.76 pnl=-209.24 head=132756866 v3=921.72
-2026-11-10 18:06:32,246 tick equity=790.76 pnl=-209.24 head=132757407 v3=921.72
-2026-11-10 18:07:02,373 tick equity=790.76 pnl=-209.24 head=132757486 v3=921.72
-2026-11-10 18:07:28,155 tick equity=790.76 pnl=-209.24 head=132757552 v3=921.72
-2026-11-10 18:07:54,318 tick equity=790.76 pnl=-209.24 head=132757610 v3=921.72
-2026-11-10 18:08:18,156 tick equity=790.76 pnl=-209.24 head=132757668 v3=921.72
-2026-11-10 18:08:42,441 tick equity=790.76 pnl=-209.24 head=132757721 v3=921.72
-2026-11-10 18:09:08,333 tick equity=790.76 pnl=-209.24 head=132757775 v3=921.72
 2026-11-10 18:09:34,350 tick equity=790.76 pnl=-209.24 head=132757832 v3=921.72
 2026-11-10 18:10:17,739 tick equity=790.76 pnl=-209.24 head=132757890 v3=921.72
 2026-11-10 18:10:41,831 tick equity=790.76 pnl=-209.24 head=132757987 v3=921.72
@@ -298,3 +288,13 @@
 2026-11-10 22:41:58,767 tick equity=790.76 pnl=-209.24 head=132794105 v3=921.0
 2026-11-10 22:42:37,330 tick equity=790.76 pnl=-209.24 head=132794201 v3=921.0
 2026-11-10 22:52:42,249 WATCHDOG: no successful tick 604s, exiting for restart
+2026-11-10 22:53:28,803 DEVHIST backfill 132794305 -> 132795689 (~7d)
+2026-11-10 22:53:29,144 DEVHIST ready creators=4782 tokens=55776
+2026-11-10 22:53:52,532 tick equity=790.76 pnl=-209.24 head=132795709 v3=921.0
+2026-11-10 22:54:32,960 tick equity=790.76 pnl=-209.24 head=132795788 v3=921.0
+2026-11-10 22:55:08,333 tick equity=790.76 pnl=-209.24 head=132795878 v3=921.0
+2026-11-10 22:55:54,307 tick equity=790.76 pnl=-209.24 head=132795956 v3=921.0
+2026-11-10 22:56:33,382 V3-RISK RM 0x33fe24f4298a8659668e8d1f2044fd01e8a57777 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史 0x403582… prior=51 dead=4/20 (20%)
+2026-11-10 22:56:33,382 V3 {'ts': 1794322570, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x33fe24f4298a8659668e8d1f2044fd01e8a57777', 'sym': 'RM', 'price': 0.0001271, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x403582… prior=51 dead=4/20 (20%)']}
+2026-11-10 22:57:15,105 tick equity=790.76 pnl=-209.24 head=132796058 v3=921.0
+2026-11-10 22:57:32,968 DEVHIST chunk err 132796093-132796227 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
