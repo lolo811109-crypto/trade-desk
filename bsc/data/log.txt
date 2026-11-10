@@ -1,7 +1,3 @@
-2026-11-10 14:59:42,105 tick equity=790.76 pnl=-209.24 head=132732310 v3=922.53
-2026-11-10 15:01:23,200 tick equity=790.76 pnl=-209.24 head=132732586 v3=922.53
-2026-11-10 15:01:57,283 V3-ENTRY KILL AICoin 0x99c8f3ec34c89b067a0dca66bfb0d7ff82717777 liq $19,754 < $20,000 v2 floor
-2026-11-10 15:01:57,296 V3 {'ts': 1794294032, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x99c8f3ec34c89b067a0dca66bfb0d7ff82717777', 'sym': 'AICoin', 'price': 0.0002224333367, 'action': 'skip-liqfloor', 'reasons': ['liq $19,754 < $20,000 v2 floor']}
 2026-11-10 15:03:04,395 tick equity=790.76 pnl=-209.24 head=132732809 v3=922.53
 2026-11-10 15:03:36,929 V3 {'ts': 1794294197, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe61cad0b16f6055d3d6c9156b505aa9d7f547777', 'sym': '现金牛', 'price': 0.0001715, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'LP only 0% locked/burned', 'warn: dev holding unknown', 'info: 开发者历史未知']}
 2026-11-10 15:03:36,930 CONFLUENCE 现金牛 0xe61cad0b16f6055d3d6c9156b505aa9d7f547777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
@@ -298,3 +294,7 @@
 2026-11-10 20:54:31,562 tick equity=790.76 pnl=-209.24 head=132779763 v3=921.72
 2026-11-10 20:55:54,028 tick equity=790.76 pnl=-209.24 head=132779877 v3=921.72
 2026-11-10 20:58:05,665 tick equity=790.76 pnl=-209.24 head=132780060 v3=921.72
+2026-11-10 21:00:33,920 tick equity=790.76 pnl=-209.24 head=132780353 v3=921.72
+2026-11-10 21:01:06,800 V3-RISK GANG 0x0c6302401aa5325c2e36f170f52c00b1d220b405 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-10 21:01:06,800 V3 {'ts': 1794315561, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x0c6302401aa5325c2e36f170f52c00b1d220b405', 'sym': 'GANG', 'price': 0.004759, 'action': 'buy', 'stake': 10.0}
+2026-11-10 21:03:05,049 tick equity=790.76 pnl=-209.24 head=132780682 v3=921.11
