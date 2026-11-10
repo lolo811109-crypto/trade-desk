@@ -1,8 +1,3 @@
-2026-11-10 18:12:22,895 tick equity=790.76 pnl=-209.24 head=132758210 v3=921.72
-2026-11-10 18:12:50,741 tick equity=790.76 pnl=-209.24 head=132758265 v3=921.72
-2026-11-10 18:13:16,916 tick equity=790.76 pnl=-209.24 head=132758327 v3=921.72
-2026-11-10 18:13:43,273 tick equity=790.76 pnl=-209.24 head=132758385 v3=921.72
-2026-11-10 18:31:43,388 WATCHDOG: no successful tick 1080s, exiting for restart
 2026-11-10 18:32:16,766 DEVHIST backfill 132758288 -> 132760872 (~7d)
 2026-11-10 18:32:17,243 DEVHIST ready creators=4633 tokens=53987
 2026-11-10 18:32:49,807 tick equity=790.76 pnl=-209.24 head=132760893 v3=921.72
@@ -298,3 +293,8 @@
 2026-11-10 23:01:57,818 {'ts': 1794322801, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0xfd3a6d6d2ad5dbafe2d0858d739010e852c27777', 'tx': '0xb4cb43a73c763753d92ddc7b98816e99a9f921b942f15546e1c58050ee23fd33', 'action': 'skip-noprice'}
 2026-11-10 23:02:45,189 tick equity=790.76 pnl=-209.24 head=132796564 v3=921.0
 2026-11-10 23:02:53,936 DEVHIST chunk err 132796805-132796939 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-10 23:03:55,292 DEVHIST chunk err 132796940-132797078 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-10 23:04:50,255 tick equity=790.76 pnl=-209.24 head=132796969 v3=921.0
+2026-11-10 23:06:19,859 tick equity=790.76 pnl=-209.24 head=132797248 v3=921.0
+2026-11-10 23:07:14,346 tick equity=790.76 pnl=-209.24 head=132797447 v3=921.0
+2026-11-10 23:07:59,556 tick equity=790.76 pnl=-209.24 head=132797568 v3=921.0
