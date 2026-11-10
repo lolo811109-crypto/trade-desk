@@ -1,14 +1,3 @@
-2026-11-10 21:32:55,212 tick equity=790.76 pnl=-209.24 head=132784879 v3=921.0
-2026-11-10 21:33:51,881 tick equity=790.76 pnl=-209.24 head=132784993 v3=921.0
-2026-11-10 21:34:43,232 DEVHIST chunk err 132785053-132785186 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-10 21:34:48,146 tick equity=790.76 pnl=-209.24 head=132785119 v3=921.0
-2026-11-10 21:35:23,187 V3-RISK 머스크 0x319f1da78ebb572ac8c450354043b3b738127777 KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%; info: 开发者历史 0x9261c6… prior=199 dead=3/20 (15%)
-2026-11-10 21:35:23,187 V3 {'ts': 1794317684, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x319f1da78ebb572ac8c450354043b3b738127777', 'sym': '머스크', 'price': 0.0001408, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0x9261c6… prior=199 dead=3/20 (15%)']}
-2026-11-10 21:35:46,386 tick equity=790.76 pnl=-209.24 head=132785244 v3=921.0
-2026-11-10 21:36:41,511 tick equity=790.76 pnl=-209.24 head=132785373 v3=921.0
-2026-11-10 21:37:35,299 tick equity=790.76 pnl=-209.24 head=132785496 v3=921.0
-2026-11-10 21:37:45,215 DEVHIST chunk err 132785458-132785591 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-10 21:38:51,962 tick equity=790.76 pnl=-209.24 head=132785615 v3=921.0
 2026-11-10 21:40:15,445 tick equity=790.76 pnl=-209.24 head=132785786 v3=921.0
 2026-11-10 21:59:51,534 WATCHDOG: no successful tick 1176s, exiting for restart
 2026-11-10 22:00:24,341 DEVHIST backfill 132786184 -> 132788612 (~7d)
@@ -298,3 +287,14 @@
 2026-11-11 03:35:46,946 tick equity=790.76 pnl=-209.24 head=132833288 v3=921.0
 2026-11-11 03:36:18,901 tick equity=790.76 pnl=-209.24 head=132833360 v3=921.0
 2026-11-11 03:36:46,926 tick equity=790.76 pnl=-209.24 head=132833431 v3=921.0
+2026-11-11 03:37:14,500 tick equity=790.76 pnl=-209.24 head=132833494 v3=921.0
+2026-11-11 03:37:40,760 tick equity=790.76 pnl=-209.24 head=132833555 v3=921.0
+2026-11-11 03:38:11,261 tick equity=790.76 pnl=-209.24 head=132833613 v3=921.0
+2026-11-11 03:38:39,103 tick equity=790.76 pnl=-209.24 head=132833681 v3=921.0
+2026-11-11 03:39:06,644 tick equity=790.76 pnl=-209.24 head=132833743 v3=921.0
+2026-11-11 03:39:34,684 tick equity=790.76 pnl=-209.24 head=132833804 v3=921.0
+2026-11-11 03:40:00,437 tick equity=790.76 pnl=-209.24 head=132833866 v3=921.0
+2026-11-11 03:40:25,897 tick equity=790.76 pnl=-209.24 head=132833924 v3=921.0
+2026-11-11 03:40:51,738 tick equity=790.76 pnl=-209.24 head=132833980 v3=921.0
+2026-11-11 03:41:15,703 tick equity=790.76 pnl=-209.24 head=132834038 v3=921.0
+2026-11-11 03:41:43,283 tick equity=790.76 pnl=-209.24 head=132834091 v3=921.0
