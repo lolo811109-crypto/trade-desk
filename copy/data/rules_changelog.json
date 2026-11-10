@@ -1466,5 +1466,72 @@
    "trigger": "Richmond spread BASE -24.08 / TOUR -35.00 day halt; 0x8c0b concentration; V3 timeout scrap +0.05 vs SL -1.6~-1.9"
   },
   "backup": "*.bak-1110-rr"
+ },
+ {
+  "date": "2026-11-11",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x684baa57c338c2549aec0aa3f034f695d72a8409', '0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0x64ceab3becc143e1b97a8e16dc270c2297566015'] -> ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0x64ceab3becc143e1b97a8e16dc270c2297566015', '0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e', '0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5']",
+  "scores": {
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.276,
+    "batch": 0.292,
+    "cold": 0.306,
+    "hold": 0.678,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 4297476.05,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.598
+   },
+   "0x64ceab3becc143e1b97a8e16dc270c2297566015": {
+    "score": 2.25,
+    "batch": 0.25,
+    "cold": 0.0,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 12,
+    "realized_pnl": 821542.72,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.25
+   },
+   "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": {
+    "score": 2.085,
+    "batch": 0.042,
+    "cold": 0.043,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 21809308.68,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.085
+   },
+   "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
+    "score": 2.058,
+    "batch": 0.045,
+    "cold": 0.013,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 7049886.4,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.058
+   },
+   "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": {
+    "score": 2.026,
+    "batch": 0.025,
+    "cold": 0.171,
+    "hold": 0.83,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 4480864.58,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.196
+   }
+  }
  }
 ]
