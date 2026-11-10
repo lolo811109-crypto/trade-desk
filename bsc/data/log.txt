@@ -1,14 +1,3 @@
-2026-11-10 22:03:29,379 DEVHIST chunk err 132788889-132789022 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-10 22:03:57,445 V3-RISK BROCCOLI 0xc438821d5937e5246a50f877311a74e40f82eb87 KILL buy_tax unknown; sell_tax unknown; top10 holders 100%; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-10 22:03:57,445 V3 {'ts': 1794319408, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xc438821d5937e5246a50f877311a74e40f82eb87', 'sym': 'BROCCOLI', 'price': 6.435e-08, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-10 22:04:13,168 tick equity=790.76 pnl=-209.24 head=132789052 v3=921.0
-2026-11-10 22:05:02,010 tick equity=790.76 pnl=-209.24 head=132789167 v3=921.0
-2026-11-10 22:05:34,814 V3 {'ts': 1794319515, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xc438821d5937e5246a50f877311a74e40f82eb87', 'sym': 'BROCCOLI', 'price': 5.588e-08, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-10 22:05:53,328 tick equity=790.76 pnl=-209.24 head=132789275 v3=921.0
-2026-11-10 22:07:00,086 tick equity=790.76 pnl=-209.24 head=132789389 v3=921.0
-2026-11-10 22:11:18,644 DEVHIST chunk err 132789562-132790062 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-10 22:15:44,523 tick equity=790.76 pnl=-209.24 head=132789537 v3=921.0
-2026-11-10 22:16:05,305 SKIP-AHEAD 0xb9b069 behind 1166 blocks (132789537->132790703)
 2026-11-10 22:16:06,115 SKIP-AHEAD 0xd392fc behind 1166 blocks (132789537->132790703)
 2026-11-10 22:16:06,910 SKIP-AHEAD 0xa03fa8 behind 1166 blocks (132789537->132790703)
 2026-11-10 22:16:07,753 SKIP-AHEAD 0x9bee11 behind 1166 blocks (132789537->132790703)
@@ -298,3 +287,14 @@
 2026-11-11 04:03:54,224 tick equity=790.76 pnl=-209.24 head=132837055 v3=921.0
 2026-11-11 04:04:18,873 tick equity=790.76 pnl=-209.24 head=132837109 v3=921.0
 2026-11-11 04:04:45,040 tick equity=790.76 pnl=-209.24 head=132837164 v3=921.0
+2026-11-11 04:05:10,807 tick equity=790.76 pnl=-209.24 head=132837222 v3=921.0
+2026-11-11 04:05:36,428 V3 {'ts': 1794341127, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xf98f6b1204cc742b259100395ebd30bfbeac7777', 'sym': '奶蛙', 'price': 0.0001974, 'action': 'skip-honeypot_guard', 'reasons': ['honeypot_guard: 0 sells in last 1h']}
+2026-11-11 04:05:42,515 tick equity=790.76 pnl=-209.24 head=132837279 v3=921.0
+2026-11-11 04:06:10,420 tick equity=790.76 pnl=-209.24 head=132837350 v3=921.0
+2026-11-11 04:06:44,660 tick equity=790.76 pnl=-209.24 head=132837412 v3=921.0
+2026-11-11 04:07:12,749 tick equity=790.76 pnl=-209.24 head=132837488 v3=921.0
+2026-11-11 04:07:39,050 tick equity=790.76 pnl=-209.24 head=132837550 v3=921.0
+2026-11-11 04:08:04,870 tick equity=790.76 pnl=-209.24 head=132837608 v3=921.0
+2026-11-11 04:08:30,903 tick equity=790.76 pnl=-209.24 head=132837666 v3=921.0
+2026-11-11 04:09:00,731 tick equity=790.76 pnl=-209.24 head=132837724 v3=921.0
+2026-11-11 04:09:29,344 tick equity=790.76 pnl=-209.24 head=132837790 v3=921.0
