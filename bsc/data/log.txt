@@ -1,22 +1,3 @@
-2026-11-11 11:06:36,279 tick equity=790.76 pnl=-209.24 head=132893401 v3=921.0
-2026-11-11 11:06:59,977 tick equity=790.76 pnl=-209.24 head=132893458 v3=921.0
-2026-11-11 11:07:25,888 tick equity=790.76 pnl=-209.24 head=132893511 v3=921.0
-2026-11-11 11:10:28,720 tick equity=790.76 pnl=-209.24 head=132893912 v3=921.0
-2026-11-11 11:10:52,600 tick equity=790.76 pnl=-209.24 head=132893974 v3=921.0
-2026-11-11 11:19:14,366 SKIP-AHEAD 0xb9b069 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:15,019 SKIP-AHEAD 0xd392fc behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:15,217 SKIP-AHEAD 0xa03fa8 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:15,426 SKIP-AHEAD 0x9bee11 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:15,712 SKIP-AHEAD 0x5bc3a8 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:15,912 SKIP-AHEAD 0x770181 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:16,207 SKIP-AHEAD 0x7dfd45 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:16,405 SKIP-AHEAD 0x07a61c behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:16,707 SKIP-AHEAD 0xc5606c behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:16,906 SKIP-AHEAD 0xee1004 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:17,192 SKIP-AHEAD 0xe95033 behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:17,474 SKIP-AHEAD 0xc9ac2d behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:17,675 SKIP-AHEAD 0xdf579d behind 1123 blocks (132893974->132895097)
-2026-11-11 11:19:17,965 SKIP-AHEAD 0x329ca2 behind 1123 blocks (132893974->132895097)
 2026-11-11 11:19:18,169 SKIP-AHEAD 0x8d2896 behind 1123 blocks (132893974->132895097)
 2026-11-11 11:19:18,551 tick equity=790.76 pnl=-209.24 head=132895097 v3=921.0
 2026-11-11 11:19:42,416 tick equity=790.76 pnl=-209.24 head=132895152 v3=921.0
@@ -298,3 +279,22 @@
 2026-11-11 15:23:37,055 tick equity=790.76 pnl=-209.24 head=132927613 v3=921.0
 2026-11-11 15:24:15,083 tick equity=790.76 pnl=-209.24 head=132927711 v3=921.0
 2026-11-11 15:24:50,263 tick equity=790.76 pnl=-209.24 head=132927796 v3=921.0
+2026-11-11 15:25:28,442 V3 {'ts': 1794381888, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x5ec19b992cadb7cdc44a323744140ab271f77777', 'sym': 'BINANCEKITTY', 'price': 5.938e-06, 'action': 'skip-7d'}
+2026-11-11 15:25:29,579 V3 {'ts': 1794381901, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xe6137f2e227254197c922d6130b44258b7957777', 'sym': 'BITTY', 'price': 1.603e-05, 'action': 'skip-7d'}
+2026-11-11 15:25:32,813 V3 {'ts': 1794381907, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x5ec19b992cadb7cdc44a323744140ab271f77777', 'sym': 'BINANCEKITTY', 'price': 5.938e-06, 'action': 'skip-7d'}
+2026-11-11 15:25:41,149 tick equity=790.76 pnl=-209.24 head=132927874 v3=921.0
+2026-11-11 15:26:17,723 V3-ENTRY KILL BITTY 0xe6137f2e227254197c922d6130b44258b7957777 liq $17,587 < $20,000 v2 floor
+2026-11-11 15:26:17,736 V3 {'ts': 1794381920, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xe6137f2e227254197c922d6130b44258b7957777', 'sym': 'BITTY', 'price': 3.534e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $17,587 < $20,000 v2 floor']}
+2026-11-11 15:26:17,736 CONFLUENCE BITTY 0xe6137f2e227254197c922d6130b44258b7957777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc5606cde16fb8c39cc68d1d97700883ae951ff56']
+2026-11-11 15:26:21,287 V2-RISK BITTY 0xe6137f2e227254197c922d6130b44258b7957777 KILL buy_tax unknown; sell_tax unknown; top10 holders 100%; info: 开发者历史 0x935bbb… prior=199 dead=2/20 (10%)
+2026-11-11 15:26:21,287 V2 {'ts': 1794381920, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xe6137f2e227254197c922d6130b44258b7957777', 'sym': 'BITTY', 'price': 3.534e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: 开发者历史 0x935bbb… prior=199 dead=2/20 (10%)']}
+2026-11-11 15:26:22,636 V3-ENTRY KILL BITTY 0x013402127a7cc488196b9463e2b6918db9287777 liq $9,238 < $20,000 v2 floor
+2026-11-11 15:26:22,648 V3 {'ts': 1794381927, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x013402127a7cc488196b9463e2b6918db9287777', 'sym': 'BITTY', 'price': 4.609e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $9,238 < $20,000 v2 floor']}
+2026-11-11 15:26:39,309 V3 {'ts': 1794381943, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xe6137f2e227254197c922d6130b44258b7957777', 'sym': 'BITTY', 'price': 3.534e-05, 'action': 'skip-7d'}
+2026-11-11 15:26:41,719 V3 {'ts': 1794381951, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xe6137f2e227254197c922d6130b44258b7957777', 'sym': 'BITTY', 'price': 3.534e-05, 'action': 'skip-7d'}
+2026-11-11 15:26:54,640 tick equity=790.76 pnl=-209.24 head=132927987 v3=921.0
+2026-11-11 15:28:14,924 tick equity=790.76 pnl=-209.24 head=132928150 v3=921.0
+2026-11-11 15:28:54,370 V3-RISK CENSUS 0xfc96737a40dbf169782e60539b82d4ee17f25708 KILL owner can mint; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
+2026-11-11 15:28:54,371 V3 {'ts': 1794382112, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xfc96737a40dbf169782e60539b82d4ee17f25708', 'sym': 'CENSUS', 'price': 1.172e-07, 'action': 'kill-risk', 'reasons': ['owner can mint', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-11 15:29:14,272 tick equity=790.76 pnl=-209.24 head=132928329 v3=921.0
+2026-11-11 15:29:56,151 tick equity=790.76 pnl=-209.24 head=132928461 v3=921.0
