@@ -1533,5 +1533,29 @@
     "signal": 0.196
    }
   }
+ },
+ {
+  "date": "2026-11-11",
+  "ts": "2026-11-11T21:58:21+08:00",
+  "account": "Poly 共享池/锦标赛 (paper.py), 共识/精选 (poly_lab.py), 新钱包 (poly_new.py)",
+  "change": "仅模拟：同一场体育比赛禁止同时持有大小分（O/U）和球队盘（胜负/让分）。后到的一侧 skip why=related_game；同类型加仓仍走原有 GAME_CAP $35 / 让分 SPREAD_GAME_CAP $18。不强制平掉已经叠上的旧仓。尾盘高概率本身已跳过 O/U 与让分，未改。触发：11/11 晚报，共识/新钱包/精选/共享池在同一场把 Over 和球队盘一起打满，连续大亏后才触发日风控停新单（如热火/爵士）。",
+  "numbers": {
+   "skip_why": "related_game",
+   "GAME_CAP_unchanged": 35.0,
+   "SPREAD_GAME_CAP_unchanged": 18.0,
+   "SPREAD_MAX_STAKE_unchanged": 12.0,
+   "applies_to": [
+    "paper BASE/TOUR",
+    "poly_lab CONS/TOP",
+    "poly_new"
+   ],
+   "not_applied": [
+    "poly_lab TAIL already skips O/U and spread",
+    "poly_mom",
+    "bsc"
+   ],
+   "trigger": "11/11 evening: CONS Heat ML $20 + Over $3; TOP Heat Over $15 + Jazz ML $8; NEW Kent State/Bowling Green ML+Under and Ohio/Miami OH Over+ML; SHARE Harvard ML+Under and Thunder ML+Over"
+  },
+  "backup": "*.bak-1111-rel"
  }
 ]
