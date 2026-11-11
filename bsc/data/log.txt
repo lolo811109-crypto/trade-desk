@@ -1,17 +1,3 @@
-2026-11-11 12:08:05,859 tick equity=790.76 pnl=-209.24 head=132901598 v3=921.0
-2026-11-11 12:08:32,270 tick equity=790.76 pnl=-209.24 head=132901651 v3=921.0
-2026-11-11 12:08:58,888 tick equity=790.76 pnl=-209.24 head=132901709 v3=921.0
-2026-11-11 12:09:29,771 tick equity=790.76 pnl=-209.24 head=132901769 v3=921.0
-2026-11-11 12:11:57,482 tick equity=790.76 pnl=-209.24 head=132902083 v3=921.0
-2026-11-11 12:37:14,152 WATCHDOG: no successful tick 1516s, exiting for restart
-2026-11-11 12:37:40,738 DEVHIST backfill 132902084 -> 132905548 (~7d)
-2026-11-11 12:37:41,061 DEVHIST ready creators=4987 tokens=58629
-2026-11-11 12:37:48,514 tick equity=790.76 pnl=-209.24 head=132905556 v3=921.0
-2026-11-11 12:38:14,623 tick equity=790.76 pnl=-209.24 head=132905610 v3=921.0
-2026-11-11 12:38:40,984 tick equity=790.76 pnl=-209.24 head=132905668 v3=921.0
-2026-11-11 12:39:09,293 tick equity=790.76 pnl=-209.24 head=132905727 v3=921.0
-2026-11-11 12:39:35,273 tick equity=790.76 pnl=-209.24 head=132905789 v3=921.0
-2026-11-11 12:39:59,232 tick equity=790.76 pnl=-209.24 head=132905847 v3=921.0
 2026-11-11 12:40:23,284 tick equity=790.76 pnl=-209.24 head=132905900 v3=921.0
 2026-11-11 12:40:46,920 tick equity=790.76 pnl=-209.24 head=132905954 v3=921.0
 2026-11-11 12:41:13,760 tick equity=790.76 pnl=-209.24 head=132906006 v3=921.0
@@ -298,3 +284,17 @@
 2026-11-11 16:06:45,573 tick equity=790.76 pnl=-209.24 head=132933364 v3=921.0
 2026-11-11 16:07:16,771 V3-RISK bibi 0x1e358076f379c091c0479fa0a4cd574d7a58c5dc KILL top10 holders 61%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
 2026-11-11 16:07:16,771 V3 {'ts': 1794384383, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x1e358076f379c091c0479fa0a4cd574d7a58c5dc', 'sym': 'bibi', 'price': 5.117e-05, 'action': 'kill-risk', 'reasons': ['top10 holders 61%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
+2026-11-11 16:11:10,755 tick equity=790.76 pnl=-209.24 head=132933463 v3=921.0
+2026-11-11 16:12:09,529 {'ts': 1794384457, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'SELL', 'token': '0x0c84aed253eaab9b7263665d7e213b7aec718f23', 'tx': '0x486e029d76f27ffdecfd7572de40ba4c07cd708b17866a1d06ba25418c276fea', 'action': 'skip-noprice'}
+2026-11-11 16:12:14,226 V3-RISK 拳击猫 0x2227e8ee1cc76393c1d330832ec5bcc661057777 KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%; info: 开发者历史 0xc7a8eb… prior=5 dead=0/5 (0%)
+2026-11-11 16:12:14,226 V3 {'ts': 1794384504, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x2227e8ee1cc76393c1d330832ec5bcc661057777', 'sym': '拳击猫', 'price': 6.332e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0xc7a8eb… prior=5 dead=0/5 (0%)']}
+2026-11-11 16:12:34,947 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
+2026-11-11 16:12:34,947 V3 {'ts': 1794384474, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
+2026-11-11 16:12:36,314 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
+2026-11-11 16:12:36,314 V3 {'ts': 1794384475, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
+2026-11-11 16:12:36,857 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
+2026-11-11 16:12:36,858 V3 {'ts': 1794384475, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
+2026-11-11 16:12:38,221 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
+2026-11-11 16:12:38,222 V3 {'ts': 1794384478, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
+2026-11-11 16:12:39,873 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
+2026-11-11 16:12:39,873 V3 {'ts': 1794384479, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
