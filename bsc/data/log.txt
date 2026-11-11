@@ -1,15 +1,3 @@
-2026-11-11 10:05:14,920 tick equity=790.76 pnl=-209.24 head=132885222 v3=921.0
-2026-11-11 10:05:39,129 tick equity=790.76 pnl=-209.24 head=132885281 v3=921.0
-2026-11-11 10:06:05,266 tick equity=790.76 pnl=-209.24 head=132885335 v3=921.0
-2026-11-11 10:06:33,894 tick equity=790.76 pnl=-209.24 head=132885393 v3=921.0
-2026-11-11 10:07:00,555 V3 {'ts': 1794362813, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa389797ead20facf351429d9c1f973e1be2d7777', 'sym': '加密之旅', 'price': 4.676e-06, 'action': 'skip-7d'}
-2026-11-11 10:07:02,606 tick equity=790.76 pnl=-209.24 head=132885457 v3=921.0
-2026-11-11 10:07:28,741 tick equity=790.76 pnl=-209.24 head=132885521 v3=921.0
-2026-11-11 10:07:55,026 tick equity=790.76 pnl=-209.24 head=132885579 v3=921.0
-2026-11-11 10:08:22,687 tick equity=790.76 pnl=-209.24 head=132885637 v3=921.0
-2026-11-11 10:08:47,930 V3 {'ts': 1794362895, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xa389797ead20facf351429d9c1f973e1be2d7777', 'sym': '加密之旅', 'price': 5.333e-06, 'action': 'skip-7d'}
-2026-11-11 10:08:52,450 tick equity=790.76 pnl=-209.24 head=132885698 v3=921.0
-2026-11-11 10:12:43,391 V3 {'ts': 1794363097, 'wallet': '0x77018191c32bdf7542d8d82007ae26b41f614d96', 'side': 'BUY', 'token': '0xed99445d72787adb627cd8588586984df548cd2f', 'sym': 'UP', 'price': 0.3058, 'action': 'skip-7d'}
 2026-11-11 10:13:05,680 tick equity=790.76 pnl=-209.24 head=132886219 v3=921.0
 2026-11-11 10:34:24,107 WATCHDOG: no successful tick 1278s, exiting for restart
 2026-11-11 10:34:25,516 DEVHIST backfill 132886220 -> 132889124 (~7d)
@@ -298,3 +286,15 @@
 2026-11-11 14:26:18,454 {'ts': 1794378135, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xa34e62c556c809f58f1a94b48f2999fdf1094444', 'tx': '0xdb8ba8a854bd376a490de32ccf4eb26c23ea51705029ca9df5605774386e9cea', 'action': 'skip-noprice'}
 2026-11-11 14:26:21,870 V3-ENTRY KILL GIF 0x03e6ac171b575fe5ae9a890513f8c5be86a67777 liq $8,282 < $20,000 v2 floor
 2026-11-11 14:26:21,891 V3 {'ts': 1794378158, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x03e6ac171b575fe5ae9a890513f8c5be86a67777', 'sym': 'GIF', 'price': 3.975e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $8,282 < $20,000 v2 floor']}
+2026-11-11 14:26:52,480 tick equity=790.76 pnl=-209.24 head=132919902 v3=921.0
+2026-11-11 14:27:37,226 V3-ENTRY KILL SLAP 0x3af0daee3ebf208f9d94e22ef6b4df58fe447777 liq $12,935 < $20,000 v2 floor
+2026-11-11 14:27:37,241 V3 {'ts': 1794378387, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3af0daee3ebf208f9d94e22ef6b4df58fe447777', 'sym': 'SLAP', 'price': 9.699e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $12,935 < $20,000 v2 floor']}
+2026-11-11 14:27:43,120 V3-ENTRY KILL SLAP 0x3af0daee3ebf208f9d94e22ef6b4df58fe447777 liq $12,935 < $20,000 v2 floor
+2026-11-11 14:27:43,120 V3 {'ts': 1794378428, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x3af0daee3ebf208f9d94e22ef6b4df58fe447777', 'sym': 'SLAP', 'price': 9.699e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $12,935 < $20,000 v2 floor']}
+2026-11-11 14:28:07,956 tick equity=790.76 pnl=-209.24 head=132920150 v3=921.0
+2026-11-11 14:28:39,535 V3-ENTRY KILL SLAP 0xd82f2e48a0c7c90bb38f62d45c8d2096b7ccbfad liq $16,633 < $20,000 v2 floor
+2026-11-11 14:28:39,549 V3 {'ts': 1794378481, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xd82f2e48a0c7c90bb38f62d45c8d2096b7ccbfad', 'sym': 'SLAP', 'price': 3.643e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $16,633 < $20,000 v2 floor']}
+2026-11-11 14:29:25,083 tick equity=790.76 pnl=-209.24 head=132920317 v3=921.0
+2026-11-11 14:30:14,800 tick equity=790.76 pnl=-209.24 head=132920489 v3=921.0
+2026-11-11 14:30:59,368 tick equity=790.76 pnl=-209.24 head=132920600 v3=921.0
+2026-11-11 14:31:36,166 tick equity=790.76 pnl=-209.24 head=132920699 v3=921.0
