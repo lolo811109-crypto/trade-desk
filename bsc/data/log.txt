@@ -1,12 +1,3 @@
-2026-11-11 19:11:13,296 tick equity=790.76 pnl=-209.24 head=132957973 v3=919.24
-2026-11-11 19:11:41,800 tick equity=790.76 pnl=-209.24 head=132958038 v3=919.24
-2026-11-11 19:12:11,206 tick equity=790.76 pnl=-209.24 head=132958100 v3=919.24
-2026-11-11 19:13:33,068 tick equity=790.76 pnl=-209.24 head=132958165 v3=919.24
-2026-11-11 19:28:22,815 WATCHDOG: no successful tick 889s, exiting for restart
-2026-11-11 19:28:56,045 DEVHIST backfill 132958284 -> 132960353 (~7d)
-2026-11-11 19:28:56,436 DEVHIST ready creators=5106 tokens=61311
-2026-11-11 19:29:19,325 tick equity=790.76 pnl=-209.24 head=132960373 v3=919.24
-2026-11-11 19:29:54,482 tick equity=790.76 pnl=-209.24 head=132960450 v3=919.24
 2026-11-11 19:30:29,395 V3-RISK MORSE 0x7a3741c829ec2aee3313f314b0eadb743e8e7777 KILL buy_tax unknown; sell_tax unknown; dev holds 54% (>18%) creator 0xe2ce; info: 开发者历史未知
 2026-11-11 19:30:29,396 V3 {'ts': 1794396596, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x7a3741c829ec2aee3313f314b0eadb743e8e7777', 'sym': 'MORSE', 'price': 2.669e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'dev holds 54% (>18%) creator 0xe2ce', 'info: 开发者历史未知']}
 2026-11-11 19:30:44,920 tick equity=790.76 pnl=-209.24 head=132960528 v3=919.24
@@ -298,3 +289,12 @@
 2026-11-11 22:57:49,977 tick equity=790.76 pnl=-209.24 head=132988141 v3=921.24
 2026-11-11 22:58:36,069 tick equity=790.76 pnl=-209.24 head=132988241 v3=921.24
 2026-11-11 22:59:11,114 tick equity=790.76 pnl=-209.24 head=132988344 v3=921.24
+2026-11-11 22:59:55,580 tick equity=790.76 pnl=-209.24 head=132988421 v3=921.24
+2026-11-11 23:00:44,249 tick equity=790.76 pnl=-209.24 head=132988521 v3=921.24
+2026-11-11 23:01:27,739 tick equity=790.76 pnl=-209.24 head=132988628 v3=921.24
+2026-11-11 23:02:15,809 tick equity=790.76 pnl=-209.24 head=132988724 v3=921.24
+2026-11-11 23:03:00,142 tick equity=790.76 pnl=-209.24 head=132988831 v3=921.24
+2026-11-11 23:03:26,567 V3-ENTRY KILL 머스크 0x319f1da78ebb572ac8c450354043b3b738127777 liq $12,270 < $20,000 v2 floor
+2026-11-11 23:03:26,587 V3 {'ts': 1794409359, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0x319f1da78ebb572ac8c450354043b3b738127777', 'sym': '머스크', 'price': 1.704e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $12,270 < $20,000 v2 floor']}
+2026-11-11 23:03:37,809 tick equity=790.76 pnl=-209.24 head=132988929 v3=921.24
+2026-11-11 23:04:11,209 tick equity=790.76 pnl=-209.24 head=132989013 v3=921.24
