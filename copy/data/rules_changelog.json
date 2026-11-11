@@ -1648,5 +1648,32 @@
     "entry_liq 20000"
    ]
   }
+ },
+ {
+  "date": "2026-11-12",
+  "ts": "2026-11-12T03:30:00+08:00",
+  "account": "POLY天气 / 天气盘 (poly_weather.py)",
+  "change": "新增纸面账户「天气盘」：Polymarket 各城市每日最高/最低气温盘（结算源 aviationweather.gov METAR 的机场站）。用 Open-Meteo 集合预报（ECMWF 51 + GFS 31 + ICON 40 成员）按站点估每个温度档的概率：只用当天剩余小时，叠加已观测到的 METAR 极值（硬下限/上限），用最近24h观测-预报偏差做 0.6 收缩校正，再加随提前量增长的高斯误差(0.45+0.45×提前天数 °C)。入场：p_adj=0.65×模型+0.35×盘口中间价；买 Yes 或 No，要求 p_adj − (订单簿真实成交价 + taker费 5%×p×(1−p)) ≥ 0.08，首档卖价在 0.05–0.85，模型与盘口分歧>0.40 时不信模型、跳过。仓位 $10（边际≥0.20 时 $15），单个盘 ≤$30，单个日期 ≤$150，最多 30 笔持仓，每轮最多 8 笔新单，当日 −3% 停新单。持有到官方结算，若买价 ≥ 公允值+0.08 提前卖出。独立账本 paper_state_weather.json，本金 $1000。只读公开接口，无密钥、无下单。",
+  "numbers": {
+   "ledger": "paper_state_weather.json",
+   "bank": 1000,
+   "edge_min": 0.08,
+   "w_model": 0.65,
+   "ask_range": [
+    0.05,
+    0.85
+   ],
+   "stake": [
+    10,
+    15
+   ],
+   "event_cap": 30,
+   "date_cap": 150,
+   "max_open": 30,
+   "max_new_per_tick": 8,
+   "tick_sec": 240,
+   "fee": "5%*p*(1-p) taker",
+   "conflict_skip": 0.4
+  }
  }
 ]
