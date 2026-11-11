@@ -1624,5 +1624,29 @@
     "signal": 0.064
    }
   }
+ },
+ {
+  "date": "2026-11-12",
+  "ts": "2026-11-12T02:50:00+08:00",
+  "account": "BNB V3+GMGN (paper_bsc.py)",
+  "change": "新增并列模拟盘「V3+GMGN确认」：与现有 V3 同一跟单信号，入场前用 GMGN 官方只读 OpenAPI（token security + token info）过滤。跳过：蜜罐、无法卖出、买卖税>10%、rug_ratio>0.3、洗盘、聪明钱/smart_degen 持仓为 0；接口失败或 429 也跳过（计入 gmgn_err）。独立账本 bsc/paper_state_gmgn.json，本金 $1000，仓位与止盈止损/时间止损与 V3 相同（SL -10%、TP 全部 +25%、25 分钟走平、60 分钟未到 +12% 则出）。不改 V3、共振及 Poly 各账户。只读，不下真单。",
+  "numbers": {
+   "ledger": "bsc/paper_state_gmgn.json",
+   "bank": 1000,
+   "cache_ttl_sec": 600,
+   "tax_max": 0.1,
+   "rug_ratio_max": 0.3,
+   "min_smart_money": 1,
+   "same_as_v3": [
+    "stake 10",
+    "slip 4%",
+    "SL -10%",
+    "TP all @+25%",
+    "flat-cut 25m",
+    "time-stop 60m <+12%",
+    "dev>18% skip",
+    "entry_liq 20000"
+   ]
+  }
  }
 ]
