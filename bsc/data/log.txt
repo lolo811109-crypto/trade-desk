@@ -1,17 +1,3 @@
-2026-11-11 07:44:24,492 tick equity=790.76 pnl=-209.24 head=132866453 v3=921.0
-2026-11-11 07:44:52,992 tick equity=790.76 pnl=-209.24 head=132866507 v3=921.0
-2026-11-11 07:47:58,806 V3-RISK Stonks 0xc9d825e83aada475bd4d38c8ca984ed746277777 KILL sell_tax unknown; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史 0x0f9349… prior=200 dead=6/20 (30%)
-2026-11-11 07:47:58,806 V3 {'ts': 1794354401, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xc9d825e83aada475bd4d38c8ca984ed746277777', 'sym': 'Stonks', 'price': 0.0003846, 'action': 'kill-risk', 'reasons': ['sell_tax unknown', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x0f9349… prior=200 dead=6/20 (30%)']}
-2026-11-11 08:04:35,532 WATCHDOG: no successful tick 1182s, exiting for restart
-2026-11-11 08:04:37,054 DEVHIST backfill 132866920 -> 132869156 (~7d)
-2026-11-11 08:04:37,393 DEVHIST ready creators=4927 tokens=57357
-2026-11-11 08:04:46,226 tick equity=790.76 pnl=-209.24 head=132869165 v3=921.0
-2026-11-11 08:05:10,209 tick equity=790.76 pnl=-209.24 head=132869221 v3=921.0
-2026-11-11 08:05:37,627 tick equity=790.76 pnl=-209.24 head=132869274 v3=921.0
-2026-11-11 08:06:05,627 tick equity=790.76 pnl=-209.24 head=132869335 v3=921.0
-2026-11-11 08:06:31,667 tick equity=790.76 pnl=-209.24 head=132869397 v3=921.0
-2026-11-11 08:07:02,947 tick equity=790.76 pnl=-209.24 head=132869456 v3=921.0
-2026-11-11 08:07:33,675 tick equity=790.76 pnl=-209.24 head=132869524 v3=921.0
 2026-11-11 08:07:58,187 V3 {'ts': 1794355673, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x977e31be01b82f9e5e82843b6932e11af5447777', 'sym': '哈基仙人', 'price': 6.923e-05, 'action': 'skip-7d'}
 2026-11-11 08:07:59,914 tick equity=790.76 pnl=-209.24 head=132869592 v3=921.0
 2026-11-11 08:08:27,404 V3 {'ts': 1794355676, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x977e31be01b82f9e5e82843b6932e11af5447777', 'sym': '哈基仙人', 'price': 7.043e-05, 'action': 'skip-7d'}
@@ -298,3 +284,17 @@
 2026-11-11 12:08:32,270 tick equity=790.76 pnl=-209.24 head=132901651 v3=921.0
 2026-11-11 12:08:58,888 tick equity=790.76 pnl=-209.24 head=132901709 v3=921.0
 2026-11-11 12:09:29,771 tick equity=790.76 pnl=-209.24 head=132901769 v3=921.0
+2026-11-11 12:11:57,482 tick equity=790.76 pnl=-209.24 head=132902083 v3=921.0
+2026-11-11 12:37:14,152 WATCHDOG: no successful tick 1516s, exiting for restart
+2026-11-11 12:37:40,738 DEVHIST backfill 132902084 -> 132905548 (~7d)
+2026-11-11 12:37:41,061 DEVHIST ready creators=4987 tokens=58629
+2026-11-11 12:37:48,514 tick equity=790.76 pnl=-209.24 head=132905556 v3=921.0
+2026-11-11 12:38:14,623 tick equity=790.76 pnl=-209.24 head=132905610 v3=921.0
+2026-11-11 12:38:40,984 tick equity=790.76 pnl=-209.24 head=132905668 v3=921.0
+2026-11-11 12:39:09,293 tick equity=790.76 pnl=-209.24 head=132905727 v3=921.0
+2026-11-11 12:39:35,273 tick equity=790.76 pnl=-209.24 head=132905789 v3=921.0
+2026-11-11 12:39:59,232 tick equity=790.76 pnl=-209.24 head=132905847 v3=921.0
+2026-11-11 12:40:23,284 tick equity=790.76 pnl=-209.24 head=132905900 v3=921.0
+2026-11-11 12:40:46,920 tick equity=790.76 pnl=-209.24 head=132905954 v3=921.0
+2026-11-11 12:41:13,760 tick equity=790.76 pnl=-209.24 head=132906006 v3=921.0
+2026-11-11 12:41:39,666 tick equity=790.76 pnl=-209.24 head=132906066 v3=921.0
