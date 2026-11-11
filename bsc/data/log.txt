@@ -1,12 +1,3 @@
-2026-11-11 16:12:14,226 V3 {'ts': 1794384504, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x2227e8ee1cc76393c1d330832ec5bcc661057777', 'sym': '拳击猫', 'price': 6.332e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'info: dev holds 0.0%', 'info: 开发者历史 0xc7a8eb… prior=5 dead=0/5 (0%)']}
-2026-11-11 16:12:34,947 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
-2026-11-11 16:12:34,947 V3 {'ts': 1794384474, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
-2026-11-11 16:12:36,314 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
-2026-11-11 16:12:36,314 V3 {'ts': 1794384475, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
-2026-11-11 16:12:36,857 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
-2026-11-11 16:12:36,858 V3 {'ts': 1794384475, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
-2026-11-11 16:12:38,221 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
-2026-11-11 16:12:38,222 V3 {'ts': 1794384478, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
 2026-11-11 16:12:39,873 V3-ENTRY KILL GIN 0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777 liq $11,668 < $20,000 v2 floor
 2026-11-11 16:12:39,873 V3 {'ts': 1794384479, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xccbd85ef8d58a26bb1df6b7f26a6a988d1117777', 'sym': 'GIN', 'price': 1.536e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,668 < $20,000 v2 floor']}
 2026-11-11 16:17:13,221 tick equity=790.76 pnl=-209.24 head=132934056 v3=921.0
@@ -298,3 +289,12 @@
 2026-11-11 19:52:37,764 tick equity=790.76 pnl=-209.24 head=132963425 v3=919.24
 2026-11-11 19:53:12,247 tick equity=790.76 pnl=-209.24 head=132963555 v3=919.24
 2026-11-11 19:53:51,154 tick equity=790.76 pnl=-209.24 head=132963631 v3=919.24
+2026-11-11 19:54:26,150 tick equity=790.76 pnl=-209.24 head=132963718 v3=919.24
+2026-11-11 19:55:01,440 tick equity=790.76 pnl=-209.24 head=132963796 v3=919.24
+2026-11-11 19:55:30,768 tick equity=790.76 pnl=-209.24 head=132963875 v3=919.24
+2026-11-11 19:56:00,858 tick equity=790.76 pnl=-209.24 head=132963939 v3=919.24
+2026-11-11 19:56:34,817 tick equity=790.76 pnl=-209.24 head=132964006 v3=919.24
+2026-11-11 19:57:03,565 tick equity=790.76 pnl=-209.24 head=132964082 v3=919.24
+2026-11-11 19:57:37,996 tick equity=790.76 pnl=-209.24 head=132964145 v3=919.24
+2026-11-11 19:58:14,391 tick equity=790.76 pnl=-209.24 head=132964222 v3=919.24
+2026-11-11 19:58:43,980 tick equity=790.76 pnl=-209.24 head=132964302 v3=919.24
