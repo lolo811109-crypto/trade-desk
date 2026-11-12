@@ -1,18 +1,3 @@
-2026-11-12 07:19:53,310 tick equity=790.76 pnl=-209.24 head=133055117 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:20:14,722 tick equity=790.76 pnl=-209.24 head=133055164 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:20:35,977 tick equity=790.76 pnl=-209.24 head=133055212 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:20:57,173 tick equity=790.76 pnl=-209.24 head=133055259 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:21:18,667 tick equity=790.76 pnl=-209.24 head=133055306 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:21:40,141 tick equity=790.76 pnl=-209.24 head=133055354 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:22:00,995 tick equity=790.76 pnl=-209.24 head=133055402 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:22:22,837 tick equity=790.76 pnl=-209.24 head=133055448 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:22:43,684 tick equity=790.76 pnl=-209.24 head=133055497 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:23:05,066 tick equity=790.76 pnl=-209.24 head=133055543 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 07:23:26,878 V3-RISK NVDAB 0x02fca66c1d1afb4e2a7884261eb00f63598a7436 KILL top10 holders 88%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-12 07:23:26,878 V3 {'ts': 1794439399, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x02fca66c1d1afb4e2a7884261eb00f63598a7436', 'sym': 'NVDAB', 'price': 159.059, 'action': 'kill-risk', 'reasons': ['top10 holders 88%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-12 07:23:27,953 V3-RISK BNC4 0x7c8d5502b544ddaf8852fc46d1174e34876d545c KILL top10 holders 70%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-12 07:23:27,953 V3 {'ts': 1794439399, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x7c8d5502b544ddaf8852fc46d1174e34876d545c', 'sym': 'BNC4', 'price': 4.53, 'action': 'kill-risk', 'reasons': ['top10 holders 70%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-12 07:23:28,833 tick equity=790.76 pnl=-209.24 head=133055591 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 07:23:49,716 tick equity=790.76 pnl=-209.24 head=133055643 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 07:24:10,540 tick equity=790.76 pnl=-209.24 head=133055690 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 07:24:31,759 tick equity=790.76 pnl=-209.24 head=133055736 v3=921.24 conf=992.11 gmgn=1000.0
@@ -298,3 +283,18 @@
 2026-11-12 09:02:04,025 tick equity=790.76 pnl=-209.24 head=133068738 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 09:02:25,255 tick equity=790.76 pnl=-209.24 head=133068784 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 09:02:46,076 tick equity=790.76 pnl=-209.24 head=133068831 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:03:07,000 tick equity=790.76 pnl=-209.24 head=133068878 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:03:28,516 tick equity=790.76 pnl=-209.24 head=133068924 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:03:49,340 tick equity=790.76 pnl=-209.24 head=133068972 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:04:10,339 tick equity=790.76 pnl=-209.24 head=133069018 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:04:31,712 tick equity=790.76 pnl=-209.24 head=133069065 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:04:53,407 tick equity=790.76 pnl=-209.24 head=133069113 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:05:15,272 tick equity=790.76 pnl=-209.24 head=133069161 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:05:36,540 tick equity=790.76 pnl=-209.24 head=133069209 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:05:57,373 tick equity=790.76 pnl=-209.24 head=133069257 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:06:18,521 tick equity=790.76 pnl=-209.24 head=133069303 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:06:39,458 tick equity=790.76 pnl=-209.24 head=133069350 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:07:00,623 tick equity=790.76 pnl=-209.24 head=133069396 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:07:21,435 tick equity=790.76 pnl=-209.24 head=133069443 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:07:42,244 tick equity=790.76 pnl=-209.24 head=133069490 v3=921.24 conf=992.11 gmgn=1000.0
+2026-11-12 09:08:03,096 tick equity=790.76 pnl=-209.24 head=133069536 v3=921.24 conf=992.11 gmgn=1000.0
