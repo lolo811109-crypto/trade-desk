@@ -1,17 +1,3 @@
-2026-11-12 23:45:33,427 tick equity=790.76 pnl=-209.24 head=133186241 v3=911.25 conf=991.71 gmgn=1000.0
-2026-11-12 23:45:54,918 V3-ENTRY KILL COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 liq $9,524 < $20,000 v2 floor
-2026-11-12 23:45:54,918 V3 {'ts': 1794498340, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.493e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $9,524 < $20,000 v2 floor']}
-2026-11-12 23:45:55,063 V3-ENTRY KILL COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 liq $9,524 < $20,000 v2 floor
-2026-11-12 23:45:55,063 V3 {'ts': 1794498342, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.493e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $9,524 < $20,000 v2 floor']}
-2026-11-12 23:45:57,843 tick equity=790.76 pnl=-209.24 head=133186290 v3=911.25 conf=991.71 gmgn=1000.0
-2026-11-12 23:46:20,052 tick equity=790.76 pnl=-209.24 head=133186344 v3=911.25 conf=991.71 gmgn=1000.0
-2026-11-12 23:46:41,252 V3 {'ts': 1794498379, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xf3525965a4ad3ca0ac13f4d2f237113691194444', 'sym': '熊猫头', 'price': 0.0001631, 'action': 'sell', 'proceeds': 8.37, 'pnl': -1.63}
-2026-11-12 23:46:43,417 tick equity=790.76 pnl=-209.24 head=133186394 v3=911.22 conf=991.71 gmgn=1000.0
-2026-11-12 23:47:04,441 V3-ENTRY KILL COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 liq $9,781 < $20,000 v2 floor
-2026-11-12 23:47:04,441 V3 {'ts': 1794498421, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.574e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $9,781 < $20,000 v2 floor']}
-2026-11-12 23:47:06,837 tick equity=790.76 pnl=-209.24 head=133186446 v3=911.22 conf=991.71 gmgn=1000.0
-2026-11-12 23:47:28,013 V3-ENTRY KILL COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 liq $10,035 < $20,000 v2 floor
-2026-11-12 23:47:28,014 V3 {'ts': 1794498424, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.655e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $10,035 < $20,000 v2 floor']}
 2026-11-12 23:47:28,168 V3-ENTRY KILL COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 liq $10,035 < $20,000 v2 floor
 2026-11-12 23:47:28,169 V3 {'ts': 1794498429, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.655e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $10,035 < $20,000 v2 floor']}
 2026-11-12 23:47:29,640 tick equity=790.76 pnl=-209.24 head=133186498 v3=911.22 conf=991.71 gmgn=1000.0
@@ -298,3 +284,17 @@
 2026-11-13 01:13:13,421 tick equity=790.76 pnl=-209.24 head=133197927 v3=911.22 conf=991.71 gmgn=1000.0
 2026-11-13 01:13:35,483 tick equity=790.76 pnl=-209.24 head=133197975 v3=911.22 conf=991.71 gmgn=1000.0
 2026-11-13 01:13:57,278 tick equity=790.76 pnl=-209.24 head=133198024 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:14:18,708 tick equity=790.76 pnl=-209.24 head=133198072 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:14:40,719 tick equity=790.76 pnl=-209.24 head=133198120 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:15:02,223 tick equity=790.76 pnl=-209.24 head=133198169 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:15:23,265 tick equity=790.76 pnl=-209.24 head=133198217 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:15:45,372 tick equity=790.76 pnl=-209.24 head=133198263 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:16:07,897 tick equity=790.76 pnl=-209.24 head=133198313 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:16:29,895 tick equity=790.76 pnl=-209.24 head=133198363 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:16:52,232 tick equity=790.76 pnl=-209.24 head=133198411 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:17:14,316 tick equity=790.76 pnl=-209.24 head=133198461 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:17:35,720 tick equity=790.76 pnl=-209.24 head=133198510 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:17:56,641 tick equity=790.76 pnl=-209.24 head=133198558 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:18:17,607 tick equity=790.76 pnl=-209.24 head=133198604 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:18:39,510 tick equity=790.76 pnl=-209.24 head=133198651 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 01:19:00,941 tick equity=790.76 pnl=-209.24 head=133198699 v3=911.22 conf=991.71 gmgn=1000.0
