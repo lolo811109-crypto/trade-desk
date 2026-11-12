@@ -1,17 +1,3 @@
-2026-11-12 23:17:53,601 tick equity=790.76 pnl=-209.24 head=133182555 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:18:14,617 tick equity=790.76 pnl=-209.24 head=133182604 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:18:36,950 tick equity=790.76 pnl=-209.24 head=133182651 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:18:57,936 V3-ENTRY KILL Jobless 0x6b963d774218a6a8e0fc5c5ee30c1c67cb777777 liq $13,799 < $20,000 v2 floor
-2026-11-12 23:18:57,936 V3 {'ts': 1794496728, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x6b963d774218a6a8e0fc5c5ee30c1c67cb777777', 'sym': 'Jobless', 'price': 3.174e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $13,799 < $20,000 v2 floor']}
-2026-11-12 23:19:00,142 tick equity=790.76 pnl=-209.24 head=133182700 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:19:23,402 tick equity=790.76 pnl=-209.24 head=133182752 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:19:45,147 V3 {'ts': 1794496773, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x980a7821a17669259984b248934546de3fcf7777', 'sym': '黑天鹅', 'price': 0.0002365, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x9261c6… prior=199 dead=6/20 (30%)']}
-2026-11-12 23:19:46,064 tick equity=790.76 pnl=-209.24 head=133182804 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:20:07,821 V3-ENTRY KILL Jobless 0x6b963d774218a6a8e0fc5c5ee30c1c67cb777777 liq $11,353 < $20,000 v2 floor
-2026-11-12 23:20:07,821 V3 {'ts': 1794496787, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x6b963d774218a6a8e0fc5c5ee30c1c67cb777777', 'sym': 'Jobless', 'price': 2.131e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,353 < $20,000 v2 floor']}
-2026-11-12 23:20:09,577 tick equity=790.76 pnl=-209.24 head=133182854 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:20:30,720 V3-ENTRY KILL Jobless 0x6b963d774218a6a8e0fc5c5ee30c1c67cb777777 liq $11,930 < $20,000 v2 floor
-2026-11-12 23:20:30,721 V3 {'ts': 1794496810, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x6b963d774218a6a8e0fc5c5ee30c1c67cb777777', 'sym': 'Jobless', 'price': 2.352e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,930 < $20,000 v2 floor']}
 2026-11-12 23:20:31,486 tick equity=790.76 pnl=-209.24 head=133182906 v3=912.85 conf=991.71 gmgn=1000.0
 2026-11-12 23:20:53,655 tick equity=790.76 pnl=-209.24 head=133182955 v3=912.85 conf=991.71 gmgn=1000.0
 2026-11-12 23:21:14,697 V3-ENTRY KILL Jobless 0x6b963d774218a6a8e0fc5c5ee30c1c67cb777777 liq $11,653 < $20,000 v2 floor
@@ -298,3 +284,17 @@
 2026-11-13 00:43:06,205 tick equity=790.76 pnl=-209.24 head=133193911 v3=911.22 conf=991.71 gmgn=1000.0
 2026-11-13 00:43:28,191 tick equity=790.76 pnl=-209.24 head=133193959 v3=911.22 conf=991.71 gmgn=1000.0
 2026-11-13 00:43:50,394 tick equity=790.76 pnl=-209.24 head=133194008 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:44:12,974 tick equity=790.76 pnl=-209.24 head=133194057 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:44:35,411 tick equity=790.76 pnl=-209.24 head=133194107 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:44:57,786 tick equity=790.76 pnl=-209.24 head=133194157 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:45:19,238 tick equity=790.76 pnl=-209.24 head=133194207 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:45:40,246 tick equity=790.76 pnl=-209.24 head=133194254 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:46:05,184 tick equity=790.76 pnl=-209.24 head=133194301 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:46:28,066 tick equity=790.76 pnl=-209.24 head=133194356 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:46:50,601 tick equity=790.76 pnl=-209.24 head=133194407 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:47:12,125 tick equity=790.76 pnl=-209.24 head=133194457 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:47:34,137 tick equity=790.76 pnl=-209.24 head=133194505 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:47:57,253 tick equity=790.76 pnl=-209.24 head=133194554 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:48:17,623 DEVHIST chunk err 133194473-133194606 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-13 00:48:19,725 tick equity=790.76 pnl=-209.24 head=133194606 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:48:43,684 tick equity=790.76 pnl=-209.24 head=133194656 v3=911.22 conf=991.71 gmgn=1000.0
