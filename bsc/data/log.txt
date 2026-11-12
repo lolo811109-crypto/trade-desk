@@ -1,19 +1,3 @@
-2026-11-12 12:28:56,411 tick equity=790.76 pnl=-209.24 head=133096316 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:29:17,436 tick equity=790.76 pnl=-209.24 head=133096362 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:29:39,491 V3-RISK JCT 0xea37a8de1de2d9d10772eeb569e28bfa5cb17707 KILL top10 holders 80%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-12 12:29:39,491 V3 {'ts': 1794457759, 'wallet': '0xa03fa805f34b9eebeae0d0adaeda4113246b8f12', 'side': 'BUY', 'token': '0xea37a8de1de2d9d10772eeb569e28bfa5cb17707', 'sym': 'JCT', 'price': 0.004221, 'action': 'kill-risk', 'reasons': ['top10 holders 80%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-12 12:29:40,703 tick equity=790.76 pnl=-209.24 head=133096409 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:30:01,893 tick equity=790.76 pnl=-209.24 head=133096461 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:30:19,404 DEVHIST chunk err 133096369-133096502 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-12 12:30:23,083 tick equity=790.76 pnl=-209.24 head=133096508 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:30:44,056 tick equity=790.76 pnl=-209.24 head=133096555 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:31:05,123 tick equity=790.76 pnl=-209.24 head=133096601 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:31:26,627 tick equity=790.76 pnl=-209.24 head=133096648 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:31:47,616 tick equity=790.76 pnl=-209.24 head=133096695 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:32:09,246 tick equity=790.76 pnl=-209.24 head=133096741 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:32:30,709 tick equity=790.76 pnl=-209.24 head=133096789 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:32:51,833 tick equity=790.76 pnl=-209.24 head=133096837 v3=921.24 conf=992.11 gmgn=1000.0
-2026-11-12 12:33:13,351 tick equity=790.76 pnl=-209.24 head=133096884 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 12:33:34,390 tick equity=790.76 pnl=-209.24 head=133096932 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 12:33:55,617 tick equity=790.76 pnl=-209.24 head=133096979 v3=921.24 conf=992.11 gmgn=1000.0
 2026-11-12 12:34:16,589 tick equity=790.76 pnl=-209.24 head=133097026 v3=921.24 conf=992.11 gmgn=1000.0
@@ -298,3 +282,19 @@
 2026-11-12 14:10:37,602 tick equity=790.76 pnl=-209.24 head=133109868 v3=919.52 conf=992.11 gmgn=1000.0
 2026-11-12 14:10:58,961 tick equity=790.76 pnl=-209.24 head=133109916 v3=919.52 conf=992.11 gmgn=1000.0
 2026-11-12 14:11:20,546 tick equity=790.76 pnl=-209.24 head=133109963 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:11:42,299 tick equity=790.76 pnl=-209.24 head=133110011 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:12:03,431 tick equity=790.76 pnl=-209.24 head=133110059 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:12:24,773 tick equity=790.76 pnl=-209.24 head=133110106 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:12:46,691 tick equity=790.76 pnl=-209.24 head=133110153 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:13:08,076 tick equity=790.76 pnl=-209.24 head=133110202 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:13:29,474 tick equity=790.76 pnl=-209.24 head=133110250 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:13:51,793 tick equity=790.76 pnl=-209.24 head=133110297 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:14:12,875 tick equity=790.76 pnl=-209.24 head=133110347 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:14:34,260 tick equity=790.76 pnl=-209.24 head=133110393 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:14:55,651 tick equity=790.76 pnl=-209.24 head=133110441 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:15:20,086 V3-RISK 涨醒 0x2a06ddb8f82b2926ccd852d8cdc2348246857777 KILL sell_tax unknown; LP only 0% locked/burned; info: dev holds 0.0%; 开发者历史大多归零 15/20 (≥60%, n≥3) creator 0x59c67584
+2026-11-12 14:15:20,086 V3 {'ts': 1794464098, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x2a06ddb8f82b2926ccd852d8cdc2348246857777', 'sym': '涨醒', 'price': 0.000192, 'action': 'kill-risk', 'reasons': ['sell_tax unknown', 'LP only 0% locked/burned', 'info: dev holds 0.0%', '开发者历史大多归零 15/20 (≥60%, n≥3) creator 0x59c67584']}
+2026-11-12 14:15:21,496 tick equity=790.76 pnl=-209.24 head=133110489 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:15:43,262 tick equity=790.76 pnl=-209.24 head=133110546 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:16:04,669 tick equity=790.76 pnl=-209.24 head=133110594 v3=919.52 conf=992.11 gmgn=1000.0
+2026-11-12 14:16:26,390 tick equity=790.76 pnl=-209.24 head=133110642 v3=919.52 conf=992.11 gmgn=1000.0
