@@ -1,23 +1,3 @@
-2026-11-12 22:08:33,999 tick equity=790.76 pnl=-209.24 head=133173492 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:08:55,366 tick equity=790.76 pnl=-209.24 head=133173543 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:09:18,575 tick equity=790.76 pnl=-209.24 head=133173590 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:09:41,426 tick equity=790.76 pnl=-209.24 head=133173642 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:10:03,496 tick equity=790.76 pnl=-209.24 head=133173693 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:10:18,002 DEVHIST chunk err 133173596-133173729 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-12 22:10:25,308 tick equity=790.76 pnl=-209.24 head=133173742 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:10:47,101 tick equity=790.76 pnl=-209.24 head=133173790 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:11:09,918 tick equity=790.76 pnl=-209.24 head=133173839 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:11:31,918 tick equity=790.76 pnl=-209.24 head=133173889 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:11:53,650 tick equity=790.76 pnl=-209.24 head=133173938 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:12:14,911 tick equity=790.76 pnl=-209.24 head=133173987 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:12:37,563 tick equity=790.76 pnl=-209.24 head=133174034 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:13:00,958 tick equity=790.76 pnl=-209.24 head=133174084 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:13:22,017 V3-ENTRY KILL LOVE 0x6f83bc2ae2b26c51770480d4cd30ff2c76d87777 liq $8,735 < $20,000 v2 floor
-2026-11-12 22:13:22,051 V3 {'ts': 1794492779, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x6f83bc2ae2b26c51770480d4cd30ff2c76d87777', 'sym': 'LOVE', 'price': 6.435e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $8,735 < $20,000 v2 floor']}
-2026-11-12 22:13:23,793 tick equity=790.76 pnl=-209.24 head=133174136 v3=917.98 conf=992.11 gmgn=1000.0
-2026-11-12 22:13:45,707 V3-RISK Max 0xe9bc5c6a86caa44fd7b469bf3cc7c563e4f77777 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-12 22:13:45,707 V3 {'ts': 1794492817, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xe9bc5c6a86caa44fd7b469bf3cc7c563e4f77777', 'sym': 'Max', 'price': 0.001375, 'action': 'buy', 'stake': 10.0}
-2026-11-12 22:13:47,446 tick equity=790.76 pnl=-209.24 head=133174187 v3=917.2 conf=992.11 gmgn=1000.0
 2026-11-12 22:14:09,255 V3 {'ts': 1794492849, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'SELL', 'token': '0xe9bc5c6a86caa44fd7b469bf3cc7c563e4f77777', 'sym': 'Max', 'price': 0.00117, 'action': 'stop-loss', 'proceeds': 7.84, 'pnl': -2.16}
 2026-11-12 22:14:09,369 tick equity=790.76 pnl=-209.24 head=133174240 v3=915.82 conf=992.11 gmgn=1000.0
 2026-11-12 22:14:32,274 tick equity=790.76 pnl=-209.24 head=133174288 v3=915.82 conf=992.11 gmgn=1000.0
@@ -298,3 +278,23 @@
 2026-11-12 23:32:12,666 tick equity=790.76 pnl=-209.24 head=133184462 v3=911.37 conf=991.71 gmgn=1000.0
 2026-11-12 23:32:34,476 tick equity=790.76 pnl=-209.24 head=133184513 v3=911.37 conf=991.71 gmgn=1000.0
 2026-11-12 23:32:56,542 tick equity=790.76 pnl=-209.24 head=133184561 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:33:19,027 tick equity=790.76 pnl=-209.24 head=133184610 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:33:41,448 tick equity=790.76 pnl=-209.24 head=133184660 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:34:04,323 tick equity=790.76 pnl=-209.24 head=133184710 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:34:26,842 tick equity=790.76 pnl=-209.24 head=133184761 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:34:49,175 tick equity=790.76 pnl=-209.24 head=133184811 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:35:10,640 tick equity=790.76 pnl=-209.24 head=133184860 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:35:32,140 tick equity=790.76 pnl=-209.24 head=133184907 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:35:53,760 tick equity=790.76 pnl=-209.24 head=133184955 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:36:15,185 V3-ENTRY KILL COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 liq $12,480 < $20,000 v2 floor
+2026-11-12 23:36:15,227 V3 {'ts': 1794497771, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.238e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $12,480 < $20,000 v2 floor']}
+2026-11-12 23:36:15,228 CONFLUENCE COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc5606cde16fb8c39cc68d1d97700883ae951ff56']
+2026-11-12 23:36:18,540 V2-RISK COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 KILL buy_tax unknown; sell_tax unknown; top10 holders 100%; info: 开发者历史 0xdf2237… prior=155 dead=0/20 (0%)
+2026-11-12 23:36:18,541 V2 {'ts': 1794497771, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.238e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 100%', 'info: 开发者历史 0xdf2237… prior=155 dead=0/20 (0%)']}
+2026-11-12 23:36:18,695 V3-ENTRY KILL COOK 0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777 liq $12,480 < $20,000 v2 floor
+2026-11-12 23:36:18,696 V3 {'ts': 1794497772, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x4e9b6fd7fb8bdc9e98c4a9dd384f446222fe7777', 'sym': 'COOK', 'price': 1.238e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $12,480 < $20,000 v2 floor']}
+2026-11-12 23:36:20,118 tick equity=790.76 pnl=-209.24 head=133185003 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:36:42,600 tick equity=790.76 pnl=-209.24 head=133185062 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:37:05,202 tick equity=790.76 pnl=-209.24 head=133185112 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:37:26,749 tick equity=790.76 pnl=-209.24 head=133185162 v3=911.37 conf=991.71 gmgn=1000.0
+2026-11-12 23:37:48,612 tick equity=790.76 pnl=-209.24 head=133185210 v3=911.37 conf=991.71 gmgn=1000.0
