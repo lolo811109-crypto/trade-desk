@@ -1,24 +1,3 @@
-2026-11-12 22:59:52,010 tick equity=790.76 pnl=-209.24 head=133180328 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:00:13,962 tick equity=790.76 pnl=-209.24 head=133180378 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:00:34,963 tick equity=790.76 pnl=-209.24 head=133180391 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:00:56,237 V3-ENTRY KILL Dickcoin 0x8d3635d206cc9027fa680431c541e35b8a787777 liq $11,759 < $20,000 v2 floor
-2026-11-12 23:00:56,282 V3 {'ts': 1794495633, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x8d3635d206cc9027fa680431c541e35b8a787777', 'sym': 'Dickcoin', 'price': 1.104e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,759 < $20,000 v2 floor']}
-2026-11-12 23:00:57,850 tick equity=790.76 pnl=-209.24 head=133180438 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:01:20,697 tick equity=790.76 pnl=-209.24 head=133180489 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:01:42,611 tick equity=790.76 pnl=-209.24 head=133180540 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:02:03,970 tick equity=790.76 pnl=-209.24 head=133180557 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:02:26,452 tick equity=790.76 pnl=-209.24 head=133180600 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:02:48,982 tick equity=790.76 pnl=-209.24 head=133180650 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:03:11,625 tick equity=790.76 pnl=-209.24 head=133180700 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:03:32,804 tick equity=790.76 pnl=-209.24 head=133180724 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:03:56,019 tick equity=790.76 pnl=-209.24 head=133180762 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:04:17,515 tick equity=790.76 pnl=-209.24 head=133180814 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:04:39,261 tick equity=790.76 pnl=-209.24 head=133180861 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:05:02,911 tick equity=790.76 pnl=-209.24 head=133180891 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:05:25,577 tick equity=790.76 pnl=-209.24 head=133180927 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:05:47,305 tick equity=790.76 pnl=-209.24 head=133180977 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:06:09,129 tick equity=790.76 pnl=-209.24 head=133181026 v3=912.85 conf=991.71 gmgn=1000.0
-2026-11-12 23:06:30,123 tick equity=790.76 pnl=-209.24 head=133181058 v3=912.85 conf=991.71 gmgn=1000.0
 2026-11-12 23:06:52,010 tick equity=790.76 pnl=-209.24 head=133181085 v3=912.85 conf=991.71 gmgn=1000.0
 2026-11-12 23:07:13,566 tick equity=790.76 pnl=-209.24 head=133181134 v3=912.85 conf=991.71 gmgn=1000.0
 2026-11-12 23:07:35,101 tick equity=790.76 pnl=-209.24 head=133181182 v3=912.85 conf=991.71 gmgn=1000.0
@@ -298,3 +277,24 @@
 2026-11-13 00:27:36,733 tick equity=790.76 pnl=-209.24 head=133191846 v3=911.22 conf=991.71 gmgn=1000.0
 2026-11-13 00:28:00,525 tick equity=790.76 pnl=-209.24 head=133191894 v3=911.22 conf=991.71 gmgn=1000.0
 2026-11-13 00:28:21,951 tick equity=790.76 pnl=-209.24 head=133191947 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:28:44,369 tick equity=790.76 pnl=-209.24 head=133191995 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:29:05,814 tick equity=790.76 pnl=-209.24 head=133192044 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:29:26,830 tick equity=790.76 pnl=-209.24 head=133192091 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:29:49,526 tick equity=790.76 pnl=-209.24 head=133192138 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:30:09,812 DEVHIST chunk err 133192056-133192189 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-13 00:30:12,478 tick equity=790.76 pnl=-209.24 head=133192188 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:30:33,428 V3-ENTRY KILL 小奶蛙 0x7d76e3c16f4930a3f5043bb5f9f024c78ec77777 liq $19,816 < $20,000 v2 floor
+2026-11-13 00:30:33,505 V3 {'ts': 1794501025, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x7d76e3c16f4930a3f5043bb5f9f024c78ec77777', 'sym': '小奶蛙', 'price': 4.759e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,816 < $20,000 v2 floor']}
+2026-11-13 00:30:35,858 tick equity=790.76 pnl=-209.24 head=133192239 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:30:59,076 tick equity=790.76 pnl=-209.24 head=133192291 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:31:26,539 tick equity=790.76 pnl=-209.24 head=133192343 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:31:53,274 tick equity=790.76 pnl=-209.24 head=133192404 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:32:11,035 DEVHIST chunk err 133192325-133192458 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-13 00:32:17,562 V3-RISK 小奶蛙 0x7d76e3c16f4930a3f5043bb5f9f024c78ec77777 KILL buy_tax unknown; sell_tax unknown; top10 holders 82%; dev holds 28% (>18%) creator 0xe2ce; info: 开发者历史未知
+2026-11-13 00:32:17,563 V3 {'ts': 1794501120, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x7d76e3c16f4930a3f5043bb5f9f024c78ec77777', 'sym': '小奶蛙', 'price': 9.676e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 82%', 'dev holds 28% (>18%) creator 0xe2ce', 'info: 开发者历史未知']}
+2026-11-13 00:32:17,713 V3 {'ts': 1794501122, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x7d76e3c16f4930a3f5043bb5f9f024c78ec77777', 'sym': '小奶蛙', 'price': 9.676e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 82%', 'dev holds 28% (>18%) creator 0xe2ce', 'info: 开发者历史未知']}
+2026-11-13 00:32:23,897 tick equity=790.76 pnl=-209.24 head=133192463 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:32:49,630 tick equity=790.76 pnl=-209.24 head=133192531 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:33:13,240 tick equity=790.76 pnl=-209.24 head=133192588 v3=911.22 conf=991.71 gmgn=1000.0
+2026-11-13 00:33:34,395 V3 {'ts': 1794501208, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x7d76e3c16f4930a3f5043bb5f9f024c78ec77777', 'sym': '小奶蛙', 'price': 8.713e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 82%', 'dev holds 28% (>18%) creator 0xe2ce', 'info: 开发者历史未知']}
+2026-11-13 00:33:38,238 tick equity=790.76 pnl=-209.24 head=133192641 v3=911.22 conf=991.71 gmgn=1000.0
