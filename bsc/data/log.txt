@@ -1,22 +1,3 @@
-2026-11-12 21:03:52,068 tick equity=790.76 pnl=-209.24 head=133164877 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:04:13,302 V3 {'ts': 1794488636, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x36f5fe91357de10e7ae242d66e38857a7df27777', 'sym': '牛牛', 'price': 6.662e-06, 'action': 'skip-7d'}
-2026-11-12 21:04:13,426 V3 {'ts': 1794488648, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x36f5fe91357de10e7ae242d66e38857a7df27777', 'sym': '牛牛', 'price': 6.662e-06, 'action': 'skip-7d'}
-2026-11-12 21:04:13,548 V3 {'ts': 1794488648, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x36f5fe91357de10e7ae242d66e38857a7df27777', 'sym': '牛牛', 'price': 6.662e-06, 'action': 'skip-7d'}
-2026-11-12 21:04:14,836 tick equity=790.76 pnl=-209.24 head=133164924 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:04:36,396 tick equity=790.76 pnl=-209.24 head=133164975 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:04:57,531 tick equity=790.76 pnl=-209.24 head=133165023 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:05:18,753 tick equity=790.76 pnl=-209.24 head=133165070 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:05:39,717 tick equity=790.76 pnl=-209.24 head=133165117 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:06:01,128 tick equity=790.76 pnl=-209.24 head=133165164 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:06:22,469 tick equity=790.76 pnl=-209.24 head=133165211 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:06:43,397 tick equity=790.76 pnl=-209.24 head=133165259 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:06:53,547 DEVHIST chunk err 133165150-133165283 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-12 21:07:05,155 tick equity=790.76 pnl=-209.24 head=133165305 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:07:26,355 V3 {'ts': 1794488830, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3f3e45b81074dd34dc68ae2d4fe978f49ec87777', 'sym': '牛X', 'price': 2.789e-05, 'action': 'skip-7d'}
-2026-11-12 21:07:27,094 tick equity=790.76 pnl=-209.24 head=133165354 v3=918.38 conf=992.11 gmgn=1000.0
-2026-11-12 21:07:48,332 V3 {'ts': 1794488860, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3f3e45b81074dd34dc68ae2d4fe978f49ec87777', 'sym': '牛X', 'price': 2.789e-05, 'action': 'skip-7d'}
-2026-11-12 21:07:48,583 V3 {'ts': 1794488865, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x3f3e45b81074dd34dc68ae2d4fe978f49ec87777', 'sym': '牛X', 'price': 2.789e-05, 'action': 'skip-7d'}
-2026-11-12 21:07:49,794 tick equity=790.76 pnl=-209.24 head=133165402 v3=918.38 conf=992.11 gmgn=1000.0
 2026-11-12 21:08:10,743 tick equity=790.76 pnl=-209.24 head=133165453 v3=918.38 conf=992.11 gmgn=1000.0
 2026-11-12 21:08:32,964 tick equity=790.76 pnl=-209.24 head=133165499 v3=918.38 conf=992.11 gmgn=1000.0
 2026-11-12 21:08:54,001 tick equity=790.76 pnl=-209.24 head=133165549 v3=918.38 conf=992.11 gmgn=1000.0
@@ -298,3 +279,22 @@
 2026-11-12 22:26:48,757 tick equity=790.76 pnl=-209.24 head=133175920 v3=912.85 conf=991.71 gmgn=1000.0
 2026-11-12 22:27:09,900 V3 {'ts': 1794493618, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x980a7821a17669259984b248934546de3fcf7777', 'sym': '黑天鹅', 'price': 0.0002159, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x9261c6… prior=199 dead=6/20 (30%)']}
 2026-11-12 22:27:13,120 tick equity=790.76 pnl=-209.24 head=133175971 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:27:34,239 V3 {'ts': 1794493630, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x980a7821a17669259984b248934546de3fcf7777', 'sym': '黑天鹅', 'price': 0.000175, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0x9261c6… prior=199 dead=6/20 (30%)']}
+2026-11-12 22:27:36,765 tick equity=790.76 pnl=-209.24 head=133176025 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:28:00,456 tick equity=790.76 pnl=-209.24 head=133176078 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:28:21,452 V3-ENTRY KILL RM 0x0de26e00d62e1dd50bd104b53d7e4661c4777777 liq $13,382 < $20,000 v2 floor
+2026-11-12 22:28:21,452 V3 {'ts': 1794493677, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x0de26e00d62e1dd50bd104b53d7e4661c4777777', 'sym': 'RM', 'price': 3.22e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $13,382 < $20,000 v2 floor']}
+2026-11-12 22:28:21,452 CONFLUENCE RM 0x0de26e00d62e1dd50bd104b53d7e4661c4777777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f']
+2026-11-12 22:28:24,737 V2-RISK RM 0x0de26e00d62e1dd50bd104b53d7e4661c4777777 KILL buy_tax unknown; sell_tax unknown; 开发者历史大多归零 13/20 (≥60%, n≥3) creator 0x739d334f
+2026-11-12 22:28:24,737 V2 {'ts': 1794493677, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x0de26e00d62e1dd50bd104b53d7e4661c4777777', 'sym': 'RM', 'price': 3.22e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', '开发者历史大多归零 13/20 (≥60%, n≥3) creator 0x739d334f']}
+2026-11-12 22:28:28,989 tick equity=790.76 pnl=-209.24 head=133176130 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:28:53,849 tick equity=790.76 pnl=-209.24 head=133176194 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:29:16,604 tick equity=790.76 pnl=-209.24 head=133176249 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:29:38,896 tick equity=790.76 pnl=-209.24 head=133176300 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:30:01,480 tick equity=790.76 pnl=-209.24 head=133176349 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:30:24,199 tick equity=790.76 pnl=-209.24 head=133176399 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:30:48,124 tick equity=790.76 pnl=-209.24 head=133176450 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:31:09,270 tick equity=790.76 pnl=-209.24 head=133176503 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:31:31,677 tick equity=790.76 pnl=-209.24 head=133176550 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:31:54,157 tick equity=790.76 pnl=-209.24 head=133176600 v3=912.85 conf=991.71 gmgn=1000.0
+2026-11-12 22:32:16,638 tick equity=790.76 pnl=-209.24 head=133176650 v3=912.85 conf=991.71 gmgn=1000.0
