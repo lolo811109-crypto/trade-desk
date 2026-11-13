@@ -1,21 +1,3 @@
-2026-11-13 22:58:39,540 tick equity=790.76 pnl=-209.24 head=133371792 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 22:59:01,486 tick equity=790.76 pnl=-209.24 head=133371840 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 22:59:12,865 DEVHIST chunk err 133371736-133371870 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 22:59:24,045 tick equity=790.76 pnl=-209.24 head=133371889 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 22:59:46,230 tick equity=790.76 pnl=-209.24 head=133371939 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:00:08,951 tick equity=790.76 pnl=-209.24 head=133371988 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:00:32,982 tick equity=790.76 pnl=-209.24 head=133372039 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:00:55,590 tick equity=790.76 pnl=-209.24 head=133372092 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:01:14,276 DEVHIST chunk err 133372005-133372140 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:01:14,747 DEVHIST chunk err 133372005-133372140 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:01:17,855 tick equity=790.76 pnl=-209.24 head=133372143 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:01:43,343 tick equity=790.76 pnl=-209.24 head=133372192 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:02:05,632 tick equity=790.76 pnl=-209.24 head=133372249 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:02:15,532 DEVHIST chunk err 133372141-133372275 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:02:16,007 DEVHIST chunk err 133372141-133372275 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:02:27,034 tick equity=790.76 pnl=-209.24 head=133372298 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:02:50,509 tick equity=790.76 pnl=-209.24 head=133372346 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:03:12,083 tick equity=790.76 pnl=-209.24 head=133372398 v3=911.05 conf=989.75 gmgn=1000.0
 2026-11-13 23:03:16,963 DEVHIST chunk err 133372276-133372412 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-13 23:03:32,556 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-13 23:03:34,641 tick equity=790.76 pnl=-209.24 head=133372446 v3=911.05 conf=989.75 gmgn=1000.0
@@ -298,3 +280,21 @@
 2026-11-14 00:14:30,815 tick equity=790.76 pnl=-209.24 head=133381902 v3=911.05 conf=989.75 gmgn=1000.0
 2026-11-14 00:14:47,240 V3 filter error 0x329ca263df30c3e506c39081403ec95d5942ece8 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-14 00:14:54,445 tick equity=790.76 pnl=-209.24 head=133381953 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:15:17,052 tick equity=790.76 pnl=-209.24 head=133382005 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:15:29,330 V3 filter error 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-14 00:15:29,330 V3 filter: 15 wallets failed, retry in 600s
+2026-11-14 00:15:38,799 tick equity=790.76 pnl=-209.24 head=133382056 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:16:00,938 tick equity=790.76 pnl=-209.24 head=133382104 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:16:23,332 tick equity=790.76 pnl=-209.24 head=133382153 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:16:46,013 tick equity=790.76 pnl=-209.24 head=133382203 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:17:07,241 tick equity=790.76 pnl=-209.24 head=133382254 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:17:12,324 DEVHIST chunk err 133382134-133382267 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-14 00:17:28,370 tick equity=790.76 pnl=-209.24 head=133382301 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:17:50,087 tick equity=790.76 pnl=-209.24 head=133382348 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:18:11,867 tick equity=790.76 pnl=-209.24 head=133382396 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:18:34,534 tick equity=790.76 pnl=-209.24 head=133382444 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:18:56,727 tick equity=790.76 pnl=-209.24 head=133382495 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:19:13,693 DEVHIST chunk err 133382403-133382537 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-14 00:19:19,469 tick equity=790.76 pnl=-209.24 head=133382544 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:19:41,640 tick equity=790.76 pnl=-209.24 head=133382594 v3=911.05 conf=989.75 gmgn=1000.0
+2026-11-14 00:20:03,401 tick equity=790.76 pnl=-209.24 head=133382644 v3=911.05 conf=989.75 gmgn=1000.0
