@@ -1,26 +1,3 @@
-2026-11-13 23:36:53,252 DEVHIST chunk err 133376757-133376891 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:37:04,929 tick equity=790.76 pnl=-209.24 head=133376907 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:37:31,641 tick equity=790.76 pnl=-209.24 head=133376962 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:37:57,692 tick equity=790.76 pnl=-209.24 head=133377021 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:38:21,466 tick equity=790.76 pnl=-209.24 head=133377079 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:38:46,263 tick equity=790.76 pnl=-209.24 head=133377132 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:39:11,816 tick equity=790.76 pnl=-209.24 head=133377187 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:39:37,695 tick equity=790.76 pnl=-209.24 head=133377244 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:40:03,591 tick equity=790.76 pnl=-209.24 head=133377301 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:40:33,109 tick equity=790.76 pnl=-209.24 head=133377358 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:40:55,260 DEVHIST chunk err 133377295-133377429 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:40:58,349 tick equity=790.76 pnl=-209.24 head=133377425 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:41:22,673 tick equity=790.76 pnl=-209.24 head=133377481 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:41:45,918 tick equity=790.76 pnl=-209.24 head=133377535 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:42:10,069 tick equity=790.76 pnl=-209.24 head=133377586 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:42:33,159 tick equity=790.76 pnl=-209.24 head=133377640 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:42:56,345 DEVHIST chunk err 133377565-133377698 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:42:58,577 tick equity=790.76 pnl=-209.24 head=133377692 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:43:26,141 tick equity=790.76 pnl=-209.24 head=133377748 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:43:51,175 tick equity=790.76 pnl=-209.24 head=133377809 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:43:57,244 DEVHIST chunk err 133377699-133377833 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-13 23:44:15,389 tick equity=790.76 pnl=-209.24 head=133377865 v3=911.05 conf=989.75 gmgn=1000.0
-2026-11-13 23:44:39,269 tick equity=790.76 pnl=-209.24 head=133377919 v3=911.05 conf=989.75 gmgn=1000.0
 2026-11-13 23:44:57,488 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-13 23:45:04,929 tick equity=790.76 pnl=-209.24 head=133377972 v3=911.05 conf=989.75 gmgn=1000.0
 2026-11-13 23:45:30,491 tick equity=790.76 pnl=-209.24 head=133378029 v3=911.05 conf=989.75 gmgn=1000.0
@@ -298,3 +275,26 @@
 2026-11-14 00:59:41,441 tick equity=790.76 pnl=-209.24 head=133387926 v3=910.35 conf=989.75 gmgn=1000.0
 2026-11-14 01:00:03,616 tick equity=790.76 pnl=-209.24 head=133387975 v3=910.35 conf=989.75 gmgn=1000.0
 2026-11-14 01:00:25,907 tick equity=790.76 pnl=-209.24 head=133388024 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:00:48,548 tick equity=790.76 pnl=-209.24 head=133388074 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:01:13,384 V3-RISK AsianStar 0x65aebda6c3c82a23eab0447922b503fd92787777 KILL buy_tax unknown; sell_tax unknown; top10 holders 81%; info: dev holds 0.0%; info: 开发者历史 0x637a15… prior=199 dead=9/20 (45%)
+2026-11-14 01:01:13,384 V3 {'ts': 1794589252, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x65aebda6c3c82a23eab0447922b503fd92787777', 'sym': 'AsianStar', 'price': 6.758e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 81%', 'info: dev holds 0.0%', 'info: 开发者历史 0x637a15… prior=199 dead=9/20 (45%)']}
+2026-11-14 01:01:13,471 V3 {'ts': 1794589252, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x65aebda6c3c82a23eab0447922b503fd92787777', 'sym': 'AsianStar', 'price': 6.758e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 81%', 'info: dev holds 0.0%', 'info: 开发者历史 0x637a15… prior=199 dead=9/20 (45%)']}
+2026-11-14 01:01:13,542 V3 {'ts': 1794589252, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x65aebda6c3c82a23eab0447922b503fd92787777', 'sym': 'AsianStar', 'price': 6.758e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 81%', 'info: dev holds 0.0%', 'info: 开发者历史 0x637a15… prior=199 dead=9/20 (45%)']}
+2026-11-14 01:01:13,702 V3 {'ts': 1794589260, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x65aebda6c3c82a23eab0447922b503fd92787777', 'sym': 'AsianStar', 'price': 6.758e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 81%', 'info: dev holds 0.0%', 'info: 开发者历史 0x637a15… prior=199 dead=9/20 (45%)']}
+2026-11-14 01:01:15,566 tick equity=790.76 pnl=-209.24 head=133388124 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:01:29,709 DEVHIST chunk err 133388037-133388170 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-14 01:01:38,346 tick equity=790.76 pnl=-209.24 head=133388184 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:02:02,643 tick equity=790.76 pnl=-209.24 head=133388235 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:02:24,975 tick equity=790.76 pnl=-209.24 head=133388289 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:02:48,117 tick equity=790.76 pnl=-209.24 head=133388338 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:03:11,437 tick equity=790.76 pnl=-209.24 head=133388390 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:03:30,798 DEVHIST chunk err 133388307-133388440 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-14 01:03:33,792 tick equity=790.76 pnl=-209.24 head=133388441 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:03:55,617 tick equity=790.76 pnl=-209.24 head=133388489 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:04:17,480 V3 {'ts': 1794589436, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x65aebda6c3c82a23eab0447922b503fd92787777', 'sym': 'AsianStar', 'price': 6.012e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 81%', 'info: dev holds 0.0%', 'info: 开发者历史 0x637a15… prior=199 dead=9/20 (45%)']}
+2026-11-14 01:04:20,644 tick equity=790.76 pnl=-209.24 head=133388538 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:04:43,217 tick equity=790.76 pnl=-209.24 head=133388594 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:05:08,128 tick equity=790.76 pnl=-209.24 head=133388644 v3=910.35 conf=989.75 gmgn=1000.0
+2026-11-14 01:05:29,971 V3-ENTRY KILL ハウスコイン 0xdb2cb3113673c18139784e5eb5f67c3caa177777 liq $8,996 < $20,000 v2 floor
+2026-11-14 01:05:30,012 V3 {'ts': 1794589520, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xdb2cb3113673c18139784e5eb5f67c3caa177777', 'sym': 'ハウスコイン', 'price': 4.721e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $8,996 < $20,000 v2 floor']}
+2026-11-14 01:05:34,025 tick equity=790.76 pnl=-209.24 head=133388699 v3=910.35 conf=989.75 gmgn=1000.0
