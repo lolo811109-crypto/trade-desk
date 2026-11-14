@@ -1882,5 +1882,72 @@
     "signal": 0.082
    }
   }
+ },
+ {
+  "date": "2026-11-15",
+  "account": "Poly 信息型钱包 (poly_info.py)",
+  "change": "daily wallet reselect: ['0x23d81ba9371e576015c1e562db09c689f56b0288', '0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x64ceab3becc143e1b97a8e16dc270c2297566015', '0xf68a281980f8c13828e84e147e3822381d6e5b1b', '0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5'] -> ['0xf0318c32136c2db7fec88b84869aee6a1106c80c', '0x23d81ba9371e576015c1e562db09c689f56b0288', '0x684baa57c338c2549aec0aa3f034f695d72a8409', '0x64ceab3becc143e1b97a8e16dc270c2297566015', '0xf68a281980f8c13828e84e147e3822381d6e5b1b']",
+  "scores": {
+   "0xf0318c32136c2db7fec88b84869aee6a1106c80c": {
+    "score": 2.427,
+    "batch": 0.062,
+    "cold": 0.364,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 67480522.0,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.427
+   },
+   "0x23d81ba9371e576015c1e562db09c689f56b0288": {
+    "score": 2.292,
+    "batch": 0.304,
+    "cold": 0.313,
+    "hold": 0.674,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 4303985.97,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.618
+   },
+   "0x684baa57c338c2549aec0aa3f034f695d72a8409": {
+    "score": 2.258,
+    "batch": 0.182,
+    "cold": 0.076,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 7196992.01,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.258
+   },
+   "0x64ceab3becc143e1b97a8e16dc270c2297566015": {
+    "score": 2.2,
+    "batch": 0.2,
+    "cold": 0.0,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 12,
+    "realized_pnl": 821542.72,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.2
+   },
+   "0xf68a281980f8c13828e84e147e3822381d6e5b1b": {
+    "score": 2.118,
+    "batch": 0.0,
+    "cold": 0.118,
+    "hold": 1.0,
+    "winrate": 1.0,
+    "closed": 200,
+    "realized_pnl": 5388920.06,
+    "n_trades": 500,
+    "eligible": true,
+    "signal": 0.118
+   }
+  }
  }
 ]
