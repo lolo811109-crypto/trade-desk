@@ -1,17 +1,3 @@
-2026-11-15 22:04:37,410 tick equity=790.76 pnl=-209.24 head=133748463 v3=905.45 conf=988.97 gmgn=1000.0
-2026-11-15 22:04:59,264 {'ts': 1794751495, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x26d231e40a95cbedb6671e7e98c43c21957c4444', 'tx': '0xded83125ecd571affe5f15c7c3ceaa9f839eaddad2cacb77094dec20147b426d', 'action': 'skip-noprice'}
-2026-11-15 22:04:59,290 V3 {'ts': 1794751495, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d2d8449ec0bb78c497c36ffaac583dff4bd4444', 'sym': 'MVP', 'price': 0.002207, 'action': 'skip-7d'}
-2026-11-15 22:05:00,711 tick equity=790.76 pnl=-209.24 head=133748519 v3=905.33 conf=988.85 gmgn=1000.0
-2026-11-15 22:05:24,111 tick equity=790.76 pnl=-209.24 head=133748571 v3=905.33 conf=988.85 gmgn=1000.0
-2026-11-15 22:05:45,389 V3 {'ts': 1794751524, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x26d231e40a95cbedb6671e7e98c43c21957c4444', 'sym': 'LUNA', 'price': 7.212843466e-06, 'action': 'skip-liq'}
-2026-11-15 22:05:45,389 CONFLUENCE LUNA 0x26d231e40a95cbedb6671e7e98c43c21957c4444 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc5606cde16fb8c39cc68d1d97700883ae951ff56']
-2026-11-15 22:05:45,391 V2 {'ts': 1794751524, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x26d231e40a95cbedb6671e7e98c43c21957c4444', 'sym': 'LUNA', 'price': 7.212843466e-06, 'action': 'skip-liq'}
-2026-11-15 22:05:45,416 V3 {'ts': 1794751524, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x2d2d8449ec0bb78c497c36ffaac583dff4bd4444', 'sym': 'MVP', 'price': 0.002249, 'action': 'skip-dup', 'reasons': ['already holding this token']}
-2026-11-15 22:05:47,559 tick equity=790.76 pnl=-209.24 head=133748623 v3=905.5 conf=989.02 gmgn=1000.0
-2026-11-15 22:06:11,842 tick equity=790.76 pnl=-209.24 head=133748675 v3=905.33 conf=988.86 gmgn=1000.0
-2026-11-15 22:06:33,103 V3 {'ts': 1794751568, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x26d231e40a95cbedb6671e7e98c43c21957c4444', 'sym': 'LUNA', 'price': 7.212843466e-06, 'action': 'skip-7d'}
-2026-11-15 22:06:33,131 V3 {'ts': 1794751568, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d2d8449ec0bb78c497c36ffaac583dff4bd4444', 'sym': 'MVP', 'price': 0.002174, 'action': 'skip-7d'}
-2026-11-15 22:06:33,339 V3 {'ts': 1794751568, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x26d231e40a95cbedb6671e7e98c43c21957c4444', 'sym': 'LUNA', 'price': 7.212843466e-06, 'action': 'skip-7d'}
 2026-11-15 22:06:33,355 V3 {'ts': 1794751568, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d2d8449ec0bb78c497c36ffaac583dff4bd4444', 'sym': 'MVP', 'price': 0.002174, 'action': 'skip-7d'}
 2026-11-15 22:06:33,566 V3 {'ts': 1794751569, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x26d231e40a95cbedb6671e7e98c43c21957c4444', 'sym': 'LUNA', 'price': 7.212843466e-06, 'action': 'skip-7d'}
 2026-11-15 22:06:33,580 V3 {'ts': 1794751569, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x2d2d8449ec0bb78c497c36ffaac583dff4bd4444', 'sym': 'MVP', 'price': 0.002174, 'action': 'skip-7d'}
@@ -298,3 +284,17 @@
 2026-11-15 23:32:53,277 V3 {'ts': 1794756746, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x593b44206ade9575ccdc55981ee915980cbf7777', 'sym': '屌丝', 'price': 1.548e-05, 'action': 'skip-7d'}
 2026-11-15 23:32:53,374 V3 {'ts': 1794756746, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x593b44206ade9575ccdc55981ee915980cbf7777', 'sym': '屌丝', 'price': 1.548e-05, 'action': 'skip-7d'}
 2026-11-15 23:32:54,532 tick equity=790.76 pnl=-209.24 head=133760237 v3=904.19 conf=986.7 gmgn=1000.0
+2026-11-15 23:33:16,791 tick equity=790.76 pnl=-209.24 head=133760286 v3=904.19 conf=986.7 gmgn=1000.0
+2026-11-15 23:33:38,222 tick equity=790.76 pnl=-209.24 head=133760336 v3=904.19 conf=986.7 gmgn=1000.0
+2026-11-15 23:33:59,192 tick equity=790.76 pnl=-209.24 head=133760383 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:34:21,240 tick equity=790.76 pnl=-209.24 head=133760430 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:34:43,007 tick equity=790.76 pnl=-209.24 head=133760479 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:35:04,517 tick equity=790.76 pnl=-209.24 head=133760527 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:35:26,657 tick equity=790.76 pnl=-209.24 head=133760575 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:35:49,739 tick equity=790.76 pnl=-209.24 head=133760624 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:36:11,617 tick equity=790.76 pnl=-209.24 head=133760676 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:36:33,216 tick equity=790.76 pnl=-209.24 head=133760724 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:36:55,172 tick equity=790.76 pnl=-209.24 head=133760772 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:37:17,698 tick equity=790.76 pnl=-209.24 head=133760821 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:37:39,286 tick equity=790.76 pnl=-209.24 head=133760871 v3=904.19 conf=986.71 gmgn=1000.0
+2026-11-15 23:38:01,244 tick equity=790.76 pnl=-209.24 head=133760919 v3=904.19 conf=986.71 gmgn=1000.0
