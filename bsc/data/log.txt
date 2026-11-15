@@ -1,16 +1,3 @@
-2026-11-16 03:33:00,279 tick equity=790.76 pnl=-209.24 head=133792244 v3=903.54 conf=986.48 gmgn=1000.0
-2026-11-16 03:33:21,580 tick equity=790.76 pnl=-209.24 head=133792292 v3=903.54 conf=986.48 gmgn=1000.0
-2026-11-16 03:33:43,729 V3-RISK SWJ 0x26040e441a7369ccc7bd8bfe96f596df4db87777 KILL LP only 0% locked/burned; info: dev holds 0.0%; 开发者历史大多归零 3/5 (≥60%, n≥3) creator 0x9d1062e3
-2026-11-16 03:33:43,730 V3 {'ts': 1794771217, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x26040e441a7369ccc7bd8bfe96f596df4db87777', 'sym': 'SWJ', 'price': 0.0001885, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', '开发者历史大多归零 3/5 (≥60%, n≥3) creator 0x9d1062e3']}
-2026-11-16 03:33:43,730 CONFLUENCE SWJ 0x26040e441a7369ccc7bd8bfe96f596df4db87777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
-2026-11-16 03:33:44,301 V2-RISK SWJ 0x26040e441a7369ccc7bd8bfe96f596df4db87777 KILL LP only 0% locked/burned; 开发者历史大多归零 3/5 (≥60%, n≥3) creator 0x9d1062e3
-2026-11-16 03:33:44,301 V2 {'ts': 1794771217, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x26040e441a7369ccc7bd8bfe96f596df4db87777', 'sym': 'SWJ', 'price': 0.0001885, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', '开发者历史大多归零 3/5 (≥60%, n≥3) creator 0x9d1062e3']}
-2026-11-16 03:33:44,871 tick equity=790.76 pnl=-209.24 head=133792340 v3=903.54 conf=986.48 gmgn=1000.0
-2026-11-16 03:34:06,817 tick equity=790.76 pnl=-209.24 head=133792391 v3=903.54 conf=986.48 gmgn=1000.0
-2026-11-16 03:34:27,899 tick equity=790.76 pnl=-209.24 head=133792440 v3=903.54 conf=986.48 gmgn=1000.0
-2026-11-16 03:34:49,681 tick equity=790.76 pnl=-209.24 head=133792487 v3=903.54 conf=986.48 gmgn=1000.0
-2026-11-16 03:35:10,788 tick equity=790.76 pnl=-209.24 head=133792535 v3=903.54 conf=986.48 gmgn=1000.0
-2026-11-16 03:35:32,730 tick equity=790.76 pnl=-209.24 head=133792582 v3=903.54 conf=986.48 gmgn=1000.0
 2026-11-16 03:35:54,113 tick equity=790.76 pnl=-209.24 head=133792631 v3=903.54 conf=986.48 gmgn=1000.0
 2026-11-16 03:36:15,655 tick equity=790.76 pnl=-209.24 head=133792679 v3=903.54 conf=986.48 gmgn=1000.0
 2026-11-16 03:36:36,810 tick equity=790.76 pnl=-209.24 head=133792726 v3=903.54 conf=986.48 gmgn=1000.0
@@ -298,3 +285,16 @@
 2026-11-16 05:11:04,186 tick equity=790.76 pnl=-209.24 head=133805316 v3=903.54 conf=986.48 gmgn=1000.0
 2026-11-16 05:11:25,837 tick equity=790.76 pnl=-209.24 head=133805367 v3=903.54 conf=986.48 gmgn=1000.0
 2026-11-16 05:11:48,910 tick equity=790.76 pnl=-209.24 head=133805415 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:12:10,695 tick equity=790.76 pnl=-209.24 head=133805466 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:12:33,904 tick equity=790.76 pnl=-209.24 head=133805514 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:12:57,687 tick equity=790.76 pnl=-209.24 head=133805566 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:13:26,233 tick equity=790.76 pnl=-209.24 head=133805619 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:13:52,505 tick equity=790.76 pnl=-209.24 head=133805682 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:14:16,605 tick equity=790.76 pnl=-209.24 head=133805741 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:14:39,749 tick equity=790.76 pnl=-209.24 head=133805794 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:15:03,125 tick equity=790.76 pnl=-209.24 head=133805846 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:15:25,813 tick equity=790.76 pnl=-209.24 head=133805898 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:15:50,463 tick equity=790.76 pnl=-209.24 head=133805948 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:16:13,103 tick equity=790.76 pnl=-209.24 head=133806003 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:16:35,902 tick equity=790.76 pnl=-209.24 head=133806053 v3=903.54 conf=986.48 gmgn=1000.0
+2026-11-16 05:16:58,221 tick equity=790.76 pnl=-209.24 head=133806104 v3=903.54 conf=986.48 gmgn=1000.0
