@@ -1,18 +1,3 @@
-2026-11-15 21:37:18,803 V3 {'ts': 1794749828, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfc09f1ab1db38b79e6911c3245954e4a177c7777', 'sym': '屹立不倒', 'price': 7.597e-06, 'action': 'skip-7d'}
-2026-11-15 21:37:18,873 V3 {'ts': 1794749828, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfc09f1ab1db38b79e6911c3245954e4a177c7777', 'sym': '屹立不倒', 'price': 7.597e-06, 'action': 'skip-7d'}
-2026-11-15 21:37:19,017 V3 {'ts': 1794749828, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xfc09f1ab1db38b79e6911c3245954e4a177c7777', 'sym': '屹立不倒', 'price': 7.597e-06, 'action': 'skip-7d'}
-2026-11-15 21:37:21,073 tick equity=790.76 pnl=-209.24 head=133744831 v3=906.22 conf=989.75 gmgn=1000.0
-2026-11-15 21:37:35,407 DEVHIST chunk err 133744740-133744871 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-15 21:37:42,139 V3-ENTRY KILL 屹立不倒 0x11156085985d298e67679419cc94f87268a67777 liq $18,610 < $20,000 v2 floor
-2026-11-15 21:37:42,177 V3 {'ts': 1794749844, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,610 < $20,000 v2 floor']}
-2026-11-15 21:37:44,703 V3 {'ts': 1794749847, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
-2026-11-15 21:37:44,703 CONFLUENCE 屹立不倒 0x11156085985d298e67679419cc94f87268a67777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xc5606cde16fb8c39cc68d1d97700883ae951ff56']
-2026-11-15 21:37:48,183 V2-RISK 屹立不倒 0x11156085985d298e67679419cc94f87268a67777 KILL buy_tax unknown; sell_tax unknown; top10 holders 94%; info: 开发者历史 0x6365f0… prior=199 dead=7/20 (35%)
-2026-11-15 21:37:48,183 V2 {'ts': 1794749847, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'top10 holders 94%', 'info: 开发者历史 0x6365f0… prior=199 dead=7/20 (35%)']}
-2026-11-15 21:37:48,313 V3 {'ts': 1794749849, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
-2026-11-15 21:37:48,458 V3 {'ts': 1794749854, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
-2026-11-15 21:37:48,595 V3 {'ts': 1794749855, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
-2026-11-15 21:37:48,736 V3 {'ts': 1794749855, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
 2026-11-15 21:37:48,814 V3 {'ts': 1794749855, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
 2026-11-15 21:37:48,974 V3 {'ts': 1794749856, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
 2026-11-15 21:37:49,123 V3 {'ts': 1794749856, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0x11156085985d298e67679419cc94f87268a67777', 'sym': '屹立不倒', 'price': 4.515e-05, 'action': 'skip-7d'}
@@ -298,3 +283,18 @@
 2026-11-15 22:41:57,074 DEVHIST chunk err 133753318-133753451 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-15 22:42:05,704 tick equity=790.76 pnl=-209.24 head=133753467 v3=904.19 conf=986.77 gmgn=1000.0
 2026-11-15 22:42:27,057 tick equity=790.76 pnl=-209.24 head=133753515 v3=904.19 conf=986.77 gmgn=1000.0
+2026-11-15 22:42:47,988 V3 {'ts': 1794753765, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x1501ee216eed4470ae89d0ae6310954c1e617777', 'sym': '慌啥子嘛', 'price': 0.0002462, 'liq': 45697, 'action': 'skip-badwallet', 'reasons': ['v3 record 26 closes wr 19% pnl -26.01']}
+2026-11-15 22:42:48,763 tick equity=790.76 pnl=-209.24 head=133753563 v3=904.19 conf=986.77 gmgn=1000.0
+2026-11-15 22:43:10,238 tick equity=790.76 pnl=-209.24 head=133753611 v3=904.19 conf=986.74 gmgn=1000.0
+2026-11-15 22:43:32,328 tick equity=790.76 pnl=-209.24 head=133753659 v3=904.19 conf=986.74 gmgn=1000.0
+2026-11-15 22:43:54,418 tick equity=790.76 pnl=-209.24 head=133753708 v3=904.19 conf=986.74 gmgn=1000.0
+2026-11-15 22:44:15,452 tick equity=790.76 pnl=-209.24 head=133753757 v3=904.19 conf=986.75 gmgn=1000.0
+2026-11-15 22:44:36,511 tick equity=790.76 pnl=-209.24 head=133753804 v3=904.19 conf=986.75 gmgn=1000.0
+2026-11-15 22:44:57,883 tick equity=790.76 pnl=-209.24 head=133753850 v3=904.19 conf=986.75 gmgn=1000.0
+2026-11-15 22:45:19,489 tick equity=790.76 pnl=-209.24 head=133753898 v3=904.19 conf=986.75 gmgn=1000.0
+2026-11-15 22:45:41,477 tick equity=790.76 pnl=-209.24 head=133753946 v3=904.19 conf=986.75 gmgn=1000.0
+2026-11-15 22:46:03,579 tick equity=790.76 pnl=-209.24 head=133753995 v3=904.19 conf=986.75 gmgn=1000.0
+2026-11-15 22:46:26,366 tick equity=790.76 pnl=-209.24 head=133754044 v3=904.19 conf=986.76 gmgn=1000.0
+2026-11-15 22:46:47,390 tick equity=790.76 pnl=-209.24 head=133754094 v3=904.19 conf=986.76 gmgn=1000.0
+2026-11-15 22:47:09,125 tick equity=790.76 pnl=-209.24 head=133754141 v3=904.19 conf=986.76 gmgn=1000.0
+2026-11-15 22:47:30,198 tick equity=790.76 pnl=-209.24 head=133754189 v3=904.19 conf=986.76 gmgn=1000.0
