@@ -1,17 +1,3 @@
-2026-11-16 16:31:17,354 V3-ENTRY KILL DADDY 0xe3c16333e9f3bfc41a8f332705708698bb107777 liq $15,059 < $20,000 v2 floor
-2026-11-16 16:31:17,399 V3 {'ts': 1794817861, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xe3c16333e9f3bfc41a8f332705708698bb107777', 'sym': 'DADDY', 'price': 1.35e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $15,059 < $20,000 v2 floor']}
-2026-11-16 16:31:18,797 tick equity=790.76 pnl=-209.24 head=133895996 v3=902.76 conf=986.01 gmgn=1000.0
-2026-11-16 16:31:35,834 V3 filter error 0x7dfd45e511a05d012d19264e2adf4acfe7717f1f RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 16:31:40,040 tick equity=790.76 pnl=-209.24 head=133896046 v3=902.76 conf=986.01 gmgn=1000.0
-2026-11-16 16:32:01,754 tick equity=790.76 pnl=-209.24 head=133896093 v3=902.76 conf=986.01 gmgn=1000.0
-2026-11-16 16:32:17,925 V3 filter error 0x07a61c083420b5d95bd3e4738669b9a4fca3c046 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 16:32:22,532 V3-ENTRY KILL DADDY 0xe3c16333e9f3bfc41a8f332705708698bb107777 liq $17,589 < $20,000 v2 floor
-2026-11-16 16:32:22,532 V3 {'ts': 1794817938, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xe3c16333e9f3bfc41a8f332705708698bb107777', 'sym': 'DADDY', 'price': 3.885e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $17,589 < $20,000 v2 floor']}
-2026-11-16 16:32:23,627 tick equity=790.76 pnl=-209.24 head=133896142 v3=902.76 conf=986.01 gmgn=1000.0
-2026-11-16 16:32:46,095 tick equity=790.76 pnl=-209.24 head=133896190 v3=902.76 conf=986.01 gmgn=1000.0
-2026-11-16 16:33:00,011 V3 filter error 0xc5606cde16fb8c39cc68d1d97700883ae951ff56 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 16:33:07,925 tick equity=790.76 pnl=-209.24 head=133896240 v3=902.76 conf=986.01 gmgn=1000.0
-2026-11-16 16:33:28,708 V3-ENTRY KILL DADDY 0xe3c16333e9f3bfc41a8f332705708698bb107777 liq $18,120 < $20,000 v2 floor
 2026-11-16 16:33:28,709 V3 {'ts': 1794818004, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xe3c16333e9f3bfc41a8f332705708698bb107777', 'sym': 'DADDY', 'price': 4.085e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $18,120 < $20,000 v2 floor']}
 2026-11-16 16:33:30,267 tick equity=790.76 pnl=-209.24 head=133896289 v3=902.76 conf=986.01 gmgn=1000.0
 2026-11-16 16:33:42,100 V3 filter error 0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
@@ -298,3 +284,17 @@
 2026-11-16 17:40:24,877 tick equity=790.76 pnl=-209.24 head=133905210 v3=901.78 conf=986.01 gmgn=1000.0
 2026-11-16 17:40:47,076 tick equity=790.76 pnl=-209.24 head=133905257 v3=901.78 conf=986.01 gmgn=1000.0
 2026-11-16 17:41:09,026 tick equity=790.76 pnl=-209.24 head=133905306 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:41:31,518 tick equity=790.76 pnl=-209.24 head=133905355 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:41:54,849 tick equity=790.76 pnl=-209.24 head=133905405 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:42:16,884 tick equity=790.76 pnl=-209.24 head=133905457 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:42:37,807 tick equity=790.76 pnl=-209.24 head=133905506 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:42:59,801 tick equity=790.76 pnl=-209.24 head=133905552 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:43:20,872 tick equity=790.76 pnl=-209.24 head=133905601 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:43:43,006 tick equity=790.76 pnl=-209.24 head=133905648 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:44:04,271 tick equity=790.76 pnl=-209.24 head=133905697 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:44:25,535 tick equity=790.76 pnl=-209.24 head=133905744 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:44:48,001 tick equity=790.76 pnl=-209.24 head=133905792 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:45:10,438 tick equity=790.76 pnl=-209.24 head=133905841 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:45:32,078 tick equity=790.76 pnl=-209.24 head=133905892 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:45:54,475 tick equity=790.76 pnl=-209.24 head=133905939 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 17:46:15,768 tick equity=790.76 pnl=-209.24 head=133905989 v3=901.78 conf=986.01 gmgn=1000.0
