@@ -1,31 +1,3 @@
-2026-11-16 17:09:39,284 tick equity=790.76 pnl=-209.24 head=133901110 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:10:00,356 tick equity=790.76 pnl=-209.24 head=133901158 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:10:20,216 V3 filter error 0xa03fa805f34b9eebeae0d0adaeda4113246b8f12 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 17:10:21,994 tick equity=790.76 pnl=-209.24 head=133901205 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:10:43,562 {'ts': 1794820223, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd04f1d82be6b5916eedad0fa986c94735ec8974e', 'tx': '0x520275be9175d9881e0f4ed21c49073f991d9aa1980d9a272da570f24192c6fb', 'action': 'skip-noprice'}
-2026-11-16 17:10:43,908 {'ts': 1794820229, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xd04f1d82be6b5916eedad0fa986c94735ec8974e', 'tx': '0x39faf635bd8674109a33d1660d696821c49db51930705493bb0dd5e919ad8528', 'action': 'skip-noprice'}
-2026-11-16 17:10:44,066 {'ts': 1794820231, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xd04f1d82be6b5916eedad0fa986c94735ec8974e', 'tx': '0x2b8f00228de93cfbf751a92c11f873b7933f654e31e1417c95d164b980007b35', 'action': 'skip-noprice'}
-2026-11-16 17:10:44,734 tick equity=790.76 pnl=-209.24 head=133901253 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:11:02,302 V3 filter error 0x9bee11202478166584fc2cd2735a302ed995bd26 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 17:11:05,791 tick equity=790.76 pnl=-209.24 head=133901303 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:11:26,820 tick equity=790.76 pnl=-209.24 head=133901350 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:11:44,385 V3 filter error 0x5bc3a88609a2da58f687b1ce8a4410ab07bddb23 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 17:11:48,656 {'ts': 1794820296, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'SELL', 'token': '0xd04f1d82be6b5916eedad0fa986c94735ec8974e', 'tx': '0xf744f425d9729c9d0bd6e4efce45e37caba3067eedbb8937bf4b98db16aa705c', 'action': 'skip-noprice'}
-2026-11-16 17:11:49,324 tick equity=790.76 pnl=-209.24 head=133901397 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:12:05,423 DEVHIST chunk err 133901305-133901438 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-16 17:12:10,734 tick equity=790.76 pnl=-209.24 head=133901447 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:12:26,471 V3 filter error 0x77018191c32bdf7542d8d82007ae26b41f614d96 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 17:12:32,259 tick equity=790.76 pnl=-209.24 head=133901494 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:12:53,364 tick equity=790.76 pnl=-209.24 head=133901542 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:13:08,554 V3 filter error 0x7dfd45e511a05d012d19264e2adf4acfe7717f1f RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 17:13:14,339 tick equity=790.76 pnl=-209.24 head=133901589 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:13:35,331 tick equity=790.76 pnl=-209.24 head=133901636 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:13:50,637 V3 filter error 0x07a61c083420b5d95bd3e4738669b9a4fca3c046 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 17:13:56,422 tick equity=790.76 pnl=-209.24 head=133901682 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:14:17,491 tick equity=790.76 pnl=-209.24 head=133901729 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:14:32,720 V3 filter error 0xc5606cde16fb8c39cc68d1d97700883ae951ff56 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-16 17:14:38,620 tick equity=790.76 pnl=-209.24 head=133901776 v3=901.99 conf=986.01 gmgn=1000.0
-2026-11-16 17:14:59,821 tick equity=790.76 pnl=-209.24 head=133901823 v3=901.99 conf=986.01 gmgn=1000.0
 2026-11-16 17:15:14,805 V3 filter error 0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-16 17:15:20,749 V3-ENTRY KILL SKHYNIXs 0x7963058465890e128be95c14c432ae740cbbc31a liq $9,785 < $20,000 v2 floor
 2026-11-16 17:15:20,793 V3 {'ts': 1794820513, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x7963058465890e128be95c14c432ae740cbbc31a', 'sym': 'SKHYNIXs', 'price': 2383.14, 'action': 'skip-liqfloor', 'reasons': ['liq $9,785 < $20,000 v2 floor']}
@@ -298,3 +270,31 @@
 2026-11-16 18:26:02,246 tick equity=790.76 pnl=-209.24 head=133911292 v3=901.78 conf=986.01 gmgn=1000.0
 2026-11-16 18:26:23,641 tick equity=790.76 pnl=-209.24 head=133911339 v3=901.78 conf=986.01 gmgn=1000.0
 2026-11-16 18:26:45,854 tick equity=790.76 pnl=-209.24 head=133911386 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:27:07,078 {'ts': 1794824824, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x797ed5af329ce29e82cdd68b9493f9b5ce007777', 'tx': '0x312d8a3d442fe524f6f6f417672a720a3c0381ec482da87aad49e1a2feca472a', 'action': 'skip-noprice'}
+2026-11-16 18:27:07,573 tick equity=790.76 pnl=-209.24 head=133911436 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:27:29,110 tick equity=790.76 pnl=-209.24 head=133911484 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:27:50,646 V3-ENTRY KILL 世界和平 0x797ed5af329ce29e82cdd68b9493f9b5ce007777 liq $15,063 < $20,000 v2 floor
+2026-11-16 18:27:50,692 V3 {'ts': 1794824856, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x797ed5af329ce29e82cdd68b9493f9b5ce007777', 'sym': '世界和平', 'price': 1.385e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $15,063 < $20,000 v2 floor']}
+2026-11-16 18:27:52,952 tick equity=790.76 pnl=-209.24 head=133911532 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:28:15,042 tick equity=790.76 pnl=-209.24 head=133911585 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:28:36,501 V3-ENTRY KILL 世界和平 0x94995b7789bfda939da744e47f5acae2ba097777 liq $13,057 < $20,000 v2 floor
+2026-11-16 18:28:36,549 V3 {'ts': 1794824895, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x94995b7789bfda939da744e47f5acae2ba097777', 'sym': '世界和平', 'price': 1.04e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $13,057 < $20,000 v2 floor']}
+2026-11-16 18:28:36,671 V3-ENTRY KILL 世界和平 0x94995b7789bfda939da744e47f5acae2ba097777 liq $13,057 < $20,000 v2 floor
+2026-11-16 18:28:36,672 V3 {'ts': 1794824895, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x94995b7789bfda939da744e47f5acae2ba097777', 'sym': '世界和平', 'price': 1.04e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $13,057 < $20,000 v2 floor']}
+2026-11-16 18:28:38,444 tick equity=790.76 pnl=-209.24 head=133911634 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:28:59,624 V3-ENTRY KILL 世界和平 0x3a7ef7ad6472e18638683b20c3569a925a8e7777 liq $7,986 < $20,000 v2 floor
+2026-11-16 18:28:59,668 V3 {'ts': 1794824915, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x3a7ef7ad6472e18638683b20c3569a925a8e7777', 'sym': '世界和平', 'price': 3.895e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $7,986 < $20,000 v2 floor']}
+2026-11-16 18:29:00,400 tick equity=790.76 pnl=-209.24 head=133911686 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:29:21,396 tick equity=790.76 pnl=-209.24 head=133911735 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:29:42,666 tick equity=790.76 pnl=-209.24 head=133911781 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:30:04,020 tick equity=790.76 pnl=-209.24 head=133911828 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:30:25,772 tick equity=790.76 pnl=-209.24 head=133911876 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:30:46,658 V3-ENTRY KILL 世界和平 0x94995b7789bfda939da744e47f5acae2ba097777 liq $12,357 < $20,000 v2 floor
+2026-11-16 18:30:46,658 V3 {'ts': 1794825028, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x94995b7789bfda939da744e47f5acae2ba097777', 'sym': '世界和平', 'price': 9.321e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $12,357 < $20,000 v2 floor']}
+2026-11-16 18:30:46,658 CONFLUENCE 世界和平 0x94995b7789bfda939da744e47f5acae2ba097777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f']
+2026-11-16 18:30:50,067 V2-RISK 世界和平 0x94995b7789bfda939da744e47f5acae2ba097777 KILL buy_tax unknown; sell_tax unknown; 开发者历史大多归零 4/5 (≥60%, n≥3) creator 0x855aae85
+2026-11-16 18:30:50,067 V2 {'ts': 1794825028, 'wallet': 'confluence', 'side': 'BUY', 'token': '0x94995b7789bfda939da744e47f5acae2ba097777', 'sym': '世界和平', 'price': 9.321e-06, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', '开发者历史大多归零 4/5 (≥60%, n≥3) creator 0x855aae85']}
+2026-11-16 18:30:50,666 tick equity=790.76 pnl=-209.24 head=133911924 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:31:12,052 tick equity=790.76 pnl=-209.24 head=133911980 v3=901.78 conf=986.01 gmgn=1000.0
+2026-11-16 18:31:32,705 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-16 18:31:33,072 tick equity=790.76 pnl=-209.24 head=133912027 v3=901.78 conf=986.01 gmgn=1000.0
