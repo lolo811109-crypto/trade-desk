@@ -1,21 +1,3 @@
-2026-11-16 07:00:33,219 V3-RISK oANTHROPIC 0x24b518b332543a4e1c3649d063dab199d103760a KILL top10 holders 58%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-16 07:00:33,219 V3 {'ts': 1794783610, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x24b518b332543a4e1c3649d063dab199d103760a', 'sym': 'oANTHROPIC', 'price': 1003.078, 'action': 'kill-risk', 'reasons': ['top10 holders 58%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-16 07:00:33,956 V3-RISK EWYB 0xbe82f76637dba2c114c41df856c2c51e522e2cb8 KILL top10 holders 97%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-16 07:00:33,956 V3 {'ts': 1794783610, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbe82f76637dba2c114c41df856c2c51e522e2cb8', 'sym': 'EWYB', 'price': 141.66, 'action': 'kill-risk', 'reasons': ['top10 holders 97%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-16 07:00:35,416 tick equity=790.76 pnl=-209.24 head=133819910 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:00:56,587 V3-ENTRY KILL 骑士cz 0x5ae30fd2417a1dd94e1a166e85af057f219d7777 liq $19,987 < $20,000 v2 floor
-2026-11-16 07:00:56,631 V3 {'ts': 1794783648, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x5ae30fd2417a1dd94e1a166e85af057f219d7777', 'sym': '骑士cz', 'price': 4.614e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $19,987 < $20,000 v2 floor']}
-2026-11-16 07:00:58,637 tick equity=790.76 pnl=-209.24 head=133819968 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:01:21,590 tick equity=790.76 pnl=-209.24 head=133820019 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:01:43,058 tick equity=790.76 pnl=-209.24 head=133820070 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:02:06,013 tick equity=790.76 pnl=-209.24 head=133820118 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:02:27,707 tick equity=790.76 pnl=-209.24 head=133820169 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:02:48,761 tick equity=790.76 pnl=-209.24 head=133820217 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:03:10,803 tick equity=790.76 pnl=-209.24 head=133820264 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:03:32,730 tick equity=790.76 pnl=-209.24 head=133820312 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:03:55,969 tick equity=790.76 pnl=-209.24 head=133820361 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:04:17,425 tick equity=790.76 pnl=-209.24 head=133820412 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:04:39,474 V3-RISK 骑士小猫 0xaf9321d1373b796b3d6346d8d038fdc6d1e37777 KILL top10 holders 59%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)
 2026-11-16 07:04:39,475 V3 {'ts': 1794783867, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xaf9321d1373b796b3d6346d8d038fdc6d1e37777', 'sym': '骑士小猫', 'price': 0.000228, 'action': 'kill-risk', 'reasons': ['top10 holders 59%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)']}
 2026-11-16 07:04:39,475 CONFLUENCE 骑士小猫 0xaf9321d1373b796b3d6346d8d038fdc6d1e37777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
 2026-11-16 07:04:40,063 V2-RISK 骑士小猫 0xaf9321d1373b796b3d6346d8d038fdc6d1e37777 KILL top10 holders 59%; LP only 0% locked/burned; info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)
@@ -298,3 +280,21 @@
 2026-11-16 08:18:33,372 V3 filter error 0xdf579d27140000251421f3bb2b4ed43835eb3b6b RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-16 08:18:37,054 tick equity=790.76 pnl=-209.24 head=133830320 v3=903.54 conf=986.28 gmgn=1000.0
 2026-11-16 08:18:57,982 tick equity=790.76 pnl=-209.24 head=133830366 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:19:15,678 V3 filter error 0x329ca263df30c3e506c39081403ec95d5942ece8 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-16 08:19:19,088 tick equity=790.76 pnl=-209.24 head=133830413 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:19:39,943 tick equity=790.76 pnl=-209.24 head=133830460 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:19:57,767 V3 filter error 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-16 08:19:57,767 V3 filter: 15 wallets failed, retry in 600s
+2026-11-16 08:20:01,366 tick equity=790.76 pnl=-209.24 head=133830506 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:20:22,259 tick equity=790.76 pnl=-209.24 head=133830554 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:20:43,355 tick equity=790.76 pnl=-209.24 head=133830600 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:21:04,311 tick equity=790.76 pnl=-209.24 head=133830647 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:21:25,367 tick equity=790.76 pnl=-209.24 head=133830693 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:21:46,237 tick equity=790.76 pnl=-209.24 head=133830740 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:22:07,278 tick equity=790.76 pnl=-209.24 head=133830787 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:22:28,496 tick equity=790.76 pnl=-209.24 head=133830833 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:22:49,475 tick equity=790.76 pnl=-209.24 head=133830880 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:23:10,325 tick equity=790.76 pnl=-209.24 head=133830927 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:23:31,356 tick equity=790.76 pnl=-209.24 head=133830973 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:23:52,229 tick equity=790.76 pnl=-209.24 head=133831020 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:24:13,429 tick equity=790.76 pnl=-209.24 head=133831067 v3=903.54 conf=986.28 gmgn=1000.0
