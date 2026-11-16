@@ -1,17 +1,3 @@
-2026-11-16 07:04:39,475 V3 {'ts': 1794783867, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xaf9321d1373b796b3d6346d8d038fdc6d1e37777', 'sym': '骑士小猫', 'price': 0.000228, 'action': 'kill-risk', 'reasons': ['top10 holders 59%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)']}
-2026-11-16 07:04:39,475 CONFLUENCE 骑士小猫 0xaf9321d1373b796b3d6346d8d038fdc6d1e37777 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3']
-2026-11-16 07:04:40,063 V2-RISK 骑士小猫 0xaf9321d1373b796b3d6346d8d038fdc6d1e37777 KILL top10 holders 59%; LP only 0% locked/burned; info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)
-2026-11-16 07:04:40,063 V2 {'ts': 1794783867, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xaf9321d1373b796b3d6346d8d038fdc6d1e37777', 'sym': '骑士小猫', 'price': 0.000228, 'action': 'kill-risk', 'reasons': ['top10 holders 59%', 'LP only 0% locked/burned', 'info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)']}
-2026-11-16 07:04:41,696 tick equity=790.76 pnl=-209.24 head=133820460 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:05:03,599 tick equity=790.76 pnl=-209.24 head=133820514 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:05:25,554 tick equity=790.76 pnl=-209.24 head=133820563 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:05:46,648 tick equity=790.76 pnl=-209.24 head=133820611 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:06:07,943 tick equity=790.76 pnl=-209.24 head=133820658 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:06:28,976 tick equity=790.76 pnl=-209.24 head=133820706 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:06:49,962 V3 {'ts': 1794784005, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xaf9321d1373b796b3d6346d8d038fdc6d1e37777', 'sym': '骑士小猫', 'price': 0.0002229, 'action': 'kill-risk', 'reasons': ['top10 holders 59%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)']}
-2026-11-16 07:06:50,543 tick equity=790.76 pnl=-209.24 head=133820752 v3=903.54 conf=986.28 gmgn=1000.0
-2026-11-16 07:07:12,750 tick equity=790.76 pnl=-209.24 head=133820800 v3=903.54 conf=986.29 gmgn=1000.0
-2026-11-16 07:07:33,752 V3 {'ts': 1794784045, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xaf9321d1373b796b3d6346d8d038fdc6d1e37777', 'sym': '骑士小猫', 'price': 0.0002183, 'action': 'kill-risk', 'reasons': ['top10 holders 59%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史 0xb5faa8… prior=40 dead=9/20 (45%)']}
 2026-11-16 07:07:34,684 tick equity=790.76 pnl=-209.24 head=133820850 v3=903.54 conf=986.29 gmgn=1000.0
 2026-11-16 07:07:57,258 tick equity=790.76 pnl=-209.24 head=133820899 v3=903.54 conf=986.29 gmgn=1000.0
 2026-11-16 07:08:16,701 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
@@ -298,3 +284,17 @@
 2026-11-16 08:23:31,356 tick equity=790.76 pnl=-209.24 head=133830973 v3=903.54 conf=986.28 gmgn=1000.0
 2026-11-16 08:23:52,229 tick equity=790.76 pnl=-209.24 head=133831020 v3=903.54 conf=986.28 gmgn=1000.0
 2026-11-16 08:24:13,429 tick equity=790.76 pnl=-209.24 head=133831067 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:24:34,665 tick equity=790.76 pnl=-209.24 head=133831114 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:24:55,677 tick equity=790.76 pnl=-209.24 head=133831161 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:25:16,551 tick equity=790.76 pnl=-209.24 head=133831208 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:25:37,563 tick equity=790.76 pnl=-209.24 head=133831254 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:25:58,437 tick equity=790.76 pnl=-209.24 head=133831301 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:26:20,444 tick equity=790.76 pnl=-209.24 head=133831347 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:26:41,327 tick equity=790.76 pnl=-209.24 head=133831396 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:27:02,309 tick equity=790.76 pnl=-209.24 head=133831442 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:27:23,186 tick equity=790.76 pnl=-209.24 head=133831489 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:27:44,556 tick equity=790.76 pnl=-209.24 head=133831535 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:28:05,603 tick equity=790.76 pnl=-209.24 head=133831583 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:28:26,689 tick equity=790.76 pnl=-209.24 head=133831629 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:28:47,595 tick equity=790.76 pnl=-209.24 head=133831677 v3=903.54 conf=986.28 gmgn=1000.0
+2026-11-16 08:29:08,649 tick equity=790.76 pnl=-209.24 head=133831723 v3=903.54 conf=986.28 gmgn=1000.0
