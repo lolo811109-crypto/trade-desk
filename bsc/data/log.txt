@@ -1,18 +1,3 @@
-2026-11-18 15:40:22,768 tick equity=790.76 pnl=-209.24 head=134273058 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:40:43,793 tick equity=790.76 pnl=-209.24 head=134273105 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:41:05,165 tick equity=790.76 pnl=-209.24 head=134273152 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:41:26,630 tick equity=790.76 pnl=-209.24 head=134273199 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:41:47,586 tick equity=790.76 pnl=-209.24 head=134273247 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:42:09,689 tick equity=790.76 pnl=-209.24 head=134273294 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:42:31,063 tick equity=790.76 pnl=-209.24 head=134273343 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:42:51,975 tick equity=790.76 pnl=-209.24 head=134273390 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:43:13,683 tick equity=790.76 pnl=-209.24 head=134273437 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:43:34,702 tick equity=790.76 pnl=-209.24 head=134273485 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:43:44,316 DEVHIST chunk err 134273375-134273509 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-18 15:43:56,387 tick equity=790.76 pnl=-209.24 head=134273532 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:44:16,725 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-18 15:44:18,640 tick equity=790.76 pnl=-209.24 head=134273580 v3=899.23 conf=986.01 gmgn=1000.0
-2026-11-18 15:44:39,549 tick equity=790.76 pnl=-209.24 head=134273629 v3=899.23 conf=986.01 gmgn=1000.0
 2026-11-18 15:44:45,146 DEVHIST chunk err 134273510-134273644 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-18 15:44:58,809 V3 filter error 0xd392fc61934309f168cf7eb7a5c3132c7b46f253 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-18 15:45:00,863 tick equity=790.76 pnl=-209.24 head=134273676 v3=899.23 conf=986.01 gmgn=1000.0
@@ -298,3 +283,18 @@
 2026-11-18 17:01:07,580 tick equity=790.76 pnl=-209.24 head=134283807 v3=899.23 conf=986.01 gmgn=1000.0
 2026-11-18 17:01:29,534 tick equity=790.76 pnl=-209.24 head=134283858 v3=899.23 conf=986.01 gmgn=1000.0
 2026-11-18 17:01:53,584 tick equity=790.76 pnl=-209.24 head=134283907 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:02:16,478 tick equity=790.76 pnl=-209.24 head=134283960 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:02:37,496 tick equity=790.76 pnl=-209.24 head=134284011 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:02:58,518 tick equity=790.76 pnl=-209.24 head=134284058 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:03:19,554 tick equity=790.76 pnl=-209.24 head=134284104 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:03:41,280 tick equity=790.76 pnl=-209.24 head=134284151 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:04:02,812 tick equity=790.76 pnl=-209.24 head=134284199 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:04:25,443 tick equity=790.76 pnl=-209.24 head=134284247 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:04:47,235 tick equity=790.76 pnl=-209.24 head=134284297 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:05:08,689 tick equity=790.76 pnl=-209.24 head=134284346 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:05:30,271 tick equity=790.76 pnl=-209.24 head=134284394 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:05:51,268 tick equity=790.76 pnl=-209.24 head=134284442 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:06:13,325 tick equity=790.76 pnl=-209.24 head=134284488 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:06:16,149 DEVHIST chunk err 134284365-134284499 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-18 17:06:35,252 tick equity=790.76 pnl=-209.24 head=134284537 v3=899.23 conf=986.01 gmgn=1000.0
+2026-11-18 17:06:56,929 tick equity=790.76 pnl=-209.24 head=134284586 v3=899.23 conf=986.01 gmgn=1000.0
