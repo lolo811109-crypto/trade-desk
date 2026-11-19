@@ -1,28 +1,3 @@
-2026-11-20 02:23:44,441 V3 filter error 0xdf579d27140000251421f3bb2b4ed43835eb3b6b RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-20 02:24:04,651 tick equity=790.76 pnl=-209.24 head=134550706 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:24:25,716 V3-ENTRY KILL 螃蟹 0xb94312d9aa4f0a84218b387d316e92c7f6ea7777 liq $11,504 < $20,000 v2 floor
-2026-11-20 02:24:25,773 V3 {'ts': 1795112646, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xb94312d9aa4f0a84218b387d316e92c7f6ea7777', 'sym': '螃蟹', 'price': 7.226e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $11,504 < $20,000 v2 floor']}
-2026-11-20 02:24:26,534 V3 filter error 0x329ca263df30c3e506c39081403ec95d5942ece8 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-20 02:24:27,521 tick equity=790.76 pnl=-209.24 head=134550754 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:24:50,893 tick equity=790.76 pnl=-209.24 head=134550804 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:25:08,625 V3 filter error 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-20 02:25:08,626 V3 filter: 15 wallets failed, retry in 600s
-2026-11-20 02:25:13,250 tick equity=790.76 pnl=-209.24 head=134550855 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:25:34,702 tick equity=790.76 pnl=-209.24 head=134550905 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:25:55,916 tick equity=790.76 pnl=-209.24 head=134550953 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:26:16,952 tick equity=790.76 pnl=-209.24 head=134551000 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:26:39,032 tick equity=790.76 pnl=-209.24 head=134551047 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:27:00,802 tick equity=790.76 pnl=-209.24 head=134551096 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:27:21,807 tick equity=790.76 pnl=-209.24 head=134551144 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:27:43,047 V3 {'ts': 1795112855, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xedb00ae87f24a82fd8ba966cf579c79c5e7c7777', 'sym': '螃蟹', 'price': 3.876e-05, 'action': 'skip-7d'}
-2026-11-20 02:27:44,724 tick equity=790.76 pnl=-209.24 head=134551191 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:28:05,717 V3 {'ts': 1795112863, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xedb00ae87f24a82fd8ba966cf579c79c5e7c7777', 'sym': '螃蟹', 'price': 4.574e-05, 'action': 'skip-7d'}
-2026-11-20 02:28:06,570 tick equity=790.76 pnl=-209.24 head=134551242 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:28:28,399 tick equity=790.76 pnl=-209.24 head=134551290 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:28:49,429 V3 {'ts': 1795112916, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xedb00ae87f24a82fd8ba966cf579c79c5e7c7777', 'sym': '螃蟹', 'price': 7.451e-05, 'action': 'skip-7d'}
-2026-11-20 02:28:49,902 tick equity=790.76 pnl=-209.24 head=134551339 v3=897.13 conf=986.4 gmgn=1000.0
-2026-11-20 02:29:10,882 V3 {'ts': 1795112942, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xedb00ae87f24a82fd8ba966cf579c79c5e7c7777', 'sym': '螃蟹', 'price': 7.626e-05, 'action': 'skip-7d'}
-2026-11-20 02:29:10,957 V3 {'ts': 1795112942, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xedb00ae87f24a82fd8ba966cf579c79c5e7c7777', 'sym': '螃蟹', 'price': 7.626e-05, 'action': 'skip-7d'}
 2026-11-20 02:29:11,862 tick equity=790.76 pnl=-209.24 head=134551387 v3=897.13 conf=986.4 gmgn=1000.0
 2026-11-20 02:29:32,920 V3 {'ts': 1795112950, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xedb00ae87f24a82fd8ba966cf579c79c5e7c7777', 'sym': '螃蟹', 'price': 7.375e-05, 'action': 'skip-7d'}
 2026-11-20 02:29:33,054 V3 {'ts': 1795112951, 'wallet': '0xc5606cde16fb8c39cc68d1d97700883ae951ff56', 'side': 'BUY', 'token': '0xedb00ae87f24a82fd8ba966cf579c79c5e7c7777', 'sym': '螃蟹', 'price': 7.375e-05, 'action': 'skip-7d'}
@@ -298,3 +273,28 @@
 2026-11-20 03:43:17,252 V3 {'ts': 1795117387, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbd4c22168cd2fb7bf77326f40293c936f9107777', 'sym': 'CZ', 'price': 4.527e-05, 'action': 'skip-liq'}
 2026-11-20 03:43:18,247 V3 {'ts': 1795117389, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x3b6343089a3d3e13796ffc39a1ab46a544ca7777', 'sym': 'DCTY', 'price': 5.887e-05, 'liq': 0, 'action': 'skip-badwallet', 'reasons': ['v3 record 8 closes wr 0% pnl -13.26']}
 2026-11-20 03:43:18,698 tick equity=790.76 pnl=-209.24 head=134561267 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:43:40,183 V3 {'ts': 1795117401, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbd4c22168cd2fb7bf77326f40293c936f9107777', 'sym': 'CZ', 'price': 4.527e-05, 'action': 'skip-liq'}
+2026-11-20 03:43:41,442 tick equity=790.76 pnl=-209.24 head=134561317 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:43:55,143 V3 filter error 0xc5606cde16fb8c39cc68d1d97700883ae951ff56 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-20 03:44:02,663 V3 {'ts': 1795117420, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbd4c22168cd2fb7bf77326f40293c936f9107777', 'sym': 'CZ', 'price': 4.527e-05, 'action': 'skip-liq'}
+2026-11-20 03:44:02,819 V3 {'ts': 1795117425, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbd4c22168cd2fb7bf77326f40293c936f9107777', 'sym': 'CZ', 'price': 4.527e-05, 'action': 'skip-liq'}
+2026-11-20 03:44:03,859 tick equity=790.76 pnl=-209.24 head=134561367 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:44:24,873 tick equity=790.76 pnl=-209.24 head=134561417 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:44:37,248 V3 filter error 0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-20 03:44:46,623 tick equity=790.76 pnl=-209.24 head=134561464 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:45:08,138 tick equity=790.76 pnl=-209.24 head=134561512 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:45:19,349 V3 filter error 0xe950337f36e45c316c53c69a5f285487b54f0bad RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-20 03:45:30,163 tick equity=790.76 pnl=-209.24 head=134561560 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:45:51,138 tick equity=790.76 pnl=-209.24 head=134561609 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:46:01,448 V3 filter error 0xc9ac2d47615508a16e46a3459eb4f564ad906a32 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-20 03:46:12,158 tick equity=790.76 pnl=-209.24 head=134561655 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:46:33,216 tick equity=790.76 pnl=-209.24 head=134561702 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:46:43,560 V3 filter error 0xdf579d27140000251421f3bb2b4ed43835eb3b6b RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-20 03:46:54,640 tick equity=790.76 pnl=-209.24 head=134561749 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:47:16,502 tick equity=790.76 pnl=-209.24 head=134561796 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:47:25,660 V3 filter error 0x329ca263df30c3e506c39081403ec95d5942ece8 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-20 03:47:37,526 tick equity=790.76 pnl=-209.24 head=134561845 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:47:58,585 tick equity=790.76 pnl=-209.24 head=134561892 v3=897.13 conf=986.4 gmgn=1000.0
+2026-11-20 03:48:07,760 V3 filter error 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-20 03:48:07,760 V3 filter: 15 wallets failed, retry in 600s
+2026-11-20 03:48:20,416 tick equity=790.76 pnl=-209.24 head=134561939 v3=897.13 conf=986.4 gmgn=1000.0
