@@ -1,24 +1,3 @@
-2026-11-21 11:30:30,998 tick equity=790.76 pnl=-209.24 head=134815483 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:30:40,309 DEVHIST chunk err 134815375-134815507 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-21 11:30:42,189 V3 filter error 0xdf579d27140000251421f3bb2b4ed43835eb3b6b RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-21 11:30:52,853 tick equity=790.76 pnl=-209.24 head=134815532 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:31:14,525 tick equity=790.76 pnl=-209.24 head=134815580 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:31:24,323 V3 filter error 0x329ca263df30c3e506c39081403ec95d5942ece8 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-21 11:31:36,263 tick equity=790.76 pnl=-209.24 head=134815628 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:31:41,275 DEVHIST chunk err 134815508-134815643 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-21 11:31:41,734 DEVHIST chunk err 134815508-134815643 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-21 11:31:58,696 tick equity=790.76 pnl=-209.24 head=134815677 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:32:06,428 V3 filter error 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-21 11:32:06,428 V3 filter: 15 wallets failed, retry in 600s
-2026-11-21 11:32:20,481 tick equity=790.76 pnl=-209.24 head=134815726 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:32:41,653 tick equity=790.76 pnl=-209.24 head=134815775 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:32:42,854 DEVHIST chunk err 134815644-134815780 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-21 11:33:02,823 tick equity=790.76 pnl=-209.24 head=134815822 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:33:25,086 tick equity=790.76 pnl=-209.24 head=134815869 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:33:43,694 DEVHIST chunk err 134815781-134815915 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-21 11:33:47,353 tick equity=790.76 pnl=-209.24 head=134815918 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:34:08,540 tick equity=790.76 pnl=-209.24 head=134815968 v3=896.03 conf=993.81 gmgn=1000.0
-2026-11-21 11:34:31,269 tick equity=790.76 pnl=-209.24 head=134816015 v3=896.03 conf=993.81 gmgn=1000.0
 2026-11-21 11:34:44,617 DEVHIST chunk err 134815916-134816051 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-21 11:34:52,873 tick equity=790.76 pnl=-209.24 head=134816066 v3=896.03 conf=993.81 gmgn=1000.0
 2026-11-21 11:35:14,806 tick equity=790.76 pnl=-209.24 head=134816114 v3=896.03 conf=993.81 gmgn=1000.0
@@ -298,3 +277,24 @@
 2026-11-21 12:48:08,705 tick equity=790.76 pnl=-209.24 head=134825833 v3=894.11 conf=993.81 gmgn=1000.0
 2026-11-21 12:48:20,728 DEVHIST chunk err 134825725-134825861 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-21 12:48:30,567 tick equity=790.76 pnl=-209.24 head=134825880 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:48:46,705 V3 filter error 0x77018191c32bdf7542d8d82007ae26b41f614d96 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-21 12:48:52,299 tick equity=790.76 pnl=-209.24 head=134825928 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:49:13,951 tick equity=790.76 pnl=-209.24 head=134825977 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:49:28,799 V3 filter error 0x7dfd45e511a05d012d19264e2adf4acfe7717f1f RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-21 12:49:34,829 tick equity=790.76 pnl=-209.24 head=134826025 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:49:56,566 tick equity=790.76 pnl=-209.24 head=134826071 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:50:10,894 V3 filter error 0x07a61c083420b5d95bd3e4738669b9a4fca3c046 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-21 12:50:18,326 tick equity=790.76 pnl=-209.24 head=134826119 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:50:40,160 tick equity=790.76 pnl=-209.24 head=134826168 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:50:52,989 V3 filter error 0xc5606cde16fb8c39cc68d1d97700883ae951ff56 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-21 12:51:01,126 tick equity=790.76 pnl=-209.24 head=134826216 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:51:22,517 tick equity=790.76 pnl=-209.24 head=134826263 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:51:35,084 V3 filter error 0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-21 12:51:43,738 tick equity=790.76 pnl=-209.24 head=134826311 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:52:04,676 tick equity=790.76 pnl=-209.24 head=134826358 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:52:17,183 V3 filter error 0xe950337f36e45c316c53c69a5f285487b54f0bad RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-21 12:52:25,670 tick equity=790.76 pnl=-209.24 head=134826404 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:52:46,822 tick equity=790.76 pnl=-209.24 head=134826451 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:52:59,277 V3 filter error 0xc9ac2d47615508a16e46a3459eb4f564ad906a32 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-21 12:53:08,217 tick equity=790.76 pnl=-209.24 head=134826498 v3=894.11 conf=993.81 gmgn=1000.0
+2026-11-21 12:53:29,663 tick equity=790.76 pnl=-209.24 head=134826545 v3=894.11 conf=993.81 gmgn=1000.0
