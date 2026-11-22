@@ -1,17 +1,3 @@
-2026-11-22 20:20:38,550 DEVHIST chunk err 135077940-135078074 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-22 20:20:57,026 tick equity=790.76 pnl=-209.24 head=135078109 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:21:18,711 V3-RISK 奶蛙 0xa184d5ad47c9e756117c6590371bee0d0d477777 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-22 20:21:18,711 V3 {'ts': 1795350057, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xa184d5ad47c9e756117c6590371bee0d0d477777', 'sym': '奶蛙', 'price': 0.001203, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-22 20:21:18,842 V3 {'ts': 1795350058, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xa184d5ad47c9e756117c6590371bee0d0d477777', 'sym': '奶蛙', 'price': 0.001203, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-22 20:21:18,967 V3 {'ts': 1795350059, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xa184d5ad47c9e756117c6590371bee0d0d477777', 'sym': '奶蛙', 'price': 0.001203, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-22 20:21:20,515 tick equity=790.76 pnl=-209.24 head=135078158 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:21:44,051 tick equity=790.76 pnl=-209.24 head=135078210 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:22:05,496 tick equity=790.76 pnl=-209.24 head=135078262 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:22:27,467 tick equity=790.76 pnl=-209.24 head=135078310 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:22:49,319 tick equity=790.76 pnl=-209.24 head=135078359 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:23:10,682 tick equity=790.76 pnl=-209.24 head=135078408 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:23:32,201 tick equity=790.76 pnl=-209.24 head=135078455 v3=888.36 conf=993.81 gmgn=1000.0
-2026-11-22 20:23:55,061 tick equity=790.76 pnl=-209.24 head=135078503 v3=888.36 conf=993.81 gmgn=1000.0
 2026-11-22 20:24:17,769 tick equity=790.76 pnl=-209.24 head=135078554 v3=888.36 conf=993.81 gmgn=1000.0
 2026-11-22 20:24:39,857 tick equity=790.76 pnl=-209.24 head=135078604 v3=888.36 conf=993.81 gmgn=1000.0
 2026-11-22 20:24:40,618 DEVHIST chunk err 135078477-135078610 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
@@ -298,3 +284,17 @@
 2026-11-22 21:42:06,801 tick equity=790.76 pnl=-209.24 head=135088926 v3=888.73 conf=993.81 gmgn=1000.0
 2026-11-22 21:42:28,555 tick equity=790.76 pnl=-209.24 head=135088974 v3=888.73 conf=993.81 gmgn=1000.0
 2026-11-22 21:42:50,839 tick equity=790.76 pnl=-209.24 head=135089023 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:43:13,459 tick equity=790.76 pnl=-209.24 head=135089072 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:43:34,993 tick equity=790.76 pnl=-209.24 head=135089123 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:43:57,120 tick equity=790.76 pnl=-209.24 head=135089171 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:44:18,997 tick equity=790.76 pnl=-209.24 head=135089220 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:44:41,126 tick equity=790.76 pnl=-209.24 head=135089268 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:45:02,948 tick equity=790.76 pnl=-209.24 head=135089316 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:45:25,101 tick equity=790.76 pnl=-209.24 head=135089365 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:45:47,125 tick equity=790.76 pnl=-209.24 head=135089414 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:46:08,188 tick equity=790.76 pnl=-209.24 head=135089463 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:46:30,998 tick equity=790.76 pnl=-209.24 head=135089510 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:46:53,352 tick equity=790.76 pnl=-209.24 head=135089560 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:47:15,888 tick equity=790.76 pnl=-209.24 head=135089610 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:47:38,551 tick equity=790.76 pnl=-209.24 head=135089660 v3=888.73 conf=993.81 gmgn=1000.0
+2026-11-22 21:48:01,032 tick equity=790.76 pnl=-209.24 head=135089711 v3=888.73 conf=993.81 gmgn=1000.0
