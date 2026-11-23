@@ -1,22 +1,3 @@
-2026-11-23 22:13:43,133 V3-ENTRY KILL 皮衣 0x398b2efe37632f5f412488c919f41a198d217777 liq $9,352 < $20,000 v2 floor
-2026-11-23 22:13:43,199 V3 {'ts': 1795443201, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x398b2efe37632f5f412488c919f41a198d217777', 'sym': '皮衣', 'price': 5.297e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $9,352 < $20,000 v2 floor']}
-2026-11-23 22:13:50,561 tick equity=790.76 pnl=-209.24 head=135285029 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:14:17,106 tick equity=790.76 pnl=-209.24 head=135285094 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:14:42,076 tick equity=790.76 pnl=-209.24 head=135285153 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:15:08,988 tick equity=790.76 pnl=-209.24 head=135285208 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:15:36,044 tick equity=790.76 pnl=-209.24 head=135285268 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:15:36,464 DEVHIST chunk err 135285150-135285284 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-23 22:16:05,650 tick equity=790.76 pnl=-209.24 head=135285328 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:16:32,573 tick equity=790.76 pnl=-209.24 head=135285394 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:16:37,468 DEVHIST chunk err 135285285-135285419 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-23 22:16:37,992 DEVHIST chunk err 135285285-135285419 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
-2026-11-23 22:16:54,743 V3-ENTRY KILL Jacket 0x69515f37c77710a7286280a24c0bb5779f47ffff liq $16,086 < $20,000 v2 floor
-2026-11-23 22:16:54,800 V3 {'ts': 1795443397, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x69515f37c77710a7286280a24c0bb5779f47ffff', 'sym': 'Jacket', 'price': 2.579e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $16,086 < $20,000 v2 floor']}
-2026-11-23 22:16:54,995 V3-ENTRY KILL Jacket 0x69515f37c77710a7286280a24c0bb5779f47ffff liq $16,086 < $20,000 v2 floor
-2026-11-23 22:16:54,995 V3 {'ts': 1795443399, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x69515f37c77710a7286280a24c0bb5779f47ffff', 'sym': 'Jacket', 'price': 2.579e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $16,086 < $20,000 v2 floor']}
-2026-11-23 22:17:03,279 tick equity=790.76 pnl=-209.24 head=135285453 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:17:32,005 tick equity=790.76 pnl=-209.24 head=135285522 v3=886.82 conf=993.81 gmgn=1000.0
-2026-11-23 22:17:38,958 DEVHIST chunk err 135285420-135285556 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-23 22:17:39,420 DEVHIST chunk err 135285420-135285556 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-23 22:18:01,468 tick equity=790.76 pnl=-209.24 head=135285586 v3=886.82 conf=993.81 gmgn=1000.0
 2026-11-23 22:18:23,243 V3-ENTRY KILL CHIPS 0x34f3e4bb710e8d161ad2738922a3333001307777 liq $14,308 < $20,000 v2 floor
@@ -298,3 +279,22 @@
 2026-11-23 23:16:42,850 tick equity=790.76 pnl=-209.24 head=135293414 v3=886.82 conf=993.81 gmgn=1000.0
 2026-11-23 23:17:02,834 DEVHIST chunk err 135293331-135293467 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-23 23:17:08,210 tick equity=790.76 pnl=-209.24 head=135293468 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:17:33,550 tick equity=790.76 pnl=-209.24 head=135293524 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:17:56,589 tick equity=790.76 pnl=-209.24 head=135293581 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:18:03,731 DEVHIST chunk err 135293468-135293603 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-23 23:18:04,201 DEVHIST chunk err 135293468-135293603 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-23 23:18:22,406 tick equity=790.76 pnl=-209.24 head=135293632 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:18:44,674 tick equity=790.76 pnl=-209.24 head=135293689 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:19:05,092 DEVHIST chunk err 135293604-135293739 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-23 23:19:07,898 tick equity=790.76 pnl=-209.24 head=135293739 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:19:29,841 tick equity=790.76 pnl=-209.24 head=135293791 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:19:53,398 tick equity=790.76 pnl=-209.24 head=135293839 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:20:06,192 DEVHIST chunk err 135293740-135293874 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-23 23:20:18,050 tick equity=790.76 pnl=-209.24 head=135293891 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:20:41,774 tick equity=790.76 pnl=-209.24 head=135293946 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:21:06,754 tick equity=790.76 pnl=-209.24 head=135293999 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:21:07,157 DEVHIST chunk err 135293875-135294010 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-23 23:21:30,939 tick equity=790.76 pnl=-209.24 head=135294054 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:21:54,368 tick equity=790.76 pnl=-209.24 head=135294108 v3=886.82 conf=993.81 gmgn=1000.0
+2026-11-23 23:22:08,203 DEVHIST chunk err 135294011-135294146 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-23 23:22:17,472 tick equity=790.76 pnl=-209.24 head=135294160 v3=886.82 conf=993.81 gmgn=1000.0
