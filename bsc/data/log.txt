@@ -1,21 +1,3 @@
-2026-11-23 13:56:58,909 tick equity=790.76 pnl=-209.24 head=135218840 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:57:21,710 tick equity=790.76 pnl=-209.24 head=135218926 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:57:43,761 tick equity=790.76 pnl=-209.24 head=135218977 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:58:05,339 tick equity=790.76 pnl=-209.24 head=135219026 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:58:26,972 tick equity=790.76 pnl=-209.24 head=135219074 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:58:49,170 tick equity=790.76 pnl=-209.24 head=135219122 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:59:11,487 tick equity=790.76 pnl=-209.24 head=135219171 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:59:33,067 tick equity=790.76 pnl=-209.24 head=135219221 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 13:59:55,129 tick equity=790.76 pnl=-209.24 head=135219269 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:00:16,486 tick equity=790.76 pnl=-209.24 head=135219318 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:00:38,691 tick equity=790.76 pnl=-209.24 head=135219365 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:01:00,051 tick equity=790.76 pnl=-209.24 head=135219415 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:01:22,317 tick equity=790.76 pnl=-209.24 head=135219462 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:01:43,739 tick equity=790.76 pnl=-209.24 head=135219512 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:02:05,564 tick equity=790.76 pnl=-209.24 head=135219559 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:02:27,388 tick equity=790.76 pnl=-209.24 head=135219608 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:02:50,767 tick equity=790.76 pnl=-209.24 head=135219656 v3=887.64 conf=993.81 gmgn=1000.0
-2026-11-23 14:03:11,729 tick equity=790.76 pnl=-209.24 head=135219708 v3=887.64 conf=993.81 gmgn=1000.0
 2026-11-23 14:03:32,713 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-23 14:03:34,174 tick equity=790.76 pnl=-209.24 head=135219755 v3=887.64 conf=993.81 gmgn=1000.0
 2026-11-23 14:03:58,652 V3-RISK 蚂蚁 0x523611ed006ef9b16f3315e36ea427fceb36ffff KILL buy_tax unknown; sell_tax unknown; info: dev holds 0.0%; info: 开发者历史 0x653d2b… prior=199 dead=10/20 (50%)
@@ -298,3 +280,21 @@
 2026-11-23 15:20:17,771 tick equity=790.76 pnl=-209.24 head=135229979 v3=887.64 conf=993.81 gmgn=1000.0
 2026-11-23 15:20:40,507 tick equity=790.76 pnl=-209.24 head=135230028 v3=887.64 conf=993.81 gmgn=1000.0
 2026-11-23 15:21:02,622 tick equity=790.76 pnl=-209.24 head=135230079 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:21:24,520 tick equity=790.76 pnl=-209.24 head=135230128 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:21:45,872 tick equity=790.76 pnl=-209.24 head=135230177 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:22:08,918 tick equity=790.76 pnl=-209.24 head=135230224 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:22:32,426 tick equity=790.76 pnl=-209.24 head=135230275 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:22:54,285 tick equity=790.76 pnl=-209.24 head=135230327 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:23:16,800 tick equity=790.76 pnl=-209.24 head=135230376 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:23:39,279 tick equity=790.76 pnl=-209.24 head=135230426 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:24:01,355 tick equity=790.76 pnl=-209.24 head=135230476 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:24:22,518 V3-ENTRY KILL CM 0xa984526670f72a7c788a0d7386ecc052adbf7777 liq $7,695 < $20,000 v2 floor
+2026-11-23 15:24:22,583 V3 {'ts': 1795418654, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xa984526670f72a7c788a0d7386ecc052adbf7777', 'sym': 'CM', 'price': 8.159e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $7,695 < $20,000 v2 floor']}
+2026-11-23 15:24:24,583 tick equity=790.76 pnl=-209.24 head=135230525 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:24:49,047 tick equity=790.76 pnl=-209.24 head=135230577 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:25:12,831 tick equity=790.76 pnl=-209.24 head=135230631 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:25:37,444 tick equity=790.76 pnl=-209.24 head=135230684 v3=887.64 conf=993.81 gmgn=1000.0
+2026-11-23 15:26:01,645 V3-DEV-WARN 0xbf96906300e7e3500b617dcee82bdd56adfc7777 creator/holding unknown, allowing
+2026-11-23 15:26:01,708 V3-RISK CM 0xbf96906300e7e3500b617dcee82bdd56adfc7777 KILL buy_tax unknown; sell_tax unknown; warn: dev holding unknown; info: 开发者历史未知
+2026-11-23 15:26:01,708 V3 {'ts': 1795418740, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0xbf96906300e7e3500b617dcee82bdd56adfc7777', 'sym': 'CM', 'price': 0.000124, 'action': 'kill-risk', 'reasons': ['buy_tax unknown', 'sell_tax unknown', 'warn: dev holding unknown', 'info: 开发者历史未知']}
+2026-11-23 15:26:05,550 tick equity=790.76 pnl=-209.24 head=135230739 v3=887.64 conf=993.81 gmgn=1000.0
