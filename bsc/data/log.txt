@@ -1,20 +1,3 @@
-2026-11-25 20:09:41,398 tick equity=790.76 pnl=-209.24 head=135652341 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:10:02,556 tick equity=790.76 pnl=-209.24 head=135652391 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:10:24,967 tick equity=790.76 pnl=-209.24 head=135652438 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:10:47,254 tick equity=790.76 pnl=-209.24 head=135652487 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:11:08,830 tick equity=790.76 pnl=-209.24 head=135652536 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:11:30,274 tick equity=790.76 pnl=-209.24 head=135652584 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:11:51,787 tick equity=790.76 pnl=-209.24 head=135652632 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:12:15,101 tick equity=790.76 pnl=-209.24 head=135652679 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:12:37,107 tick equity=790.76 pnl=-209.24 head=135652731 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:12:59,561 tick equity=790.76 pnl=-209.24 head=135652780 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:13:22,106 tick equity=790.76 pnl=-209.24 head=135652830 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:13:44,097 tick equity=790.76 pnl=-209.24 head=135652880 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:14:06,060 tick equity=790.76 pnl=-209.24 head=135652929 v3=882.33 conf=993.62 gmgn=1000.0
-2026-11-25 20:14:27,695 V3-RISK TRUMAN 0xabffa443547b34ab6c3b3173d26e233900527777 PASS info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-25 20:14:27,695 V3 {'ts': 1795608844, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xabffa443547b34ab6c3b3173d26e233900527777', 'sym': 'TRUMAN', 'price': 0.0002316, 'action': 'buy', 'stake': 10.0}
-2026-11-25 20:14:31,697 tick equity=790.76 pnl=-209.24 head=135652978 v3=881.54 conf=993.62 gmgn=1000.0
-2026-11-25 20:14:54,981 tick equity=790.76 pnl=-209.24 head=135653035 v3=881.59 conf=993.62 gmgn=1000.0
 2026-11-25 20:15:16,938 tick equity=790.76 pnl=-209.24 head=135653087 v3=881.59 conf=993.62 gmgn=1000.0
 2026-11-25 20:15:39,658 tick equity=790.76 pnl=-209.24 head=135653135 v3=881.59 conf=993.62 gmgn=1000.0
 2026-11-25 20:15:58,670 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
@@ -298,3 +281,20 @@
 2026-11-25 21:29:00,335 tick equity=790.76 pnl=-209.24 head=135662907 v3=881.58 conf=993.62 gmgn=1000.0
 2026-11-25 21:29:23,600 tick equity=790.76 pnl=-209.24 head=135662959 v3=881.58 conf=993.62 gmgn=1000.0
 2026-11-25 21:29:46,224 tick equity=790.76 pnl=-209.24 head=135663011 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:30:10,560 tick equity=790.76 pnl=-209.24 head=135663061 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:30:36,002 tick equity=790.76 pnl=-209.24 head=135663115 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:30:59,787 tick equity=790.76 pnl=-209.24 head=135663172 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:31:21,177 V3 {'ts': 1795613477, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xf201271e63b4e7831947b64a159ea46d8dc4ffff', 'sym': 'BOOSTER', 'price': 4.889e-05, 'action': 'skip-liq'}
+2026-11-25 21:31:26,266 tick equity=790.76 pnl=-209.24 head=135663224 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:31:28,223 DEVHIST chunk err 135663109-135663243 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-25 21:31:47,422 V3 {'ts': 1795613481, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xf201271e63b4e7831947b64a159ea46d8dc4ffff', 'sym': 'BOOSTER', 'price': 4.889e-05, 'action': 'skip-liq'}
+2026-11-25 21:31:50,679 tick equity=790.76 pnl=-209.24 head=135663283 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:32:16,698 tick equity=790.76 pnl=-209.24 head=135663337 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:32:42,412 tick equity=790.76 pnl=-209.24 head=135663395 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:33:03,644 V3 {'ts': 1795613565, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xf201271e63b4e7831947b64a159ea46d8dc4ffff', 'sym': 'BOOSTER', 'price': 4.889e-05, 'action': 'skip-liq'}
+2026-11-25 21:33:10,416 tick equity=790.76 pnl=-209.24 head=135663452 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:33:29,628 DEVHIST chunk err 135663379-135663513 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-25 21:33:35,656 tick equity=790.76 pnl=-209.24 head=135663515 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:33:57,757 tick equity=790.76 pnl=-209.24 head=135663570 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:34:21,113 tick equity=790.76 pnl=-209.24 head=135663619 v3=881.58 conf=993.62 gmgn=1000.0
+2026-11-25 21:34:45,292 tick equity=790.76 pnl=-209.24 head=135663671 v3=881.58 conf=993.62 gmgn=1000.0
