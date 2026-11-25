@@ -1,16 +1,3 @@
-2026-11-25 12:18:05,590 tick equity=790.76 pnl=-209.24 head=135589488 v3=882.33 conf=993.81 gmgn=1000.0
-2026-11-25 12:18:27,279 V3-ENTRY KILL 皮皮鲁 0x1554fc43ff4061a63db330bbcbe4c8fbb4377777 liq $12,086 < $20,000 v2 floor
-2026-11-25 12:18:27,280 V3 {'ts': 1795580297, 'wallet': '0x07a61c083420b5d95bd3e4738669b9a4fca3c046', 'side': 'BUY', 'token': '0x1554fc43ff4061a63db330bbcbe4c8fbb4377777', 'sym': '皮皮鲁', 'price': 9.581e-06, 'action': 'skip-liqfloor', 'reasons': ['liq $12,086 < $20,000 v2 floor']}
-2026-11-25 12:18:30,285 tick equity=790.76 pnl=-209.24 head=135589537 v3=882.33 conf=993.81 gmgn=1000.0
-2026-11-25 12:18:53,167 tick equity=790.76 pnl=-209.24 head=135589592 v3=882.33 conf=993.81 gmgn=1000.0
-2026-11-25 12:19:12,313 V3 filter error 0xb9b06949dffb672a2a0dc76b32e2d64e782febbe RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-25 12:19:16,091 tick equity=790.76 pnl=-209.24 head=135589643 v3=882.33 conf=993.81 gmgn=1000.0
-2026-11-25 12:19:39,413 tick equity=790.76 pnl=-209.24 head=135589694 v3=882.33 conf=993.81 gmgn=1000.0
-2026-11-25 12:19:54,405 V3 filter error 0xd392fc61934309f168cf7eb7a5c3132c7b46f253 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-25 12:20:02,523 tick equity=790.76 pnl=-209.24 head=135589745 v3=882.33 conf=993.81 gmgn=1000.0
-2026-11-25 12:20:25,230 tick equity=790.76 pnl=-209.24 head=135589797 v3=882.33 conf=993.81 gmgn=1000.0
-2026-11-25 12:20:36,494 V3 filter error 0xa03fa805f34b9eebeae0d0adaeda4113246b8f12 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-25 12:20:47,936 tick equity=790.76 pnl=-209.24 head=135589847 v3=882.33 conf=993.81 gmgn=1000.0
 2026-11-25 12:21:11,246 tick equity=790.76 pnl=-209.24 head=135589898 v3=882.33 conf=993.81 gmgn=1000.0
 2026-11-25 12:21:18,584 V3 filter error 0x9bee11202478166584fc2cd2735a302ed995bd26 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
 2026-11-25 12:21:34,218 tick equity=790.76 pnl=-209.24 head=135589949 v3=882.33 conf=993.81 gmgn=1000.0
@@ -298,3 +285,16 @@
 2026-11-25 13:32:27,554 tick equity=790.76 pnl=-209.24 head=135599399 v3=882.33 conf=993.81 gmgn=1000.0
 2026-11-25 13:32:49,071 tick equity=790.76 pnl=-209.24 head=135599449 v3=882.33 conf=993.81 gmgn=1000.0
 2026-11-25 13:33:12,399 tick equity=790.76 pnl=-209.24 head=135599497 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:33:34,300 tick equity=790.76 pnl=-209.24 head=135599549 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:33:56,059 tick equity=790.76 pnl=-209.24 head=135599598 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:34:17,865 tick equity=790.76 pnl=-209.24 head=135599646 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:34:39,479 tick equity=790.76 pnl=-209.24 head=135599694 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:35:00,418 tick equity=790.76 pnl=-209.24 head=135599743 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:35:22,546 tick equity=790.76 pnl=-209.24 head=135599789 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:35:44,908 tick equity=790.76 pnl=-209.24 head=135599838 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:36:08,844 tick equity=790.76 pnl=-209.24 head=135599888 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:36:32,832 tick equity=790.76 pnl=-209.24 head=135599941 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:36:55,216 tick equity=790.76 pnl=-209.24 head=135599994 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:37:18,411 tick equity=790.76 pnl=-209.24 head=135600044 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:37:41,269 tick equity=790.76 pnl=-209.24 head=135600096 v3=882.33 conf=993.81 gmgn=1000.0
+2026-11-25 13:38:02,791 tick equity=790.76 pnl=-209.24 head=135600146 v3=882.33 conf=993.81 gmgn=1000.0
