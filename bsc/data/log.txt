@@ -1,23 +1,3 @@
-2026-11-26 13:21:39,193 tick equity=790.76 pnl=-209.24 head=135789848 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:22:02,925 tick equity=790.76 pnl=-209.24 head=135789899 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:22:25,509 tick equity=790.76 pnl=-209.24 head=135789952 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:22:46,970 tick equity=790.76 pnl=-209.24 head=135790002 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:23:09,344 tick equity=790.76 pnl=-209.24 head=135790050 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:23:32,289 tick equity=790.76 pnl=-209.24 head=135790100 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:23:54,072 tick equity=790.76 pnl=-209.24 head=135790151 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:24:15,941 tick equity=790.76 pnl=-209.24 head=135790199 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:24:37,638 tick equity=790.76 pnl=-209.24 head=135790248 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:25:01,262 tick equity=790.76 pnl=-209.24 head=135790296 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:25:23,760 tick equity=790.76 pnl=-209.24 head=135790348 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:25:46,086 tick equity=790.76 pnl=-209.24 head=135790398 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:26:07,035 tick equity=790.76 pnl=-209.24 head=135790447 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:26:28,331 tick equity=790.76 pnl=-209.24 head=135790494 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:26:49,694 tick equity=790.76 pnl=-209.24 head=135790541 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:27:12,343 tick equity=790.76 pnl=-209.24 head=135790589 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:27:34,912 tick equity=790.76 pnl=-209.24 head=135790639 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:27:56,894 tick equity=790.76 pnl=-209.24 head=135790689 v3=881.58 conf=993.62 gmgn=1000.0
-2026-11-26 13:28:18,078 V3 {'ts': 1795670882, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xa4e310998eb7f2e6bcca9538c6e3c9e046a34444', 'sym': 'Bin', 'price': 4.891e-05, 'action': 'skip-liq'}
-2026-11-26 13:28:18,078 CONFLUENCE Bin 0xa4e310998eb7f2e6bcca9538c6e3c9e046a34444 wallets=['0x07a61c083420b5d95bd3e4738669b9a4fca3c046', '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f']
 2026-11-26 13:28:18,082 V2 {'ts': 1795670882, 'wallet': 'confluence', 'side': 'BUY', 'token': '0xa4e310998eb7f2e6bcca9538c6e3c9e046a34444', 'sym': 'Bin', 'price': 4.891e-05, 'action': 'skip-liq'}
 2026-11-26 13:28:19,513 tick equity=790.76 pnl=-209.24 head=135790738 v3=881.58 conf=993.62 gmgn=1000.0
 2026-11-26 13:28:41,594 tick equity=790.76 pnl=-209.24 head=135790788 v3=881.58 conf=993.62 gmgn=1000.0
@@ -298,3 +278,23 @@
 2026-11-26 15:04:09,204 tick equity=790.76 pnl=-209.24 head=135803500 v3=879.86 conf=993.62 gmgn=1000.0
 2026-11-26 15:04:34,173 tick equity=790.76 pnl=-209.24 head=135803557 v3=879.86 conf=993.62 gmgn=1000.0
 2026-11-26 15:04:59,694 tick equity=790.76 pnl=-209.24 head=135803613 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:05:07,887 DEVHIST chunk err 135803508-135803643 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-26 15:05:25,592 tick equity=790.76 pnl=-209.24 head=135803669 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:05:49,502 tick equity=790.76 pnl=-209.24 head=135803727 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:06:08,948 DEVHIST chunk err 135803644-135803779 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-26 15:06:15,054 tick equity=790.76 pnl=-209.24 head=135803780 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:06:40,557 tick equity=790.76 pnl=-209.24 head=135803837 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:07:05,372 tick equity=790.76 pnl=-209.24 head=135803893 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:07:26,508 V3-ENTRY KILL 猫猫币 0x18c9ac2e7160e6ac735722dd1d67c79e31df7777 liq $9,723 < $20,000 v2 floor
+2026-11-26 15:07:26,598 V3 {'ts': 1795676840, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x18c9ac2e7160e6ac735722dd1d67c79e31df7777', 'sym': '猫猫币', 'price': 1.243e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $9,723 < $20,000 v2 floor']}
+2026-11-26 15:07:30,950 tick equity=790.76 pnl=-209.24 head=135803948 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:07:51,813 V3-ENTRY KILL 猫猫币 0x18c9ac2e7160e6ac735722dd1d67c79e31df7777 liq $11,113 < $20,000 v2 floor
+2026-11-26 15:07:51,813 V3 {'ts': 1795676859, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x18c9ac2e7160e6ac735722dd1d67c79e31df7777', 'sym': '猫猫币', 'price': 1.62e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $11,113 < $20,000 v2 floor']}
+2026-11-26 15:07:55,578 tick equity=790.76 pnl=-209.24 head=135804005 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:08:10,402 DEVHIST chunk err 135803914-135804048 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
+2026-11-26 15:08:19,895 tick equity=790.76 pnl=-209.24 head=135804060 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:08:46,560 tick equity=790.76 pnl=-209.24 head=135804114 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:09:07,664 V3 {'ts': 1795676923, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0xfb8b99ff90a33a6d81b0212f0ac80e9339e17777', 'sym': 'SPACEXLIFE', 'price': 7.159e-05, 'liq': 25555, 'action': 'skip-badwallet', 'reasons': ['v3 record 8 closes wr 12% pnl -12.75']}
+2026-11-26 15:09:12,854 tick equity=790.76 pnl=-209.24 head=135804173 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:09:37,149 tick equity=790.76 pnl=-209.24 head=135804231 v3=879.86 conf=993.62 gmgn=1000.0
+2026-11-26 15:10:02,404 tick equity=790.76 pnl=-209.24 head=135804285 v3=879.86 conf=993.62 gmgn=1000.0
