@@ -1,15 +1,3 @@
-2026-11-26 21:30:07,194 tick equity=790.76 pnl=-209.24 head=135854928 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:30:28,543 V3 {'ts': 1795699821, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x24cad4c41aac46e794a6029c6b4879b11a2cffff', 'sym': 'SpaceXCoin', 'price': 1.28011313e-05, 'action': 'skip-liq'}
-2026-11-26 21:30:29,255 V3-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 88%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-26 21:30:29,255 V3 {'ts': 1795699821, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 129.99, 'action': 'kill-risk', 'reasons': ['top10 holders 88%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-26 21:30:34,547 tick equity=790.76 pnl=-209.24 head=135854980 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:30:59,770 tick equity=790.76 pnl=-209.24 head=135855041 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:31:24,450 tick equity=790.76 pnl=-209.24 head=135855097 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:31:51,954 tick equity=790.76 pnl=-209.24 head=135855152 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:32:18,322 tick equity=790.76 pnl=-209.24 head=135855213 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:32:40,522 tick equity=790.76 pnl=-209.24 head=135855272 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:33:03,540 tick equity=790.76 pnl=-209.24 head=135855321 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-26 21:33:28,170 DEVHIST chunk err 135855248-135855382 rpc eth_getLogs {'code': -32005, 'message': 'limit exceeded'}
 2026-11-26 21:33:28,894 tick equity=790.76 pnl=-209.24 head=135855372 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-26 21:33:55,949 tick equity=790.76 pnl=-209.24 head=135855429 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-26 21:34:21,090 tick equity=790.76 pnl=-209.24 head=135855488 v3=879.94 conf=993.62 gmgn=1000.0
@@ -298,3 +286,15 @@
 2026-11-26 23:11:30,445 tick equity=790.76 pnl=-209.24 head=135868400 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-26 23:11:54,053 tick equity=790.76 pnl=-209.24 head=135868451 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-26 23:12:19,546 tick equity=790.76 pnl=-209.24 head=135868504 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:12:43,918 tick equity=790.76 pnl=-209.24 head=135868560 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:13:08,192 tick equity=790.76 pnl=-209.24 head=135868614 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:13:32,781 tick equity=790.76 pnl=-209.24 head=135868668 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:13:56,569 tick equity=790.76 pnl=-209.24 head=135868723 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:14:21,179 tick equity=790.76 pnl=-209.24 head=135868776 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:14:44,380 tick equity=790.76 pnl=-209.24 head=135868831 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:15:08,141 tick equity=790.76 pnl=-209.24 head=135868882 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:15:32,165 tick equity=790.76 pnl=-209.24 head=135868935 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:15:57,090 tick equity=790.76 pnl=-209.24 head=135868988 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:16:19,880 tick equity=790.76 pnl=-209.24 head=135869044 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:16:42,566 tick equity=790.76 pnl=-209.24 head=135869094 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-26 23:17:04,992 tick equity=790.76 pnl=-209.24 head=135869145 v3=879.94 conf=993.62 gmgn=1000.0
