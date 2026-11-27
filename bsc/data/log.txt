@@ -1,22 +1,3 @@
-2026-11-27 15:23:49,159 V3-ENTRY KILL 东方神牛 0xc7b3ee2fdc69fff3f59979d5861174e0b2537777 liq $13,690 < $20,000 v2 floor
-2026-11-27 15:23:49,234 V3 {'ts': 1795764227, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xc7b3ee2fdc69fff3f59979d5861174e0b2537777', 'sym': '东方神牛', 'price': 1.204e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $13,690 < $20,000 v2 floor']}
-2026-11-27 15:23:54,178 tick equity=790.76 pnl=-209.24 head=135998009 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:24:20,598 tick equity=790.76 pnl=-209.24 head=135998066 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:24:26,933 V3 filter error 0xdf579d27140000251421f3bb2b4ed43835eb3b6b RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-27 15:24:46,761 tick equity=790.76 pnl=-209.24 head=135998125 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:25:09,029 V3 filter error 0x329ca263df30c3e506c39081403ec95d5942ece8 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-27 15:25:12,377 tick equity=790.76 pnl=-209.24 head=135998183 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:25:36,302 tick equity=790.76 pnl=-209.24 head=135998240 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:25:51,127 V3 filter error 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
-2026-11-27 15:25:51,127 V3 filter: 15 wallets failed, retry in 600s
-2026-11-27 15:25:57,423 V3-ENTRY KILL Froggie 0x8c289e4bd6695ef6d948d8c0fd4732fa7d617777 liq $13,712 < $20,000 v2 floor
-2026-11-27 15:25:57,514 V3 {'ts': 1795764336, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x8c289e4bd6695ef6d948d8c0fd4732fa7d617777', 'sym': 'Froggie', 'price': 9.817461965e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $13,712 < $20,000 v2 floor']}
-2026-11-27 15:26:03,201 tick equity=790.76 pnl=-209.24 head=135998293 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:26:28,044 tick equity=790.76 pnl=-209.24 head=135998353 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:26:53,606 tick equity=790.76 pnl=-209.24 head=135998408 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:27:17,446 tick equity=790.76 pnl=-209.24 head=135998464 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:27:42,238 tick equity=790.76 pnl=-209.24 head=135998517 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-27 15:28:05,654 tick equity=790.76 pnl=-209.24 head=135998572 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-27 15:28:29,849 tick equity=790.76 pnl=-209.24 head=135998625 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-27 15:28:53,765 tick equity=790.76 pnl=-209.24 head=135998678 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-27 15:29:19,050 tick equity=790.76 pnl=-209.24 head=135998732 v3=879.94 conf=993.62 gmgn=1000.0
@@ -298,3 +279,22 @@
 2026-11-27 16:46:40,262 tick equity=790.76 pnl=-209.24 head=136009046 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-27 16:47:04,717 tick equity=790.76 pnl=-209.24 head=136009101 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-27 16:47:08,334 V3 filter error 0xdf579d27140000251421f3bb2b4ed43835eb3b6b RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-27 16:47:30,461 tick equity=790.76 pnl=-209.24 head=136009155 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:47:50,429 V3 filter error 0x329ca263df30c3e506c39081403ec95d5942ece8 RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-27 16:47:54,295 tick equity=790.76 pnl=-209.24 head=136009213 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:48:17,922 tick equity=790.76 pnl=-209.24 head=136009266 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:48:32,522 V3 filter error 0x8d2896de813ff8a46c852dbc9a4e84c53dfab46a RuntimeError eth_blockNumber failed: {'code': -32005, 'message': "You've reached your monthly quota limit. Please refer to our Pricing page (https://nodereal
+2026-11-27 16:48:32,523 V3 filter: 15 wallets failed, retry in 600s
+2026-11-27 16:48:42,474 tick equity=790.76 pnl=-209.24 head=136009318 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:49:08,139 tick equity=790.76 pnl=-209.24 head=136009373 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:49:29,349 V3-ENTRY KILL UranusCoin 0xceb8c0480a34375691a3ac54e18d88a9f26b7777 liq $15,303 < $20,000 v2 floor
+2026-11-27 16:49:29,421 V3 {'ts': 1795769358, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xceb8c0480a34375691a3ac54e18d88a9f26b7777', 'sym': 'UranusCoin', 'price': 2.743e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $15,303 < $20,000 v2 floor']}
+2026-11-27 16:49:29,553 V3-ENTRY KILL UranusCoin 0xceb8c0480a34375691a3ac54e18d88a9f26b7777 liq $15,303 < $20,000 v2 floor
+2026-11-27 16:49:29,553 V3 {'ts': 1795769359, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xceb8c0480a34375691a3ac54e18d88a9f26b7777', 'sym': 'UranusCoin', 'price': 2.743e-05, 'action': 'skip-liqfloor', 'reasons': ['liq $15,303 < $20,000 v2 floor']}
+2026-11-27 16:49:33,885 tick equity=790.76 pnl=-209.24 head=136009430 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:49:58,509 tick equity=790.76 pnl=-209.24 head=136009487 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:50:22,112 tick equity=790.76 pnl=-209.24 head=136009542 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:50:48,087 tick equity=790.76 pnl=-209.24 head=136009594 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:51:13,799 tick equity=790.76 pnl=-209.24 head=136009652 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:51:41,645 tick equity=790.76 pnl=-209.24 head=136009709 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-27 16:52:08,916 tick equity=790.76 pnl=-209.24 head=136009771 v3=879.94 conf=993.62 gmgn=1000.0
