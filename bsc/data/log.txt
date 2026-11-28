@@ -1,17 +1,3 @@
-2026-11-28 15:40:40,259 tick equity=790.76 pnl=-209.24 head=136192173 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-28 15:41:02,442 tick equity=790.76 pnl=-209.24 head=136192223 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-28 15:41:25,296 tick equity=790.76 pnl=-209.24 head=136192272 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-28 15:41:47,309 tick equity=790.76 pnl=-209.24 head=136192323 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-28 15:42:08,650 V3 {'ts': 1795851705, 'wallet': '0xee1004f6dd86674b9d0bc7ceab0d91d791989fe3', 'side': 'BUY', 'token': '0x57198c6afa17988743f82104e9ed96c81f417777', 'sym': '牛蛙', 'price': 2.856e-05, 'liq': 16201, 'action': 'skip-badwallet', 'reasons': ['v3 record 8 closes wr 12% pnl -12.75']}
-2026-11-28 15:42:10,263 tick equity=790.76 pnl=-209.24 head=136192372 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-28 15:42:32,158 tick equity=790.76 pnl=-209.24 head=136192423 v3=879.94 conf=993.62 gmgn=1000.0
-2026-11-28 15:42:54,120 V3-RISK FXIon 0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-28 15:42:54,120 V3 {'ts': 1795851756, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1', 'sym': 'FXIon', 'price': 32.27, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-28 15:42:55,095 V3-RISK SPCXB 0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1 KILL top10 holders 87%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-28 15:42:55,095 V3 {'ts': 1795851756, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1', 'sym': 'SPCXB', 'price': 132.029, 'action': 'kill-risk', 'reasons': ['top10 holders 87%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-28 15:42:56,182 V3-RISK DOGE 0xba2ae424d960c26247dd6c32edc70b295c744c43 KILL LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
-2026-11-28 15:42:56,182 V3 {'ts': 1795851756, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0xba2ae424d960c26247dd6c32edc70b295c744c43', 'sym': 'DOGE', 'price': 0.05686, 'action': 'kill-risk', 'reasons': ['LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
-2026-11-28 15:42:56,864 V3-RISK BABAB 0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec KILL top10 holders 70%; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
 2026-11-28 15:42:56,864 V3 {'ts': 1795851756, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x4ef9d3062c7f6eba4aae4990c5036598c6eff4ec', 'sym': 'BABAB', 'price': 89.84, 'action': 'kill-risk', 'reasons': ['top10 holders 70%', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
 2026-11-28 15:42:57,813 V3-RISK PEPE 0x25d887ce7a35172c62febfd67a1856f20faebb00 KILL owner can mint; LP only 0% locked/burned; info: dev holds 0.0%; info: 开发者历史样本不足 n=0 (<3)
 2026-11-28 15:42:57,814 V3 {'ts': 1795851756, 'wallet': '0x7dfd45e511a05d012d19264e2adf4acfe7717f1f', 'side': 'BUY', 'token': '0x25d887ce7a35172c62febfd67a1856f20faebb00', 'sym': 'PEPE', 'price': 3.473e-06, 'action': 'kill-risk', 'reasons': ['owner can mint', 'LP only 0% locked/burned', 'info: dev holds 0.0%', 'info: 开发者历史样本不足 n=0 (<3)']}
@@ -298,3 +284,17 @@
 2026-11-28 17:01:16,950 tick equity=790.76 pnl=-209.24 head=136202922 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-28 17:01:38,327 tick equity=790.76 pnl=-209.24 head=136202970 v3=879.94 conf=993.62 gmgn=1000.0
 2026-11-28 17:02:00,121 tick equity=790.76 pnl=-209.24 head=136203017 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:02:21,508 tick equity=790.76 pnl=-209.24 head=136203066 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:02:42,883 tick equity=790.76 pnl=-209.24 head=136203113 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:03:04,388 tick equity=790.76 pnl=-209.24 head=136203161 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:03:26,579 tick equity=790.76 pnl=-209.24 head=136203208 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:03:48,075 tick equity=790.76 pnl=-209.24 head=136203258 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:04:10,415 tick equity=790.76 pnl=-209.24 head=136203305 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:04:31,898 tick equity=790.76 pnl=-209.24 head=136203355 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:04:53,301 tick equity=790.76 pnl=-209.24 head=136203403 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:05:16,128 tick equity=790.76 pnl=-209.24 head=136203450 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:05:38,361 tick equity=790.76 pnl=-209.24 head=136203501 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:06:00,133 tick equity=790.76 pnl=-209.24 head=136203551 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:06:21,104 tick equity=790.76 pnl=-209.24 head=136203599 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:06:42,018 tick equity=790.76 pnl=-209.24 head=136203645 v3=879.94 conf=993.62 gmgn=1000.0
+2026-11-28 17:07:03,800 tick equity=790.76 pnl=-209.24 head=136203692 v3=879.94 conf=993.62 gmgn=1000.0
